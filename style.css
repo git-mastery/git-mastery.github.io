@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  background-color: #eff8ff;
+}
+
+.container {
+  width: 60%;
+  margin: 6em auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.divider {
+  margin: 2em 10em;
+  border: 1px solid #d5ebf7;
+}
+
+.usage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  gap: 2em;
+}
+
+.usage div {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  flex: 1;
+}
+
+.usage div a {
+  border: 2px solid #64cafa;
+  padding: 1em;
+  cursor: pointer;
+  background-color: #a6dcf5;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: none;
+}
+
+.usage div a:visited {
+  color: inherit;
+}
+
