@@ -8,7 +8,7 @@
 body {
   font-family: "Inter", sans-serif;
   font-size: 18px;
-  background-color: #eff8ff;
+  /* background-color: #eff8ff; */
 }
 
 .container {
@@ -30,19 +30,34 @@ body {
   border: 1px solid #d5ebf7;
 }
 
-.usage {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+h3 {
   text-align: center;
+  margin-bottom: 1em;
+}
+
+.usage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 2em;
+  height: 100%;
 }
 
 .usage div {
   display: flex;
   flex-direction: column;
   gap: 2em;
+  height: 100%;
+}
+
+.usage div p.usage-title {
+  text-align: center;
+  font-weight: 600;
+}
+
+.usage div p.usage-title+p {
   flex: 1;
+  height: 100%;
+  align-self: stretch;
 }
 
 .usage div a {
@@ -55,9 +70,9 @@ body {
   font-weight: bold;
   text-decoration: none;
   color: none;
+  text-align: center;
 }
 
 .usage div a:visited {
   color: inherit;
 }
-
