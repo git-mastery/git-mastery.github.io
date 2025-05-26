@@ -14,8 +14,9 @@ export default function App() {
       <Hero />
       <Structure />
       <AvailableTours />
+      {/* <ProblemSets /> */}
       <Faq />
-      <CallToAction />
+      {/* <CallToAction /> */}
       <Footer />
     </div>
   );

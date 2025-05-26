@@ -7,7 +7,7 @@ export function CallToAction() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a className="px-8 py-3 font-bold bg-white text-blue-800 text-lg rounded-full hover:bg-blue-50 transition duration-300"
             href="https://git-mastery.github.io/learning-lab/setup">
-            Setup git-mastery
+            Setup Git-Mastery
           </a>
           <a className="px-8 py-3 font-bold bg-transparent text-white text-lg rounded-full border-2 border-white hover:bg-blue-900 transition duration-300"
             href="https://github.com/git-mastery">

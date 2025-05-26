@@ -9,16 +9,16 @@ export function Faq() {
 
   const faqs = [
     {
-      question: "Do I need to sign up to use git-mastery?",
+      question: "Do I need to sign up to use Git-Mastery?",
       answer: "No registration or sign-up is required. You only need a GitHub account to track your submissions and receive feedback on your problem sets."
     },
     {
-      question: "Is git-mastery free to use?",
-      answer: "Yes, git-mastery is completely free and will remain free forever. Our platform is built with free tools and open-source software."
+      question: "Is Git-Mastery free to use?",
+      answer: "Yes, Git-Mastery is completely free and will remain free forever. Our platform is built with free tools and open-source software."
     },
     {
-      question: "How do I get started with git-mastery?",
-      answer: "Start by following our setup guide, then choose a Tour that interests you. Each Tour will guide you through a series of Lessons with practical applications of Git concepts."
+      question: "How do I get started with Git-Mastery?",
+      answer: "Start by following our setup guide, then choose a tour that interests you. Each tour will guide you through a series of lessons."
     },
     {
       question: "How is my progress tracked?",
