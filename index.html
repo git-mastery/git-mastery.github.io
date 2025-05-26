@@ -1,141 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>git-mastery</title>
-  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Git-Mastery</title>
 </head>
 
 <body>
-  <div class="relative">
-    <header
-      class="sticky top-0 bg-white flex-row justify-between items-center py-6 lg:px-32 px-8 border-b-1 border-b-neutral-200 md:flex hidden">
-      <p class="font-bold text-2xl">git-mastery</p>
-      <nav class="flex flex-row lg:gap-12 gap-4">
-        <a class="text-sm font-semibold text-neutral-600 hover:text-blue-800"
-          href="https://git-mastery.github.io/learning-lab">Learning lab</a>
-        <a class="text-sm font-semibold text-neutral-600 hover:text-blue-800"
-          href="https://git-mastery.github.io/problems-directory">Problems directory</a>
-        <a class="text-sm font-semibold text-neutral-600 hover:text-blue-800"
-          href="https://git-mastery.github.io/progress-dashboard">Progress dashboard</a>
-        <a class="text-sm font-semibold text-neutral-600 hover:text-blue-800" href="#faq">FAQ</a>
-      </nav>
-    </header>
-    <div class="flex flex-col gap-16">
-      <div class="py-20 bg-blue-50">
-        <div class="self-center w-[80%] mx-auto">
-          <div class="flex flex-col gap-4 mx-auto justify-center items-center lg:w-[60%] w-[90%]">
-            <div class="flex flex-col justify-center items-center gap-4">
-              <img src="logo.png" width="150" />
-              <h1 class="font-bold text-6xl mb-4">git-mastery</h1>
-            </div>
-            <p class="text-xl text-neutral-600 text-justify">
-              Learn Git through hands-on problems designed to test your understanding through real-world scenarios. Work
-              on
-              problems locally, submit your progress, and receive direct feedback to improve your skills! Interested?
-              Find
-              out more
-              below!
-            </p>
-            <div class="flex md:flex-row flex-col md:gap-8 gap-2 items-center">
-              <a class="px-12 py-3 font-bold bg-blue-800 text-white text-lg rounded-4xl border-2 border-blue-800 hover:bg-blue-50 hover:text-black transition duration-400"
-                href="https://git-mastery.github.io/learning-lab">Get
-                started &#8599;</a>
-              <a class="px-12 py-3 font-bold bg-emerald-500 text-white text-lg rounded-4xl border-2 border-emerald-500 hover:bg-blue-50 hover:text-black transition duration-400"
-                href="https://git-mastery.github.io/learning-lab">Problems directory</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="w-[80%] mx-auto">
-        <p class="text-center text-4xl mb-2">Key Features</p>
-        <p class="text-center text-lg text-neutral-600 mb-8">What makes git-mastery special?</p>
-        <div class="lg:w-[80%] mx-auto grid lg:grid-cols-2 grid-cols-1 lg:gap-8 gap-4">
-          <div class="hover:shadow-md transition duration-300 p-4 border-1 border-neutral-300 rounded-lg">
-            <p class="font-bold text-lg">Free. Forever.</p>
-            <p>git-mastery is built with free tools that allow you to use it without paying any fees</p>
-          </div>
-
-          <div class="hover:shadow-md transition duration-300 p-4 border-1 border-neutral-300 rounded-lg">
-            <p class="font-bold text-lg">Fuss free</p>
-            <p>You do not need to worry about the steps to fetch a problem set or make a submission, our tooling handles
-              all of the nitty gritty for you</p>
-          </div>
-
-          <div class="hover:shadow-md transition duration-300 p-4 border-1 border-neutral-300 rounded-lg">
-            <p class="font-bold text-lg">Directed feedback</p>
-            <p>Receive directed feedback for every submission so you can adjust your approach and iterate quickly</p>
-          </div>
-
-          <div class="hover:shadow-md transition duration-300 p-4 border-1 border-neutral-300 rounded-lg">
-            <p class="font-bold text-lg">Easy progress tracking</p>
-            <p>Track your progress for each problem sets through our unified progress dashboard</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="w-[20%] border-t-2 mx-auto border-dotted border-t-neutral-300"></div>
-
-      <div class="w-[80%] mx-auto" id="faq">
-        <p class="text-center text-4xl mb-2">Frequently Asked Questions (FAQ)</p>
-        <p class="text-center text-lg text-neutral-600 mb-8">Don't find the answer to your question below? Create a new
-          discussion <a class="underline text-blue-800"
-            href="https://github.com/orgs/git-mastery/discussions/new?category=q-a">here</a>.</p>
-        <div class="lg:w-[80%] mx-auto flex flex-col gap-2">
-          <div
-            class="hover:shadow-md transition duration-300 p-4 border-1 border-neutral-300 rounded-lg flex flex-col gap-2">
-            <p class="text-lg font-bold">I am an instructor who wants to only use the problem sets for my Git classes,
-              how do I do so?</p>
-            <p>The lessons and problem sets of git-mastery are decoupled and students
-              can still attempt the problem sets without going through the lessons!
-            </p>
-            <p>
-              However, ensure that students
-              setup git-mastery on their local machine for all the tooling to work: <a class="underline text-blue-800"
-                href="https://git-mastery.github.io/learning-lab/setup">setup guide</a>.
-            </p>
-          </div>
-
-          <div
-            class="hover:shadow-md transition duration-300 p-4 border-1 border-neutral-300 rounded-lg flex flex-col gap-2">
-            <p class="text-lg font-bold">I have just completed a problem set, how do I view the feedback given?</p>
-            <p>Feedback for your submission is found on the problem set's Github repository. For example, if
-              you have completed <a class="underline text-blue-800"
-                href="https://github.com/git-mastery/grocery-shopping"><code>grocery-shopping</code></a>, you will find
-              your submission and feedback in the pull request titled <code>[your Github
-                username] [grocery-shopping] Submission</code>.</p>
-          </div>
-
-          <div
-            class="hover:shadow-md transition duration-300 p-4 border-1 border-neutral-300 rounded-lg flex flex-col gap-2">
-            <p class="text-lg font-bold">I don't see my submission PR on the Github repository, why?</p>
-            <p>Make sure that you have run the given <code>submit.sh</code> script that the problem set should contain.
-            </p>
-            <p>If you still do not see your submission PR, <a class="underline text-blue-800"
-                href="https://github.com/orgs/git-mastery/discussions/new?category=q-a">create a help ticket</a>.
-            </p>
-          </div>
-
-          <div
-            class="hover:shadow-md transition duration-300 p-4 border-1 border-neutral-300 rounded-lg flex flex-col gap-2">
-            <p class="text-lg font-bold">I want to contribute more problem sets, how do I do so?</p>
-            <p>Contributions are always welcome, refer to the <a class="underline text-blue-800"
-                href="https://github.com/git-mastery/contribution-guide/blob/main/CONTRIBUTING.md">contributing
-                guide</a> for more details on how to contribute.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <footer class="py-6 lg:px-32 px-8 border-t-1 border-t-neutral-200 mt-12 flex lg:flex-row flex-col justify-between">
-    <p>git-mastery was made with ❤️ by Jiahao and Dr Damith</p>
-    <a class="text-blue-800" href="https://github.com/git-mastery">Github organization &#8599;</a>
-  </footer>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
 </body>
 
 </html>
