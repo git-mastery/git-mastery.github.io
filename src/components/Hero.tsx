@@ -2,6 +2,24 @@ import { motion } from "framer-motion";
 import { ArrowRight, GitBranch, GraduationCap, User } from "lucide-react";
 import { useCallback, useState } from "react";
 
+interface LinkButtonProps {
+  text: string;
+  url: string;
+  color: string;
+}
+
+function LinkButton({
+  text,
+  url,
+  color,
+}: LinkButtonProps) {
+  return (
+    <a href={url} className={`px-4 py-2 bg-${color}-600 inline-flex flex-row gap-2 items-center text-lg text-white rounded-xl hover:bg-${color}-700`}>
+      {text} <ArrowRight />
+    </a>
+  )
+}
+
 export function Hero() {
   const [role, setRole] = useState<"educator" | "student" | undefined>();
 
@@ -18,27 +36,21 @@ export function Hero() {
             <p className="mb-4 text-lg text-gray-500">
               Start your very first tour and get started!
             </p>
-            <button className="px-4 py-2 bg-blue-600 flex flex-row gap-2 items-center text-lg text-white rounded-xl hover:bg-blue-700">
-              Start <ArrowRight />
-            </button>
+            <LinkButton text="Start" url="https://git-mastery.github.io/learning-lab/tours/my-folder-my-repo/initializing-local-repo/" color="blue" />
           </div>
           <div className="p-6 bg-white shadow-md rounded-2xl">
             <h3 className="text-xl font-semibold mb-2">Returning Student</h3>
             <p className="mb-4 text-lg text-gray-500">
               View and continue your tours.
             </p>
-            <button className="px-4 py-2 bg-blue-600 flex flex-row gap-2 items-center text-lg text-white rounded-xl hover:bg-blue-700">
-              All Tours <ArrowRight />
-            </button>
+            <LinkButton text="All Tours" url="https://git-mastery.github.io/learning-lab/tours" color="blue" />
           </div>
           <div className="p-6 bg-white shadow-md rounded-2xl">
             <h3 className="text-xl font-semibold mb-2">Track Your Progress</h3>
             <p className="mb-4 text-lg text-gray-500">
               Track your completed exercises.
             </p>
-            <button className="px-4 py-2 bg-blue-600 flex flex-row gap-2 items-center text-lg text-white rounded-xl hover:bg-blue-700">
-              View Progress <ArrowRight />
-            </button>
+            <LinkButton text="View Progress" url="https://git-mastery.github.io/progress-dashboard" color="blue" />
           </div>
         </motion.div>
       );
@@ -56,18 +68,14 @@ export function Hero() {
             <p className="mb-4 text-lg text-gray-500">
               Create a class and manage students’ progress.
             </p>
-            <button className="px-4 py-2 bg-green-600 flex flex-row gap-2 items-center text-lg text-white rounded-xl hover:bg-green-700">
-              Setup Tracker <ArrowRight />
-            </button>
+            <LinkButton text="Setup Tracker" url="https://github.com/git-mastery" color="green" />
           </div>
           <div className="p-6 bg-white shadow-md rounded-2xl">
             <h3 className="text-xl font-semibold mb-2">Explore Exercises</h3>
             <p className="mb-4 text-lg text-gray-500">
               View available exercises for your students to attempt.
             </p>
-            <button className="px-4 py-2 bg-green-600 flex flex-row gap-2 items-center text-lg text-white rounded-xl hover:bg-green-700">
-              View Exercises <ArrowRight />
-            </button>
+            <LinkButton text="View Exercises" url="https://git-mastery.github.io/problems-directory" color="green" />
           </div>
         </motion.div>
       );
