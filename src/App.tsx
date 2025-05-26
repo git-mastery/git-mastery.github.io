@@ -1,6 +1,5 @@
 
 import { AvailableTours } from './components/AvailableTours';
-import { CallToAction } from './components/CallToAction';
 import { Faq } from './components/Faq';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
