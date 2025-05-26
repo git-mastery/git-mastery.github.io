@@ -1,6 +1,81 @@
-import { ArrowRight, GitBranch } from "lucide-react";
+import { motion } from "framer-motion";
+import { ArrowRight, GitBranch, GraduationCap, User } from "lucide-react";
+import { useCallback, useState } from "react";
 
 export function Hero() {
+  const [role, setRole] = useState<"educator" | "student" | undefined>();
+
+  const renderActions = useCallback(() => {
+    if (role === "student") {
+      return (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6"
+        >
+          <div className="p-6 bg-white shadow-md rounded-2xl">
+            <h3 className="text-xl font-semibold mb-2">First Time Here?</h3>
+            <p className="mb-4 text-lg text-gray-500">
+              Start your very first tour and get started!
+            </p>
+            <button className="px-4 py-2 bg-blue-600 flex flex-row gap-2 items-center text-lg text-white rounded-xl hover:bg-blue-700">
+              Start <ArrowRight />
+            </button>
+          </div>
+          <div className="p-6 bg-white shadow-md rounded-2xl">
+            <h3 className="text-xl font-semibold mb-2">Returning Student</h3>
+            <p className="mb-4 text-lg text-gray-500">
+              View and continue your tours.
+            </p>
+            <button className="px-4 py-2 bg-blue-600 flex flex-row gap-2 items-center text-lg text-white rounded-xl hover:bg-blue-700">
+              All Tours <ArrowRight />
+            </button>
+          </div>
+          <div className="p-6 bg-white shadow-md rounded-2xl">
+            <h3 className="text-xl font-semibold mb-2">Track Your Progress</h3>
+            <p className="mb-4 text-lg text-gray-500">
+              Track your completed exercises.
+            </p>
+            <button className="px-4 py-2 bg-blue-600 flex flex-row gap-2 items-center text-lg text-white rounded-xl hover:bg-blue-700">
+              View Progress <ArrowRight />
+            </button>
+          </div>
+        </motion.div>
+      );
+    }
+
+    if (role === "educator") {
+      return (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6"
+        >
+          <div className="p-6 bg-white shadow-md rounded-2xl">
+            <h3 className="text-xl font-semibold mb-2">Setup Class Tracker</h3>
+            <p className="mb-4 text-lg text-gray-500">
+              Create a class and manage students’ progress.
+            </p>
+            <button className="px-4 py-2 bg-green-600 flex flex-row gap-2 items-center text-lg text-white rounded-xl hover:bg-green-700">
+              Setup Tracker <ArrowRight />
+            </button>
+          </div>
+          <div className="p-6 bg-white shadow-md rounded-2xl">
+            <h3 className="text-xl font-semibold mb-2">Explore Exercises</h3>
+            <p className="mb-4 text-lg text-gray-500">
+              View available exercises for your students to attempt.
+            </p>
+            <button className="px-4 py-2 bg-green-600 flex flex-row gap-2 items-center text-lg text-white rounded-xl hover:bg-green-700">
+              View Exercises <ArrowRight />
+            </button>
+          </div>
+        </motion.div>
+      );
+    }
+
+    return null;
+  }, [role]);
+
   return (
     <div className="py-20 bg-blue-50">
       <div className="max-w-6xl mx-auto px-8">
@@ -9,22 +84,30 @@ export function Hero() {
             <div className="bg-white p-4 rounded-full shadow-md">
               <GitBranch size={48} className="text-blue-800" />
             </div>
-            <h1 className="font-bold text-5xl md:text-6xl text-center">git-mastery</h1>
+            <h1 className="font-bold text-5xl md:text-6xl text-center">Git-Mastery</h1>
           </div>
           <p className="text-xl text-neutral-700 text-center">
-            Master Git through hands-on, guided Tours with real-world scenarios.
+            Master Git through hands-on, guided tours with real-world scenario exercises.
+            <br />
             Learn, practice, and receive feedback on your journey to Git proficiency.
           </p>
-          <div className="flex md:flex-row flex-col gap-4 mt-4">
-            <a className="px-8 py-3 font-bold bg-blue-800 text-white text-lg rounded-full border-2 border-blue-800 hover:bg-blue-900 transition duration-300 flex items-center gap-2 justify-center"
-              href="https://git-mastery.github.io/learning-lab">
-              Start Learning <ArrowRight size={18} />
-            </a>
-            <a className="px-8 py-3 font-bold bg-transparent text-blue-800 text-lg rounded-full border-2 border-blue-800 hover:bg-blue-50 transition duration-300 flex items-center gap-2 justify-center"
-              href="#structure">
-              How It Works
-            </a>
+          <div className="flex justify-center gap-4">
+            <button
+              className={`flex items-center gap-2 px-4 py-2 text-xl rounded-xl border ${role === "student" ? "bg-blue-600 text-white" : "bg-white text-gray-700 border-gray-300"
+                } hover:shadow`}
+              onClick={() => setRole("student")}
+            >
+              <User className="h-5 w-5" /> I'm a Student
+            </button>
+            <button
+              className={`flex items-center gap-2 px-4 py-2 text-xl rounded-xl border ${role === "educator" ? "bg-green-600 text-white" : "bg-white text-gray-700 border-gray-300"
+                } hover:shadow`}
+              onClick={() => setRole("educator")}
+            >
+              <GraduationCap className="h-5 w-5" /> I'm an Educator
+            </button>
           </div>
+          {renderActions()}
         </div>
       </div>
     </div>
