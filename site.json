@@ -1,0 +1,49 @@
+{
+  "baseUrl": "",
+  "timeZone": "Asia/Singapore",
+  "style": {
+    "codeTheme": "light"
+  },
+  "pages": [
+    {
+      "glob": "**/index.md"
+    },
+    {
+      "glob": "**/exercise-*.md"
+    },
+    {
+      "glob": "lessons/trail/all.md"
+    }
+  ],
+  "pagesExclude": ["**/*-fragment.md"],
+  "ignore": [
+    "diagrams",
+    "_site/*",
+    "site.json",
+    "lessons/*/text.md",
+    "*.md",
+    ".git/*"
+  ],
+  "deploy": {
+    "message": "Site Update."
+  },
+  "intrasiteLinkValidation": {
+    "enabled": true
+  },
+  "enableSearch": true,
+  "titlePrefix": "Git-Mastery",
+  "plugins": ["mermaid", "filterTags"],
+  "pluginsContext": {
+    "filterTags" : {
+      "tags": ["git-mastery"]
+    },
+    "mermaid": {
+      "address": "https://unpkg.com/mermaid@11.7.0/dist/mermaid.esm.min.mjs"
+    }
+  },
+  "deploy": {
+    "message": "Site Update.",
+    "repo": "https://github.com/git-mastery/git-mastery.github.io.git",
+    "branch": "gh-pages"
+  }
+}
