@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="MarkBind 6.0.2">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><title>Git-Mastery</title> <link rel="stylesheet" href="/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/markbind/fontawesome/css/all.min.css"><link rel="stylesheet" href="/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/markbind/css/markbind.min.css"><link rel="stylesheet" href="/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
+    
+  <link rel="stylesheet" href="/css/main.css">
+<link rel="icon" href="/favicon.ico"></head>
+<script>
+  const baseUrl = ''
+</script>
+<body >
+<div id="app"><!--[--><header sticky><div placement="top" data-v-2dc82f13><nav class="navbar navbar-expand-md d-print-none navbar-dark bg-dark" data-v-2dc82f13><div class="container-fluid" data-v-2dc82f13><div class="navbar-left" data-v-2dc82f13><!--[--><a href="https://git-mastery.github.io" title="SE-EDU" class="navbar-brand"><span><strong><strong>Git-Mastery</strong></strong></span></a><!--]--></div><div class="navbar-default" data-v-2dc82f13><ul class="navbar-nav me-auto mt-2 mt-lg-0" data-v-2dc82f13><!--[--> <li><a href="/index.html" class="nav-link"><span><strong>Home</strong></span></a></li> <li><a href="/lessons/index.html" class="nav-link"><span><strong>Lessons</strong></span></a></li> <li><a href="/exercises/index.html" class="nav-link"><span><strong>Exercises</strong></span></a></li> <li><a href="https://git-mastery.github.io/progress-dashboard/" class="nav-link"><span><strong>Progress</strong></span></a></li> <li><a href="/app/index.html" class="nav-link"><span><strong>App</strong></span></a></li> <li><a href="https://git-mastery.github.io/developers/" class="nav-link"><span><strong>Dev Docs</strong></span></a></li> <li><a href="/about/index.html" class="nav-link"><span><strong>About</strong></span></a></li> <li><a href="https://github.com/git-mastery" class="nav-link"><span><span aria-hidden="true" class="fab fa-github"></span></span></a></li> <!--]--></ul></div><ul class="navbar-nav navbar-right" data-v-2dc82f13><!--[--><li class="nav-link"><form class="navbar-form"><div style="position:relative;" class="dropdown" data-v-00e26d0a><!--[--><input value="" data-bs-toggle="dropdown" type="text" class="form-control" placeholder="Search" autocomplete="off" data-v-00e26d0a><div class="form-control placeholder-div-hidden" data-v-00e26d0a>Search</div><!--]--><ul class="dropdown-menu search-dropdown-menu dropdown-menu-hidden dropdown-menu-end" data-v-00e26d0a><!--[--><!--]--></ul></div></form></li><!--]--></ul></div></nav><div style="display:none;" class="lower-navbar-container" data-v-2dc82f13><!--[--><!----><!----><!--]--></div></div></header> <div id="flex-body"><div id="content-wrapper" class="fixed-header-padding"><p><div id="task" class="d-none"><p>While you are working on a small Python project in the <code class="hljs inline no-lang">branch-me</code> repo, you discovered two bugs. You wish to fix them in a separate branch named <code class="hljs inline no-lang">bug-fix</code>, as two separate commits.</p> <p>The steps to follow are given below:</p> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-info" style="" data-v-19514615><!--[--><i class="fas fa-info" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-info vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>This repo uses <code class="hljs inline no-lang">main</code> (not <code class="hljs inline no-lang">master</code>) as the default branch.</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <ol><li><strong>Create a branch</strong> named <code class="hljs inline no-lang">bug-fix</code>.<br> <strong>Switch to that branch</strong>.</li> <li><strong>Update the <code class="hljs inline no-lang">greet.py</code></strong> file so that the <code class="hljs inline no-lang">greet</code> function uses the <code class="hljs inline no-lang">name</code> variable in the output, as follows:<pre><code class="hljs diff"><span><span class="hljs-deletion">-    print(&quot;Hi Alice&quot;)</span>
+</span><span><span class="hljs-addition">+    print(f&quot;Hi {name}&quot;)</span>
+</span></code></pre><strong>Commit the changes.</strong></li> <li><strong>Update the <code class="hljs inline no-lang">calculator.py</code> file</strong> such that the <code class="hljs inline no-lang">add</code> function returns the sum of two numbers, as follows:<pre><code class="hljs diff"><span> def add(a, b):
+</span><span><span class="hljs-deletion">-    return a - b</span>
+</span><span><span class="hljs-addition">+    return a + b</span>
+</span></code></pre><strong>Commit the changes.</strong></li> <li><strong>Switch back to the <code class="hljs inline no-lang">main</code> branch.</strong></li></ol> <p>The final result should be something like this:</p> <pre class="mermaid">gitGraph BT:
+    %%{init: { &#39;theme&#39;: &#39;default&#39;, &#39;gitGraph&#39;: {&#39;mainBranchName&#39;: &#39;main&#39;}} }%%
+    commit id: &quot;[HEAD → main] ...&quot;
+    branch bug-fix
+    commit id: &quot;Fix greet.py&quot;
+    commit id: &quot;[feature] Fix calculator.py&quot;
+    checkout main
+</pre></div> <h1 id="exercise-side-track">Exercise <code class="hljs inline no-lang">side-track</code><a class="fa fa-anchor" href="#exercise-side-track" onclick="event.stopPropagation()"></a></h1> <p><strong>To download</strong> the exercise:</p> <ul style="list-style-type:none;padding-inline-start:0px;"><li texts="[&#39;i.&#39;, &#39;ii.&#39;, &#39;iii.&#39;, &#39;iv.&#39;, &#39;v.&#39;, &#39;vi.&#39;, &#39;vii.&#39;]" style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">i.</span><div>Navigate inside the <code class="hljs inline no-lang">gitmastery-exercises</code> folder.</div></li> <li style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">ii.</span><div>Run <code class="hljs inline no-lang">gitmastery download side-track</code> command.</div></li></ul> <hr class="dashed border-danger"> <p><strong class="text-danger">Your task:</strong></p> <div class="indented-level1"><div><p>While you are working on a small Python project in the <code class="hljs inline no-lang">branch-me</code> repo, you discovered two bugs. You wish to fix them in a separate branch named <code class="hljs inline no-lang">bug-fix</code>, as two separate commits.</p> <p>The steps to follow are given below:</p> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-info" style="" data-v-19514615><!--[--><i class="fas fa-info" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-info vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>This repo uses <code class="hljs inline no-lang">main</code> (not <code class="hljs inline no-lang">master</code>) as the default branch.</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <ol><li><strong>Create a branch</strong> named <code class="hljs inline no-lang">bug-fix</code>.<br> <strong>Switch to that branch</strong>.</li> <li><strong>Update the <code class="hljs inline no-lang">greet.py</code></strong> file so that the <code class="hljs inline no-lang">greet</code> function uses the <code class="hljs inline no-lang">name</code> variable in the output, as follows:<pre><code class="hljs diff"><span><span class="hljs-deletion">-    print(&quot;Hi Alice&quot;)</span>
+</span><span><span class="hljs-addition">+    print(f&quot;Hi {name}&quot;)</span>
+</span></code></pre><strong>Commit the changes.</strong></li> <li><strong>Update the <code class="hljs inline no-lang">calculator.py</code> file</strong> such that the <code class="hljs inline no-lang">add</code> function returns the sum of two numbers, as follows:<pre><code class="hljs diff"><span> def add(a, b):
+</span><span><span class="hljs-deletion">-    return a - b</span>
+</span><span><span class="hljs-addition">+    return a + b</span>
+</span></code></pre><strong>Commit the changes.</strong></li> <li><strong>Switch back to the <code class="hljs inline no-lang">main</code> branch.</strong></li></ol> <p>The final result should be something like this:</p> <pre class="mermaid">gitGraph BT:
+    %%{init: { &#39;theme&#39;: &#39;default&#39;, &#39;gitGraph&#39;: {&#39;mainBranchName&#39;: &#39;main&#39;}} }%%
+    commit id: &quot;[HEAD → main] ...&quot;
+    branch bug-fix
+    commit id: &quot;Fix greet.py&quot;
+    commit id: &quot;[feature] Fix calculator.py&quot;
+    checkout main
+</pre></div></div> <hr class="dashed border-danger"> <p><strong>To verify</strong> your work:</p> <ul style="list-style-type:none;padding-inline-start:0px;"><li texts="[&#39;i.&#39;, &#39;ii.&#39;, &#39;iii.&#39;, &#39;iv.&#39;, &#39;v.&#39;, &#39;vi.&#39;, &#39;vii.&#39;]" style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">i.</span><div>Navigate to anywhere inside the <code class="hljs inline no-lang">gitmastery-exercises/side-track</code> folder <span class="dimmed">(or any sub-folder of it)</span>.</div></li> <li style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">ii.</span><div>Run the <code class="hljs inline no-lang">gitmastery verify</code> command.</div></li></ul> <p><small><span class="dimmed"><strong>To reset the exercise</strong> and start over, navigate to the <code class="hljs inline no-lang">gitmastery-exercises/side-track</code> folder and run the <code class="hljs inline no-lang">gitmastery progress reset</code> command.</span></small></p> <div class="bg-light"><p><div class="text-center"><small><a href="https://git-mastery.github.io/app/">Git-Mastery <strong>commands list</strong></a> | <a href="https://github.com/git-mastery/git-mastery/issues">Report Git-Mastery <strong>bugs</strong></a> | <a href="https://git-mastery.github.io/app/update">How to <strong>update</strong> Git-Mastery</a></small></div></p></div></p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.0.2</a>, generated on Tue, 25 Nov 2025, 14:37:41 GMT+8]</small></div></footer><!--]--></div>
+</body><script src="/markbind/js/bootstrap-utility.min.js"></script>
+<script src="/markbind/js/polyfill.min.js"></script>
+<script src="/markbind/js/vue.global.prod.min.js"></script>
+<script src="/markbind/js/markbind.min.js"></script>
+<script src="exercise-side-track.page-vue-render.js"></script>
+<script>
+  MarkBind.setupWithSearch()
+</script>
+    <script type="module">
+    window.mermaidPromise = null;
+    
+    const loadMermaid = () => {
+      if (window.mermaidPromise === null) {
+        window.mermaidPromise = import('https://unpkg.com/mermaid@11.7.0/dist/mermaid.esm.min.mjs')
+          .then(({ default: mermaid }) => {
+            mermaid.initialize({
+              startOnLoad: false,
+            });
+            console.log('Mermaid loaded successfully');
+            return mermaid;
+          })
+          .catch((error) => {
+            console.error('Mermaid failed to load:', error);
+            window.mermaidPromise = false;
+            return null;
+          });
+      }
+      return window.mermaidPromise;
+    };
+
+    const renderMermaidDiagrams = (elements) => {
+      if (!elements || elements.length === 0) {
+        return Promise.resolve();
+      }
+
+      return loadMermaid().then(mermaid => {
+        if (!mermaid) return;
+        return mermaid.run({ nodes: Array.from(elements) })
+          .catch(err => console.error('Error rendering mermaid diagrams:', err));
+      });
+    };
+
+    const setupMermaidObserver = () => {
+      const observer = new MutationObserver((mutations) => {
+        let newMermaidElements = [];
+        
+        mutations.forEach(mutation => {
+          if (mutation.addedNodes.length) {
+            mutation.addedNodes.forEach(node => {
+              if (node.nodeType === 1 && node.classList && 
+                  node.classList.contains('mermaid')) {
+                newMermaidElements.push(node);
+              }
+              
+              if (node.nodeType === 1 && node.querySelectorAll) {
+                const mermaidInNode = node.querySelectorAll('.mermaid');
+                if (mermaidInNode.length) {
+                  newMermaidElements = [...newMermaidElements, ...mermaidInNode];
+                }
+              }
+            });
+          }
+        });
+        
+        if (newMermaidElements.length > 0) {
+          renderMermaidDiagrams(newMermaidElements);
+        }
+      });
+      
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true
+      });
+      
+      return observer;
+    };
+
+    // Initialize on DOM content loaded
+    document.addEventListener('DOMContentLoaded', () => {
+      const existingDiagrams = document.querySelectorAll('.mermaid');
+      if (existingDiagrams.length > 0) {
+        renderMermaidDiagrams(existingDiagrams);
+      }
+      
+      setupMermaidObserver();
+    });
+
+  </script>
+</html>

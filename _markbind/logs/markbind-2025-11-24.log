@@ -1,0 +1,205 @@
+2025-11-24T13:06:45.053Z - info: Website generation (lazy) started at 21:06:44
+2025-11-24T13:06:45.139Z - info: Building assets...
+2025-11-24T13:06:45.417Z - info: Assets built
+2025-11-24T13:06:45.418Z - info: Generating landing page...
+2025-11-24T13:06:45.495Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-11-24T13:06:45.573Z - info: Site data built
+2025-11-24T13:06:45.574Z - info: Website generation (lazy) complete! Total build time: 0.7s
+2025-11-24T13:06:45.582Z - info: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2025-11-24T13:06:45.582Z - info: Press CTRL+C to stop ...
+2025-11-24T13:07:59.691Z - info: [21:07:59] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:07:59.695Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:07:59.708Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:07:59.712Z - info: 1. index
+2025-11-24T13:08:00.722Z - info: Rebuilding 1 pages
+2025-11-24T13:08:00.802Z - info: Site data built
+2025-11-24T13:08:00.803Z - info: Pages rebuilt
+2025-11-24T13:08:00.803Z - info: Website regeneration complete! Total build time: 0.084s
+2025-11-24T13:08:08.589Z - info: [21:08:08] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:08:08.591Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:08:08.594Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:08:08.595Z - info: 1. index
+2025-11-24T13:08:09.602Z - info: Rebuilding 1 pages
+2025-11-24T13:08:09.663Z - info: Site data built
+2025-11-24T13:08:09.663Z - info: Pages rebuilt
+2025-11-24T13:08:09.663Z - info: Website regeneration complete! Total build time: 0.063s
+2025-11-24T13:08:16.543Z - info: [21:08:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:08:16.544Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:08:16.544Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:08:16.544Z - info: 1. index
+2025-11-24T13:08:17.550Z - info: Rebuilding 1 pages
+2025-11-24T13:08:17.595Z - info: Site data built
+2025-11-24T13:08:17.595Z - info: Pages rebuilt
+2025-11-24T13:08:17.595Z - info: Website regeneration complete! Total build time: 0.047s
+2025-11-24T13:08:26.449Z - info: [21:08:26] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:08:26.451Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:08:26.452Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:08:26.452Z - info: 1. index
+2025-11-24T13:08:27.457Z - info: Rebuilding 1 pages
+2025-11-24T13:08:27.518Z - info: Site data built
+2025-11-24T13:08:27.518Z - info: Pages rebuilt
+2025-11-24T13:08:27.518Z - info: Website regeneration complete! Total build time: 0.063s
+2025-11-24T13:08:37.032Z - info: [21:08:37] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:08:37.032Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:08:37.033Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:08:37.033Z - info: 1. index
+2025-11-24T13:08:38.038Z - info: Rebuilding 1 pages
+2025-11-24T13:08:38.095Z - info: Site data built
+2025-11-24T13:08:38.095Z - info: Pages rebuilt
+2025-11-24T13:08:38.095Z - info: Website regeneration complete! Total build time: 0.059s
+2025-11-24T13:09:00.825Z - info: [21:09:00] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:09:00.826Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:09:00.826Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:09:00.826Z - info: 1. index
+2025-11-24T13:09:01.831Z - info: Rebuilding 1 pages
+2025-11-24T13:09:01.884Z - info: Site data built
+2025-11-24T13:09:01.884Z - info: Pages rebuilt
+2025-11-24T13:09:01.884Z - info: Website regeneration complete! Total build time: 0.054s
+2025-11-24T13:09:08.679Z - info: [21:09:08] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:09:08.679Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:09:08.680Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:09:08.680Z - info: 1. index
+2025-11-24T13:09:09.682Z - info: Rebuilding 1 pages
+2025-11-24T13:09:09.735Z - info: Site data built
+2025-11-24T13:09:09.735Z - info: Pages rebuilt
+2025-11-24T13:09:09.735Z - info: Website regeneration complete! Total build time: 0.054s
+2025-11-24T13:09:30.813Z - info: [21:09:30] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:09:30.814Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:09:30.815Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:09:30.815Z - info: 1. index
+2025-11-24T13:09:31.828Z - info: Rebuilding 1 pages
+2025-11-24T13:09:31.900Z - info: Site data built
+2025-11-24T13:09:31.900Z - info: Pages rebuilt
+2025-11-24T13:09:31.900Z - info: Website regeneration complete! Total build time: 0.074s
+2025-11-24T13:11:16.218Z - info: [21:11:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:11:16.221Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:11:16.223Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:11:16.223Z - info: 1. index
+2025-11-24T13:11:17.228Z - info: Rebuilding 1 pages
+2025-11-24T13:11:17.291Z - info: Site data built
+2025-11-24T13:11:17.291Z - info: Pages rebuilt
+2025-11-24T13:11:17.291Z - info: Website regeneration complete! Total build time: 0.064s
+2025-11-24T13:11:33.080Z - info: [21:11:33] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:11:33.082Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:11:33.082Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:11:33.082Z - info: 1. index
+2025-11-24T13:11:34.086Z - info: Rebuilding 1 pages
+2025-11-24T13:11:34.152Z - info: Site data built
+2025-11-24T13:11:34.152Z - info: Pages rebuilt
+2025-11-24T13:11:34.152Z - info: Website regeneration complete! Total build time: 0.068s
+2025-11-24T13:11:53.751Z - info: [21:11:53] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:11:53.753Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:11:53.756Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:11:53.757Z - info: 1. index
+2025-11-24T13:11:54.782Z - info: Rebuilding 1 pages
+2025-11-24T13:11:54.843Z - info: Site data built
+2025-11-24T13:11:54.843Z - info: Pages rebuilt
+2025-11-24T13:11:54.843Z - info: Website regeneration complete! Total build time: 0.063s
+2025-11-24T13:13:09.110Z - info: [21:13:09] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:13:09.111Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:13:09.111Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:13:09.112Z - info: 1. index
+2025-11-24T13:13:10.115Z - info: Rebuilding 1 pages
+2025-11-24T13:13:10.176Z - info: Site data built
+2025-11-24T13:13:10.176Z - info: Pages rebuilt
+2025-11-24T13:13:10.176Z - info: Website regeneration complete! Total build time: 0.063s
+2025-11-24T13:13:50.792Z - info: [21:13:50] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:13:50.794Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:13:50.797Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:13:50.805Z - info: 1. index
+2025-11-24T13:13:51.823Z - info: Rebuilding 1 pages
+2025-11-24T13:13:51.875Z - info: Site data built
+2025-11-24T13:13:51.875Z - info: Pages rebuilt
+2025-11-24T13:13:51.875Z - info: Website regeneration complete! Total build time: 0.054s
+2025-11-24T13:14:01.666Z - info: [21:14:01] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:14:01.667Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:14:01.668Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:14:01.668Z - info: 1. index
+2025-11-24T13:14:02.677Z - info: Rebuilding 1 pages
+2025-11-24T13:14:02.740Z - info: Site data built
+2025-11-24T13:14:02.740Z - info: Pages rebuilt
+2025-11-24T13:14:02.740Z - info: Website regeneration complete! Total build time: 0.066s
+2025-11-24T13:14:24.273Z - info: [21:14:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:14:24.273Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:14:24.273Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:14:24.273Z - info: 1. index
+2025-11-24T13:14:25.278Z - info: Rebuilding 1 pages
+2025-11-24T13:14:25.337Z - info: Site data built
+2025-11-24T13:14:25.337Z - info: Pages rebuilt
+2025-11-24T13:14:25.337Z - info: Website regeneration complete! Total build time: 0.06s
+2025-11-24T13:14:53.522Z - info: [21:14:53] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:14:53.523Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:14:53.523Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:14:53.523Z - info: 1. index
+2025-11-24T13:14:54.529Z - info: Rebuilding 1 pages
+2025-11-24T13:14:54.579Z - info: Site data built
+2025-11-24T13:14:54.579Z - info: Pages rebuilt
+2025-11-24T13:14:54.579Z - info: Website regeneration complete! Total build time: 0.051s
+2025-11-24T13:15:30.839Z - info: [21:15:30] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:15:30.841Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:15:30.842Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:15:30.842Z - info: 1. index
+2025-11-24T13:15:31.852Z - info: Rebuilding 1 pages
+2025-11-24T13:15:31.907Z - info: Site data built
+2025-11-24T13:15:31.907Z - info: Pages rebuilt
+2025-11-24T13:15:31.907Z - info: Website regeneration complete! Total build time: 0.057s
+2025-11-24T13:15:45.053Z - info: [21:15:45] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:15:45.053Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:15:45.053Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:15:45.054Z - info: 1. index
+2025-11-24T13:15:46.057Z - info: Rebuilding 1 pages
+2025-11-24T13:15:46.120Z - info: Site data built
+2025-11-24T13:15:46.120Z - info: Pages rebuilt
+2025-11-24T13:15:46.120Z - info: Website regeneration complete! Total build time: 0.065s
+2025-11-24T13:16:07.627Z - info: [21:16:07] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/css/main.css
+2025-11-24T13:16:07.628Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:16:07.628Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:16:07.629Z - info: 1. index
+2025-11-24T13:16:08.644Z - info: Assets built
+2025-11-24T13:16:16.189Z - info: [21:16:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:16:16.189Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:16:16.190Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:16:16.203Z - info: 1. index
+2025-11-24T13:16:17.210Z - info: Rebuilding 1 pages
+2025-11-24T13:16:17.286Z - info: Site data built
+2025-11-24T13:16:17.286Z - info: Pages rebuilt
+2025-11-24T13:16:17.286Z - info: Website regeneration complete! Total build time: 0.08s
+2025-11-24T13:16:25.365Z - info: [21:16:25] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:16:25.365Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:16:25.365Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:16:25.366Z - info: 1. index
+2025-11-24T13:16:26.370Z - info: Rebuilding 1 pages
+2025-11-24T13:16:26.408Z - info: Site data built
+2025-11-24T13:16:26.408Z - info: Pages rebuilt
+2025-11-24T13:16:26.408Z - info: Website regeneration complete! Total build time: 0.041s
+2025-11-24T13:16:36.793Z - info: [21:16:36] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2025-11-24T13:16:36.793Z - info: Synchronizing opened pages list before reload
+2025-11-24T13:16:36.794Z - info: Current opened pages, from most-to-least recent:
+2025-11-24T13:16:36.794Z - info: 1. index
+2025-11-24T13:16:37.808Z - info: Rebuilding 1 pages
+2025-11-24T13:16:37.876Z - info: Site data built
+2025-11-24T13:16:37.876Z - info: Pages rebuilt
+2025-11-24T13:16:37.877Z - info: Website regeneration complete! Total build time: 0.074s
+2025-11-24T13:18:12.202Z - info: Website generation started at 21:18:12
+2025-11-24T13:18:12.295Z - info: Building assets...
+2025-11-24T13:18:12.551Z - info: Assets built
+2025-11-24T13:18:12.551Z - info: Generating pages...
+2025-11-24T13:18:15.879Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /git-mastery-website/lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-11-24T13:18:15.879Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /git-mastery-website/lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/detour-stagingFileDeletions-fragment.md'
+2025-11-24T13:18:15.879Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /git-mastery-website/lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-11-24T13:18:15.879Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /git-mastery-website/lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-11-24T13:18:15.879Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /git-mastery-website/lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-11-24T13:18:15.880Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /git-mastery-website/lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-11-24T13:18:15.881Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/git-mastery-website/lessons/branch/images/listRemoteBranches.png' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranches/sourcetree_4.md'
+2025-11-24T13:18:15.882Z - info: Pages built
+2025-11-24T13:18:15.952Z - info: Site data built
+2025-11-24T13:18:15.952Z - info: Website generation complete! Total build time: 3.914s
+2025-11-24T13:18:15.952Z - info: Build success!
+2025-11-24T13:18:24.564Z - info: The website has been deployed at: https://damithc.github.io/git-mastery-website
