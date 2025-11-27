@@ -15,7 +15,7 @@
       "headingKeywords": {}
     },
     {
-      "src": "app/index.md",
+      "src": "companion-app/index.md",
       "title": "Git-Mastery App",
       "headings": {
         "git-mastery-app": "Git-Mastery App",
