@@ -36,13 +36,13 @@ A free resource **for students and teachers**.<br>
 {{ heading(":fas-route:", "Outcome-driven lesson paths") }}
 <div class="indented-level3">
 
-Our Git lessons are divided into [tours](lessons/), each **teaching a specific usage of Git, not simply learning different Git commands** %%e.g., how to keep track of the history of a folder, while keeping a back of it on the cloud.%%
+Our Git lessons are divided into [tours](lessons/), each **teaching a specific usage of Git, not simply learning different Git commands** %%e.g., how to keep track of the history of a folder, while keeping a backup of it on the cloud.%%
 </div>
 
 {{ heading(":fas-dumbbell:", "Authentic exercises to practice Git") }}
 <div class="indented-level3">
 
-We provide a hands-on practicals to practice Git concepts as you learn them, and **exercises that reflect authentic Git usage** to test your knowledge. You do the exercise **in your own computer**, using your own choice of Git tools. Our companion app **sets up specific Git usage scenarios in a scaffolded sandbox** so that you can go straight to practicing the concept at hand, without needing the setup the scaffolding yourself.
+We provide hands-on practicals to practice Git concepts as you learn them, and **exercises that reflect authentic Git usage** to self-test  knowledge. Students do the exercise **in their own computer**, using their own choice of Git tools. Our companion app **sets up specific Git usage scenarios in a scaffolded sandbox** so that the student can go straight to practicing the concept at hand, without needing the setup the scaffolding themselves.
 </div>
 
 
