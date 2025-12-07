@@ -687,3 +687,66 @@
 2025-12-07T15:12:34.925Z - info: The website has been deployed at: https://git-mastery.github.io/git-mastery.github.io
 2025-12-07T15:19:04.171Z - info: Website generation started at 23:19:04
 2025-12-07T15:19:04.279Z - info: Building assets...
+2025-12-07T15:19:04.531Z - info: Assets built
+2025-12-07T15:19:04.531Z - info: Generating pages...
+2025-12-07T15:19:08.209Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-07T15:19:08.209Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/detour-stagingFileDeletions-fragment.md'
+2025-12-07T15:19:08.209Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-07T15:19:08.209Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-07T15:19:08.210Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-07T15:19:08.210Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-07T15:19:08.212Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/branch/images/listRemoteBranches.png' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranches/sourcetree_4.md'
+2025-12-07T15:19:08.212Z - info: Pages built
+2025-12-07T15:19:08.284Z - info: Site data built
+2025-12-07T15:19:08.284Z - info: Website generation complete! Total build time: 4.282s
+2025-12-07T15:19:08.284Z - info: Build success!
+2025-12-07T15:19:15.374Z - info: The website has been deployed at: https://git-mastery.github.io/git-mastery.github.io
+2025-12-07T15:20:34.935Z - info: Website generation (lazy) started at 23:20:34
+2025-12-07T15:20:35.019Z - info: Building assets...
+2025-12-07T15:20:35.279Z - info: Assets built
+2025-12-07T15:20:35.279Z - info: Generating landing page...
+2025-12-07T15:20:35.358Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-12-07T15:20:35.434Z - info: Site data built
+2025-12-07T15:20:35.434Z - info: Website generation (lazy) complete! Total build time: 0.675s
+2025-12-07T15:20:35.442Z - info: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2025-12-07T15:20:35.442Z - info: Press CTRL+C to stop ...
+2025-12-07T15:24:52.545Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2025-12-07T15:24:52.869Z - info: Site data built
+2025-12-07T15:24:52.869Z - info: Lazy website regeneration complete! Total build time: 0.327s
+2025-12-07T15:24:57.730Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithRemotes/index as some of its dependencies were changed since the last visit
+2025-12-07T15:24:57.900Z - info: Site data built
+2025-12-07T15:24:57.900Z - info: Lazy website regeneration complete! Total build time: 0.17s
+2025-12-07T15:27:45.138Z - info: [23:27:45] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/text.md
+2025-12-07T15:27:45.140Z - info: Synchronizing opened pages list before reload
+2025-12-07T15:27:45.142Z - info: Current opened pages, from most-to-least recent:
+2025-12-07T15:27:45.143Z - info: 1. lessons/trail/workingWithRemotes/index
+2025-12-07T15:27:46.153Z - info: Rebuilding 1 pages
+2025-12-07T15:27:46.356Z - info: Site data built
+2025-12-07T15:27:46.356Z - info: Pages rebuilt
+2025-12-07T15:27:46.356Z - info: Website regeneration complete! Total build time: 0.205s
+2025-12-07T15:30:26.535Z - info: [23:30:26] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/text.md
+2025-12-07T15:30:26.537Z - info: Synchronizing opened pages list before reload
+2025-12-07T15:30:26.538Z - info: Current opened pages, from most-to-least recent:
+2025-12-07T15:30:26.538Z - info: 1. lessons/trail/workingWithRemotes/index
+2025-12-07T15:30:27.542Z - info: Rebuilding 1 pages
+2025-12-07T15:30:27.757Z - info: Site data built
+2025-12-07T15:30:27.757Z - info: Pages rebuilt
+2025-12-07T15:30:27.757Z - info: Website regeneration complete! Total build time: 0.216s
+2025-12-07T15:31:16.661Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/index as some of its dependencies were changed since the last visit
+2025-12-07T15:31:16.759Z - info: Site data built
+2025-12-07T15:31:16.759Z - info: Lazy website regeneration complete! Total build time: 0.098s
+2025-12-07T15:33:16.104Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/index as some of its dependencies were changed since the last visit
+2025-12-07T15:33:16.235Z - info: Site data built
+2025-12-07T15:33:16.236Z - info: Lazy website regeneration complete! Total build time: 0.132s
+2025-12-07T15:52:21.835Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/usingRevisionHistory/index as some of its dependencies were changed since the last visit
+2025-12-07T15:52:22.189Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-07T15:52:22.189Z - info: Site data built
+2025-12-07T15:52:22.189Z - info: Lazy website regeneration complete! Total build time: 0.355s
