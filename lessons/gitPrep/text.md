@@ -133,7 +133,7 @@ Our Git lessons show how to perform Git operations in Git CLI, and in Sourcetree
 
 ##### Installing the Git-Mastery App
 
-**In these lessons, we are piloting a new companion app called Git-Mastery** that we have been developing to help Git learners. Specifically, it provides exercises that you can do to self-test your Git knowledge, and the app will also verify if your solution is correct.
+**In these lessons, we will be using a companion app called Git-Mastery** that we have developed to help Git learners. In particular, it provides exercises that you can do to self-test your Git knowledge, and also verifies if your solution is correct.
 
 **If you are new to Git, we ==strongly recommend that you install and use the Git-Mastery app==.**
 
@@ -247,12 +247,42 @@ Notes:
 * If the command failed due to checks (a) or (b) failing, you can rectify the problem and run the command again.
 * If you wish to check the Git set up again at a later time, you can run the `gitmastery check git` command.
 
-**4. Keep the app updated.** As the Git-Mastery app is under active development, it is likely to get updated several times during the semester. When you run a `gitmastery <command>`, the output will warn you if there is a new version, in which case you should update the app immediately, by following the instructions in that message.
+**4. Keep the app updated.** As the Git-Mastery app is under active development, it is likely to get updated frequently. When you run a `gitmastery <command>`, the output will warn you if there is a new version, in which case you should update the app immediately, by following the instructions in that message.
 
-<box type="info" seamless>
+<tabs>
+  <tab header=":fab-windows: Windows">
 
-Instructions for updating the Git-Mastery app are [here](https://git-mastery.github.io/app/update).
-</box>
+Download the `.exe` file from [the latest release](https://github.com/git-mastery/app/releases/latest)
+  </tab>
+  <tab header=":fab-apple: MacOS">
+
+```bash{.no-line-numbers}
+brew update
+brew upgrade gitmastery
+```
+  </tab>
+  <tab header=":fab-linux: Linux">
+
+<tabs>
+  <tab header="Debian/Ubuntu">
+
+```bash
+sudo apt-get install --only-upgrade gitmastery
+
+```
+
+  </tab>
+  <tab header="Arch">
+
+```bash
+sudo pacman -S gitmastery-bin
+
+```
+  </tab>
+</tabs> <!-- linux versions -->
+
+  </tab> <!-- linux -->
+</tabs> <!-- os -->
 
 {% endcall %} <!-- show_prep -->
 </div>

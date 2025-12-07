@@ -419,6 +419,8 @@ That aspect is covered in {{ show_detour_link(detour_name) }}.
 
 {% macro show_hop_prep(identifier, manual_info='', gm_info='', is_continue=0) %}
 {% if is_continue %}
+<div class="indented-level1">
+
 **You can continue using the sandbox created in the previous hands-on practical**, or,
 
 <panel type="seamless" header="get the Git-Mastery app to create a fresh sandbox (click to expand)" minimized expand-headerless>
@@ -428,10 +430,12 @@ That aspect is covered in {{ show_detour_link(detour_name) }}.
 
 {{ show_gm_footer() }}
 </panel>
+</div>
 <p/>
 {% else %}
 <tabs>
   <tab header="With Git-Mastery">
+<div class="indented-level1">
 
 **To prepare** the sandbox for this practical:
 
@@ -441,6 +445,7 @@ That aspect is covered in {{ show_detour_link(detour_name) }}.
 The sandbox will be set up inside the `gitmastery-exercises/{{ identifier }}` folder.
 
 {{ show_gm_footer() }}
+</div>
   </tab>
   <tab header="Manual">
 

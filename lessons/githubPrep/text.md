@@ -11,7 +11,7 @@
 To use GitHub, **you need to sign up for an account, and configure related tools/settings** first.
 {% endcall %}
 
-**GitHub is a web-based service that hosts Git repositories and adds collaboration features** on top of Git. Two other similar platforms are GitLab and Bitbucket. While Git manages version control locally, such platforms provide additional features such as shared access to repositories, issue tracking, code reviews, and permission controls. They are widely used in software development projects, for both {{ show_git_term("open-source software (OSS)", "oss", "githubPrep") }} and {{ show_git_term("closed-source software") }} projects.
+**GitHub is a web-based service that hosts Git repositories and adds collaboration features** on top of Git. Two other similar platforms are GitLab and Bitbucket. While you use Git to manage version-control locally, you can use such a platform in conjunction to utilise additional features such as shared access to repositories, issue tracking, code reviews, and permission controls. They are widely used in software development projects, for both {{ show_git_term("open-source software (OSS)", "oss", "githubPrep") }} and {{ show_git_term("closed-source software") }} projects.
 
 {{ show_git_term_tip('oss', 'githubPrep') }}
 
@@ -72,8 +72,8 @@ Set up your computer's GitHub authentication, as described in the se-edu guide [
 
 **GitHub offers its own clients to make working with GitHub more convenient.**
 
-* **The {{ show_git_term("GitHub Desktop") }} app provides a GUI for performing GitHub operations** from your desktop, without needing to visit the GitHub web UI.
-* **The {{ show_git_term("GitHub CLI (`gh`)") }} brings GitHub-specific commands to your terminal**, letting you perform operations on GitHub from your command line.
+* **The {{ show_git_term("GitHub Desktop") }} app provides a GUI for performing most GitHub operations** from your desktop, without needing to visit the GitHub web UI.
+* **The {{ show_git_term("GitHub CLI (`gh`)") }} brings GitHub-specific commands to your terminal**, letting you perform most GitHub operations through your terminal.
 
 <div class="non-printable" tags="git-mastery">
 
