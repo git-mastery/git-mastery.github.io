@@ -38,9 +38,9 @@ Explanation: When you create `C4`, the current branch `master` moves to `C4`, an
 
 {% call show_hands_on_practical('Pushing a local repo to an empty remote repo')  %}
 
-{{ hp_number(hop_preparation) }} **Use the `sports`** repo that is connected to the `gm-sports` remote repo you created earlier.
+{{ hp_number(hop_target) }} Upload (i.e., push) the revision history from a local repo to a remote repo.
 
-{{ hp_number(hop_target) }} **Replicate (i.e., push) the revision history in the local `sports` repo in the remote `gm-sports` repo.**
+{{ hp_number(hop_preparation) }} Use the `things` local repo that you connected to an empty remote repo in the previous hands-on practical.
 
 {{ hp_number("1") }} **Push the `master` branch** to the remote. **Also instruct Git to track this branch pair**.
 
@@ -55,16 +55,15 @@ Explanation: When you create `C4`, the current branch `master` moves to `C4`, an
 
 {% call show_hands_on_practical('Pushing to send further updates to a repo')  %}
 
-{{ hp_number(hop_preparation) }} **Use the `sports`** repo and the `gm-sports` remote repo from the previous hands-on practical.
+{{ hp_number(hop_target) }} Add a commit to the same local repo, and push it to the remote repo.
 
-{{ hp_number(hop_target) }} **Add a commit to the same local repo, and push it to the remote repo.**
+{{ hp_number(hop_preparation) }} Continue with the `things` repo from the previous hands-on practical.
 
 {{ hp_number ('1') }} **Commit** some changes in your local repo. Example:
 
 ```bash
-echo -e "Muhammad Ali\nMike Tyson" >> boxing.txt
-git stage boxing.txt
-git commit -m "Add boxing.txt"
+echo "Elderberries" >> fruits.txt
+git commit -am "Update fruits list"
 ```
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
@@ -87,10 +86,10 @@ nothing to commit, working tree clean
 You can also use the `git log --oneline --graph` command to see where the branch refs are. Note how the remote-tracking branch `origin/master` is one commit behind the local `master`.
 
 ```bash {highlight-lines="1['HEAD']@pink,1['master']@#e6fff2,2['origin/master']@#e6fff2"}
-* 2ac116a (HEAD -> master) Add boxing.txt
-* 3f1240c (origin/master) Add football.txt
-* 5f05612 Add tennis.txt
-* 2dfe92d Add golf.txt
+e60deae (HEAD -> master) Update fruits list
+f761ea6 (origin/master) Add colours.txt, shapes.txt
+2bedace Add figs to fruits.txt
+d5f91de Add fruits.txt
 ```
 {% endset %}
 {% set sourcetree %}

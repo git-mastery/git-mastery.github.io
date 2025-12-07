@@ -31,32 +31,12 @@ The second step of backing up a local repo on GitHub: **link the _local_ repo wi
 
 {% call show_hands_on_practical('Add a remote to a repo')  %}
 
+{{ hp_number(hop_target) }} Add the empty remote repo you created on GitHub as a remote of a local repo you have.
 
-{{ hp_number(hop_preparation) }} **Use a local repo with a few commits** for this hands-on practical. Given below are commands you can use to create a repo named `sports`.
-
-```bash
-md sports
-cd sports
-git init
-
-echo -e "Arnold Palmer\nTiger Woods" >> golf.txt
-git stage golf.txt
-git commit -m "Add golf.txt"
-
-echo -e "Pete Sampras\nRoger Federer\nSerena Williams" >> tennis.txt
-git stage tennis.txt
-git commit -m "Add tennis.txt"
-
-echo -e "Pele\nMaradona" >> football.txt
-git stage football.txt
-git commit -m "Add football.txt"
-```
-
-{{hp_number(hop_target) }} **Link the `sports` local repo with the `gm-sports` remote repo** you created earlier.
-
+{{ hp_number(hop_preparation) }} **Use the `things` local repo** you created earlier for this hands-on practical.
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
-{{ hp_number ('1') }} **In a terminal, navigate to the local repo** `sports` you created earlier.
+{{ hp_number ('1') }} **In a terminal, navigate to the folder containing the local repo** `things`.
 
 {{ hp_number ('2') }} **List the current list of remotes** using the `git remote -v` command, for a sanity check. No output is expected if there are no remotes yet.
 
@@ -69,9 +49,9 @@ git@github.com:<owner>/<remote-repo>.git  # using SSH
 ```
 
 The full command:
-```bash{highlight-lines="1['JohnDoe'],1['gm-sports'],2['JohnDoe'],2['gm-sports']"}
-git remote add origin https://github.com/JohnDoe/gm-sports.git  # using HTTPS
-git remote add origin git@github.com:JohnDoe/gm-sports.git  # using SSH
+```bash{highlight-lines="1['JohnDoe'],1['gm-things'],2['JohnDoe'],2['gm-things']"}
+git remote add origin https://github.com/JohnDoe/gm-things.git  # using HTTPS
+git remote add origin git@github.com:JohnDoe/gm-things.git  # using SSH
 ```
 
 {{ hp_number ('4') }} **List the remotes again to verify** the new remote was added.
@@ -81,8 +61,8 @@ git remote -v
 ```
 {% call show_output() %}
 ```{.no-line-numbers  highlight-lines="1['origin'],1['fetch'],2['origin'],2['push']"}
-origin  https://github.com/johndoe/gm-sports.git (fetch)
-origin  https://github.com/johndoe/gm-sports.git (push)
+origin  https://github.com/johndoe/gm-things.git (fetch)
+origin  https://github.com/johndoe/gm-things.git (push)
 ```
 {% endcall %}
 

@@ -84,14 +84,13 @@ node_modules/
 
 {% call show_hands_on_practical('Adding files to the ignore-list')  %}
 
-{{ hp_number(hop_preparation) }} **Create a `temp.txt` file and a few `.log` files in a repo**. These are presumably files we do not want to include in our revision history. For example, as follows:
+{{ hp_number(hop_preparation) }} **Create a `temp.txt` file and a few `.tmp` files in a repo**. These are presumably files we do not want to include in our revision history. For example, as follows:
 
 ```bash
-echo "Rubbish" > temp.txt
-echo "log data" > main.log
-mkdir logs
-cd logs
-echo "more log data" > internal.log
+echo “good stuff” > keep.txt
+echo “temp stuff” > temp.txt
+echo “more temp stuff” > file1.tmp
+echo “even more temp stuff” > file2.tmp
 ```
 
 {{ hp_number(hop_target) }} **Get Git to ignore the files** we created above.
