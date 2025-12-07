@@ -82,16 +82,25 @@ node_modules/
 ```
 {% endcall %}
 
-{% call show_hands_on_practical('Adding a file to the ignore-list')  %}
+{% call show_hands_on_practical('Adding files to the ignore-list')  %}
 
-{{ hp_number ('1') }} **Add a file into your repo's working folder that you presumably do not want to revision-control** e.g., a file named `temp.txt`. Observe how Git has detected the new file.<br>
-Add a few other files with `.tmp` extension.
+{{ hp_number(hop_preparation) }} **Create a `temp.txt` file and a few `.log` files in a repo**. These are presumably files we do not want to include in our revision history. For example, as follows:
 
-{{ hp_number ('2') }} **Configure Git to ignore those files:**
+```bash
+echo "Rubbish" > temp.txt
+echo "log data" > main.log
+mkdir logs
+cd logs
+echo "more log data" > internal.log
+```
+
+{{ hp_number(hop_target) }} **Get Git to ignore the files** we created above.
+
+{{ hp_number ('1') }} **Configure Git to ignore those files:**
 
 {{ show_git_tabs('-ignore-file-fragment') }}
 
-{{ hp_number ('3') }} **Optionally, stage and commit the `.gitignore` file.**
+{{ hp_number ('2') }} **Optionally, stage and commit the `.gitignore` file.**
 
 {% endcall %} <!-- end HOP -->
 

@@ -12,13 +12,13 @@ temp.txt
 {% endcall %} <!-- show_output -->
 
 
-Observe how `temp.txt` is no longer detected as 'untracked' by running the `git status` command (but now it will detect the `.gitignore` file as 'untracked'.
+Observe how `temp.txt` is no longer detected as 'untracked' by running the `git status` command, but now it will detect the `.gitignore` file as 'untracked'.
 
 Update the `.gitignore` file as follows:
 
 ```{heading=".gitignore" highlight-lines="2"}
 temp.txt
-*.tmp
+*.log
 ```
 
-Observe how `.tmp` files are no longer detected as 'untracked' by running the `git status` command.
+Observe how `.log` files are no longer detected as 'untracked' by running the `git status` command.

@@ -31,25 +31,47 @@ The second step of backing up a local repo on GitHub: **link the _local_ repo wi
 
 {% call show_hands_on_practical('Add a remote to a repo')  %}
 
-Add the empty remote repo you created on GitHub as a remote of a local repo you have.
+
+{{ hp_number(hop_preparation) }} **Use a local repo with a few commits** for this hands-on practical. Given below are commands you can use to create a repo named `sports`.
+
+```bash
+md sports
+cd sports
+git init
+
+echo -e "Arnold Palmer\nTiger Woods" >> golf.txt
+git stage golf.txt
+git commit -m "Add golf.txt"
+
+echo -e "Pete Sampras\nRoger Federer\nSerena Williams" >> tennis.txt
+git stage tennis.txt
+git commit -m "Add tennis.txt"
+
+echo -e "Pele\nMaradona" >> football.txt
+git stage football.txt
+git commit -m "Add football.txt"
+```
+
+{{hp_number(hop_target) }} **Link the `sports` local repo with the `gm-sports` remote repo** you created earlier.
+
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
-{{ hp_number ('1') }} **In a terminal, navigate to the folder containing the local repo** `things` you created earlier.
+{{ hp_number ('1') }} **In a terminal, navigate to the local repo** `sports` you created earlier.
 
 {{ hp_number ('2') }} **List the current list of remotes** using the `git remote -v` command, for a sanity check. No output is expected if there are no remotes yet.
 
 {{ hp_number ('3') }} **Add a new remote repo** using the `git remote add <remote-name> <remote-url>` command.<br>
 
 Format of the `<remote-url>`:
-```bash{highlight-lines="1['<owner>'],1['<repo>'],2['<owner>'],2['<repo>']"}
-https://github.com/<owner>/<repo>.git  # using HTTPS
-git@github.com:<owner>/<repo>.git  # using SSH
+```bash{highlight-lines="1['<owner>'],1['<remote-repo>'],2['<owner>'],2['<remote-repo>']"}
+https://github.com/<owner>/<remote-repo>.git  # using HTTPS
+git@github.com:<owner>/<remote-repo>.git  # using SSH
 ```
 
 The full command:
-```bash{highlight-lines="1['JohnDoe'],1['things'],2['JohnDoe'],2['things']"}
-git remote add origin https://github.com/JohnDoe/things.git  # using HTTPS
-git remote add origin git@github.com:JohnDoe/things.git  # using SSH
+```bash{highlight-lines="1['JohnDoe'],1['gm-sports'],2['JohnDoe'],2['gm-sports']"}
+git remote add origin https://github.com/JohnDoe/gm-sports.git  # using HTTPS
+git remote add origin git@github.com:JohnDoe/gm-sports.git  # using SSH
 ```
 
 {{ hp_number ('4') }} **List the remotes again to verify** the new remote was added.
@@ -59,8 +81,8 @@ git remote -v
 ```
 {% call show_output() %}
 ```{.no-line-numbers  highlight-lines="1['origin'],1['fetch'],2['origin'],2['push']"}
-origin  https://github.com/johndoe/things.git (fetch)
-origin  https://github.com/johndoe/things.git (push)
+origin  https://github.com/johndoe/gm-sports.git (fetch)
+origin  https://github.com/johndoe/gm-sports.git (push)
 ```
 {% endcall %}
 
@@ -99,7 +121,7 @@ origin  https://github.com/johndoe/things.git (push)
 {% endset %}
 {{ show_git_tabs_from_text(cli, sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
-{{ hp_number('5') }} **Add another _remote_**, to verify that a repo can have multiple remotes. You can use any name (e.g., `backup` and any URL for this).
+{{ hp_number('5') }} **Add another _remote_**, to verify that a repo can have multiple remotes. You can use any name (e.g., `backup` and any made-up `<owner>/<remote-repo>` for this).
 {% endcall %}
 
 <box type="tip" seamless class="non-printable">
