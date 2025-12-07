@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_multiple_columns, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 
 <span id="prereqs"></span>
@@ -18,13 +18,66 @@ When there are new changes in the remote, you need to **_pull_ those changes dow
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Fetch and merge from a remote")  %}
 
-{{ hp_number ('1') }} **Clone the repo [se-edu/samplerepo-finances](https://github.com/se-edu/samplerepo-finances)**. It has 3 commits. Your clone now has a remote `origin` pointing to the remote repo you cloned from.
+{{ hp_number (hop_scenario) }} You have cloned a remote repo. After you have cloned, two new commits have been added to it. `R` and `L1` in the diagram below represents this scenario.
 
-{{ hp_number ('2') }} **Change the remote `origin`** to point to [samplerepo-finances-2](https://github.com/se-edu/samplerepo-finances-2.git). This remote repo is a copy of the one you cloned, but it has two extra commits.
+
+{% set a %}
+<mermaid>
+gitGraph BT:
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    commit id: "add loans.txt"
+    commit id: "add loan to Ben"
+    commit id: "add assets.txt"
+    commit id: "add goals.txt"
+    commit id: "[head → master] add loan to Chang"
+</mermaid>
+
+<small>->[R: Remote repo `origin`]<-</small>
+{% endset %}
+{% set b %}
+<mermaid>
+gitGraph BT:
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    commit id: "add loans.txt"
+    commit id: "add loan to Ben"
+    commit id: "[head → master][origin/master] add assets.txt"
+</mermaid>
+
+<small>->[L1: Local repo -- currently, <br>
+**2 commits behind** the remote]<-</small>
+{% endset %}
+{% set c %}
+→
+{% endset %}
+{% set d %}
+<mermaid>
+gitGraph BT:
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    commit id: "add loans.txt"
+    commit id: "add loan to Ben"
+    commit id: "add assets.txt"
+    commit id: "add goals.txt"
+    commit id: "[head → master][origin/master] add loan to Chang"
+</mermaid>
+
+<small>->[L2: Local repo -- **after downloading**<br>
+ the missing commits]<-</small>
+{% endset %}
+
+{{ show_multiple_columns([a, '|', b, '|', c, '|', d]) }}
+
+{{ hp_number (hop_target) }} Now, you wish to bring over those missing commits to your clone, taking it from the state `L1` to state `L2` (as given in the diagram above).
+
+{{ hp_number (hop_preparation) }} To create the initial state of the remote repo and the local repo (i.e., `R` and `L1` given above), you can use the following steps.
+
+1. **Clone the repo [git-mastery/samplerepo-finances](https://github.com/git-mastery/samplerepo-finances)**. It has 3 commits. Your clone now has a remote `origin` pointing to the remote repo you cloned from.
+1. **Change the remote `origin`** to point to [samplerepo-finances-2](https://github.com/git-mastery/samplerepo-finances-2.git). This remote repo is a copy of the one you cloned, but it has two extra commits.
+
+<div class="indented-level1">
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 ```bash{.no-line-numbers}
-git remote set-url origin https://github.com/se-edu/samplerepo-finances-2.git
+git remote set-url origin https://github.com/git-mastery/samplerepo-finances-2.git
 ```
 {% endset %}
 {% set sourcetree %}
@@ -33,7 +86,9 @@ Go to `Repository` → `Repository settings ...` to update remotes.
 {{ show_git_tabs_from_text(cli, sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
-{{ hp_number ('3') }} **Verify the local repo is unaware of the extra commits** in the remote.
+</div>
+
+{{ hp_number ('1') }} **Verify the local repo is unaware of the extra commits** in the remote.
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
@@ -64,7 +119,7 @@ If it looks like the below, it is possible that Sourcetree is auto-fetching data
 <!-- ------ end: Git Tabs -------------------------------->
 
 
-{{ hp_number ('4') }} **Fetch from the new remote.**
+{{ hp_number ('2') }} **Fetch from the new remote.**
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
@@ -95,7 +150,7 @@ Click on the `Fetch` button on the top menu:<br>
 {{ show_git_tabs_from_text(cli, sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
-{{ hp_number ('5') }} **Verify the fetch worked** i.e., the local repo is now aware of the two missing commits. Also observe how the local branch ref of the `master` branch, the staging area, and the working directory remain unchanged after the fetch.
+{{ hp_number ('3') }} **Verify the fetch worked** i.e., the local repo is now aware of the two missing commits. Also observe how the local branch ref of the `master` branch, the staging area, and the working directory remain unchanged after the fetch.
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
@@ -124,7 +179,7 @@ Now, the revision graph should look something like the below. Note how the `orig
 {{ show_git_tabs_from_text(cli, sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
-{{ hp_number ('6') }} **Merge the fetched changes.**
+{{ hp_number ('4') }} **Merge the fetched changes.**
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
@@ -165,11 +220,13 @@ The final result should be something like the below (same as the repo state befo
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Pull from a remote")  %}
+{{ hp_number (hop_scenario) }} Same as previous hands-on practical.
 
-{{ hp_number ('1') }} **Similar to the previous hands-on practical, clone the repo** [se-edu/samplerepo-finances](https://github.com/se-edu/samplerepo-finances) (to a new location).<br>
-**Change the remote** `origin` to point to [samplerepo-finances-2](https://github.com/se-edu/samplerepo-finances-2.git).
+{{ hp_number(hop_target) }} Same as the previous, but this time we intend to fetch and merge in one step.
 
-{{ hp_number ('2') }} **Pull the newer commits from the remote**, instead of a fetch-then-merge.
+{{ hp_number(hop_preparation) }} Same as previous, but use a different folder.
+
+{{ hp_number('1') }} **Pull the newer commits from the remote**, instead of a fetch-then-merge.
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
@@ -199,7 +256,7 @@ In the next dialog, choose as follows:<br>
 {{ show_git_tabs_from_text(cli, sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
-{{ hp_number ('3') }} **Verify the outcome** is same as the fetch + merge steps you did in the previous hands-on practical.
+{{ hp_number ('2') }} **Verify the outcome** is same as the fetch + merge steps you did in the previous hands-on practical.
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
@@ -208,18 +265,65 @@ In the next dialog, choose as follows:<br>
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Sync your repos with the upstream repo")  %}
 
-{{ hp_number(hop_preparation) }} **Fork [se-edu/samplerepo-finances](https://github.com/se-edu/samplerepo-finances)** to your GitHub account.<br>
-**Clone your fork to your computer**.<br>
-Now, let's pretend that there are some new commits in upstream repo that you would like to bring over to your fork, and your local repo. Here are the steps:
+{{ hp_number (hop_scenario) }} You have forked and cloned a remote repo. Since then, new commits have been added to the original remote repo.
 
-{{ hp_number ('1') }} **Add the upstream repo [se-edu/samplerepo-finances](https://github.com/se-edu/samplerepo-finances) as remote** named `upstream` in your local repo.
+
+{% set a %}
+<mermaid>
+gitGraph BT:
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    commit id: "add loans.txt"
+    commit id: "add loan to Ben"
+    commit id: "add assets.txt"
+    commit id: "add goals.txt"
+    commit id: "[head → master] add loan to Chang"
+</mermaid>
+
+<small>->[R: the original remote repo]<-</small>
+{% endset %}
+{% set b %}
+<mermaid>
+gitGraph BT:
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    commit id: "add loans.txt"
+    commit id: "add loan to Ben"
+    commit id: "[head → master] add assets.txt"
+</mermaid>
+
+<small>->[F: your fork (remote), <br>
+**2 commits behind** the remote]<-</small>
+{% endset %}
+{% set c %}
+<mermaid>
+gitGraph BT:
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    commit id: "add loans.txt"
+    commit id: "add loan to Ben"
+    commit id: "[head → master][origin/master] add assets.txt"
+</mermaid>
+
+<small>->[C: your clone (local), also <br>
+**2 commits behind**]<-</small>
+{% endset %}
+
+{{ show_multiple_columns([a, '|', b, '|', c]) }}
+
+
+{{ hp_number (hop_target) }} Now, you wish to bring over new commits to your clone, and also update your fork with those commits.
+
+{{ hp_number (hop_preparation) }} You can use the following steps to create the initial state of the three repos mentioned above:
+
+1. **Fork the repo [git-mastery/samplerepo-finances](https://github.com/git-mastery/samplerepo-finances)** to your account.
+1. **Clone that fork** to your computer.
+
+{{ hp_number ('1') }} **Add the upstream repo [git-mastery/samplerepo-finances-2](https://github.com/git-mastery/samplerepo-finances-2) as remote** named `upstream` in your local repo.
 
 <box type="tip" seamless>
 
 Adding remotes was covered in {{ show_lesson_link(trail.backingUpOnCloud.lessons.setRemote) }}
 </box>
 
-{{ hp_number ('2') }} **Pull from the upstream repo.** If there are new commits (in this case, there will be none), those will come over to your local repo. For example:
+{{ hp_number ('2') }} **Pull from the upstream repo.** If there are new commits, those will come over to your local repo. For example:
 ```bash{.no-line-numbers}
 git pull upstream master
 ```
@@ -232,19 +336,6 @@ git push origin master
 
 The method given above is the more 'standard' method of synchronising a fork with the upstream repo. In addition, platforms such as GitHub can provide other ways (example: GitHub's [Sync fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) feature).
 </box>
-
-{{ hp_number ('4') }} **For good measure, let's pull from another repo.**<br>
-
-* Add the upstream repo [se-edu/samplerepo-finances-2](https://github.com/se-edu/samplerepo-finances-2) as remote named `other-upstream` in your local repo.{ texts="['4.1)','4.2)','4.3)']" }
-* Pull from it to your local repo; this will bring some new commits.<br>
-* Now, you can push those new commits to your fork.
-
-```bash
-git remote add other-upstream https://github.com/se-edu/samplerepo-finances-2.git
-git pull other-upstream master
-git push origin master
-```
-
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 

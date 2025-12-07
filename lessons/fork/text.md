@@ -9,7 +9,7 @@
 GitHub allows you to **create a remote copy of another remote repo, called _forking_**.
 {% endcall %}
 
-**A {{ show_git_term("fork") }} is a copy of a remote repository** created on the same hosting service such as GitHub, GitLab, or Bitbucket. On GitHub, you can fork a repository from another user or organisation into your own space (i.e., your user account or an organisation you have sufficient access to). {{ show_git_term("Forking") }} is particularly useful if you want to experiment with a repo but don’t have write permissions to the original -- you can fork it and work on your own remote copy without affecting the original repository.
+**A {{ show_git_term("fork") }} is a copy of a remote repository** created on the same hosting service such as GitHub, GitLab, or Bitbucket. On GitHub, you can fork a repository from another user or organisation into your own space (i.e., your user account or an organisation you have sufficient access to). {{ show_git_term("Forking") }} is particularly useful if you want to experiment with a repo but don't have write permissions to the original -- you can fork it (which gives you your own remote copy of the repo) and work with the forked repo without affecting the original repository.
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Forking a repo on GitHub")  %}

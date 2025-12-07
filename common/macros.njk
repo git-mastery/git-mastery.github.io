@@ -1,42 +1,3 @@
-{%- macro slugify(text) %}{{ text | lower | replace(r/[\'\s\/]/g, '-') | replace(r/[\(\)%:,&\`\[\]\+\.]/g, '') }}{% endmacro -%}
-<!-- ============================================================ -->
-
-{%- macro bold_number(text) %}{{ "{" }} text="{{ text }}" t-class="fw-bold" {{ "}" }}{% endmacro -%}
-<!-- ============================================================ -->
-
-{%- macro label(style, text) %}<span class="badge bg-{{ style }} text-{{ 'dark' if style in ['warning', 'light'] else 'white' }}">{{ text }}</span>{% endmacro -%}
-<!-- ============================================================ -->
-
-{% macro dropdown(text) %}<span class="btn btn-light border">{{ text }} :octicon-triangle-down:</span>{% endmacro %}
-<!-- ============================================================ -->
-
-{% macro button_green(text) %}<span class="btn btn-success ps-1 pe-1 pb-0 pt-0">{{ text }}</span>{% endmacro %}
-<!-- ============================================================ -->
-
-{% macro button_light(text) %}<span class="btn btn-light ps-1 pe-1 pb-0 pt-0 border">{{ text }}</span>{% endmacro %}
-<!-- ============================================================ -->
-
-{% macro sub_numbers(p) %}{{ '{' }} texts="['{{ p }}.1)','{{ p }}.2)','{{ p }}.3)','{{ p }}.4)']" {{ '}' }}{% endmacro %}
-<!-- ============================================================ -->
-
-{% macro thumbnail(icon, size=50) %}<thumbnail circle text="{{ icon }}" background="#198754" font-color="white" size="{{ size }}" />{% endmacro %}
-<!-- ============================================================ -->
-
-{% macro show_output(indent_level='') %}
-{% if indent_level %}<div class="indented-level{{ indent_level }}">{% endif %}
-<div class="d-flex">
-<div class="me-3">
-<span><md>**%%⤷%%**</md></span>
-</div>
-<div class="flex-grow-1">
-
-{{ caller() }}
-
-</div>
-</div>
-{% if indent_level %}</div>{% endif %}
-{% endmacro %}
-<!-- ============================================================ -->
 
 {% set trail = {
   recordingFolderHistory: {
@@ -162,6 +123,46 @@
   branch_rename: {lesson: trail.branchingLocally.lessons.branchRename, identifier: "branch-rename"},
   branch_delete: {lesson: trail.branchingLocally.lessons.branchDelete, identifier: "branch-delete"}
 } %}
+<!-- ============================================================ -->
+
+{%- macro slugify(text) %}{{ text | lower | replace(r/[\'\s\/]/g, '-') | replace(r/[\(\)%:,&\`\[\]\+\.]/g, '') }}{% endmacro -%}
+<!-- ============================================================ -->
+
+{%- macro bold_number(text) %}{{ "{" }} text="{{ text }}" t-class="fw-bold" {{ "}" }}{% endmacro -%}
+<!-- ============================================================ -->
+
+{%- macro label(style, text) %}<span class="badge bg-{{ style }} text-{{ 'dark' if style in ['warning', 'light'] else 'white' }}">{{ text }}</span>{% endmacro -%}
+<!-- ============================================================ -->
+
+{% macro dropdown(text) %}<span class="btn btn-light border">{{ text }} :octicon-triangle-down:</span>{% endmacro %}
+<!-- ============================================================ -->
+
+{% macro button_green(text) %}<span class="btn btn-success ps-1 pe-1 pb-0 pt-0">{{ text }}</span>{% endmacro %}
+<!-- ============================================================ -->
+
+{% macro button_light(text) %}<span class="btn btn-light ps-1 pe-1 pb-0 pt-0 border">{{ text }}</span>{% endmacro %}
+<!-- ============================================================ -->
+
+{% macro sub_numbers(p) %}{{ '{' }} texts="['{{ p }}.1)','{{ p }}.2)','{{ p }}.3)','{{ p }}.4)']" {{ '}' }}{% endmacro %}
+<!-- ============================================================ -->
+
+{% macro thumbnail(icon, size=50) %}<thumbnail circle text="{{ icon }}" background="#198754" font-color="white" size="{{ size }}" />{% endmacro %}
+<!-- ============================================================ -->
+
+{% macro show_output(indent_level='') %}
+{% if indent_level %}<div class="indented-level{{ indent_level }}">{% endif %}
+<div class="d-flex">
+<div class="me-3">
+<span><md>**%%⤷%%**</md></span>
+</div>
+<div class="flex-grow-1">
+
+{{ caller() }}
+
+</div>
+</div>
+{% if indent_level %}</div>{% endif %}
+{% endmacro %}
 <!-- ============================================================ -->
 
 {% macro button_green(text) %}<span class="btn btn-success ps-1 pe-1 pb-0 pt-0">{{ text }}</span>{% endmacro %}
