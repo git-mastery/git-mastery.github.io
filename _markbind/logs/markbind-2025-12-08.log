@@ -1649,3 +1649,101 @@
 2025-12-08T08:00:03.769Z - info: Website regeneration complete! Total build time: 0.095s
 2025-12-08T08:00:27.177Z - info: Website generation started at 16:00:27
 2025-12-08T08:00:27.278Z - info: Building assets...
+2025-12-08T08:00:27.524Z - info: Assets built
+2025-12-08T08:00:27.525Z - info: Generating pages...
+2025-12-08T08:00:32.555Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-08T08:00:32.555Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/detour-stagingFileDeletions-fragment.md'
+2025-12-08T08:00:32.555Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-08T08:00:32.555Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-08T08:00:32.555Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-08T08:00:32.556Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-08T08:00:32.558Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/branch/images/listRemoteBranches.png' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranches/sourcetree_4.md'
+2025-12-08T08:00:32.559Z - info: Pages built
+2025-12-08T08:00:32.632Z - info: Site data built
+2025-12-08T08:00:32.632Z - info: Website generation complete! Total build time: 5.621s
+2025-12-08T08:00:32.632Z - info: Build success!
+2025-12-08T08:00:40.930Z - info: The website has been deployed at: https://git-mastery.github.io/git-mastery.github.io
+2025-12-08T08:22:51.419Z - info: Website generation (lazy) started at 16:22:51
+2025-12-08T08:22:51.536Z - info: Building assets...
+2025-12-08T08:22:51.825Z - info: Assets built
+2025-12-08T08:22:51.826Z - info: Generating landing page...
+2025-12-08T08:22:51.913Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-12-08T08:22:51.985Z - info: Site data built
+2025-12-08T08:22:51.986Z - info: Website generation (lazy) complete! Total build time: 0.75s
+2025-12-08T08:22:51.995Z - info: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2025-12-08T08:22:51.995Z - info: Press CTRL+C to stop ...
+2025-12-08T08:22:56.042Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2025-12-08T08:22:56.319Z - info: Site data built
+2025-12-08T08:22:56.319Z - info: Lazy website regeneration complete! Total build time: 0.279s
+2025-12-08T08:23:03.238Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/index as some of its dependencies were changed since the last visit
+2025-12-08T08:23:03.406Z - info: Site data built
+2025-12-08T08:23:03.406Z - info: Lazy website regeneration complete! Total build time: 0.169s
+2025-12-08T08:24:14.493Z - info: [16:24:14] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md
+2025-12-08T08:24:14.495Z - info: Synchronizing opened pages list before reload
+2025-12-08T08:24:14.496Z - info: Current opened pages, from most-to-least recent:
+2025-12-08T08:24:14.497Z - info: 1. lessons/merge/index
+2025-12-08T08:24:15.506Z - info: Rebuilding 1 pages
+2025-12-08T08:24:15.676Z - info: Site data built
+2025-12-08T08:24:15.676Z - info: Pages rebuilt
+2025-12-08T08:24:15.676Z - info: Website regeneration complete! Total build time: 0.173s
+2025-12-08T08:25:12.871Z - info: [16:25:12] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md
+2025-12-08T08:25:12.873Z - info: Synchronizing opened pages list before reload
+2025-12-08T08:25:12.875Z - info: Current opened pages, from most-to-least recent:
+2025-12-08T08:25:12.875Z - info: 1. lessons/merge/index
+2025-12-08T08:25:13.885Z - info: Rebuilding 1 pages
+2025-12-08T08:25:14.035Z - info: Site data built
+2025-12-08T08:25:14.035Z - info: Pages rebuilt
+2025-12-08T08:25:14.035Z - info: Website regeneration complete! Total build time: 0.153s
+2025-12-08T08:25:37.431Z - info: [16:25:37] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md
+2025-12-08T08:25:37.432Z - info: Synchronizing opened pages list before reload
+2025-12-08T08:25:37.432Z - info: Current opened pages, from most-to-least recent:
+2025-12-08T08:25:37.433Z - info: 1. lessons/merge/index
+2025-12-08T08:25:38.440Z - info: Rebuilding 1 pages
+2025-12-08T08:25:38.615Z - info: Site data built
+2025-12-08T08:25:38.615Z - info: Pages rebuilt
+2025-12-08T08:25:38.615Z - info: Website regeneration complete! Total build time: 0.177s
+2025-12-08T08:25:51.956Z - info: [16:25:51] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md
+2025-12-08T08:25:51.957Z - info: Synchronizing opened pages list before reload
+2025-12-08T08:25:51.957Z - info: Current opened pages, from most-to-least recent:
+2025-12-08T08:25:51.957Z - info: 1. lessons/merge/index
+2025-12-08T08:25:52.963Z - info: Rebuilding 1 pages
+2025-12-08T08:25:53.131Z - info: Site data built
+2025-12-08T08:25:53.131Z - info: Pages rebuilt
+2025-12-08T08:25:53.131Z - info: Website regeneration complete! Total build time: 0.171s
+2025-12-08T08:28:58.867Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/index as some of its dependencies were changed since the last visit
+2025-12-08T08:28:59.022Z - info: Site data built
+2025-12-08T08:28:59.022Z - info: Lazy website regeneration complete! Total build time: 0.156s
+2025-12-08T08:30:52.605Z - info: [16:30:52] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md
+2025-12-08T08:30:52.607Z - info: Synchronizing opened pages list before reload
+2025-12-08T08:30:52.607Z - info: Current opened pages, from most-to-least recent:
+2025-12-08T08:30:52.607Z - info: 1. lessons/mergeConflicts/index
+2025-12-08T08:30:53.625Z - info: Rebuilding 1 pages
+2025-12-08T08:30:53.724Z - info: Site data built
+2025-12-08T08:30:53.724Z - info: Pages rebuilt
+2025-12-08T08:30:53.724Z - info: Website regeneration complete! Total build time: 0.112s
+2025-12-08T08:31:43.280Z - info: [16:31:43] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md
+2025-12-08T08:31:43.282Z - info: Synchronizing opened pages list before reload
+2025-12-08T08:31:43.282Z - info: Current opened pages, from most-to-least recent:
+2025-12-08T08:31:43.282Z - info: 1. lessons/mergeConflicts/index
+2025-12-08T08:31:44.296Z - info: Rebuilding 1 pages
+2025-12-08T08:31:44.418Z - info: Site data built
+2025-12-08T08:31:44.419Z - info: Pages rebuilt
+2025-12-08T08:31:44.419Z - info: Website regeneration complete! Total build time: 0.126s
+2025-12-08T08:31:53.819Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/index as some of its dependencies were changed since the last visit
+2025-12-08T08:31:53.913Z - info: Site data built
+2025-12-08T08:31:53.913Z - info: Lazy website regeneration complete! Total build time: 0.094s
+2025-12-08T08:37:40.575Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/index as some of its dependencies were changed since the last visit
+2025-12-08T08:37:40.690Z - info: Site data built
+2025-12-08T08:37:40.690Z - info: Lazy website regeneration complete! Total build time: 0.116s
+2025-12-08T08:39:36.458Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/syncingBranches/index as some of its dependencies were changed since the last visit
+2025-12-08T08:39:36.583Z - info: Site data built
+2025-12-08T08:39:36.583Z - info: Lazy website regeneration complete! Total build time: 0.126s
+2025-12-08T08:39:55.077Z - info: Website generation started at 16:39:54
+2025-12-08T08:39:55.167Z - info: Building assets...
