@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="generator" content="MarkBind 6.0.2">
-    <meta name="viewport" content="width=device-width, initial-scale=1"><title>Git-Mastery - Tour 8: Working with Remote Branches</title> <link rel="stylesheet" href="/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/markbind/css/markbind.min.css"><link rel="stylesheet" href="/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><title>Git-Mastery - Tour 8: Working with Remote Branches</title> <link rel="stylesheet" href="/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/markbind/css/markbind.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.0/dist/style.css"><link rel="preconnect" href="https://undefined-dsn.algolia.net" crossorigin><link rel="stylesheet" href="/plugins/codeBlockCopyButtons/codeBlockButtons.css"><link rel="stylesheet" href="/plugins/codeBlockWrapButtons/codeBlockButtons.css"><link rel="stylesheet" href="/plugins/dataTable/datatables.min.css"><link rel="stylesheet" href="/plugins/dataTable/datatables-additional.css"><link rel="stylesheet" href="/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
     
   <link rel="stylesheet" href="/css/main.css">
 <link rel="icon" href="/favicon.ico"></head>
@@ -60,7 +60,48 @@ After forking, go to the fork and ensure both branches (<code class="hljs inline
 </pre> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-info" style="" data-v-19514615><!--[--><i class="fas fa-info" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-info vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>The <code class="hljs inline no-lang">origin/HEAD</code> remote-tracking ref indicates where the <code class="hljs inline no-lang">HEAD</code> ref is in the remote <code class="hljs inline no-lang">origin</code>.</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>1</strong></small></span> <strong>Create a new branch called <code class="hljs inline no-lang">hiring</code>, and add a commit to that branch.</strong> The commit can contain any changes you want.</p> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-success" style="" data-v-19514615><!--[--><i class="fas fa-lightbulb" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-success vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>Here are the commands you can run in the terminal to do this step in one shot:</p> <pre><code class="no-line-numbers hljs bash"><span>git switch -c hiring
 </span><span><span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;Receptionist: Pam&quot;</span> &gt;&gt; employees.txt
 </span><span>git commit -am <span class="hljs-string">&quot;Add Pam to employees.txt&quot;</span>
-</span></code></pre><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <pre class="mermaid">gitGraph BT:
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <pre class="mermaid">gitGraph BT:
     %%{init: { &#39;theme&#39;: &#39;default&#39;, &#39;gitGraph&#39;: {&#39;mainBranchName&#39;: &#39;master&#39;}} }%%
     commit id: &quot;m1&quot;
     commit id: &quot;m2&quot;
@@ -73,32 +114,360 @@ After forking, go to the fork and ensure both branches (<code class="hljs inline
     checkout hiring
     commit id: &quot;[HEAD → hiring] h1&quot;
 </pre> <p>The resulting revision graph should look like the one above.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>2</strong></small></span> <strong>Push the <code class="hljs inline no-lang">hiring</code> branch to the remote.</strong></p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>You can use the usual <code class="hljs inline no-lang">git push &lt;remote&gt; -u &lt;branch&gt;</code> command to push the branch to the remote, and set up a remote-tracking branch at the same time.</p> <pre><code class="no-line-numbers hljs bash"><span>git push origin -u hiring
-</span></code></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <span class="image-wrapper"><img src="/lessons/remoteBranchPush/images/sourcetreeRightClickToPush.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>3</strong></small></span> <strong>Verify that the branch has been pushed to the remote</strong> by visiting the fork on GitHub, and looking for the <code class="hljs inline no-lang">origin/hiring</code> remote-tracking ref in the local repo.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div></div> <div></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-seamless" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="" data-v-4484e25a></div><!----></div></div> <div class="card-container" data-v-4484e25a><div class="card expandable-card card-seamless border-0" data-v-4484e25a><div class="card-header header-toggle bg-transparent border-0" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><span class="glyphicon glyphicon-chevron-down" data-v-4484e25a></span></div><div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-4484e25a><!--[--><!--[--><div class="card-title"><h4 id="t8l2-pulling-branches-from-a-remote"><span class="text-success">T8L2. Pulling Branches from a Remote</span><a class="fa fa-anchor" href="#t8l2-pulling-branches-from-a-remote" onclick="event.stopPropagation()"></a></h4></div><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light seamless-button close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light seamless-button popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <div><div class="indented"><div><div class="non-printable"><div class="border border-success pt-0 ps-1 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color:#e6fff2;"><div class="indented"><br> <div id="overview"><p><strong>Branches in a remote can be replicated in the local repo</strong>, and maintained in sync with each other.</p></div> <span><small>This lesson covers that part.</small></span></div></div> <br></div> <p>Sometimes we need to create a local copy of a branch from a remote repository, make further changes to it, and keep it synchronised with the remote branch. Let&#39;s explore how to handle this in a few common use cases:</p> <p><strong><strong>Use case 1:</strong></strong> <strong>Working with branches that already existed in the remote repo when you cloned it to your computer.</strong></p> <div class="indented-level1"><p><strong>When you clone a repository,</strong></p> <ol><li><strong>Git checks out the default branch.</strong> You can start working on this branch immediately. This branch is tracking the default branch in the remote, which means you can easily synchronise changes in this branch with the remote by pulling and pushing.</li> <li><strong>Git also <em>fetches</em> all the other branches from the remote.</strong> These other branches are not immediately available as local branches, but they are visible as remote-tracking branches.<br> <strong>You can think of remote-tracking branches as read-only references</strong> to the state of those branches in the remote repository at the time of cloning. They allow you to see what work has been done on those branches without yet making local copies of them.<br> <strong>To work on one of these branches, you can create a new local branch based on the remote-tracking branch.</strong> Once you do this, your local branch will usually be configured to track the corresponding branch on the remote, so you can easily synchronise your work later.</li></ol></div> <div class="non-printable"><span style="position:relative;top:10px;background-color:rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6"><span><span aria-hidden="true" class="fas fa-laptop-code"></span></span> HANDS-ON: Work with a branch that existed in the remote</span> <div class="indented-level1"><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-suitcase"></span> Preparation</strong></small></span> <strong>Use the same <a href="https://github.com/se-edu/samplerepo-company">samplerepo-company</a> repo</strong> you used in <a href="/lessons/remoteBranchPush/index.html">Lesson T8L1. Pushing Branches to a Remote</a>. Fork and clone it if you haven&#39;t done that already.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>1</strong></small></span> <strong>Verify that the remote-tracking branch <code class="hljs inline no-lang">origin/track-sales</code> exists in the local repo, but there is no local copy of it.</strong></p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>You can use the <code class="hljs inline no-lang">git branch -a</code> command to list all local and tracking branches.</p> <pre><code class="no-line-numbers hljs bash"><span>git branch -a
-</span></code></pre><div class="d-flex"><div class="me-3"><span><span><strong><span class="dimmed">⤷</span></strong></span></span></div> <div class="flex-grow-1"><pre><code class="no-line-numbers hljs bash"><span>* hiring
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <span class="image-wrapper"><img src="/lessons/remoteBranchPush/images/sourcetreeRightClickToPush.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>3</strong></small></span> <strong>Verify that the branch has been pushed to the remote</strong> by visiting the fork on GitHub, and looking for the <code class="hljs inline no-lang">origin/hiring</code> remote-tracking ref in the local repo.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div></div> <div></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-seamless" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="" data-v-4484e25a></div><!----></div></div> <div class="card-container" data-v-4484e25a><div class="card expandable-card card-seamless border-0" data-v-4484e25a><div class="card-header header-toggle bg-transparent border-0" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><span class="glyphicon glyphicon-chevron-down" data-v-4484e25a></span></div><div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-4484e25a><!--[--><!--[--><div class="card-title"><h4 id="t8l2-pulling-branches-from-a-remote"><span class="text-success">T8L2. Pulling Branches from a Remote</span><a class="fa fa-anchor" href="#t8l2-pulling-branches-from-a-remote" onclick="event.stopPropagation()"></a></h4></div><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light seamless-button close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light seamless-button popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <div><div class="indented"><div><div class="non-printable"><div class="border border-success pt-0 ps-1 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color:#e6fff2;"><div class="indented"><br> <div id="overview"><p><strong>Branches in a remote can be replicated in the local repo</strong>, and maintained in sync with each other.</p></div> <span><small>This lesson covers that part.</small></span></div></div> <br></div> <p>Sometimes we need to create a local copy of a branch from a remote repository, make further changes to it, and keep it synchronised with the remote branch. Let&#39;s explore how to handle this in a few common use cases:</p> <p><strong><strong>Use case 1:</strong></strong> <strong>Working with branches that already existed in the remote repo when you cloned it to your computer.</strong></p> <div class="indented-level1"><p><strong>When you clone a repository,</strong></p> <ol><li><strong>Git checks out the default branch.</strong> You can start working on this branch immediately. This branch is tracking the default branch in the remote, which means you can easily synchronise changes in this branch with the remote by pulling and pushing.</li> <li><strong>Git also <em>fetches</em> all the other branches from the remote.</strong> These other branches are not immediately available as local branches, but they are visible as remote-tracking branches.<br> <strong>You can think of remote-tracking branches as read-only references</strong> to the state of those branches in the remote repository at the time of cloning. They allow you to see what work has been done on those branches without yet making local copies of them.<br> <strong>To work on one of these branches, you can create a new local branch based on the remote-tracking branch.</strong> Once you do this, your local branch will usually be configured to track the corresponding branch on the remote, so you can easily synchronise your work later.</li></ol></div> <div class="non-printable"><span style="position:relative;top:10px;background-color:rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6"><span><span aria-hidden="true" class="fas fa-laptop-code"></span></span> HANDS-ON: Work with a branch that existed in the remote</span> <div class="indented-level1"><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-suitcase"></span> Preparation</strong></small></span> <strong>Use the same <a href="https://github.com/se-edu/samplerepo-company">samplerepo-company</a> repo</strong> you used in <a href="/lessons/remoteBranchPush/index.html">Lesson T8L1. Pushing Branches to a Remote</a>. Fork and clone it if you haven&#39;t done that already.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>1</strong></small></span> <strong>Verify that the remote-tracking branch <code class="hljs inline no-lang">origin/track-sales</code> exists in the local repo, but there is no local copy of it.</strong></p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>You can use the <code class="hljs inline no-lang">git branch -a</code> command to list all local and tracking branches.</p> <pre><code class="no-line-numbers hljs bash"><span>git branch -a
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><div class="d-flex"><div class="me-3"><span><span><strong><span class="dimmed">⤷</span></strong></span></span></div> <div class="flex-grow-1"><pre><code class="no-line-numbers hljs bash"><span>* hiring
 </span><span>  master
 </span><span>  remotes/origin/HEAD -&gt; origin/master
 </span><span>  remotes/origin/hiring
 </span><span>  remotes/origin/master
 </span><span>  remotes/origin/track-sales
-</span></code></pre><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-success" style="" data-v-19514615><!--[--><i class="fas fa-lightbulb" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-success vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>The <code class="hljs inline no-lang">*</code> in the output above indicates the currently active branch.</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <p>Note how there is no <code class="hljs inline no-lang">track-sales</code> in the list of branches (i.e., no local branch named <code class="hljs inline no-lang">track-sales</code>), but there is a <code class="hljs inline no-lang">remotes/origin/track-sales</code> (i.e., the remote-tracking branch)</p></div></div><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Observe how the branch <code class="hljs inline no-lang">track-sales</code> appear under <code class="hljs inline no-lang">REMOTES</code> → <code class="hljs inline no-lang">origin</code> but not under <code class="hljs inline no-lang">BRANCHES</code>.</p> <span class="image-wrapper"><img src="/lessons/remoteBranchPull/images/sourcetreeCheckRemoteTrackingBranch.png" width="200" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>2</strong></small></span> <strong>Create a local copy of the remote branch <code class="hljs inline no-lang">origin/track-sales</code></strong>.</p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>You can use the <code class="hljs inline no-lang">git switch -c &lt;branch&gt; &lt;remote-branch&gt;</code> command for this e.g.,</p> <pre><code class="no-line-numbers hljs bash"><span>git switch -c track-sales origin/track-sales
-</span></code></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Locate the <code class="hljs inline no-lang">track-sales</code> remote-tracking branch (look under <code class="hljs inline no-lang">REMOTES</code> → <code class="hljs inline no-lang">origin</code>), right-click, and choose <code class="hljs inline no-lang">Checkout...</code>.<br> <span class="image-wrapper"><img src="/lessons/remoteBranchPull/images/sourcetreeRightClickToCheckout.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span></p> <p>In the next dialog, choose as follows:<br> <span class="image-wrapper"><img src="/lessons/remoteBranchPull/images/sourcetreeBranchCheckoutDialog.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span></p><!--]--><hr data-v-65067870></div><!--]--></div></div> <p>The above command/action does several things:</p> <ol><li>Creates a new branch <code class="hljs inline no-lang">track-sales</code>.</li> <li>Sets the new branch to track the remote branch <code class="hljs inline no-lang">origin/track-sales</code>, which means the local branch ref <code class="hljs inline no-lang">track-sales</code> will also move to where the <code class="hljs inline no-lang">origin/track-sales</code> is.</li> <li>Switch to the newly-created branch i.e., makes it the current branch.</li></ol> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>3</strong></small></span> <strong>Add a commit to the <code class="hljs inline no-lang">track-sales</code> branch and push to the remote</strong>, to verify that the local branch is tracking the remote branch.</p> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-success" style="" data-v-19514615><!--[--><i class="fas fa-lightbulb" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-success vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>Commands to perform this step in one shot:</p> <pre><code class="hljs bash"><span><span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;5 reams of paper&quot;</span> &gt;&gt; sales.txt
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-success" style="" data-v-19514615><!--[--><i class="fas fa-lightbulb" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-success vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>The <code class="hljs inline no-lang">*</code> in the output above indicates the currently active branch.</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <p>Note how there is no <code class="hljs inline no-lang">track-sales</code> in the list of branches (i.e., no local branch named <code class="hljs inline no-lang">track-sales</code>), but there is a <code class="hljs inline no-lang">remotes/origin/track-sales</code> (i.e., the remote-tracking branch)</p></div></div><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Observe how the branch <code class="hljs inline no-lang">track-sales</code> appear under <code class="hljs inline no-lang">REMOTES</code> → <code class="hljs inline no-lang">origin</code> but not under <code class="hljs inline no-lang">BRANCHES</code>.</p> <span class="image-wrapper"><img src="/lessons/remoteBranchPull/images/sourcetreeCheckRemoteTrackingBranch.png" width="200" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>2</strong></small></span> <strong>Create a local copy of the remote branch <code class="hljs inline no-lang">origin/track-sales</code></strong>.</p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>You can use the <code class="hljs inline no-lang">git switch -c &lt;branch&gt; &lt;remote-branch&gt;</code> command for this e.g.,</p> <pre><code class="no-line-numbers hljs bash"><span>git switch -c track-sales origin/track-sales
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Locate the <code class="hljs inline no-lang">track-sales</code> remote-tracking branch (look under <code class="hljs inline no-lang">REMOTES</code> → <code class="hljs inline no-lang">origin</code>), right-click, and choose <code class="hljs inline no-lang">Checkout...</code>.<br> <span class="image-wrapper"><img src="/lessons/remoteBranchPull/images/sourcetreeRightClickToCheckout.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span></p> <p>In the next dialog, choose as follows:<br> <span class="image-wrapper"><img src="/lessons/remoteBranchPull/images/sourcetreeBranchCheckoutDialog.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span></p><!--]--><hr data-v-65067870></div><!--]--></div></div> <p>The above command/action does several things:</p> <ol><li>Creates a new branch <code class="hljs inline no-lang">track-sales</code>.</li> <li>Sets the new branch to track the remote branch <code class="hljs inline no-lang">origin/track-sales</code>, which means the local branch ref <code class="hljs inline no-lang">track-sales</code> will also move to where the <code class="hljs inline no-lang">origin/track-sales</code> is.</li> <li>Switch to the newly-created branch i.e., makes it the current branch.</li></ol> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>3</strong></small></span> <strong>Add a commit to the <code class="hljs inline no-lang">track-sales</code> branch and push to the remote</strong>, to verify that the local branch is tracking the remote branch.</p> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-success" style="" data-v-19514615><!--[--><i class="fas fa-lightbulb" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-success vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>Commands to perform this step in one shot:</p> <pre><code class="hljs bash"><span><span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;5 reams of paper&quot;</span> &gt;&gt; sales.txt
 </span><span>git commit -am <span class="hljs-string">&quot;Update sales.txt&quot;</span>
 </span><span>git push origin track-sales
-</span></code></pre><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div> <p><strong><strong>Use case 2:</strong></strong> <strong>Working with branches that were added to the remote repository after you cloned it</strong> <span class="dimmed">e.g., a branch someone else pushed to the remote after you cloned</span>.</p> <div class="indented-level1"><p><strong>Simply fetch to update your local repository with information about the new branch.</strong> After that, you can create a local copy of it and work with it just as you did in Use Case 1.</p> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-success" style="" data-v-19514615><!--[--><i class="fas fa-lightbulb" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-success vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>Fetching was covered in <a href="/lessons/pull/index.html">Lesson T3L3. Downloading Data Into a Local Repo</a>.</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div> <div></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-seamless" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="" data-v-4484e25a></div><!----></div></div> <div class="card-container" data-v-4484e25a><div class="card expandable-card card-seamless border-0" data-v-4484e25a><div class="card-header header-toggle bg-transparent border-0" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><span class="glyphicon glyphicon-chevron-down" data-v-4484e25a></span></div><div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-4484e25a><!--[--><!--[--><div class="card-title"><h4 id="t8l3-deleting-branches-from-a-remote"><span class="text-success">T8L3. Deleting Branches from a Remote</span><a class="fa fa-anchor" href="#t8l3-deleting-branches-from-a-remote" onclick="event.stopPropagation()"></a></h4></div><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light seamless-button close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light seamless-button popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <div><div class="indented"><div><div class="non-printable"><div class="border border-success pt-0 ps-1 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color:#e6fff2;"><div class="indented"><br> <div id="overview"><p>Often, you&#39;ll need to <strong>delete a branch in a remote repo</strong> after it has served its purpose.</p></div> <span><small>This lesson covers that part.</small></span></div></div> <br></div> <p><strong>To delete a branch in a remote repository, you simply tell Git to remove the reference to that branch from the remote.</strong> This does not delete the branch from your local repository — it only removes it from the remote, so others won’t see it anymore. This is useful for cleaning up clutter in the remote repo e.g., delete old or merged branches that are no longer needed on the remote.</p> <div class="non-printable"><span style="position:relative;top:10px;background-color:rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6"><span><span aria-hidden="true" class="fas fa-laptop-code"></span></span> HANDS-ON: Delete (and restore) branches in a remote</span> <div class="indented-level1"><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-suitcase"></span> Preparation</strong></small></span> <strong>Fork the <a href="https://github.com/se-edu/samplerepo-books">samplerepo-books</a></strong> to your GitHub account. When doing so, <mark>un-tick the <code class="hljs inline no-lang">Copy the master branch only</code> option</mark>.<br>
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div> <p><strong><strong>Use case 2:</strong></strong> <strong>Working with branches that were added to the remote repository after you cloned it</strong> <span class="dimmed">e.g., a branch someone else pushed to the remote after you cloned</span>.</p> <div class="indented-level1"><p><strong>Simply fetch to update your local repository with information about the new branch.</strong> After that, you can create a local copy of it and work with it just as you did in Use Case 1.</p> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-success" style="" data-v-19514615><!--[--><i class="fas fa-lightbulb" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-success vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>Fetching was covered in <a href="/lessons/pull/index.html">Lesson T3L3. Downloading Data Into a Local Repo</a>.</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div> <div></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-seamless" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="" data-v-4484e25a></div><!----></div></div> <div class="card-container" data-v-4484e25a><div class="card expandable-card card-seamless border-0" data-v-4484e25a><div class="card-header header-toggle bg-transparent border-0" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><span class="glyphicon glyphicon-chevron-down" data-v-4484e25a></span></div><div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-4484e25a><!--[--><!--[--><div class="card-title"><h4 id="t8l3-deleting-branches-from-a-remote"><span class="text-success">T8L3. Deleting Branches from a Remote</span><a class="fa fa-anchor" href="#t8l3-deleting-branches-from-a-remote" onclick="event.stopPropagation()"></a></h4></div><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light seamless-button close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light seamless-button popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <div><div class="indented"><div><div class="non-printable"><div class="border border-success pt-0 ps-1 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color:#e6fff2;"><div class="indented"><br> <div id="overview"><p>Often, you&#39;ll need to <strong>delete a branch in a remote repo</strong> after it has served its purpose.</p></div> <span><small>This lesson covers that part.</small></span></div></div> <br></div> <p><strong>To delete a branch in a remote repository, you simply tell Git to remove the reference to that branch from the remote.</strong> This does not delete the branch from your local repository — it only removes it from the remote, so others won’t see it anymore. This is useful for cleaning up clutter in the remote repo e.g., delete old or merged branches that are no longer needed on the remote.</p> <div class="non-printable"><span style="position:relative;top:10px;background-color:rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6"><span><span aria-hidden="true" class="fas fa-laptop-code"></span></span> HANDS-ON: Delete (and restore) branches in a remote</span> <div class="indented-level1"><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-suitcase"></span> Preparation</strong></small></span> <strong>Fork the <a href="https://github.com/se-edu/samplerepo-books">samplerepo-books</a></strong> to your GitHub account. When doing so, <mark>un-tick the <code class="hljs inline no-lang">Copy the master branch only</code> option</mark>.<br>
 After forking, go to the fork and ensure all three branches are in there.</p> <p><strong>Clone the fork</strong> to your computer.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>1</strong></small></span> <strong>Create a local copy of the <code class="hljs inline no-lang">fantasy</code> branch</strong> in your clone.</p> <p>Follow instructions in <a href="/lessons/remoteBranchPull/index.html">Lesson T8L2. Pulling Branches from a Remote</a>.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>2</strong></small></span> <strong>Delete the remote branch <code class="hljs inline no-lang">fantasy</code>.</strong></p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>You can use the <code class="hljs inline no-lang">git push &lt;remote&gt; --delete &lt;branch&gt;</code> command to delete a branch in a remote. This is like pushing changes in a branch to a remote, except we request the branch to be deleted instead, by adding the <code class="hljs inline no-lang">--delete</code> switch.</p> <pre><code class="no-line-numbers hljs bash"><span>git push origin --delete fantasy
-</span></code></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Locate the remote branch under <code class="hljs inline no-lang">REMOTES</code> → <code class="hljs inline no-lang">origin</code>, right-click on the branch name, and choose <code class="hljs inline no-lang">Delete...</code>:</p> <span class="image-wrapper"><img src="/lessons/remoteBranchDelete/images/sourcetreeRightClickToDelete.png" width="300" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>3</strong></small></span> <strong>Verify that the branch was deleted</strong> from the remote, by going to the fork on GitHub and checking the branches page <code class="hljs inline no-lang">https://github.com/{YOUR_USERNAME}/samplerepo-books/branches</code><br> e.g., <code class="hljs inline no-lang">https://github.com/johndoe/samplerepo-books/branches</code>.</p> <p><strong>Also verify that the local copy has not been deleted</strong>.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>4</strong></small></span> <strong>Restore the remote branch from the local copy.</strong></p> <p>Push the local branch to the remote, while enabling the tracking option (as if pushing the branch to the remote for the first time), as covered in <a href="/lessons/remoteBranchPush/index.html">Lesson T8L1. Pushing Branches to a Remote</a>.</p> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-info" style="" data-v-19514615><!--[--><i class="fas fa-info" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-info vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>In the above steps, we first created a local copy of the branch before deleting it in the remote repo. Doing so is optional.
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Locate the remote branch under <code class="hljs inline no-lang">REMOTES</code> → <code class="hljs inline no-lang">origin</code>, right-click on the branch name, and choose <code class="hljs inline no-lang">Delete...</code>:</p> <span class="image-wrapper"><img src="/lessons/remoteBranchDelete/images/sourcetreeRightClickToDelete.png" width="300" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>3</strong></small></span> <strong>Verify that the branch was deleted</strong> from the remote, by going to the fork on GitHub and checking the branches page <code class="hljs inline no-lang">https://github.com/{YOUR_USERNAME}/samplerepo-books/branches</code><br> e.g., <code class="hljs inline no-lang">https://github.com/johndoe/samplerepo-books/branches</code>.</p> <p><strong>Also verify that the local copy has not been deleted</strong>.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>4</strong></small></span> <strong>Restore the remote branch from the local copy.</strong></p> <p>Push the local branch to the remote, while enabling the tracking option (as if pushing the branch to the remote for the first time), as covered in <a href="/lessons/remoteBranchPush/index.html">Lesson T8L1. Pushing Branches to a Remote</a>.</p> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-info" style="" data-v-19514615><!--[--><i class="fas fa-info" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-info vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>In the above steps, we first created a local copy of the branch before deleting it in the remote repo. Doing so is optional.
 <strong>You can delete a remote branch without ever checking it out locally</strong> — you just need to know its name on the remote. Deleting the remote branch directly without creating a local copy is <strong>recommended if you simply want to clean up a remote branch you no longer need.</strong></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div></div> <div></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-seamless" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="" data-v-4484e25a></div><!----></div></div> <div class="card-container" data-v-4484e25a><div class="card expandable-card card-seamless border-0" data-v-4484e25a><div class="card-header header-toggle bg-transparent border-0" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><span class="glyphicon glyphicon-chevron-down" data-v-4484e25a></span></div><div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-4484e25a><!--[--><!--[--><div class="card-title"><h4 id="t8l4-renaming-branches-in-a-remote"><span class="text-success">T8L4. Renaming Branches in a Remote</span><a class="fa fa-anchor" href="#t8l4-renaming-branches-in-a-remote" onclick="event.stopPropagation()"></a></h4></div><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light seamless-button close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light seamless-button popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <div><div class="indented"><div><div class="non-printable"><div class="border border-success pt-0 ps-1 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color:#e6fff2;"><div class="indented"><br> <div id="overview"><p>Occasionally, you might need to <strong>rename a branch in a remote repo</strong>.</p></div> <span><small>This lesson covers that part.</small></span></div></div> <br></div> <p><strong>Git does not have a way to rename remote branches in place. Instead, you create a new branch with the desired name and delete the old one.</strong> This involves renaming your local branch to the new name, pushing it to the remote (which effectively creates a new remote branch), and then removing the old branch from the remote. This ensures the remote reflects the updated name while preserving the commit history and any work already done on the branch.</p> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-success" style="" data-v-19514615><!--[--><i class="fas fa-lightbulb" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-success vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>While Git cannot rename a remote branch in place, <strong><a href="https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/renaming-a-branch">GitHub allows you to rename a branch</a> in a remote repo.</strong> If you use this approach, the local repo still needs to be updated to reflect the change.</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <div class="non-printable"><span style="position:relative;top:10px;background-color:rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6"><span><span aria-hidden="true" class="fas fa-laptop-code"></span></span> HANDS-ON: Rename branches in a remote</span> <div class="indented-level1"><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-suitcase"></span> Preparation</strong></small></span> You can use the fork and the clone of the <a href="https://github.com/se-edu/samplerepo-books">samplerepo-books</a> that you created in <a href="/lessons/remoteBranchDelete/index.html">Lesson T8L3. Deleting Branches from a Remote</a>.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>Target <span aria-hidden="true" class="fas fa-arrow-right"></span><span aria-hidden="true" class="fas fa-grip-lines-vertical"></span></strong></small></span> <strong>Rename the branch <code class="hljs inline no-lang">fantasy</code></strong> in the remote (i.e., your fork) to <code class="hljs inline no-lang">fantasy-books</code>.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>Steps</strong></small></span></p> <ol><li>Ensure you are in the <code class="hljs inline no-lang">master</code> branch.</li> <li>Create a local copy of the remote-tracking branch <code class="hljs inline no-lang">origin/fantasy</code>.</li> <li>Rename the local copy of the branch to <code class="hljs inline no-lang">fantasy-books</code>.</li> <li>Push the renamed local branch to the remote, while setting up tracking for the branch as well.</li> <li>Delete the remote branch.</li></ol> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <pre><code class="no-line-numbers hljs bash"><span>git switch master                     <span class="hljs-comment"># ensure you are on the master branch</span>
 </span><span>git switch -c fantasy origin/fantasy  <span class="hljs-comment"># create a local copy, tracking the remote branch</span>
 </span><span>git branch -m fantasy fantasy-books   <span class="hljs-comment"># rename local branch</span>
 </span><span>git push -u origin fantasy-books      <span class="hljs-comment"># push the new branch to remote, and set it to track</span>
 </span><span>git push origin --delete fantasy      <span class="hljs-comment"># delete the old branch</span>
-</span></code></pre><p>You can run the <code class="hljs inline no-lang">git log --oneline --decorate --graph --all</code> to check the revision graph after each step. The final outcome should be something like the below:</p> <pre><code class="no-line-numbers hljs bash"><span>* 355915c (HEAD -&gt; fantasy-books, origin/fantasy-books) Add fantasy.txt
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p>You can run the <code class="hljs inline no-lang">git log --oneline --decorate --graph --all</code> to check the revision graph after each step. The final outcome should be something like the below:</p> <pre><code class="no-line-numbers hljs bash"><span>* 355915c (HEAD -&gt; fantasy-books, origin/fantasy-books) Add fantasy.txt
 </span><span>| * 027b2b0 (origin/master, origin/HEAD, master) Merge branch textbooks
 </span><span>|/|
 </span><span>| * a6ebaec (origin/textbooks) Add textbooks.txt
 </span><span>|/
 </span><span>* d462638 Add horror.txt
-</span></code></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Perform the above steps (each step was covered in a previous lesson).</p><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div></div> <div></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-seamless" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="" data-v-4484e25a></div><!----></div></div> <div style="background-color:#e6fff2;border-bottom-left-radius:15px;border-bottom-right-radius:15px;" class="non-printable p-3 border-bottom border-5 border-success"><p><strong>At this point</strong>: <span>You should now be able to work with branches in a remote repo, and keep them synchronised with branches in the local repo.</span></p> <p><strong>What&#39;s next</strong>: <span>More trails to be added in the future.</span></p></div></div> <div></div></div></div></div></div></div></p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"><nav id="mb-page-nav" class="nav nav-pills flex-column my-0 small no-flex-wrap" data-v-6b1b63d2><!--[--><a class="nav-link py-1" href="#t8l1-pushing-branches-to-a-remote">T8L1. Pushing Branches to a Remote‎</a> <a class="nav-link py-1" href="#t8l2-pulling-branches-from-a-remote">T8L2. Pulling Branches from a Remote‎</a> <a class="nav-link py-1" href="#t8l3-deleting-branches-from-a-remote">T8L3. Deleting Branches from a Remote‎</a> <a class="nav-link py-1" href="#t8l4-renaming-branches-in-a-remote">T8L4. Renaming Branches in a Remote‎</a><!--]--><!--v-if--></nav></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.0.2</a>, generated on Mon, 8 Dec 2025, 3:02:49 GMT+8]</small></div></footer><!--]--></div>
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Perform the above steps (each step was covered in a previous lesson).</p><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div></div> <div></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-seamless" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="" data-v-4484e25a></div><!----></div></div> <div style="background-color:#e6fff2;border-bottom-left-radius:15px;border-bottom-right-radius:15px;" class="non-printable p-3 border-bottom border-5 border-success"><p><strong>At this point</strong>: <span>You should now be able to work with branches in a remote repo, and keep them synchronised with branches in the local repo.</span></p> <p><strong>What&#39;s next</strong>: <span>More trails to be added in the future.</span></p></div></div> <div></div></div></div></div></div></div></p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"><nav id="mb-page-nav" class="nav nav-pills flex-column my-0 small no-flex-wrap" data-v-6b1b63d2><!--[--><a class="nav-link py-1" href="#t8l1-pushing-branches-to-a-remote">T8L1. Pushing Branches to a Remote‎</a> <a class="nav-link py-1" href="#t8l2-pulling-branches-from-a-remote">T8L2. Pulling Branches from a Remote‎</a> <a class="nav-link py-1" href="#t8l3-deleting-branches-from-a-remote">T8L3. Deleting Branches from a Remote‎</a> <a class="nav-link py-1" href="#t8l4-renaming-branches-in-a-remote">T8L4. Renaming Branches in a Remote‎</a><!--]--><!--v-if--></nav></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.0.2</a>, generated on Mon, 8 Dec 2025, 16:00:27 GMT+8]</small></div></footer><!--]--></div>
 </body><script src="/markbind/js/bootstrap-utility.min.js"></script>
 <script src="/markbind/js/polyfill.min.js"></script>
 <script src="/markbind/js/vue.global.prod.min.js"></script>
@@ -187,4 +556,171 @@ After forking, go to the fork and ensure all three branches are in there.</p> <p
     });
 
   </script>
+    <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3.2.0/dist/umd/index.js"></script>
+    <script>
+    docsearch({
+      container: "#algolia-search-input",
+      appId: "undefined",
+      apiKey: "undefined",
+      indexName: "undefined",
+      searchParameters: {}
+    });
+  </script>
+    <script>
+    const style = document.createElement('style');
+    style.innerHTML = ".DocSearch-Container { z-index: 1002; position: fixed; }";
+    document.getElementsByTagName('head')[0].appendChild(style);
+  </script>
+  
+    <script>
+    function copyCodeBlock(element) {
+        const pre = element.parentElement.parentElement;
+        const codeElement = pre.querySelector('code');
+        const copyButtonBody = element.querySelector('.function-btn-body');
+        const tooltipText = element.querySelector(".tooltiptext");
+
+        // create dummy text element to select() the text field
+        const textElement = document.createElement('textarea');
+        textElement.value = codeElement.textContent;
+        document.body.appendChild(textElement);
+        textElement.select();
+
+        document.execCommand('copy');
+        document.body.removeChild(textElement);
+        copyButtonBody.innerHTML = `
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    height="18"
+    viewBox="2 2 22 22"
+  >
+    <path d="M 19.28125 5.28125 L 9 15.5625 L 4.71875 11.28125 L 3.28125 12.71875 L 8.28125 17.71875 
+    L 9 18.40625 L 9.71875 17.71875 L 20.71875 6.71875 Z"></path>
+  </svg>
+`;
+        console.log("Running tooltip");
+        tooltipText.innerText  = `Copied!`;
+        setTimeout(() => {
+            copyButtonBody.innerHTML = `
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "/>
+    </g>
+</svg>
+`;
+            tooltipText.innerText  = `Copy`;
+        }, 3000);
+    }
+    </script>
+    <script>
+    function toggleCodeBlockWrap(element) {
+      const pre = element.parentElement.parentElement;
+      const tooltipText = element.querySelector(".tooltiptext");
+      const classList = pre.querySelector('code').classList; 
+      if (classList.contains('wrap')) {
+          classList.remove('wrap');
+          tooltipText.innerText  = `Wrap Text`;
+      } else {
+          classList.add('wrap')
+          tooltipText.innerText  = `Unwrap Text`;
+      }
+    }
+    </script>
+    <script src="/plugins/dataTable/datatables.min.js"></script>
+    
+  <script>
+    function getTableOptions(el) {
+      const options = {};
+      if ($(el).hasClass('sortable-table')) {
+        options.searching = false;
+        options.paging = false;
+        options.info = false;
+      } else if ($(el).hasClass('searchable-table')) {
+        options.ordering = false;
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      } else if ($(el).hasClass('sortable-searchable-table')) {
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      }
+      return options;
+    }
+
+    function initializeTables(tables) {
+      if (!tables || tables.length === 0) return;
+      tables.forEach(table => {
+        const options = getTableOptions(table);
+        $(table).DataTable(options);
+        $(table).addClass('dt-processed');
+      });
+    }
+
+    function setupTableObserver() {
+      const observer = new MutationObserver((mutations) => {
+        let newTables = [];
+        
+        mutations.forEach(mutation => {
+          if (mutation.addedNodes.length) {
+            mutation.addedNodes.forEach(node => {
+
+              if (node.nodeType === 1 && node.tagName === 'TABLE' && 
+                  !$(node).hasClass('dt-processed') &&
+                  ($(node).hasClass('sortable-table') || 
+                   $(node).hasClass('searchable-table') || 
+                   $(node).hasClass('sortable-searchable-table'))) {
+                newTables.push(node);
+              }
+              
+              if (node.nodeType === 1 && node.querySelectorAll) {
+                const tablesInNode = node.querySelectorAll(
+                'table.sortable-table:not(.dt-processed), ' +
+                'table.searchable-table:not(.dt-processed), ' +
+                'table.sortable-searchable-table:not(.dt-processed)');
+                if (tablesInNode.length) {
+                  newTables = [...newTables, ...tablesInNode];
+                }
+              }
+            });
+          }
+        });
+
+        if (newTables.length > 0) {
+          initializeTables(newTables);
+        }
+      });
+      
+      // Start observing the entire document for changes
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true
+      });
+      
+      return observer;
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      // Process any existing tables
+      const existingTables = document.querySelectorAll(
+        'table.sortable-table:not(.dt-processed), ' +
+        'table.searchable-table:not(.dt-processed), ' +
+        'table.sortable-searchable-table:not(.dt-processed)'
+      );
+      if (existingTables.length > 0) {
+        initializeTables(existingTables);
+      }
+      
+      setupTableObserver();
+    });
+
+  </script>
+
 </html>

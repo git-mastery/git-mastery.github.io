@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="generator" content="MarkBind 6.0.2">
-    <meta name="viewport" content="width=device-width, initial-scale=1"><title>Git-Mastery - Git-Mastery App</title> <link rel="stylesheet" href="/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/markbind/css/markbind.min.css"><link rel="stylesheet" href="/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><title>Git-Mastery - Git-Mastery App</title> <link rel="stylesheet" href="/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/markbind/css/markbind.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.0/dist/style.css"><link rel="preconnect" href="https://undefined-dsn.algolia.net" crossorigin><link rel="stylesheet" href="/plugins/codeBlockCopyButtons/codeBlockButtons.css"><link rel="stylesheet" href="/plugins/codeBlockWrapButtons/codeBlockButtons.css"><link rel="stylesheet" href="/plugins/dataTable/datatables.min.css"><link rel="stylesheet" href="/plugins/dataTable/datatables-additional.css"><link rel="stylesheet" href="/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
     
   <link rel="stylesheet" href="/css/main.css">
 <link rel="icon" href="/favicon.ico"></head>
@@ -13,48 +13,868 @@
 </script>
 <body  data-bs-spy="scroll" data-bs-target="#mb-page-nav" data-bs-offset="100" >
 <div id="app"><!--[--><header sticky><div placement="top" data-v-2dc82f13><nav class="navbar navbar-expand-md d-print-none navbar-dark bg-dark" data-v-2dc82f13><div class="container-fluid" data-v-2dc82f13><div class="navbar-left" data-v-2dc82f13><!--[--><a href="https://git-mastery.github.io" title="SE-EDU" class="navbar-brand"><span><strong><strong>Git-Mastery</strong></strong></span></a><!--]--></div><div class="navbar-default" data-v-2dc82f13><ul class="navbar-nav me-auto mt-2 mt-lg-0" data-v-2dc82f13><!--[--> <li><a href="/index.html" class="nav-link"><span><strong>Home</strong></span></a></li> <li><a href="/lessons/index.html" class="nav-link"><span><strong>Lessons</strong></span></a></li> <li><a href="/exercises-directory/index.html" class="nav-link"><span><strong>Exercises</strong></span></a></li> <li><a href="https://git-mastery.github.io/progress-dashboard/" class="nav-link"><span><strong>Progress</strong></span></a></li> <li><a href="/companion-app/index.html" class="nav-link"><span><strong>App</strong></span></a></li> <li><a href="https://git-mastery.github.io/developers/" class="nav-link"><span><strong>Dev Docs</strong></span></a></li> <li><a href="/about/index.html" class="nav-link"><span><strong>About</strong></span></a></li> <li><a href="https://github.com/git-mastery" class="nav-link"><span><span aria-hidden="true" class="fab fa-github"></span></span></a></li> <!--]--></ul></div><ul class="navbar-nav navbar-right" data-v-2dc82f13><!--[--><li class="nav-link"><form class="navbar-form"><div style="position:relative;" class="dropdown" data-v-00e26d0a><!--[--><input value="" data-bs-toggle="dropdown" type="text" class="form-control" placeholder="Search" autocomplete="off" data-v-00e26d0a><div class="form-control placeholder-div-hidden" data-v-00e26d0a>Search</div><!--]--><ul class="dropdown-menu search-dropdown-menu dropdown-menu-hidden dropdown-menu-end" data-v-00e26d0a><!--[--><!--]--></ul></div></form></li><!--]--></ul></div></nav><div style="display:none;" class="lower-navbar-container" data-v-2dc82f13><!--[--><!----><!----><!--]--></div></div></header> <div id="flex-body"><div id="content-wrapper" class="fixed-header-padding"><p><h1 id="git-mastery-app">Git-Mastery App<a class="fa fa-anchor" href="#git-mastery-app" onclick="event.stopPropagation()"></a></h1> <h2 id="what-it-is-for">What it is for<a class="fa fa-anchor" href="#what-it-is-for" onclick="event.stopPropagation()"></a></h2> <p><strong>The GitMastery app is a small <span class="trigger" data-mb-component-type="tooltip" tabindex="0"><!----><!-- do not delete this comment, it is for the stray space issue (#2419)
- --><!----></span> utility that helps learners</strong> with the following:</p> <ul><li>Set up scaffolded sandboxes for hands-on practicals and exercises</li> <li>Give feedback on exercises</li> <li>Track progress through exercises, locally and online (opt-in)</li></ul> <h2 id="installation-and-setup">Installation and Setup<a class="fa fa-anchor" href="#installation-and-setup" onclick="event.stopPropagation()"></a></h2> <p><strong>If you are following Git-Mastery lessons in the given sequence</strong> you will be introduced Git-Mastery in appropriate points in the lesson path. You don&#39;t need to set it up in advance.</p> <p><strong>If you are following lessons out of sequence, or if you are doing the exercises only,</strong> follow the instructions given below to set up Git-Mastery app (and other required tools) in your computer, in the given sequence.</p> <div><div class="card-container" data-v-4484e25a><div class="card expandable-card border-dark" data-v-4484e25a><div class="card-header header-toggle bg-dark border-dark" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-dark text-white" data-v-4484e25a><!--[--><!--[--><h6 id="preparation-install-git"><span aria-hidden="true" class="fas fa-gear"></span> PREPARATION: <strong>Install Git</strong><a class="fa fa-anchor" href="#preparation-install-git" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-windows"></span> Windows<!--]--></div></div><!--[--> <p><strong>Download the Git installer</strong> from the <a href="https://git-scm.com/downloads/win">official Git website</a>.<br> <strong>Run the installer</strong> and make sure to <strong>select the option to install Git Bash</strong> when prompted.</p> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-info" style="" data-v-19514615><!--[--><i class="fas fa-info" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-info vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><div class="card-container" data-v-4484e25a><div class="card expandable-card card-seamless border-0" data-v-4484e25a><div class="card-header header-toggle bg-transparent border-0" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><span class="glyphicon glyphicon-chevron-right" data-v-4484e25a></span></div><div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-4484e25a><!--[--><!--[--><p>Screenshots given below provide some guidance on the dialogs you might encounter when installing Git. In other cases, go with the default option.</p><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light seamless-button close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-light seamless-button popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-peek-collapsed card-collapse" data-v-4484e25a><div class="d-print-none card-body" data-v-4484e25a><!--[--><!--[--> <span class="image-wrapper"><img src="/lessons/gitPrep/images/selectGitBash.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><br> <span class="image-wrapper"><img src="/lessons/gitPrep/images/chooseTextEditor.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><br> <span class="image-wrapper"><img src="/lessons/gitPrep/images/chooseCheckoutStyle.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><br> <span class="image-wrapper"><img src="/lessons/gitPrep/images/choosePullBehaviour.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span> <span class="image-wrapper"><img src="/lessons/gitPrep/images/chooseGitCredentialManager.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><br><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-seamless" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button></div></div><hr style="" data-v-4484e25a></div><div class="peek-read-more glyphicon glyphicon-chevron-down" data-v-4484e25a></div></div></div><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-warning" style="" data-v-19514615><!--[--><i class="fas fa-exclamation" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-warning vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>When running Git commands, we recommend Windows users to <strong>use the Git Bash terminal</strong> that comes with Git. To open Git Bash terminal, hit the <kbd><span aria-hidden="true" class="fab fa-windows"></span></kbd> key and type <code class="hljs inline no-lang">git-bash</code>.</p> <p><span class="badge rounded-pill bg-success text-white"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> It may be possible that the installation didn&#39;t add a shortcut to the Start Menu.
+ --><!----></span> utility that helps learners</strong> with the following:</p> <ul><li>Set up scaffolded sandboxes for hands-on practicals and exercises</li> <li>Give feedback on exercises</li> <li>Track progress through exercises, locally and online (opt-in)</li></ul> <h2 id="installation-and-setup">Installation and Setup<a class="fa fa-anchor" href="#installation-and-setup" onclick="event.stopPropagation()"></a></h2> <p><strong>If you are following Git-Mastery lessons in the given sequence</strong> you will be introduced Git-Mastery in appropriate points in the lesson path. You don&#39;t need to set it up in advance.</p> <p><strong>If you are following lessons out of sequence, or if you are doing the exercises only,</strong> follow the instructions given below to set up Git-Mastery app (and other required tools) in your computer, in the given sequence.</p> <div><div class="card-container" data-v-4484e25a><div class="card expandable-card border-dark" data-v-4484e25a><div class="card-header header-toggle bg-dark border-dark" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-dark text-white" data-v-4484e25a><!--[--><!--[--><h6 id="preparation-install-git"><span aria-hidden="true" class="fas fa-gear"></span> PREPARATION: <strong>Install Git</strong><a class="fa fa-anchor" href="#preparation-install-git" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-windows"></span> Windows<!--]--></div></div><!--[--> <p><strong>Download the Git installer</strong> from the <a href="https://git-scm.com/downloads/win">official Git website</a>.<br> <strong>Run the installer</strong> and make sure to <strong>select the option to install Git Bash</strong> when prompted.</p> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-info" style="" data-v-19514615><!--[--><i class="fas fa-info" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-info vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><div class="card-container algolia-no-index" data-v-4484e25a><div class="card expandable-card card-seamless border-0" data-v-4484e25a><div class="card-header header-toggle bg-transparent border-0" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><span class="glyphicon glyphicon-chevron-right" data-v-4484e25a></span></div><div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-4484e25a><!--[--><!--[--><p>Screenshots given below provide some guidance on the dialogs you might encounter when installing Git. In other cases, go with the default option.</p><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light seamless-button close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-light seamless-button popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-peek-collapsed card-collapse" data-v-4484e25a><div class="d-print-none card-body" data-v-4484e25a><!--[--><!--[--> <span class="image-wrapper"><img src="/lessons/gitPrep/images/selectGitBash.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><br> <span class="image-wrapper"><img src="/lessons/gitPrep/images/chooseTextEditor.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><br> <span class="image-wrapper"><img src="/lessons/gitPrep/images/chooseCheckoutStyle.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><br> <span class="image-wrapper"><img src="/lessons/gitPrep/images/choosePullBehaviour.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span> <span class="image-wrapper"><img src="/lessons/gitPrep/images/chooseGitCredentialManager.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><br><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-seamless" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button></div></div><hr style="" data-v-4484e25a></div><div class="peek-read-more glyphicon glyphicon-chevron-down" data-v-4484e25a></div></div></div><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-warning" style="" data-v-19514615><!--[--><i class="fas fa-exclamation" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-warning vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>When running Git commands, we recommend Windows users to <strong>use the Git Bash terminal</strong> that comes with Git. To open Git Bash terminal, hit the <kbd><span aria-hidden="true" class="fab fa-windows"></span></kbd> key and type <code class="hljs inline no-lang">git-bash</code>.</p> <p><span class="badge rounded-pill bg-success text-white"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> It may be possible that the installation didn&#39;t add a shortcut to the Start Menu.
 You can navigate to the directory where <code class="hljs inline no-lang">git-bash.exe</code> is (most likely <code class="hljs inline no-lang">C:\Program Files\Git\git-bash.exe</code>), double click <code class="hljs inline no-lang">git-bash.exe</code> to open Git Bash.<br>
-You can also right-click it and choose <code class="hljs inline no-lang">Pin to Start</code> or <code class="hljs inline no-lang">Pin to taskbar</code>.</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <div class="alert box-container seamless d-flex bg-light" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><div class="d-flex" data-v-19514615><div class="icon-wrapper text-info" style="" data-v-19514615><!--[--><span aria-hidden="true" class="fas fa-bookmark"></span><!--]--></div><div class="alert-info vertical-divider" aria-hidden="true" data-v-19514615></div></div><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><div class="box-header-wrapper" data-v-19514615><!-- icon on the left of the header --><!----><!-- header --><div class="box-header" data-v-19514615><!--[--><p><strong class="text-info"><strong>SIDEBAR: Git Bash Terminal</strong></strong></p><!--]--></div><!-- dismiss button to the right of the header --><!----></div><!-- Body wrapper --><div class="box-body-wrapper box-body-wrapper-with-heading" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><!----><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--> <p><strong>Git Bash is a terminal application that lets you use Git from the command line on Windows.</strong> Since Git was originally developed for Unix-like systems (like Linux and macOS), Windows does not come with a native shell that supports all the commands and utilities commonly used with Git.</p> <span class="image-wrapper"><img src="/lessons/gitPrep/images/gitBashWindow.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span> <p><strong>Git Bash provides a Unix-like command-line environment on Windows.</strong> It includes:</p> <ul><li>A Bash shell (Bash stands for <em>Bourne Again SHell</em>), which is a widely used command-line interpreter on Linux and macOS.</li> <li>Common Unix tools and commands (like <code class="hljs inline no-lang">ls</code>, <code class="hljs inline no-lang">cat</code>, <code class="hljs inline no-lang">ssh</code>, etc.) that are useful when working with Git and scripting.</li></ul> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-success" style="" data-v-19514615><!--[--><i class="fas fa-lightbulb" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-success vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><strong>When copy-pasting text onto a Git Bash terminal</strong>, you will not be able to use the familiar <kbd>Ctrl</kbd>+<kbd>V</kbd> key combo to paste. Instead, right-click on the terminal and use the <code class="hljs inline no-lang">Paste</code> menu option.</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-danger" style="" data-v-19514615><!--[--><span aria-hidden="true" class="fab fa-windows"></span><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--> <p><strong>On Windows</strong>, you might need to close and open the terminal again for it to recognise changes done elsewhere in the computer (e.g., newly-installed software, changes to system variables, etc.).</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-apple"></span> MacOS<!--]--></div></div><!--[--> <p><strong>Install <a href="https://brew.sh/">homebrew</a></strong> if you don&#39;t already have it, and then, <strong>run <code class="hljs inline no-lang">brew install git</code></strong></p><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-linux"></span> Linux<!--]--></div></div><!--[--> <p><strong>Use your Linux distribution&#39;s package manager to install Git.</strong> Examples:</p> <ul><li><p>Debian/Ubuntu, run <code class="hljs inline no-lang">sudo apt-get update</code> and then <code class="hljs inline no-lang">sudo apt-get install git</code>.</p></li> <li><p>Fedora: run <code class="hljs inline no-lang">sudo dnf update</code> and then <code class="hljs inline no-lang">sudo dnf install git</code>.</p></li></ul><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><strong>Verify Git is installed</strong>, by running the following command in a terminal.</p> <pre><code class="no-line-numbers hljs bash"><span>git --version
-</span></code></pre><div class="d-flex"><div class="me-3"><span><span><strong><span class="dimmed">⤷</span></strong></span></span></div> <div class="flex-grow-1"><pre><code class="no-line-numbers hljs bash"><span>git version 2._._
-</span></code></pre><p>The output should display the version number.</p></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <p></p></div> <div><div class="card-container" data-v-4484e25a><div class="card expandable-card border-dark" data-v-4484e25a><div class="card-header header-toggle bg-dark border-dark" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-dark text-white" data-v-4484e25a><!--[--><!--[--><h6 id="preparation-set-user-name-and-user-email"><span aria-hidden="true" class="fas fa-gear"></span> PREPARATION: <strong>Set <code class="hljs inline no-lang">user.name</code> and <code class="hljs inline no-lang">user.email</code></strong><a class="fa fa-anchor" href="#preparation-set-user-name-and-user-email" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <p><strong>To set the two config settings</strong>, run the following commands in your terminal window:</p> <pre><code class="no-line-numbers hljs bash"><span>git config --global user.name <span class="hljs-string">&quot;&lt;your-name&gt;&quot;</span>
+You can also right-click it and choose <code class="hljs inline no-lang">Pin to Start</code> or <code class="hljs inline no-lang">Pin to taskbar</code>.</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <div class="alert box-container seamless d-flex bg-light" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><div class="d-flex" data-v-19514615><div class="icon-wrapper text-info" style="" data-v-19514615><!--[--><span aria-hidden="true" class="fas fa-bookmark"></span><!--]--></div><div class="alert-info vertical-divider" aria-hidden="true" data-v-19514615></div></div><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><div class="box-header-wrapper" data-v-19514615><!-- icon on the left of the header --><!----><!-- header --><div class="box-header" data-v-19514615><!--[--><p><strong class="text-info"><strong>SIDEBAR: Git Bash Terminal</strong></strong></p><!--]--></div><!-- dismiss button to the right of the header --><!----></div><!-- Body wrapper --><div class="box-body-wrapper box-body-wrapper-with-heading" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><!----><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--> <p><strong>Git Bash is a terminal application that lets you use Git from the command line on Windows.</strong> Since Git was originally developed for Unix-like systems (like Linux and macOS), Windows does not come with a native shell that supports all the commands and utilities commonly used with Git.</p> <span class="image-wrapper"><img src="/lessons/gitPrep/images/gitBashWindow.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span> <p><strong>Git Bash provides a Unix-like command-line environment on Windows.</strong> It includes:</p> <ul><li>A Bash shell (Bash stands for <em>Bourne Again SHell</em>), which is a widely used command-line interpreter on Linux and macOS.</li> <li>Common Unix tools and commands (like <code class="hljs inline no-lang">ls</code>, <code class="hljs inline no-lang">cat</code>, <code class="hljs inline no-lang">ssh</code>, etc.) that are useful when working with Git and scripting.</li></ul> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-success" style="" data-v-19514615><!--[--><i class="fas fa-lightbulb" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-success vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><strong>When copy-pasting text onto a Git Bash terminal</strong>, you will not be able to use the familiar <kbd>Ctrl</kbd>+<kbd>V</kbd> key combo to paste. Instead, right-click on the terminal and use the <code class="hljs inline no-lang">Paste</code> menu option.</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-danger" style="" data-v-19514615><!--[--><span aria-hidden="true" class="fab fa-windows"></span><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--> <p><strong>On Windows</strong>, you might need to close and open the terminal again for it to recognise changes done elsewhere in the computer (e.g., newly-installed software, changes to system variables, etc.).</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-apple"></span> MacOS<!--]--></div></div><!--[--> <p><strong>Install <a href="https://brew.sh/">homebrew</a></strong> if you don&#39;t already have it, and then, <strong>run <code class="hljs inline no-lang">brew install git</code></strong></p><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-linux"></span> Linux<!--]--></div></div><!--[--> <p><strong>Use your Linux distribution&#39;s package manager to install Git.</strong> Examples:</p> <ul><li><p>Debian/Ubuntu, run <code class="hljs inline no-lang">sudo apt-get update</code> and then <code class="hljs inline no-lang">sudo apt-get install git</code>.</p></li> <li><p>Fedora: run <code class="hljs inline no-lang">sudo dnf update</code> and then <code class="hljs inline no-lang">sudo dnf install git</code>.</p></li></ul><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><strong>Verify Git is installed</strong>, by running the following command in a terminal.</p> <pre><code class="no-line-numbers hljs bash"><span>git --version
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><div class="d-flex"><div class="me-3"><span><span><strong><span class="dimmed">⤷</span></strong></span></span></div> <div class="flex-grow-1"><pre><code class="no-line-numbers hljs bash"><span>git version 2._._
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p>The output should display the version number.</p></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <p></p></div> <div><div class="card-container" data-v-4484e25a><div class="card expandable-card border-dark" data-v-4484e25a><div class="card-header header-toggle bg-dark border-dark" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-dark text-white" data-v-4484e25a><!--[--><!--[--><h6 id="preparation-set-user-name-and-user-email"><span aria-hidden="true" class="fas fa-gear"></span> PREPARATION: <strong>Set <code class="hljs inline no-lang">user.name</code> and <code class="hljs inline no-lang">user.email</code></strong><a class="fa fa-anchor" href="#preparation-set-user-name-and-user-email" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <p><strong>To set the two config settings</strong>, run the following commands in your terminal window:</p> <pre><code class="no-line-numbers hljs bash"><span>git config --global user.name <span class="hljs-string">&quot;&lt;your-name&gt;&quot;</span>
 </span><span>git config --global user.email <span class="hljs-string">&quot;&lt;your-email@example.com&gt;&quot;</span>
-</span></code></pre><p><strong>To check if they are set as intended</strong>, you can use the following two commands:</p> <pre><code class="no-line-numbers hljs bash"><span>git config --global user.name
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p><strong>To check if they are set as intended</strong>, you can use the following two commands:</p> <pre><code class="no-line-numbers hljs bash"><span>git config --global user.name
 </span><span>git config --global user.email
-</span></code></pre><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <p></p></div> <div><div class="card-container" data-v-4484e25a><div class="card expandable-card border-dark" data-v-4484e25a><div class="card-header header-toggle bg-dark border-dark" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-dark text-white" data-v-4484e25a><!--[--><!--[--><h6 id="preparation-optional-install-a-gui-client"><span aria-hidden="true" class="fas fa-gear"></span> PREPARATION: <strong>[Optional] Install a GUI client</strong><a class="fa fa-anchor" href="#preparation-optional-install-a-gui-client" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <p><strong>Optionally, you can install a Git GUI client.</strong>
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <p></p></div> <div><div class="card-container" data-v-4484e25a><div class="card expandable-card border-dark" data-v-4484e25a><div class="card-header header-toggle bg-dark border-dark" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-dark text-white" data-v-4484e25a><!--[--><!--[--><h6 id="preparation-optional-install-a-gui-client"><span aria-hidden="true" class="fas fa-gear"></span> PREPARATION: <strong>[Optional] Install a GUI client</strong><a class="fa fa-anchor" href="#preparation-optional-install-a-gui-client" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <p><strong>Optionally, you can install a Git GUI client.</strong>
 e.g., Sourcetree (<a href="https://se-education.org/guides/tutorials/sourcetree.html">installation instructions</a>).</p> <p>Our Git lessons show how to perform Git operations in Git CLI, and in Sourcetree -- the latter just to illustrate how Git GUIs work. It is perfectly fine for you to learn the CLI only.</p> <p><span class="image-wrapper"><img src="/lessons/gitPrep/images/sourcetreeUi.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><br> <sub><span class="dimmed">[image credit: <a href="https://www.sourcetreeapp.com">https://www.sourcetreeapp.com</a>]</span></sub></p><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <p></p></div> <div><div class="card-container" data-v-4484e25a><div class="card expandable-card border-dark" data-v-4484e25a><div class="card-header header-toggle bg-dark border-dark" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-dark text-white" data-v-4484e25a><!--[--><!--[--><h6 id="preparation-recommended-install-and-configure-the-git-mastery-app"><span aria-hidden="true" class="fas fa-gear"></span> PREPARATION: <strong>[Recommended] Install and Configure the Git-Mastery App</strong><a class="fa fa-anchor" href="#preparation-recommended-install-and-configure-the-git-mastery-app" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <p><strong>1. Install the Git-Mastery App</strong></p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-windows"></span> Windows<!--]--></div></div><!--[--> <ul style="list-style-type:none;padding-inline-start:0px;"><li texts="[&#39;a)&#39;, &#39;b)&#39;, &#39;c)&#39;, &#39;d)&#39;, &#39;e)&#39;, &#39;f)&#39;, &#39;g)&#39;, &#39;h)&#39;]" style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">a)</span><div>Download the <code class="hljs inline no-lang">.exe</code> file from <a href="https://github.com/git-mastery/app/releases/latest">the latest release</a>.</div></li> <li style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">b)</span><div>Add the folder containing the <code class="hljs inline no-lang">.exe</code> to your Windows System Variable <code class="hljs inline no-lang">PATH</code>, by following <a href="https://www.wikihow.com/Change-the-PATH-Environment-Variable-on-Windows">this guide</a>.<br>
-E.g. If the file location is <code class="hljs inline no-lang">C:\Users\Jane\Tools\gitmastery.exe</code>, you should add <code class="hljs inline no-lang">C:\Users\Jane\Tools</code> to your <code class="hljs inline no-lang">PATH</code>.</div></li> <li style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">c)</span><div>Close and reopen the Git Bash terminal (for the updated <code class="hljs inline no-lang">PATH</code> to take effect).</div></li></ul> <div class="card-container" icon=":fas-face-surprise:" data-v-4484e25a><div class="card expandable-card" data-v-4484e25a><div class="card-header header-toggle bg-light" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-light" data-v-4484e25a><!--[--><!--[--><p><strong class="badge bg-warning text-dark"><span class="large"><span aria-hidden="true" class="far fa-face-surprise"></span> <span aria-hidden="true" class="fas fa-virus-covid"></span> Windows Defender says gitmastery.exe is a virus?</span></strong></p><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-secondary close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-secondary popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-peek-collapsed card-collapse" data-v-4484e25a><div class="d-print-none card-body" data-v-4484e25a><!--[--><!--[--> <p><strong>In some cases, Windows Defender virus scanner can incorrectly block gitmastery.exe</strong> as a virus. The Git-Mastery team is currently working on getting the app white-listed. In the meantime, it is safe to override the warning/blockade, either by choosing <code class="hljs inline no-lang">Run anyway</code> option (if given) or using the following steps.</p> <ol><li>Open <code class="hljs inline no-lang">Windows Security</code> → <code class="hljs inline no-lang">Virus &amp; threat protection</code>.</li> <li>Click <code class="hljs inline no-lang">Protection history</code>.</li> <li>Find the blocked <code class="hljs inline no-lang">gitmastery.exe</code> and click it.</li> <li>Choose <code class="hljs inline no-lang">Actions</code> → <code class="hljs inline no-lang">Allow on device</code>.<br>
-After this step, you may need to re-download the file if it was removed previously.</li></ol> <p>Alternatively, refer to <a href="https://support.microsoft.com/en-us/windows/virus-and-threat-protection-in-the-windows-security-app-1362f4cd-d71a-b52a-0b66-c2820032b65e">this page</a> to see how to exclude a file from Windows virus scanner (look for the section named &#39;Exclusions&#39;).</p><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><div class="peek-read-more glyphicon glyphicon-chevron-down" data-v-4484e25a></div></div></div><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-apple"></span> MacOS<!--]--></div></div><!--[--> <pre><code class="no-line-numbers hljs bash"><span>brew tap git-mastery/gitmastery
+E.g. If the file location is <code class="hljs inline no-lang">C:\Users\Jane\Tools\gitmastery.exe</code>, you should add <code class="hljs inline no-lang">C:\Users\Jane\Tools</code> to your <code class="hljs inline no-lang">PATH</code>.</div></li> <li style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">c)</span><div>Close and reopen the Git Bash terminal (for the updated <code class="hljs inline no-lang">PATH</code> to take effect).</div></li></ul> <div class="card-container algolia-no-index" icon=":fas-face-surprise:" data-v-4484e25a><div class="card expandable-card" data-v-4484e25a><div class="card-header header-toggle bg-light" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-light" data-v-4484e25a><!--[--><!--[--><p><strong class="badge bg-warning text-dark"><span class="large"><span aria-hidden="true" class="far fa-face-surprise"></span> <span aria-hidden="true" class="fas fa-virus-covid"></span> Windows Defender says gitmastery.exe is a virus?</span></strong></p><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-secondary close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-secondary popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-peek-collapsed card-collapse" data-v-4484e25a><div class="d-print-none card-body" data-v-4484e25a><!--[--><!--[--> <p><strong>In some cases, Windows Defender virus scanner can incorrectly block gitmastery.exe</strong> as a virus. The Git-Mastery team is currently working on getting the app white-listed. In the meantime, it is safe to override the warning/blockade, either by choosing <code class="hljs inline no-lang">Run anyway</code> option (if given) or using the following steps.</p> <ol><li>Open <code class="hljs inline no-lang">Windows Security</code> → <code class="hljs inline no-lang">Virus &amp; threat protection</code>.</li> <li>Click <code class="hljs inline no-lang">Protection history</code>.</li> <li>Find the blocked <code class="hljs inline no-lang">gitmastery.exe</code> and click it.</li> <li>Choose <code class="hljs inline no-lang">Actions</code> → <code class="hljs inline no-lang">Allow on device</code>.<br>
+After this step, you may need to re-download the file if it was removed previously.</li></ol> <p>Alternatively, refer to <a href="https://support.microsoft.com/en-us/windows/virus-and-threat-protection-in-the-windows-security-app-1362f4cd-d71a-b52a-0b66-c2820032b65e">this page</a> to see how to exclude a file from Windows virus scanner (look for the section named &#39;Exclusions&#39;).</p><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><div class="peek-read-more glyphicon glyphicon-chevron-down" data-v-4484e25a></div></div></div><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-apple"></span> MacOS<!--]--></div></div><!--[--> <pre><code class="no-line-numbers hljs bash"><span>brew tap git-mastery/gitmastery
 </span><span>brew install gitmastery
-</span></code></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-linux"></span> Linux<!--]--></div></div><!--[--> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Debian/Ubuntu<!--]--></div></div><!--[--> <p>Ensure you are running <code class="hljs inline no-lang">libc</code> version 2.38 or newer (you can use the <code class="hljs inline no-lang">ldd --version</code> command to check the current version).</p> <p>Then install the app by running the following commands:</p> <pre><code class="hljs bash"><span><span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;deb [trusted=yes] https://git-mastery.github.io/gitmastery-apt-repo any main&quot;</span> | \
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-linux"></span> Linux<!--]--></div></div><!--[--> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Debian/Ubuntu<!--]--></div></div><!--[--> <p>Ensure you are running <code class="hljs inline no-lang">libc</code> version 2.38 or newer (you can use the <code class="hljs inline no-lang">ldd --version</code> command to check the current version).</p> <p>Then install the app by running the following commands:</p> <pre><code class="hljs bash"><span><span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;deb [trusted=yes] https://git-mastery.github.io/gitmastery-apt-repo any main&quot;</span> | \
 </span><span>  sudo tee /etc/apt/sources.list.d/gitmastery.list &gt; /dev/null
 </span><span>sudo apt install software-properties-common
 </span><span>sudo add-apt-repository <span class="hljs-string">&quot;deb https://git-mastery.github.io/gitmastery-apt-repo any main&quot;</span>
 </span><span>sudo apt update
 </span><span>sudo apt-get install gitmastery
-</span></code></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Arch<!--]--></div></div><!--[--> <p>Use an <a href="https://wiki.archlinux.org/title/AUR_helpers">AUR helper</a> to install <code class="hljs inline no-lang">gitmastery-bin</code>. For example using <a href="https://github.com/Jguer/yay">yay</a>:</p> <pre><code class="hljs bash"><span>yay -S gitmastery-bin
-</span></code></pre><p>Alternatively, you can build the <code class="hljs inline no-lang">PKGBUILD</code> yourself following the <a href="https://wiki.archlinux.org/title/Arch_User_Repository#Installing_and_upgrading_packages">instructions on the Arch wiki</a>.</p><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Others<!--]--></div></div><!--[--> <p>If you are using a Linux distribution that is not yet supported by Git-Mastery, please download the right binary for your architecture from <a href="https://github.com/git-mastery/app/releases/latest">the latest release.</a></p> <p>Install it to <code class="hljs inline no-lang">/usr/bin</code> to access the binary, the following using version <code class="hljs inline no-lang">3.3.0</code> as an example.</p> <pre><code class="hljs bash"><span>install -D -m 0755 gitmastery-3.3.0-linux-arm64 /usr/bin/gitmastery
-</span></code></pre><!--]--><hr data-v-65067870></div><!--]--></div></div><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><strong>2. To verify the installation</strong>, run the <code class="hljs inline no-lang">gitmastery --help</code> command from a couple of different folder locations. An example given below (IMPORTANT: change the <code class="hljs inline no-lang">cd</code> command to match your folders):</p> <pre><code class="no-line-numbers hljs bash"><span>gitmastery --<span class="hljs-built_in">help</span>
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Arch<!--]--></div></div><!--[--> <p>Use an <a href="https://wiki.archlinux.org/title/AUR_helpers">AUR helper</a> to install <code class="hljs inline no-lang">gitmastery-bin</code>. For example using <a href="https://github.com/Jguer/yay">yay</a>:</p> <pre><code class="hljs bash"><span>yay -S gitmastery-bin
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p>Alternatively, you can build the <code class="hljs inline no-lang">PKGBUILD</code> yourself following the <a href="https://wiki.archlinux.org/title/Arch_User_Repository#Installing_and_upgrading_packages">instructions on the Arch wiki</a>.</p><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Others<!--]--></div></div><!--[--> <p>If you are using a Linux distribution that is not yet supported by Git-Mastery, please download the right binary for your architecture from <a href="https://github.com/git-mastery/app/releases/latest">the latest release.</a></p> <p>Install it to <code class="hljs inline no-lang">/usr/bin</code> to access the binary, the following using version <code class="hljs inline no-lang">3.3.0</code> as an example.</p> <pre><code class="hljs bash"><span>install -D -m 0755 gitmastery-3.3.0-linux-arm64 /usr/bin/gitmastery
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--><hr data-v-65067870></div><!--]--></div></div><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><strong>2. To verify the installation</strong>, run the <code class="hljs inline no-lang">gitmastery --help</code> command from a couple of different folder locations. An example given below (IMPORTANT: change the <code class="hljs inline no-lang">cd</code> command to match your folders):</p> <pre><code class="no-line-numbers hljs bash"><span>gitmastery --<span class="hljs-built_in">help</span>
 </span><span><span class="hljs-built_in">cd</span><span> <span class="highlighted">../my-projects</span>  </span><span class="hljs-comment"># cd into a different folder</span>
 </span><span>gitmastery --<span class="hljs-built_in">help</span>
-</span></code></pre><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-info" style="" data-v-19514615><!--[--><i class="fas fa-info" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-info vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>The current version of <span class="mkb-text-red">the app takes about 3-5 seconds to respond to a command</span>. This is because the app comes with a bundled Python runtime (so that users don&#39;t need to install Python first) which needs to load first before the command can be executed.</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <p><strong>3. Trigger the initial setup</strong> by running the <code class="hljs inline no-lang">gitmastery setup</code> command in a suitable folder (the app will create files/folders inside this folder).</p> <pre><code class="no-line-numbers hljs bash"><span>mkdir gitmastery-home
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-info" style="" data-v-19514615><!--[--><i class="fas fa-info" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-info vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>The current version of <span class="mkb-text-red">the app takes about 3-5 seconds to respond to a command</span>. This is because the app comes with a bundled Python runtime (so that users don&#39;t need to install Python first) which needs to load first before the command can be executed.</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <p><strong>3. Trigger the initial setup</strong> by running the <code class="hljs inline no-lang">gitmastery setup</code> command in a suitable folder (the app will create files/folders inside this folder).</p> <pre><code class="no-line-numbers hljs bash"><span>mkdir gitmastery-home
 </span><span><span class="hljs-built_in">cd</span> gitmastery-home
 </span><span>gitmastery setup
-</span></code></pre><p>The <code class="hljs inline no-lang">gitmastery setup</code> command will perform the following tasks:</p> <ul style="list-style-type:none;padding-inline-start:0px;"><li texts="[&#39;a)&#39;, &#39;b)&#39;, &#39;c)&#39;, &#39;d)&#39;, &#39;e)&#39;, &#39;f)&#39;, &#39;g)&#39;, &#39;h)&#39;]" style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">a)</span><div>Checks if Git is installed.</div></li> <li style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">b)</span><div>Checks if <code class="hljs inline no-lang">user.name</code> and <code class="hljs inline no-lang">user.email</code> are set.</div></li> <li style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">c)</span><div>Prompts you to specify a name for the <strong>git-mastery</strong> <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">exercises directory</span></span> <ul><li>Recommended: accept the default (i.e., <code class="hljs inline no-lang">gitmastery-exercises</code>) by pressing <kbd>Enter</kbd>.</li> <li>If you choose to specify a different name for that folder, remember to use that name instead whenever our instructions refer to the <code class="hljs inline no-lang">gitmastery-exercises</code> folder.</li></ul></div></li> <li style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">d)</span><div>Sets up a mechanism to locally track the progress of your exercises.</div></li></ul> <p>Notes:</p> <ul><li>If the command failed due to checks (a) or (b) failing, you can rectify the problem and run the command again.</li> <li>If you wish to check the Git set up again at a later time, you can run the <code class="hljs inline no-lang">gitmastery check git</code> command.</li></ul> <p><strong>4. Keep the app updated.</strong> As the Git-Mastery app is under active development, it is likely to get updated frequently. When you run a <code class="hljs inline no-lang">gitmastery &lt;command&gt;</code>, the output will warn you if there is a new version, in which case you should update the app immediately, by following the instructions in that message.</p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-windows"></span> Windows<!--]--></div></div><!--[--> <p>Download the <code class="hljs inline no-lang">.exe</code> file from <a href="https://github.com/git-mastery/app/releases/latest">the latest release</a></p><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-apple"></span> MacOS<!--]--></div></div><!--[--> <pre><code class="no-line-numbers hljs bash"><span>brew update
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p>The <code class="hljs inline no-lang">gitmastery setup</code> command will perform the following tasks:</p> <ul style="list-style-type:none;padding-inline-start:0px;"><li texts="[&#39;a)&#39;, &#39;b)&#39;, &#39;c)&#39;, &#39;d)&#39;, &#39;e)&#39;, &#39;f)&#39;, &#39;g)&#39;, &#39;h)&#39;]" style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">a)</span><div>Checks if Git is installed.</div></li> <li style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">b)</span><div>Checks if <code class="hljs inline no-lang">user.name</code> and <code class="hljs inline no-lang">user.email</code> are set.</div></li> <li style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">c)</span><div>Prompts you to specify a name for the <strong>git-mastery</strong> <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">exercises directory</span></span> <ul><li>Recommended: accept the default (i.e., <code class="hljs inline no-lang">gitmastery-exercises</code>) by pressing <kbd>Enter</kbd>.</li> <li>If you choose to specify a different name for that folder, remember to use that name instead whenever our instructions refer to the <code class="hljs inline no-lang">gitmastery-exercises</code> folder.</li></ul></div></li> <li style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">d)</span><div>Sets up a mechanism to locally track the progress of your exercises.</div></li></ul> <p>Notes:</p> <ul><li>If the command failed due to checks (a) or (b) failing, you can rectify the problem and run the command again.</li> <li>If you wish to check the Git set up again at a later time, you can run the <code class="hljs inline no-lang">gitmastery check git</code> command.</li></ul> <p><strong>4. Keep the app updated.</strong> As the Git-Mastery app is under active development, it is likely to get updated frequently. When you run a <code class="hljs inline no-lang">gitmastery &lt;command&gt;</code>, the output will warn you if there is a new version, in which case you should update the app immediately, by following the instructions in that message.</p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-windows"></span> Windows<!--]--></div></div><!--[--> <p>Download the <code class="hljs inline no-lang">.exe</code> file from <a href="https://github.com/git-mastery/app/releases/latest">the latest release</a></p><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-apple"></span> MacOS<!--]--></div></div><!--[--> <pre><code class="no-line-numbers hljs bash"><span>brew update
 </span><span>brew upgrade gitmastery
-</span></code></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-linux"></span> Linux<!--]--></div></div><!--[--> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Debian/Ubuntu<!--]--></div></div><!--[--> <pre><code class="hljs bash"><span>sudo apt-get install --only-upgrade gitmastery
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-linux"></span> Linux<!--]--></div></div><!--[--> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Debian/Ubuntu<!--]--></div></div><!--[--> <pre><code class="hljs bash"><span>sudo apt-get install --only-upgrade gitmastery
 </span><span>
-</span></code></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Arch<!--]--></div></div><!--[--> <pre><code class="hljs bash"><span>sudo pacman -S gitmastery-bin
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Arch<!--]--></div></div><!--[--> <pre><code class="hljs bash"><span>sudo pacman -S gitmastery-bin
 </span><span>
-</span></code></pre><!--]--><hr data-v-65067870></div><!--]--></div></div><!--]--><hr data-v-65067870></div><!--]--></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <p></p></div> <div><div class="card-container" data-v-4484e25a><div class="card expandable-card border-dark" data-v-4484e25a><div class="card-header header-toggle bg-dark border-dark" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-dark text-white" data-v-4484e25a><!--[--><!--[--><h6 id="preparation-create-a-github-account"><span aria-hidden="true" class="fas fa-gear"></span> PREPARATION: <strong>Create a GitHub account</strong><a class="fa fa-anchor" href="#preparation-create-a-github-account" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <p><strong>Create a personal GitHub account</strong> as described in <a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github">GitHub Docs → Creating an account on GitHub</a>, if you don&#39;t have one yet.</p> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-success" style="" data-v-19514615><!--[--><i class="fas fa-lightbulb" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-success vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><strong>Choose a sensible GitHub username</strong> as you are likely to use it for years to come in professional contexts e.g., in job applications.</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <p><strong>[Optional, but recommended] Set up your GitHub profile</strong>, as explained in <a href="https://docs.github.com/en/get-started/start-your-journey/setting-up-your-profile">GitHub Docs → Setting up your profile</a>.</p><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <p></p></div> <div><div class="card-container" data-v-4484e25a><div class="card expandable-card border-dark" data-v-4484e25a><div class="card-header header-toggle bg-dark border-dark" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-dark text-white" data-v-4484e25a><!--[--><!--[--><h6 id="preparation-set-up-authentication-with-github"><span aria-hidden="true" class="fas fa-gear"></span> PREPARATION: <strong>Set up authentication with GitHub</strong><a class="fa fa-anchor" href="#preparation-set-up-authentication-with-github" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <p>Set up your computer&#39;s GitHub authentication, as described in the se-edu guide <a href="https://se-education.org/guides/tutorials/githubAuthentication.html">Setting up GitHub Authentication</a>.</p><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <p></p></div> <div><div class="card-container" data-v-4484e25a><div class="card expandable-card border-dark" data-v-4484e25a><div class="card-header header-toggle bg-dark border-dark" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-dark text-white" data-v-4484e25a><!--[--><!--[--><h6 id="preparation-optional-configure-user-email-to-use-the-no-reply-email-from-github"><span aria-hidden="true" class="fas fa-gear"></span> PREPARATION: <strong>[Optional] Configure <code class="hljs inline no-lang">user.email</code> to use the no-reply email from GitHub</strong><a class="fa fa-anchor" href="#preparation-optional-configure-user-email-to-use-the-no-reply-email-from-github" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <p><strong>If you prefer not to include your real email address in commits,</strong> you can do the following:</p> <ol><li><p><strong>Find your no-reply email provided by GitHub:</strong>  Navigate to the email settings of your GitHub account and select the option to <code class="hljs inline no-lang">Keep my email address private</code>. The no-reply address will then be displayed, typically in the format <code class="hljs inline no-lang">ID+USERNAME@users.noreply.github.com</code>.<br> <span class="image-wrapper"><img src="/lessons/githubPrep/images/seeNoReplyEmail.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span></p></li> <li><p><strong>Update your <code class="hljs inline no-lang">user.email</code></strong> with that email address e.g.,</p> <pre><code class="no-line-numbers hljs bash"><span>git config --global user.email <span class="hljs-string">&quot;12345678+username@users.noreply.github.com&quot;</span>
-</span></code></pre></li></ol><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <p></p></div> <div><div class="card-container" data-v-4484e25a><div class="card expandable-card border-dark" data-v-4484e25a><div class="card-header header-toggle bg-dark border-dark" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-dark text-white" data-v-4484e25a><!--[--><!--[--><h6 id="preparation-set-up-github-cli"><span aria-hidden="true" class="fas fa-gear"></span> PREPARATION: <strong>Set up GitHub CLI</strong><a class="fa fa-anchor" href="#preparation-set-up-github-cli" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-windows"></span> Windows<!--]--></div></div><!--[--> <p><strong>1. Download and run the installer</strong> from the <a href="https://github.com/cli/cli/releases">GitHub CLI releases page</a>. This is the file named as <code class="hljs inline no-lang">GitHub CLI {version} windows {chip variant} installer</code>.</p><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-apple"></span> MacOS<!--]--></div></div><!--[--> <p><strong>1. Install GitHub CLI using Homebrew</strong>:</p> <pre><code class="no-line-numbers hljs bash"><span>brew install gh
-</span></code></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-linux"></span> Linux<!--]--></div></div><!--[--> <p><strong>1. Install GitHub CLI</strong>, as explained in the <a href="https://github.com/cli/cli/blob/trunk/docs/install_linux.md">GitHub CLI Linux installation guide</a> for your distribution.</p><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><strong>2. Authenticate yourself to GitHub account:</strong></p> <pre><code class="no-line-numbers hljs bash"><span>gh auth login
-</span></code></pre><p>When prompted, choose the protocol (i.e., <code class="hljs inline no-lang">HTTPS</code> or <code class="hljs inline no-lang">SSH</code>) you used previously to set up your GitHub authentication.</p> <p><strong>3. Give GitHub CLI permission to delete repos in your account</strong>, as this is required for some of the Git-Mastery exercises.</p> <pre><code class="no-line-numbers hljs bash"><span>gh auth refresh -s delete_repo
-</span></code></pre><p><strong>4. Verify the setup</strong> by checking the status of your GitHub CLI with your GitHub account.</p> <pre><code class="no-line-numbers hljs bash"><span>gh auth status
-</span></code></pre><p>You should see confirmation that you’re logged in.</p> <p><strong>5. Verify that Github and GitHub CLI is set up for Git-Mastery:</strong></p> <pre><code class="no-line-numbers hljs bash"><span>gitmastery check github
-</span></code></pre><p><strong>6. [Optional, Recommended] Ask Git-Mastery to switch on the &#39;progress sync&#39; feature.</strong></p> <pre><code class="no-line-numbers hljs bash"><span><span class="hljs-comment"># cd into the gitmastery-exercises folder first</span>
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--><hr data-v-65067870></div><!--]--></div></div><!--]--><hr data-v-65067870></div><!--]--></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <p></p></div> <div><div class="card-container" data-v-4484e25a><div class="card expandable-card border-dark" data-v-4484e25a><div class="card-header header-toggle bg-dark border-dark" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-dark text-white" data-v-4484e25a><!--[--><!--[--><h6 id="preparation-create-a-github-account"><span aria-hidden="true" class="fas fa-gear"></span> PREPARATION: <strong>Create a GitHub account</strong><a class="fa fa-anchor" href="#preparation-create-a-github-account" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <p><strong>Create a personal GitHub account</strong> as described in <a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github">GitHub Docs → Creating an account on GitHub</a>, if you don&#39;t have one yet.</p> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-success" style="" data-v-19514615><!--[--><i class="fas fa-lightbulb" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-success vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><strong>Choose a sensible GitHub username</strong> as you are likely to use it for years to come in professional contexts e.g., in job applications.</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <p><strong>[Optional, but recommended] Set up your GitHub profile</strong>, as explained in <a href="https://docs.github.com/en/get-started/start-your-journey/setting-up-your-profile">GitHub Docs → Setting up your profile</a>.</p><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <p></p></div> <div><div class="card-container" data-v-4484e25a><div class="card expandable-card border-dark" data-v-4484e25a><div class="card-header header-toggle bg-dark border-dark" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-dark text-white" data-v-4484e25a><!--[--><!--[--><h6 id="preparation-set-up-authentication-with-github"><span aria-hidden="true" class="fas fa-gear"></span> PREPARATION: <strong>Set up authentication with GitHub</strong><a class="fa fa-anchor" href="#preparation-set-up-authentication-with-github" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <p>Set up your computer&#39;s GitHub authentication, as described in the se-edu guide <a href="https://se-education.org/guides/tutorials/githubAuthentication.html">Setting up GitHub Authentication</a>.</p><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <p></p></div> <div><div class="card-container" data-v-4484e25a><div class="card expandable-card border-dark" data-v-4484e25a><div class="card-header header-toggle bg-dark border-dark" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-dark text-white" data-v-4484e25a><!--[--><!--[--><h6 id="preparation-optional-configure-user-email-to-use-the-no-reply-email-from-github"><span aria-hidden="true" class="fas fa-gear"></span> PREPARATION: <strong>[Optional] Configure <code class="hljs inline no-lang">user.email</code> to use the no-reply email from GitHub</strong><a class="fa fa-anchor" href="#preparation-optional-configure-user-email-to-use-the-no-reply-email-from-github" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <p><strong>If you prefer not to include your real email address in commits,</strong> you can do the following:</p> <ol><li><p><strong>Find your no-reply email provided by GitHub:</strong>  Navigate to the email settings of your GitHub account and select the option to <code class="hljs inline no-lang">Keep my email address private</code>. The no-reply address will then be displayed, typically in the format <code class="hljs inline no-lang">ID+USERNAME@users.noreply.github.com</code>.<br> <span class="image-wrapper"><img src="/lessons/githubPrep/images/seeNoReplyEmail.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span></p></li> <li><p><strong>Update your <code class="hljs inline no-lang">user.email</code></strong> with that email address e.g.,</p> <pre><code class="no-line-numbers hljs bash"><span>git config --global user.email <span class="hljs-string">&quot;12345678+username@users.noreply.github.com&quot;</span>
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre></li></ol><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <p></p></div> <div><div class="card-container" data-v-4484e25a><div class="card expandable-card border-dark" data-v-4484e25a><div class="card-header header-toggle bg-dark border-dark" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-dark text-white" data-v-4484e25a><!--[--><!--[--><h6 id="preparation-set-up-github-cli"><span aria-hidden="true" class="fas fa-gear"></span> PREPARATION: <strong>Set up GitHub CLI</strong><a class="fa fa-anchor" href="#preparation-set-up-github-cli" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-windows"></span> Windows<!--]--></div></div><!--[--> <p><strong>1. Download and run the installer</strong> from the <a href="https://github.com/cli/cli/releases">GitHub CLI releases page</a>. This is the file named as <code class="hljs inline no-lang">GitHub CLI {version} windows {chip variant} installer</code>.</p><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-apple"></span> MacOS<!--]--></div></div><!--[--> <p><strong>1. Install GitHub CLI using Homebrew</strong>:</p> <pre><code class="no-line-numbers hljs bash"><span>brew install gh
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-linux"></span> Linux<!--]--></div></div><!--[--> <p><strong>1. Install GitHub CLI</strong>, as explained in the <a href="https://github.com/cli/cli/blob/trunk/docs/install_linux.md">GitHub CLI Linux installation guide</a> for your distribution.</p><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><strong>2. Authenticate yourself to GitHub account:</strong></p> <pre><code class="no-line-numbers hljs bash"><span>gh auth login
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p>When prompted, choose the protocol (i.e., <code class="hljs inline no-lang">HTTPS</code> or <code class="hljs inline no-lang">SSH</code>) you used previously to set up your GitHub authentication.</p> <p><strong>3. Give GitHub CLI permission to delete repos in your account</strong>, as this is required for some of the Git-Mastery exercises.</p> <pre><code class="no-line-numbers hljs bash"><span>gh auth refresh -s delete_repo
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p><strong>4. Verify the setup</strong> by checking the status of your GitHub CLI with your GitHub account.</p> <pre><code class="no-line-numbers hljs bash"><span>gh auth status
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p>You should see confirmation that you’re logged in.</p> <p><strong>5. Verify that Github and GitHub CLI is set up for Git-Mastery:</strong></p> <pre><code class="no-line-numbers hljs bash"><span>gitmastery check github
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p><strong>6. [Optional, Recommended] Ask Git-Mastery to switch on the &#39;progress sync&#39; feature.</strong></p> <pre><code class="no-line-numbers hljs bash"><span><span class="hljs-comment"># cd into the gitmastery-exercises folder first</span>
 </span><span>gitmastery progress sync on
-</span></code></pre><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-info" style="" data-v-19514615><!--[--><i class="fas fa-info" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-info vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><strong>What happens when you switch on the Git-Mastery &#39;progress sync&#39; feature?</strong></p> <ul><li>Your Git-Mastery exercises progress will be backed up to your GitHub account. If you wipe out your local progress data by mistake, the remote copy will still be preserved.</li> <li>Git-Mastery will create a repo in your GitHub account, to back up your progress data. This repo will be publicly visible.</li></ul><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <p></p></div></p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"><nav id="mb-page-nav" class="nav nav-pills flex-column my-0 small no-flex-wrap" data-v-6b1b63d2><!--[--><a class="nav-link py-1" href="#git-mastery-app">Git-Mastery App‎</a> <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap"><a class="nav-link py-1" href="#what-it-is-for">What it is for‎</a> <a class="nav-link py-1" href="#installation-and-setup">Installation and Setup‎</a> <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap"><a class="nav-link py-1" href="#preparation-install-git"> PREPARATION: Install Git‎</a> <a class="nav-link py-1" href="#preparation-set-user-name-and-user-email"> PREPARATION: Set user.name and user.email‎</a> <a class="nav-link py-1" href="#preparation-optional-install-a-gui-client"> PREPARATION: [Optional] Install a GUI client‎</a> <a class="nav-link py-1" href="#preparation-recommended-install-and-configure-the-git-mastery-app"> PREPARATION: [Recommended] Install and Configure the Git-Mastery App‎</a> <a class="nav-link py-1" href="#preparation-create-a-github-account"> PREPARATION: Create a GitHub account‎</a> <a class="nav-link py-1" href="#preparation-set-up-authentication-with-github"> PREPARATION: Set up authentication with GitHub‎</a> <a class="nav-link py-1" href="#preparation-optional-configure-user-email-to-use-the-no-reply-email-from-github"> PREPARATION: [Optional] Configure user.email to use the no-reply email from GitHub‎</a> <a class="nav-link py-1" href="#preparation-set-up-github-cli"> PREPARATION: Set up GitHub CLI‎</a></nav></nav><!--]--><!--v-if--></nav></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.0.2</a>, generated on Mon, 8 Dec 2025, 3:02:49 GMT+8]</small></div></footer><!--]--></div>
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-info" style="" data-v-19514615><!--[--><i class="fas fa-info" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-info vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><strong>What happens when you switch on the Git-Mastery &#39;progress sync&#39; feature?</strong></p> <ul><li>Your Git-Mastery exercises progress will be backed up to your GitHub account. If you wipe out your local progress data by mistake, the remote copy will still be preserved.</li> <li>Git-Mastery will create a repo in your GitHub account, to back up your progress data. This repo will be publicly visible.</li></ul><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <p></p></div></p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"><nav id="mb-page-nav" class="nav nav-pills flex-column my-0 small no-flex-wrap" data-v-6b1b63d2><!--[--><a class="nav-link py-1" href="#git-mastery-app">Git-Mastery App‎</a> <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap"><a class="nav-link py-1" href="#what-it-is-for">What it is for‎</a> <a class="nav-link py-1" href="#installation-and-setup">Installation and Setup‎</a> <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap"><a class="nav-link py-1" href="#preparation-install-git"> PREPARATION: Install Git‎</a> <a class="nav-link py-1" href="#preparation-set-user-name-and-user-email"> PREPARATION: Set user.name and user.email‎</a> <a class="nav-link py-1" href="#preparation-optional-install-a-gui-client"> PREPARATION: [Optional] Install a GUI client‎</a> <a class="nav-link py-1" href="#preparation-recommended-install-and-configure-the-git-mastery-app"> PREPARATION: [Recommended] Install and Configure the Git-Mastery App‎</a> <a class="nav-link py-1" href="#preparation-create-a-github-account"> PREPARATION: Create a GitHub account‎</a> <a class="nav-link py-1" href="#preparation-set-up-authentication-with-github"> PREPARATION: Set up authentication with GitHub‎</a> <a class="nav-link py-1" href="#preparation-optional-configure-user-email-to-use-the-no-reply-email-from-github"> PREPARATION: [Optional] Configure user.email to use the no-reply email from GitHub‎</a> <a class="nav-link py-1" href="#preparation-set-up-github-cli"> PREPARATION: Set up GitHub CLI‎</a></nav></nav><!--]--><!--v-if--></nav></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.0.2</a>, generated on Mon, 8 Dec 2025, 16:00:27 GMT+8]</small></div></footer><!--]--></div>
 </body><script src="/markbind/js/bootstrap-utility.min.js"></script>
 <script src="/markbind/js/polyfill.min.js"></script>
 <script src="/markbind/js/vue.global.prod.min.js"></script>
@@ -143,4 +963,171 @@ After this step, you may need to re-download the file if it was removed previous
     });
 
   </script>
+    <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3.2.0/dist/umd/index.js"></script>
+    <script>
+    docsearch({
+      container: "#algolia-search-input",
+      appId: "undefined",
+      apiKey: "undefined",
+      indexName: "undefined",
+      searchParameters: {}
+    });
+  </script>
+    <script>
+    const style = document.createElement('style');
+    style.innerHTML = ".DocSearch-Container { z-index: 1002; position: fixed; }";
+    document.getElementsByTagName('head')[0].appendChild(style);
+  </script>
+  
+    <script>
+    function copyCodeBlock(element) {
+        const pre = element.parentElement.parentElement;
+        const codeElement = pre.querySelector('code');
+        const copyButtonBody = element.querySelector('.function-btn-body');
+        const tooltipText = element.querySelector(".tooltiptext");
+
+        // create dummy text element to select() the text field
+        const textElement = document.createElement('textarea');
+        textElement.value = codeElement.textContent;
+        document.body.appendChild(textElement);
+        textElement.select();
+
+        document.execCommand('copy');
+        document.body.removeChild(textElement);
+        copyButtonBody.innerHTML = `
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    height="18"
+    viewBox="2 2 22 22"
+  >
+    <path d="M 19.28125 5.28125 L 9 15.5625 L 4.71875 11.28125 L 3.28125 12.71875 L 8.28125 17.71875 
+    L 9 18.40625 L 9.71875 17.71875 L 20.71875 6.71875 Z"></path>
+  </svg>
+`;
+        console.log("Running tooltip");
+        tooltipText.innerText  = `Copied!`;
+        setTimeout(() => {
+            copyButtonBody.innerHTML = `
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "/>
+    </g>
+</svg>
+`;
+            tooltipText.innerText  = `Copy`;
+        }, 3000);
+    }
+    </script>
+    <script>
+    function toggleCodeBlockWrap(element) {
+      const pre = element.parentElement.parentElement;
+      const tooltipText = element.querySelector(".tooltiptext");
+      const classList = pre.querySelector('code').classList; 
+      if (classList.contains('wrap')) {
+          classList.remove('wrap');
+          tooltipText.innerText  = `Wrap Text`;
+      } else {
+          classList.add('wrap')
+          tooltipText.innerText  = `Unwrap Text`;
+      }
+    }
+    </script>
+    <script src="/plugins/dataTable/datatables.min.js"></script>
+    
+  <script>
+    function getTableOptions(el) {
+      const options = {};
+      if ($(el).hasClass('sortable-table')) {
+        options.searching = false;
+        options.paging = false;
+        options.info = false;
+      } else if ($(el).hasClass('searchable-table')) {
+        options.ordering = false;
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      } else if ($(el).hasClass('sortable-searchable-table')) {
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      }
+      return options;
+    }
+
+    function initializeTables(tables) {
+      if (!tables || tables.length === 0) return;
+      tables.forEach(table => {
+        const options = getTableOptions(table);
+        $(table).DataTable(options);
+        $(table).addClass('dt-processed');
+      });
+    }
+
+    function setupTableObserver() {
+      const observer = new MutationObserver((mutations) => {
+        let newTables = [];
+        
+        mutations.forEach(mutation => {
+          if (mutation.addedNodes.length) {
+            mutation.addedNodes.forEach(node => {
+
+              if (node.nodeType === 1 && node.tagName === 'TABLE' && 
+                  !$(node).hasClass('dt-processed') &&
+                  ($(node).hasClass('sortable-table') || 
+                   $(node).hasClass('searchable-table') || 
+                   $(node).hasClass('sortable-searchable-table'))) {
+                newTables.push(node);
+              }
+              
+              if (node.nodeType === 1 && node.querySelectorAll) {
+                const tablesInNode = node.querySelectorAll(
+                'table.sortable-table:not(.dt-processed), ' +
+                'table.searchable-table:not(.dt-processed), ' +
+                'table.sortable-searchable-table:not(.dt-processed)');
+                if (tablesInNode.length) {
+                  newTables = [...newTables, ...tablesInNode];
+                }
+              }
+            });
+          }
+        });
+
+        if (newTables.length > 0) {
+          initializeTables(newTables);
+        }
+      });
+      
+      // Start observing the entire document for changes
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true
+      });
+      
+      return observer;
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      // Process any existing tables
+      const existingTables = document.querySelectorAll(
+        'table.sortable-table:not(.dt-processed), ' +
+        'table.searchable-table:not(.dt-processed), ' +
+        'table.sortable-searchable-table:not(.dt-processed)'
+      );
+      if (existingTables.length > 0) {
+        initializeTables(existingTables);
+      }
+      
+      setupTableObserver();
+    });
+
+  </script>
+
 </html>

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="generator" content="MarkBind 6.0.2">
-    <meta name="viewport" content="width=device-width, initial-scale=1"><title>Git-Mastery - T2L4. Linking a Local Repo With a Remote Repo</title> <link rel="stylesheet" href="/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/markbind/css/markbind.min.css"><link rel="stylesheet" href="/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><title>Git-Mastery - T2L4. Linking a Local Repo With a Remote Repo</title> <link rel="stylesheet" href="/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/markbind/css/markbind.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.0/dist/style.css"><link rel="preconnect" href="https://undefined-dsn.algolia.net" crossorigin><link rel="stylesheet" href="/plugins/codeBlockCopyButtons/codeBlockButtons.css"><link rel="stylesheet" href="/plugins/codeBlockWrapButtons/codeBlockButtons.css"><link rel="stylesheet" href="/plugins/dataTable/datatables.min.css"><link rel="stylesheet" href="/plugins/dataTable/datatables-additional.css"><link rel="stylesheet" href="/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
     
   <link rel="stylesheet" href="/css/main.css">
 <link rel="icon" href="/favicon.ico"></head>
@@ -13,23 +13,515 @@
 </script>
 <body >
 <div id="app"><!--[--><header sticky><div placement="top" data-v-2dc82f13><nav class="navbar navbar-expand-md d-print-none navbar-dark bg-dark" data-v-2dc82f13><div class="container-fluid" data-v-2dc82f13><div class="navbar-left" data-v-2dc82f13><!--[--><a href="https://git-mastery.github.io" title="SE-EDU" class="navbar-brand"><span><strong><strong>Git-Mastery</strong></strong></span></a><!--]--></div><div class="navbar-default" data-v-2dc82f13><ul class="navbar-nav me-auto mt-2 mt-lg-0" data-v-2dc82f13><!--[--> <li><a href="/index.html" class="nav-link"><span><strong>Home</strong></span></a></li> <li><a href="/lessons/index.html" class="nav-link"><span><strong>Lessons</strong></span></a></li> <li><a href="/exercises-directory/index.html" class="nav-link"><span><strong>Exercises</strong></span></a></li> <li><a href="https://git-mastery.github.io/progress-dashboard/" class="nav-link"><span><strong>Progress</strong></span></a></li> <li><a href="/companion-app/index.html" class="nav-link"><span><strong>App</strong></span></a></li> <li><a href="https://git-mastery.github.io/developers/" class="nav-link"><span><strong>Dev Docs</strong></span></a></li> <li><a href="/about/index.html" class="nav-link"><span><strong>About</strong></span></a></li> <li><a href="https://github.com/git-mastery" class="nav-link"><span><span aria-hidden="true" class="fab fa-github"></span></span></a></li> <!--]--></ul></div><ul class="navbar-nav navbar-right" data-v-2dc82f13><!--[--><li class="nav-link"><form class="navbar-form"><div style="position:relative;" class="dropdown" data-v-00e26d0a><!--[--><input value="" data-bs-toggle="dropdown" type="text" class="form-control" placeholder="Search" autocomplete="off" data-v-00e26d0a><div class="form-control placeholder-div-hidden" data-v-00e26d0a>Search</div><!--]--><ul class="dropdown-menu search-dropdown-menu dropdown-menu-hidden dropdown-menu-end" data-v-00e26d0a><!--[--><!--]--></ul></div></form></li><!--]--></ul></div></nav><div style="display:none;" class="lower-navbar-container" data-v-2dc82f13><!--[--><!----><!----><!--]--></div></div></header> <div id="flex-body"><nav id="site-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"><div class="site-nav-root"><!--[--><ul class="site-nav-list site-nav-list-root" data-v-6b1b63d2><!--[--><li class="site-nav-custom-list-item site-nav-list-item-0"><p><a href="/lessons/"><strong>Lessons Home</strong></a></p></li> <li><div class="site-nav-default-list-item site-nav-list-item-0" onclick="handleSiteNavClick(this)"><p><small>Tour 1: Recording the History of a Folder</small></p> <div class="site-nav-dropdown-btn-container"><i class="site-nav-dropdown-btn-icon" onclick="handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></div></div><ul class="site-nav-dropdown-container site-nav-list"><li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/trail/recordingFolderHistory/">Tour Home</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/intro/">T1L1. Introduction to Revision Control</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/gitPrep/">T1L2. Preparing to Use Git</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/init/">T1L3. Putting a Folder Under Git&#39;s Control</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/stage/">T1L4. Specifying What to Include in a Snapshot</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/commit/">T1L5. Saving a Snapshot</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/log/">T1L6. Examining the Revision History</a></small></p></li></ul></li> <li><div class="site-nav-default-list-item site-nav-list-item-0" onclick="handleSiteNavClick(this)"><p><small>Tour 2: Backing up a Repo on the Cloud</small></p> <div class="site-nav-dropdown-btn-container"><i class="site-nav-dropdown-btn-icon" onclick="handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></div></div><ul class="site-nav-dropdown-container site-nav-list"><li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/trail/backingUpOnCloud/">Tour Home</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/remoteRepos/">T2L1. Remote Repositories</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/githubPrep/">T2L2. Preparing to use GitHub</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/createRemoteRepo/">T2L3. Creating a Repo on GitHub</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/setRemote/">T2L4. Linking a Local Repo With a Remote Repo</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/push/">T2L5. Updating the Remote Repo</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/ignore/">T2L6. Omitting Files from Revision Control</a></small></p></li></ul></li> <li><div class="site-nav-default-list-item site-nav-list-item-0" onclick="handleSiteNavClick(this)"><p><small>Tour 3: Working Off a Remote Repo</small></p> <div class="site-nav-dropdown-btn-container"><i class="site-nav-dropdown-btn-icon" onclick="handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></div></div><ul class="site-nav-dropdown-container site-nav-list"><li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/trail/workingWithRemotes/">Tour Home</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/fork/">T3L1. Duplicating a Remote Repo on the Cloud</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/clone/">T3L2. Creating a Local Copy of a Repo</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/pull/">T3L3. Downloading Data Into a Local Repo</a></small></p></li></ul></li> <li><div class="site-nav-default-list-item site-nav-list-item-0" onclick="handleSiteNavClick(this)"><p><small>Tour 4: Using the Revision History of a Repo</small></p> <div class="site-nav-dropdown-btn-container"><i class="site-nav-dropdown-btn-icon" onclick="handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></div></div><ul class="site-nav-dropdown-container site-nav-list"><li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/trail/usingRevisionHistory/">Tour Home</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/show/">T4L1. Examining a Commit</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/tag/">T4L2. Tagging Commits</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/diff/">T4L3. Comparing Points of History</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/checkout/">T4L4. Traversing to a Specific Commit</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/reset/">T4L5. Rewriting History to Start Over</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/revert/">T4L6. Reverting a Specific Commit</a></small></p></li></ul></li> <li><div class="site-nav-default-list-item site-nav-list-item-0" onclick="handleSiteNavClick(this)"><p><small>Tour 5: Fine-Tuning the Revision History</small></p> <div class="site-nav-dropdown-btn-container"><i class="site-nav-dropdown-btn-icon" onclick="handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></div></div><ul class="site-nav-dropdown-container site-nav-list"><li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/trail/fineTuningHistory/">Tour Home</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/selectiveStage/">T5L1. Controlling What Goes Into a Commit</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/commitMessage/">T5L2. Writing Good Commit Messages</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/interactiveRebase/">T5L3. Reorganising Commits</a></small></p></li></ul></li> <li><div class="site-nav-default-list-item site-nav-list-item-0" onclick="handleSiteNavClick(this)"><p><small>Tour 6: Branching Locally</small></p> <div class="site-nav-dropdown-btn-container"><i class="site-nav-dropdown-btn-icon" onclick="handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></div></div><ul class="site-nav-dropdown-container site-nav-list"><li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/trail/branchingLocally/">Tour Home</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/branch/">T6L1. Creating Branches</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/merge/">T6L2. Merging Branches</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/mergeConflicts/">T6L3. Resolving Merge Conflicts</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/branchRename/">T6L4. Renaming Branches</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/branchDelete/">T6L5. Deleting Branches</a></small></p></li></ul></li> <li><div class="site-nav-default-list-item site-nav-list-item-0" onclick="handleSiteNavClick(this)"><p><small>Tour 7: Keeping Branches in Sync</small></p> <div class="site-nav-dropdown-btn-container"><i class="site-nav-dropdown-btn-icon" onclick="handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></div></div><ul class="site-nav-dropdown-container site-nav-list"><li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/trail/syncingBranches/">Tour Home</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/syncByMerge/">T7L1. Merging to Sync Branches</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/syncByRebase/">T7L2. Rebasing to Sync Branches</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/cherryPick/">T7L3. Copying Specific Commits</a></small></p></li></ul></li> <li><div class="site-nav-default-list-item site-nav-list-item-0" onclick="handleSiteNavClick(this)"><p><small>Tour 8: Working with Remote Branches</small></p> <div class="site-nav-dropdown-btn-container"><i class="site-nav-dropdown-btn-icon" onclick="handleSiteNavClick(this.parentNode.parentNode, false); event.stopPropagation();"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></div></div><ul class="site-nav-dropdown-container site-nav-list"><li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/trail/remoteBranches/">Tour Home</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/remoteBranchPush/">T8L1. Pushing Branches to a Remote</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/remoteBranchPull/">T8L2. Pulling Branches from a Remote</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/remoteBranchDelete/">T8L3. Deleting Branches from a Remote</a></small></p></li> <li class="site-nav-custom-list-item site-nav-list-item-1"><p><small><a href="/lessons/remoteBranchRename/">T8L4. Renaming Branches in a Remote</a></small></p></li></ul></li> <li class="site-nav-custom-list-item site-nav-list-item-0"><p><small><a href="/lessons/trail/all.html"><strong>All lessons in one page</strong></a></small></p></li><!--]--><!--v-if--></ul><!--]--></div></div><!--]--><!--v-if--></nav> <div id="content-wrapper" class="fixed-header-padding"><h1 id="git-mastery-lessons"><span class="text-dark"><small><strong><strong>Git-Mastery: Lessons</strong></strong></small></span><a class="fa fa-anchor" href="#git-mastery-lessons" onclick="event.stopPropagation()"></a></h1> <p><div><link rel="stylesheet" href="/css/main.css"> <div class="website-content"><div><div id="title-and-body"><div><h4 id="t2l4-linking-a-local-repo-with-a-remote-repo"><span>T2L4. Linking a Local Repo With a Remote Repo</span><a class="fa fa-anchor" href="#t2l4-linking-a-local-repo-with-a-remote-repo" onclick="event.stopPropagation()"></a></h4></div> <div id="main"><div><div class="non-printable"><div class="border border-success pt-0 ps-1 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color:#e6fff2;"><div class="indented"><br> <div id="overview"><p>The second step of backing up a local repo on GitHub: <strong>link the <em>local</em> repo with the <em>remote</em> repo</strong> on GitHub.</p></div> <span><small>This lesson covers that part.</small></span></div></div> <br></div> <p><strong>A Git <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">remote</span></span> is a reference to a repository hosted elsewhere</strong>, usually on a server like GitHub, GitLab, or Bitbucket. It allows your local Git repo to communicate with another remote copy — for example, to upload locally-created commits that are missing in the remote copy.</p> <p><strong>By <em>adding a remote</em>, you are informing the local repo details of a remote repo it can communicate with</strong>, for example, where the repo exists and what name to use to refer to the remote.</p> <p><strong>The URL you use to connect to a remote repo depends on the protocol — HTTPS or SSH</strong>:</p> <ul><li><strong>HTTPS URLs use the standard web protocol</strong> and start with <code class="hljs inline no-lang">https://github.com/</code> (for GitHub users). e.g.,<pre><code class="hljs"><span><span>https://github.com/username/repo-name<span style="background-color:yellow;">.git</span>
-</span></span></code></pre></li> <li><strong>SSH URLs use the secure shell protocol</strong> and start with <code class="hljs inline no-lang">git@github.com:</code>. e.g.,<pre><code class="hljs"><span><span>git@github.com:username/repo-name<span style="background-color:yellow;">.git</span>
-</span></span></code></pre></li></ul> <p><strong>A Git repo can have multiple remotes.</strong> You simply need to specify different names for each remote (e.g., <code class="hljs inline no-lang">upstream</code>, <code class="hljs inline no-lang">central</code>, <code class="hljs inline no-lang">production</code>, <code class="hljs inline no-lang">other-backup</code> ...).</p> <div class="non-printable"><span style="position:relative;top:10px;background-color:rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6"><span><span aria-hidden="true" class="fas fa-laptop-code"></span></span> HANDS-ON: Add a remote to a repo</span> <div class="indented-level1"><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>Target <span aria-hidden="true" class="fas fa-arrow-right"></span><span aria-hidden="true" class="fas fa-grip-lines-vertical"></span></strong></small></span> Add the empty remote repo you created on GitHub as a remote of a local repo you have.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-suitcase"></span> Preparation</strong></small></span> <strong>Use the <code class="hljs inline no-lang">things</code> local repo</strong> you created earlier for this hands-on practical.</p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>1</strong></small></span> <strong>In a terminal, navigate to the folder containing the local repo</strong> <code class="hljs inline no-lang">things</code>.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>2</strong></small></span> <strong>List the current list of remotes</strong> using the <code class="hljs inline no-lang">git remote -v</code> command, for a sanity check. No output is expected if there are no remotes yet.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>3</strong></small></span> <strong>Add a new remote repo</strong> using the <code class="hljs inline no-lang">git remote add &lt;remote-name&gt; &lt;remote-url&gt;</code> command.<br></p> <p>Format of the <code class="hljs inline no-lang">&lt;remote-url&gt;</code>:</p> <pre><code class="hljs bash"><span><span>https://github.com/<span class="highlighted">&lt;owner&gt;</span><span>/<span class="highlighted">&lt;remote-repo&gt;</span>.git  </span></span><span class="hljs-comment"># using HTTPS</span>
+</span></span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre></li> <li><strong>SSH URLs use the secure shell protocol</strong> and start with <code class="hljs inline no-lang">git@github.com:</code>. e.g.,<pre><code class="hljs"><span><span>git@github.com:username/repo-name<span style="background-color:yellow;">.git</span>
+</span></span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre></li></ul> <p><strong>A Git repo can have multiple remotes.</strong> You simply need to specify different names for each remote (e.g., <code class="hljs inline no-lang">upstream</code>, <code class="hljs inline no-lang">central</code>, <code class="hljs inline no-lang">production</code>, <code class="hljs inline no-lang">other-backup</code> ...).</p> <div class="non-printable"><span style="position:relative;top:10px;background-color:rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6"><span><span aria-hidden="true" class="fas fa-laptop-code"></span></span> HANDS-ON: Add a remote to a repo</span> <div class="indented-level1"><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>Target <span aria-hidden="true" class="fas fa-arrow-right"></span><span aria-hidden="true" class="fas fa-grip-lines-vertical"></span></strong></small></span> Add the empty remote repo you created on GitHub as a remote of a local repo you have.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-suitcase"></span> Preparation</strong></small></span> <strong>Use the <code class="hljs inline no-lang">things</code> local repo</strong> you created earlier for this hands-on practical.</p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>1</strong></small></span> <strong>In a terminal, navigate to the folder containing the local repo</strong> <code class="hljs inline no-lang">things</code>.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>2</strong></small></span> <strong>List the current list of remotes</strong> using the <code class="hljs inline no-lang">git remote -v</code> command, for a sanity check. No output is expected if there are no remotes yet.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>3</strong></small></span> <strong>Add a new remote repo</strong> using the <code class="hljs inline no-lang">git remote add &lt;remote-name&gt; &lt;remote-url&gt;</code> command.<br></p> <p>Format of the <code class="hljs inline no-lang">&lt;remote-url&gt;</code>:</p> <pre><code class="hljs bash"><span><span>https://github.com/<span class="highlighted">&lt;owner&gt;</span><span>/<span class="highlighted">&lt;remote-repo&gt;</span>.git  </span></span><span class="hljs-comment"># using HTTPS</span>
 </span><span><span>git@github.com:<span class="highlighted">&lt;owner&gt;</span><span>/<span class="highlighted">&lt;remote-repo&gt;</span>.git  </span></span><span class="hljs-comment"># using SSH</span>
-</span></code></pre><p>The full command:</p> <pre><code class="hljs bash"><span><span>git remote add origin https://github.com/<span class="highlighted">JohnDoe</span><span>/<span class="highlighted">gm-things</span>.git  </span></span><span class="hljs-comment"># using HTTPS</span>
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p>The full command:</p> <pre><code class="hljs bash"><span><span>git remote add origin https://github.com/<span class="highlighted">JohnDoe</span><span>/<span class="highlighted">gm-things</span>.git  </span></span><span class="hljs-comment"># using HTTPS</span>
 </span><span><span>git remote add origin git@github.com:<span class="highlighted">JohnDoe</span><span>/<span class="highlighted">gm-things</span>.git  </span></span><span class="hljs-comment"># using SSH</span>
-</span></code></pre><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>4</strong></small></span> <strong>List the remotes again to verify</strong> the new remote was added.</p> <pre><code class="no-line-numbers hljs bash"><span>git remote -v
-</span></code></pre><div class="d-flex"><div class="me-3"><span><span><strong><span class="dimmed">⤷</span></strong></span></span></div> <div class="flex-grow-1"><pre><code class="no-line-numbers hljs"><span><span><span class="highlighted">origin</span><span>  https://github.com/johndoe/gm-things.git (<span class="highlighted">fetch</span>)
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>4</strong></small></span> <strong>List the remotes again to verify</strong> the new remote was added.</p> <pre><code class="no-line-numbers hljs bash"><span>git remote -v
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><div class="d-flex"><div class="me-3"><span><span><strong><span class="dimmed">⤷</span></strong></span></span></div> <div class="flex-grow-1"><pre><code class="no-line-numbers hljs"><span><span><span class="highlighted">origin</span><span>  https://github.com/johndoe/gm-things.git (<span class="highlighted">fetch</span>)
 </span></span></span><span><span><span class="highlighted">origin</span><span>  https://github.com/johndoe/gm-things.git (<span class="highlighted">push</span>)
-</span></span></span></code></pre></div></div> <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> The same remote will be listed twice, to show that you can do two operations (<code class="hljs inline no-lang">fetch</code> and <code class="hljs inline no-lang">push</code>) using this remote. You can ignore that for now. The important thing is the remote you added is being listed.</p><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>1</strong></small></span> <strong>Open the local repo</strong> in Sourcetree.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>2</strong></small></span> <strong>Open the dialog for adding a remote</strong>, as follows:</p> <p><span aria-hidden="true" class="fab fa-windows"></span> Choose <code class="hljs inline no-lang">Repository</code> → <code class="hljs inline no-lang">Repository Settings</code> menu option.<br> <span aria-hidden="true" class="fab fa-apple"></span> Choose <code class="hljs inline no-lang">Repository</code> → <code class="hljs inline no-lang">Repository Settings...</code> → Choose <code class="hljs inline no-lang">Remotes</code> tab.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>3</strong></small></span> <strong>Add a new <em>remote</em></strong> to the repo with the following values.</p> <span class="image-wrapper" eager><img src="/lessons/setRemote/images/fillRemoteInfoForSourceTree.png" width="450" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span> <ul><li><p><code class="hljs inline no-lang">Remote name</code>: the name you want to assign to the remote repo i.e., <code class="hljs inline no-lang">origin</code></p></li> <li><p><code class="hljs inline no-lang">URL/path</code>: the URL of your remote repo<br></p> <pre><code class="hljs bash"><span><span>https://github.com/<span class="highlighted">&lt;owner&gt;</span><span>/<span class="highlighted">&lt;repo&gt;</span>.git  </span></span><span class="hljs-comment"># using HTTPS</span>
+</span></span></span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre></div></div> <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> The same remote will be listed twice, to show that you can do two operations (<code class="hljs inline no-lang">fetch</code> and <code class="hljs inline no-lang">push</code>) using this remote. You can ignore that for now. The important thing is the remote you added is being listed.</p><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>1</strong></small></span> <strong>Open the local repo</strong> in Sourcetree.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>2</strong></small></span> <strong>Open the dialog for adding a remote</strong>, as follows:</p> <p><span aria-hidden="true" class="fab fa-windows"></span> Choose <code class="hljs inline no-lang">Repository</code> → <code class="hljs inline no-lang">Repository Settings</code> menu option.<br> <span aria-hidden="true" class="fab fa-apple"></span> Choose <code class="hljs inline no-lang">Repository</code> → <code class="hljs inline no-lang">Repository Settings...</code> → Choose <code class="hljs inline no-lang">Remotes</code> tab.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>3</strong></small></span> <strong>Add a new <em>remote</em></strong> to the repo with the following values.</p> <span class="image-wrapper" eager><img src="/lessons/setRemote/images/fillRemoteInfoForSourceTree.png" width="450" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span> <ul><li><p><code class="hljs inline no-lang">Remote name</code>: the name you want to assign to the remote repo i.e., <code class="hljs inline no-lang">origin</code></p></li> <li><p><code class="hljs inline no-lang">URL/path</code>: the URL of your remote repo<br></p> <pre><code class="hljs bash"><span><span>https://github.com/<span class="highlighted">&lt;owner&gt;</span><span>/<span class="highlighted">&lt;repo&gt;</span>.git  </span></span><span class="hljs-comment"># using HTTPS</span>
 </span><span><span>git@github.com:<span class="highlighted">&lt;owner&gt;</span><span>/<span class="highlighted">&lt;repo&gt;</span>.git  </span></span><span class="hljs-comment"># using SSH</span>
-</span></code></pre><p>e.g.,</p> <pre><code class="hljs bash"><span><span>https://github.com/<span class="highlighted">JohnDoe</span><span>/<span class="highlighted">things</span>.git  </span></span><span class="hljs-comment"># using HTTPS</span>
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p>e.g.,</p> <pre><code class="hljs bash"><span><span>https://github.com/<span class="highlighted">JohnDoe</span><span>/<span class="highlighted">things</span>.git  </span></span><span class="hljs-comment"># using HTTPS</span>
 </span><span><span>git@github.com:<span class="highlighted">JohnDoe</span><span>/<span class="highlighted">things</span>.git  </span></span><span class="hljs-comment"># using SSH</span>
-</span></code></pre></li> <li><p><code class="hljs inline no-lang">Username</code>: your GitHub username<br><br></p></li></ul> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>4</strong></small></span> <strong>Verify the remote was added</strong> by going to <code class="hljs inline no-lang">Repository</code> → <code class="hljs inline no-lang">Repository Settings</code> again.</p><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>5</strong></small></span> <strong>Add another <em>remote</em></strong>, to verify that a repo can have multiple remotes. You can use any name (e.g., <code class="hljs inline no-lang">backup</code> and any made-up <code class="hljs inline no-lang">&lt;owner&gt;/&lt;remote-repo&gt;</code> for this).</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div> <div class="alert box-container seamless non-printable" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-success" style="" data-v-19514615><!--[--><i class="fas fa-lightbulb" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-success vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><strong>To find the URL of a repo on GitHub</strong>, you can click on the <span class="btn btn-success ps-1 pe-1 pb-0 pt-0"><span aria-hidden="true" class="fas fa-angle-left"></span><span aria-hidden="true" class="fas fa-angle-right"></span> Code <span aria-hidden="true" class="fas fa-caret-down"></span></span> button:</p> <span class="image-wrapper"><img src="/lessons/setRemote/images/githubFindUrl.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div> <div><div class="card-container non-printable" tags="git-mastery" collapsed data-v-4484e25a><div class="card expandable-card border-danger" data-v-4484e25a><div class="card-header header-toggle bg-danger border-danger" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-danger text-white" data-v-4484e25a><!--[--><!--[--><h6 id="exercise-link-me"><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> EXERCISE: <code class="hljs inline no-lang">link-me</code><a class="fa fa-anchor" href="#exercise-link-me" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><!----><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <a id="managingRemotes"></a> <div class="card-container non-printable" data-v-4484e25a><div class="card expandable-card border-warning" data-v-4484e25a><div class="card-header header-toggle bg-warning border-warning" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-warning" data-v-4484e25a><!--[--><!--[--><p><span><span aria-hidden="true" class="fas fa-diamond-turn-right"></span></span> DETOUR: <strong>Managing Details of a Remote</strong></p><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-secondary close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-secondary popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-peek-collapsed card-collapse" data-v-4484e25a><div class="d-print-none card-body" data-v-4484e25a><!--[--><!--[--> <div><p><strong>To change the URL of a remote</strong> (e.g., origin), use <code class="hljs inline no-lang">git remote set-url &lt;remote-name&gt; &lt;new-url&gt;</code> e.g.,</p> <pre><code class="hljs bash"><span>git remote set-url origin https://github.com/user/repo.git
-</span></code></pre><p><strong>To rename a remote</strong>, use <code class="hljs inline no-lang">git remote rename &lt;old-name&gt; &lt;new-name&gt;</code> e.g.,</p> <pre><code class="hljs bash"><span>git remote rename origin upstream
-</span></code></pre><p><strong>To delete a remote</strong> from your Git repository, use <code class="hljs inline no-lang">git remote remove &lt;remote-name&gt;</code> e.g.,</p> <pre><code class="hljs bash"><span>git remote remove origin
-</span></code></pre><p><strong>To check the current remotes</strong> and their URLs, use:</p> <pre><code class="hljs"><span>git remote -v
-</span></code></pre></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><div class="peek-read-more glyphicon glyphicon-chevron-down" data-v-4484e25a></div></div></div></div></div></div></div></div></div></p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.0.2</a>, generated on Mon, 8 Dec 2025, 3:02:49 GMT+8]</small></div></footer><!--]--></div>
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre></li> <li><p><code class="hljs inline no-lang">Username</code>: your GitHub username<br><br></p></li></ul> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>4</strong></small></span> <strong>Verify the remote was added</strong> by going to <code class="hljs inline no-lang">Repository</code> → <code class="hljs inline no-lang">Repository Settings</code> again.</p><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>5</strong></small></span> <strong>Add another <em>remote</em></strong>, to verify that a repo can have multiple remotes. You can use any name (e.g., <code class="hljs inline no-lang">backup</code> and any made-up <code class="hljs inline no-lang">&lt;owner&gt;/&lt;remote-repo&gt;</code> for this).</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div> <div class="alert box-container seamless non-printable" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-success" style="" data-v-19514615><!--[--><i class="fas fa-lightbulb" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-success vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><strong>To find the URL of a repo on GitHub</strong>, you can click on the <span class="btn btn-success ps-1 pe-1 pb-0 pt-0"><span aria-hidden="true" class="fas fa-angle-left"></span><span aria-hidden="true" class="fas fa-angle-right"></span> Code <span aria-hidden="true" class="fas fa-caret-down"></span></span> button:</p> <span class="image-wrapper"><img src="/lessons/setRemote/images/githubFindUrl.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div> <div><div class="card-container non-printable algolia-no-index" tags="git-mastery" collapsed data-v-4484e25a><div class="card expandable-card border-danger" data-v-4484e25a><div class="card-header header-toggle bg-danger border-danger" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-danger text-white" data-v-4484e25a><!--[--><!--[--><h6 id="exercise-link-me"><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> EXERCISE: <code class="hljs inline no-lang">link-me</code><a class="fa fa-anchor" href="#exercise-link-me" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><!----><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <a id="managingRemotes"></a> <div class="card-container non-printable algolia-no-index" data-v-4484e25a><div class="card expandable-card border-warning" data-v-4484e25a><div class="card-header header-toggle bg-warning border-warning" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-warning" data-v-4484e25a><!--[--><!--[--><p><span><span aria-hidden="true" class="fas fa-diamond-turn-right"></span></span> DETOUR: <strong>Managing Details of a Remote</strong></p><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-secondary close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-secondary popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-peek-collapsed card-collapse" data-v-4484e25a><div class="d-print-none card-body" data-v-4484e25a><!--[--><!--[--> <div><p><strong>To change the URL of a remote</strong> (e.g., origin), use <code class="hljs inline no-lang">git remote set-url &lt;remote-name&gt; &lt;new-url&gt;</code> e.g.,</p> <pre><code class="hljs bash"><span>git remote set-url origin https://github.com/user/repo.git
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p><strong>To rename a remote</strong>, use <code class="hljs inline no-lang">git remote rename &lt;old-name&gt; &lt;new-name&gt;</code> e.g.,</p> <pre><code class="hljs bash"><span>git remote rename origin upstream
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p><strong>To delete a remote</strong> from your Git repository, use <code class="hljs inline no-lang">git remote remove &lt;remote-name&gt;</code> e.g.,</p> <pre><code class="hljs bash"><span>git remote remove origin
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p><strong>To check the current remotes</strong> and their URLs, use:</p> <pre><code class="hljs"><span>git remote -v
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><div class="peek-read-more glyphicon glyphicon-chevron-down" data-v-4484e25a></div></div></div></div></div></div></div></div></div></p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.0.2</a>, generated on Mon, 8 Dec 2025, 16:00:27 GMT+8]</small></div></footer><!--]--></div>
 </body><script src="/markbind/js/bootstrap-utility.min.js"></script>
 <script src="/markbind/js/polyfill.min.js"></script>
 <script src="/markbind/js/vue.global.prod.min.js"></script>
@@ -118,4 +610,171 @@
     });
 
   </script>
+    <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3.2.0/dist/umd/index.js"></script>
+    <script>
+    docsearch({
+      container: "#algolia-search-input",
+      appId: "undefined",
+      apiKey: "undefined",
+      indexName: "undefined",
+      searchParameters: {}
+    });
+  </script>
+    <script>
+    const style = document.createElement('style');
+    style.innerHTML = ".DocSearch-Container { z-index: 1002; position: fixed; }";
+    document.getElementsByTagName('head')[0].appendChild(style);
+  </script>
+  
+    <script>
+    function copyCodeBlock(element) {
+        const pre = element.parentElement.parentElement;
+        const codeElement = pre.querySelector('code');
+        const copyButtonBody = element.querySelector('.function-btn-body');
+        const tooltipText = element.querySelector(".tooltiptext");
+
+        // create dummy text element to select() the text field
+        const textElement = document.createElement('textarea');
+        textElement.value = codeElement.textContent;
+        document.body.appendChild(textElement);
+        textElement.select();
+
+        document.execCommand('copy');
+        document.body.removeChild(textElement);
+        copyButtonBody.innerHTML = `
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    height="18"
+    viewBox="2 2 22 22"
+  >
+    <path d="M 19.28125 5.28125 L 9 15.5625 L 4.71875 11.28125 L 3.28125 12.71875 L 8.28125 17.71875 
+    L 9 18.40625 L 9.71875 17.71875 L 20.71875 6.71875 Z"></path>
+  </svg>
+`;
+        console.log("Running tooltip");
+        tooltipText.innerText  = `Copied!`;
+        setTimeout(() => {
+            copyButtonBody.innerHTML = `
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "/>
+    </g>
+</svg>
+`;
+            tooltipText.innerText  = `Copy`;
+        }, 3000);
+    }
+    </script>
+    <script>
+    function toggleCodeBlockWrap(element) {
+      const pre = element.parentElement.parentElement;
+      const tooltipText = element.querySelector(".tooltiptext");
+      const classList = pre.querySelector('code').classList; 
+      if (classList.contains('wrap')) {
+          classList.remove('wrap');
+          tooltipText.innerText  = `Wrap Text`;
+      } else {
+          classList.add('wrap')
+          tooltipText.innerText  = `Unwrap Text`;
+      }
+    }
+    </script>
+    <script src="/plugins/dataTable/datatables.min.js"></script>
+    
+  <script>
+    function getTableOptions(el) {
+      const options = {};
+      if ($(el).hasClass('sortable-table')) {
+        options.searching = false;
+        options.paging = false;
+        options.info = false;
+      } else if ($(el).hasClass('searchable-table')) {
+        options.ordering = false;
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      } else if ($(el).hasClass('sortable-searchable-table')) {
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      }
+      return options;
+    }
+
+    function initializeTables(tables) {
+      if (!tables || tables.length === 0) return;
+      tables.forEach(table => {
+        const options = getTableOptions(table);
+        $(table).DataTable(options);
+        $(table).addClass('dt-processed');
+      });
+    }
+
+    function setupTableObserver() {
+      const observer = new MutationObserver((mutations) => {
+        let newTables = [];
+        
+        mutations.forEach(mutation => {
+          if (mutation.addedNodes.length) {
+            mutation.addedNodes.forEach(node => {
+
+              if (node.nodeType === 1 && node.tagName === 'TABLE' && 
+                  !$(node).hasClass('dt-processed') &&
+                  ($(node).hasClass('sortable-table') || 
+                   $(node).hasClass('searchable-table') || 
+                   $(node).hasClass('sortable-searchable-table'))) {
+                newTables.push(node);
+              }
+              
+              if (node.nodeType === 1 && node.querySelectorAll) {
+                const tablesInNode = node.querySelectorAll(
+                'table.sortable-table:not(.dt-processed), ' +
+                'table.searchable-table:not(.dt-processed), ' +
+                'table.sortable-searchable-table:not(.dt-processed)');
+                if (tablesInNode.length) {
+                  newTables = [...newTables, ...tablesInNode];
+                }
+              }
+            });
+          }
+        });
+
+        if (newTables.length > 0) {
+          initializeTables(newTables);
+        }
+      });
+      
+      // Start observing the entire document for changes
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true
+      });
+      
+      return observer;
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      // Process any existing tables
+      const existingTables = document.querySelectorAll(
+        'table.sortable-table:not(.dt-processed), ' +
+        'table.searchable-table:not(.dt-processed), ' +
+        'table.sortable-searchable-table:not(.dt-processed)'
+      );
+      if (existingTables.length > 0) {
+        initializeTables(existingTables);
+      }
+      
+      setupTableObserver();
+    });
+
+  </script>
+
 </html>

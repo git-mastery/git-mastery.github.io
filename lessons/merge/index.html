@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="generator" content="MarkBind 6.0.2">
-    <meta name="viewport" content="width=device-width, initial-scale=1"><title>Git-Mastery - T6L2. Merging Branches</title> <link rel="stylesheet" href="/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/markbind/css/markbind.min.css"><link rel="stylesheet" href="/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><title>Git-Mastery - T6L2. Merging Branches</title> <link rel="stylesheet" href="/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/markbind/css/markbind.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.0/dist/style.css"><link rel="preconnect" href="https://undefined-dsn.algolia.net" crossorigin><link rel="stylesheet" href="/plugins/codeBlockCopyButtons/codeBlockButtons.css"><link rel="stylesheet" href="/plugins/codeBlockWrapButtons/codeBlockButtons.css"><link rel="stylesheet" href="/plugins/dataTable/datatables.min.css"><link rel="stylesheet" href="/plugins/dataTable/datatables-additional.css"><link rel="stylesheet" href="/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
     
   <link rel="stylesheet" href="/css/main.css">
 <link rel="icon" href="/favicon.ico"></head>
@@ -45,9 +45,137 @@ In the above example, <code class="hljs inline no-lang">master</code> is the des
     checkout feature1
     merge master id: &quot;[HEAD → feature1] mc1&quot;
 </pre> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <pre><code class="no-line-numbers hljs bash"><span>$ git merge master
-</span></code></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Right-click on the <code class="hljs inline no-lang">master</code> branch and choose <code class="hljs inline no-lang">merge master into the current branch</code>. Click <code class="hljs inline no-lang">OK</code> in the next dialog.<br>
-The revision graph should look like this now (colours and line alignment might vary but the graph structure should be the same):<br> <span class="image-wrapper" eager><img src="/lessons/merge/images/sourcetreeAfterMeringMaster.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span></p> <p></p><!--]--><hr data-v-65067870></div><!--]--></div></div> <p>Observe how the changes you made in the <code class="hljs inline no-lang">master</code> branch (i.e., the imaginary bug fix in <code class="hljs inline no-lang">m3</code>) is now available even when you are in the <code class="hljs inline no-lang">feature1</code> branch.<br>
-Furthermore, observe (e.g., <code class="hljs inline no-lang">git show HEAD</code>) how the merge commit contains the sum of changes done in  commits <code class="hljs inline no-lang">m3</code>, <code class="hljs inline no-lang">f1</code>, and <code class="hljs inline no-lang">f2</code>.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>3</strong></small></span> <strong>Add another commit to the <code class="hljs inline no-lang">feature1</code> branch</strong>, in which you do some further changes to the <code class="hljs inline no-lang">numbers.txt</code>.<br> <strong>Switch to the <code class="hljs inline no-lang">master</code> branch and add one more commit.</strong></p> <pre class="mermaid">gitGraph BT:
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Right-click on the <code class="hljs inline no-lang">master</code> branch and choose <code class="hljs inline no-lang">merge master into the current branch</code>. Click <code class="hljs inline no-lang">OK</code> in the next dialog.<br> <span class="image-wrapper"><img src="/lessons/merge/images/sourcetreeChooseToMergeMaster.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><br> <em>If</em> a confirmation dialog pops up, choose as follows:<br> <span class="image-wrapper"><img src="/lessons/merge/images/sourcetreeMergeConfirmationDialog.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><br>
+The revision graph should look like this now (colours and line alignment might vary but the graph structure should be the same):<br> <span class="image-wrapper"><img src="/lessons/merge/images/sourcetreeAfterMeringMaster.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span></p> <p></p><!--]--><hr data-v-65067870></div><!--]--></div></div> <p>Observe how the changes you made in the <code class="hljs inline no-lang">master</code> branch (i.e., the imaginary bug fix in <code class="hljs inline no-lang">m3</code>) is now available even when you are in the <code class="hljs inline no-lang">feature1</code> branch.<br>
+Furthermore, observe (e.g., <code class="hljs inline no-lang">git show HEAD</code>) how the merge commit contains the sum of changes done in  commits <code class="hljs inline no-lang">m3</code>, <code class="hljs inline no-lang">f1</code>, and <code class="hljs inline no-lang">f2</code>.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>3</strong></small></span> <strong>Add another commit to the <code class="hljs inline no-lang">feature1</code> branch</strong>, in which you do some further changes to the <code class="hljs inline no-lang">boxing.txt</code>.</p> <pre><code class="hljs bash"><span><span class="hljs-built_in">echo</span> -e <span class="hljs-string">&quot;Manny Pacquiao&quot;</span> &gt;&gt; boxing.txt
+</span><span>git commit -am <span class="hljs-string">&quot;Add Manny to boxing.txt&quot;</span>
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p><strong>Switch to the <code class="hljs inline no-lang">master</code> branch and add one more commit.</strong></p> <pre><code class="hljs bash"><span>git switch master
+</span><span><span class="hljs-built_in">echo</span> -e <span class="hljs-string">&quot;Lionel Messi&quot;</span> &gt;&gt; football.txt
+</span><span>git commit -am <span class="hljs-string">&quot;Add Messi to football.txt&quot;</span>
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><pre class="mermaid">gitGraph BT:
     %%{init: { &#39;theme&#39;: &#39;default&#39;, &#39;gitGraph&#39;: {&#39;mainBranchName&#39;: &#39;master&#39;}} }%%
     commit id: &quot;m1&quot;
     commit id: &quot;m2&quot;
@@ -77,7 +205,48 @@ Furthermore, observe (e.g., <code class="hljs inline no-lang">git show HEAD</cod
     commit id: &quot;m4&quot;
     merge feature1 id: &quot;[HEAD → master] mc2&quot;
 </pre> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <pre><code class="no-line-numbers hljs bash"><span>git merge feature1
-</span></code></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Right-click on the <code class="hljs inline no-lang">feature1</code> branch and choose <code class="hljs inline no-lang">Merge...</code>. The resulting revision graph should look like this:</p> <span class="image-wrapper" eager><img src="/lessons/merge/images/sourcetreeAfterMeringFeature1.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span> <p></p><!--]--><hr data-v-65067870></div><!--]--></div></div> <p>Now, any changes you made in <code class="hljs inline no-lang">feature1</code> branch are available in the master branch.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div> <p><strong>When the destination branch hasn&#39;t diverged</strong> — meaning it hasn&#39;t had any new commits since the merge base —  <strong>Git simply moves the branch pointer forward to include all the new commits in the source branch</strong>, keeping the history clean and linear. This is <strong>called a <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">fast-forward merge</span></span></strong> because Git simply &quot;fast-forwards&quot; the branch pointer to the tip of the other branch. The result looks as if all the changes had been made directly on one branch, without any branching at all.</p> <div class="d-flex flex-column flex-md-row align-items-stretch justify-content-start gap-2"><div class="flex-shrink-0 d-flex flex-column justify-content-end"><pre class="mermaid">gitGraph BT:
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Right-click on the <code class="hljs inline no-lang">feature1</code> branch and choose <code class="hljs inline no-lang">Merge...</code>. The resulting revision graph should look like this:</p> <span class="image-wrapper" eager><img src="/lessons/merge/images/sourcetreeAfterMeringFeature1.png" width="400" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span> <p></p><!--]--><hr data-v-65067870></div><!--]--></div></div> <p>Now, any changes you made in <code class="hljs inline no-lang">feature1</code> branch are available in the master branch.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div> <p><strong>When the destination branch hasn&#39;t diverged</strong> — meaning it hasn&#39;t had any new commits since the merge base commit —  <strong>Git simply moves the branch pointer forward to include all the new commits in the source branch</strong>, keeping the history clean and linear. This is <strong>called a <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">fast-forward merge</span></span></strong> because Git simply &quot;fast-forwards&quot; the branch pointer to the tip of the other branch. The result looks as if all the changes had been made directly on one branch, without any branching at all.</p> <div class="d-flex flex-column flex-md-row align-items-stretch justify-content-start gap-2"><div class="flex-shrink-0 d-flex flex-column justify-content-end"><pre class="mermaid">gitGraph BT:
     %%{init: { &#39;theme&#39;: &#39;default&#39;, &#39;gitGraph&#39;: {&#39;mainBranchName&#39;: &#39;master&#39;}} }%%
     commit id: &quot;m1&quot;
     commit id: &quot;[HEAD → master] m2&quot;
@@ -92,28 +261,118 @@ Furthermore, observe (e.g., <code class="hljs inline no-lang">git show HEAD</cod
     commit id: &quot;b1&quot;
     commit id: &quot;[HEAD → master][bug-fix] b2&quot;
     checkout master
-</pre></div></div> <p>In the example above, the <code class="hljs inline no-lang">master</code> branch has not changed since the merge base (i.e., <code class="hljs inline no-lang">m2</code>). Hence, merging the branch <code class="hljs inline no-lang">bug-fix</code> onto <code class="hljs inline no-lang">master</code> can be done by fast-forwarding the <code class="hljs inline no-lang">master</code> branch ref to the tip of the <code class="hljs inline no-lang">bug-fix</code> branch (i.e., <code class="hljs inline no-lang">b2</code>).</p> <div class="non-printable"><span style="position:relative;top:10px;background-color:rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6"><span><span aria-hidden="true" class="fas fa-laptop-code"></span></span> HANDS-ON: Do a fast-forward merge</span> <div class="indented-level1"><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-suitcase"></span> Preparation</strong></small></span> Let&#39;s continue with the same <code class="hljs inline no-lang">samplerepo-things</code> repo we used above, and do a fast-forward merge this time.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>1</strong></small></span> <strong>Create a new branch called <code class="hljs inline no-lang">add-countries</code>, and some commits to it</strong> as follows:<br>
-Switch to the new branch, add a file named <code class="hljs inline no-lang">countries.txt</code>, stage it, and commit it.<br>
-Do some changes to <code class="hljs inline no-lang">countries.txt</code>, and commit those changes.<br>
-You should have something like this now:</p> <pre class="mermaid">gitGraph BT:
+</pre></div></div> <p>In the example above, the <code class="hljs inline no-lang">master</code> branch has not changed since the merge base (i.e., <code class="hljs inline no-lang">m2</code>). Hence, merging the branch <code class="hljs inline no-lang">bug-fix</code> onto <code class="hljs inline no-lang">master</code> can be done by fast-forwarding the <code class="hljs inline no-lang">master</code> branch ref to the tip of the <code class="hljs inline no-lang">bug-fix</code> branch (i.e., <code class="hljs inline no-lang">b2</code>).</p> <div class="non-printable"><span style="position:relative;top:10px;background-color:rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6"><span><span aria-hidden="true" class="fas fa-laptop-code"></span></span> HANDS-ON: Do a fast-forward merge</span> <div class="indented-level1"><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-suitcase"></span> Preparation</strong></small></span> Let&#39;s continue with the same <code class="hljs inline no-lang">sports</code> repo we used above, and do a fast-forward merge this time.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>1</strong></small></span> <strong>Create a new branch called <code class="hljs inline no-lang">add-swimming</code>, and some commits to it</strong> as follows:<br>
+Switch to the master branch, create a new branch, switch to the new branch, add a file named <code class="hljs inline no-lang">swimming.txt</code>, stage it, and commit it.<br>
+Do some changes to <code class="hljs inline no-lang">swimming.txt</code>, and commit those changes.</p> <pre><code class="hljs bash"><span>git switch master
+</span><span>git switch -c add-swimming
+</span><span>
+</span><span><span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;Michael Phelps&quot;</span> &gt; swimming.txt
+</span><span>git stage swimming.txt
+</span><span>git commit -m <span class="hljs-string">&quot;Add swimming.txt&quot;</span>
+</span><span>
+</span><span><span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;Ian Thorpe&quot;</span> &gt;&gt; swimming.txt
+</span><span>git commit -am <span class="hljs-string">&quot;Add Thorpe to swimming.txt&quot;</span>
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p>You should have something like this now:</p> <pre class="mermaid">gitGraph BT:
     %%{init: { &#39;theme&#39;: &#39;default&#39;, &#39;gitGraph&#39;: {&#39;mainBranchName&#39;: &#39;master&#39;}} }%%
     commit id: &quot;[master] mc2&quot;
-    branch add-countries
+    branch add-swimming
     commit id: &quot;a1&quot;
-    commit id: &quot;[HEAD → add-countries] a2&quot;
+    commit id: &quot;[HEAD → add-swimming] a2&quot;
 </pre> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>2</strong></small></span> <strong>Go back to the <code class="hljs inline no-lang">master</code> branch.</strong></p> <pre class="mermaid">gitGraph BT:
     %%{init: { &#39;theme&#39;: &#39;default&#39;, &#39;gitGraph&#39;: {&#39;mainBranchName&#39;: &#39;master&#39;}} }%%
     commit id: &quot;[HEAD → master] mc2&quot;
-    branch add-countries
+    branch add-swimming
     commit id: &quot;a1&quot;
-    commit id: &quot;add-countries] a2&quot;
-</pre> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>3</strong></small></span> <strong>Merge the <code class="hljs inline no-lang">add-countries</code> branch onto the <code class="hljs inline no-lang">master</code> branch.</strong> Observe that there is no merge commit. The <code class="hljs inline no-lang">master</code> branch ref (and the <code class="hljs inline no-lang">HEAD</code> ref along with it) moved to the tip of the <code class="hljs inline no-lang">add-countries</code> branch (i.e., <code class="hljs inline no-lang">a2</code>) and both branches now point to <code class="hljs inline no-lang">a2</code>.</p> <pre class="mermaid">gitGraph BT:
-    %%{init: { &#39;theme&#39;: &#39;default&#39;, &#39;gitGraph&#39;: {&#39;mainBranchName&#39;: &#39;master (and add-countries)&#39;}} }%%
+    commit id: &quot;add-swimming] a2&quot;
+</pre> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>3</strong></small></span> <strong>Merge the <code class="hljs inline no-lang">add-swimming</code> branch onto the <code class="hljs inline no-lang">master</code> branch.</strong> Observe that there is no merge commit. The <code class="hljs inline no-lang">master</code> branch ref (and the <code class="hljs inline no-lang">HEAD</code> ref along with it) moved to the tip of the <code class="hljs inline no-lang">add-swimming</code> branch (i.e., <code class="hljs inline no-lang">a2</code>) and both branches now point to <code class="hljs inline no-lang">a2</code>.</p> <pre class="mermaid">gitGraph BT:
+    %%{init: { &#39;theme&#39;: &#39;default&#39;, &#39;gitGraph&#39;: {&#39;mainBranchName&#39;: &#39;master (and add-swimming)&#39;}} }%%
     commit id: &quot;mc2&quot;
     commit id: &quot;a1&quot;
-    commit id: &quot;[HEAD → master][add-countries] a2&quot;
-</pre> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div> <p><strong>It is possible to force Git to create a merge commit even if fast forwarding is possible.</strong> This is useful if you prefer the revision graph to visually show when each branch was merged to the main timeline.</p> <div class="non-printable"><div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>To prevent Git from fast-forwarding, use the <code class="hljs inline no-lang">--no-ff</code> switch when merging. Example:</p> <pre><code class="no-line-numbers hljs bash"><span>git merge --no-ff add-countries
-</span></code></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p><span aria-hidden="true" class="fab fa-windows"></span> Windows: Tick the box shown below when you merge a branch:</p> <span class="image-wrapper" eager><img src="/lessons/branch/images/mergeBranchDialog.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span> <p></p> <hr> <p><span aria-hidden="true" class="fab fa-apple"></span> Mac:</p> <p>Trigger the branch operation using the following menu button:</p> <div class="annotate-image-wrapper"><img src="/lessons/images/sourcetreeTopMenu.png" alt="Sourcetree top menu" width="400" height="" loading="eager" class="annotate-image"><div style="top:0;left:0;height:0;"><!--[--><div><!----><div class="annotate-point"><!----></div></div><!--]--></div></div> <p></p> <p>In the next dialog, tick the following option:</p> <span class="image-wrapper" eager><img src="/lessons/merge/images/sourcetreeMergeWithoutFf.png" width="600" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span> <p>To permanently prevent fast-forwarding:</p> <ol><li>Go to Sourcetree <code class="hljs inline no-lang">Settings</code>.</li> <li>Navigate to the <code class="hljs inline no-lang">Git</code> section.</li> <li>Tick the box <code class="hljs inline no-lang">Do not fast-forward when merging, always create commit</code>.</li></ol><!--]--><hr data-v-65067870></div><!--]--></div></div></div> <p><strong>A <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">squash merge</span></span> takes all the changes from the source branch and combines them into a single commit on the destination branch.</strong> It is especially useful when the source branch has many small or experimental commits that would otherwise clutter history.</p> <div class="d-flex flex-column flex-md-row align-items-stretch justify-content-start gap-2"><div class="flex-shrink-0 d-flex flex-column justify-content-end"><pre class="mermaid">gitGraph BT:
+    commit id: &quot;[HEAD → master][add-swimming] a2&quot;
+</pre> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div> <p><strong>It is possible to force Git to create a merge commit even if fast forwarding is possible.</strong> This is useful if you prefer the revision graph to visually show when each branch was merged to the main timeline.</p> <div class="non-printable"><div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>To prevent Git from fast-forwarding, use the <code class="hljs inline no-lang">--no-ff</code> switch when merging. Example:</p> <pre><code class="no-line-numbers hljs bash"><span>git merge --no-ff add-swimming
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p><span aria-hidden="true" class="fab fa-windows"></span> Windows: Tick the box shown below when you merge a branch:</p> <span class="image-wrapper" eager><img src="/lessons/merge/images/sourcetreeMergeBranchDialog.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span> <p></p> <hr> <p><span aria-hidden="true" class="fab fa-apple"></span> Mac:</p> <p>Trigger the branch operation using the following menu button:</p> <div class="annotate-image-wrapper"><img src="/lessons/images/sourcetreeTopMenu.png" alt="Sourcetree top menu" width="400" height="" loading="eager" class="annotate-image"><div style="top:0;left:0;height:0;"><!--[--><div><!----><div class="annotate-point"><!----></div></div><!--]--></div></div> <p></p> <p>In the next dialog, tick the following option:</p> <span class="image-wrapper" eager><img src="/lessons/merge/images/sourcetreeMergeWithoutFf.png" width="600" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span> <p>To permanently prevent fast-forwarding:</p> <ol><li>Go to Sourcetree <code class="hljs inline no-lang">Settings</code>.</li> <li>Navigate to the <code class="hljs inline no-lang">Git</code> section.</li> <li>Tick the box <code class="hljs inline no-lang">Do not fast-forward when merging, always create commit</code>.</li></ol><!--]--><hr data-v-65067870></div><!--]--></div></div></div> <p><strong>A <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">squash merge</span></span> takes all the changes from the source branch and combines them into a single commit on the destination branch.</strong> It is especially useful when the source branch has many small or experimental commits that would otherwise clutter history.</p> <div class="d-flex flex-column flex-md-row align-items-stretch justify-content-start gap-2"><div class="flex-shrink-0 d-flex flex-column justify-content-end"><pre class="mermaid">gitGraph BT:
     %%{init: { &#39;theme&#39;: &#39;default&#39;, &#39;gitGraph&#39;: {&#39;mainBranchName&#39;: &#39;master&#39;}} }%%
     commit id: &quot;[HEAD → master] m1&quot;
     branch feature
@@ -147,12 +406,94 @@ You should have something like this now:</p> <pre class="mermaid">gitGraph BT:
     %%{init: { &#39;theme&#39;: &#39;default&#39;, &#39;gitGraph&#39;: {&#39;mainBranchName&#39;: &#39;master&#39;}} }%%
     commit id: &quot;m1&quot;
     commit id: &quot;[HEAD → master] s1 (same as f1+f2)&quot;
-</pre> <p><small><div class="text-center">[If using a squash merge, and after<br>deleting the source branch thereafter]</div></small></p></div></div> <p></p> <div class="non-printable"><p>The mechanics of doing a squash merge is covered in a separate detour.</p></div></div> <div><div class="card-container non-printable" tags="git-mastery" collapsed data-v-4484e25a><div class="card expandable-card border-danger" data-v-4484e25a><div class="card-header header-toggle bg-danger border-danger" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-danger text-white" data-v-4484e25a><!--[--><!--[--><h6 id="exercise-branch-bender"><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> EXERCISE: <code class="hljs inline no-lang">branch-bender</code><a class="fa fa-anchor" href="#exercise-branch-bender" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><!----><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <a id="undoMerge"></a> <div class="card-container non-printable" data-v-4484e25a><div class="card expandable-card border-warning" data-v-4484e25a><div class="card-header header-toggle bg-warning border-warning" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-warning" data-v-4484e25a><!--[--><!--[--><p><span><span aria-hidden="true" class="fas fa-diamond-turn-right"></span></span> DETOUR: <strong>Undoing a Merge</strong></p><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-secondary close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-secondary popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-peek-collapsed card-collapse" data-v-4484e25a><div class="d-print-none card-body" data-v-4484e25a><!--[--><!--[--> <div><ol><li>Ensure you are in the <span class="trigger" data-mb-component-type="popover" tabindex="0"><!----><!-- do not delete this comment, it is for the stray space issue (#2419)
- --><!----></span>.</li> <li>Do a hard reset of that branch to the commit that would be the tip of that branch had you not done the offending merge i.e., rewind that branch to the state it was in before the merge.</li></ol> <hr class="dashed border-warning"> <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the example below, you merged <code class="hljs inline no-lang">master</code> to <code class="hljs inline no-lang">feature1</code>.</p> <div class="annotate-image-wrapper"><img src="/lessons/merge/images/sourcetreeAfterMeringMaster.png" width="500" height="" loading="eager" class="annotate-image"><div style="top:0;left:0;height:0;"><!--[--><div><!----><div class="annotate-point"><!----></div></div><!--]--></div></div> <p>If you want to undo that merge,</p> <ol><li>Ensure you are in the <code class="hljs inline no-lang">feature1</code> branch (because that&#39;s the destination branch).</li> <li>Reset the <code class="hljs inline no-lang">feature1</code> branch to the commit spotlighted in the screenshot above (because that was the tip of the <code class="hljs inline no-lang">feature1</code> branch before you merged the <code class="hljs inline no-lang">master</code> branch to it).</li></ol></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><div class="peek-read-more glyphicon glyphicon-chevron-down" data-v-4484e25a></div></div></div> <a id="compareBranches"></a> <div class="card-container non-printable" data-v-4484e25a><div class="card expandable-card border-warning" data-v-4484e25a><div class="card-header header-toggle bg-warning border-warning" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-warning" data-v-4484e25a><!--[--><!--[--><p><span><span aria-hidden="true" class="fas fa-diamond-turn-right"></span></span> DETOUR: <strong>Comparing Branches</strong></p><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-secondary close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-secondary popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-peek-collapsed card-collapse" data-v-4484e25a><div class="d-print-none card-body" data-v-4484e25a><!--[--><!--[--> <div><div id="preview"><p><strong>Comparing branches in Git is useful when you want to understand how two lines of development differ — for example, before merging a branch</strong>, you might want to review what changes it introduces to the main branch.</p></div> <p>Here are two ways to compare two branches:</p> <ul><li><strong>Double-dot notation</strong> <code class="hljs inline no-lang">git diff branchA..branchB</code>: Changes based on commits in <code class="hljs inline no-lang">branchB</code> but not in <code class="hljs inline no-lang">branchA</code>. This is the one used more commonly.</li> <li><strong>Triple-dot notation</strong> <code class="hljs inline no-lang">git diff branchA...branchB</code>: This shows changes in all the commits that are reachable by either of two references but not by both of them.<br>
-i.e., commits unique to <code class="hljs inline no-lang">branchA</code> or <code class="hljs inline no-lang">branchB</code>.</li></ul> <div class="card-container non-printable" data-v-4484e25a><div class="card expandable-card border-info" data-v-4484e25a><div class="card-header header-toggle bg-info border-info" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-info text-white" data-v-4484e25a><!--[--><!--[--><p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> RESOURCES</p><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <ul><li><a href="https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection"><strong>Notations used for referring commits/branches</strong>, from git-scm.com</a></li></ul><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><!----></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><div class="peek-read-more glyphicon glyphicon-chevron-down" data-v-4484e25a></div></div></div> <a id="squashMerge"></a> <div class="card-container non-printable" data-v-4484e25a><div class="card expandable-card border-warning" data-v-4484e25a><div class="card-header header-toggle bg-warning border-warning" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-warning" data-v-4484e25a><!--[--><!--[--><p><span><span aria-hidden="true" class="fas fa-diamond-turn-right"></span></span> DETOUR: <strong>Doing a Squash Merge</strong></p><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-secondary close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-secondary popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-peek-collapsed card-collapse" data-v-4484e25a><div class="d-print-none card-body" data-v-4484e25a><!--[--><!--[--> <div><p>To do a squash merge, you can use the <code class="hljs inline no-lang">--squash</code> switch. It will prepare the squashed merge commit but will stop short of actually finalising the commit.</p> <pre><code class="hljs bash"><span>git merge --squash feature-1
-</span></code></pre><div class="d-flex"><div class="me-3"><span><span><strong><span class="dimmed">⤷</span></strong></span></span></div> <div class="flex-grow-1"><pre><code class="hljs bash"><span>Squash commit -- not updating HEAD
+</pre> <p><small><div class="text-center">[If using a squash merge, and after<br>deleting the source branch thereafter]</div></small></p></div></div> <p></p> <div class="non-printable"><p>The mechanics of doing a squash merge is covered in a separate detour.</p></div></div> <div><div class="card-container non-printable algolia-no-index" tags="git-mastery" collapsed data-v-4484e25a><div class="card expandable-card border-danger" data-v-4484e25a><div class="card-header header-toggle bg-danger border-danger" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-danger text-white" data-v-4484e25a><!--[--><!--[--><h6 id="exercise-branch-bender"><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> EXERCISE: <code class="hljs inline no-lang">branch-bender</code><a class="fa fa-anchor" href="#exercise-branch-bender" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><!----><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <a id="undoMerge"></a> <div class="card-container non-printable algolia-no-index" data-v-4484e25a><div class="card expandable-card border-warning" data-v-4484e25a><div class="card-header header-toggle bg-warning border-warning" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-warning" data-v-4484e25a><!--[--><!--[--><p><span><span aria-hidden="true" class="fas fa-diamond-turn-right"></span></span> DETOUR: <strong>Undoing a Merge</strong></p><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-secondary close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-secondary popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-peek-collapsed card-collapse" data-v-4484e25a><div class="d-print-none card-body" data-v-4484e25a><!--[--><!--[--> <div><ol><li>Ensure you are in the <span class="trigger" data-mb-component-type="popover" tabindex="0"><!----><!-- do not delete this comment, it is for the stray space issue (#2419)
+ --><!----></span>.</li> <li>Do a hard reset of that branch to the commit that would be the tip of that branch had you not done the offending merge i.e., rewind that branch to the state it was in before the merge.</li></ol> <hr class="dashed border-warning"> <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the example below, you merged <code class="hljs inline no-lang">master</code> to <code class="hljs inline no-lang">feature1</code>.</p> <div class="annotate-image-wrapper"><img src="/lessons/merge/images/sourcetreeAfterMeringMaster.png" width="500" height="" loading="eager" class="annotate-image"><div style="top:0;left:0;height:0;"><!--[--><div><!----><div class="annotate-point"><!----></div></div><!--]--></div></div> <p>If you want to undo that merge,</p> <ol><li>Ensure you are in the <code class="hljs inline no-lang">feature1</code> branch (because that&#39;s the destination branch).</li> <li>Reset the <code class="hljs inline no-lang">feature1</code> branch to the commit spotlighted in the screenshot above (because that was the tip of the <code class="hljs inline no-lang">feature1</code> branch before you merged the <code class="hljs inline no-lang">master</code> branch to it).</li></ol></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><div class="peek-read-more glyphicon glyphicon-chevron-down" data-v-4484e25a></div></div></div> <a id="compareBranches"></a> <div class="card-container non-printable algolia-no-index" data-v-4484e25a><div class="card expandable-card border-warning" data-v-4484e25a><div class="card-header header-toggle bg-warning border-warning" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-warning" data-v-4484e25a><!--[--><!--[--><p><span><span aria-hidden="true" class="fas fa-diamond-turn-right"></span></span> DETOUR: <strong>Comparing Branches</strong></p><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-secondary close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-secondary popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-peek-collapsed card-collapse" data-v-4484e25a><div class="d-print-none card-body" data-v-4484e25a><!--[--><!--[--> <div><div id="preview"><p><strong>Comparing branches in Git is useful when you want to understand how two lines of development differ — for example, before merging a branch</strong>, you might want to review what changes it introduces to the main branch.</p></div> <p>Here are two ways to compare two branches:</p> <ul><li><strong>Double-dot notation</strong> <code class="hljs inline no-lang">git diff branchA..branchB</code>: Changes based on commits in <code class="hljs inline no-lang">branchB</code> but not in <code class="hljs inline no-lang">branchA</code>. This is the one used more commonly.</li> <li><strong>Triple-dot notation</strong> <code class="hljs inline no-lang">git diff branchA...branchB</code>: This shows changes in all the commits that are reachable by either of two references but not by both of them.<br>
+i.e., commits unique to <code class="hljs inline no-lang">branchA</code> or <code class="hljs inline no-lang">branchB</code>.</li></ul> <div class="card-container non-printable" data-v-4484e25a><div class="card expandable-card border-info" data-v-4484e25a><div class="card-header header-toggle bg-info border-info" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-info text-white" data-v-4484e25a><!--[--><!--[--><p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> RESOURCES</p><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <ul><li><a href="https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection"><strong>Notations used for referring commits/branches</strong>, from git-scm.com</a></li></ul><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><!----></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><div class="peek-read-more glyphicon glyphicon-chevron-down" data-v-4484e25a></div></div></div> <a id="squashMerge"></a> <div class="card-container non-printable algolia-no-index" data-v-4484e25a><div class="card expandable-card border-warning" data-v-4484e25a><div class="card-header header-toggle bg-warning border-warning" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-warning" data-v-4484e25a><!--[--><!--[--><p><span><span aria-hidden="true" class="fas fa-diamond-turn-right"></span></span> DETOUR: <strong>Doing a Squash Merge</strong></p><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-secondary close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-secondary popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-peek-collapsed card-collapse" data-v-4484e25a><div class="d-print-none card-body" data-v-4484e25a><!--[--><!--[--> <div><p>To do a squash merge, you can use the <code class="hljs inline no-lang">--squash</code> switch. It will prepare the squashed merge commit but will stop short of actually finalising the commit.</p> <pre><code class="hljs bash"><span>git merge --squash feature-1
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><div class="d-flex"><div class="me-3"><span><span><strong><span class="dimmed">⤷</span></strong></span></span></div> <div class="flex-grow-1"><pre><code class="hljs bash"><span>Squash commit -- not updating HEAD
 </span><span>Automatic merge went well; stopped before committing as requested
-</span></code></pre></div></div> <p>At that point, you can go ahead and make the commit yourself, with the commit message you want.</p></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><div class="peek-read-more glyphicon glyphicon-chevron-down" data-v-4484e25a></div></div></div></div></div></div></div></div></div></p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.0.2</a>, generated on Mon, 8 Dec 2025, 3:02:49 GMT+8]</small></div></footer><!--]--></div>
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre></div></div> <p>At that point, you can go ahead and make the commit yourself, with the commit message you want.</p></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><div class="peek-read-more glyphicon glyphicon-chevron-down" data-v-4484e25a></div></div></div></div></div></div></div></div></div></p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.0.2</a>, generated on Mon, 8 Dec 2025, 16:00:27 GMT+8]</small></div></footer><!--]--></div>
 </body><script src="/markbind/js/bootstrap-utility.min.js"></script>
 <script src="/markbind/js/polyfill.min.js"></script>
 <script src="/markbind/js/vue.global.prod.min.js"></script>
@@ -241,4 +582,171 @@ i.e., commits unique to <code class="hljs inline no-lang">branchA</code> or <cod
     });
 
   </script>
+    <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3.2.0/dist/umd/index.js"></script>
+    <script>
+    docsearch({
+      container: "#algolia-search-input",
+      appId: "undefined",
+      apiKey: "undefined",
+      indexName: "undefined",
+      searchParameters: {}
+    });
+  </script>
+    <script>
+    const style = document.createElement('style');
+    style.innerHTML = ".DocSearch-Container { z-index: 1002; position: fixed; }";
+    document.getElementsByTagName('head')[0].appendChild(style);
+  </script>
+  
+    <script>
+    function copyCodeBlock(element) {
+        const pre = element.parentElement.parentElement;
+        const codeElement = pre.querySelector('code');
+        const copyButtonBody = element.querySelector('.function-btn-body');
+        const tooltipText = element.querySelector(".tooltiptext");
+
+        // create dummy text element to select() the text field
+        const textElement = document.createElement('textarea');
+        textElement.value = codeElement.textContent;
+        document.body.appendChild(textElement);
+        textElement.select();
+
+        document.execCommand('copy');
+        document.body.removeChild(textElement);
+        copyButtonBody.innerHTML = `
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    height="18"
+    viewBox="2 2 22 22"
+  >
+    <path d="M 19.28125 5.28125 L 9 15.5625 L 4.71875 11.28125 L 3.28125 12.71875 L 8.28125 17.71875 
+    L 9 18.40625 L 9.71875 17.71875 L 20.71875 6.71875 Z"></path>
+  </svg>
+`;
+        console.log("Running tooltip");
+        tooltipText.innerText  = `Copied!`;
+        setTimeout(() => {
+            copyButtonBody.innerHTML = `
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "/>
+    </g>
+</svg>
+`;
+            tooltipText.innerText  = `Copy`;
+        }, 3000);
+    }
+    </script>
+    <script>
+    function toggleCodeBlockWrap(element) {
+      const pre = element.parentElement.parentElement;
+      const tooltipText = element.querySelector(".tooltiptext");
+      const classList = pre.querySelector('code').classList; 
+      if (classList.contains('wrap')) {
+          classList.remove('wrap');
+          tooltipText.innerText  = `Wrap Text`;
+      } else {
+          classList.add('wrap')
+          tooltipText.innerText  = `Unwrap Text`;
+      }
+    }
+    </script>
+    <script src="/plugins/dataTable/datatables.min.js"></script>
+    
+  <script>
+    function getTableOptions(el) {
+      const options = {};
+      if ($(el).hasClass('sortable-table')) {
+        options.searching = false;
+        options.paging = false;
+        options.info = false;
+      } else if ($(el).hasClass('searchable-table')) {
+        options.ordering = false;
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      } else if ($(el).hasClass('sortable-searchable-table')) {
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      }
+      return options;
+    }
+
+    function initializeTables(tables) {
+      if (!tables || tables.length === 0) return;
+      tables.forEach(table => {
+        const options = getTableOptions(table);
+        $(table).DataTable(options);
+        $(table).addClass('dt-processed');
+      });
+    }
+
+    function setupTableObserver() {
+      const observer = new MutationObserver((mutations) => {
+        let newTables = [];
+        
+        mutations.forEach(mutation => {
+          if (mutation.addedNodes.length) {
+            mutation.addedNodes.forEach(node => {
+
+              if (node.nodeType === 1 && node.tagName === 'TABLE' && 
+                  !$(node).hasClass('dt-processed') &&
+                  ($(node).hasClass('sortable-table') || 
+                   $(node).hasClass('searchable-table') || 
+                   $(node).hasClass('sortable-searchable-table'))) {
+                newTables.push(node);
+              }
+              
+              if (node.nodeType === 1 && node.querySelectorAll) {
+                const tablesInNode = node.querySelectorAll(
+                'table.sortable-table:not(.dt-processed), ' +
+                'table.searchable-table:not(.dt-processed), ' +
+                'table.sortable-searchable-table:not(.dt-processed)');
+                if (tablesInNode.length) {
+                  newTables = [...newTables, ...tablesInNode];
+                }
+              }
+            });
+          }
+        });
+
+        if (newTables.length > 0) {
+          initializeTables(newTables);
+        }
+      });
+      
+      // Start observing the entire document for changes
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true
+      });
+      
+      return observer;
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      // Process any existing tables
+      const existingTables = document.querySelectorAll(
+        'table.sortable-table:not(.dt-processed), ' +
+        'table.searchable-table:not(.dt-processed), ' +
+        'table.sortable-searchable-table:not(.dt-processed)'
+      );
+      if (existingTables.length > 0) {
+        initializeTables(existingTables);
+      }
+      
+      setupTableObserver();
+    });
+
+  </script>
+
 </html>

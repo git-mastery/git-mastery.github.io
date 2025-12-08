@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="generator" content="MarkBind 6.0.2">
-    <meta name="viewport" content="width=device-width, initial-scale=1"><title>Git-Mastery - Tour 3: Working Off a Remote Repo</title> <link rel="stylesheet" href="/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/markbind/css/markbind.min.css"><link rel="stylesheet" href="/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><title>Git-Mastery - Tour 3: Working Off a Remote Repo</title> <link rel="stylesheet" href="/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/markbind/css/markbind.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.0/dist/style.css"><link rel="preconnect" href="https://undefined-dsn.algolia.net" crossorigin><link rel="stylesheet" href="/plugins/codeBlockCopyButtons/codeBlockButtons.css"><link rel="stylesheet" href="/plugins/codeBlockWrapButtons/codeBlockButtons.css"><link rel="stylesheet" href="/plugins/dataTable/datatables.min.css"><link rel="stylesheet" href="/plugins/dataTable/datatables-additional.css"><link rel="stylesheet" href="/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
     
   <link rel="stylesheet" href="/css/main.css">
 <link rel="icon" href="/favicon.ico"></head>
@@ -27,14 +27,96 @@ The next step is to <strong>create a local copy of the remote repo, by <em>cloni
 When there are new changes in the remote, you need to <strong><em>pull</em> those changes down to your local repo</strong>.
 
 
-</span></div> <p>   <a href="/lessons/pull/index.html" target="_blank"><span aria-hidden="true" class="glyphicon glyphicon-new-window"></span></a> <strong><a href="#t3l3-downloading-data-into-a-local-repo">T3L3. Downloading Data Into a Local Repo</a></strong> covers that part.</p></div></div></div> <div class="card-container" data-v-4484e25a><div class="card expandable-card card-seamless border-0" data-v-4484e25a><div class="card-header header-toggle bg-transparent border-0" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><span class="glyphicon glyphicon-chevron-down" data-v-4484e25a></span></div><div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-4484e25a><!--[--><!--[--><div class="card-title"><h4 id="t3l1-duplicating-a-remote-repo-on-the-cloud"><span class="text-success">T3L1. Duplicating a Remote Repo on the Cloud</span><a class="fa fa-anchor" href="#t3l1-duplicating-a-remote-repo-on-the-cloud" onclick="event.stopPropagation()"></a></h4></div><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light seamless-button close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light seamless-button popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <div><div class="indented"><div><div class="non-printable"><div class="border border-success pt-0 ps-1 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color:#e6fff2;"><div class="indented"><br> <div id="overview"><p>GitHub allows you to <strong>create a remote copy of another remote repo, called <em>forking</em></strong>.</p></div> <span><small>This lesson covers that part.</small></span></div></div> <br></div> <p><strong>A <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">fork</span></span> is a copy of a remote repository</strong> created on the same hosting service such as GitHub, GitLab, or Bitbucket. On GitHub, you can fork a repository from another user or organisation into your own space (i.e., your user account or an organisation you have sufficient access to). <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">Forking</span></span> is particularly useful if you want to experiment with a repo but don&#39;t have write permissions to the original -- you can fork it (which gives you your own remote copy of the repo) and work with the forked repo without affecting the original repository.</p> <div class="non-printable"><span style="position:relative;top:10px;background-color:rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6"><span><span aria-hidden="true" class="fas fa-laptop-code"></span></span> HANDS-ON: Forking a repo on GitHub</span> <div class="indented-level1"><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-suitcase"></span> Preparation</strong></small></span> <strong>Create a GitHub account if you don&#39;t have one yet.</strong></p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>1</strong></small></span> <strong>Go to the GitHub repo you want to fork</strong> e.g., <a href="https://github.com/se-edu/samplerepo-things">samplerepo-things</a></p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>2</strong></small></span> <strong>Click on the <span class="image-wrapper" eager><img src="/lessons/fork/images/fork.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span> button</strong> in the top-right corner. In the next step,</p> <ul><li>choose to fork to your own account or to another GitHub organization that you are an admin of.</li> <li><mark>un-tick the <code>[ ] Copy the master branch only</code> option</mark>, so that you get copies of other branches (if any) in the repo.</li></ul> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-danger" style="" data-v-19514615><!--[--><i class="fas fa-flag" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><strong>Forking is not a Git feature</strong>, but a feature provided by hosted Git services like GitHub, GitLab, or Bitbucket.</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-info" style="" data-v-19514615><!--[--><i class="fas fa-info" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-info vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>GitHub does not allow you to fork the same repo more than once to the same destination. If you want to re-fork, you need to delete the previous fork.</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div> <div><div class="card-container non-printable" tags="git-mastery" collapsed data-v-4484e25a><div class="card expandable-card border-danger" data-v-4484e25a><div class="card-header header-toggle bg-danger border-danger" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-danger text-white" data-v-4484e25a><!--[--><!--[--><h6 id="exercise-fork-repo"><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> EXERCISE: <code class="hljs inline no-lang">fork-repo</code><a class="fa fa-anchor" href="#exercise-fork-repo" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><!----><hr style="display:none;" data-v-4484e25a></div><!----></div></div></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-seamless" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="" data-v-4484e25a></div><!----></div></div> <div class="card-container" data-v-4484e25a><div class="card expandable-card card-seamless border-0" data-v-4484e25a><div class="card-header header-toggle bg-transparent border-0" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><span class="glyphicon glyphicon-chevron-down" data-v-4484e25a></span></div><div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-4484e25a><!--[--><!--[--><div class="card-title"><h4 id="t3l2-creating-a-local-copy-of-a-repo"><span class="text-success">T3L2. Creating a Local Copy of a Repo</span><a class="fa fa-anchor" href="#t3l2-creating-a-local-copy-of-a-repo" onclick="event.stopPropagation()"></a></h4></div><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light seamless-button close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light seamless-button popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <div><div class="indented"><div><div class="non-printable"><div class="border border-success pt-0 ps-1 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color:#e6fff2;"><div class="indented"><br> <div id="overview"><p>The next step is to <strong>create a local copy of the remote repo, by <em>cloning</em> the remote repo</strong>.</p></div> <span><small>This lesson covers that part.</small></span></div></div> <br></div> <p><strong>You can <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">clone</span></span> a repository to create a full copy of it on your computer.</strong> This copy includes the entire revision history, branches, and files of the original, so it behaves just like the original repository. For example, you can clone a repository from a hosting service like GitHub to your computer, giving you a complete local version to work with.</p> <p><strong>Cloning a repo automatically creates a remote named <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">origin</span></span></strong> which points to the repo you cloned from.</p> <p><strong>The repo you cloned from is often referred to as the <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">upstream</span></span> repo.</strong></p> <div class="non-printable"><span style="position:relative;top:10px;background-color:rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6"><span><span aria-hidden="true" class="fas fa-laptop-code"></span></span> HANDS-ON: Cloning a remote repo</span> <div class="indented-level1"><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>1</strong></small></span> <strong>Clone the remote repo</strong> to your computer. For example, you can clone the <a href="https://github.com/se-edu/samplerepo-things">samplerepo-things</a> repo, or the fork you created from it in a previous lesson.</p> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-warning" style="" data-v-19514615><!--[--><i class="fas fa-exclamation" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-warning vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>Note that the URL of the GitHub project is different from the URL you need to clone a repo in that GitHub project.
+</span></div> <p>   <a href="/lessons/pull/index.html" target="_blank"><span aria-hidden="true" class="glyphicon glyphicon-new-window"></span></a> <strong><a href="#t3l3-downloading-data-into-a-local-repo">T3L3. Downloading Data Into a Local Repo</a></strong> covers that part.</p></div></div></div> <div class="card-container" data-v-4484e25a><div class="card expandable-card card-seamless border-0" data-v-4484e25a><div class="card-header header-toggle bg-transparent border-0" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><span class="glyphicon glyphicon-chevron-down" data-v-4484e25a></span></div><div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-4484e25a><!--[--><!--[--><div class="card-title"><h4 id="t3l1-duplicating-a-remote-repo-on-the-cloud"><span class="text-success">T3L1. Duplicating a Remote Repo on the Cloud</span><a class="fa fa-anchor" href="#t3l1-duplicating-a-remote-repo-on-the-cloud" onclick="event.stopPropagation()"></a></h4></div><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light seamless-button close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light seamless-button popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <div><div class="indented"><div><div class="non-printable"><div class="border border-success pt-0 ps-1 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color:#e6fff2;"><div class="indented"><br> <div id="overview"><p>GitHub allows you to <strong>create a remote copy of another remote repo, called <em>forking</em></strong>.</p></div> <span><small>This lesson covers that part.</small></span></div></div> <br></div> <p><strong>A <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">fork</span></span> is a copy of a remote repository</strong> created on the same hosting service such as GitHub, GitLab, or Bitbucket. On GitHub, you can fork a repository from another user or organisation into your own space (i.e., your user account or an organisation you have sufficient access to). <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">Forking</span></span> is particularly useful if you want to experiment with a repo but don&#39;t have write permissions to the original -- you can fork it (which gives you your own remote copy of the repo) and work with the forked repo without affecting the original repository.</p> <div class="non-printable"><span style="position:relative;top:10px;background-color:rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6"><span><span aria-hidden="true" class="fas fa-laptop-code"></span></span> HANDS-ON: Forking a repo on GitHub</span> <div class="indented-level1"><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-suitcase"></span> Preparation</strong></small></span> <strong>Create a GitHub account if you don&#39;t have one yet.</strong></p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>1</strong></small></span> <strong>Go to the GitHub repo you want to fork</strong> e.g., <a href="https://github.com/se-edu/samplerepo-things">samplerepo-things</a></p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>2</strong></small></span> <strong>Click on the <span class="image-wrapper" eager><img src="/lessons/fork/images/fork.png" width="" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span> button</strong> in the top-right corner. In the next step,</p> <ul><li>choose to fork to your own account or to another GitHub organization that you are an admin of.</li> <li><mark>un-tick the <code>[ ] Copy the master branch only</code> option</mark>, so that you get copies of other branches (if any) in the repo.</li></ul> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-danger" style="" data-v-19514615><!--[--><i class="fas fa-flag" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><strong>Forking is not a Git feature</strong>, but a feature provided by hosted Git services like GitHub, GitLab, or Bitbucket.</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-info" style="" data-v-19514615><!--[--><i class="fas fa-info" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-info vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>GitHub does not allow you to fork the same repo more than once to the same destination. If you want to re-fork, you need to delete the previous fork.</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div> <div><div class="card-container non-printable algolia-no-index" tags="git-mastery" collapsed data-v-4484e25a><div class="card expandable-card border-danger" data-v-4484e25a><div class="card-header header-toggle bg-danger border-danger" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-danger text-white" data-v-4484e25a><!--[--><!--[--><h6 id="exercise-fork-repo"><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> EXERCISE: <code class="hljs inline no-lang">fork-repo</code><a class="fa fa-anchor" href="#exercise-fork-repo" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><!----><hr style="display:none;" data-v-4484e25a></div><!----></div></div></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-seamless" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="" data-v-4484e25a></div><!----></div></div> <div class="card-container" data-v-4484e25a><div class="card expandable-card card-seamless border-0" data-v-4484e25a><div class="card-header header-toggle bg-transparent border-0" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><span class="glyphicon glyphicon-chevron-down" data-v-4484e25a></span></div><div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-4484e25a><!--[--><!--[--><div class="card-title"><h4 id="t3l2-creating-a-local-copy-of-a-repo"><span class="text-success">T3L2. Creating a Local Copy of a Repo</span><a class="fa fa-anchor" href="#t3l2-creating-a-local-copy-of-a-repo" onclick="event.stopPropagation()"></a></h4></div><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light seamless-button close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light seamless-button popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <div><div class="indented"><div><div class="non-printable"><div class="border border-success pt-0 ps-1 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color:#e6fff2;"><div class="indented"><br> <div id="overview"><p>The next step is to <strong>create a local copy of the remote repo, by <em>cloning</em> the remote repo</strong>.</p></div> <span><small>This lesson covers that part.</small></span></div></div> <br></div> <p><strong>You can <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">clone</span></span> a repository to create a full copy of it on your computer.</strong> This copy includes the entire revision history, branches, and files of the original, so it behaves just like the original repository. For example, you can clone a repository from a hosting service like GitHub to your computer, giving you a complete local version to work with.</p> <p><strong>Cloning a repo automatically creates a remote named <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">origin</span></span></strong> which points to the repo you cloned from.</p> <p><strong>The repo you cloned from is often referred to as the <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">upstream</span></span> repo.</strong></p> <div class="non-printable"><span style="position:relative;top:10px;background-color:rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6"><span><span aria-hidden="true" class="fas fa-laptop-code"></span></span> HANDS-ON: Cloning a remote repo</span> <div class="indented-level1"><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>1</strong></small></span> <strong>Clone the remote repo</strong> to your computer. For example, you can clone the <a href="https://github.com/se-edu/samplerepo-things">samplerepo-things</a> repo, or the fork you created from it in a previous lesson.</p> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-warning" style="" data-v-19514615><!--[--><i class="fas fa-exclamation" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-warning vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>Note that the URL of the GitHub project is different from the URL you need to clone a repo in that GitHub project.
 e.g.</p> <pre><code class="hljs bash"><span>https://github.com/se-edu/samplerepo-things  <span class="hljs-comment"># GitHub project URL</span>
 </span><span><span>https://github.com/se-edu/samplerepo-things<span style="background-color:yellow;">.git</span> </span><span class="hljs-comment"># the repo URL</span>
-</span></code></pre><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>You can use the <code class="hljs inline no-lang">git clone &lt;repository-url&gt; [directory-name]</code> command to clone a repo.</p> <ul><li><code class="hljs inline no-lang">&lt;repository-url&gt;</code>: The URL of the remote repository you want to copy.</li> <li><code class="hljs inline no-lang">[directory-name]</code> (optional): The name of the folder where you want the repository to be cloned. If you omit this, Git will create a folder with the same name as the repository.</li></ul> <pre><code class="no-line-numbers hljs bash"><span>git <span class="hljs-built_in">clone</span> https://github.com/se-edu/samplerepo-things.git  <span class="hljs-comment"># if using HTTPS</span>
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>You can use the <code class="hljs inline no-lang">git clone &lt;repository-url&gt; [directory-name]</code> command to clone a repo.</p> <ul><li><code class="hljs inline no-lang">&lt;repository-url&gt;</code>: The URL of the remote repository you want to copy.</li> <li><code class="hljs inline no-lang">[directory-name]</code> (optional): The name of the folder where you want the repository to be cloned. If you omit this, Git will create a folder with the same name as the repository.</li></ul> <pre><code class="no-line-numbers hljs bash"><span>git <span class="hljs-built_in">clone</span> https://github.com/se-edu/samplerepo-things.git  <span class="hljs-comment"># if using HTTPS</span>
 </span><span>git <span class="hljs-built_in">clone</span> git@github.com:se-edu/samplerepo-things.git  <span class="hljs-comment"># if using SSH</span>
 </span><span>
 </span><span>git <span class="hljs-built_in">clone</span> https://github.com/foo/bar.git my-bar-copy  <span class="hljs-comment"># also specifies a dir to use</span>
-</span></code></pre><p>For exact steps for cloning a repo from GitHub, refer to <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository">this GitHub document</a>.</p><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-windows"></span> Windows<!--]--></div></div><!--[--> <p><code class="hljs inline no-lang">File</code> → <code class="hljs inline no-lang">Clone / New ...</code> and provide the URL of the repo and the destination directory.<br></p><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-apple"></span> Mac<!--]--></div></div><!--[--> <p><code class="hljs inline no-lang">File</code> → <code class="hljs inline no-lang">New ...</code> → Choose as shown below → Provide the URL of the repo and the destination directory in the next dialog.<br> <span class="image-wrapper"><img src="/lessons/clone/images/sourcetreeMacChooseToCloneFromUrl.png" width="300" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><br> <span class="image-wrapper"><img src="/lessons/clone/images/sourcetreeMacGiveUrl.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span></p><!--]--><hr data-v-65067870></div><!--]--></div></div><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>2</strong></small></span> <strong>Verify the clone has a remote named <code class="hljs inline no-lang">origin</code></strong> pointing to the upstream repo.</p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>Use the <code class="hljs inline no-lang">git remote -v</code> command that you learned earlier.</p><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Choose <code class="hljs inline no-lang">Repository</code> → <code class="hljs inline no-lang">Repository Settings</code> menu option.</p><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div></div> <div><div class="card-container non-printable" tags="git-mastery" collapsed data-v-4484e25a><div class="card expandable-card border-danger" data-v-4484e25a><div class="card-header header-toggle bg-danger border-danger" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-danger text-white" data-v-4484e25a><!--[--><!--[--><h6 id="exercise-clone-repo"><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> EXERCISE: <code class="hljs inline no-lang">clone-repo</code><a class="fa fa-anchor" href="#exercise-clone-repo" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><!----><hr style="display:none;" data-v-4484e25a></div><!----></div></div></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-seamless" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="" data-v-4484e25a></div><!----></div></div> <div class="card-container" data-v-4484e25a><div class="card expandable-card card-seamless border-0" data-v-4484e25a><div class="card-header header-toggle bg-transparent border-0" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><span class="glyphicon glyphicon-chevron-down" data-v-4484e25a></span></div><div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-4484e25a><!--[--><!--[--><div class="card-title"><h4 id="t3l3-downloading-data-into-a-local-repo"><span class="text-success">T3L3. Downloading Data Into a Local Repo</span><a class="fa fa-anchor" href="#t3l3-downloading-data-into-a-local-repo" onclick="event.stopPropagation()"></a></h4></div><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light seamless-button close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light seamless-button popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <div><div class="indented"><div><div class="non-printable"><div class="border border-success pt-0 ps-1 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color:#e6fff2;"><div class="indented"><br> <div id="overview"><p>When there are new changes in the remote, you need to <strong><em>pull</em> those changes down to your local repo</strong>.</p></div> <span><small>This lesson covers that part.</small></span></div></div> <br></div> <p><strong>There are two steps to bringing over changes from a remote repository into a local repository: <em>fetch</em> and <em>merge</em>.</strong></p> <ul><li><strong><span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">Fetch</span></span> is the act of downloading the latest changes from the remote repository, but without applying them to your current branch yet.</strong> It updates metadata in your repo so that it knows what has changed in the remote repo, but your own local branch remains untouched.</li> <li><strong><span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">Merge</span></span> is what you do after fetching, to actually incorporate the fetched changes into your local branch.</strong> It combines your local branch with the changes from the corresponding branch from the remote repo.</li></ul> <div class="non-printable"><span style="position:relative;top:10px;background-color:rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6"><span><span aria-hidden="true" class="fas fa-laptop-code"></span></span> HANDS-ON: Fetch and merge from a remote</span> <div class="indented-level1"><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-grip-lines-vertical"></span><span aria-hidden="true" class="fas fa-arrow-right"></span> Scenario</strong></small></span> You have cloned a remote repo. After you have cloned, two new commits have been added to it. <code class="hljs inline no-lang">R</code> and <code class="hljs inline no-lang">L1</code> in the diagram below represents this scenario.</p> <div class="d-flex flex-column flex-md-row align-items-stretch justify-content-start gap-2"><div class="flex-shrink-0 d-flex flex-column justify-content-end"><pre class="mermaid">gitGraph BT:
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p>For exact steps for cloning a repo from GitHub, refer to <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository">this GitHub document</a>.</p><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-windows"></span> Windows<!--]--></div></div><!--[--> <p><code class="hljs inline no-lang">File</code> → <code class="hljs inline no-lang">Clone / New ...</code> and provide the URL of the repo and the destination directory.<br></p><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[--><span aria-hidden="true" class="fab fa-apple"></span> Mac<!--]--></div></div><!--[--> <p><code class="hljs inline no-lang">File</code> → <code class="hljs inline no-lang">New ...</code> → Choose as shown below → Provide the URL of the repo and the destination directory in the next dialog.<br> <span class="image-wrapper"><img src="/lessons/clone/images/sourcetreeMacChooseToCloneFromUrl.png" width="300" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><br> <span class="image-wrapper"><img src="/lessons/clone/images/sourcetreeMacGiveUrl.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span></p><!--]--><hr data-v-65067870></div><!--]--></div></div><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>2</strong></small></span> <strong>Verify the clone has a remote named <code class="hljs inline no-lang">origin</code></strong> pointing to the upstream repo.</p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>Use the <code class="hljs inline no-lang">git remote -v</code> command that you learned earlier.</p><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Choose <code class="hljs inline no-lang">Repository</code> → <code class="hljs inline no-lang">Repository Settings</code> menu option.</p><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div></div> <div><div class="card-container non-printable algolia-no-index" tags="git-mastery" collapsed data-v-4484e25a><div class="card expandable-card border-danger" data-v-4484e25a><div class="card-header header-toggle bg-danger border-danger" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-danger text-white" data-v-4484e25a><!--[--><!--[--><h6 id="exercise-clone-repo"><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> EXERCISE: <code class="hljs inline no-lang">clone-repo</code><a class="fa fa-anchor" href="#exercise-clone-repo" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><!----><hr style="display:none;" data-v-4484e25a></div><!----></div></div></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-seamless" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="" data-v-4484e25a></div><!----></div></div> <div class="card-container" data-v-4484e25a><div class="card expandable-card card-seamless border-0" data-v-4484e25a><div class="card-header header-toggle bg-transparent border-0" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><span class="glyphicon glyphicon-chevron-down" data-v-4484e25a></span></div><div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-4484e25a><!--[--><!--[--><div class="card-title"><h4 id="t3l3-downloading-data-into-a-local-repo"><span class="text-success">T3L3. Downloading Data Into a Local Repo</span><a class="fa fa-anchor" href="#t3l3-downloading-data-into-a-local-repo" onclick="event.stopPropagation()"></a></h4></div><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light seamless-button close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light seamless-button popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <div><div class="indented"><div><div class="non-printable"><div class="border border-success pt-0 ps-1 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color:#e6fff2;"><div class="indented"><br> <div id="overview"><p>When there are new changes in the remote, you need to <strong><em>pull</em> those changes down to your local repo</strong>.</p></div> <span><small>This lesson covers that part.</small></span></div></div> <br></div> <p><strong>There are two steps to bringing over changes from a remote repository into a local repository: <em>fetch</em> and <em>merge</em>.</strong></p> <ul><li><strong><span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">Fetch</span></span> is the act of downloading the latest changes from the remote repository, but without applying them to your current branch yet.</strong> It updates metadata in your repo so that it knows what has changed in the remote repo, but your own local branch remains untouched.</li> <li><strong><span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">Merge</span></span> is what you do after fetching, to actually incorporate the fetched changes into your local branch.</strong> It combines your local branch with the changes from the corresponding branch from the remote repo.</li></ul> <div class="non-printable"><span style="position:relative;top:10px;background-color:rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6"><span><span aria-hidden="true" class="fas fa-laptop-code"></span></span> HANDS-ON: Fetch and merge from a remote</span> <div class="indented-level1"><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-grip-lines-vertical"></span><span aria-hidden="true" class="fas fa-arrow-right"></span> Scenario</strong></small></span> You have cloned a remote repo. After you have cloned, two new commits have been added to it. <code class="hljs inline no-lang">R</code> and <code class="hljs inline no-lang">L1</code> in the diagram below represents this scenario.</p> <div class="d-flex flex-column flex-md-row align-items-stretch justify-content-start gap-2"><div class="flex-shrink-0 d-flex flex-column justify-content-end"><pre class="mermaid">gitGraph BT:
     %%{init: { &#39;theme&#39;: &#39;default&#39;, &#39;gitGraph&#39;: {&#39;mainBranchName&#39;: &#39;master&#39;}} }%%
     commit id: &quot;add loans.txt&quot;
     commit id: &quot;add loan to Ben&quot;
@@ -55,29 +137,439 @@ e.g.</p> <pre><code class="hljs bash"><span>https://github.com/se-edu/samplerepo
     commit id: &quot;[head → master][origin/master] add loan to Chang&quot;
 </pre> <p><small><div class="text-center">[L2: Local repo -- <strong>after downloading</strong><br>
 the missing commits]</div></small></p></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>Target <span aria-hidden="true" class="fas fa-arrow-right"></span><span aria-hidden="true" class="fas fa-grip-lines-vertical"></span></strong></small></span> Now, you wish to bring over those missing commits to your clone, taking it from the state <code class="hljs inline no-lang">L1</code> to state <code class="hljs inline no-lang">L2</code> (as given in the diagram above).</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-suitcase"></span> Preparation</strong></small></span> To create the initial state of the remote repo and the local repo (i.e., <code class="hljs inline no-lang">R</code> and <code class="hljs inline no-lang">L1</code> given above), you can use the following steps.</p> <ol><li><strong>Clone the repo <a href="https://github.com/git-mastery/samplerepo-finances">git-mastery/samplerepo-finances</a></strong>. It has 3 commits. Your clone now has a remote <code class="hljs inline no-lang">origin</code> pointing to the remote repo you cloned from.</li> <li><strong>Change the remote <code class="hljs inline no-lang">origin</code></strong> to point to <a href="https://github.com/git-mastery/samplerepo-finances-2.git">samplerepo-finances-2</a>. This remote repo is a copy of the one you cloned, but it has two extra commits.</li></ol> <div class="indented-level1"><div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <pre><code class="no-line-numbers hljs bash"><span>git remote set-url origin https://github.com/git-mastery/samplerepo-finances-2.git
-</span></code></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Go to <code class="hljs inline no-lang">Repository</code> → <code class="hljs inline no-lang">Repository settings ...</code> to update remotes.</p><!--]--><hr data-v-65067870></div><!--]--></div></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>1</strong></small></span> <strong>Verify the local repo is unaware of the extra commits</strong> in the remote.</p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <pre><code class="no-line-numbers hljs bash"><span>git status
-</span></code></pre><div class="d-flex"><div class="me-3"><span><span><strong><span class="dimmed">⤷</span></strong></span></span></div> <div class="flex-grow-1"><pre><code class="no-line-numbers hljs bash"><span>On branch master
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Go to <code class="hljs inline no-lang">Repository</code> → <code class="hljs inline no-lang">Repository settings ...</code> to update remotes.</p><!--]--><hr data-v-65067870></div><!--]--></div></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>1</strong></small></span> <strong>Verify the local repo is unaware of the extra commits</strong> in the remote.</p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <pre><code class="no-line-numbers hljs bash"><span>git status
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><div class="d-flex"><div class="me-3"><span><span><strong><span class="dimmed">⤷</span></strong></span></span></div> <div class="flex-grow-1"><pre><code class="no-line-numbers hljs bash"><span>On branch master
 </span><span><span class="highlighted">Your branch is up to date with <span class="hljs-string">&#39;origin/master&#39;</span>.</span>
 </span><span>
 </span><span>nothing to commit, working tree clean
-</span></code></pre></div></div><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>The revision graph should look like the below:</p> <span class="image-wrapper"><img src="/lessons/pull/images/sourcetreeStartingPoint.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span> <p></p> <p>If it looks like the below, it is possible that Sourcetree is auto-fetching data from the repo periodically.</p> <span class="image-wrapper"><img src="/lessons/pull/images/sourcetreeAfterFetching.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>2</strong></small></span> <strong>Fetch from the new remote.</strong></p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>Use the <code class="hljs inline no-lang">git fetch &lt;remote&gt;</code> command to fetch changes from a remote. If the <code class="hljs inline no-lang">&lt;remote&gt;</code> is not specified, the default remote <code class="hljs inline no-lang">origin</code> will be used.</p> <pre><code class="no-line-numbers hljs bash"><span>git fetch origin
-</span></code></pre><div class="d-flex"><div class="me-3"><span><span><strong><span class="dimmed">⤷</span></strong></span></span></div> <div class="flex-grow-1"><pre><code class="no-line-numbers hljs bash"><span>remote: Enumerating objects: 8, <span class="hljs-keyword">done</span>.
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre></div></div><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>The revision graph should look like the below:</p> <span class="image-wrapper"><img src="/lessons/pull/images/sourcetreeStartingPoint.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span> <p></p> <p>If it looks like the below, it is possible that Sourcetree is auto-fetching data from the repo periodically.</p> <span class="image-wrapper"><img src="/lessons/pull/images/sourcetreeAfterFetching.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>2</strong></small></span> <strong>Fetch from the new remote.</strong></p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>Use the <code class="hljs inline no-lang">git fetch &lt;remote&gt;</code> command to fetch changes from a remote. If the <code class="hljs inline no-lang">&lt;remote&gt;</code> is not specified, the default remote <code class="hljs inline no-lang">origin</code> will be used.</p> <pre><code class="no-line-numbers hljs bash"><span>git fetch origin
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><div class="d-flex"><div class="me-3"><span><span><strong><span class="dimmed">⤷</span></strong></span></span></div> <div class="flex-grow-1"><pre><code class="no-line-numbers hljs bash"><span>remote: Enumerating objects: 8, <span class="hljs-keyword">done</span>.
 </span><span>... <span class="hljs-comment"># more output ...</span>
 </span><span>   afbe966..cc6a151  master     -&gt; origin/master
 </span><span> * [new tag]         beta       -&gt; beta
-</span></code></pre></div></div><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Click on the <code class="hljs inline no-lang">Fetch</code> button on the top menu:<br></p> <div class="annotate-image-wrapper"><img src="/lessons/images/sourcetreeTopMenu.png" alt="Sourcetree top menu" width="400" height="" loading="eager" class="annotate-image"><div style="top:0;left:0;height:0;"><!--[--><div><!----><div class="annotate-point"><!----></div></div><!--]--></div></div><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>3</strong></small></span> <strong>Verify the fetch worked</strong> i.e., the local repo is now aware of the two missing commits. Also observe how the local branch ref of the <code class="hljs inline no-lang">master</code> branch, the staging area, and the working directory remain unchanged after the fetch.</p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>Use the <code class="hljs inline no-lang">git status</code> command to confirm the repo now knows that it is behind the remote repo.</p> <pre><code class="no-line-numbers hljs bash"><span>git status
-</span></code></pre><div class="d-flex"><div class="me-3"><span><span><strong><span class="dimmed">⤷</span></strong></span></span></div> <div class="flex-grow-1"><pre><code class="no-line-numbers hljs bash"><span>On branch master
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre></div></div><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Click on the <code class="hljs inline no-lang">Fetch</code> button on the top menu:<br></p> <div class="annotate-image-wrapper"><img src="/lessons/images/sourcetreeTopMenu.png" alt="Sourcetree top menu" width="400" height="" loading="eager" class="annotate-image"><div style="top:0;left:0;height:0;"><!--[--><div><!----><div class="annotate-point"><!----></div></div><!--]--></div></div><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>3</strong></small></span> <strong>Verify the fetch worked</strong> i.e., the local repo is now aware of the two missing commits. Also observe how the local branch ref of the <code class="hljs inline no-lang">master</code> branch, the staging area, and the working directory remain unchanged after the fetch.</p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>Use the <code class="hljs inline no-lang">git status</code> command to confirm the repo now knows that it is behind the remote repo.</p> <pre><code class="no-line-numbers hljs bash"><span>git status
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><div class="d-flex"><div class="me-3"><span><span><strong><span class="dimmed">⤷</span></strong></span></span></div> <div class="flex-grow-1"><pre><code class="no-line-numbers hljs bash"><span>On branch master
 </span><span><span class="highlighted">Your branch is behind </span><span class="hljs-string highlighted">&#39;origin/master&#39;</span><span><span class="highlighted"> by 2 commits</span>, and can be fast-forwarded.
 </span></span><span>  (use <span class="hljs-string">&quot;git pull&quot;</span> to update your <span class="hljs-built_in">local</span> branch)
 </span><span>
 </span><span>nothing to commit, working tree clean
-</span></code></pre></div></div><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Now, the revision graph should look something like the below. Note how the <code class="hljs inline no-lang">origin/master</code> ref is now two commits ahead of the <code class="hljs inline no-lang">master</code> ref.</p> <span class="image-wrapper"><img src="/lessons/pull/images/sourcetreeAfterFetching.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>4</strong></small></span> <strong>Merge the fetched changes.</strong></p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>Use the <code class="hljs inline no-lang">git merge &lt;remote-tracking-branch&gt;</code> command to merge the fetched changes. Check the status and the revision graph to verify that the branch tip has now moved by two more commits.</p> <pre><code class="no-line-numbers hljs bash"><span>git merge origin/master
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre></div></div><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Now, the revision graph should look something like the below. Note how the <code class="hljs inline no-lang">origin/master</code> ref is now two commits ahead of the <code class="hljs inline no-lang">master</code> ref.</p> <span class="image-wrapper"><img src="/lessons/pull/images/sourcetreeAfterFetching.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>4</strong></small></span> <strong>Merge the fetched changes.</strong></p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>Use the <code class="hljs inline no-lang">git merge &lt;remote-tracking-branch&gt;</code> command to merge the fetched changes. Check the status and the revision graph to verify that the branch tip has now moved by two more commits.</p> <pre><code class="no-line-numbers hljs bash"><span>git merge origin/master
 </span><span>
 </span><span>git status
 </span><span>git <span class="hljs-built_in">log</span> --oneline --decorate
-</span></code></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>To merge the fetched changes, right-click on the latest commit on <code class="hljs inline no-lang">origin/remote</code> branch and choose <code class="hljs inline no-lang">Merge</code>.</p> <span class="image-wrapper"><img src="/lessons/pull/images/sourcetreeRightClickToMerge.png" width="400" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span> <p>In the next dialog, choose as follows:<br> <span class="image-wrapper"><img src="/lessons/pull/images/sourcetreeMergeDialog.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span></p> <p>The final result should be something like the below (same as the repo state before we started this hands-on practical):<br> <span class="image-wrapper"><img src="/lessons/pull/images/sourcetreeAfterMerging.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span></p><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span class="badge rounded-pill bg-warning text-dark"><span aria-hidden="true" class="fas fa-exclamation"></span></span> Note that merging the fetched changes can get complicated if there are multiple branches or the commits in the local repo conflict with commits in the remote repo. We will address them when we learn more about Git branches, in a later lesson.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div> <p><strong><span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">Pull</span></span> is a shortcut that combines fetch and merge</strong> — it fetches the latest changes from the remote and immediately merges them into your current branch. In practice, Git users typically use the pull instead of the fetch-then-merge.</p> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-info" style="" data-v-19514615><!--[--><i class="fas fa-info" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-info vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">pull</span></span> = <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">fetch</span></span> + <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">merge</span></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <div class="non-printable"><span style="position:relative;top:10px;background-color:rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6"><span><span aria-hidden="true" class="fas fa-laptop-code"></span></span> HANDS-ON: Pull from a remote</span> <div class="indented-level1"><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-grip-lines-vertical"></span><span aria-hidden="true" class="fas fa-arrow-right"></span> Scenario</strong></small></span> Same as previous hands-on practical.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>Target <span aria-hidden="true" class="fas fa-arrow-right"></span><span aria-hidden="true" class="fas fa-grip-lines-vertical"></span></strong></small></span> Same as the previous, but this time we intend to fetch and merge in one step.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-suitcase"></span> Preparation</strong></small></span> Same as previous, but use a different folder.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>1</strong></small></span> <strong>Pull the newer commits from the remote</strong>, instead of a fetch-then-merge.</p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>Use the <code class="hljs inline no-lang">git pull &lt;remote&gt; &lt;branch&gt;</code> command to pull changes.</p> <pre><code class="no-line-numbers hljs bash"><span>git pull origin master
-</span></code></pre><p>The following works too. If the <code class="hljs inline no-lang">&lt;remote&gt;</code> and <code class="hljs inline no-lang">&lt;branch&gt;</code> are not specified, Git will pull to the current branch from the remote branch it is tracking.</p> <pre><code class="no-line-numbers hljs bash"><span>git pull
-</span></code></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Click on the <code class="hljs inline no-lang">Pull</code> button on the top menu:<br></p> <div class="annotate-image-wrapper"><img src="/lessons/images/sourcetreeTopMenu.png" alt="Sourcetree top menu" width="400" height="" loading="eager" class="annotate-image"><div style="top:0;left:0;height:0;"><!--[--><div><!----><div class="annotate-point"><!----></div></div><!--]--></div></div> <p></p>
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>To merge the fetched changes, right-click on the latest commit on <code class="hljs inline no-lang">origin/remote</code> branch and choose <code class="hljs inline no-lang">Merge</code>.</p> <span class="image-wrapper"><img src="/lessons/pull/images/sourcetreeRightClickToMerge.png" width="400" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span> <p>In the next dialog, choose as follows:<br> <span class="image-wrapper"><img src="/lessons/pull/images/sourcetreeMergeDialog.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span></p> <p>The final result should be something like the below (same as the repo state before we started this hands-on practical):<br> <span class="image-wrapper"><img src="/lessons/pull/images/sourcetreeAfterMerging.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span></p><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span class="badge rounded-pill bg-warning text-dark"><span aria-hidden="true" class="fas fa-exclamation"></span></span> Note that merging the fetched changes can get complicated if there are multiple branches or the commits in the local repo conflict with commits in the remote repo. We will address them when we learn more about Git branches, in a later lesson.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div> <p><strong><span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">Pull</span></span> is a shortcut that combines fetch and merge</strong> — it fetches the latest changes from the remote and immediately merges them into your current branch. In practice, Git users typically use the pull instead of the fetch-then-merge.</p> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-info" style="" data-v-19514615><!--[--><i class="fas fa-info" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-info vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">pull</span></span> = <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">fetch</span></span> + <span class="badge text-dark" style="background-color:rgba(13, 202, 240, 0.2);"><span class="large">merge</span></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <div class="non-printable"><span style="position:relative;top:10px;background-color:rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6"><span><span aria-hidden="true" class="fas fa-laptop-code"></span></span> HANDS-ON: Pull from a remote</span> <div class="indented-level1"><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-grip-lines-vertical"></span><span aria-hidden="true" class="fas fa-arrow-right"></span> Scenario</strong></small></span> Same as previous hands-on practical.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>Target <span aria-hidden="true" class="fas fa-arrow-right"></span><span aria-hidden="true" class="fas fa-grip-lines-vertical"></span></strong></small></span> Same as the previous, but this time we intend to fetch and merge in one step.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-suitcase"></span> Preparation</strong></small></span> Same as previous, but use a different folder.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>1</strong></small></span> <strong>Pull the newer commits from the remote</strong>, instead of a fetch-then-merge.</p> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>Use the <code class="hljs inline no-lang">git pull &lt;remote&gt; &lt;branch&gt;</code> command to pull changes.</p> <pre><code class="no-line-numbers hljs bash"><span>git pull origin master
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p>The following works too. If the <code class="hljs inline no-lang">&lt;remote&gt;</code> and <code class="hljs inline no-lang">&lt;branch&gt;</code> are not specified, Git will pull to the current branch from the remote branch it is tracking.</p> <pre><code class="no-line-numbers hljs bash"><span>git pull
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Click on the <code class="hljs inline no-lang">Pull</code> button on the top menu:<br></p> <div class="annotate-image-wrapper"><img src="/lessons/images/sourcetreeTopMenu.png" alt="Sourcetree top menu" width="400" height="" loading="eager" class="annotate-image"><div style="top:0;left:0;height:0;"><!--[--><div><!----><div class="annotate-point"><!----></div></div><!--]--></div></div> <p></p>
 In the next dialog, choose as follows:<br> <span class="image-wrapper"><img src="/lessons/pull/images/sourcetreePullDialog.png" width="500" height="" loading="eager" class="img-fluid rounded"><span class="image-caption"><!--[--><!--]--></span></span><!--]--><hr data-v-65067870></div><!--]--></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>2</strong></small></span> <strong>Verify the outcome</strong> is same as the fetch + merge steps you did in the previous hands-on practical.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div> <p><strong>You can pull from any number of remote repos</strong>, provided the repos involved have a shared history. This can be useful when the upstream repo you forked from has some new commits that you wish to bring over to your copies of the repo (i.e., your fork and your local repo).</p> <div class="non-printable"><span style="position:relative;top:10px;background-color:rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6"><span><span aria-hidden="true" class="fas fa-laptop-code"></span></span> HANDS-ON: Sync your repos with the upstream repo</span> <div class="indented-level1"><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-grip-lines-vertical"></span><span aria-hidden="true" class="fas fa-arrow-right"></span> Scenario</strong></small></span> You have forked and cloned a remote repo. Since then, new commits have been added to the original remote repo.</p> <div class="d-flex flex-column flex-md-row align-items-stretch justify-content-start gap-2"><div class="flex-shrink-0 d-flex flex-column justify-content-end"><pre class="mermaid">gitGraph BT:
     %%{init: { &#39;theme&#39;: &#39;default&#39;, &#39;gitGraph&#39;: {&#39;mainBranchName&#39;: &#39;master&#39;}} }%%
     commit id: &quot;add loans.txt&quot;
@@ -96,8 +588,90 @@ In the next dialog, choose as follows:<br> <span class="image-wrapper"><img src=
     commit id: &quot;add loan to Ben&quot;
     commit id: &quot;[head → master][origin/master] add assets.txt&quot;
 </pre> <p><small><div class="text-center">[C: your clone (local), also <br> <strong>2 commits behind</strong>]</div></small></p></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>Target <span aria-hidden="true" class="fas fa-arrow-right"></span><span aria-hidden="true" class="fas fa-grip-lines-vertical"></span></strong></small></span> Now, you wish to bring over new commits to your clone, and also update your fork with those commits.</p> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-suitcase"></span> Preparation</strong></small></span> You can use the following steps to create the initial state of the three repos mentioned above:</p> <ol><li><strong>Fork the repo <a href="https://github.com/git-mastery/samplerepo-finances">git-mastery/samplerepo-finances</a></strong> to your account.</li> <li><strong>Clone that fork</strong> to your computer.</li></ol> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>1</strong></small></span> <strong>Add the upstream repo <a href="https://github.com/git-mastery/samplerepo-finances-2">git-mastery/samplerepo-finances-2</a> as remote</strong> named <code class="hljs inline no-lang">upstream</code> in your local repo.</p> <div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-success" style="" data-v-19514615><!--[--><i class="fas fa-lightbulb" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-success vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>Adding remotes was covered in <a href="/lessons/setRemote/index.html">Lesson T2L4. Linking a Local Repo With a Remote Repo</a></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>2</strong></small></span> <strong>Pull from the upstream repo.</strong> If there are new commits, those will come over to your local repo. For example:</p> <pre><code class="no-line-numbers hljs bash"><span>git pull upstream master
-</span></code></pre><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>3</strong></small></span> <strong>Push to your fork.</strong> Any new commits you pulled from the upstream repo will now appear in your fork as well. For example:</p> <pre><code class="no-line-numbers hljs bash"><span>git push origin master
-</span></code></pre><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-info" style="" data-v-19514615><!--[--><i class="fas fa-info" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-info vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>The method given above is the more &#39;standard&#39; method of synchronising a fork with the upstream repo. In addition, platforms such as GitHub can provide other ways (example: GitHub&#39;s <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork">Sync fork</a> feature).</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div></div> <div><div class="card-container non-printable" tags="git-mastery" collapsed data-v-4484e25a><div class="card expandable-card border-danger" data-v-4484e25a><div class="card-header header-toggle bg-danger border-danger" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-danger text-white" data-v-4484e25a><!--[--><!--[--><h6 id="exercise-fetch-and-pull"><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> EXERCISE: <code class="hljs inline no-lang">fetch-and-pull</code><a class="fa fa-anchor" href="#exercise-fetch-and-pull" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><!----><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <a id="pullingFromMultipleRemotes"></a> <div class="card-container non-printable" data-v-4484e25a><div class="card expandable-card border-warning" data-v-4484e25a><div class="card-header header-toggle bg-warning border-warning" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-warning" data-v-4484e25a><!--[--><!--[--><p><span><span aria-hidden="true" class="fas fa-diamond-turn-right"></span></span> DETOUR: <strong>Pulling from Multiple Remotes</strong></p><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-secondary close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-secondary popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-peek-collapsed card-collapse" data-v-4484e25a><div class="d-print-none card-body" data-v-4484e25a><!--[--><!--[--> <div><p><strong>You can pull from any number of repos</strong>, provided the repos involved have a shared history.</p> <ol><li><span class="trigger-click" tabindex="0"><span><!--[-->Add the GitHub repo URL as a remote<!--]--></span></span> while giving a suitable name (e.g., <code class="hljs inline no-lang">upstream</code>, <code class="hljs inline no-lang">central</code>, <code class="hljs inline no-lang">production</code>, <code class="hljs inline no-lang">backup</code> ...), if you haven&#39;t done so already.</li> <li>Pull (or fetch) from the remote repo -- remember to select the correct remote repo when you do.</li></ol> <!--[--><!-- NavBar has z-index of 1000, hence the z-index here should exceed that --><!-- SSR property is required for the snapshot tests to work --><!----><!--]--> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>e.g., <code class="hljs inline no-lang">git pull backup master</code></p><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Similar to before, but remember to choose the intended remote to pull from.</p><!--]--><hr data-v-65067870></div><!--]--></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><div class="peek-read-more glyphicon glyphicon-chevron-down" data-v-4484e25a></div></div></div></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-seamless" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="" data-v-4484e25a></div><!----></div></div> <div style="background-color:#e6fff2;border-bottom-left-radius:15px;border-bottom-right-radius:15px;" class="non-printable p-3 border-bottom border-5 border-success"><p><strong>At this point</strong>: <span>Now you can create your own remote and local copies of any repo on GitHub, and update your copy when there are new changes in the upstream repo.</span></p> <p><strong>What&#39;s next</strong>: <span><a href="/lessons/trail/usingRevisionHistory/">Tour 4: Using the Revision History of a Repo</a></span></p></div></div> <div></div></div></div></div></div></div></p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"><nav id="mb-page-nav" class="nav nav-pills flex-column my-0 small no-flex-wrap" data-v-6b1b63d2><!--[--><a class="nav-link py-1" href="#t3l1-duplicating-a-remote-repo-on-the-cloud">T3L1. Duplicating a Remote Repo on the Cloud‎</a> <a class="nav-link py-1" href="#t3l2-creating-a-local-copy-of-a-repo">T3L2. Creating a Local Copy of a Repo‎</a> <a class="nav-link py-1" href="#t3l3-downloading-data-into-a-local-repo">T3L3. Downloading Data Into a Local Repo‎</a><!--]--><!--v-if--></nav></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.0.2</a>, generated on Mon, 8 Dec 2025, 3:02:49 GMT+8]</small></div></footer><!--]--></div>
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong>3</strong></small></span> <strong>Push to your fork.</strong> Any new commits you pulled from the upstream repo will now appear in your fork as well. For example:</p> <pre><code class="no-line-numbers hljs bash"><span>git push origin master
+</span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Copy</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none wrap-button">
+    <div class="tooltip-container">
+    <span class="tooltiptext">Wrap Text</span>
+    <div class="function-btn-body">
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z "></path>
+    </g>
+</svg>
+
+    </div>
+    </div>
+    </button></div></pre><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><div class="icon-wrapper text-info" style="" data-v-19514615><!--[--><i class="fas fa-info" data-v-19514615></i><!--]--></div><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-info vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p>The method given above is the more &#39;standard&#39; method of synchronising a fork with the upstream repo. In addition, platforms such as GitHub can provide other ways (example: GitHub&#39;s <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork">Sync fork</a> feature).</p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></div></div> <div><div class="card-container non-printable algolia-no-index" tags="git-mastery" collapsed data-v-4484e25a><div class="card expandable-card border-danger" data-v-4484e25a><div class="card-header header-toggle bg-danger border-danger" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-danger text-white" data-v-4484e25a><!--[--><!--[--><h6 id="exercise-fetch-and-pull"><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> EXERCISE: <code class="hljs inline no-lang">fetch-and-pull</code><a class="fa fa-anchor" href="#exercise-fetch-and-pull" onclick="event.stopPropagation()"></a></h6><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><!----><hr style="display:none;" data-v-4484e25a></div><!----></div></div> <a id="pullingFromMultipleRemotes"></a> <div class="card-container non-printable algolia-no-index" data-v-4484e25a><div class="card expandable-card border-warning" data-v-4484e25a><div class="card-header header-toggle bg-warning border-warning" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><!----></div><div class="header-wrapper card-title bg-warning" data-v-4484e25a><!--[--><!--[--><p><span><span aria-hidden="true" class="fas fa-diamond-turn-right"></span></span> DETOUR: <strong>Pulling from Multiple Remotes</strong></p><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-secondary close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="display:none;" type="button" class="btn-outline-secondary popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-peek-collapsed card-collapse" data-v-4484e25a><div class="d-print-none card-body" data-v-4484e25a><!--[--><!--[--> <div><p><strong>You can pull from any number of repos</strong>, provided the repos involved have a shared history.</p> <ol><li><span class="trigger-click" tabindex="0"><span><!--[-->Add the GitHub repo URL as a remote<!--]--></span></span> while giving a suitable name (e.g., <code class="hljs inline no-lang">upstream</code>, <code class="hljs inline no-lang">central</code>, <code class="hljs inline no-lang">production</code>, <code class="hljs inline no-lang">backup</code> ...), if you haven&#39;t done so already.</li> <li>Pull (or fetch) from the remote repo -- remember to select the correct remote repo when you do.</li></ol> <!--[--><!-- NavBar has z-index of 1000, hence the z-index here should exceed that --><!-- SSR property is required for the snapshot tests to work --><!----><!--]--> <div class="printable-tabs" data-v-78737a60><!-- Nav tabs --><ul class="nav-tabs nav nav-tabs d-print-none" role="tablist" data-v-78737a60><!--[--><!--]--></ul><div class="tab-content" data-v-78737a60><!--[--><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->CLI<!--]--></div></div><!--[--> <p>e.g., <code class="hljs inline no-lang">git pull backup master</code></p><!--]--><hr data-v-65067870></div> <div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide d-print-none algolia-no-index" data-v-65067870><div class="nav-tabs printable-tab-header" data-v-65067870><div class="nav-link active" data-v-65067870><!--[-->Sourcetree<!--]--></div></div><!--[--> <p>Similar to before, but remember to choose the intended remote to pull from.</p><!--]--><hr data-v-65067870></div><!--]--></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><div class="peek-read-more glyphicon glyphicon-chevron-down" data-v-4484e25a></div></div></div></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-seamless" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="" data-v-4484e25a></div><!----></div></div> <div style="background-color:#e6fff2;border-bottom-left-radius:15px;border-bottom-right-radius:15px;" class="non-printable p-3 border-bottom border-5 border-success"><p><strong>At this point</strong>: <span>Now you can create your own remote and local copies of any repo on GitHub, and update your copy when there are new changes in the upstream repo.</span></p> <p><strong>What&#39;s next</strong>: <span><a href="/lessons/trail/usingRevisionHistory/">Tour 4: Using the Revision History of a Repo</a></span></p></div></div> <div></div></div></div></div></div></div></p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"><nav id="mb-page-nav" class="nav nav-pills flex-column my-0 small no-flex-wrap" data-v-6b1b63d2><!--[--><a class="nav-link py-1" href="#t3l1-duplicating-a-remote-repo-on-the-cloud">T3L1. Duplicating a Remote Repo on the Cloud‎</a> <a class="nav-link py-1" href="#t3l2-creating-a-local-copy-of-a-repo">T3L2. Creating a Local Copy of a Repo‎</a> <a class="nav-link py-1" href="#t3l3-downloading-data-into-a-local-repo">T3L3. Downloading Data Into a Local Repo‎</a><!--]--><!--v-if--></nav></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.0.2</a>, generated on Mon, 8 Dec 2025, 16:00:27 GMT+8]</small></div></footer><!--]--></div>
 </body><script src="/markbind/js/bootstrap-utility.min.js"></script>
 <script src="/markbind/js/polyfill.min.js"></script>
 <script src="/markbind/js/vue.global.prod.min.js"></script>
@@ -186,4 +760,171 @@ In the next dialog, choose as follows:<br> <span class="image-wrapper"><img src=
     });
 
   </script>
+    <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3.2.0/dist/umd/index.js"></script>
+    <script>
+    docsearch({
+      container: "#algolia-search-input",
+      appId: "undefined",
+      apiKey: "undefined",
+      indexName: "undefined",
+      searchParameters: {}
+    });
+  </script>
+    <script>
+    const style = document.createElement('style');
+    style.innerHTML = ".DocSearch-Container { z-index: 1002; position: fixed; }";
+    document.getElementsByTagName('head')[0].appendChild(style);
+  </script>
+  
+    <script>
+    function copyCodeBlock(element) {
+        const pre = element.parentElement.parentElement;
+        const codeElement = pre.querySelector('code');
+        const copyButtonBody = element.querySelector('.function-btn-body');
+        const tooltipText = element.querySelector(".tooltiptext");
+
+        // create dummy text element to select() the text field
+        const textElement = document.createElement('textarea');
+        textElement.value = codeElement.textContent;
+        document.body.appendChild(textElement);
+        textElement.select();
+
+        document.execCommand('copy');
+        document.body.removeChild(textElement);
+        copyButtonBody.innerHTML = `
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    height="18"
+    viewBox="2 2 22 22"
+  >
+    <path d="M 19.28125 5.28125 L 9 15.5625 L 4.71875 11.28125 L 3.28125 12.71875 L 8.28125 17.71875 
+    L 9 18.40625 L 9.71875 17.71875 L 20.71875 6.71875 Z"></path>
+  </svg>
+`;
+        console.log("Running tooltip");
+        tooltipText.innerText  = `Copied!`;
+        setTimeout(() => {
+            copyButtonBody.innerHTML = `
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18" viewBox="0 0 18 18" version="1.1">
+    <g id="surface1">
+      <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
+      1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
+      1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
+      4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
+      15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
+      14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 "/>
+    </g>
+</svg>
+`;
+            tooltipText.innerText  = `Copy`;
+        }, 3000);
+    }
+    </script>
+    <script>
+    function toggleCodeBlockWrap(element) {
+      const pre = element.parentElement.parentElement;
+      const tooltipText = element.querySelector(".tooltiptext");
+      const classList = pre.querySelector('code').classList; 
+      if (classList.contains('wrap')) {
+          classList.remove('wrap');
+          tooltipText.innerText  = `Wrap Text`;
+      } else {
+          classList.add('wrap')
+          tooltipText.innerText  = `Unwrap Text`;
+      }
+    }
+    </script>
+    <script src="/plugins/dataTable/datatables.min.js"></script>
+    
+  <script>
+    function getTableOptions(el) {
+      const options = {};
+      if ($(el).hasClass('sortable-table')) {
+        options.searching = false;
+        options.paging = false;
+        options.info = false;
+      } else if ($(el).hasClass('searchable-table')) {
+        options.ordering = false;
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      } else if ($(el).hasClass('sortable-searchable-table')) {
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      }
+      return options;
+    }
+
+    function initializeTables(tables) {
+      if (!tables || tables.length === 0) return;
+      tables.forEach(table => {
+        const options = getTableOptions(table);
+        $(table).DataTable(options);
+        $(table).addClass('dt-processed');
+      });
+    }
+
+    function setupTableObserver() {
+      const observer = new MutationObserver((mutations) => {
+        let newTables = [];
+        
+        mutations.forEach(mutation => {
+          if (mutation.addedNodes.length) {
+            mutation.addedNodes.forEach(node => {
+
+              if (node.nodeType === 1 && node.tagName === 'TABLE' && 
+                  !$(node).hasClass('dt-processed') &&
+                  ($(node).hasClass('sortable-table') || 
+                   $(node).hasClass('searchable-table') || 
+                   $(node).hasClass('sortable-searchable-table'))) {
+                newTables.push(node);
+              }
+              
+              if (node.nodeType === 1 && node.querySelectorAll) {
+                const tablesInNode = node.querySelectorAll(
+                'table.sortable-table:not(.dt-processed), ' +
+                'table.searchable-table:not(.dt-processed), ' +
+                'table.sortable-searchable-table:not(.dt-processed)');
+                if (tablesInNode.length) {
+                  newTables = [...newTables, ...tablesInNode];
+                }
+              }
+            });
+          }
+        });
+
+        if (newTables.length > 0) {
+          initializeTables(newTables);
+        }
+      });
+      
+      // Start observing the entire document for changes
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true
+      });
+      
+      return observer;
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      // Process any existing tables
+      const existingTables = document.querySelectorAll(
+        'table.sortable-table:not(.dt-processed), ' +
+        'table.searchable-table:not(.dt-processed), ' +
+        'table.sortable-searchable-table:not(.dt-processed)'
+      );
+      if (existingTables.length > 0) {
+        initializeTables(existingTables);
+      }
+      
+      setupTableObserver();
+    });
+
+  </script>
+
 </html>
