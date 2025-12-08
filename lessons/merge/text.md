@@ -38,7 +38,7 @@ In the above example, `master` is the destination branch and `fix1` is the sourc
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Merge a branch (with a merge commit)")  %}
 
-{{ hp_number(hop_preparation) }} We continue with the `samplerepo-things` repo from earlier, which should look like the following. Note that we are ignoring the `feature1-alt` branch, for simplicity.
+{{ hp_number(hop_preparation) }} We continue with the `sports` repo from earlier, which should look like the following. Note that we are ignoring the `feature1-alt` branch, for simplicity.
 
 <include src="../branch/text.md#sports-repo-before-merging" />
 
@@ -195,7 +195,7 @@ In the example above, the `master` branch has not changed since the merge base (
 
 {{ hp_number(hop_preparation) }} Let's continue with the same `sports` repo we used above, and do a fast-forward merge this time.
 
-{{ hp_number ('1') }} **Create a new branch called `add-swimming`, and some commits to it** as follows:<br>
+ **Create a new branch called `add-swimming`, and some commits to it** as follows:<br>
 Switch to the master branch, create a new branch, switch to the new branch, add a file named `swimming.txt`, stage it, and commit it.<br>
 Do some changes to `swimming.txt`, and commit those changes.
 ```bash
@@ -208,6 +208,8 @@ git commit -m "Add swimming.txt"
 
 echo "Ian Thorpe" >> swimming.txt
 git commit -am "Add Thorpe to swimming.txt"
+
+git switch master
 ```
 You should have something like this now:
 <mermaid>
@@ -219,7 +221,9 @@ gitGraph BT:
     commit id: "[HEAD → add-swimming] a2"
 </mermaid>
 
-{{ hp_number ('2') }} **Go back to the `master` branch.**
+{{ hp_number(hop_target) }} Do a fast-forward merge of the `add-swimming` branch.
+
+{{ hp_number ('1') }} **Ensure you are on the `master` branch.**
 
 <mermaid>
 gitGraph BT:
@@ -230,7 +234,7 @@ gitGraph BT:
     commit id: "add-swimming] a2"
 </mermaid>
 
-{{ hp_number ('3') }} **Merge the `add-swimming` branch onto the `master` branch.** Observe that there is no merge commit. The `master` branch ref (and the `HEAD` ref along with it) moved to the tip of the `add-swimming` branch (i.e., `a2`) and both branches now point to `a2`.
+{{ hp_number ('2') }} **Merge the `add-swimming` branch onto the `master` branch.** Observe that there is no merge commit. The `master` branch ref (and the `HEAD` ref along with it) moved to the tip of the `add-swimming` branch (i.e., `a2`) and both branches now point to `a2`.
 
 <mermaid>
 gitGraph BT:

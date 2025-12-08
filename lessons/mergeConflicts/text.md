@@ -15,7 +15,7 @@ When merging branches, **you need to guide Git on how to resolve conflicting cha
 
 
 <!-- ================== start: HANDS-ON =========================== -->
-{% call show_hands_on_practical("Resolve merge conflict")  %}
+{% call show_hands_on_practical("Resolve a merge conflict")  %}
 
 
 {{ hp_number(hop_preparation) }} We need a repo with two branches containing conflicting changes. Given below is how you can create such a scenario:
@@ -134,9 +134,9 @@ white
 
 **If there are multiple conflicts** (in multiple files, or in different locations within the same file), resolve them in a similar fashion.
 
-{{ hp_number("6") }} **Stage the changes.**
+{{ hp_number("4") }} **Stage the changes.**
 
-{{ hp_number("7") }} Complete the merge by doing one of the following:
+{{ hp_number("5") }} Complete the merge by doing one of the following:
 * **Option 1: Commit** the staged changes (as you would do normally).
 * **Option 2: Ask Git to resume the merge** using the command `git merge --continue`.
 
