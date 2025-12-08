@@ -40,7 +40,7 @@ In the above example, `master` is the destination branch and `fix1` is the sourc
 
 {{ hp_number(hop_preparation) }} We continue with the `samplerepo-things` repo from earlier, which should look like the following. Note that we are ignoring the `feature1-alt` branch, for simplicity.
 
-<include src="../branch/text.md#samplerepo-things-before-merging" />
+<include src="../branch/text.md#sports-repo-before-merging" />
 
 {{ hp_number ('1') }} **Switch back to the `feature1` branch.**
 
@@ -80,8 +80,11 @@ $ git merge master
 {% endset %}
 {% set sourcetree %}
 Right-click on the `master` branch and choose `merge master into the current branch`. Click `OK` in the next dialog.<br>
+<pic src="{{baseUrl}}/lessons/merge/images/sourcetreeChooseToMergeMaster.png" width="500" /><br>
+_If_ a confirmation dialog pops up, choose as follows:<br>
+<pic src="{{baseUrl}}/lessons/merge/images/sourcetreeMergeConfirmationDialog.png" width="500" /><br>
 The revision graph should look like this now (colours and line alignment might vary but the graph structure should be the same):<br>
-<pic eager src="{{baseUrl}}/lessons/merge/images/sourcetreeAfterMeringMaster.png" height="120" />
+<pic src="{{baseUrl}}/lessons/merge/images/sourcetreeAfterMeringMaster.png" width="500" />
 <p/>
 {% endset %}
 {{ show_git_tabs_from_text(cli, sourcetree) }}
@@ -91,8 +94,17 @@ The revision graph should look like this now (colours and line alignment might v
 Observe how the changes you made in the `master` branch (i.e., the imaginary bug fix in `m3`) is now available even when you are in the `feature1` branch.<br>
 Furthermore, observe (e.g., `git show HEAD`) how the merge commit contains the sum of changes done in  commits `m3`, `f1`, and `f2`.
 
-{{ hp_number ('3') }} **Add another commit to the `feature1` branch**, in which you do some further changes to the `numbers.txt`.<br>
+{{ hp_number ('3') }} **Add another commit to the `feature1` branch**, in which you do some further changes to the `boxing.txt`.
+```bash
+echo -e "Manny Pacquiao" >> boxing.txt
+git commit -am "Add Manny to boxing.txt"
+```
 **Switch to the `master` branch and add one more commit.**
+```bash
+git switch master
+echo -e "Lionel Messi" >> football.txt
+git commit -am "Add Messi to football.txt"
+```
 
 <mermaid>
 gitGraph BT:
@@ -139,7 +151,7 @@ git merge feature1
 {% set sourcetree %}
 Right-click on the `feature1` branch and choose `Merge...`. The resulting revision graph should look like this:
 
-<pic eager src="{{baseUrl}}/lessons/merge/images/sourcetreeAfterMeringFeature1.png" height="150" />
+<pic eager src="{{baseUrl}}/lessons/merge/images/sourcetreeAfterMeringFeature1.png" width="400" />
 <p/>
 {% endset %}
 {{ show_git_tabs_from_text(cli, sourcetree) }}
@@ -148,7 +160,7 @@ Right-click on the `feature1` branch and choose `Merge...`. The resulting revisi
 Now, any changes you made in `feature1` branch are available in the master branch.
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
-**When the destination branch hasn't diverged** — meaning it hasn't had any new commits since the merge base —  **Git simply moves the branch pointer forward to include all the new commits in the source branch**, keeping the history clean and linear. This is **called a {{ show_git_term("fast-forward merge") }}** because Git simply "fast-forwards" the branch pointer to the tip of the other branch. The result looks as if all the changes had been made directly on one branch, without any branching at all.
+**When the destination branch hasn't diverged** — meaning it hasn't had any new commits since the merge base commit —  **Git simply moves the branch pointer forward to include all the new commits in the source branch**, keeping the history clean and linear. This is **called a {{ show_git_term("fast-forward merge") }}** because Git simply "fast-forwards" the branch pointer to the tip of the other branch. The result looks as if all the changes had been made directly on one branch, without any branching at all.
 
 {% set a %}
 <mermaid>
@@ -181,19 +193,30 @@ In the example above, the `master` branch has not changed since the merge base (
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Do a fast-forward merge")  %}
 
-{{ hp_number(hop_preparation) }} Let's continue with the same `samplerepo-things` repo we used above, and do a fast-forward merge this time.
+{{ hp_number(hop_preparation) }} Let's continue with the same `sports` repo we used above, and do a fast-forward merge this time.
 
-{{ hp_number ('1') }} **Create a new branch called `add-countries`, and some commits to it** as follows:<br>
-Switch to the new branch, add a file named `countries.txt`, stage it, and commit it.<br>
-Do some changes to `countries.txt`, and commit those changes.<br>
+{{ hp_number ('1') }} **Create a new branch called `add-swimming`, and some commits to it** as follows:<br>
+Switch to the master branch, create a new branch, switch to the new branch, add a file named `swimming.txt`, stage it, and commit it.<br>
+Do some changes to `swimming.txt`, and commit those changes.
+```bash
+git switch master
+git switch -c add-swimming
+
+echo "Michael Phelps" > swimming.txt
+git stage swimming.txt
+git commit -m "Add swimming.txt"
+
+echo "Ian Thorpe" >> swimming.txt
+git commit -am "Add Thorpe to swimming.txt"
+```
 You should have something like this now:
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
     commit id: "[master] mc2"
-    branch add-countries
+    branch add-swimming
     commit id: "a1"
-    commit id: "[HEAD → add-countries] a2"
+    commit id: "[HEAD → add-swimming] a2"
 </mermaid>
 
 {{ hp_number ('2') }} **Go back to the `master` branch.**
@@ -202,19 +225,19 @@ gitGraph BT:
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
     commit id: "[HEAD → master] mc2"
-    branch add-countries
+    branch add-swimming
     commit id: "a1"
-    commit id: "add-countries] a2"
+    commit id: "add-swimming] a2"
 </mermaid>
 
-{{ hp_number ('3') }} **Merge the `add-countries` branch onto the `master` branch.** Observe that there is no merge commit. The `master` branch ref (and the `HEAD` ref along with it) moved to the tip of the `add-countries` branch (i.e., `a2`) and both branches now point to `a2`.
+{{ hp_number ('3') }} **Merge the `add-swimming` branch onto the `master` branch.** Observe that there is no merge commit. The `master` branch ref (and the `HEAD` ref along with it) moved to the tip of the `add-swimming` branch (i.e., `a2`) and both branches now point to `a2`.
 
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master (and add-countries)'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master (and add-swimming)'}} }%%" }}
     commit id: "mc2"
     commit id: "a1"
-    commit id: "[HEAD → master][add-countries] a2"
+    commit id: "[HEAD → master][add-swimming] a2"
 </mermaid>
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
@@ -229,13 +252,13 @@ gitGraph BT:
 
 To prevent Git from fast-forwarding, use the `--no-ff` switch when merging. Example:
 ```bash{.no-line-numbers}
-git merge --no-ff add-countries
+git merge --no-ff add-swimming
 ```
 {% endset %}
 {% set sourcetree %}
 :fab-windows: Windows: Tick the box shown below when you merge a branch:
 
-<pic eager src="{{baseUrl}}/lessons/branch/images/mergeBranchDialog.png" height="150" />
+<pic eager src="{{baseUrl}}/lessons/merge/images/sourcetreeMergeBranchDialog.png" height="150" />
 <p/>
 
 -------

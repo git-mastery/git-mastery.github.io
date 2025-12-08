@@ -77,9 +77,9 @@ In the above example, the commit `b1` is no longer reachable, unless we know its
 
 **Recall that a commit only has a pointer to its parent commit** (not its descendent commits).
 
-**A commit is considered {{ show_git_term("reachable") }} if you can get to it by starting at a branch, tag, or other ref and walking backward through its parent commits.** This is the normal state for commits — they are part of the visible history of a branch or tag.
+**A commit is considered {{ show_git_term("reachable") }} if you can get to it by starting at a branch, tag, or other ref and walking backward through its parent commits.** 'Reachable' is the normal state for commits — they are part of the visible history of a branch or tag.
 
-**When no branch, tag, or ref points to a commit (directly or indirectly), it becomes {{ show_git_term("unreachable") }}.** This often happens when you delete a branch or rewrite history (e.g., with reset or rebase), leaving some commits {{ show_git_term('"orphaned"') }} (or {{ show_git_term('"dangling"') }}) without a ref pointing to them.
+**If no branch, tag, or ref in the repo can be used as the starting point to reach a certain commit, that commit is {{ show_git_term("unreachable") }}.** This often happens when you delete a branch or rewrite history (e.g., with reset or rebase), leaving some commits {{ show_git_term('"orphaned"') }} (or {{ show_git_term('"dangling"') }}) without a ref pointing to them.
 
 <div class="indented-level1">
 
