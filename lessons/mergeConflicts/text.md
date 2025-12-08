@@ -118,7 +118,7 @@ green
 red
 ```
 
-{{ hp_number("3") }} **Resolve the conflict by editing the file**. Let us assume you want to keep both lines in the merged version. You can modify the file to be like this (i.e., remove the lines with conflict markers while keeping both lines `green` and `black`):
+{{ hp_number("3") }} **Resolve the conflict by editing the file**. Let us assume you want to keep both lines in the merged version. You can modify the file to be like this (i.e., remove the lines with conflict markers while keeping both lines `black` and `green`):
 
 ```txt {.line-numbers highlight-lines="2-3"}
 blue
@@ -134,7 +134,11 @@ white
 
 **If there are multiple conflicts** (in multiple files, or in different locations within the same file), resolve them in a similar fashion.
 
-{{ hp_number("6") }} **Stage the changes, and commit.** You have now successfully resolved the merge conflict.
+{{ hp_number("6") }} **Stage the changes.**
+
+{{ hp_number("7") }} Complete the merge by doing one of the following:
+* **Option 1: Commit** the staged changes (as you would do normally).
+* **Option 2: Ask Git to resume the merge** using the command `git merge --continue`.
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 </div>
