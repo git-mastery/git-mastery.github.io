@@ -22,10 +22,19 @@ pageNav: 6
 
 **If you are following lessons out of sequence, or if you are doing the exercises only,** follow the instructions given below to set up Git-Mastery app (and other required tools) in your computer, in the given sequence.
 
+
+### 1. Setting up Git
+
 <include src="{{ baseUrl }}/lessons/gitPrep/text.md#install-git" />
 <include src="{{ baseUrl }}/lessons/gitPrep/text.md#set-user" />
 <include src="{{ baseUrl }}/lessons/gitPrep/text.md#install-gui" />
+
+### 2. Setting up Git-Mastery App
+
 <include src="{{ baseUrl }}/lessons/gitPrep/text.md#install-git-mastery" />
+
+### 3. Setting up Git-Hub Tools
+
 <include src="{{ baseUrl }}/lessons/githubPrep/text.md#create-github-account" />
 <include src="{{ baseUrl }}/lessons/githubPrep/text.md#setup-authentication" />
 <include src="{{ baseUrl }}/lessons/githubPrep/text.md#configure-no-reply-email" />

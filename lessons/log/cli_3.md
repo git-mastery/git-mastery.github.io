@@ -1,6 +1,6 @@
 {% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
-Here is an example list of bash commands to add two commits while observing the list of commits
+Here is an example list of bash commands to add two commits while observing the list of commits after each commit.
 
 ```bash
 echo "figs" >> fruits.txt  # add another line to fruits.txt
@@ -14,6 +14,11 @@ git add colours.txt shapes.txt  # stage both files in one go
 git commit -m "Add colours.txt, shapes.txt"  # commit the changes
 git log  # check commits list
 ```
+<box type="tip" seamless>
+
+**You can copy-paste a list of commands** (such as commands given above), including any comments, to the terminal. After that, hit <kbd>enter</kbd> to run them in sequence.
+</box>
+
 
 The output of the final `git log` should be something like this:
 ```bash{highlight-lines="5,11,17"}

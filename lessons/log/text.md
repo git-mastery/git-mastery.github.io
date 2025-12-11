@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Able to view the revision graph, and changes included in each commit.</span>
@@ -26,21 +26,9 @@ gitGraph
 
 {% call show_hands_on_practical("Viewing the list of commits") %}
 
-{{ hp_number('Preparation') }} Use the `things` repo you created in a previous lesson. Alternatively, you can use the commands given below to create such a repo from scratch.
+{{ hp_number(hop_preparation) }}
 
-```bash
-mkdir things  # create a folder for the repo
-cd things
-git init
-echo -e "apples\nbananas\ncherries\ndragon fruits" > fruits.txt
-git add fruits.txt
-git commit -m "Add fruits.txt"
-```
-
-<box type="tip" seamless>
-
-**You can copy-paste a list of commands** (such as commands given above), including any comments, to the terminal. After that, hit <kbd>enter</kbd> to run them in sequence.
-</box>
+{{ show_hop_prep('hp-list-commits', is_continue=1) }}
 
 {{ hp_number('1') }} **View the list of commits**, which should show just the one commit you created just now.
 
@@ -102,7 +90,9 @@ In the revision graph above, there are two refs {{ show_ref('master') }} and &nb
 
 {{ hp_number(hop_target) }} **Use Git features to examine the revision graph of a simple repo.**
 
-{{ hp_number(hop_preparation) }} Use a repo with just a few commits and only one branch.
+{{ hp_number(hop_preparation) }}
+
+{{ show_hop_prep('hp-view-graph', is_continue=1) }}
 
 {{ show_git_tabs('-view-rg-normal') }}
 

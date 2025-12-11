@@ -1,6 +1,6 @@
 {% from "common/macros.njk" import hp_number, show_output with context %}
 
-{{ hp_number('1') }} **First, let us do a sanity check** using the `git status` command.
+{{ hp_number('1') }} **First, let us do a sanity check** using the `git status` command, to confirm there are staged files.
 
 ```bash{.no-line-numbers}
 git status

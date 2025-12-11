@@ -25,7 +25,7 @@ In the example below, you can see how staging files change the status of the rep
 
 {% call show_hands_on_practical("Adding untracked files") %}
 
-{{ hp_number('preparation') }}
+{{ hp_number(hop_preparation) }}
 
 {{ show_hop_prep('hp-add-files',is_continue=1) }}
 <!-- ------ end: show_hop_prep -------------------------------->
@@ -74,7 +74,7 @@ The example below shows how the status of a file changes when it is modified _af
 
 {% call show_hands_on_practical("Re-staging 'modified' files") %}
 
-{{ hp_number('preparation') }}
+{{ hp_number(hop_preparation) }}
 
 {{ show_hop_prep('hp-stage-modified', is_continue=1) }}
 <!-- ------ end: show_hop_prep -------------------------------->
