@@ -298,6 +298,23 @@
 {%- endmacro %}
 <!-- ============================================================ -->
 
+{% macro os_tabs_marker(os='') -%}
+{% if os == 'windows' %}
+<tabs>
+  <tab header=":fab-windows: Windows">
+{% elseif os == 'mac' %}
+  </tab>
+  <tab header=":fab-apple: MacOS">
+{% elseif os == 'linux' %}
+  </tab>
+  <tab header=":fab-linux: Linux">
+{% elseif os in ['end', ''] %}
+  </tab>
+</tabs>
+{% endif %}
+{%- endmacro %}
+<!-- ============================================================ -->
+
 {% macro show_git_tabs_from_text(cli, sourcetree, indent_level='') -%}
 {% if indent_level %}<div class="indented-level{{ indent_level }}">{% endif %}
 <tabs>

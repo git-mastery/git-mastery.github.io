@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_prep, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, os_tabs_marker, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_prep, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 
@@ -16,8 +16,7 @@ Before you start learning Git, **you need to install some tools** on your comput
 **Git is a free and open source software used for revision control.** To use Git, you need to install Git on your computer.
 
 {% call show_prep("Install Git", "install-git") %}
-<tabs>
-  <tab header=":fab-windows: Windows">
+{{ os_tabs_marker('windows') }}
 
 **Download the Git installer** from the [official Git website](https://git-scm.com/downloads/win).<br>
 **Run the installer** and make sure to **select the option to install Git Bash** when prompted.
@@ -61,20 +60,18 @@ You can also right-click it and choose `Pin to Start` or `Pin to taskbar`.
 **On Windows**, you might need to close and open the terminal again for it to recognise changes done elsewhere in the computer (e.g., newly-installed software, changes to system variables, etc.).
 </box>
 
-  </tab>
-  <tab header=":fab-apple: MacOS">
+{{ os_tabs_marker('mac') }}
 
 **Install [homebrew](https://brew.sh/)** if you don't already have it, and then, **run `brew install git`**
-  </tab>
-  <tab header=":fab-linux: Linux">
+
+{{ os_tabs_marker('linux') }}
 
 **Use your Linux distribution's package manager to install Git.** Examples:
 
 * Debian/Ubuntu, run `sudo apt-get update` and then `sudo apt-get install git`.
 * Fedora: run `sudo dnf update` and then `sudo dnf install git`.
 
-  </tab>
-</tabs>
+{{ os_tabs_marker('end') }}
 
 **Verify Git is installed**, by running the following command in a terminal.
 ```bash{.no-line-numbers}
