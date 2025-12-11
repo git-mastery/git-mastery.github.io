@@ -1,0 +1,620 @@
+2025-12-11T16:39:16.242Z - info: [00:39:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/site.json
+2025-12-11T16:39:16.260Z - info: Synchronizing opened pages list before reload
+2025-12-11T16:39:16.260Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T16:39:16.260Z - info: 1. exercises-directory/index
+2025-12-11T16:39:16.307Z - info: [00:39:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2025-12-11T16:39:16.307Z - info: Synchronizing opened pages list before reload
+2025-12-11T16:39:16.307Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T16:39:16.307Z - info: 1. exercises-directory/index
+2025-12-11T16:39:16.307Z - info: [00:39:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2025-12-11T16:39:16.308Z - info: Synchronizing opened pages list before reload
+2025-12-11T16:39:16.308Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T16:39:16.308Z - info: 1. exercises-directory/index
+2025-12-11T16:39:16.308Z - info: [00:39:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/githubPrep/text.md
+2025-12-11T16:39:16.309Z - info: Synchronizing opened pages list before reload
+2025-12-11T16:39:16.309Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T16:39:16.309Z - info: 1. exercises-directory/index
+2025-12-11T16:39:16.311Z - info: [00:39:16] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/plugins/customviews.js
+2025-12-11T16:39:16.311Z - info: Synchronizing opened pages list before reload
+2025-12-11T16:39:16.311Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T16:39:16.311Z - info: 1. exercises-directory/index
+2025-12-11T16:39:16.311Z - info: [00:39:16] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/customviews.config.json
+2025-12-11T16:39:16.311Z - info: Synchronizing opened pages list before reload
+2025-12-11T16:39:16.311Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T16:39:16.311Z - info: 1. exercises-directory/index
+2025-12-11T16:39:17.309Z - debug: Assets removed
+2025-12-11T16:39:17.319Z - info: Pages or site config modified, updating pages...
+2025-12-11T16:39:17.361Z - info: Rebuilding 1 pages
+2025-12-11T16:39:17.542Z - info: Site data built
+2025-12-11T16:39:17.542Z - info: Pages rebuilt
+2025-12-11T16:39:17.542Z - info: Website regeneration complete! Total build time: 0.192s
+2025-12-11T16:39:18.355Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/exercises-directory/index as some of its dependencies were changed since the last visit
+2025-12-11T16:39:18.488Z - info: Site data built
+2025-12-11T16:39:18.488Z - info: Lazy website regeneration complete! Total build time: 0.133s
+2025-12-11T16:39:18.488Z - info: Site data built
+2025-12-11T16:39:58.375Z - info: [00:39:58] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/site.json
+2025-12-11T16:39:58.376Z - info: Synchronizing opened pages list before reload
+2025-12-11T16:39:58.376Z - info: No pages are currently opened
+2025-12-11T16:39:58.426Z - info: [00:39:58] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2025-12-11T16:39:58.426Z - info: Synchronizing opened pages list before reload
+2025-12-11T16:39:58.426Z - info: No pages are currently opened
+2025-12-11T16:39:58.426Z - info: [00:39:58] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/githubPrep/text.md
+2025-12-11T16:39:58.426Z - info: Synchronizing opened pages list before reload
+2025-12-11T16:39:58.426Z - info: No pages are currently opened
+2025-12-11T16:39:58.426Z - info: [00:39:58] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2025-12-11T16:39:58.426Z - info: Synchronizing opened pages list before reload
+2025-12-11T16:39:58.427Z - info: No pages are currently opened
+2025-12-11T16:39:58.427Z - info: [00:39:58] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/customviews.config.json
+2025-12-11T16:39:58.427Z - info: Synchronizing opened pages list before reload
+2025-12-11T16:39:58.427Z - info: No pages are currently opened
+2025-12-11T16:39:58.443Z - info: [00:39:58] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/plugins/customviews.js
+2025-12-11T16:39:58.443Z - info: Synchronizing opened pages list before reload
+2025-12-11T16:39:58.443Z - info: No pages are currently opened
+2025-12-11T16:39:59.429Z - info: Pages or site config modified, updating pages...
+2025-12-11T16:39:59.470Z - info: No pages needed to be rebuilt
+2025-12-11T16:39:59.471Z - info: Assets built
+2025-12-11T16:40:00.479Z - warn:  RangeError: Invalid array length
+    at ProgressBar.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/lib/progress/node-progress.js:188:14)
+    at Site.<anonymous> (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:875:25)
+    at Generator.next (<anonymous>)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:27:12)
+    at Site.runPageGenerationTasks (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:872:16)
+    at Site.<anonymous> (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:580:28)
+    at Generator.next (<anonymous>)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:27:12)
+    at Site._rebuildPagesBeingViewed (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:568:16)
+    at Site.<anonymous> (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:656:28)
+    at Generator.next (<anonymous>)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:31:71
+2025-12-11T16:40:00.636Z - info: Site data built
+2025-12-11T16:41:58.841Z - info: [00:41:58] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/site.json
+2025-12-11T16:41:58.842Z - info: Synchronizing opened pages list before reload
+2025-12-11T16:41:58.843Z - info: No pages are currently opened
+2025-12-11T16:41:58.844Z - info: [00:41:58] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2025-12-11T16:41:58.844Z - info: Synchronizing opened pages list before reload
+2025-12-11T16:41:58.844Z - info: No pages are currently opened
+2025-12-11T16:41:58.880Z - info: [00:41:58] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/customviews.config.json
+2025-12-11T16:41:58.880Z - info: Synchronizing opened pages list before reload
+2025-12-11T16:41:58.880Z - info: No pages are currently opened
+2025-12-11T16:41:58.880Z - info: [00:41:58] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/plugins/customviews.js
+2025-12-11T16:41:58.880Z - info: Synchronizing opened pages list before reload
+2025-12-11T16:41:58.881Z - info: No pages are currently opened
+2025-12-11T16:41:59.850Z - info: Assets built
+2025-12-11T16:41:59.882Z - debug: Assets removed
+2025-12-11T16:41:59.887Z - info: Pages or site config modified, updating pages...
+2025-12-11T16:42:00.933Z - warn:  RangeError: Invalid array length
+    at ProgressBar.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/lib/progress/node-progress.js:188:14)
+    at Site.<anonymous> (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:875:25)
+    at Generator.next (<anonymous>)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:27:12)
+    at Site.runPageGenerationTasks (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:872:16)
+    at Site.<anonymous> (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:580:28)
+    at Generator.next (<anonymous>)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:27:12)
+    at Site._rebuildPagesBeingViewed (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:568:16)
+    at Site.<anonymous> (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:656:28)
+    at Generator.next (<anonymous>)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/index.js:31:71
+2025-12-11T16:42:00.942Z - info: Site data built
+2025-12-11T16:43:00.332Z - info: Website generation (lazy) started at 00:43:00
+2025-12-11T16:43:00.413Z - info: Building assets...
+2025-12-11T16:43:00.704Z - info: Assets built
+2025-12-11T16:43:00.705Z - info: Generating landing page...
+2025-12-11T16:43:00.793Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-12-11T16:43:00.872Z - info: Site data built
+2025-12-11T16:43:00.873Z - info: Website generation (lazy) complete! Total build time: 0.576s
+2025-12-11T16:43:00.880Z - info: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2025-12-11T16:43:00.880Z - info: Press CTRL+C to stop ...
+2025-12-11T16:43:20.482Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2025-12-11T16:43:20.629Z - error:  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/githubPrep/text.md)
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/githubPrep/text.md)
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/githubPrep/text.md)
+  Error: cannot import 'os_tab_marker'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:287:3)
+    at Template.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:372:8)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:54:25
+    at createTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:121:7)
+    at handle (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:133:9)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:145:7
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+    at Environment.getTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:127:7)
+    at Environment.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:73:24)
+    at VariableProcessor.renderWithSiteVariables (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:154:57)
+    at VariableProcessor.renderIncludeFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:231:38)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:198:68)
+2025-12-11T16:43:20.826Z - info: Site data built
+2025-12-11T16:43:20.826Z - info: Lazy website regeneration complete! Total build time: 0.345s
+2025-12-11T16:44:23.228Z - info: [00:44:23] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/githubPrep/text.md
+2025-12-11T16:44:23.229Z - info: Synchronizing opened pages list before reload
+2025-12-11T16:44:23.229Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T16:44:23.229Z - info: 1. lessons/index
+2025-12-11T16:44:24.239Z - info: Rebuilding 1 pages
+2025-12-11T16:44:24.493Z - info: Site data built
+2025-12-11T16:44:24.494Z - info: Pages rebuilt
+2025-12-11T16:44:24.494Z - info: Website regeneration complete! Total build time: 0.257s
+2025-12-11T16:44:56.123Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index as some of its dependencies were changed since the last visit
+2025-12-11T16:44:56.637Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-11T16:44:56.638Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-11T16:44:56.638Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-11T16:44:56.638Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-11T16:44:56.638Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-11T16:44:56.638Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-11T16:44:56.638Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-11T16:44:56.638Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-11T16:44:56.638Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-11T16:44:56.638Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-11T16:44:56.638Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-11T16:44:56.638Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-11T16:44:56.638Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/detour-stagingFileDeletions-fragment.md'
+2025-12-11T16:44:56.638Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-11T16:44:56.638Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-11T16:44:56.639Z - info: Site data built
+2025-12-11T16:44:56.639Z - info: Lazy website regeneration complete! Total build time: 0.516s
+2025-12-11T16:46:17.052Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/backingUpOnCloud/index as some of its dependencies were changed since the last visit
+2025-12-11T16:46:17.411Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/text.md'
+2025-12-11T16:46:17.411Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/text.md'
+2025-12-11T16:46:17.411Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T16:46:17.411Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T16:46:17.411Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-11T16:46:17.411Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-11T16:46:17.411Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md'
+2025-12-11T16:46:17.411Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md'
+2025-12-11T16:46:17.412Z - info: Site data built
+2025-12-11T16:46:17.412Z - info: Lazy website regeneration complete! Total build time: 0.36s
+2025-12-11T16:56:25.997Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/index as some of its dependencies were changed since the last visit
+2025-12-11T16:56:26.135Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T16:56:26.135Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T16:56:26.137Z - info: Site data built
+2025-12-11T16:56:26.137Z - info: Lazy website regeneration complete! Total build time: 0.141s
+2025-12-11T16:58:02.349Z - info: [00:58:02] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md
+2025-12-11T16:58:02.353Z - info: Synchronizing opened pages list before reload
+2025-12-11T16:58:02.359Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T16:58:02.360Z - info: 1. lessons/setRemote/index
+2025-12-11T16:58:03.371Z - info: Rebuilding 1 pages
+2025-12-11T16:58:03.418Z - error:  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md) [Line 109, Column 77]
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md) [Line 370, Column 12]
+  Error: Unable to call `button_green`, which is undefined or falsey
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:321:3)
+    at Template.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:372:8)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:54:25
+    at createTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:121:7)
+    at handle (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:133:9)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:145:7
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+    at Environment.getTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:127:7)
+    at Environment.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:73:24)
+    at VariableProcessor.renderWithSiteVariables (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:154:57)
+    at VariableProcessor.renderIncludeFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:231:38)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:198:68)
+2025-12-11T16:58:03.420Z - error:  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md) [Line 109, Column 77]
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md) [Line 370, Column 12]
+  Error: Unable to call `button_green`, which is undefined or falsey
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:321:3)
+    at Template.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:372:8)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:54:25
+    at Environment.getTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:85:7)
+    at Environment.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:73:24)
+    at VariableProcessor.renderWithSiteVariables (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:154:57)
+    at VariableProcessor.renderIncludeFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:231:38)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:198:68)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:349:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:348:27)
+2025-12-11T16:58:03.421Z - error:  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md) [Line 109, Column 77]
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md) [Line 370, Column 12]
+  Error: Unable to call `button_green`, which is undefined or falsey
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:321:3)
+    at Template.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:372:8)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:54:25
+    at Environment.getTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:85:7)
+    at Environment.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:73:24)
+    at VariableProcessor.renderWithSiteVariables (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:154:57)
+    at VariableProcessor.renderIncludeFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:231:38)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:198:68)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:349:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:348:27)
+2025-12-11T16:58:03.444Z - info: Site data built
+2025-12-11T16:58:03.444Z - info: Pages rebuilt
+2025-12-11T16:58:03.444Z - info: Website regeneration complete! Total build time: 0.076s
+2025-12-11T16:58:38.443Z - info: [00:58:38] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md
+2025-12-11T16:58:38.443Z - info: Synchronizing opened pages list before reload
+2025-12-11T16:58:38.443Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T16:58:38.444Z - info: 1. lessons/setRemote/index
+2025-12-11T16:58:39.448Z - info: Rebuilding 1 pages
+2025-12-11T16:58:39.566Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T16:58:39.566Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T16:58:39.567Z - info: Site data built
+2025-12-11T16:58:39.567Z - info: Pages rebuilt
+2025-12-11T16:58:39.567Z - info: Website regeneration complete! Total build time: 0.121s
+2025-12-11T17:04:52.209Z - info: [01:04:52] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md
+2025-12-11T17:04:52.210Z - info: Synchronizing opened pages list before reload
+2025-12-11T17:04:52.210Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T17:04:52.210Z - info: 1. lessons/setRemote/index
+2025-12-11T17:04:53.216Z - info: Rebuilding 1 pages
+2025-12-11T17:04:53.388Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:04:53.388Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:04:53.389Z - info: Site data built
+2025-12-11T17:04:53.389Z - info: Pages rebuilt
+2025-12-11T17:04:53.389Z - info: Website regeneration complete! Total build time: 0.176s
+2025-12-11T17:06:04.240Z - info: [01:06:04] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2025-12-11T17:06:04.241Z - info: Synchronizing opened pages list before reload
+2025-12-11T17:06:04.242Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T17:06:04.242Z - info: 1. lessons/setRemote/index
+2025-12-11T17:06:05.316Z - info: Rebuilding 1 pages
+2025-12-11T17:06:05.391Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:06:05.391Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:06:05.392Z - info: Site data built
+2025-12-11T17:06:05.392Z - info: Pages rebuilt
+2025-12-11T17:06:05.392Z - info: Website regeneration complete! Total build time: 0.077s
+2025-12-11T17:06:50.534Z - info: [01:06:50] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md
+2025-12-11T17:06:50.534Z - info: Synchronizing opened pages list before reload
+2025-12-11T17:06:50.534Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T17:06:50.534Z - info: 1. lessons/setRemote/index
+2025-12-11T17:06:51.538Z - info: Rebuilding 1 pages
+2025-12-11T17:06:51.681Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:06:51.681Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:06:51.682Z - info: Site data built
+2025-12-11T17:06:51.682Z - info: Pages rebuilt
+2025-12-11T17:06:51.682Z - info: Website regeneration complete! Total build time: 0.146s
+2025-12-11T17:07:06.991Z - info: [01:07:06] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2025-12-11T17:07:06.991Z - info: Synchronizing opened pages list before reload
+2025-12-11T17:07:06.991Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T17:07:06.991Z - info: 1. lessons/setRemote/index
+2025-12-11T17:07:08.046Z - info: Rebuilding 1 pages
+2025-12-11T17:07:08.111Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:07:08.111Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:07:08.112Z - info: Site data built
+2025-12-11T17:07:08.112Z - info: Pages rebuilt
+2025-12-11T17:07:08.112Z - info: Website regeneration complete! Total build time: 0.066s
+2025-12-11T17:07:35.818Z - info: [01:07:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md
+2025-12-11T17:07:35.818Z - info: Synchronizing opened pages list before reload
+2025-12-11T17:07:35.818Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T17:07:35.818Z - info: 1. lessons/setRemote/index
+2025-12-11T17:07:36.820Z - info: Rebuilding 1 pages
+2025-12-11T17:07:36.959Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:07:36.959Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:07:36.960Z - info: Site data built
+2025-12-11T17:07:36.960Z - info: Pages rebuilt
+2025-12-11T17:07:36.960Z - info: Website regeneration complete! Total build time: 0.142s
+2025-12-11T17:08:43.634Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/index as some of its dependencies were changed since the last visit
+2025-12-11T17:08:43.780Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-11T17:08:43.780Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-11T17:08:43.780Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:08:43.780Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:08:43.781Z - info: Site data built
+2025-12-11T17:08:43.781Z - info: Lazy website regeneration complete! Total build time: 0.147s
+2025-12-11T17:12:28.301Z - info: [01:12:28] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md
+2025-12-11T17:12:28.302Z - info: Synchronizing opened pages list before reload
+2025-12-11T17:12:28.303Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T17:12:28.303Z - info: 1. lessons/push/index
+2025-12-11T17:12:29.309Z - info: Rebuilding 1 pages
+2025-12-11T17:12:29.359Z - error:  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md) [Line 61, Column 16]
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md) [Line 369, Column 9]
+  Error: Unable to call `show_hop_prep`, which is undefined or falsey
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:323:3)
+    at Template.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:372:8)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:54:25
+    at createTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:121:7)
+    at handle (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:133:9)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:145:7
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+    at Environment.getTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:127:7)
+    at Environment.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:73:24)
+    at VariableProcessor.renderWithSiteVariables (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:154:57)
+    at VariableProcessor.renderIncludeFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:231:38)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:198:68)
+2025-12-11T17:12:29.360Z - error:  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md) [Line 61, Column 16]
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md) [Line 369, Column 9]
+  Error: Unable to call `show_hop_prep`, which is undefined or falsey
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:323:3)
+    at Template.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:372:8)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:54:25
+    at Environment.getTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:85:7)
+    at Environment.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:73:24)
+    at VariableProcessor.renderWithSiteVariables (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:154:57)
+    at VariableProcessor.renderIncludeFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:231:38)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:198:68)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:349:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:348:27)
+2025-12-11T17:12:29.360Z - error:  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md) [Line 61, Column 16]
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md) [Line 369, Column 9]
+  Error: Unable to call `show_hop_prep`, which is undefined or falsey
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:323:3)
+    at Template.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:372:8)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:54:25
+    at Environment.getTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:85:7)
+    at Environment.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:73:24)
+    at VariableProcessor.renderWithSiteVariables (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:154:57)
+    at VariableProcessor.renderIncludeFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:231:38)
+    at processInclude (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:198:68)
+    at NodeProcessor.processNode (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:345:24)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:349:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:348:27)
+2025-12-11T17:12:29.385Z - info: Site data built
+2025-12-11T17:12:29.385Z - info: Pages rebuilt
+2025-12-11T17:12:29.385Z - info: Website regeneration complete! Total build time: 0.079s
+2025-12-11T17:13:06.445Z - info: [01:13:06] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md
+2025-12-11T17:13:06.446Z - info: Synchronizing opened pages list before reload
+2025-12-11T17:13:06.446Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T17:13:06.446Z - info: 1. lessons/push/index
+2025-12-11T17:13:07.449Z - info: Rebuilding 1 pages
+2025-12-11T17:13:07.620Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-11T17:13:07.620Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-11T17:13:07.620Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:13:07.620Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:13:07.620Z - info: Site data built
+2025-12-11T17:13:07.620Z - info: Pages rebuilt
+2025-12-11T17:13:07.620Z - info: Website regeneration complete! Total build time: 0.173s
+2025-12-11T17:14:12.465Z - info: [01:14:12] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md
+2025-12-11T17:14:12.465Z - info: Synchronizing opened pages list before reload
+2025-12-11T17:14:12.466Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T17:14:12.466Z - info: 1. lessons/push/index
+2025-12-11T17:14:13.470Z - info: Rebuilding 1 pages
+2025-12-11T17:14:13.644Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-11T17:14:13.644Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-11T17:14:13.644Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:14:13.644Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:14:13.644Z - info: Site data built
+2025-12-11T17:14:13.645Z - info: Pages rebuilt
+2025-12-11T17:14:13.645Z - info: Website regeneration complete! Total build time: 0.176s
+2025-12-11T17:15:00.422Z - info: [01:15:00] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md
+2025-12-11T17:15:00.422Z - info: Synchronizing opened pages list before reload
+2025-12-11T17:15:00.423Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T17:15:00.423Z - info: 1. lessons/push/index
+2025-12-11T17:15:01.427Z - info: Rebuilding 1 pages
+2025-12-11T17:15:01.621Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-11T17:15:01.621Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-11T17:15:01.621Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:15:01.622Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:15:01.622Z - info: Site data built
+2025-12-11T17:15:01.622Z - info: Pages rebuilt
+2025-12-11T17:15:01.622Z - info: Website regeneration complete! Total build time: 0.197s
+2025-12-11T17:15:33.066Z - info: [01:15:33] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md
+2025-12-11T17:15:33.066Z - info: Synchronizing opened pages list before reload
+2025-12-11T17:15:33.066Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T17:15:33.066Z - info: 1. lessons/push/index
+2025-12-11T17:15:34.068Z - info: Rebuilding 1 pages
+2025-12-11T17:15:34.246Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-11T17:15:34.246Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-11T17:15:34.246Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:15:34.246Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:15:34.247Z - info: Site data built
+2025-12-11T17:15:34.247Z - info: Pages rebuilt
+2025-12-11T17:15:34.247Z - info: Website regeneration complete! Total build time: 0.18s
+2025-12-11T17:20:22.747Z - info: [01:20:22] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md
+2025-12-11T17:20:22.748Z - info: Synchronizing opened pages list before reload
+2025-12-11T17:20:22.749Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T17:20:22.749Z - info: 1. lessons/push/index
+2025-12-11T17:20:22.752Z - info: [01:20:22] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md
+2025-12-11T17:20:22.753Z - info: Synchronizing opened pages list before reload
+2025-12-11T17:20:22.753Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T17:20:22.753Z - info: 1. lessons/push/index
+2025-12-11T17:20:22.753Z - info: [01:20:22] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/text.md
+2025-12-11T17:20:22.753Z - info: Synchronizing opened pages list before reload
+2025-12-11T17:20:22.753Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T17:20:22.753Z - info: 1. lessons/push/index
+2025-12-11T17:20:23.762Z - info: Rebuilding 1 pages
+2025-12-11T17:20:23.946Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-11T17:20:23.946Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-11T17:20:23.946Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:20:23.946Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:20:23.947Z - info: Site data built
+2025-12-11T17:20:23.947Z - info: Pages rebuilt
+2025-12-11T17:20:23.947Z - info: Website regeneration complete! Total build time: 0.187s
+2025-12-11T17:20:59.842Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/index as some of its dependencies were changed since the last visit
+2025-12-11T17:20:59.924Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/text.md'
+2025-12-11T17:20:59.924Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/text.md'
+2025-12-11T17:20:59.925Z - info: Site data built
+2025-12-11T17:20:59.925Z - info: Lazy website regeneration complete! Total build time: 0.084s
+2025-12-11T17:21:31.221Z - info: [01:21:31] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/text.md
+2025-12-11T17:21:31.221Z - info: Synchronizing opened pages list before reload
+2025-12-11T17:21:31.221Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T17:21:31.221Z - info: 1. lessons/createRemoteRepo/index
+2025-12-11T17:21:32.226Z - info: Rebuilding 1 pages
+2025-12-11T17:21:32.307Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/text.md'
+2025-12-11T17:21:32.307Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/text.md'
+2025-12-11T17:21:32.307Z - info: Site data built
+2025-12-11T17:21:32.307Z - info: Pages rebuilt
+2025-12-11T17:21:32.307Z - info: Website regeneration complete! Total build time: 0.084s
+2025-12-11T17:21:41.490Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/index as some of its dependencies were changed since the last visit
+2025-12-11T17:21:41.591Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:21:41.591Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:21:41.592Z - info: Site data built
+2025-12-11T17:21:41.592Z - info: Lazy website regeneration complete! Total build time: 0.102s
+2025-12-11T17:24:19.611Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/index as some of its dependencies were changed since the last visit
+2025-12-11T17:24:19.746Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md'
+2025-12-11T17:24:19.746Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md'
+2025-12-11T17:24:19.748Z - info: Site data built
+2025-12-11T17:24:19.748Z - info: Lazy website regeneration complete! Total build time: 0.137s
+2025-12-11T17:26:40.668Z - info: [01:26:40] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md
+2025-12-11T17:26:40.672Z - info: Synchronizing opened pages list before reload
+2025-12-11T17:26:40.673Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T17:26:40.673Z - info: 1. lessons/ignore/index
+2025-12-11T17:26:41.690Z - info: Rebuilding 1 pages
+2025-12-11T17:26:41.839Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md'
+2025-12-11T17:26:41.839Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md'
+2025-12-11T17:26:41.840Z - info: Site data built
+2025-12-11T17:26:41.840Z - info: Pages rebuilt
+2025-12-11T17:26:41.840Z - info: Website regeneration complete! Total build time: 0.152s
+2025-12-11T17:27:12.272Z - info: [01:27:12] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md
+2025-12-11T17:27:12.272Z - info: Synchronizing opened pages list before reload
+2025-12-11T17:27:12.272Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T17:27:12.272Z - info: 1. lessons/ignore/index
+2025-12-11T17:27:13.274Z - info: Rebuilding 1 pages
+2025-12-11T17:27:13.421Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md'
+2025-12-11T17:27:13.421Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md'
+2025-12-11T17:27:13.422Z - info: Site data built
+2025-12-11T17:27:13.422Z - info: Pages rebuilt
+2025-12-11T17:27:13.422Z - info: Website regeneration complete! Total build time: 0.149s
+2025-12-11T17:28:07.478Z - info: [01:28:07] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md
+2025-12-11T17:28:07.479Z - info: Synchronizing opened pages list before reload
+2025-12-11T17:28:07.479Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T17:28:07.479Z - info: 1. lessons/ignore/index
+2025-12-11T17:28:08.484Z - info: Rebuilding 1 pages
+2025-12-11T17:28:08.640Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md'
+2025-12-11T17:28:08.640Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md'
+2025-12-11T17:28:08.641Z - info: Site data built
+2025-12-11T17:28:08.641Z - info: Pages rebuilt
+2025-12-11T17:28:08.641Z - info: Website regeneration complete! Total build time: 0.159s
+2025-12-11T17:28:35.237Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/backingUpOnCloud/index as some of its dependencies were changed since the last visit
+2025-12-11T17:28:35.601Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/text.md'
+2025-12-11T17:28:35.601Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/text.md'
+2025-12-11T17:28:35.601Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:28:35.601Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:28:35.601Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-11T17:28:35.601Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-11T17:28:35.601Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md'
+2025-12-11T17:28:35.601Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md'
+2025-12-11T17:28:35.602Z - info: Site data built
+2025-12-11T17:28:35.602Z - info: Lazy website regeneration complete! Total build time: 0.365s
+2025-12-11T17:30:58.072Z - info: [01:30:58] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md
+2025-12-11T17:30:58.075Z - info: Synchronizing opened pages list before reload
+2025-12-11T17:30:58.075Z - info: Current opened pages, from most-to-least recent:
+2025-12-11T17:30:58.075Z - info: 1. lessons/trail/backingUpOnCloud/index
+2025-12-11T17:30:59.085Z - info: Rebuilding 1 pages
+2025-12-11T17:30:59.457Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/text.md'
+2025-12-11T17:30:59.457Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/text.md'
+2025-12-11T17:30:59.457Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:30:59.457Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-11T17:30:59.457Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-11T17:30:59.457Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-11T17:30:59.458Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md'
+2025-12-11T17:30:59.458Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md'
+2025-12-11T17:30:59.458Z - info: Site data built
+2025-12-11T17:30:59.458Z - info: Pages rebuilt
+2025-12-11T17:30:59.458Z - info: Website regeneration complete! Total build time: 0.375s
+2025-12-11T17:32:27.515Z - info: Website generation started at 01:32:27
+2025-12-11T17:32:27.616Z - info: Building assets...
