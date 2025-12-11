@@ -20,7 +20,10 @@
       "headings": {
         "git-mastery-app": "Git-Mastery App",
         "what-it-is-for": "What it is for",
-        "installation-and-setup": "Installation and Setup"
+        "installation-and-setup": "Installation and Setup",
+        "1-setting-up-git": "1. Setting up Git",
+        "2-setting-up-git-mastery-app": "2. Setting up Git-Mastery App",
+        "3-setting-up-git-hub-tools": "3. Setting up Git-Hub Tools"
       },
       "headingKeywords": {}
     },
@@ -416,6 +419,11 @@
       "headings": {
         "exercise-remote-control": "Exercise remote-control"
       },
+      "headingKeywords": {}
+    },
+    {
+      "src": "lessons/diff/exercise-sensors-diff.md",
+      "headings": {},
       "headingKeywords": {}
     },
     {
