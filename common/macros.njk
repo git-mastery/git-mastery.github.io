@@ -300,17 +300,26 @@
 
 {% macro os_tabs_marker(os='') -%}
 {% if os == 'windows' %}
-<tabs>
-  <tab header=":fab-windows: Windows">
+<cv-tabgroup id="os">
+<cv-tab id="windows">
+<cv-tab-header><md>:fab-windows: Windows</md></cv-tab-header>
+<cv-tab-body>
 {% elseif os == 'mac' %}
-  </tab>
-  <tab header=":fab-apple: MacOS">
+</cv-tab-body>
+</cv-tab>
+<cv-tab id="mac">
+<cv-tab-header><md>:fab-apple: MacOS</md></cv-tab-header>
+<cv-tab-body>
 {% elseif os == 'linux' %}
-  </tab>
-  <tab header=":fab-linux: Linux">
+</cv-tab-body>
+</cv-tab>
+<cv-tab id="linux">
+<cv-tab-header><md>:fab-linux: Linux</md></cv-tab-header>
+<cv-tab-body>
 {% elseif os in ['end', ''] %}
-  </tab>
-</tabs>
+</cv-tab-body>
+</cv-tab>
+</cv-tabgroup>
 {% endif %}
 {%- endmacro %}
 <!-- ============================================================ -->

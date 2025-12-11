@@ -32,7 +32,7 @@
   },
   "enableSearch": true,
   "titlePrefix": "Git-Mastery",
-  "plugins": ["mermaid", "filterTags", "algolia", "codeBlockCopyButtons", "codeBlockWrapButtons", "dataTable"],
+  "plugins": ["customviews", "mermaid", "filterTags", "algolia", "codeBlockCopyButtons", "codeBlockWrapButtons", "dataTable"],
   "pluginsContext": {
     "filterTags" : {
       "tags": ["git-mastery"]
