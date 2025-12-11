@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">{{ icon_outcome }} Can set Git to ignore files</span>
@@ -84,7 +84,10 @@ node_modules/
 
 {% call show_hands_on_practical('Adding files to the ignore-list')  %}
 
-{{ hp_number(hop_preparation) }} **Create a `temp.txt` file and a few `.tmp` files in a repo**. These are presumably files we do not want to include in our revision history. For example, as follows:
+{{ hp_number(hop_target) }} **Get Git to ignore some files** in a repo.
+
+{% set manual %}
+**Create a `temp.txt` file and a few `.tmp` files in a repo**. These are presumably files we do not want to include in our revision history. For example, as follows:
 
 ```bash
 echo “good stuff” > keep.txt
@@ -92,8 +95,11 @@ echo “temp stuff” > temp.txt
 echo “more temp stuff” > file1.tmp
 echo “even more temp stuff” > file2.tmp
 ```
+{% endset %}
+{{ hp_number(hop_preparation) }}
 
-{{ hp_number(hop_target) }} **Get Git to ignore the files** we created above.
+{{ show_hop_prep('hp-ignore-files', manual_info=manual)}}
+
 
 {{ hp_number ('1') }} **Configure Git to ignore those files:**
 

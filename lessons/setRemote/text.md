@@ -1,5 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, button_green, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_output, show_ref, show_tag, show_transformation_columns, show_under_the_hood with context %}
-
+{% from "common/macros.njk" import trail, bold_number, button_green, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 
@@ -33,7 +32,9 @@ The second step of backing up a local repo on GitHub: **link the _local_ repo wi
 
 {{ hp_number(hop_target) }} Add the empty remote repo you created on GitHub as a remote of a local repo you have.
 
-{{ hp_number(hop_preparation) }} **Use the `things` local repo** you created earlier for this hands-on practical.
+{{ hp_number(hop_preparation) }}
+
+{{ show_hop_prep('hp-add-remote', is_continue=1, sandbox_info='the `things` local repo') }}
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 {{ hp_number ('1') }} **In a terminal, navigate to the folder containing the local repo** `things`.
@@ -49,9 +50,9 @@ git@github.com:<owner>/<remote-repo>.git  # using SSH
 ```
 
 The full command:
-```bash{highlight-lines="1['JohnDoe'],1['gm-things'],2['JohnDoe'],2['gm-things']"}
-git remote add origin https://github.com/JohnDoe/gm-things.git  # using HTTPS
-git remote add origin git@github.com:JohnDoe/gm-things.git  # using SSH
+```bash{highlight-lines="1['JohnDoe'],1['gitmastery-things'],2['JohnDoe'],2['gitmastery-things']"}
+git remote add origin https://github.com/JohnDoe/gitmastery-things.git  # using HTTPS
+git remote add origin git@github.com:JohnDoe/gitmastery-things.git  # using SSH
 ```
 
 {{ hp_number ('4') }} **List the remotes again to verify** the new remote was added.
@@ -61,8 +62,8 @@ git remote -v
 ```
 {% call show_output() %}
 ```{.no-line-numbers  highlight-lines="1['origin'],1['fetch'],2['origin'],2['push']"}
-origin  https://github.com/johndoe/gm-things.git (fetch)
-origin  https://github.com/johndoe/gm-things.git (push)
+origin  https://github.com/johndoe/gitmastery-things.git (fetch)
+origin  https://github.com/johndoe/gitmastery-things.git (push)
 ```
 {% endcall %}
 

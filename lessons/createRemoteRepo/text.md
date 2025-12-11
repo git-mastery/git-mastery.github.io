@@ -16,12 +16,12 @@ The first step of backing up a local repo on GitHub: **create an empty repositor
 
 {% call show_hands_on_practical('Creating an empty remote repo') %}
 
-{{ hp_number (hop_target) }} **Create an empty repo names `gm-things` in your GitHub account.**
+{{ hp_number (hop_target) }} **Create an empty repo named `gitmastery-things` in your GitHub account.**
 
 {{ hp_number ('1') }} **Login to your GitHub account and choose to create a new repo.** <br>
    <pic eager src="images/createNewRemoteRepo.png" width="250" />
 
-{{ hp_number ('2') }} **In the next screen, provide `gm-things` as the name for your repo**. Refer the screenshot below on some guidance on how to provide the required information.<br>
+{{ hp_number ('2') }} **In the next screen, provide `gitmastery-things` as the name for your repo**. Refer the screenshot below on some guidance on how to provide the required information.<br>
    <pic eager src="images/fillNewRepoInfo.png" width="650" /><br>
    **Click {{ button_green("Create repository") }} button** to create the new repository.
 
@@ -31,7 +31,7 @@ If you enable any of the three `Add _____` options shown above, GitHub will not 
 </box>
 
 {{ hp_number ('3') }} **Note the URL of the repo.** It will be of the form<br> `https://github.com/{your_user_name}/{repo_name}.git`.<br>
-   e.g., `https://github.com/johndoe/foobar.git` (note the `.git` at the end)<br>
+   e.g., `https://github.com/johndoe/gitmastery-things.git` (note the `.git` at the end)<br>
    <pic eager src="images/newRepoUrl.png" width="600" />
 {% endcall %}
 

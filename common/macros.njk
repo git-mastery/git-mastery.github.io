@@ -435,11 +435,11 @@ That aspect is covered in {{ show_detour_link(detour_name) }}.
 {% endmacro %}
 <!-- ============================================================ -->
 
-{% macro show_hop_prep(identifier, manual_info='', gm_info='', is_continue=0) %}
+{% macro show_hop_prep(identifier, manual_info='', gm_info='', sandbox_info='the sandbox', is_continue=0) %}
 {% if is_continue %}
 <div class="indented-level1">
 
-**You can continue using the sandbox created in the previous hands-on practical**, or,
+**You can continue using {{ sandbox_info }} created in the previous hands-on practical**, or,
 
 <panel type="seamless" header="get the Git-Mastery app to create a fresh sandbox (click to expand)" minimized expand-headerless>
 

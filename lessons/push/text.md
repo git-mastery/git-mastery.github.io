@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 
@@ -40,7 +40,10 @@ Explanation: When you create `C4`, the current branch `master` moves to `C4`, an
 
 {{ hp_number(hop_target) }} Upload (i.e., push) the revision history from a local repo to a remote repo.
 
-{{ hp_number(hop_preparation) }} Use the `things` local repo that you connected to an empty remote repo in the previous hands-on practical.
+{{ hp_number(hop_preparation) }}
+
+{{ show_hop_prep('hp-populate-remote', is_continue=1, sandbox_info='the `things` local repo and the `gitmastery-things` remote repo') }}
+
 
 {{ hp_number("1") }} **Push the `master` branch** to the remote. **Also instruct Git to track this branch pair**.
 
@@ -57,7 +60,10 @@ Explanation: When you create `C4`, the current branch `master` moves to `C4`, an
 
 {{ hp_number(hop_target) }} Add a commit to the same local repo, and push it to the remote repo.
 
-{{ hp_number(hop_preparation) }} Continue with the `things` repo from the previous hands-on practical.
+{{ hp_number(hop_preparation) }}
+
+{{ show_hop_prep('hp-update-remote', is_continue=1, sandbox_info='the `things` local repo and the `gitmastery-things` remote repo') }}
+
 
 {{ hp_number ('1') }} **Commit** some changes in your local repo. Example:
 
