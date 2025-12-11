@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_prep, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, os_tab_marker, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_prep, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 
@@ -81,25 +81,23 @@ Set up your computer's GitHub authentication, as described in the se-edu guide [
 
 {% call show_prep("Set up GitHub CLI", "setup-github-cli") %}
 
-<tabs>
-  <tab header=":fab-windows: Windows">
+{{ os_tabs_marker('windows') }}
 
 **1. Download and run the installer** from the [GitHub CLI releases page](https://github.com/cli/cli/releases). This is the file named as `GitHub CLI {version} windows {chip variant} installer`.
-  </tab>
-  <tab header=":fab-apple: MacOS">
+
+{{ os_tabs_marker('mac') }}
 
 **1. Install GitHub CLI using Homebrew**:
 
 ```bash{.no-line-numbers}
 brew install gh
 ```
-  </tab>
-  <tab header=":fab-linux: Linux">
+
+{{ os_tabs_marker('linux') }}
 
 **1. Install GitHub CLI**, as explained in the [GitHub CLI Linux installation guide](https://github.com/cli/cli/blob/trunk/docs/install_linux.md) for your distribution.
-  </tab>
-</tabs>
 
+{{ os_tabs_marker('end') }}
 
 
 **2. Authenticate yourself to GitHub account:**

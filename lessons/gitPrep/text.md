@@ -138,8 +138,7 @@ Our Git lessons show how to perform Git operations in Git CLI, and in Sourcetree
 
 **1. Install the Git-Mastery App**
 
-<tabs>
-  <tab header=":fab-windows: Windows">
+{{ os_tabs_marker('windows') }}
 
 * Download the `.exe` file from [the latest release](https://github.com/git-mastery/app/releases/latest). {{ numbers_abcd }}
 * Add the folder containing the `.exe` to your Windows System Variable `PATH`, by following [this guide](https://www.wikihow.com/Change-the-PATH-Environment-Variable-on-Windows).<br>
@@ -158,15 +157,13 @@ Our Git lessons show how to perform Git operations in Git CLI, and in Sourcetree
 
 Alternatively, refer to [this page](https://support.microsoft.com/en-us/windows/virus-and-threat-protection-in-the-windows-security-app-1362f4cd-d71a-b52a-0b66-c2820032b65e) to see how to exclude a file from Windows virus scanner (look for the section named 'Exclusions').
 </panel>
-  </tab>
-  <tab header=":fab-apple: MacOS">
+{{ os_tabs_marker('mac') }}
 
 ```bash{.no-line-numbers}
 brew tap git-mastery/gitmastery
 brew install gitmastery
 ```
-  </tab>
-  <tab header=":fab-linux: Linux">
+{{ os_tabs_marker('linux') }}
 
 <tabs>
   <tab header="Debian/Ubuntu">
@@ -208,8 +205,7 @@ install -D -m 0755 gitmastery-3.3.0-linux-arm64 /usr/bin/gitmastery
   </tab>
 </tabs> <!-- linux versions -->
 
-  </tab> <!-- linux -->
-</tabs> <!-- os -->
+{{ os_tabs_marker('end') }}
 
 **2. To verify the installation**, run the `gitmastery --help` command from a couple of different folder locations. An example given below (IMPORTANT: change the `cd` command to match your folders):
 
@@ -269,19 +265,17 @@ Command|Description|
 
 As the Git-Mastery app is under active development, it is likely to get updated frequently. When you run a `gitmastery <command>`, the output will warn you if there is a new version, in which case you should update the app immediately, by following the instructions in that message.
 
-<tabs>
-  <tab header=":fab-windows: Windows">
+{{ os_tabs_marker('windows') }}
 
 Download the `.exe` file from [the latest release](https://github.com/git-mastery/app/releases/latest)
-  </tab>
-  <tab header=":fab-apple: MacOS">
+
+{{ os_tabs_marker('mac') }}
 
 ```bash{.no-line-numbers}
 brew update
 brew upgrade gitmastery
 ```
-  </tab>
-  <tab header=":fab-linux: Linux">
+{{ os_tabs_marker('linux') }}
 
 <tabs>
   <tab header="Debian/Ubuntu">
@@ -301,8 +295,7 @@ sudo pacman -S gitmastery-bin
   </tab>
 </tabs> <!-- linux versions -->
 
-  </tab> <!-- linux -->
-</tabs> <!-- os -->
+{{ os_tabs_marker('end') }}
 
 {% endcall %} <!-- show_prep -->
 </div>
