@@ -1,5 +1,5 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
-
+..{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
+<div id="cli"><!-- ------------------------------------------------------------------- -->
 
 {{ hp_number('1') }} **First, use a simple `git log`** to view the list of commits.
 
@@ -61,3 +61,15 @@ git log --oneline --graph
 ```
 {% endcall %}
 {{ icon_info }} The `--graph` option is more useful when examining a more complicated revision graph consisting of multiple parallel branches.
+
+</div>
+<div id="sourcetree"><!-- ---------------------------------------------------- -->
+
+Click the `History` to see the revision graph.
+
+* In some versions of Sourcetree, the `HEAD` ref may not be shown -- it is implied that the `HEAD` ref is pointing to the same commit the currently active branch ref is pointing.
+
+<pic eager src="images/sourcetreeShowSimpleGraph.png" width="600" />
+<p/>
+
+</div><!-- ------------------------------------------------------------------- -->

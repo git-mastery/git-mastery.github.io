@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Able to view the revision graph, and changes included in each commit.</span>
@@ -32,11 +32,11 @@ gitGraph
 
 {{ hp_number('1') }} **View the list of commits**, which should show just the one commit you created just now.
 
-{{ show_git_tabs('_2', indent_level=1) }}
+{{ show_steps_tabs('view-commits-list', indent_level=1) }}
 
 {{ hp_number('2') }} **Create a few more commits** (i.e., a few rounds of add/edit files → stage → commit), and observe how the list of commits grows.
 
-{{ show_git_tabs('_3', indent_level=1) }}
+{{ show_steps_tabs('create-more-commits', indent_level=1) }}
 {% endcall %}
 
 
@@ -94,7 +94,7 @@ In the revision graph above, there are two refs {{ show_ref('master') }} and &nb
 
 {{ show_hop_prep('hp-view-graph', is_continue=1) }}
 
-{{ show_git_tabs('-view-rg-normal') }}
+{{ show_steps_tabs('view-revision-graph') }}
 
 {% endcall %} <!-- end hop -->
 

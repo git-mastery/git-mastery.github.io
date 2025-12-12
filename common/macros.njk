@@ -366,14 +366,14 @@
 {%- endmacro %}
 <!-- ============================================================ -->
 
-{% macro show_steps_tabs(filename_suffix='', indent_level='', is_os_specific=0, has_cli=1) -%}
+{% macro show_steps_tabs(filename_suffix='', cli='', sourcetree='', sourcetree_windows='', sourcetree_mac='', indent_level='', is_os_specific=0, has_cli=1) -%}
 {% if indent_level %}<div class="indented-level{{ indent_level }}">{% endif %}
 <cv-tabgroup id="git-ui">
 {% if has_cli %}
 <cv-tab id="cli">
 <cv-tab-header><md><span class="bg-secondary text-light ps-1 pe-1 pb-1 small rounded-1"> >_ </span>&nbsp;CLI</md></cv-tab-header>
 <cv-tab-body>
-    <include src="./steps-{{ filename_suffix }}-fragment.md#cli" />
+  {% if cli %}{{ cli }}{% else %}<include src="./steps-{{ filename_suffix }}-fragment.md#cli" />{% endif %}
 </cv-tab-body>
 </cv-tab>
 {% else %}
@@ -383,20 +383,20 @@
 <cv-tab id="sourcetree-windows" class="d-print-none">
 <cv-tab-header><md>:fab-windows: Sourcetree on Windows</md></cv-tab-header>
 <cv-tab-body>
-    <include src="./steps-{{ filename_suffix }}-fragment.md#sourcetree-windows" />
+  {% if sourcetree_windows %}{{ sourcetree_windows }}{% else %}<include src="./steps-{{ filename_suffix }}-fragment.md#sourcetree-windows" />{% endif %}
 </cv-tab-body>
 </cv-tab>
 <cv-tab id="sourcetree-mac" class="d-print-none">
 <cv-tab-header><md>:fab-apple: Sourcetree on MacOS</md></cv-tab-header>
 <cv-tab-body>
-    <include src="./steps-{{ filename_suffix }}-fragment.md#sourcetree-mac" />
+  {% if sourcetree_mac %}{{ sourcetree_mac }}{% else %}<include src="./steps-{{ filename_suffix }}-fragment.md#sourcetree-mac" />{% endif %}
 </cv-tab-body>
 </cv-tab>
 {% else %}
 <cv-tab id="sourcetree-windows|sourcetree-mac" class="d-print-none">
 <cv-tab-header><md>:fab-bitbucket: Sourcetree</md></cv-tab-header>
 <cv-tab-body>
-    <include src="./steps-{{ filename_suffix }}-fragment.md#sourcetree" />
+  {% if sourcetree %}{{ sourcetree }}{% else %}<include src="./steps-{{ filename_suffix }}-fragment.md#sourcetree" />{% endif %}
 </cv-tab-body>
 </cv-tab>
 {% endif %}
