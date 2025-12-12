@@ -12,14 +12,13 @@
         ]
       },
       {
-        "id": "git-env",
-        "label": "Your Git environment:",
-        "default": "winbash",
+        "id": "git-ui",
+        "label": "The UI you use to interact with Git:",
+        "default": "cli",
         "tabs": [
-          { "id": "winbash", "label": "Windows + Git Bash" },
-          { "id": "wsl", "label": "Windows + WSL" },
-          { "id": "mac", "label": "MacOS" },
-          { "id": "linux", "label": "Linux" }
+          { "id": "cli", "label": "CLI" },
+          { "id": "sourcetree-windows", "label": "Sourcetree on Windows" },
+          { "id": "sourcetree-mac", "label": "Sourcetree on MacOS" }
         ]
       }
     ]

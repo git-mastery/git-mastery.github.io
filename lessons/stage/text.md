@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 
 
 <span id="outcomes">{{ icon_outcome }} Can stage files</span>
@@ -62,7 +62,7 @@ cat fruits.txt
 
 {{ hp_number(2) }} **Stage the new file**.
 
-{{ show_git_tabs('-stage-new-file-fragment') }}
+{{ show_steps_tabs('stage-new-file') }}
 
 {% endcall %}
 
@@ -103,7 +103,7 @@ dragon fruits
 
 {{ hp_number('2') }} **Now, verify that Git sees that file as 'modified'.**
 
-{{ show_git_tabs('-verify-file-modified-fragment', indent_level=1) }}
+{{ show_steps_tabs('verify-file-modified', indent_level=1) }}
 
 {{ hp_number('3') }} **Stage the file again**, the same way you added/staged it earlier.
 

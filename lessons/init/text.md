@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="outcomes">{{ icon_outcome }} Can create a local Git repo</span>
 
@@ -62,7 +62,7 @@ Don't panic. The error message is expected. It confirms that the folder currentl
 
 {{ hp_number(3) }} **Now, initialise a repository** in that folder.
 
-{{ show_git_tabs() }}
+{{ show_steps_tabs(filename_suffix='init-repo', is_os_specific=1) }}
 
 {% endcall %}
 
