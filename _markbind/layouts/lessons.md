@@ -6,21 +6,27 @@
 {% include '_markbind/layouts/navbar.md' %}
 </header>
 
+{% from "common/macros.njk" import trail with context %}
+
+{% macro show_site_nav(trail) %}
+* [**Lessons Home**]({{baseUrl}}/lessons/)
+{% for tour_id, tour in trail %}
+* {{ tour.title }}
+  * [Tour Home]({{baseUrl}}/lessons/trail/{{ tour.folder }}/)
+  {% for lesson_id, lesson in tour.lessons %}
+  * [{{ lesson.title}}]({{baseUrl}}/{{ lesson.path }}/)
+  {% endfor %}
+{% endfor %}
+* [**All lessons in one page**]({{baseUrl}}/lessons/trail/all.html)
+{% endmacro %}
+
 <div id="flex-body">
 <nav id="site-nav" class="fixed-header-padding">
 <div class="nav-component slim-scroll">
 <site-nav>
-{% from "common/macros.njk" import trail with context %}
-
-* [**Lessons Home**]({{baseUrl}}/lessons/)
-{% for tour_id, tour in trail %}
-* <small>{{ tour.title }}</small>
-  * <small>[Tour Home]({{baseUrl}}/lessons/trail/{{ tour.folder }}/)</small>
-  {% for lesson_id, lesson in tour.lessons %}
-  * <small>[{{ lesson.title}}]({{baseUrl}}/{{ lesson.path }}/)</small>
-  {% endfor %}
-{% endfor %}
-* <small>[**All lessons in one page**]({{baseUrl}}/lessons/trail/all.html)</small>
+<small>
+{{ show_site_nav(trail) | replace(r/\n\s*\n/g, "\n") }}
+</small>
 </site-nav>
 </div>
 </nav>
