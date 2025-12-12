@@ -300,47 +300,107 @@
 
 {% macro os_tabs_marker(os='') -%}
 {% if os == 'windows' %}
-<tabs>
-  <tab header=":fab-windows: Windows">
+<cv-tabgroup id="os">
+<cv-tab id="windows">
+<cv-tab-header><md>:fab-windows: Windows</md></cv-tab-header>
+<cv-tab-body>
 {% elseif os == 'mac' %}
-  </tab>
-  <tab header=":fab-apple: MacOS">
+</cv-tab-body>
+</cv-tab>
+<cv-tab id="mac">
+<cv-tab-header><md>:fab-apple: MacOS</md></cv-tab-header>
+<cv-tab-body>
 {% elseif os == 'linux' %}
-  </tab>
-  <tab header=":fab-linux: Linux">
+</cv-tab-body>
+</cv-tab>
+<cv-tab id="linux">
+<cv-tab-header><md>:fab-linux: Linux</md></cv-tab-header>
+<cv-tab-body>
 {% elseif os in ['end', ''] %}
-  </tab>
-</tabs>
+</cv-tab-body>
+</cv-tab>
+</cv-tabgroup>
 {% endif %}
 {%- endmacro %}
 <!-- ============================================================ -->
 
 {% macro show_git_tabs_from_text(cli, sourcetree, indent_level='') -%}
 {% if indent_level %}<div class="indented-level{{ indent_level }}">{% endif %}
-<tabs>
-  <tab header="CLI">
+<cv-tabgroup id="git-ui">
+<cv-tab id="cli">
+<cv-tab-header><md>:fas-terminal: CLI</md></cv-tab-header>
+<cv-tab-body>
 
 {{ cli }}
-  </tab>
-  <tab header="Sourcetree" class="d-print-none">
+</cv-tab-body>
+</cv-tab>
+<cv-tab id="sourcetree" class="d-print-none">
+<cv-tab-header><md>:fab-bitbucket: Sourcetree</md></cv-tab-header>
+<cv-tab-body>
 
 {{ sourcetree }}
-  </tab>
-</tabs>
+</cv-tab-body>
+</cv-tab>
+</cv-tabgroup>
 {% if indent_level %}</div>{% endif %}
 {%- endmacro %}
 <!-- ============================================================ -->
 
 {% macro show_git_tabs(filename_suffix='', indent_level='') -%}
 {% if indent_level %}<div class="indented-level{{ indent_level }}">{% endif %}
-<tabs>
-  <tab header="CLI">
+<cv-tabgroup id="git-ui">
+<cv-tab id="cli">
+<cv-tab-header><md>:fas-terminal: CLI</md></cv-tab-header>
+<cv-tab-body>
     <include src="./cli{{ filename_suffix }}.md" />
-  </tab>
-  <tab header="Sourcetree" class="d-print-none">
+</cv-tab-body>
+</cv-tab>
+<cv-tab id="sourcetree-windows|sourcetree-mac" class="d-print-none">
+<cv-tab-header><md>:fab-bitbucket: Sourcetree</md></cv-tab-header>
+<cv-tab-body>
     <include src="./sourcetree{{ filename_suffix }}.md" />
-  </tab>
-</tabs>
+</cv-tab-body>
+</cv-tab>
+</cv-tabgroup>
+{% if indent_level %}</div>{% endif %}
+{%- endmacro %}
+<!-- ============================================================ -->
+
+{% macro show_steps_tabs(filename_suffix='', cli='', sourcetree='', sourcetree_windows='', sourcetree_mac='', indent_level='', is_os_specific=0, has_cli=1) -%}
+{% if indent_level %}<div class="indented-level{{ indent_level }}">{% endif %}
+<cv-tabgroup id="git-ui">
+{% if has_cli %}
+<cv-tab id="cli">
+<cv-tab-header><md><span class="bg-secondary text-light ps-1 pe-1 pb-1 small rounded-1"> >_ </span>&nbsp;CLI</md></cv-tab-header>
+<cv-tab-body>
+  {% if cli %}{{ cli }}{% else %}<include src="./steps-{{ filename_suffix }}-fragment.md#cli" />{% endif %}
+</cv-tab-body>
+</cv-tab>
+{% else %}
+{% set is_os_specific = 1 %}
+{% endif %}
+{% if is_os_specific %}
+<cv-tab id="sourcetree-windows" class="d-print-none">
+<cv-tab-header><md>:fab-windows: Sourcetree on Windows</md></cv-tab-header>
+<cv-tab-body>
+  {% if sourcetree_windows %}{{ sourcetree_windows }}{% else %}<include src="./steps-{{ filename_suffix }}-fragment.md#sourcetree-windows" />{% endif %}
+</cv-tab-body>
+</cv-tab>
+<cv-tab id="sourcetree-mac" class="d-print-none">
+<cv-tab-header><md>:fab-apple: Sourcetree on MacOS</md></cv-tab-header>
+<cv-tab-body>
+  {% if sourcetree_mac %}{{ sourcetree_mac }}{% else %}<include src="./steps-{{ filename_suffix }}-fragment.md#sourcetree-mac" />{% endif %}
+</cv-tab-body>
+</cv-tab>
+{% else %}
+<cv-tab id="sourcetree-windows|sourcetree-mac" class="d-print-none">
+<cv-tab-header><md>:fab-bitbucket: Sourcetree</md></cv-tab-header>
+<cv-tab-body>
+  {% if sourcetree %}{{ sourcetree }}{% else %}<include src="./steps-{{ filename_suffix }}-fragment.md#sourcetree" />{% endif %}
+</cv-tab-body>
+</cv-tab>
+{% endif %}
+</cv-tabgroup>
 {% if indent_level %}</div>{% endif %}
 {%- endmacro %}
 <!-- ============================================================ -->

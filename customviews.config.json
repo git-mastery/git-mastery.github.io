@@ -1,0 +1,35 @@
+{
+  "config": {
+    "tabGroups": [
+      {
+        "id": "os",
+        "label": "OS that you normally use with Git on:",
+        "default": "windows",
+        "tabs": [
+          { "id": "mac", "label": "MacOS" },
+          { "id": "windows", "label": "Windows" },
+          { "id": "linux", "label": "Linux" }
+        ]
+      },
+      {
+        "id": "git-ui",
+        "label": "The UI you use to interact with Git:",
+        "default": "cli",
+        "tabs": [
+          { "id": "cli", "label": "CLI" },
+          { "id": "sourcetree-windows", "label": "Sourcetree on Windows" },
+          { "id": "sourcetree-mac", "label": "Sourcetree on MacOS" }
+        ]
+      }
+    ]
+  },
+  "baseUrl": "/",
+  "widget": {
+    "enabled": true,
+    "position": "middle-left",
+    "showReset": true,
+    "showWelcome": true,
+    "title": "Configure your view of Git-Mastery site"
+  },
+  "showUrl": true
+}
