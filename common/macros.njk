@@ -346,6 +346,7 @@
 <!-- ============================================================ -->
 
 {% macro show_git_tabs_from_text(cli, sourcetree, indent_level='') -%}
+<!-- to be removed -->
 {% if indent_level %}<div class="indented-level{{ indent_level }}">{% endif %}
 <cv-tabgroup id="git-ui">
 <cv-tab id="cli">
@@ -355,7 +356,7 @@
 {{ cli }}
 </cv-tab-body>
 </cv-tab>
-<cv-tab id="sourcetree" class="d-print-none">
+<cv-tab id="sourcetree-windows|sourcetree-mac" class="d-print-none">
 <cv-tab-header><md>:fab-bitbucket: Sourcetree</md></cv-tab-header>
 <cv-tab-body>
 
@@ -368,6 +369,7 @@
 <!-- ============================================================ -->
 
 {% macro show_git_tabs(filename_suffix='', indent_level='') -%}
+<!-- to be removed -->
 {% if indent_level %}<div class="indented-level{{ indent_level }}">{% endif %}
 <cv-tabgroup id="git-ui">
 <cv-tab id="cli">
@@ -555,12 +557,12 @@ The sandbox will be set up inside the `gitmastery-exercises/{{ identifier }}` fo
 {% endmacro %}
 <!-- ============================================================ -->
 
-{% macro show_exercise(exercise, has_download=1, has_verify=1, is_panel=1, status="collapsed", has_footer=1) %}
+{% macro show_exercise(exercise, number=0, has_download=1, has_verify=1, is_panel=1, status="collapsed", has_footer=1) %}
 {% set identifier = exercise.identifier %}
 {% set path = (exercise.lesson.path if exercise.lesson else exercise.detour.lesson.path) %}
 {% set file =  baseUrl + "/" + path + "/exercise-" + identifier + ".md" %}
 {% if is_panel %}<panel tags="git-mastery" class="non-printable" type="danger" {{ status }}
-header="###### {{ icon_exercise }} EXERCISE: `{{ identifier }}`"
+header="###### {{ icon_exercise }} EXERCISE{{ (' ' + number) if number else '' }}: `{{ identifier }}`"
 popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 # Exercise `{{ identifier }}`
 {% endif %}
