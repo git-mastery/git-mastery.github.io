@@ -485,6 +485,13 @@
       "headingKeywords": {}
     },
     {
+      "src": "lessons/reset/exercise-sensors-reset.md",
+      "headings": {
+        "exercise-sensors-reset": "Exercise sensors-reset"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "lessons/setRemote/exercise-link-me.md",
       "headings": {
         "exercise-link-me": "Exercise link-me"
