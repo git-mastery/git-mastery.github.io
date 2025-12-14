@@ -471,6 +471,13 @@
       "headingKeywords": {}
     },
     {
+      "src": "lessons/merge/exercise-merge-squash.md",
+      "headings": {
+        "exercise-merge-squash": "Exercise merge-squash"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "lessons/mergeConflicts/exercise-conflict-mediator.md",
       "headings": {
         "exercise-conflict-mediator": "Exercise conflict-mediator"
