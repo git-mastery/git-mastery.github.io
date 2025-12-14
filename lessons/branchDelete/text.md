@@ -230,4 +230,10 @@ Observe how the commit still exists and still is reachable using the commit ID, 
 </div>
 <div id="extras">
 {{ show_exercise(exercises.branch_delete) }}
+<p/>
+<hr>
+
+As this is the last lesson for this tour, this is a good time to attempt exercises that combine knowledge from multiple lessons in this tour:
+
+{{ show_exercise(exercises.mix_messy_docs) }}
 </div>
