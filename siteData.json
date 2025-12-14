@@ -478,6 +478,13 @@
       "headingKeywords": {}
     },
     {
+      "src": "lessons/log/exercise-log-and-order.md",
+      "headings": {
+        "exercise-log-and-order": "Exercise log-and-order"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "lessons/merge/exercise-branch-bender.md",
       "headings": {
         "exercise-branch-bender": "Exercise branch-bender"
