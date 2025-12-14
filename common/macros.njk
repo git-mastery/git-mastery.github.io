@@ -124,6 +124,7 @@
   sensors_diff: {lesson: trail.usingRevisionHistory.lessons.diff, identifier: "sensors-diff", wip: 1},
   sensors_checkout: {lesson: trail.usingRevisionHistory.lessons.checkout, identifier: "sensors-checkout", wip: 1},
   sensors_reset: {lesson: trail.usingRevisionHistory.lessons.reset, identifier: "sensors-reset", wip: 1},
+  sensors_revert: {lesson: trail.usingRevisionHistory.lessons.revert, identifier: "sensors-revert", wip: 1},
   side_track: {lesson: trail.branchingLocally.lessons.branch, identifier: "side-track"},
   branch_bender: {lesson: trail.branchingLocally.lessons.merge, identifier: "branch-bender"},
   conflict_mediator: {lesson: trail.branchingLocally.lessons.mergeConflicts, identifier: "conflict-mediator"},
@@ -550,9 +551,9 @@ header="###### {{ icon_exercise }} EXERCISE: `{{ identifier }}`"
 popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 # Exercise `{{ identifier }}`
 {% endif %}
-{% if exercise.wip %}<div class="bg-danger text-white mt-2 mb-2"><md>->This exercise is currently under development/testing, yet to be released to users.<-</md></div>{% endif %}
+{% if exercise.wip %}<div class="bg-danger text-white mt-2 mb-2"><md>->This exercise is currently under development/testing, not yet released to users.<-</md></div>{% endif %}
 {% if has_download %}
-**To download** the exercise:
+**++To download++** the exercise:
 
 * Navigate inside the `gitmastery-exercises` folder.{{ numbers_roman }}
 * Run `gitmastery download {{ identifier }}` command.
@@ -564,11 +565,11 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 {% set has_scenario = ((scenario_content | trim) != "") %}
 {% if has_scenario %}
 
-**Scenario:**
+**++Scenario:++**
 
 {{ scenario_content }}
 {% endif %}
-**Your task:**{.text-danger}
+**++Your task:++**{.text-danger}
 <div class="indented-level1">
 <include src="{{ file }}#task" />
 
@@ -576,7 +577,7 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 
 ---{.dashed .border-danger}
 {% if has_verify %}
-**To verify** your work:
+**++To verify++** your work:
 
 * Navigate to anywhere inside the `gitmastery-exercises/{{ identifier }}` folder %%(or any sub-folder of it)%%. {{ numbers_roman }}
 * Run the `gitmastery verify` command.
