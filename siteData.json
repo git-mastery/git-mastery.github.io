@@ -483,6 +483,13 @@
       "headingKeywords": {}
     },
     {
+      "src": "lessons/show/exercise-view-commits.md",
+      "headings": {
+        "exercise-view-commits": "Exercise view-commits"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "lessons/stage/exercise-stage-fright.md",
       "headings": {
         "exercise-stage-fright": "Exercise stage-fright"
@@ -493,6 +500,20 @@
       "src": "lessons/stage/exercise-staging-intervention.md",
       "headings": {
         "exercise-staging-intervention": "Exercise staging-intervention"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "lessons/tag/exercise-tags-add.md",
+      "headings": {
+        "exercise-tags-add": "Exercise tags-add"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "lessons/tag/exercise-tags-update.md",
+      "headings": {
+        "exercise-tags-update": "Exercise tags-update"
       },
       "headingKeywords": {}
     },
