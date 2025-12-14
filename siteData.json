@@ -408,6 +408,13 @@
       "headingKeywords": {}
     },
     {
+      "src": "lessons/branchDelete/exercise-mix-messy-graph.md",
+      "headings": {
+        "exercise-mix-messy-graph": "Exercise mix-messy-graph"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "lessons/branchRename/exercise-branch-rename.md",
       "headings": {
         "exercise-branch-rename": "Exercise branch-rename"
