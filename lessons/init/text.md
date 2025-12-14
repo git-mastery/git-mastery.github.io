@@ -42,10 +42,10 @@ mkdir things
 **Avoid putting Git repos inside cloud-synced (e.g., OneDrive, Dropbox) folders.** Reason: Multiple tools trying to detect/sync changes in the same folder can cause conflicts and unexpected behaviors.<br> If you want to access project files from multiple computers, use Git to do that (rather than cloud syncing tools).
 </box>
 
-{{ hp_number(1) }} **Then `cd` into it.**
+{{ hp_number(1) }} **Then, `cd` into it.** For example,
 
 ```bash {.no-line-numbers}
-cd things
+cd hp-init-repo/things
 ```
 
 {{ hp_number(2) }} **Run the `git status` command** to check the status of the folder.
