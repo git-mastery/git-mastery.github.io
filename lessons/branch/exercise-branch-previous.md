@@ -13,8 +13,6 @@ gitGraph BT:
   commit id: "Mention noise"
 </mermaid>
 
-</div>
-
 
 You are not very happy with the way the story is progressing, and wish to explore a few alternative storylines starting from a previous step.
 </div>
