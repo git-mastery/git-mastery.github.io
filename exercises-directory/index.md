@@ -7,7 +7,7 @@ pageNav: 6
 </frontmatter>
 
 # {{ title }}
-
+{% set count = 0 %}
 {% for exercise_id, exercise in exercises %}
-{% if not exercise.wip %}{{ show_exercise(exercise, status="expanded", has_footer=0) }}{% endif %}
+{% if not exercise.wip %}{% set count = count+1 %}{{ show_exercise(exercise, number=count, status="expanded", has_footer=0) }}{% endif %}
 {% endfor %}
