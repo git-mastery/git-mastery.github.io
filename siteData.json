@@ -511,6 +511,13 @@
       "headingKeywords": {}
     },
     {
+      "src": "lessons/tag/exercise-tags-push.md",
+      "headings": {
+        "exercise-tags-push": "Exercise tags-push"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "lessons/tag/exercise-tags-update.md",
       "headings": {
         "exercise-tags-update": "Exercise tags-update"
