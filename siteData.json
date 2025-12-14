@@ -380,6 +380,13 @@
       "headingKeywords": {}
     },
     {
+      "src": "lessons/branch/exercise-branch-previous.md",
+      "headings": {
+        "exercise-branch-previous": "Exercise branch-previous"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "lessons/branch/exercise-side-track.md",
       "headings": {
         "exercise-side-track": "Exercise side-track"
