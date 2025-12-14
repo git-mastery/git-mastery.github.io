@@ -423,7 +423,9 @@
     },
     {
       "src": "lessons/diff/exercise-sensors-diff.md",
-      "headings": {},
+      "headings": {
+        "exercise-sensors-diff": "Exercise sensors-diff"
+      },
       "headingKeywords": {}
     },
     {
