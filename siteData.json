@@ -380,6 +380,13 @@
       "headingKeywords": {}
     },
     {
+      "src": "lessons/branch/exercise-branch-compare.md",
+      "headings": {
+        "exercise-branch-compare": "Exercise branch-compare"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "lessons/branch/exercise-branch-previous.md",
       "headings": {
         "exercise-branch-previous": "Exercise branch-previous"

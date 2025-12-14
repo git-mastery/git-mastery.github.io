@@ -1682,3 +1682,79 @@ Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/les
 2025-12-14T13:06:24.707Z - info: Website regeneration complete! Total build time: 0.068s
 2025-12-14T13:08:33.193Z - info: Website generation started at 21:08:33
 2025-12-14T13:08:33.286Z - info: Building assets...
+2025-12-14T13:08:33.553Z - info: Assets built
+2025-12-14T13:08:33.554Z - info: Generating pages...
+2025-12-14T13:08:38.951Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-14T13:08:38.951Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-14T13:08:38.951Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-14T13:08:38.951Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-14T13:08:38.951Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-14T13:08:38.953Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-14T13:08:38.957Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/branch/images/listRemoteBranches.png' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranches/sourcetree_4.md'
+2025-12-14T13:08:38.960Z - info: Pages built
+2025-12-14T13:08:39.064Z - info: Site data built
+2025-12-14T13:08:39.064Z - info: Website generation complete! Total build time: 6.051s
+2025-12-14T13:08:39.065Z - info: Build success!
+2025-12-14T13:08:46.489Z - info: The website has been deployed at: https://git-mastery.github.io/git-mastery.github.io
+2025-12-14T13:18:28.926Z - info: Website generation started at 21:18:28
+2025-12-14T13:18:29.041Z - info: Building assets...
+2025-12-14T13:18:29.304Z - info: Assets built
+2025-12-14T13:18:29.305Z - info: Generating pages...
+2025-12-14T13:18:34.704Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-14T13:18:34.704Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-14T13:18:34.704Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-14T13:18:34.704Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-14T13:18:34.704Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-14T13:18:34.705Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-14T13:18:34.707Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/branch/images/listRemoteBranches.png' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranches/sourcetree_4.md'
+2025-12-14T13:18:34.708Z - info: Pages built
+2025-12-14T13:18:34.793Z - info: Site data built
+2025-12-14T13:18:34.794Z - info: Website generation complete! Total build time: 6.068s
+2025-12-14T13:18:34.802Z - info: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2025-12-14T13:18:34.803Z - info: Press CTRL+C to stop ...
+2025-12-14T13:25:05.840Z - info: [21:25:05] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-branch-compare.md
+2025-12-14T13:25:05.927Z - info: [21:25:05] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2025-12-14T13:25:06.923Z - info: Rebuilding 86 pages
+2025-12-14T13:25:12.312Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-14T13:25:12.313Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-14T13:25:12.313Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-14T13:25:12.313Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-14T13:25:12.313Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-14T13:25:12.314Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-14T13:25:12.315Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/branch/images/listRemoteBranches.png' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranches/sourcetree_4.md'
+2025-12-14T13:25:12.316Z - info: Site data built
+2025-12-14T13:25:12.316Z - info: Pages rebuilt
+2025-12-14T13:25:12.316Z - info: Website regeneration complete! Total build time: 5.394s
+2025-12-14T13:25:56.803Z - info: [21:25:56] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-branch-compare.md
+2025-12-14T13:25:57.811Z - info: Rebuilding 1 pages
+2025-12-14T13:25:57.880Z - info: Site data built
+2025-12-14T13:25:57.880Z - info: Pages rebuilt
+2025-12-14T13:25:57.880Z - info: Website regeneration complete! Total build time: 0.071s
+2025-12-14T13:26:14.137Z - info: [21:26:14] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-branch-previous.md
+2025-12-14T13:26:15.139Z - info: Rebuilding 1 pages
+2025-12-14T13:26:15.206Z - info: Site data built
+2025-12-14T13:26:15.206Z - info: Pages rebuilt
+2025-12-14T13:26:15.206Z - info: Website regeneration complete! Total build time: 0.068s
+2025-12-14T13:26:40.857Z - info: Website generation started at 21:26:40
+2025-12-14T13:26:40.932Z - info: Building assets...
