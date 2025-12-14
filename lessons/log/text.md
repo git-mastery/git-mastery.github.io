@@ -100,4 +100,6 @@ In the revision graph above, there are two refs {{ show_ref('master') }} and &nb
 
 </div>
 <div id="extras">
+
+{{ show_exercise(exercises.log_and_order) }}
 </div>
