@@ -12,7 +12,7 @@
   const baseUrl = ''
 </script>
 <body >
-<div id="app"><!--[--><header sticky><div placement="top" data-v-2dc82f13><nav class="navbar navbar-expand-md d-print-none navbar-dark bg-dark" data-v-2dc82f13><div class="container-fluid" data-v-2dc82f13><div class="navbar-left" data-v-2dc82f13><!--[--><a href="https://git-mastery.github.io" title="SE-EDU" class="navbar-brand"><span><strong><strong>Git-Mastery</strong></strong></span></a><!--]--></div><div class="navbar-default" data-v-2dc82f13><ul class="navbar-nav me-auto mt-2 mt-lg-0" data-v-2dc82f13><!--[--> <li><a href="/index.html" class="nav-link"><span><strong>Home</strong></span></a></li> <li><a href="/lessons/index.html" class="nav-link"><span><strong>Lessons</strong></span></a></li> <li><a href="/exercises-directory/index.html" class="nav-link"><span><strong>Exercises</strong></span></a></li> <li><a href="https://git-mastery.github.io/progress-dashboard/" class="nav-link"><span><strong>Progress</strong></span></a></li> <li><a href="/companion-app/index.html" class="nav-link"><span><strong>App</strong></span></a></li> <li><a href="https://git-mastery.github.io/developers/" class="nav-link"><span><strong>Dev Docs</strong></span></a></li> <li><a href="/about/index.html" class="nav-link"><span><strong>About</strong></span></a></li> <li><a href="https://github.com/git-mastery" class="nav-link"><span><span aria-hidden="true" class="fab fa-github"></span></span></a></li> <!--]--></ul></div><ul class="navbar-nav navbar-right" data-v-2dc82f13><!--[--><li class="nav-link"><form class="navbar-form"><div style="position:relative;" class="dropdown" data-v-00e26d0a><!--[--><input value="" data-bs-toggle="dropdown" type="text" class="form-control" placeholder="Search" autocomplete="off" data-v-00e26d0a><div class="form-control placeholder-div-hidden" data-v-00e26d0a>Search</div><!--]--><ul class="dropdown-menu search-dropdown-menu dropdown-menu-hidden dropdown-menu-end" data-v-00e26d0a><!--[--><!--]--></ul></div></form></li><!--]--></ul></div></nav><div style="display:none;" class="lower-navbar-container" data-v-2dc82f13><!--[--><!----><!----><!--]--></div></div></header> <div id="flex-body"><div id="content-wrapper" class="fixed-header-padding"><p><div id="scenario" class="d-none"><p>You are writing user documentation for a product. You have already written documentation for a few new features, each in a separate branch. You have merged the <code class="hljs inline no-lang">feature-search</code> branch.</p> <pre class="mermaid">
+<div id="app"><!--[--><header sticky><div placement="top" data-v-2dc82f13><nav class="navbar navbar-expand-md d-print-none navbar-dark bg-dark" data-v-2dc82f13><div class="container-fluid" data-v-2dc82f13><div class="navbar-left" data-v-2dc82f13><!--[--><a href="https://git-mastery.github.io" title="SE-EDU" class="navbar-brand"><span><strong><strong>Git-Mastery</strong></strong></span></a><!--]--></div><div class="navbar-default" data-v-2dc82f13><ul class="navbar-nav me-auto mt-2 mt-lg-0" data-v-2dc82f13><!--[--> <li><a href="/index.html" class="nav-link"><span><strong>Home</strong></span></a></li> <li><a href="/lessons/index.html" class="nav-link"><span><strong>Lessons</strong></span></a></li> <li><a href="/exercises-directory/index.html" class="nav-link"><span><strong>Exercises</strong></span></a></li> <li><a href="https://git-mastery.github.io/progress-dashboard/" class="nav-link"><span><strong>Progress</strong></span></a></li> <li><a href="/companion-app/index.html" class="nav-link"><span><strong>App</strong></span></a></li> <li><a href="https://git-mastery.github.io/developers/" class="nav-link"><span><strong>Dev Docs</strong></span></a></li> <li><a href="/about/index.html" class="nav-link"><span><strong>About</strong></span></a></li> <li><a href="https://github.com/git-mastery" class="nav-link"><span><span aria-hidden="true" class="fab fa-github"></span></span></a></li> <!--]--></ul></div><ul class="navbar-nav navbar-right" data-v-2dc82f13><!--[--><li class="nav-link"><form class="navbar-form"><div style="position:relative;" class="dropdown" data-v-00e26d0a><!--[--><input value="" data-bs-toggle="dropdown" type="text" class="form-control" placeholder="Search" autocomplete="off" data-v-00e26d0a><div class="form-control placeholder-div-hidden" data-v-00e26d0a>Search</div><!--]--><ul class="dropdown-menu search-dropdown-menu dropdown-menu-hidden dropdown-menu-end" data-v-00e26d0a><!--[--><!--]--></ul></div></form></li><!--]--></ul></div></nav><div style="display:none;" class="lower-navbar-container" data-v-2dc82f13><!--[--><!----><!----><!--]--></div></div></header> <div id="flex-body"><div id="content-wrapper" class="fixed-header-padding"><p><div id="scenario" class="d-none"><p>You are writing user documentation for a product. You have already written documentation for a few new features, each in a separate branch. You wish to accumulate this work in a separate branch called <code class="hljs inline no-lang">development</code> until the next product release.</p> <pre class="mermaid">
 gitGraph BT:
   commit id: &quot;Add features.md&quot;
   commit id: &quot;Mention feature for creating books&quot; tag: &quot;v10&quot;
@@ -31,11 +31,9 @@ gitGraph BT:
   commit id: &quot;Add more details on the search feature&quot;
   checkout list
   commit id: &quot;Add partial docs for listing books&quot;
-  checkout main
-  merge feature-search id: &quot;Merge search feature&quot;
-</pre> <p>At this point, you realise this way of merging can result in a complicated revision graph. Instead, you wish to merge these changes in a way that results in a simple linear revision graph.</p></div> <div id="task" class="d-none"><ol><li><p>Undo the merging of <code class="hljs inline no-lang">feature-search</code>.</p></li> <li><p>Squash-merge the <code class="hljs inline no-lang">feature-search</code> branch onto the <code class="hljs inline no-lang">main</code> branch with the commit message <code class="hljs inline no-lang">Add the search feature</code>. Delete the <code class="hljs inline no-lang">feature-search</code> branch.</p></li> <li><p>Similarly, squash-merge and delete the <code class="hljs inline no-lang">feature-delete</code> branch with the commit message <code class="hljs inline no-lang">Add the delete feature</code>, while resolving any merge conflicts -- in the <code class="hljs inline no-lang">features.md</code>, the delete feature should appear after the search feature (expected content given below):</p> <div class="code-block"><div class="code-block-heading"><span>features.md</span></div><div class="code-block-content"><pre><code heading="features.md" class="hljs markdown"><span><span class="hljs-section"># Features</span>
+</pre></div> <div id="task" class="d-none"><ol><li>Create a new branch <code class="hljs inline no-lang">development</code>, starting from the commit tagged <code class="hljs inline no-lang">v1.0</code></li> <li>Merge the <code class="hljs inline no-lang">feature-search</code> branch onto the <code class="hljs inline no-lang">development</code> branch, without using fast-forwarding (i.e., create a merge commit). Delete the <code class="hljs inline no-lang">feature-search</code> branch.</li> <li>Similarly, merge the <code class="hljs inline no-lang">feature-delete</code> branch onto the <code class="hljs inline no-lang">development</code> branch. Resolve any merge conflicts -- in the <code class="hljs inline no-lang">features.md</code>, the delete feature should appear after the search feature (see below). Delete the <code class="hljs inline no-lang">feature-delete</code> branch.<div class="code-block"><div class="code-block-heading"><span>features.md</span></div><div class="code-block-content"><pre><code heading="features.md" class="hljs markdown"><span><span class="hljs-section"># Features</span>
 </span><span>
-</span><span><span class="hljs-section">## Creating Books</span>
+</span><span><span class="hljs-section">## Create Book</span>
 </span><span>
 </span><span>Allows creating one book at a time.
 </span><span>
@@ -88,15 +86,30 @@ gitGraph BT:
 
     </div>
     </div>
-    </button></div></pre></div></div></li> <li><p>The <code class="hljs inline no-lang">list</code> branch is not needed, as you have decided not to have that feature. Delete that branch.
-The resulting revision graph should be as follows:</p></li></ol> <pre class="mermaid">
+    </button></div></pre></div></div></li> <li>The <code class="hljs inline no-lang">list</code> branch is not yet ready to be merged but rename it as <code class="hljs inline no-lang">feature-list</code>, to be consistent with the naming convention you have been following in this repo.</li></ol> <p><strong>Expected final result:</strong></p> <pre class="mermaid">
 gitGraph BT:
   commit id: &quot;Add features.md&quot;
   commit id: &quot;Mention feature for creating books&quot; tag: &quot;v10&quot;
+  branch deleted-feature-search
+  branch deleted-feature-delete
+  branch feature-list
+  branch development
+  checkout deleted-feature-delete
+  commit id: &quot;Mention feature for deleting books&quot;
+  checkout deleted-feature-search
+  commit id: &quot;Mention feature for searching books&quot;
+  checkout deleted-feature-delete
+  commit id: &quot;Add missing period&quot;
+  checkout main
   commit id: &quot;Fix phrasing of heading&quot;
-  commit id: &quot;Add the search feature&quot;
-  commit id: &quot;Add the delete feature&quot;
-</pre></div> <h1 id="exercise-mix-messy-graph">Exercise <code class="hljs inline no-lang">mix-messy-graph</code><a class="fa fa-anchor" href="#exercise-mix-messy-graph" onclick="event.stopPropagation()"></a></h1> <p><strong><span class="large">To download</span></strong> the exercise:</p> <ul style="list-style-type:none;padding-inline-start:0px;"><li texts="[&#39;i.&#39;, &#39;ii.&#39;, &#39;iii.&#39;, &#39;iv.&#39;, &#39;v.&#39;, &#39;vi.&#39;, &#39;vii.&#39;]" style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">i.</span><div>Navigate inside the <code class="hljs inline no-lang">gitmastery-exercises</code> folder.</div></li> <li style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">ii.</span><div>Run <code class="hljs inline no-lang">gitmastery download mix-messy-graph</code> command.</div></li></ul> <hr class="dashed border-danger"> <p><strong><span class="large">Scenario:</span></strong></p> <div><p>You are writing user documentation for a product. You have already written documentation for a few new features, each in a separate branch. You have merged the <code class="hljs inline no-lang">feature-search</code> branch.</p> <pre class="mermaid">
+  checkout deleted-feature-search
+  commit id: &quot;Add more details on the search feature&quot;
+  checkout feature-list
+  commit id: &quot;Add partial docs for listing books&quot;
+  checkout development
+  merge deleted-feature-search
+  merge deleted-feature-delete
+</pre></div> <h1 id="exercise-mix-messy-docs">Exercise <code class="hljs inline no-lang">mix-messy-docs</code><a class="fa fa-anchor" href="#exercise-mix-messy-docs" onclick="event.stopPropagation()"></a></h1> <p><strong><span class="large">To download</span></strong> the exercise:</p> <ul style="list-style-type:none;padding-inline-start:0px;"><li texts="[&#39;i.&#39;, &#39;ii.&#39;, &#39;iii.&#39;, &#39;iv.&#39;, &#39;v.&#39;, &#39;vi.&#39;, &#39;vii.&#39;]" style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">i.</span><div>Navigate inside the <code class="hljs inline no-lang">gitmastery-exercises</code> folder.</div></li> <li style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">ii.</span><div>Run <code class="hljs inline no-lang">gitmastery download mix-messy-docs</code> command.</div></li></ul> <hr class="dashed border-danger"> <p><strong><span class="large">Scenario:</span></strong></p> <div><p>You are writing user documentation for a product. You have already written documentation for a few new features, each in a separate branch. You wish to accumulate this work in a separate branch called <code class="hljs inline no-lang">development</code> until the next product release.</p> <pre class="mermaid">
 gitGraph BT:
   commit id: &quot;Add features.md&quot;
   commit id: &quot;Mention feature for creating books&quot; tag: &quot;v10&quot;
@@ -115,11 +128,9 @@ gitGraph BT:
   commit id: &quot;Add more details on the search feature&quot;
   checkout list
   commit id: &quot;Add partial docs for listing books&quot;
-  checkout main
-  merge feature-search id: &quot;Merge search feature&quot;
-</pre> <p>At this point, you realise this way of merging can result in a complicated revision graph. Instead, you wish to merge these changes in a way that results in a simple linear revision graph.</p></div> <p><strong class="text-danger"><span class="large">Your task:</span></strong></p> <div class="indented-level1"><div><ol><li><p>Undo the merging of <code class="hljs inline no-lang">feature-search</code>.</p></li> <li><p>Squash-merge the <code class="hljs inline no-lang">feature-search</code> branch onto the <code class="hljs inline no-lang">main</code> branch with the commit message <code class="hljs inline no-lang">Add the search feature</code>. Delete the <code class="hljs inline no-lang">feature-search</code> branch.</p></li> <li><p>Similarly, squash-merge and delete the <code class="hljs inline no-lang">feature-delete</code> branch with the commit message <code class="hljs inline no-lang">Add the delete feature</code>, while resolving any merge conflicts -- in the <code class="hljs inline no-lang">features.md</code>, the delete feature should appear after the search feature (expected content given below):</p> <div class="code-block"><div class="code-block-heading"><span>features.md</span></div><div class="code-block-content"><pre><code heading="features.md" class="hljs markdown"><span><span class="hljs-section"># Features</span>
+</pre></div> <p><strong class="text-danger"><span class="large">Your task:</span></strong></p> <div class="indented-level1"><div><ol><li>Create a new branch <code class="hljs inline no-lang">development</code>, starting from the commit tagged <code class="hljs inline no-lang">v1.0</code></li> <li>Merge the <code class="hljs inline no-lang">feature-search</code> branch onto the <code class="hljs inline no-lang">development</code> branch, without using fast-forwarding (i.e., create a merge commit). Delete the <code class="hljs inline no-lang">feature-search</code> branch.</li> <li>Similarly, merge the <code class="hljs inline no-lang">feature-delete</code> branch onto the <code class="hljs inline no-lang">development</code> branch. Resolve any merge conflicts -- in the <code class="hljs inline no-lang">features.md</code>, the delete feature should appear after the search feature (see below). Delete the <code class="hljs inline no-lang">feature-delete</code> branch.<div class="code-block"><div class="code-block-heading"><span>features.md</span></div><div class="code-block-content"><pre><code heading="features.md" class="hljs markdown"><span><span class="hljs-section"># Features</span>
 </span><span>
-</span><span><span class="hljs-section">## Creating Books</span>
+</span><span><span class="hljs-section">## Create Book</span>
 </span><span>
 </span><span>Allows creating one book at a time.
 </span><span>
@@ -172,20 +183,35 @@ gitGraph BT:
 
     </div>
     </div>
-    </button></div></pre></div></div></li> <li><p>The <code class="hljs inline no-lang">list</code> branch is not needed, as you have decided not to have that feature. Delete that branch.
-The resulting revision graph should be as follows:</p></li></ol> <pre class="mermaid">
+    </button></div></pre></div></div></li> <li>The <code class="hljs inline no-lang">list</code> branch is not yet ready to be merged but rename it as <code class="hljs inline no-lang">feature-list</code>, to be consistent with the naming convention you have been following in this repo.</li></ol> <p><strong>Expected final result:</strong></p> <pre class="mermaid">
 gitGraph BT:
   commit id: &quot;Add features.md&quot;
   commit id: &quot;Mention feature for creating books&quot; tag: &quot;v10&quot;
+  branch deleted-feature-search
+  branch deleted-feature-delete
+  branch feature-list
+  branch development
+  checkout deleted-feature-delete
+  commit id: &quot;Mention feature for deleting books&quot;
+  checkout deleted-feature-search
+  commit id: &quot;Mention feature for searching books&quot;
+  checkout deleted-feature-delete
+  commit id: &quot;Add missing period&quot;
+  checkout main
   commit id: &quot;Fix phrasing of heading&quot;
-  commit id: &quot;Add the search feature&quot;
-  commit id: &quot;Add the delete feature&quot;
-</pre></div></div> <hr class="dashed border-danger"> <p><strong><span class="large">To verify</span></strong> your work:</p> <ul style="list-style-type:none;padding-inline-start:0px;"><li texts="[&#39;i.&#39;, &#39;ii.&#39;, &#39;iii.&#39;, &#39;iv.&#39;, &#39;v.&#39;, &#39;vi.&#39;, &#39;vii.&#39;]" style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">i.</span><div>Navigate to anywhere inside the <code class="hljs inline no-lang">gitmastery-exercises/mix-messy-graph</code> folder <span class="dimmed">(or any sub-folder of it)</span>.</div></li> <li style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">ii.</span><div>Run the <code class="hljs inline no-lang">gitmastery verify</code> command.</div></li></ul> <p><small><span class="dimmed"><strong>To reset the exercise</strong> and start over, navigate to the <code class="hljs inline no-lang">gitmastery-exercises/mix-messy-graph</code> folder and run the <code class="hljs inline no-lang">gitmastery progress reset</code> command.</span></small></p> <div class="bg-light"><p><div class="text-center"><small><a href="/companion-app/index.html#git-mastery-app-commands">Git-Mastery <strong>commands list</strong></a> | <a href="https://github.com/git-mastery/git-mastery/issues">Report Git-Mastery <strong>bugs</strong></a> | <a href="/companion-app/index.html#updating-the-git-mastery-app">How to <strong>update</strong> Git-Mastery</a></small></div></p></div></p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.0.2</a>, generated on Mon, 15 Dec 2025, 0:07:53 GMT+8]</small></div></footer><!--]--></div>
+  checkout deleted-feature-search
+  commit id: &quot;Add more details on the search feature&quot;
+  checkout feature-list
+  commit id: &quot;Add partial docs for listing books&quot;
+  checkout development
+  merge deleted-feature-search
+  merge deleted-feature-delete
+</pre></div></div> <hr class="dashed border-danger"> <p><strong><span class="large">To verify</span></strong> your work:</p> <ul style="list-style-type:none;padding-inline-start:0px;"><li texts="[&#39;i.&#39;, &#39;ii.&#39;, &#39;iii.&#39;, &#39;iv.&#39;, &#39;v.&#39;, &#39;vi.&#39;, &#39;vii.&#39;]" style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">i.</span><div>Navigate to anywhere inside the <code class="hljs inline no-lang">gitmastery-exercises/mix-messy-docs</code> folder <span class="dimmed">(or any sub-folder of it)</span>.</div></li> <li style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">ii.</span><div>Run the <code class="hljs inline no-lang">gitmastery verify</code> command.</div></li></ul> <p><small><span class="dimmed"><strong>To reset the exercise</strong> and start over, navigate to the <code class="hljs inline no-lang">gitmastery-exercises/mix-messy-docs</code> folder and run the <code class="hljs inline no-lang">gitmastery progress reset</code> command.</span></small></p> <div class="bg-light"><p><div class="text-center"><small><a href="/companion-app/index.html#git-mastery-app-commands">Git-Mastery <strong>commands list</strong></a> | <a href="https://github.com/git-mastery/git-mastery/issues">Report Git-Mastery <strong>bugs</strong></a> | <a href="/companion-app/index.html#updating-the-git-mastery-app">How to <strong>update</strong> Git-Mastery</a></small></div></p></div></p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.0.2</a>, generated on Mon, 15 Dec 2025, 0:07:53 GMT+8]</small></div></footer><!--]--></div>
 </body><script src="/markbind/js/bootstrap-utility.min.js"></script>
 <script src="/markbind/js/polyfill.min.js"></script>
 <script src="/markbind/js/vue.global.prod.min.js"></script>
 <script src="/markbind/js/markbind.min.js"></script>
-<script src="exercise-mix-messy-graph.page-vue-render.js"></script>
+<script src="exercise-mix-messy-docs.page-vue-render.js"></script>
 <script>
   MarkBind.setupWithSearch()
 </script>
