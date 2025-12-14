@@ -548,6 +548,13 @@
       "headingKeywords": {}
     },
     {
+      "src": "lessons/remoteBranchRename/exercise-remote-branch-rename.md",
+      "headings": {
+        "exercise-remote-branch-rename": "Exercise remote-branch-rename"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "lessons/reset/exercise-sensors-reset.md",
       "headings": {
         "exercise-sensors-reset": "Exercise sensors-reset"
