@@ -1,5 +1,5 @@
 ```{.no-line-numbers}
-$ git push -u origin add-intro
+git push -u origin add-intro
 ```
 
 The `-u` (or `--set-upstream`) flag tells Git that you wish the local branch to 'track' the remote branch that will be created as a result of this push.

@@ -1,13 +1,13 @@
 **1. Fetch details from the remote.** e.g., if the remote is named `myfork`
 
 ```{.no-line-numbers}
-$ git fetch myfork
+git fetch myfork
 ```
 
 **2. List the branches** to see the name of the branch you want to pull.
 
 ```{.no-line-numbers}
-$ git branch -a
+git branch -a
 ```
 {{ icon_output }}
 ```{.no-line-numbers}
@@ -19,7 +19,7 @@ remotes/myfork/branch1
 
 **3. Create a matching local branch and switch to it.**
 ```{.no-line-numbers}
-$ git switch -c branch1 myfork/branch1
+git switch -c branch1 myfork/branch1
 ```
 {{ icon_output }}
 ```{.no-line-numbers}

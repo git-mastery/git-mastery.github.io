@@ -75,7 +75,7 @@ gitGraph BT:
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
 ```bash{.no-line-numbers}
-$ git merge master
+git merge master
 ```
 {% endset %}
 {% set sourcetree %}
