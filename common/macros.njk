@@ -157,6 +157,9 @@
 {% macro thumbnail(icon, size=50) %}<thumbnail circle text="{{ icon }}" background="#198754" font-color="white" size="{{ size }}" />{% endmacro %}
 <!-- ============================================================ -->
 
+{% macro annotation_label(x, y, text) %}<a-point x="{{ x }}%" y="{{ y }}%"><md><span style="background-color: yellow;" class="p-1 opacity-75 rounded-2">{{ text }}</span></md></a-point>{% endmacro %}
+<!-- ============================================================ -->
+
 {% macro show_output(indent_level='') %}
 {% if indent_level %}<div class="indented-level{{ indent_level }}">{% endif %}
 <div class="d-flex">
