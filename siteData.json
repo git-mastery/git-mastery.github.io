@@ -492,6 +492,13 @@
       "headingKeywords": {}
     },
     {
+      "src": "lessons/merge/exercise-branch-forward.md",
+      "headings": {
+        "exercise-branch-forward": "Exercise branch-forward"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "lessons/merge/exercise-ff-undo.md",
       "headings": {
         "exercise-ff-undo": "Exercise ff-undo"
