@@ -492,6 +492,13 @@
       "headingKeywords": {}
     },
     {
+      "src": "lessons/revert/exercise-sensors-revert.md",
+      "headings": {
+        "exercise-sensors-revert": "Exercise sensors-revert"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "lessons/setRemote/exercise-link-me.md",
       "headings": {
         "exercise-link-me": "Exercise link-me"
