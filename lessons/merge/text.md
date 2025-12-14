@@ -379,6 +379,7 @@ The mechanics of doing a squash merge is covered in a separate detour.
 <div id="extras">
 
 {{ show_exercise(exercises.branch_bender) }}
+{{ show_exercise(exercises.branch_forward) }}
 {{ show_detour('undoMerge') }}
 {{ show_detour('compareBranches') }}
 {{ show_detour('squashMerge') }}
