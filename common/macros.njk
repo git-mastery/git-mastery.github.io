@@ -346,6 +346,7 @@
 <!-- ============================================================ -->
 
 {% macro show_git_tabs_from_text(cli, sourcetree, indent_level='') -%}
+<!-- to be removed -->
 {% if indent_level %}<div class="indented-level{{ indent_level }}">{% endif %}
 <cv-tabgroup id="git-ui">
 <cv-tab id="cli">
@@ -355,7 +356,7 @@
 {{ cli }}
 </cv-tab-body>
 </cv-tab>
-<cv-tab id="sourcetree" class="d-print-none">
+<cv-tab id="sourcetree-windows|sourcetree-mac" class="d-print-none">
 <cv-tab-header><md>:fab-bitbucket: Sourcetree</md></cv-tab-header>
 <cv-tab-body>
 
@@ -368,6 +369,7 @@
 <!-- ============================================================ -->
 
 {% macro show_git_tabs(filename_suffix='', indent_level='') -%}
+<!-- to be removed -->
 {% if indent_level %}<div class="indented-level{{ indent_level }}">{% endif %}
 <cv-tabgroup id="git-ui">
 <cv-tab id="cli">
