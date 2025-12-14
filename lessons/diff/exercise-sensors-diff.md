@@ -1,4 +1,5 @@
-<!--
+<!-- steps for creating the companion repo:
+
 take gm-sensors
 git init
 echo -e "4821\n9304\n1578\n6042\n7189\n2463\n8931\n5710\n4428\n3097\n8652\n1904\n7285\n6379\n5140\n9836\n2057\n4719\n3568\n8243" > east.csv
@@ -131,3 +132,27 @@ Discard next two commits, but keep the changes staged.
 
 Revert the record of Jan 14th
 Also rever that of Jan 13th
+
+-->
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
+
+<div id="scenario" class="d-none">
+
+A system is using Git to record data received daily from for sensors, each monitoring one of directions east, west, north, south. Each sensor provides 20 integer values, which are stored in a csv file (e.g., values from the sensor monitoring the east direction are recorded as `east.csv`). Data for each day is recorded as one commit.
+</div>
+
+<div id="task" class="d-none">
+
+Examine the revision history to answer the following questions.
+
+**Q:** Which are the new values in staged files?
+
+**Q:** Which are the new values in modified but unstaged files?
+
+**Q:** Which files have changed from Jan 09th to Jan 15th?
+
+**Q:** Which new values are new in north.csv on Jan 10th, compared to Jan 01st?
+</div>
+
+{{ show_exercise(exercises.sensors_diff, is_panel=0) }}
+
