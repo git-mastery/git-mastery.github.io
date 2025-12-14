@@ -478,6 +478,13 @@
       "headingKeywords": {}
     },
     {
+      "src": "lessons/merge/exercise-ff-undo.md",
+      "headings": {
+        "exercise-ff-undo": "Exercise ff-undo"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "lessons/merge/exercise-merge-squash.md",
       "headings": {
         "exercise-merge-squash": "Exercise merge-squash"
