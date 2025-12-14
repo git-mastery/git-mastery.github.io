@@ -9,5 +9,5 @@ pageNav: 6
 # {{ title }}
 
 {% for exercise_id, exercise in exercises %}
-{{ show_exercise(exercise, status="expanded", has_footer=0) }}
+{% if not exercise.wip %}{{ show_exercise(exercise, status="expanded", has_footer=0) }}{% endif %}
 {% endfor %}

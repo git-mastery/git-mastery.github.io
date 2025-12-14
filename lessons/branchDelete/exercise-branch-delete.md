@@ -41,4 +41,4 @@ gitGraph BT:
 </mermaid>
 </div>
 
-{{ show_exercise(exercises.branch_delete, has_scenario=1, is_panel=0) }}
+{{ show_exercise(exercises.branch_delete, is_panel=0) }}

@@ -131,5 +131,5 @@ Although forward-slash (`/`) in the prefix doesn't mean folders, some tools trea
 
 </div>
 <div id="extras">
-{{ show_exercise(exercises.branch_rename, has_scenario=1) }}
+{{ show_exercise(exercises.branch_rename) }}
 </div>

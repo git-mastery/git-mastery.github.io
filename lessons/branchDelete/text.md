@@ -229,5 +229,5 @@ Observe how the commit still exists and still is reachable using the commit ID, 
 
 </div>
 <div id="extras">
-{{ show_exercise(exercises.branch_delete, has_scenario=1) }}
+{{ show_exercise(exercises.branch_delete) }}
 </div>

@@ -117,6 +117,9 @@
   fork_repo: {lesson: trail.workingWithRemotes.lessons.fork, identifier: "fork-repo"},
   clone_repo: {lesson: trail.workingWithRemotes.lessons.clone, identifier: "clone-repo"},
   fetch_and_pull: {lesson: trail.workingWithRemotes.lessons.pull, identifier: "fetch-and-pull"},
+  view_commits: {lesson: trail.usingRevisionHistory.lessons.show, identifier: "view-commits", wip: 1},
+  tags_add: {lesson: trail.usingRevisionHistory.lessons.tag, identifier: "tags-add", wip: 1},
+  tags_update: {lesson: trail.usingRevisionHistory.lessons.tag, identifier: "tags-update", wip: 1},
   side_track: {lesson: trail.branchingLocally.lessons.branch, identifier: "side-track"},
   branch_bender: {lesson: trail.branchingLocally.lessons.merge, identifier: "branch-bender"},
   conflict_mediator: {lesson: trail.branchingLocally.lessons.mergeConflicts, identifier: "conflict-mediator"},
@@ -534,7 +537,7 @@ The sandbox will be set up inside the `gitmastery-exercises/{{ identifier }}` fo
 {% endmacro %}
 <!-- ============================================================ -->
 
-{% macro show_exercise(exercise, has_download=1, has_verify=1, has_scenario=0, is_panel=1, status="collapsed", has_footer=1) %}
+{% macro show_exercise(exercise, has_download=1, has_verify=1, is_panel=1, status="collapsed", has_footer=1) %}
 {% set identifier = exercise.identifier %}
 {% set path = (exercise.lesson.path if exercise.lesson else exercise.detour.lesson.path) %}
 {% set file =  baseUrl + "/" + path + "/exercise-" + identifier + ".md" %}
@@ -543,6 +546,7 @@ header="###### {{ icon_exercise }} EXERCISE: `{{ identifier }}`"
 popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 # Exercise `{{ identifier }}`
 {% endif %}
+{% if exercise.wip %}<div class="bg-danger text-white mt-2 mb-2"><md>->This exercise is currently under development/testing, yet to be released to users.<-</md></div>{% endif %}
 {% if has_download %}
 **To download** the exercise:
 
@@ -552,10 +556,13 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 **#r#No download##** required for this exercise.
 {% endif %}
 ---{.dashed .border-danger}
+{% set scenario_content %}<include src="{{ file }}#scenario" optional/>{% endset %}
+{% set has_scenario = ((scenario_content | trim) != "") %}
 {% if has_scenario %}
 
 **Scenario:**
-<include src="{{ file }}#scenario" />
+
+{{ scenario_content }}
 {% endif %}
 **Your task:**{.text-danger}
 <div class="indented-level1">

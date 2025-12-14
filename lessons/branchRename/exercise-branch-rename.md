@@ -33,4 +33,4 @@ gitGraph BT:
 </mermaid>
 </div>
 
-{{ show_exercise(exercises.branch_rename, has_scenario=1, is_panel=0) }}
+{{ show_exercise(exercises.branch_rename, is_panel=0) }}
