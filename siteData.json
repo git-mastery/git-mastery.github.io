@@ -401,6 +401,13 @@
       "headingKeywords": {}
     },
     {
+      "src": "lessons/checkout/exercise-sensors-checkout.md",
+      "headings": {
+        "exercise-sensors-checkout": "Exercise sensors-checkout"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "lessons/clone/exercise-clone-repo.md",
       "headings": {
         "exercise-clone-repo": "Exercise clone-repo"

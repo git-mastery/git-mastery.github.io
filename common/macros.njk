@@ -122,6 +122,7 @@
   tags_update: {lesson: trail.usingRevisionHistory.lessons.tag, identifier: "tags-update", wip: 1},
   tags_push: {lesson: trail.usingRevisionHistory.lessons.tag, identifier: "tags-push", wip: 1},
   sensors_diff: {lesson: trail.usingRevisionHistory.lessons.diff, identifier: "sensors-diff", wip: 1},
+  sensors_checkout: {lesson: trail.usingRevisionHistory.lessons.checkout, identifier: "sensors-checkout", wip: 1},
   side_track: {lesson: trail.branchingLocally.lessons.branch, identifier: "side-track"},
   branch_bender: {lesson: trail.branchingLocally.lessons.merge, identifier: "branch-bender"},
   conflict_mediator: {lesson: trail.branchingLocally.lessons.mergeConflicts, identifier: "conflict-mediator"},
@@ -584,6 +585,11 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 {{ show_gm_footer() if has_footer else ""}}
 {% if is_panel %}</panel>{% endif %}
 {% endmacro %}
+<!-- ============================================================ -->
+
+{% macro show_exercise_link(exercise) -%}
+[{{ exercise.identifier }}]({{ baseUrl }}/{{ detour.lesson.path }}/exercise-{{ exercise.identifier }}.html)
+{%- endmacro %}
 <!-- ============================================================ -->
 
 {% macro show_resources() %}
