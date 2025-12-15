@@ -100,7 +100,6 @@ echo “even more temp stuff” > file2.tmp
 
 {{ show_hop_prep('hp-ignore-files', manual_info=manual)}}
 
-
 {{ hp_number ('1') }} **Configure Git to ignore those files:**
 
 {{ show_steps_tabs('ignore-file') }}

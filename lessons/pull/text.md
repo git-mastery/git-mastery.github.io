@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_multiple_columns, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_lesson_link, show_multiple_columns, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 
 <span id="prereqs"></span>
@@ -68,7 +68,10 @@ gitGraph BT:
 
 {{ hp_number (hop_target) }} Now, you wish to bring over those missing commits to your clone, taking it from the state `L1` to state `L2` (as given in the diagram above).
 
-{{ hp_number (hop_preparation) }} To create the initial state of the remote repo and the local repo (i.e., `R` and `L1` given above), you can use the following steps.
+{{ hp_number (hop_preparation) }}
+
+{% set manual %}
+To create the initial state of the remote repo and the local repo (i.e., `R` and `L1` given above), you can use the following steps.
 
 1. **Clone the repo [git-mastery/samplerepo-finances](https://github.com/git-mastery/samplerepo-finances)**. It has 3 commits. Your clone now has a remote `origin` pointing to the remote repo you cloned from.
 1. **Change the remote `origin`** to point to [samplerepo-finances-2](https://github.com/git-mastery/samplerepo-finances-2.git). This remote repo is a copy of the one you cloned, but it has two extra commits.
@@ -76,17 +79,22 @@ gitGraph BT:
 <div class="indented-level1">
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
+
 ```bash{.no-line-numbers}
 git remote set-url origin https://github.com/git-mastery/samplerepo-finances-2.git
 ```
 {% endset %}
 {% set sourcetree %}
+
 Go to `Repository` → `Repository settings ...` to update remotes.
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
 </div>
+{% endset %}
+
+{{ show_hop_prep('hp-fetch-merge', manual_info=manual) }}
 
 {{ hp_number ('1') }} **Verify the local repo is unaware of the extra commits** in the remote.
 
@@ -115,7 +123,8 @@ If it looks like the below, it is possible that Sourcetree is auto-fetching data
 
 <pic src="images/sourcetreeAfterFetching.png" width="500" />
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
+
 <!-- ------ end: Git Tabs -------------------------------->
 
 
@@ -147,7 +156,8 @@ Click on the `Fetch` button on the top menu:<br>
 </annotate>
 
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
+
 <!-- ------ end: Git Tabs -------------------------------->
 
 {{ hp_number ('3') }} **Verify the fetch worked** i.e., the local repo is now aware of the two missing commits. Also observe how the local branch ref of the `master` branch, the staging area, and the working directory remain unchanged after the fetch.
@@ -176,7 +186,8 @@ Now, the revision graph should look something like the below. Note how the `orig
 
 <pic src="images/sourcetreeAfterFetching.png" width="500" />
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
+
 <!-- ------ end: Git Tabs -------------------------------->
 
 {{ hp_number ('4') }} **Merge the fetched changes.**
@@ -204,7 +215,7 @@ The final result should be something like the below (same as the repo state befo
 <pic src="images/sourcetreeAfterMerging.png" width="500" />
 
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
 {{ icon_warning }} Note that merging the fetched changes can get complicated if there are multiple branches or the commits in the local repo conflict with commits in the remote repo. We will address them when we learn more about Git branches, in a later lesson.
@@ -224,7 +235,14 @@ The final result should be something like the below (same as the repo state befo
 
 {{ hp_number(hop_target) }} Same as the previous, but this time we intend to fetch and merge in one step.
 
-{{ hp_number(hop_preparation) }} Same as previous, but use a different folder.
+{{ hp_number(hop_preparation) }}
+
+{% set manual %}
+
+Same as previous hands-on practical but use a different folder.
+{% endset %}
+
+{{ show_hop_prep('hp-pull-remote', manual_info=manual) }}
 
 {{ hp_number('1') }} **Pull the newer commits from the remote**, instead of a fetch-then-merge.
 
@@ -253,7 +271,7 @@ In the next dialog, choose as follows:<br>
 <pic src="images/sourcetreePullDialog.png" width="500" />
 
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
 {{ hp_number ('2') }} **Verify the outcome** is same as the fetch + merge steps you did in the previous hands-on practical.
@@ -311,17 +329,24 @@ gitGraph BT:
 
 {{ hp_number (hop_target) }} Now, you wish to bring over new commits to your clone, and also update your fork with those commits.
 
-{{ hp_number (hop_preparation) }} You can use the following steps to create the initial state of the three repos mentioned above:
+{{ hp_number (hop_preparation) }}
 
-1. **Fork the repo [git-mastery/samplerepo-finances](https://github.com/git-mastery/samplerepo-finances)** to your account.
-1. **Clone that fork** to your computer.
+{{ show_hop_prep('sync-upstream', manual_info="n/a") }}
 
-{{ hp_number ('1') }} **Add the upstream repo [git-mastery/samplerepo-finances-2](https://github.com/git-mastery/samplerepo-finances-2) as remote** named `upstream` in your local repo.
+{{ hp_number ('1') }} **Confirm your local repo is behind** by two commits. For example, you can examine the remote-tracking branches for this.
 
-<box type="tip" seamless>
-
-Adding remotes was covered in {{ show_lesson_link(trail.backingUpOnCloud.lessons.setRemote) }}
-</box>
+```bash
+git log --oneline --decorate --graph --all
+```
+{% call show_output() %}
+```{highlight-lines="1['upstream/master']@#e6fff2,3['origin/master']@pink,3['master']@pink"}
+* b201f03 (upstream/master, upstream/HEAD) Add loan to Chang
+* 1b923a4 Add goals.txt
+* afbe966 (HEAD -> master, origin/master, origin/HEAD) Add assets.txt
+* 0434002 Add loan to Ben
+* fd96227 Add loans.txt
+```
+{% endcall %}
 
 {{ hp_number ('2') }} **Pull from the upstream repo.** If there are new commits, those will come over to your local repo. For example:
 ```bash{.no-line-numbers}

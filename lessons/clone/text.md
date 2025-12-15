@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can clone a repo.</span>
@@ -46,24 +46,20 @@ git clone https://github.com/foo/bar.git my-bar-copy  # also specifies a dir to 
 For exact steps for cloning a repo from GitHub, refer to [this GitHub document](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository).
 
 {% endset %}
-{% set sourcetree %}
-
-<tabs>
-  <tab header=":fab-windows: Windows">
+{% set sourcetree_windows %}
 
 `File` → `Clone / New ...` and provide the URL of the repo and the destination directory.<br>
-  </tab>
-  <tab header=":fab-apple: Mac">
+
+{% endset %}
+{% set sourcetree_mac %}
 
 `File` → `New ...` → Choose as shown below → Provide the URL of the repo and the destination directory in the next dialog.<br>
 <pic src="images/sourcetreeMacChooseToCloneFromUrl.png" width="300" /><br>
 <pic src="images/sourcetreeMacGiveUrl.png" width="500" />
-</tab>
-</tabs>
 
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
-<!-- ------ end: Git Tabs -------------------------------->
+{{ show_steps_tabs(cli=cli, sourcetree_windows=sourcetree_windows, sourcetree_mac=sourcetree_mac) }}
+
 
 {{ hp_number ('2') }} **Verify the clone has a remote named `origin`** pointing to the upstream repo.
 
@@ -75,7 +71,7 @@ Use the `git remote -v` command that you learned earlier.
 
 Choose `Repository` → `Repository Settings` menu option.
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
