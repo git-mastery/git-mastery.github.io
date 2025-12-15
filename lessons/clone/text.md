@@ -18,7 +18,7 @@ The next step is to **create a local copy of the remote repo, by _cloning_ the r
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Cloning a remote repo")  %}
 
-{{ hp_number ('1') }} **Clone the remote repo** to your computer. For example, you can clone the [samplerepo-things](https://github.com/se-edu/samplerepo-things) repo, or the fork you created from it in a previous lesson.
+{{ hp_number ('1') }} **Clone the remote repo** to your computer. For example, you can clone the [samplerepo-things](https://github.com/git-mastery/samplerepo-things) repo, or the fork you created from it in a previous lesson.
 
 <box type="warning" seamless>
 
@@ -26,8 +26,8 @@ Note that the URL of the GitHub project is different from the URL you need to cl
 e.g.
 
 ```bash{highlight-lines="2['.git']@yellow"}
-https://github.com/se-edu/samplerepo-things  # GitHub project URL
-https://github.com/se-edu/samplerepo-things.git # the repo URL
+https://github.com/git-mastery/samplerepo-things  # GitHub project URL
+https://github.com/git-mastery/samplerepo-things.git # the repo URL
 ```
 </box>
 
@@ -38,7 +38,7 @@ You can use the `git clone <repository-url> [directory-name]` command to clone a
 * `[directory-name]` (optional): The name of the folder where you want the repository to be cloned. If you omit this, Git will create a folder with the same name as the repository.
 
 ```bash{.no-line-numbers}
-git clone https://github.com/se-edu/samplerepo-things.git  # if using HTTPS
+git clone https://github.com/git-mastery/samplerepo-things.git  # if using HTTPS
 git clone git@github.com:se-edu/samplerepo-things.git  # if using SSH
 
 git clone https://github.com/foo/bar.git my-bar-copy  # also specifies a dir to use

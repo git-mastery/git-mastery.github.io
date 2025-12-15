@@ -36,7 +36,7 @@ When working with many commits, it helps to **tag specific commits with custom n
 
 {{ hp_number(hop_target) }} **Add a few tags to a repository.**
 
-{{ hp_number (hop_preparation) }} **Fork and clone the [samplerepo-preferences](https://github.com/se-edu/samplerepo-preferences).** Use the cloned repo on your computer for the following steps.
+{{ hp_number (hop_preparation) }} **Fork and clone the [samplerepo-preferences](https://github.com/git-mastery/samplerepo-preferences).** Use the cloned repo on your computer for the following steps.
 
 {% set cli %}
 

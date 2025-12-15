@@ -19,7 +19,7 @@ While Git cannot rename a remote branch in place, **[GitHub allows you to rename
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Rename branches in a remote")  %}
 
-{{ hp_number(hop_preparation) }} You can use the fork and the clone of the [samplerepo-books](https://github.com/se-edu/samplerepo-books) that you created in {{ show_lesson_link(trail.remoteBranches.lessons.remoteBranchDelete) }}.
+{{ hp_number(hop_preparation) }} You can use the fork and the clone of the [samplerepo-books](https://github.com/git-mastery/samplerepo-books) that you created in {{ show_lesson_link(trail.remoteBranches.lessons.remoteBranchDelete) }}.
 
 {{ hp_number(hop_target) }} **Rename the branch `fantasy`** in the remote (i.e., your fork) to `fantasy-books`.
 

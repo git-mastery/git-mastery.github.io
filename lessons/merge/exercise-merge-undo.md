@@ -43,5 +43,5 @@ gitGraph BT:
 
 </div>
 
-{{ show_exercise(exercises.ff_undo, is_panel=0) }}
+{{ show_exercise(exercises.merge_undo, is_panel=0) }}
 
