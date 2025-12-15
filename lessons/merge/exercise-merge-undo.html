@@ -36,30 +36,31 @@ gitGraph BT:
     commit id: &quot;[son-in-law] Add Jerry&quot;
     checkout main
     commit id: &quot;[HEAD → main] Add Morty&quot;
-</pre></div> <h1 id="exercise-ff-undo">Exercise <code class="hljs inline no-lang">ff-undo</code><a class="fa fa-anchor" href="#exercise-ff-undo" onclick="event.stopPropagation()"></a></h1> <div class="bg-danger text-white mt-2 mb-2"><span><div class="text-center">This exercise is currently under development/testing, not yet released to users.</div></span></div> <p><strong><span class="large">To download</span></strong> the exercise:</p> <ul style="list-style-type:none;padding-inline-start:0px;"><li texts="[&#39;i.&#39;, &#39;ii.&#39;, &#39;iii.&#39;, &#39;iv.&#39;, &#39;v.&#39;, &#39;vi.&#39;, &#39;vii.&#39;]" style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">i.</span><div>Navigate inside the <code class="hljs inline no-lang">gitmastery-exercises</code> folder.</div></li> <li style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">ii.</span><div>Run <code class="hljs inline no-lang">gitmastery download ff-undo</code> command.</div></li></ul> <hr class="dashed border-danger"> <p><strong><span class="large">Scenario:</span></strong></p> <div><p>You are keeping notes on the characters of a play that you are writing. In the main story line (which is in the <code class="hljs inline no-lang">main</code> branch), you introduced two characters, Rick and Morty. You added a few other characters in a separate branch <code class="hljs inline no-lang">others</code>.</p> <pre class="mermaid">
+</pre></div> <h1 id="exercise-merge-undo">Exercise <code class="hljs inline no-lang">merge-undo</code><a class="fa fa-anchor" href="#exercise-merge-undo" onclick="event.stopPropagation()"></a></h1> <p><strong><span class="large">To download</span></strong> the exercise:</p> <ul style="list-style-type:none;padding-inline-start:0px;"><li texts="[&#39;i.&#39;, &#39;ii.&#39;, &#39;iii.&#39;, &#39;iv.&#39;, &#39;v.&#39;, &#39;vi.&#39;, &#39;vii.&#39;]" style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">i.</span><div>Navigate inside the <code class="hljs inline no-lang">gitmastery-exercises</code> folder.</div></li> <li style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">ii.</span><div>Run <code class="hljs inline no-lang">gitmastery download merge-undo</code> command.</div></li></ul> <hr class="dashed border-danger"> <p><strong><span class="large">Scenario:</span></strong></p> <div><p>You are keeping notes on the characters of a play that you are writing. In the main story line (which is in the <code class="hljs inline no-lang">main</code> branch), you introduced two characters, Rick and Morty. You had two other characters in two separate branches <code class="hljs inline no-lang">daughter</code> and <code class="hljs inline no-lang">son-in-law</code>. Just now, you introduced these two characters to the main story line by merging the two branches to the <code class="hljs inline no-lang">main</code> branch.</p> <pre class="mermaid">
 gitGraph BT:
     commit id: &quot;Add Rick&quot;
-    commit id: &quot;[main] Add Morty&quot;
-    branch others
-    commit id: &quot;Add Birdperson&quot;
-    commit id: &quot;Add Cyborg to birdperson.txt&quot;
-    commit id: &quot;[HEAD → other] Add Tammy&quot;
-</pre> <p>Just now, you did a fast-forward merge of the <code class="hljs inline no-lang">others</code> branch to the <code class="hljs inline no-lang">main</code> branch.</p> <pre class="mermaid">
-gitGraph BT:
-    commit id: &quot;Add Rick&quot;
+    branch daughter
+    branch son-in-law
+    checkout daughter
+    commit id: &quot;[daughter] Add Beth&quot;
+    checkout son-in-law
+    commit id: &quot;[son-in-law] Add Jerry&quot;
+    checkout main
     commit id: &quot;Add Morty&quot;
-    commit id: &quot;Add Birdperson&quot;
-    commit id: &quot;Add Cyborg to birdperson.txt&quot;
-    commit id: &quot;[HEAD → main][others] Add Tammy&quot;
-</pre> <p>However, now you realise this is premature, and wish to undo that change.</p></div> <p><strong class="text-danger"><span class="large">Your task:</span></strong></p> <div class="indented-level1"><div><p>Undo the merging of branch <code class="hljs inline no-lang">others</code>.</p> <p>The result should be as follows:</p> <pre class="mermaid">
+    merge daughter id: &quot;Merge daughter&quot;
+    merge son-in-law id: &quot;[HEAD → main] Merge son-in-law&quot;
+</pre> <p>However, now you realise this is premature, and wish to undo that change.</p></div> <p><strong class="text-danger"><span class="large">Your task:</span></strong></p> <div class="indented-level1"><div><p>Undo the merging of branches <code class="hljs inline no-lang">son-in-law</code> and <code class="hljs inline no-lang">daughter</code>. The result should be as follows:</p> <pre class="mermaid">
 gitGraph BT:
     commit id: &quot;Add Rick&quot;
+    branch daughter
+    branch son-in-law
+    checkout daughter
+    commit id: &quot;[daughter] Add Beth&quot;
+    checkout son-in-law
+    commit id: &quot;[son-in-law] Add Jerry&quot;
+    checkout main
     commit id: &quot;[HEAD → main] Add Morty&quot;
-    branch others
-    commit id: &quot;Add Birdperson&quot;
-    commit id: &quot;Add Cyborg to birdperson.txt&quot;
-    commit id: &quot;[other] Add Tammy&quot;
-</pre></div></div> <hr class="dashed border-danger"> <p><strong><span class="large">To verify</span></strong> your work:</p> <ul style="list-style-type:none;padding-inline-start:0px;"><li texts="[&#39;i.&#39;, &#39;ii.&#39;, &#39;iii.&#39;, &#39;iv.&#39;, &#39;v.&#39;, &#39;vi.&#39;, &#39;vii.&#39;]" style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">i.</span><div>Navigate to anywhere inside the <code class="hljs inline no-lang">gitmastery-exercises/ff-undo</code> folder <span class="dimmed">(or any sub-folder of it)</span>.</div></li> <li style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">ii.</span><div>Run the <code class="hljs inline no-lang">gitmastery verify</code> command.</div></li></ul> <p><small><span class="dimmed"><strong>To reset the exercise</strong> and start over, navigate to the <code class="hljs inline no-lang">gitmastery-exercises/ff-undo</code> folder and run the <code class="hljs inline no-lang">gitmastery progress reset</code> command.</span></small></p> <div class="bg-light"><p><div class="text-center"><small><a href="/companion-app/index.html#git-mastery-app-commands">Git-Mastery <strong>commands list</strong></a> | <a href="https://github.com/git-mastery/git-mastery/issues">Report Git-Mastery <strong>bugs</strong></a> | <a href="/companion-app/index.html#updating-the-git-mastery-app">How to <strong>update</strong> Git-Mastery</a></small></div></p></div></p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.0.2</a>, generated on Mon, 15 Dec 2025, 2:08:16 GMT+8]</small></div></footer><!--]--></div>
+</pre></div></div> <hr class="dashed border-danger"> <p><strong><span class="large">To verify</span></strong> your work:</p> <ul style="list-style-type:none;padding-inline-start:0px;"><li texts="[&#39;i.&#39;, &#39;ii.&#39;, &#39;iii.&#39;, &#39;iv.&#39;, &#39;v.&#39;, &#39;vi.&#39;, &#39;vii.&#39;]" style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">i.</span><div>Navigate to anywhere inside the <code class="hljs inline no-lang">gitmastery-exercises/merge-undo</code> folder <span class="dimmed">(or any sub-folder of it)</span>.</div></li> <li style="display:flex;"><span aria-hidden="true" style="line-height:unset;margin-inline-end:0.35em;align-self:flex-start;flex-shrink:0;">ii.</span><div>Run the <code class="hljs inline no-lang">gitmastery verify</code> command.</div></li></ul> <p><small><span class="dimmed"><strong>To reset the exercise</strong> and start over, navigate to the <code class="hljs inline no-lang">gitmastery-exercises/merge-undo</code> folder and run the <code class="hljs inline no-lang">gitmastery progress reset</code> command.</span></small></p> <div class="bg-light"><p><div class="text-center"><small><a href="/companion-app/index.html#git-mastery-app-commands">Git-Mastery <strong>commands list</strong></a> | <a href="https://github.com/git-mastery/git-mastery/issues">Report Git-Mastery <strong>bugs</strong></a> | <a href="/companion-app/index.html#updating-the-git-mastery-app">How to <strong>update</strong> Git-Mastery</a></small></div></p></div></p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.0.2</a>, generated on Mon, 15 Dec 2025, 11:18:06 GMT+8]</small></div></footer><!--]--></div>
 </body><script src="/markbind/js/bootstrap-utility.min.js"></script>
 <script src="/markbind/js/polyfill.min.js"></script>
 <script src="/markbind/js/vue.global.prod.min.js"></script>
