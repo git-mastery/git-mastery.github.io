@@ -1605,3 +1605,615 @@ Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/les
 2025-12-15T10:46:20.943Z - debug: Assets removed
 2025-12-15T10:49:55.951Z - info: Website generation started at 18:49:55
 2025-12-15T10:49:56.032Z - info: Building assets...
+2025-12-15T10:49:56.414Z - info: Assets built
+2025-12-15T10:49:56.414Z - info: Generating pages...
+2025-12-15T10:50:02.422Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-15T10:50:02.422Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-15T10:50:02.422Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-15T10:50:02.422Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-15T10:50:02.422Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-15T10:50:02.424Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-15T10:50:02.425Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/branch/images/listRemoteBranches.png' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranches/sourcetree_4.md'
+2025-12-15T10:50:02.426Z - info: Pages built
+2025-12-15T10:50:02.494Z - info: Site data built
+2025-12-15T10:50:02.494Z - info: Website generation complete! Total build time: 6.745s
+2025-12-15T10:50:02.494Z - info: Build success!
+2025-12-15T10:50:10.761Z - info: The website has been deployed at: https://git-mastery.github.io/git-mastery.github.io
+2025-12-15T10:51:51.408Z - info: Website generation (lazy) started at 18:51:51
+2025-12-15T10:51:51.530Z - info: Building assets...
+2025-12-15T10:51:51.817Z - info: Assets built
+2025-12-15T10:51:51.818Z - info: Generating landing page...
+2025-12-15T10:51:51.909Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-12-15T10:51:51.979Z - info: Site data built
+2025-12-15T10:51:51.979Z - info: Website generation (lazy) complete! Total build time: 0.809s
+2025-12-15T10:51:51.989Z - info: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2025-12-15T10:51:51.989Z - info: Press CTRL+C to stop ...
+2025-12-15T10:51:59.346Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2025-12-15T10:51:59.644Z - info: Site data built
+2025-12-15T10:51:59.644Z - info: Lazy website regeneration complete! Total build time: 0.299s
+2025-12-15T10:52:05.899Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/index as some of its dependencies were changed since the last visit
+2025-12-15T10:52:05.971Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/text.md'
+2025-12-15T10:52:05.972Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/text.md'
+2025-12-15T10:52:05.972Z - info: Site data built
+2025-12-15T10:52:05.972Z - info: Lazy website regeneration complete! Total build time: 0.074s
+2025-12-15T10:52:10.975Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/index as some of its dependencies were changed since the last visit
+2025-12-15T10:52:11.053Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2025-12-15T10:52:11.053Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2025-12-15T10:52:11.054Z - info: Site data built
+2025-12-15T10:52:11.054Z - info: Lazy website regeneration complete! Total build time: 0.08s
+2025-12-15T10:52:35.268Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/index as some of its dependencies were changed since the last visit
+2025-12-15T10:52:35.456Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T10:52:35.456Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T10:52:35.456Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T10:52:35.456Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T10:52:35.457Z - info: Site data built
+2025-12-15T10:52:35.457Z - info: Lazy website regeneration complete! Total build time: 0.19s
+2025-12-15T10:54:25.911Z - info: [18:54:25] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2025-12-15T10:54:25.913Z - info: Synchronizing opened pages list before reload
+2025-12-15T10:54:25.915Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T10:54:25.915Z - info: 1. lessons/clone/index
+2025-12-15T10:54:26.927Z - info: Rebuilding 1 pages
+2025-12-15T10:54:27.008Z - error: No such file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/steps- <!-- ------ start: Git Tabs ---------------><p>Use the <code class=
+Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2025-12-15T10:54:27.073Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2025-12-15T10:54:27.073Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2025-12-15T10:54:27.074Z - info: Site data built
+2025-12-15T10:54:27.074Z - info: Pages rebuilt
+2025-12-15T10:54:27.074Z - info: Website regeneration complete! Total build time: 0.149s
+2025-12-15T10:55:01.558Z - info: [18:55:01] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2025-12-15T10:55:01.560Z - info: Synchronizing opened pages list before reload
+2025-12-15T10:55:01.561Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T10:55:01.561Z - info: 1. lessons/clone/index
+2025-12-15T10:55:02.571Z - info: Rebuilding 1 pages
+2025-12-15T10:55:02.688Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2025-12-15T10:55:02.688Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2025-12-15T10:55:02.690Z - info: Site data built
+2025-12-15T10:55:02.690Z - info: Pages rebuilt
+2025-12-15T10:55:02.690Z - info: Website regeneration complete! Total build time: 0.122s
+2025-12-15T10:55:16.489Z - info: [18:55:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2025-12-15T10:55:16.490Z - info: Synchronizing opened pages list before reload
+2025-12-15T10:55:16.490Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T10:55:16.490Z - info: 1. lessons/clone/index
+2025-12-15T10:55:17.492Z - info: Rebuilding 1 pages
+2025-12-15T10:55:17.540Z - error: No such file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/steps- <!-- ------ start: Git Tabs ---------------><p>You can use the <code class=
+Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2025-12-15T10:55:17.574Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2025-12-15T10:55:17.574Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2025-12-15T10:55:17.574Z - info: Site data built
+2025-12-15T10:55:17.575Z - info: Pages rebuilt
+2025-12-15T10:55:17.575Z - info: Website regeneration complete! Total build time: 0.084s
+2025-12-15T10:55:50.881Z - info: [18:55:50] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2025-12-15T10:55:50.881Z - info: Synchronizing opened pages list before reload
+2025-12-15T10:55:50.882Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T10:55:50.882Z - info: 1. lessons/clone/index
+2025-12-15T10:55:51.886Z - info: Rebuilding 1 pages
+2025-12-15T10:55:51.981Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2025-12-15T10:55:51.981Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2025-12-15T10:55:51.981Z - info: Site data built
+2025-12-15T10:55:51.981Z - info: Pages rebuilt
+2025-12-15T10:55:51.982Z - info: Website regeneration complete! Total build time: 0.098s
+2025-12-15T10:57:14.783Z - info: [18:57:14] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2025-12-15T10:57:14.784Z - info: Synchronizing opened pages list before reload
+2025-12-15T10:57:14.785Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T10:57:14.786Z - info: 1. lessons/clone/index
+2025-12-15T10:57:15.791Z - info: Rebuilding 1 pages
+2025-12-15T10:57:15.865Z - error: No such file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/steps--fragment.md
+Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2025-12-15T10:57:15.912Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2025-12-15T10:57:15.912Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2025-12-15T10:57:15.913Z - info: Site data built
+2025-12-15T10:57:15.913Z - info: Pages rebuilt
+2025-12-15T10:57:15.913Z - info: Website regeneration complete! Total build time: 0.124s
+2025-12-15T10:59:17.251Z - info: [18:59:17] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2025-12-15T10:59:17.254Z - info: Synchronizing opened pages list before reload
+2025-12-15T10:59:17.261Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T10:59:17.261Z - info: 1. lessons/clone/index
+2025-12-15T10:59:17.340Z - info: [18:59:17] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2025-12-15T10:59:17.340Z - info: Synchronizing opened pages list before reload
+2025-12-15T10:59:17.341Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T10:59:17.341Z - info: 1. lessons/clone/index
+2025-12-15T10:59:18.334Z - info: Rebuilding 1 pages
+2025-12-15T10:59:18.344Z - error: No such file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/steps--fragment.md
+Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2025-12-15T10:59:18.386Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2025-12-15T10:59:18.386Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2025-12-15T10:59:18.386Z - info: Site data built
+2025-12-15T10:59:18.386Z - info: Pages rebuilt
+2025-12-15T10:59:18.386Z - info: Website regeneration complete! Total build time: 0.053s
+2025-12-15T11:02:48.313Z - info: [19:02:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2025-12-15T11:02:48.315Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:02:48.317Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:02:48.317Z - info: 1. lessons/clone/index
+2025-12-15T11:02:49.381Z - info: Rebuilding 1 pages
+2025-12-15T11:02:49.429Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2025-12-15T11:02:49.429Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2025-12-15T11:02:49.430Z - info: Site data built
+2025-12-15T11:02:49.430Z - info: Pages rebuilt
+2025-12-15T11:02:49.430Z - info: Website regeneration complete! Total build time: 0.049s
+2025-12-15T11:03:39.469Z - info: [19:03:39] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2025-12-15T11:03:39.471Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:03:39.472Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:03:39.472Z - info: 1. lessons/clone/index
+2025-12-15T11:03:40.483Z - info: Rebuilding 1 pages
+2025-12-15T11:03:40.541Z - error: No such file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/steps- <!-- ------ start: Git Tabs ---------------><p>Use the <code class=
+Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2025-12-15T11:03:40.577Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2025-12-15T11:03:40.577Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2025-12-15T11:03:40.577Z - info: Site data built
+2025-12-15T11:03:40.577Z - info: Pages rebuilt
+2025-12-15T11:03:40.577Z - info: Website regeneration complete! Total build time: 0.097s
+2025-12-15T11:03:54.627Z - info: [19:03:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2025-12-15T11:03:54.630Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:03:54.634Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:03:54.634Z - info: 1. lessons/clone/index
+2025-12-15T11:03:55.645Z - info: Rebuilding 1 pages
+2025-12-15T11:03:55.763Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2025-12-15T11:03:55.763Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2025-12-15T11:03:55.764Z - info: Site data built
+2025-12-15T11:03:55.764Z - info: Pages rebuilt
+2025-12-15T11:03:55.764Z - info: Website regeneration complete! Total build time: 0.121s
+2025-12-15T11:04:13.763Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/index as some of its dependencies were changed since the last visit
+2025-12-15T11:04:13.965Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:04:13.965Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:04:13.965Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:04:13.965Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:04:13.966Z - info: Site data built
+2025-12-15T11:04:13.966Z - info: Lazy website regeneration complete! Total build time: 0.203s
+2025-12-15T11:05:41.133Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/usingRevisionHistory/index as some of its dependencies were changed since the last visit
+2025-12-15T11:05:41.598Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-15T11:05:41.599Z - info: Site data built
+2025-12-15T11:05:41.600Z - info: Lazy website regeneration complete! Total build time: 0.468s
+2025-12-15T11:20:31.708Z - info: [19:20:31] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:20:31.718Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:20:31.722Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:20:31.723Z - info: 1. lessons/pull/index
+2025-12-15T11:20:32.736Z - info: Rebuilding 1 pages
+2025-12-15T11:20:32.944Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:20:32.944Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:20:32.944Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:20:32.944Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:20:32.945Z - info: Site data built
+2025-12-15T11:20:32.945Z - info: Pages rebuilt
+2025-12-15T11:20:32.945Z - info: Website regeneration complete! Total build time: 0.21s
+2025-12-15T11:21:27.203Z - info: [19:21:27] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:21:27.205Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:21:27.205Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:21:27.206Z - info: 1. lessons/pull/index
+2025-12-15T11:21:28.215Z - info: Rebuilding 1 pages
+2025-12-15T11:21:28.424Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:21:28.424Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:21:28.424Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:21:28.424Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:21:28.425Z - info: Site data built
+2025-12-15T11:21:28.425Z - info: Pages rebuilt
+2025-12-15T11:21:28.425Z - info: Website regeneration complete! Total build time: 0.213s
+2025-12-15T11:22:21.998Z - info: [19:22:21] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:22:21.999Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:22:22.000Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:22:22.000Z - info: 1. lessons/pull/index
+2025-12-15T11:22:23.008Z - info: Rebuilding 1 pages
+2025-12-15T11:22:23.223Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:22:23.223Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:22:23.223Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:22:23.223Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:22:23.224Z - info: Site data built
+2025-12-15T11:22:23.224Z - info: Pages rebuilt
+2025-12-15T11:22:23.224Z - info: Website regeneration complete! Total build time: 0.218s
+2025-12-15T11:22:34.906Z - info: [19:22:34] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:22:34.907Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:22:34.907Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:22:34.907Z - info: 1. lessons/pull/index
+2025-12-15T11:22:35.911Z - info: Rebuilding 1 pages
+2025-12-15T11:22:36.107Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:22:36.107Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:22:36.107Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:22:36.107Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:22:36.108Z - info: Site data built
+2025-12-15T11:22:36.108Z - info: Pages rebuilt
+2025-12-15T11:22:36.108Z - info: Website regeneration complete! Total build time: 0.199s
+2025-12-15T11:22:58.575Z - info: [19:22:58] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2025-12-15T11:22:58.576Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:22:58.576Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:22:58.576Z - info: 1. lessons/pull/index
+2025-12-15T11:22:59.647Z - info: Rebuilding 1 pages
+2025-12-15T11:22:59.793Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:22:59.793Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:22:59.793Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:22:59.793Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:22:59.793Z - info: Site data built
+2025-12-15T11:22:59.793Z - info: Pages rebuilt
+2025-12-15T11:22:59.793Z - info: Website regeneration complete! Total build time: 0.146s
+2025-12-15T11:23:30.783Z - info: [19:23:30] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:23:30.784Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:23:30.784Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:23:30.784Z - info: 1. lessons/pull/index
+2025-12-15T11:23:31.786Z - info: Rebuilding 1 pages
+2025-12-15T11:23:31.979Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:23:31.979Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:23:31.979Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:23:31.979Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:23:31.979Z - info: Site data built
+2025-12-15T11:23:31.979Z - info: Pages rebuilt
+2025-12-15T11:23:31.980Z - info: Website regeneration complete! Total build time: 0.196s
+2025-12-15T11:23:53.259Z - info: [19:23:53] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:23:53.259Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:23:53.259Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:23:53.259Z - info: 1. lessons/pull/index
+2025-12-15T11:23:54.263Z - info: Rebuilding 1 pages
+2025-12-15T11:23:54.468Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:23:54.468Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:23:54.469Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:23:54.469Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:23:54.469Z - info: Site data built
+2025-12-15T11:23:54.469Z - info: Pages rebuilt
+2025-12-15T11:23:54.469Z - info: Website regeneration complete! Total build time: 0.208s
+2025-12-15T11:24:28.940Z - info: [19:24:28] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:24:28.940Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:24:28.940Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:24:28.940Z - info: 1. lessons/pull/index
+2025-12-15T11:24:29.945Z - info: Rebuilding 1 pages
+2025-12-15T11:24:30.151Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:24:30.151Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:24:30.151Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:24:30.151Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:24:30.152Z - info: Site data built
+2025-12-15T11:24:30.152Z - info: Pages rebuilt
+2025-12-15T11:24:30.152Z - info: Website regeneration complete! Total build time: 0.209s
+2025-12-15T11:24:55.259Z - info: [19:24:55] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:24:55.261Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:24:55.262Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:24:55.262Z - info: 1. lessons/pull/index
+2025-12-15T11:24:56.270Z - info: Rebuilding 1 pages
+2025-12-15T11:24:56.478Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:24:56.478Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:24:56.478Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:24:56.478Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:24:56.479Z - info: Site data built
+2025-12-15T11:24:56.479Z - info: Pages rebuilt
+2025-12-15T11:24:56.479Z - info: Website regeneration complete! Total build time: 0.211s
+2025-12-15T11:25:01.306Z - info: [19:25:01] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:25:01.306Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:25:01.306Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:25:01.306Z - info: 1. lessons/pull/index
+2025-12-15T11:25:02.309Z - info: Rebuilding 1 pages
+2025-12-15T11:25:02.462Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:25:02.462Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:25:02.462Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:25:02.462Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:25:02.463Z - info: Site data built
+2025-12-15T11:25:02.463Z - info: Pages rebuilt
+2025-12-15T11:25:02.463Z - info: Website regeneration complete! Total build time: 0.155s
+2025-12-15T11:25:36.513Z - info: [19:25:36] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:25:36.513Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:25:36.513Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:25:36.513Z - info: 1. lessons/pull/index
+2025-12-15T11:25:37.515Z - info: Rebuilding 1 pages
+2025-12-15T11:25:37.708Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:25:37.708Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:25:37.708Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:25:37.708Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:25:37.709Z - info: Site data built
+2025-12-15T11:25:37.709Z - info: Pages rebuilt
+2025-12-15T11:25:37.709Z - info: Website regeneration complete! Total build time: 0.196s
+2025-12-15T11:27:59.597Z - info: [19:27:59] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:27:59.598Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:27:59.598Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:27:59.599Z - info: 1. lessons/pull/index
+2025-12-15T11:28:00.603Z - info: Rebuilding 1 pages
+2025-12-15T11:28:00.807Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:28:00.807Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:28:00.807Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:28:00.807Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:28:00.808Z - info: Site data built
+2025-12-15T11:28:00.808Z - info: Pages rebuilt
+2025-12-15T11:28:00.808Z - info: Website regeneration complete! Total build time: 0.207s
+2025-12-15T11:34:12.240Z - info: [19:34:12] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:34:12.242Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:34:12.243Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:34:12.243Z - info: 1. lessons/pull/index
+2025-12-15T11:34:13.250Z - info: Rebuilding 1 pages
+2025-12-15T11:34:13.474Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:34:13.475Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:34:13.475Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:34:13.475Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:34:13.476Z - info: Site data built
+2025-12-15T11:34:13.476Z - info: Pages rebuilt
+2025-12-15T11:34:13.476Z - info: Website regeneration complete! Total build time: 0.228s
+2025-12-15T11:37:15.035Z - info: [19:37:15] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:37:15.039Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:37:15.041Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:37:15.042Z - info: 1. lessons/pull/index
+2025-12-15T11:37:16.047Z - info: Rebuilding 1 pages
+2025-12-15T11:37:16.293Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:37:16.294Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:37:16.294Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:37:16.294Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:37:16.295Z - info: Site data built
+2025-12-15T11:37:16.295Z - info: Pages rebuilt
+2025-12-15T11:37:16.295Z - info: Website regeneration complete! Total build time: 0.25s
+2025-12-15T11:38:03.098Z - info: [19:38:03] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:38:03.098Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:38:03.098Z - info: No pages are currently opened
+2025-12-15T11:38:04.101Z - info: No pages needed to be rebuilt
+2025-12-15T11:41:05.290Z - info: [19:41:05] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:41:05.292Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:41:05.293Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:41:05.293Z - info: 1. lessons/pull/index
+2025-12-15T11:41:06.301Z - info: Rebuilding 1 pages
+2025-12-15T11:41:06.506Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:41:06.506Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:41:06.506Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:41:06.506Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:41:06.507Z - info: Site data built
+2025-12-15T11:41:06.507Z - info: Pages rebuilt
+2025-12-15T11:41:06.507Z - info: Website regeneration complete! Total build time: 0.208s
+2025-12-15T11:41:57.306Z - info: [19:41:57] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:41:57.307Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:41:57.308Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:41:57.308Z - info: 1. lessons/pull/index
+2025-12-15T11:41:58.312Z - info: Rebuilding 1 pages
+2025-12-15T11:41:58.507Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:41:58.507Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:41:58.507Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:41:58.507Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:41:58.509Z - info: Site data built
+2025-12-15T11:41:58.509Z - info: Pages rebuilt
+2025-12-15T11:41:58.509Z - info: Website regeneration complete! Total build time: 0.199s
+2025-12-15T11:42:37.323Z - info: [19:42:37] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:42:37.324Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:42:37.324Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:42:37.324Z - info: 1. lessons/pull/index
+2025-12-15T11:42:38.326Z - info: Rebuilding 1 pages
+2025-12-15T11:42:38.526Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:42:38.526Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:42:38.526Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:42:38.526Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:42:38.527Z - info: Site data built
+2025-12-15T11:42:38.527Z - info: Pages rebuilt
+2025-12-15T11:42:38.527Z - info: Website regeneration complete! Total build time: 0.203s
+2025-12-15T11:46:14.503Z - info: [19:46:14] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/detour-ignoreTrackedFiles-fragment.md
+2025-12-15T11:46:14.505Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:46:14.505Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:46:14.505Z - info: 1. lessons/pull/index
+2025-12-15T11:46:14.506Z - info: [19:46:14] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/detour-pullingFromMultipleRemotes-fragment.md
+2025-12-15T11:46:14.506Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:46:14.506Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:46:14.506Z - info: 1. lessons/pull/index
+2025-12-15T11:46:15.513Z - info: Assets built
+2025-12-15T11:46:15.515Z - info: Rebuilding 1 pages
+2025-12-15T11:46:15.723Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:46:15.723Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:46:15.724Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:46:15.724Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:46:15.725Z - info: Site data built
+2025-12-15T11:46:15.725Z - info: Pages rebuilt
+2025-12-15T11:46:15.725Z - info: Website regeneration complete! Total build time: 0.211s
+2025-12-15T11:46:28.923Z - info: [19:46:28] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/detour-pullingFromMultipleRemotes-fragment.md
+2025-12-15T11:46:28.923Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:46:28.924Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:46:28.924Z - info: 1. lessons/pull/index
+2025-12-15T11:46:29.928Z - info: Rebuilding 1 pages
+2025-12-15T11:46:30.121Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:46:30.121Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:46:30.121Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:46:30.121Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:46:30.122Z - info: Site data built
+2025-12-15T11:46:30.122Z - info: Pages rebuilt
+2025-12-15T11:46:30.122Z - info: Website regeneration complete! Total build time: 0.196s
+2025-12-15T11:49:25.654Z - info: [19:49:25] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:49:25.655Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:49:25.655Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:49:25.655Z - info: 1. lessons/pull/index
+2025-12-15T11:49:26.660Z - info: Rebuilding 1 pages
+2025-12-15T11:49:26.857Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:49:26.858Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:49:26.858Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:49:26.858Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:49:26.858Z - info: Site data built
+2025-12-15T11:49:26.858Z - info: Pages rebuilt
+2025-12-15T11:49:26.858Z - info: Website regeneration complete! Total build time: 0.2s
+2025-12-15T11:49:52.879Z - info: [19:49:52] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:49:52.879Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:49:52.880Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:49:52.880Z - info: 1. lessons/pull/index
+2025-12-15T11:49:53.886Z - info: Rebuilding 1 pages
+2025-12-15T11:49:54.094Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:49:54.094Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2025-12-15T11:49:54.094Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:49:54.094Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-15T11:49:54.094Z - info: Site data built
+2025-12-15T11:49:54.094Z - info: Pages rebuilt
+2025-12-15T11:49:54.094Z - info: Website regeneration complete! Total build time: 0.211s
+2025-12-15T11:52:00.412Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/index as some of its dependencies were changed since the last visit
+2025-12-15T11:52:00.485Z - info: Site data built
+2025-12-15T11:52:00.485Z - info: Lazy website regeneration complete! Total build time: 0.074s
+2025-12-15T11:52:02.910Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/companion-app/index as some of its dependencies were changed since the last visit
+2025-12-15T11:52:03.069Z - info: Site data built
+2025-12-15T11:52:03.069Z - info: Lazy website regeneration complete! Total build time: 0.159s
+2025-12-15T11:56:19.939Z - info: [19:56:19] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:56:19.944Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:56:19.945Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:56:19.946Z - info: 1. companion-app/index
+2025-12-15T11:56:19.946Z - info: 2. lessons/pull/index
+2025-12-15T11:56:20.962Z - info: Rebuilding 1 pages
+2025-12-15T11:56:21.198Z - info: Site data built
+2025-12-15T11:56:21.198Z - info: Pages rebuilt
+2025-12-15T11:56:21.198Z - info: Website regeneration complete! Total build time: 0.242s
+2025-12-15T11:59:26.704Z - info: [19:59:26] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T11:59:26.707Z - info: Synchronizing opened pages list before reload
+2025-12-15T11:59:26.712Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T11:59:26.714Z - info: 1. companion-app/index
+2025-12-15T11:59:26.714Z - info: 2. lessons/pull/index
+2025-12-15T11:59:27.730Z - info: Rebuilding 1 pages
+2025-12-15T11:59:27.945Z - info: Site data built
+2025-12-15T11:59:27.945Z - info: Pages rebuilt
+2025-12-15T11:59:27.945Z - info: Website regeneration complete! Total build time: 0.217s
+2025-12-15T12:00:55.920Z - info: [20:00:55] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T12:00:55.923Z - info: Synchronizing opened pages list before reload
+2025-12-15T12:00:55.925Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T12:00:55.926Z - info: 1. companion-app/index
+2025-12-15T12:00:55.926Z - info: 2. lessons/pull/index
+2025-12-15T12:00:56.933Z - info: Rebuilding 1 pages
+2025-12-15T12:00:57.182Z - info: Site data built
+2025-12-15T12:00:57.182Z - info: Pages rebuilt
+2025-12-15T12:00:57.182Z - info: Website regeneration complete! Total build time: 0.25s
+2025-12-15T12:01:33.684Z - info: [20:01:33] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T12:01:33.684Z - info: Synchronizing opened pages list before reload
+2025-12-15T12:01:33.684Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T12:01:33.684Z - info: 1. companion-app/index
+2025-12-15T12:01:33.684Z - info: 2. lessons/pull/index
+2025-12-15T12:01:34.686Z - info: Rebuilding 1 pages
+2025-12-15T12:01:34.892Z - info: Site data built
+2025-12-15T12:01:34.892Z - info: Pages rebuilt
+2025-12-15T12:01:34.892Z - info: Website regeneration complete! Total build time: 0.207s
+2025-12-15T12:02:00.086Z - info: [20:02:00] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T12:02:00.096Z - info: Synchronizing opened pages list before reload
+2025-12-15T12:02:00.096Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T12:02:00.096Z - info: 1. companion-app/index
+2025-12-15T12:02:00.096Z - info: 2. lessons/pull/index
+2025-12-15T12:02:01.097Z - info: Rebuilding 1 pages
+2025-12-15T12:02:01.312Z - info: Site data built
+2025-12-15T12:02:01.312Z - info: Pages rebuilt
+2025-12-15T12:02:01.312Z - info: Website regeneration complete! Total build time: 0.216s
+2025-12-15T12:04:22.250Z - info: [20:04:22] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T12:04:22.252Z - info: Synchronizing opened pages list before reload
+2025-12-15T12:04:22.252Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T12:04:22.253Z - info: 1. companion-app/index
+2025-12-15T12:04:22.253Z - info: 2. lessons/pull/index
+2025-12-15T12:04:23.264Z - info: Rebuilding 1 pages
+2025-12-15T12:04:23.484Z - info: Site data built
+2025-12-15T12:04:23.484Z - info: Pages rebuilt
+2025-12-15T12:04:23.484Z - info: Website regeneration complete! Total build time: 0.223s
+2025-12-15T12:05:03.025Z - info: [20:05:03] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-15T12:05:03.026Z - info: Synchronizing opened pages list before reload
+2025-12-15T12:05:03.027Z - info: Current opened pages, from most-to-least recent:
+2025-12-15T12:05:03.027Z - info: 1. companion-app/index
+2025-12-15T12:05:03.027Z - info: 2. lessons/pull/index
+2025-12-15T12:05:04.032Z - info: Rebuilding 1 pages
+2025-12-15T12:05:04.237Z - info: Site data built
+2025-12-15T12:05:04.237Z - info: Pages rebuilt
+2025-12-15T12:05:04.237Z - info: Website regeneration complete! Total build time: 0.208s
+2025-12-15T12:05:39.310Z - info: Website generation started at 20:05:39
+2025-12-15T12:05:39.405Z - info: Building assets...
