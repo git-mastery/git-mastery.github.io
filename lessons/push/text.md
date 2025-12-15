@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 
@@ -47,10 +47,11 @@ Explanation: When you create `C4`, the current branch `master` moves to `C4`, an
 
 {{ hp_number("1") }} **Push the `master` branch** to the remote. **Also instruct Git to track this branch pair**.
 
-{{ show_git_tabs('-push-to-empty-remote-fragment') }}
+{{ show_steps_tabs('push-to-empty-remote') }}
 
 {{ hp_number("2") }} **Observe the remote-tracking branch** `origin/master` is now pointing at the same commit as the `master` branch.
-{{ show_git_tabs('-after-pushing-to-empty-remote-fragment') }}
+
+{{ show_steps_tabs('after-pushing-to-empty-remote') }}
 
 {% endcall %}
 
@@ -72,48 +73,11 @@ echo "Elderberries" >> fruits.txt
 git commit -am "Update fruits list"
 ```
 
-{% set cli %} <!-- ------ start: Git Tabs --------------->
-
-Optionally, you can run the `git status` command, which should confirm that your local branch is 'ahead' by one commit (i.e., the local branch has commits that are not present in the corresponding branch in the remote repo).
-
-```bash{.no-line-numbers}
-git status
-```
-{% call show_output() %}
-```bash {highlight-lines="2"}
-On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
-  (use "git push" to publish your local commits)
-
-nothing to commit, working tree clean
-```
-{% endcall %}
-
-You can also use the `git log --oneline --graph` command to see where the branch refs are. Note how the remote-tracking branch `origin/master` is one commit behind the local `master`.
-
-```bash {highlight-lines="1['HEAD']@pink,1['master']@#e6fff2,2['origin/master']@#e6fff2"}
-e60deae (HEAD -> master) Update fruits list
-f761ea6 (origin/master) Add colours.txt, shapes.txt
-2bedace Add figs to fruits.txt
-d5f91de Add fruits.txt
-```
-{% endset %}
-{% set sourcetree %}
-Create commits as you did before.
-
-Before pushing the new commit, Sourcetree will indicate that your local branch is 'ahead' by one commit (i.e., the local branch has one new commit that is not in the corresponding branch in the remote repo).
-
-<pic eager src="{{baseUrl}}/lessons/push/images/sourcetreeLocalBranchAhead.png" height="100" />
-<p/>
-
-{% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
-<!-- ------ end: Git Tabs -------------------------------->
-
+{{ show_steps_tabs('commit-changes') }}
 
 {{ hp_number ('2') }} **Push** the new commits to your fork on GitHub.
 
-{{ show_git_tabs('-subsequent-push-fragment') }}
+{{ show_steps_tabs('subsequent-push') }}
 
 {% endcall %}
 

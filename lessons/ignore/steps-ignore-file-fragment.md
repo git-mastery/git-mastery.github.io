@@ -1,3 +1,33 @@
+{% import "common/macros.njk" as m with context %}
+
+<div id="cli"><!-- ------------------------------------------------------------------- -->
+
+Create a file named `.gitignore` in the working directory root and add the text `temp.txt` into it.
+
+```bash{.no-line-numbers}
+echo "temp.txt" >> .gitignore
+```
+{% call m.show_output() %}
+```{heading=".gitignore"}
+temp.txt
+```
+{% endcall %} <!-- show_output -->
+
+
+Observe how `temp.txt` is no longer detected as 'untracked' by running the `git status` command (but now it will detect the `.gitignore` file as 'untracked'.
+
+Update the `.gitignore` file as follows:
+
+```{heading=".gitignore" highlight-lines="2"}
+temp.txt
+*.tmp
+```
+
+Observe how `.tmp` files are no longer detected as 'untracked' by running the `git status` command.
+
+</div>
+<div id="sourcetree"><!-- ---------------------------------------------------- -->
+
 The file should be currently listed under `Unstaged files`. Right-click it and choose `Ignore...`. Choose `Ignore exact filename(s)` and click `OK`.<br>
 Also take note of other options available e.g., `Ignore all files with this extension` etc. They may be useful in future.
 
@@ -16,3 +46,5 @@ Note how `.temp` files are no longer shown as unstaged files, and the `.gitignor
 temp.txt
 *.tmp
 ```
+
+</div><!-- ------------------------------------------------------------------- -->

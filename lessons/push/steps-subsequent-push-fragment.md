@@ -1,4 +1,6 @@
+{% import "common/macros.njk" as m with context %}
 
+<div id="cli"><!-- ------------------------------------------------------------------- -->
 
 To push the newer commit(s) in the current branch `master` to the remote `origin`, you can use any of the following commands:
 
@@ -16,3 +18,17 @@ f761ea6 Add colours.txt, shapes.txt
 2bedace Add figs to fruits.txt
 d5f91de Add fruits.txt
 ```
+
+</div>
+<div id="sourcetree"><!-- ---------------------------------------------------- -->
+
+To push, click the `Push` button on the top buttons ribbon, ensure the settings are as follows in the next dialog, and click the `Push` button on the dialog.
+
+<pic eager src="{{baseUrl}}/lessons/push/images/sourcetreePushDialog.png" height="150" />
+<p/>
+
+After pushing the new commit to the remote, the remote-tracking branch ref should move to the new commit:
+
+<pic src="images/sourcetreeAfterPushing.png" width="500" />
+
+</div><!-- ------------------------------------------------------------------- -->

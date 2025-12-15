@@ -1,3 +1,21 @@
+{% import "common/macros.njk" as m with context %}
+
+<div id="cli"><!-- ------------------------------------------------------------------- -->
+
+Use the `git push -u <remote-repo-name> <local-branch-name>` to push the commits to a remote repository.
+```bash{.no-line-numbers}
+git push -u origin master
+```
+Explanation:
+
+* `push`: the Git sub-command that pushes the current local repo content to a remote repo
+* `origin`: name of the remote
+* `master`: branch to push
+* `-u` (or `--set-upstream`): the flag that tells Git to track that this local `master` is tracking `origin/master` branch
+
+</div>
+<div id="sourcetree"><!-- ---------------------------------------------------- -->
+
 Click the `Push` button on the buttons ribbon at the top.
 
 <annotate src="{{baseUrl}}/lessons/images/sourcetreeTopMenu.png" width="400" alt="Sourcetree top menu">
@@ -13,3 +31,5 @@ In the next dialog, ensure the settings are as follows, ensure the `Track` optio
 <div style="width: 45px; height: 50px; border: 2px solid red; margin: 20px auto;"></div>
 </a-point>
 </annotate>
+
+</div><!-- ------------------------------------------------------------------- -->

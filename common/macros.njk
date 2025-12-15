@@ -401,7 +401,7 @@
 </cv-tab-body>
 </cv-tab>
 {% else %}
-{% set is_os_specific = 1 %}
+{% set is_os_specific = (0 if sourcetree else 1) %}
 {% endif %}
 {% if is_os_specific %}
 <cv-tab id="sourcetree-windows" class="d-print-none">
