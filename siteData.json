@@ -485,6 +485,13 @@
       "headingKeywords": {}
     },
     {
+      "src": "lessons/init/exercise-undo-init.md",
+      "headings": {
+        "exercise-undo-init": "Exercise undo-init"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "lessons/log/exercise-log-and-order.md",
       "headings": {
         "exercise-log-and-order": "Exercise log-and-order"

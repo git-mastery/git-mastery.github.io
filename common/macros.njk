@@ -107,6 +107,7 @@
 
 {% set exercises = {
   under_control: {lesson: trail.recordingFolderHistory.lessons.init, identifier: "under-control"},
+  undo_init: {lesson: trail.recordingFolderHistory.lessons.init, detour: detours.undoRepoInit, identifier: "undo-init", wip: 1},
   stage_fright: {lesson: trail.recordingFolderHistory.lessons.stage, identifier: "stage-fright"},
   staging_intervention: {detour: detours.unstagingChanges, identifier: "staging-intervention"},
   grocery_shopping: {lesson: trail.recordingFolderHistory.lessons.commit, identifier: "grocery-shopping"},
@@ -132,8 +133,8 @@
   branch_bender: {lesson: trail.branchingLocally.lessons.merge, identifier: "branch-bender"},
   branch_forward: {lesson: trail.branchingLocally.lessons.merge, identifier: "branch-forward"},
   merge_undo: {lesson: trail.branchingLocally.lessons.merge, detour: detours.undoMerge, identifier: "merge-undo"},
-  ff_undo: {lesson: trail.branchingLocally.lessons.merge, detour:detours.undoMerge, identifier: "ff-undo", wip: 1},
-  merge_squash: {lesson: trail.branchingLocally.lessons.merge, detour:detours.squashMerge, identifier: "merge-squash", wip: 1},
+  ff_undo: {lesson: trail.branchingLocally.lessons.merge, detour: detours.undoMerge, identifier: "ff-undo", wip: 1},
+  merge_squash: {lesson: trail.branchingLocally.lessons.merge, detour: detours.squashMerge, identifier: "merge-squash", wip: 1},
   conflict_mediator: {lesson: trail.branchingLocally.lessons.mergeConflicts, identifier: "conflict-mediator"},
   branch_rename: {lesson: trail.branchingLocally.lessons.branchRename, identifier: "branch-rename"},
   branch_delete: {lesson: trail.branchingLocally.lessons.branchDelete, identifier: "branch-delete"},
