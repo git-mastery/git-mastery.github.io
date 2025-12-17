@@ -18,7 +18,7 @@ commit 2bedace69990...
 Author: ... <...@...>
 Date:   Sat ...
 
-    Add figs to fruits.txt
+    Insert figs into fruits.txt
 
 commit d5f91de5f0b5...
 Author: ... <...@...>
@@ -29,7 +29,7 @@ Date:   Fri ...
 Given below the visual representation of the same revision graph. As you can see, the `log` output shows the refs slightly differently, but it is not hard to see what they mean.
 
 {{ show_commit('C3', desc=show_ref('master') + show_head(), msg='Add colours.txt, shapes.txt') }}
-{{ show_commit('C2', msg='Add figs to fruits.txt') }}
+{{ show_commit('C2', msg='Insert figs into fruits.txt') }}
 {{ show_commit('C1', edge='', msg='Add fruits.txt') }}
 <p/>
 
@@ -43,7 +43,7 @@ git log --oneline
 {% call show_output() %}
 ```bash{.no-line-numbers}
 f761ea6 (HEAD -> master, origin/master) Add colours.txt, shapes.txt
-2bedace Add figs to fruits.txt
+2bedace Insert figs into fruits.txt
 d5f91de Add fruits.txt
  ```
 {% endcall %}
@@ -56,7 +56,7 @@ git log --oneline --graph
 {% call show_output() %}
 ```bash{.no-line-numbers}
 * f761ea6 (HEAD -> master, origin/master) Add colours.txt, shapes.txt
-* 2bedace Add figs to fruits.txt
+* 2bedace Insert figs into fruits.txt
 * d5f91de Add fruits.txt
 ```
 {% endcall %}

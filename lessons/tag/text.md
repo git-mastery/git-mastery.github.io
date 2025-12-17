@@ -91,7 +91,7 @@ commit ....999087124af... (tag: v0.9)
 Author: ... <...@...>
 Date:   Sat Jun ...
 
-    Add figs to fruits.txt
+    Insert figs into fruits.txt
 
 diff --git a/fruits.txt b/fruits.txt
 index a8a0a01..7d0a594 100644

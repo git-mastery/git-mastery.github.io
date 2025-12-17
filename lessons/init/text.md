@@ -25,7 +25,7 @@ You can follow the hands-on practical below to learn how to initialise a repo in
 
 {{ hp_number(hop_preparation) }} **Choose a folder** to put under Git's control. The folder may or may not contain any files. For this practical, let us create a folder named `things` for this purpose.
 
-You can get the Git-Mastery app to <tooltip content="setting up the needed folders, files, repos needed for the practical">create the _sandbox_</tooltip> for doing this practical, or create the sandbox manually. Instructions for both options are given below.
+You can use the Git-Mastery app to <tooltip content="setting up the needed folders, files, repos needed for the practical">create the _sandbox_</tooltip> for doing this practical, or create the sandbox manually. Instructions for both options are given below.
 
 {% set manual_info %} <!-- ------ start: show_hop_prep --------------->
 Assuming you have a folder named `git-practicals` that you wish to use for doing Git hands-on practicals in, you can run the following commands.

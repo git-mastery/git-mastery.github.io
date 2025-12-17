@@ -164,7 +164,7 @@ git log --oneline --decorate
 ```bash{.no-line-numbers}
  e60deae (HEAD -> master, origin/master) Update fruits list
  f761ea6 Add colours.txt, shapes.txt
- 2bedace Add figs to fruits.txt
+ 2bedace Insert figs into fruits.txt
  d5f91de Add fruits.txt
  ```
 {% endcall %}

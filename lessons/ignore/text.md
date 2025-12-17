@@ -98,7 +98,7 @@ echo “even more temp stuff” > file2.tmp
 {% endset %}
 {{ hp_number(hop_preparation) }}
 
-{{ show_hop_prep('hp-ignore-files', manual_info=manual)}}
+{{ show_hop_prep('hp-ignore-file', manual_info=manual)}}
 
 {{ hp_number ('1') }} **Configure Git to ignore those files:**
 
@@ -120,6 +120,6 @@ echo “even more temp stuff” > file2.tmp
 </div>
 
 <div id="extras">
-{{ show_exercise(exercises.ignoring_something) }}
+{{ show_exercise(exercises.ignoring_somethings) }}
 {{ show_detour('ignoreTrackedFiles') }}
 </div>

@@ -196,7 +196,7 @@ git log --oneline --graph --all
 | * e60deae (upstream/master, origin/master) Update fruits list
 |/
 * f761ea6 (tag: v1.0) Add colours.txt, shapes.txt
-* 2bedace (tag: v0.9) Add figs to fruits.txt
+* 2bedace (tag: v0.9) Insert figs into fruits.txt
 * d5f91de Add fruits.txt
 ```
 {% endcall %}

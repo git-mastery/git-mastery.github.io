@@ -12,4 +12,4 @@
 **2. Commit the updated `.gitignore` file.**
 </div>
 
-{{ show_exercise(exercises.ignoring_something, is_panel=0) }}
+{{ show_exercise(exercises.ignoring_somethings, is_panel=0) }}

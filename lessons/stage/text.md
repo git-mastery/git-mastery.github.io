@@ -76,10 +76,9 @@ The example below shows how the status of a file changes when it is modified _af
 
 {{ hp_number(hop_preparation) }}
 
-{{ show_hop_prep('hp-stage-modified', is_continue=1) }}
-<!-- ------ end: show_hop_prep -------------------------------->
+{% set continue_info %}
 
-{{ hp_number('1') }} **First, add another line to `fruits.txt`**, to make it 'modified'.
+Start with the `things` repo from the previous hands-on practical, and **add another line to `fruits.txt`**, to make it 'modified'.
 <div class="indented-level1">
 
 <box type="tip" seamless>
@@ -100,14 +99,17 @@ dragon fruits
 {% endcall %}
 </box>
 </div>
+{% endset %}
+{{ show_hop_prep('hp-stage-modified', is_continue=1, continue_info=continue_info) }}
+<!-- ------ end: show_hop_prep -------------------------------->
 
-{{ hp_number('2') }} **Now, verify that Git sees that file as 'modified'.**
+{{ hp_number('1') }} **Now, verify that Git sees that file as 'modified'.**
 
 {{ show_steps_tabs('verify-file-modified', indent_level=1) }}
 
-{{ hp_number('3') }} **Stage the file again**, the same way you added/staged it earlier.
+{{ hp_number('2') }} **Stage the file again**, the same way you added/staged it earlier.
 
-{{ hp_number('4') }} **Verify that Git no longer sees it as 'modified'**, similar to step 2.
+{{ hp_number('3') }} **Verify that Git no longer sees it as 'modified'**, similar to step 2.
 
 {% endcall %} <!-- end: HOP -->
 

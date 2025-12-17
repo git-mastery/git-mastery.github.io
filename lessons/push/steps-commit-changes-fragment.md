@@ -22,7 +22,7 @@ You can also use the `git log --oneline --graph` command to see where the branch
 ```bash {highlight-lines="1['HEAD']@pink,1['master']@#e6fff2,2['origin/master']@#e6fff2"}
 e60deae (HEAD -> master) Update fruits list
 f761ea6 (origin/master) Add colours.txt, shapes.txt
-2bedace Add figs to fruits.txt
+2bedace Insert figs into fruits.txt
 d5f91de Add fruits.txt
 ```
 
