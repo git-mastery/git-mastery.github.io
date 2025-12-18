@@ -17,7 +17,7 @@ To be able to save snapshots of a folder using Git, **you must first put the fol
 
 You can follow the hands-on practical below to learn how to initialise a repo in a folder.
 
-{% call callout() %}
+{% call callout(toggle_id="hands-on-practicals") %}
 {{ label('secondary', icon_hands_on + ' HANDS-ON') }} panels contain hands-on activities you can do as you learn Git. If you are new to Git, ==we strongly recommend that you do them yourself== (even if they appear straightforward), as hands-on usage will help you internalise the concepts and operations better.
 {% endcall %}
 
@@ -138,7 +138,7 @@ You can even dig around inside that folder -- it is just a bunch of subfolders a
 <div id="extras">
 <div tags="git-mastery">
 
-{% call callout() %}
+{% call callout(toggle_id="exercises") %}
   {{ label('danger', icon_exercise + ' EXERCISE') }} panels contain a Git-Mastery exercise that you can download using the Git-Mastery app, and you can use the same app to verify that your solution is correct.
 {% endcall %}
 </div>
@@ -147,7 +147,7 @@ You can even dig around inside that folder -- it is just a bunch of subfolders a
 
 <p/>
 
-{% call callout() %}
+{% call callout(toggle_id="detours") %}
 {{ label('warning', icon_detour + ' DETOUR') }} panels contain related directions you can optionally explore. We recommend that you ==only skim them the first time you are going through a tour== (i.e., just to know _what_ each detour covers); you can revisit them later, to deepen your knowledge further, or when you encounter a use case related to the concepts covered by the detour.
 {% endcall %}
 

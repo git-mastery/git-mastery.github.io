@@ -31,7 +31,7 @@ Before you start learning Git, **you need to install some tools** on your comput
 </panel>
 </box>
 
-<box type="warning" seamless>
+<box type="warning" data-cv-toggle="lesson-intros" seamless>
 
 When running Git commands, we recommend Windows users to **use the Git Bash terminal** that comes with Git. To open Git Bash terminal, hit the <kbd>:fab-windows:</kbd> key and type `git-bash`.
 
