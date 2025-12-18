@@ -331,7 +331,7 @@ gitGraph BT:
 
 {{ hp_number (hop_preparation) }}
 
-{{ show_hop_prep('sync-upstream', manual_info="n/a") }}
+{{ show_hop_prep('hp-sync-upstream', manual_info="n/a") }}
 
 {{ hp_number ('1') }} **Confirm your local repo is behind** by two commits. For example, you can examine the remote-tracking branches for this.
 
