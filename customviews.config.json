@@ -1,13 +1,23 @@
 {
   "config": {
+    "toggles": [
+        { "id": "lesson-intros", "label": "Section intros/outros (green panels at the start/end of a lesson/tour)"},
+        { "id": "hands-on-practicals", "label": "Hands-on practicals"},
+        { "id": "detours", "label": "Detours"},
+        { "id": "exercises", "label": "Exercises"},
+        { "id": "windows-only", "label": "Windows-only text segments"}
+      ],
+    "defaultState": {
+      "toggles": ["hands-on-practicals", "detours", "lesson-intros", "exercises", "windows-only"]
+    },
     "tabGroups": [
       {
         "id": "os",
         "label": "OS that you normally use with Git on:",
         "default": "windows",
         "tabs": [
-          { "id": "mac", "label": "MacOS" },
           { "id": "windows", "label": "Windows" },
+          { "id": "mac", "label": "MacOS" },
           { "id": "linux", "label": "Linux" }
         ]
       },

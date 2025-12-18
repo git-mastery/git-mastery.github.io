@@ -446,7 +446,7 @@
 <!-- ============================================================ -->
 
 {% macro show_hands_on_practical(title) %}
-<div class="non-printable">
+<div class="non-printable" data-cv-toggle="hands-on-practicals">
 <span style="position: relative; top: 10px; background-color: rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6">{{ icon_hands_on }} HANDS-ON: {{ title }}</span>
 <div class="indented-level1">
 
@@ -460,8 +460,8 @@
 {% endmacro %}
 <!-- ============================================================ -->
 
-{% macro callout() %}
-<div class="indented-level2 non-printable">
+{% macro callout(toggle_id='') %}
+<div class="indented-level2 non-printable" {% if toggle_id %}data-cv-toggle="{{ toggle_id }}"{% endif %}>
 
 <div class="callout shadow">
 
@@ -485,10 +485,10 @@
 {% set title = detour_title if detour_title else detour.title %}
 {% set path = detour_path if detour_path else (baseUrl + "/" + detour.lesson.path + "/detour-" + detour_name + "-fragment.md") %}
 <a id="{{ detour_name }}"/>
-<panel class="non-printable" header="{{ icon_detour }} DETOUR: **{{ title }}**" type="warning" peek>
+<div data-cv-toggle="detours"><panel class="non-printable" header="{{ icon_detour }} DETOUR: **{{ title }}**" type="warning" peek>
 
 <include src="{{ path }}" />
-</panel>
+</panel></div>
 {% endmacro %}
 <!-- ============================================================ -->
 
@@ -500,12 +500,12 @@ the tour _{{ detour.title }}_ given in the lesson [_{{ detour.lesson.title }}_](
 
 {% macro show_detour_preview(detour_name) %}
 {% set detour = detours[detour_name] %}
-<panel class="non-printable" header="{{ icon_detour }} Related DETOUR: **{{ detour.title }}**" type="secondary" expanded>
+<div  data-cv-toggle="detours"><panel class="non-printable" header="{{ icon_detour }} Related DETOUR: **{{ detour.title }}**" type="secondary" expanded>
 
 <include src="{{ baseUrl }}/{{ detour.lesson.path }}/detour-{{ detour_name }}-fragment.md#preview" />
 
 That aspect is covered in {{ show_detour_link(detour_name) }}.
-</panel>
+</panel></div>
 {% endmacro %}
 <!-- ============================================================ -->
 
@@ -574,7 +574,7 @@ The sandbox will be set up inside the `gitmastery-exercises/{{ identifier }}` fo
 {% set identifier = exercise.identifier %}
 {% set path = (exercise.lesson.path if exercise.lesson else exercise.detour.lesson.path) %}
 {% set file =  baseUrl + "/" + path + "/exercise-" + identifier + ".md" %}
-{% if is_panel %}<panel tags="git-mastery" class="non-printable" type="danger" {{ status }}
+{% if is_panel %}<div data-cv-toggle="exercises"><panel tags="git-mastery" class="non-printable" type="danger" {{ status }}
 header="###### {{ icon_exercise }} EXERCISE{{ (' ' + number) if number else '' }}: `{{ identifier }}`"
 popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 # Exercise `{{ identifier }}`
@@ -613,7 +613,7 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 <small>%%**To reset the exercise** and start over, navigate to the `gitmastery-exercises/{{ identifier }}` folder and run the `gitmastery progress reset` command.%%</small>
 {% endif %}
 {{ show_gm_footer() if has_footer else ""}}
-{% if is_panel %}</panel>{% endif %}
+{% if is_panel %}</panel></div>{% endif %}
 {% endmacro %}
 <!-- ============================================================ -->
 
@@ -640,7 +640,7 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 <!-- ============================================================ -->
 
 {% macro show_lesson_intro() %}
-<div class="non-printable">
+<div class="non-printable" data-cv-toggle="lesson-intros">
 <div class="border border-success pt-0 ps-1 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color: #e6fff2">
 
 <div class="indented">
@@ -704,7 +704,7 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 
 {% macro show_tour_intro(tour, is_outside_tour=0) %}
 {% set tour_folder = baseUrl + "/lessons/trail/" + tour.folder %}
-<div class="non-printable" style="background-color: #e6fff2; border-top-left-radius: 15px; border-top-right-radius: 15px;">
+<div class="non-printable"  data-cv-toggle="lesson-intros" style="background-color: #e6fff2; border-top-left-radius: 15px; border-top-right-radius: 15px;">
 
 {{ show_tour_title(tour.title) }}
 <div class="p-3">
@@ -726,7 +726,7 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 {% macro show_tour_outro(tour) %}
 {% set tour_folder = baseUrl + "/lessons/trail/" + tour.folder %}
 
-<div style="background-color: #e6fff2; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" class="non-printable p-3 border-bottom border-5 border-success">
+<div  data-cv-toggle="lesson-intros" style="background-color: #e6fff2; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" class="non-printable p-3 border-bottom border-5 border-success">
 
 **At this point**: <include src="{{ tour_folder }}/text.md#achievements" trim inline/>
 
