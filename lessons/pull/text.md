@@ -141,7 +141,7 @@ git fetch origin
 ```bash{.no-line-numbers  highlight-lines="2['2bedace..e60deae']"}
 remote: Enumerating objects: 8, done.
 ... # more output ...
-   afbe966..cc6a151  master     -> origin/main
+   afbe966..cc6a151  main     -> origin/main
  * [new tag]         beta       -> beta
 ```
 {% endcall %}
@@ -350,7 +350,7 @@ git log --oneline --decorate --graph --all
 
 {{ hp_number ('2') }} **Pull from the upstream repo.** If there are new commits, those will come over to your local repo. For example:
 ```bash{.no-line-numbers}
-git pull upstream master
+git pull upstream main
 ```
 
 {{ hp_number ('3') }} **Push to your fork.** Any new commits you pulled from the upstream repo will now appear in your fork as well. For example:

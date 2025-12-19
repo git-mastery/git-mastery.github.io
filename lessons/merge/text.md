@@ -238,7 +238,7 @@ gitGraph BT:
 
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master (and add-swimming)'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main (and add-swimming)'}} }%%" }}
     commit id: "mc2"
     commit id: "a1"
     commit id: "[HEAD → main][add-swimming] a2"

@@ -108,7 +108,7 @@ git config --global user.email
 
 ##### Configuring `init.defaultBranch`
 
-**Git has a property named `init.defaultBranch` that specify a _branch_ name** that it uses for a couple of things (you'll learn more about Git branches in later lessons). Git uses the default value `main` for this but these days it is more common to use `main` instead. Git-Mastery uses `main` too. To make your Git behaviour matches our lessons better, you should set this property to `main` too, as described in the panel below:
+**Git has a property named `init.defaultBranch` that specify a _branch_ name** that it uses for a couple of things (you'll learn more about Git branches in later lessons). Git uses the default value `master` for this but these days it is more common to use `main` instead. Git-Mastery uses `main` too. To make your Git behaviour matches our lessons better, you should set this property to `main`, as described in the panel below:
 
 {% call show_prep("Set `init.defaultBranch` to `main`", "set-default-branch") %}
 
@@ -127,7 +127,7 @@ main
 ```
 {% endcall %}
 
-{{ icon_info }} If you wish to set this property back to `main` at a later time, simply use the command `git config --global init.defaultBranch master`.
+{{ icon_info }} If you wish to set this property back to `master` at a later time, simply use the command `git config --global init.defaultBranch master`.
 
 {% endcall %} <!-- show_prep -->
 

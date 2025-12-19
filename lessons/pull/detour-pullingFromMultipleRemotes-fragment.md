@@ -11,7 +11,7 @@
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
-e.g., `git pull backup master`
+e.g., `git pull backup main`
 {% endset %}
 {% set sourcetree %}
 

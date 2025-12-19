@@ -47,7 +47,7 @@ gitGraph
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     checkout main
-    commit id: "[branch: master] m2"
+    commit id: "[branch: main] m2"
     branch feature
     checkout feature
     commit id: "f1a"

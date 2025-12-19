@@ -28,7 +28,7 @@ Suppose you want to propose some changes to a GitHub repo (e.g., [samplerepo-pr-
 {{ hp_number("2") }} **Click on the** <span class="tab">%%:octicon-git-pull-request:%% Pull requests</span> **tab** followed by the {{ button_green("New pull request") }} **button**. This will bring you to the `Compare changes` page.
 
 {{ hp_number("3") }} **Specify the target repo and the branch that should receive your PR**, using the `base repository` and `base` dropdowns. e.g.,<br>
-   {{ dropdown("base repository: **se-edu/samplerepo-pr-practice**") }} {{ dropdown("base: **master**") }}<br>
+   {{ dropdown("base repository: **se-edu/samplerepo-pr-practice**") }} {{ dropdown("base: **main**") }}<br>
 
 <box type="info" seamless>
 
@@ -37,7 +37,7 @@ Normally, the default value shown in the dropdown is what you want but in case y
 </box>
 
 {{ hp_number("4") }} **Indicate which repo:branch contains your proposed code**, using the `head repository` and `compare` dropdowns. e.g.,<br>
-  {{ dropdown("head repository: **myrepo/samplerepo-pr-practice**") }} {{ dropdown("compare: **master**") }}
+  {{ dropdown("head repository: **myrepo/samplerepo-pr-practice**") }} {{ dropdown("compare: **main**") }}
 
 {{ hp_number("5") }} **Verify the proposed code**: Verify that the diff view in the page shows the exact change you intend to propose. If it doesn't, <tooltip content="commit the new code and push to the branch">update the branch</tooltip> as necessary.
 

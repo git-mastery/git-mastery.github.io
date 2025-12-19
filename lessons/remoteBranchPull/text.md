@@ -40,7 +40,7 @@ git branch -a
 {% call show_output() %}
 ```bash{.no-line-numbers}
 * hiring
-  master
+  main
   remotes/origin/HEAD -> origin/main
   remotes/origin/hiring
   remotes/origin/main

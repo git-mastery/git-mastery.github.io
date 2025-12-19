@@ -11,8 +11,8 @@ git branch -a
 ```
 {{ icon_output }}
 ```{.no-line-numbers}
-master
-remotes/myfork/master
+main
+remotes/myfork/main
 remotes/myfork/branch1
 ```
 `-a` flag tells Git to list both local and remote branches.

@@ -68,7 +68,7 @@ git log --oneline --decorate --all
 ```
 {% call show_output() %}
 ```bash{.no-line-numbers highlight-lines="1,2,['--all']@yellow"}
-e60deae (origin/main, master) Update fruits list
+e60deae (origin/main, main) Update fruits list
 f761ea6 (tag: v1.0) Add colours.txt, shapes.txt
 2bedace (HEAD, tag: v0.9) Insert figs into fruits.txt
 d5f91de Add fruits.txt

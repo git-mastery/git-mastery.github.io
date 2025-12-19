@@ -25,7 +25,7 @@ git commit -m "Add fruits.txt"
 ```
 {% call show_output() %}
 ```bash{.no-line-numbers}
-[master (root-commit) d5f91de] Add fruits.txt
+[main (root-commit) d5f91de] Add fruits.txt
  1 file changed, 4 insertions(+)
  create mode 100644 fruits.txt
  ```

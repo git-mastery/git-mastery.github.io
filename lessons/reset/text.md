@@ -210,7 +210,7 @@ git push origin main
 {% call show_output() %}
 ```bash
 To https://github.com/.../things.git
- ! [rejected]        master -> master (non-fast-forward)
+ ! [rejected]        main -> main (non-fast-forward)
 error: failed to push some refs to 'https://github.com/.../things.git'
 hint: Updates were rejected because the tip of your current branch is behind
 hint: its remote counterpart. If you want to integrate the remote changes,

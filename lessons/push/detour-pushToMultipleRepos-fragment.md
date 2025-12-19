@@ -10,7 +10,7 @@
 </modal>
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
- e.g., `git push backup master`
+ e.g., `git push backup main`
 {% endset %}
 {% set sourcetree %}
 <pic eager src="{{baseUrl}}/lessons/push/images/sourcetreePushDialog.png" width="470" />

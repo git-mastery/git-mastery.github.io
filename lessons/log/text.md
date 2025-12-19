@@ -11,11 +11,11 @@ It is useful to be able to **visualise the commits timeline, aka the _revision g
 {% endcall %}
 
 **Git commits form a timeline**, as each corresponds to a point in time when you asked Git to take a snapshot of your working directory. Each commit links to at least one previous commit, forming a structure that we can traverse.<br>
-**A timeline of commits is called a {{ show_git_term('branch') }}**. By default, Git names the initial branch `main` -- though many now use `main` instead. You'll learn more about branches in future lessons. For now, just be aware that the commits you create in a new repo will be on a branch called `main` (or `main`) by default.
+**A timeline of commits is called a {{ show_git_term('branch') }}**. By default, Git names the initial branch `master` -- though many now use `main` instead. You'll learn more about branches in future lessons. For now, just be aware that the commits you create in a new repo will be on a branch called `main` (or `master`) by default.
 
 <mermaid>
 gitGraph
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master (or main)'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main (or master)'}} }%%" }}
     commit id: "Add fruits.txt"
     commit id: "Update fruits.txt"
     commit id: "Add colours.txt"
