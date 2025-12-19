@@ -39,7 +39,7 @@ gitGraph
     commit id: "[main] m2"
     checkout feature
     commit id: "f2"
-    merge master id: "[HEAD → feature] mc1"
+    merge main id: "[HEAD → feature] mc1"
 </mermaid>
 Instead of merging, if we _rebased_ the `feature` branch on the `main` branch, we would get the following.
 <mermaid>

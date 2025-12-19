@@ -11,7 +11,7 @@ Here is the standard way to fix this problem:
 1. In the local repo, attempt to merge the `main` branch (that you updated in the previous step) onto the PR branch, in order to bring over the new code in the `main` branch to your PR branch.
    ```{.no-line-numbers}
    git checkout pr-branch  # assuming pr-branch is the name of branch in the PR
-   git merge master
+   git merge main
    ```
 1. The merge you are attempting will run into a merge conflict, due to the aforementioned conflicting code in the `main` branch.
    Resolve the conflict manually (this topic is covered <trigger trigger="click" for="modal:createPr-mergeConflicts">elsewhere</trigger>), and complete the merge.

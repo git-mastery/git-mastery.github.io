@@ -69,17 +69,17 @@ gitGraph BT:
     checkout main
     commit id: "[main] m3"
     checkout feature1
-    merge master id: "[HEAD → feature1] mc1"
+    merge main id: "[HEAD → feature1] mc1"
 </mermaid>
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
 ```bash{.no-line-numbers}
-git merge master
+git merge main
 ```
 {% endset %}
 {% set sourcetree %}
-Right-click on the `main` branch and choose `merge master into the current branch`. Click `OK` in the next dialog.<br>
+Right-click on the `main` branch and choose `merge main into the current branch`. Click `OK` in the next dialog.<br>
 <pic src="{{baseUrl}}/lessons/merge/images/sourcetreeChooseToMergeMaster.png" width="500" /><br>
 _If_ a confirmation dialog pops up, choose as follows:<br>
 <pic src="{{baseUrl}}/lessons/merge/images/sourcetreeMergeConfirmationDialog.png" width="500" /><br>
@@ -117,7 +117,7 @@ gitGraph BT:
     checkout main
     commit id: "m3"
     checkout feature1
-    merge master id: "mc1"
+    merge main id: "mc1"
     commit id: "[feature1] f3"
     checkout main
     commit id: "[HEAD → main] m4"
@@ -136,7 +136,7 @@ gitGraph BT:
     checkout main
     commit id: "m3"
     checkout feature1
-    merge master id: "mc1"
+    merge main id: "mc1"
     commit id: "[feature1] f3"
     checkout main
     commit id: "m4"

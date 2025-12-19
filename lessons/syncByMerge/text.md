@@ -26,12 +26,12 @@ gitGraph
     checkout main
     merge bug-fix
     checkout feature
-    merge master id: "mc1"
+    merge main id: "mc1"
     commit id: "f2"
     checkout main
     commit id: "m2"
     checkout feature
-    merge master id: "mc2"
+    merge main id: "mc2"
     checkout main
     commit id: "m3"
     checkout feature
