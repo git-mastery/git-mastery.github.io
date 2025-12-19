@@ -117,7 +117,7 @@ gitGraph BT:
     checkout track-sales
     commit id: "[origin/track-sales] s1"
     checkout main
-    commit id: "[origin/main][origin/HEAD][master] m3"
+    commit id: "[origin/main][origin/HEAD][main] m3"
     branch hiring
     checkout hiring
     commit id: "[HEAD → hiring] h1"

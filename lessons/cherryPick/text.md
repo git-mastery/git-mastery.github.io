@@ -27,7 +27,7 @@ gitGraph
     checkout main
     commit id: "m2"
     commit id: "m3" type: HIGHLIGHT
-    commit id: "[master] m4"
+    commit id: "[main] m4"
     checkout feature
     commit id: "[HEAD → feature] f2"
 </mermaid>
@@ -44,7 +44,7 @@ gitGraph
     checkout main
     commit id: "m2"
     commit id: "m3" type: HIGHLIGHT
-    commit id: "[master] m4"
+    commit id: "[main] m4"
     checkout feature
     commit id: "f3"
     commit id: "[HEAD → feature] m3a" type: HIGHLIGHT

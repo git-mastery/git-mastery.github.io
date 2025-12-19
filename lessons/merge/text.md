@@ -53,7 +53,7 @@ gitGraph BT:
     commit id: "f1"
     commit id: "[HEAD → feature1] f2"
     checkout main
-    commit id: "[master] m3"
+    commit id: "[main] m3"
     checkout feature1
 </mermaid>
 
@@ -67,7 +67,7 @@ gitGraph BT:
     commit id: "f1"
     commit id: "f2"
     checkout main
-    commit id: "[master] m3"
+    commit id: "[main] m3"
     checkout feature1
     merge master id: "[HEAD → feature1] mc1"
 </mermaid>
@@ -215,7 +215,7 @@ You should have something like this now:
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
-    commit id: "[master] mc2"
+    commit id: "[main] mc2"
     branch add-swimming
     commit id: "a1"
     commit id: "[HEAD → add-swimming] a2"

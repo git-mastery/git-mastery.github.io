@@ -22,7 +22,7 @@ gitGraph
     checkout feature
     commit id: "f1"
     checkout main
-    commit id: "[master] m2"
+    commit id: "[main] m2"
     checkout feature
     commit id: "[HEAD → feature] f2"
 </mermaid>
@@ -36,7 +36,7 @@ gitGraph
     checkout feature
     commit id: "f1"
     checkout main
-    commit id: "[master] m2"
+    commit id: "[main] m2"
     checkout feature
     commit id: "f2"
     merge master id: "[HEAD → feature] mc1"
