@@ -25,8 +25,8 @@ It is useful to be able to **see what changes were included in a specific commit
 A related alternative notation is `HEAD~`, `HEAD~~`, `HEAD~~~`, ... to mean `HEAD~1`, `HEAD~2`, `HEAD~3` etc.
 
 {{ show_commit('C3', desc=show_ref('main') + ' ' + show_head(), msg='This commit can be addressed as `HEAD` or `main`') }}
-{{ show_commit('C2', msg='Can be addressed as `HEAD~1` or `master~1` or `HEAD~` or `master~`') }}
-{{ show_commit('C1', msg='Can be addressed as `HEAD~2` or `master~2`', edge='') }}
+{{ show_commit('C2', msg='Can be addressed as `HEAD~1` or `main~1` or `HEAD~` or `main~`') }}
+{{ show_commit('C1', msg='Can be addressed as `HEAD~2` or `main~2`', edge='') }}
 <p/>
 
 **Git uses the {{ show_git_term("diff") }} format to show file changes in a commit.** The diff format was originally developed for Unix. It was later extended with headers and metadata to show changes between file versions and commits. Here is an example diff showing the changes to a file.
@@ -201,7 +201,7 @@ index 7d0a594..6d502c3 100644
 To view the parent commit of the latest commit, you can use any of these commands:
  ```bash{.no-line-numbers}
  git show HEAD~1
- git show master~1
+ git show main~1
  git show e60deae  # first few characters of the SHA
  git show e60deae.....  # run git log to find the full SHA and specify the full SHA
  ```
