@@ -9,7 +9,7 @@ git status
 ```
 {% call m.show_output() %}
 ```bash {highlight-lines="2"}
-On branch master
+On branch main
 Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 

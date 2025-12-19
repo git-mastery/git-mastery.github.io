@@ -76,7 +76,7 @@ git status
 ```
 {% call show_output() %}
 ```bash
-on branch master
+On branch main
 ```
 {% endcall %}
 

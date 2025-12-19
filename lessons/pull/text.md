@@ -105,7 +105,7 @@ git status
 ```
 {% call show_output() %}
 ```bash{.no-line-numbers  highlight-lines="2"}
-On branch master
+On branch main
 Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
@@ -171,7 +171,7 @@ git status
 ```
 {% call show_output() %}
 ```bash{.no-line-numbers highlight-lines="2[:50]"}
-On branch master
+On branch main
 Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
   (use "git pull" to update your local branch)
 

@@ -80,7 +80,7 @@ git status
 ```
 {% call show_output() %}
 ```{.no-line-numbers}
-On branch master
+On branch main
 
 No commits yet
 

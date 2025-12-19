@@ -9,7 +9,7 @@ git status
 {% call show_output() %}
 
 ```{.no-line-numbers highlight-lines="7,12"}
-On branch master
+On branch main
 
 No commits yet
 

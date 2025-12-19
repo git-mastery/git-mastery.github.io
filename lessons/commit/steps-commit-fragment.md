@@ -8,7 +8,7 @@ git status
 ```
 {% call show_output() %}
 ```bash{.no-line-numbers}
-On branch master
+On branch main
 
 No commits yet
 
@@ -38,7 +38,7 @@ git status
 ```
 {% call show_output() %}
 ```bash{.no-line-numbers}
-On branch master
+On branch main
 nothing to commit, working tree clean
 ```
 {% endcall %}
