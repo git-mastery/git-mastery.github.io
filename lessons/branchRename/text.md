@@ -27,12 +27,12 @@ git switch -c textbooks
 echo "Textbooks" >> textbooks.txt
 git add .
 git commit -m "Add textbooks.txt"
-git switch master
+git switch main
 git switch -c fantasy
 echo "Fantasy Books" >> fantasy.txt
 git add .
 git commit -m "Add fantasy.txt"
-git switch master
+git switch main
 git merge --no-ff -m "Merge branch textbooks" textbooks
 ```
 The above should give you a repo similar to the revision graph given below, on the left.
@@ -46,11 +46,11 @@ gitGraph BT:
     branch textbooks
     checkout textbooks
     commit id: "[textbooks] t1"
-    checkout master
+    checkout main
     branch fantasy
     checkout fantasy
     commit id: "[fantasy] f1"
-    checkout master
+    checkout main
     merge textbooks id: "[HEAD → master] mc1"
 </mermaid>
 {% endset %}
@@ -63,11 +63,11 @@ gitGraph BT:
     branch study-books
     checkout study-books
     commit id: "[study-books] t1"
-    checkout master
+    checkout main
     branch fantasy-books
     checkout fantasy-books
     commit id: "[fantasy-books] f1"
-    checkout master
+    checkout main
     merge study-books id: "[HEAD → master] mc1"
 </mermaid>
 {% endset %}

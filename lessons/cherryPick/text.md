@@ -24,7 +24,7 @@ gitGraph
     branch feature
     checkout feature
     commit id: "f1"
-    checkout master
+    checkout main
     commit id: "m2"
     commit id: "m3" type: HIGHLIGHT
     commit id: "[master] m4"
@@ -41,7 +41,7 @@ gitGraph
     branch feature
     checkout feature
     commit id: "f1"
-    checkout master
+    checkout main
     commit id: "m2"
     commit id: "m3" type: HIGHLIGHT
     commit id: "[master] m4"

@@ -21,7 +21,7 @@ gitGraph BT:
     branch bug-fix
     checkout bug-fix
     commit id: "[bug-fix] b1"
-    checkout master
+    checkout main
     merge bug-fix id: "[HEAD → master] mc1"
 </mermaid>
 {% endset %}
@@ -34,7 +34,7 @@ gitGraph BT:
     branch _
     checkout _
     commit id: "b1"
-    checkout master
+    checkout main
     merge _ id: "[HEAD → master] mc1"
 </mermaid>
 {% endset %}
@@ -54,7 +54,7 @@ gitGraph BT:
     branch bug-fix
     checkout bug-fix
     commit id: "[bug-fix] b1"
-    checkout master
+    checkout main
 </mermaid>
 {% endset %}
 {% set b %}<small>%%[delete branch `bug-fix`]%%</small> {% endset %}
@@ -66,7 +66,7 @@ gitGraph BT:
     branch _
     checkout _
     commit id: "b1"
-    checkout master
+    checkout main
 </mermaid>
 {% endset %}
 {{ show_transformation_columns(a, b, c) }}
@@ -111,12 +111,12 @@ git switch -c textbooks
 echo "Textbooks" >> textbooks.txt
 git add .
 git commit -m "Add textbooks.txt"
-git switch master
+git switch main
 git switch -c fantasy
 echo "Fantasy Books" >> fantasy.txt
 git add .
 git commit -m "Add fantasy.txt"
-git switch master
+git switch main
 git merge --no-ff -m "Merge branch textbooks" textbooks
 ```
 The result should be something like this:
@@ -127,11 +127,11 @@ gitGraph BT:
     branch textbooks
     checkout textbooks
     commit id: "[textbooks] t1"
-    checkout master
+    checkout main
     branch fantasy
     checkout fantasy
     commit id: "[fantasy] f1"
-    checkout master
+    checkout main
     merge textbooks id: "[HEAD → master] mc1"
 </mermaid>
 

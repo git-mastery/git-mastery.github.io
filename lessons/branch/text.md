@@ -172,7 +172,7 @@ As before, you can use the `git log --oneline --decorate` command for this.
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 ```bash
-git switch master
+git switch main
 ```
 {% endset %}
 {% set sourcetree %}
@@ -206,7 +206,7 @@ gitGraph BT:
     branch feature1
     commit id: "f1"
     commit id: "[feature1] f2"
-    checkout master
+    checkout main
     commit id: "[HEAD → master] m3"
     checkout feature1
 </mermaid>
@@ -237,7 +237,7 @@ gitGraph BT:
     checkout feature1
     commit id: "f1"
     commit id: "[feature1] f2"
-    checkout master
+    checkout main
     commit id: "[HEAD → master] m3"
     checkout feature1-alt
     commit id: "[HEAD → feature1-alt] a1"

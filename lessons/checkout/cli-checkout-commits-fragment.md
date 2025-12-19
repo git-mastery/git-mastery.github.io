@@ -79,5 +79,5 @@ d5f91de Add fruits.txt
 {{ hp_number ('4') }} **Go back to the latest commit** by checking out the `main` branch again.
 
 ```bash{.no-line-numbers}
-git checkout master
+git checkout main
 ```

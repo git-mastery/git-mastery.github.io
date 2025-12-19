@@ -19,11 +19,11 @@ gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     branch bug-fix
-    checkout master
+    checkout main
     commit id: "[origin/main][HEAD → master] m2"
     checkout bug-fix
     commit id: "[bug-fix] b1"
-    checkout master
+    checkout main
 </mermaid>
 
 [`bug-fix` branch does not exist in the remote `origin`]
@@ -35,11 +35,11 @@ gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     branch bug-fix
-    checkout master
+    checkout main
     commit id: "[origin/main][HEAD → master] m2"
     checkout bug-fix
     commit id: "[origin/bug-fix][bug-fix] b1"
-    checkout master
+    checkout main
 </mermaid>
 
 [after pushing `bug-fix` branch to origin,<br>
@@ -67,7 +67,7 @@ git switch -c track-sales
 echo "Sales" >> sales.txt
 git add .
 git commit -m "Add sales.txt"
-git checkout master
+git checkout main
 echo "Manager: Michael Scott" >> employees.txt
 git commit -am "Add Michael to employees.txt"
 -->
@@ -86,7 +86,7 @@ gitGraph BT:
     branch track-sales
     checkout track-sales
     commit id: "[origin/track-sales] s1"
-    checkout master
+    checkout main
     commit id: "[origin/main][origin/HEAD][HEAD → master] m3"
 </mermaid>
 
@@ -116,7 +116,7 @@ gitGraph BT:
     branch track-sales
     checkout track-sales
     commit id: "[origin/track-sales] s1"
-    checkout master
+    checkout main
     commit id: "[origin/main][origin/HEAD][master] m3"
     branch hiring
     checkout hiring

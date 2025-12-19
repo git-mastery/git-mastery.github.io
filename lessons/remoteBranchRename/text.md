@@ -34,7 +34,7 @@ While Git cannot rename a remote branch in place, **[GitHub allows you to rename
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
 ```bash{.no-line-numbers}
-git switch master                     # ensure you are on the master branch
+git switch main                     # ensure you are on the master branch
 git switch -c fantasy origin/fantasy  # create a local copy, tracking the remote branch
 git branch -m fantasy fantasy-books   # rename local branch
 git push -u origin fantasy-books      # push the new branch to remote, and set it to track

@@ -52,7 +52,7 @@ gitGraph BT:
     branch feature1
     commit id: "f1"
     commit id: "[HEAD → feature1] f2"
-    checkout master
+    checkout main
     commit id: "[master] m3"
     checkout feature1
 </mermaid>
@@ -66,7 +66,7 @@ gitGraph BT:
     branch feature1
     commit id: "f1"
     commit id: "f2"
-    checkout master
+    checkout main
     commit id: "[master] m3"
     checkout feature1
     merge master id: "[HEAD → feature1] mc1"
@@ -101,7 +101,7 @@ git commit -am "Add Manny to boxing.txt"
 ```
 **Switch to the `main` branch and add one more commit.**
 ```bash
-git switch master
+git switch main
 echo -e "Lionel Messi" >> football.txt
 git commit -am "Add Messi to football.txt"
 ```
@@ -114,12 +114,12 @@ gitGraph BT:
     branch feature1
     commit id: "f1"
     commit id: "f2"
-    checkout master
+    checkout main
     commit id: "m3"
     checkout feature1
     merge master id: "mc1"
     commit id: "[feature1] f3"
-    checkout master
+    checkout main
     commit id: "[HEAD → master] m4"
 </mermaid>
 
@@ -133,12 +133,12 @@ gitGraph BT:
     branch feature1
     commit id: "f1"
     commit id: "f2"
-    checkout master
+    checkout main
     commit id: "m3"
     checkout feature1
     merge master id: "mc1"
     commit id: "[feature1] f3"
-    checkout master
+    checkout main
     commit id: "m4"
     merge feature1 id: "[HEAD → master] mc2"
 </mermaid>
@@ -171,7 +171,7 @@ gitGraph BT:
     branch bug-fix
     commit id: "b1"
     commit id: "[bug-fix] b2"
-    checkout master
+    checkout main
 </mermaid>
 {% endset %}
 {% set b %}<small>%%[merge `bug-fix`]%%</small> {% endset %}
@@ -183,7 +183,7 @@ gitGraph BT:
     commit id: "m2"
     commit id: "b1"
     commit id: "[HEAD → master][bug-fix] b2"
-    checkout master
+    checkout main
 </mermaid>
 {% endset %}
 {{ show_transformation_columns(a, b, c) }}
@@ -199,7 +199,7 @@ In the example above, the `main` branch has not changed since the merge base (i.
 Switch to the master branch, create a new branch, switch to the new branch, add a file named `swimming.txt`, stage it, and commit it.<br>
 Do some changes to `swimming.txt`, and commit those changes.
 ```bash
-git switch master
+git switch main
 git switch -c add-swimming
 
 echo "Michael Phelps" > swimming.txt
@@ -209,7 +209,7 @@ git commit -m "Add swimming.txt"
 echo "Ian Thorpe" >> swimming.txt
 git commit -am "Add Thorpe to swimming.txt"
 
-git switch master
+git switch main
 ```
 You should have something like this now:
 <mermaid>
@@ -317,7 +317,7 @@ gitGraph BT:
     checkout feature
     commit id: "f1"
     commit id: "[feature] f2"
-    checkout master
+    checkout main
     commit id: "[HEAD → master] s1 (same as f1+f2)"
 </mermaid>
 
@@ -339,7 +339,7 @@ gitGraph BT:
     checkout feature
     commit id: "f1"
     commit id: "[feature] f2"
-    checkout master
+    checkout main
     merge feature
 </mermaid>
 <small>->[If using a regular merge,<br> with a merge commit]<-</small>

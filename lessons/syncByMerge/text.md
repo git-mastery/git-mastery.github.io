@@ -20,23 +20,23 @@ gitGraph
     branch bug-fix
     branch feature
     commit id: "f1"
-    checkout master
+    checkout main
     checkout bug-fix
     commit id: "b1"
-    checkout master
+    checkout main
     merge bug-fix
     checkout feature
     merge master id: "mc1"
     commit id: "f2"
-    checkout master
+    checkout main
     commit id: "m2"
     checkout feature
     merge master id: "mc2"
-    checkout master
+    checkout main
     commit id: "m3"
     checkout feature
     commit id: "[feature] f3"
-    checkout master
+    checkout main
     commit id: "[HEAD → master] m4"
 </mermaid>
 

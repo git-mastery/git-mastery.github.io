@@ -5,7 +5,7 @@
 Here is the standard way to fix this problem:
 1. Pull the `main` branch from the upstream repo to your local repo.
    ```{.no-line-numbers}
-   git checkout master
+   git checkout main
    git pull upstream master
    ```
 1. In the local repo, attempt to merge the `main` branch (that you updated in the previous step) onto the PR branch, in order to bring over the new code in the `main` branch to your PR branch.

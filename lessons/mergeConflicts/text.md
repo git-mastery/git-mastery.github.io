@@ -38,7 +38,7 @@ git switch -c fix1
 echo "green\nred\nwhite" >> colours.txt
 git commit -am "Add green, red, white"
 
-git switch master
+git switch main
 echo "black\nred\nwhite" >> colours.txt
 git commit -am "Add black, red, white"
 ```
@@ -50,7 +50,7 @@ gitGraph BT:
     branch fix1
     checkout fix1
     commit id: "[fix1] Add green, red, white"
-    checkout master
+    checkout main
     commit id: "[HEAD → master] Add black, red, white"
 </mermaid>
 

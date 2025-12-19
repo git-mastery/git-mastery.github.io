@@ -21,7 +21,7 @@ gitGraph
     branch feature
     checkout feature
     commit id: "f1"
-    checkout master
+    checkout main
     commit id: "[master] m2"
     checkout feature
     commit id: "[HEAD → feature] f2"
@@ -35,7 +35,7 @@ gitGraph
     branch feature
     checkout feature
     commit id: "f1"
-    checkout master
+    checkout main
     commit id: "[master] m2"
     checkout feature
     commit id: "f2"
@@ -46,7 +46,7 @@ Instead of merging, if we _rebased_ the `feature` branch on the `main` branch, w
 gitGraph
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
-    checkout master
+    checkout main
     commit id: "[branch: master] m2"
     branch feature
     checkout feature
