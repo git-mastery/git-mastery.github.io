@@ -4,7 +4,7 @@
 
 To push the newer commit(s) in the current branch `main` to the remote `origin`, you can use any of the following commands:
 
-* `git push origin master`
+* `git push origin main`
 * `git push origin`<br>
   → Git will assume you are pushing the current branch (e.g., `main`) even if you don't specify it.
 * `git push`<br>

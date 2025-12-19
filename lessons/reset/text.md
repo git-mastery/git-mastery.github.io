@@ -205,7 +205,7 @@ git log --oneline --graph --all
 {{ hp_number("3") }} **Attempt to push to the remote.** Observe Git rejects the push.
 
 ```bash
-git push origin master
+git push origin main
 ```
 {% call show_output() %}
 ```bash
@@ -223,14 +223,14 @@ hint: ...
 You can use the `--force` (or `-f`) flag to force push.
 
 ```bash
-git push -f origin master
+git push -f origin main
 ```
 
 <box type="tip" seamless>
 
 **A safer alternative to `--force` is `--force-with-lease`** which overwrites the remote branch only if it hasn’t changed since you last fetched it (i.e., only if remote doesn't have recent changes that you are unaware of):
 ```bash
-git push --force-with-lease origin master
+git push --force-with-lease origin main
 ```
 </box>
 

@@ -251,7 +251,7 @@ Same as previous hands-on practical but use a different folder.
 Use the `git pull <remote> <branch>` command to pull changes.
 
 ```bash{.no-line-numbers}
-git pull origin master
+git pull origin main
 ```
 The following works too. If the `<remote>` and `<branch>` are not specified, Git will pull to the current branch from the remote branch it is tracking.
 ```bash{.no-line-numbers}
@@ -355,7 +355,7 @@ git pull upstream master
 
 {{ hp_number ('3') }} **Push to your fork.** Any new commits you pulled from the upstream repo will now appear in your fork as well. For example:
 ```bash{.no-line-numbers}
-git push origin master
+git push origin main
 ```
 <box type="info" seamless>
 
