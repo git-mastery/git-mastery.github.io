@@ -1,0 +1,1371 @@
+2025-12-19T08:50:13.437Z - info: Website generation (lazy) started at 16:50:13
+2025-12-19T08:50:13.572Z - info: Building assets...
+2025-12-19T08:50:13.860Z - info: Assets built
+2025-12-19T08:50:13.860Z - info: Generating landing page...
+2025-12-19T08:50:13.954Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-12-19T08:50:14.024Z - info: Site data built
+2025-12-19T08:50:14.024Z - info: Website generation (lazy) complete! Total build time: 0.781s
+2025-12-19T08:50:14.035Z - info: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2025-12-19T08:50:14.035Z - info: Press CTRL+C to stop ...
+2025-12-19T08:51:03.599Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2025-12-19T08:51:03.965Z - info: Site data built
+2025-12-19T08:51:03.965Z - info: Lazy website regeneration complete! Total build time: 0.367s
+2025-12-19T08:51:08.538Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/backingUpOnCloud/index as some of its dependencies were changed since the last visit
+2025-12-19T08:51:08.930Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/text.md'
+2025-12-19T08:51:08.931Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/text.md'
+2025-12-19T08:51:08.931Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-19T08:51:08.931Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2025-12-19T08:51:08.931Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-19T08:51:08.931Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-19T08:51:08.931Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md'
+2025-12-19T08:51:08.931Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md'
+2025-12-19T08:51:08.932Z - info: Site data built
+2025-12-19T08:51:08.932Z - info: Lazy website regeneration complete! Total build time: 0.394s
+2025-12-19T08:51:12.624Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index as some of its dependencies were changed since the last visit
+2025-12-19T08:51:13.135Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T08:51:13.136Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T08:51:13.136Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T08:51:13.136Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T08:51:13.136Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T08:51:13.136Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T08:51:13.136Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T08:51:13.136Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:51:13.136Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:51:13.136Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:51:13.136Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:51:13.136Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:51:13.136Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T08:51:13.136Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T08:51:13.136Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T08:51:13.137Z - info: Site data built
+2025-12-19T08:51:13.137Z - info: Lazy website regeneration complete! Total build time: 0.514s
+2025-12-19T08:53:13.621Z - info: [16:53:13] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2025-12-19T08:53:13.625Z - info: Synchronizing opened pages list before reload
+2025-12-19T08:53:13.628Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T08:53:13.629Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T08:53:14.639Z - info: Rebuilding 1 pages
+2025-12-19T08:53:15.239Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T08:53:15.239Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T08:53:15.239Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T08:53:15.239Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T08:53:15.239Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T08:53:15.240Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T08:53:15.240Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T08:53:15.240Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:53:15.240Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:53:15.240Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:53:15.240Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:53:15.240Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:53:15.240Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T08:53:15.240Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T08:53:15.240Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T08:53:15.240Z - info: Site data built
+2025-12-19T08:53:15.240Z - info: Pages rebuilt
+2025-12-19T08:53:15.240Z - info: Website regeneration complete! Total build time: 0.603s
+2025-12-19T08:55:29.505Z - info: [16:55:29] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2025-12-19T08:55:29.509Z - info: Synchronizing opened pages list before reload
+2025-12-19T08:55:29.511Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T08:55:29.512Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T08:55:30.522Z - info: Rebuilding 1 pages
+2025-12-19T08:55:31.175Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T08:55:31.175Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T08:55:31.175Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T08:55:31.175Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T08:55:31.175Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T08:55:31.175Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T08:55:31.175Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T08:55:31.175Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:55:31.176Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:55:31.176Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:55:31.176Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:55:31.176Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:55:31.176Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T08:55:31.176Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T08:55:31.176Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T08:55:31.176Z - info: Site data built
+2025-12-19T08:55:31.176Z - info: Pages rebuilt
+2025-12-19T08:55:31.176Z - info: Website regeneration complete! Total build time: 0.655s
+2025-12-19T08:56:38.394Z - info: [16:56:38] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2025-12-19T08:56:38.394Z - info: Synchronizing opened pages list before reload
+2025-12-19T08:56:38.395Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T08:56:38.395Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T08:56:39.398Z - info: Rebuilding 1 pages
+2025-12-19T08:56:40.056Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T08:56:40.056Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T08:56:40.056Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T08:56:40.056Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T08:56:40.056Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T08:56:40.057Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T08:56:40.057Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T08:56:40.057Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:56:40.057Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:56:40.057Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:56:40.057Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:56:40.057Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:56:40.057Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T08:56:40.057Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T08:56:40.057Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T08:56:40.058Z - info: Site data built
+2025-12-19T08:56:40.058Z - info: Pages rebuilt
+2025-12-19T08:56:40.058Z - info: Website regeneration complete! Total build time: 0.662s
+2025-12-19T08:57:20.255Z - info: [16:57:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2025-12-19T08:57:20.258Z - info: Synchronizing opened pages list before reload
+2025-12-19T08:57:20.259Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T08:57:20.259Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T08:57:21.267Z - info: Rebuilding 1 pages
+2025-12-19T08:57:21.833Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T08:57:21.833Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T08:57:21.833Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T08:57:21.833Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T08:57:21.833Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T08:57:21.833Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T08:57:21.833Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T08:57:21.833Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:57:21.833Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:57:21.833Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:57:21.833Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:57:21.833Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:57:21.833Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T08:57:21.833Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T08:57:21.833Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T08:57:21.835Z - info: Site data built
+2025-12-19T08:57:21.835Z - info: Pages rebuilt
+2025-12-19T08:57:21.835Z - info: Website regeneration complete! Total build time: 0.568s
+2025-12-19T08:59:05.975Z - info: [16:59:05] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2025-12-19T08:59:05.977Z - info: Synchronizing opened pages list before reload
+2025-12-19T08:59:05.978Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T08:59:05.978Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T08:59:06.989Z - info: Rebuilding 1 pages
+2025-12-19T08:59:07.594Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T08:59:07.594Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T08:59:07.594Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T08:59:07.594Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T08:59:07.595Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T08:59:07.595Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T08:59:07.595Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T08:59:07.595Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:59:07.595Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:59:07.595Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:59:07.595Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:59:07.595Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T08:59:07.595Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T08:59:07.595Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T08:59:07.595Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T08:59:07.596Z - info: Site data built
+2025-12-19T08:59:07.596Z - info: Pages rebuilt
+2025-12-19T08:59:07.596Z - info: Website regeneration complete! Total build time: 0.609s
+2025-12-19T09:00:04.213Z - info: [17:00:04] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2025-12-19T09:00:04.214Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:00:04.215Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:00:04.215Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:00:05.219Z - info: Rebuilding 1 pages
+2025-12-19T09:00:05.810Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:00:05.810Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:00:05.810Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:00:05.810Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:00:05.810Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:00:05.810Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:00:05.810Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:00:05.810Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:00:05.810Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:00:05.810Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:00:05.810Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:00:05.810Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:00:05.810Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T09:00:05.811Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:00:05.811Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:00:05.812Z - info: Site data built
+2025-12-19T09:00:05.812Z - info: Pages rebuilt
+2025-12-19T09:00:05.812Z - info: Website regeneration complete! Total build time: 0.595s
+2025-12-19T09:04:26.832Z - info: [17:04:26] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2025-12-19T09:04:26.833Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:04:26.834Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:04:26.834Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:04:27.840Z - info: Rebuilding 1 pages
+2025-12-19T09:04:28.440Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:04:28.440Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:04:28.440Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:04:28.440Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:04:28.440Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:04:28.441Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:04:28.441Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:04:28.441Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:04:28.441Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:04:28.441Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:04:28.441Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:04:28.441Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:04:28.441Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T09:04:28.441Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:04:28.441Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:04:28.442Z - info: Site data built
+2025-12-19T09:04:28.442Z - info: Pages rebuilt
+2025-12-19T09:04:28.442Z - info: Website regeneration complete! Total build time: 0.605s
+2025-12-19T09:04:43.098Z - info: [17:04:43] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2025-12-19T09:04:43.099Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:04:43.099Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:04:43.099Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:04:44.102Z - info: Rebuilding 1 pages
+2025-12-19T09:04:44.716Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:04:44.717Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:04:44.717Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:04:44.717Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:04:44.717Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:04:44.717Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:04:44.717Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:04:44.717Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:04:44.717Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:04:44.718Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:04:44.718Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:04:44.718Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:04:44.718Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T09:04:44.718Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:04:44.718Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:04:44.719Z - info: Site data built
+2025-12-19T09:04:44.719Z - info: Pages rebuilt
+2025-12-19T09:04:44.719Z - info: Website regeneration complete! Total build time: 0.618s
+2025-12-19T09:07:10.325Z - info: [17:07:10] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2025-12-19T09:07:10.326Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:07:10.327Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:07:10.327Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:07:11.331Z - info: Rebuilding 1 pages
+2025-12-19T09:07:11.926Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:07:11.927Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:07:11.927Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:07:11.927Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:07:11.927Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:07:11.927Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:07:11.927Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:07:11.927Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:07:11.927Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:07:11.927Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:07:11.927Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:07:11.927Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:07:11.927Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T09:07:11.927Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:07:11.927Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:07:11.928Z - info: Site data built
+2025-12-19T09:07:11.928Z - info: Pages rebuilt
+2025-12-19T09:07:11.928Z - info: Website regeneration complete! Total build time: 0.599s
+2025-12-19T09:10:38.665Z - info: [17:10:38] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2025-12-19T09:10:38.668Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:10:38.671Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:10:38.672Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:10:39.681Z - info: Rebuilding 1 pages
+2025-12-19T09:10:40.454Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:10:40.455Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:10:40.455Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:10:40.455Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:10:40.455Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:10:40.455Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:10:40.455Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:10:40.455Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:10:40.455Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:10:40.455Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:10:40.455Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:10:40.455Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:10:40.455Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T09:10:40.455Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:10:40.455Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:10:40.456Z - info: Site data built
+2025-12-19T09:10:40.456Z - info: Pages rebuilt
+2025-12-19T09:10:40.456Z - info: Website regeneration complete! Total build time: 0.777s
+2025-12-19T09:11:31.037Z - info: [17:11:31] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2025-12-19T09:11:31.038Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:11:31.038Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:11:31.038Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:11:32.042Z - info: Rebuilding 1 pages
+2025-12-19T09:11:32.657Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:11:32.657Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:11:32.657Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:11:32.657Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:11:32.657Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:11:32.657Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:11:32.657Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:11:32.657Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:11:32.657Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:11:32.657Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:11:32.657Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:11:32.657Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:11:32.658Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T09:11:32.658Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:11:32.658Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:11:32.658Z - info: Site data built
+2025-12-19T09:11:32.658Z - info: Pages rebuilt
+2025-12-19T09:11:32.658Z - info: Website regeneration complete! Total build time: 0.618s
+2025-12-19T09:13:55.807Z - info: [17:13:55] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2025-12-19T09:13:55.809Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:13:55.810Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:13:55.810Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:13:56.814Z - info: Rebuilding 1 pages
+2025-12-19T09:13:57.421Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:13:57.421Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:13:57.421Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:13:57.421Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:13:57.421Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:13:57.421Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:13:57.421Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:13:57.421Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:13:57.421Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:13:57.421Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:13:57.421Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:13:57.421Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:13:57.422Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T09:13:57.422Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:13:57.422Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:13:57.422Z - info: Site data built
+2025-12-19T09:13:57.422Z - info: Pages rebuilt
+2025-12-19T09:13:57.422Z - info: Website regeneration complete! Total build time: 0.609s
+2025-12-19T09:15:28.646Z - info: [17:15:28] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2025-12-19T09:15:28.662Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:15:28.663Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:15:28.664Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:15:29.671Z - info: Rebuilding 1 pages
+2025-12-19T09:15:30.376Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:15:30.376Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:15:30.376Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:15:30.376Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:15:30.376Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:15:30.377Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:15:30.377Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:15:30.377Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:15:30.377Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:15:30.377Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:15:30.377Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:15:30.377Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:15:30.377Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T09:15:30.377Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:15:30.377Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:15:30.378Z - info: Site data built
+2025-12-19T09:15:30.378Z - info: Pages rebuilt
+2025-12-19T09:15:30.378Z - info: Website regeneration complete! Total build time: 0.708s
+2025-12-19T09:15:57.854Z - info: [17:15:57] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2025-12-19T09:15:57.858Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:15:57.858Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:15:57.859Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:15:58.866Z - info: Rebuilding 1 pages
+2025-12-19T09:15:59.494Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:15:59.494Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:15:59.494Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:15:59.494Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:15:59.494Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:15:59.494Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:15:59.494Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:15:59.494Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:15:59.494Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:15:59.494Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:15:59.494Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:15:59.494Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:15:59.494Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T09:15:59.494Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:15:59.494Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:15:59.494Z - info: Site data built
+2025-12-19T09:15:59.494Z - info: Pages rebuilt
+2025-12-19T09:15:59.494Z - info: Website regeneration complete! Total build time: 0.63s
+2025-12-19T09:16:58.655Z - info: [17:16:58] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2025-12-19T09:16:58.656Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:16:58.658Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:16:58.659Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:16:59.663Z - info: Rebuilding 1 pages
+2025-12-19T09:17:00.259Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:17:00.259Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:17:00.259Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:17:00.259Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:17:00.259Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:17:00.259Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:17:00.259Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:17:00.259Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:17:00.259Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:17:00.259Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:17:00.260Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:17:00.260Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:17:00.260Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T09:17:00.260Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:17:00.260Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:17:00.260Z - info: Site data built
+2025-12-19T09:17:00.260Z - info: Pages rebuilt
+2025-12-19T09:17:00.260Z - info: Website regeneration complete! Total build time: 0.598s
+2025-12-19T09:17:17.136Z - info: [17:17:17] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2025-12-19T09:17:17.136Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:17:17.136Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:17:17.136Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:17:18.138Z - info: Rebuilding 1 pages
+2025-12-19T09:17:18.737Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:17:18.737Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2025-12-19T09:17:18.737Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:17:18.737Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:17:18.737Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:17:18.737Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:17:18.737Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2025-12-19T09:17:18.737Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:17:18.737Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:17:18.737Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:17:18.737Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:17:18.737Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:17:18.737Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T09:17:18.737Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:17:18.737Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2025-12-19T09:17:18.738Z - info: Site data built
+2025-12-19T09:17:18.738Z - info: Pages rebuilt
+2025-12-19T09:17:18.738Z - info: Website regeneration complete! Total build time: 0.6s
+2025-12-19T09:18:13.542Z - info: [17:18:13] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/companion-app/index.md
+2025-12-19T09:18:13.542Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:18:13.543Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:18:13.543Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:18:14.551Z - info: No pages needed to be rebuilt
+2025-12-19T09:18:20.340Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/companion-app/index as some of its dependencies were changed since the last visit
+2025-12-19T09:18:20.553Z - info: Site data built
+2025-12-19T09:18:20.553Z - info: Lazy website regeneration complete! Total build time: 0.214s
+2025-12-19T09:33:21.846Z - info: [17:33:21] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/steps-init-repo-fragment.md
+2025-12-19T09:33:21.851Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:33:21.852Z - info: No pages are currently opened
+2025-12-19T09:33:22.875Z - info: No pages needed to be rebuilt
+2025-12-19T09:46:20.387Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-19T09:46:20.387Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.388Z - info: No pages are currently opened
+2025-12-19T09:46:20.388Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/text.md
+2025-12-19T09:46:20.388Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.388Z - info: No pages are currently opened
+2025-12-19T09:46:20.389Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md
+2025-12-19T09:46:20.389Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.389Z - info: No pages are currently opened
+2025-12-19T09:46:20.389Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/managePRs/text.md
+2025-12-19T09:46:20.389Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.389Z - info: No pages are currently opened
+2025-12-19T09:46:20.390Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md
+2025-12-19T09:46:20.390Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.390Z - info: No pages are currently opened
+2025-12-19T09:46:20.390Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md
+2025-12-19T09:46:20.390Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.390Z - info: No pages are currently opened
+2025-12-19T09:46:20.403Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md
+2025-12-19T09:46:20.403Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.404Z - info: No pages are currently opened
+2025-12-19T09:46:20.404Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md
+2025-12-19T09:46:20.411Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.411Z - info: No pages are currently opened
+2025-12-19T09:46:20.411Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/cli-checkout-commits-fragment.md
+2025-12-19T09:46:20.411Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.412Z - info: No pages are currently opened
+2025-12-19T09:46:20.412Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md
+2025-12-19T09:46:20.412Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.412Z - info: No pages are currently opened
+2025-12-19T09:46:20.413Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createPRs/text.md
+2025-12-19T09:46:20.413Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.413Z - info: No pages are currently opened
+2025-12-19T09:46:20.413Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/steps-commit-changes-fragment.md
+2025-12-19T09:46:20.414Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.414Z - info: No pages are currently opened
+2025-12-19T09:46:20.415Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md
+2025-12-19T09:46:20.422Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.422Z - info: No pages are currently opened
+2025-12-19T09:46:20.422Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/text.md
+2025-12-19T09:46:20.422Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.422Z - info: No pages are currently opened
+2025-12-19T09:46:20.422Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/text.md
+2025-12-19T09:46:20.422Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.422Z - info: No pages are currently opened
+2025-12-19T09:46:20.422Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reviewPRs/text.md
+2025-12-19T09:46:20.422Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.422Z - info: No pages are currently opened
+2025-12-19T09:46:20.422Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md
+2025-12-19T09:46:20.422Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.422Z - info: No pages are currently opened
+2025-12-19T09:46:20.422Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/steps-push-to-empty-remote-fragment.md
+2025-12-19T09:46:20.422Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.422Z - info: No pages are currently opened
+2025-12-19T09:46:20.422Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPush/text.md
+2025-12-19T09:46:20.422Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.422Z - info: No pages are currently opened
+2025-12-19T09:46:20.422Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-undoMerge-fragment.md
+2025-12-19T09:46:20.422Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.422Z - info: No pages are currently opened
+2025-12-19T09:46:20.422Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/text.md
+2025-12-19T09:46:20.422Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.422Z - info: No pages are currently opened
+2025-12-19T09:46:20.422Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByRebase/text.md
+2025-12-19T09:46:20.422Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.422Z - info: No pages are currently opened
+2025-12-19T09:46:20.422Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-side-track.md
+2025-12-19T09:46:20.422Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.422Z - info: No pages are currently opened
+2025-12-19T09:46:20.423Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2025-12-19T09:46:20.423Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.423Z - info: No pages are currently opened
+2025-12-19T09:46:20.423Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createPRs/detour-resolvePrConflict-fragment.md
+2025-12-19T09:46:20.423Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.423Z - info: No pages are currently opened
+2025-12-19T09:46:20.423Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createPRs/detour-prFromOtherBranches-fragment.md
+2025-12-19T09:46:20.423Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.423Z - info: No pages are currently opened
+2025-12-19T09:46:20.423Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/centralizedFlow/text.md
+2025-12-19T09:46:20.423Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.423Z - info: No pages are currently opened
+2025-12-19T09:46:20.423Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/featureBranchFlow/text.md
+2025-12-19T09:46:20.423Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.423Z - info: No pages are currently opened
+2025-12-19T09:46:20.423Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/steps-subsequent-push-fragment.md
+2025-12-19T09:46:20.423Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.423Z - info: No pages are currently opened
+2025-12-19T09:46:20.483Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByMerge/text.md
+2025-12-19T09:46:20.483Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.483Z - info: No pages are currently opened
+2025-12-19T09:46:20.483Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/cherryPick/text.md
+2025-12-19T09:46:20.483Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.483Z - info: No pages are currently opened
+2025-12-19T09:46:20.484Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/steps-view-commits-list-fragment.md
+2025-12-19T09:46:20.484Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.484Z - info: No pages are currently opened
+2025-12-19T09:46:20.484Z - info: [17:46:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/sourcetree-checkout-commits-fragment.md
+2025-12-19T09:46:20.484Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:46:20.484Z - info: No pages are currently opened
+2025-12-19T09:46:21.426Z - info: No pages needed to be rebuilt
+2025-12-19T09:46:21.431Z - info: Assets built
+2025-12-19T09:49:41.225Z - info: [17:49:41] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-19T09:49:41.225Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:49:41.226Z - info: No pages are currently opened
+2025-12-19T09:49:41.226Z - info: [17:49:41] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md
+2025-12-19T09:49:41.226Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:49:41.226Z - info: No pages are currently opened
+2025-12-19T09:49:41.226Z - info: [17:49:41] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/text.md
+2025-12-19T09:49:41.226Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:49:41.226Z - info: No pages are currently opened
+2025-12-19T09:49:41.227Z - info: [17:49:41] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/text.md
+2025-12-19T09:49:41.227Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:49:41.227Z - info: No pages are currently opened
+2025-12-19T09:49:41.228Z - info: [17:49:41] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/cli-checkout-commits-fragment.md
+2025-12-19T09:49:41.228Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:49:41.228Z - info: No pages are currently opened
+2025-12-19T09:49:41.228Z - info: [17:49:41] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/steps-create-more-commits-fragment.md
+2025-12-19T09:49:41.228Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:49:41.229Z - info: No pages are currently opened
+2025-12-19T09:49:41.229Z - info: [17:49:41] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md
+2025-12-19T09:49:41.229Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:49:41.229Z - info: No pages are currently opened
+2025-12-19T09:49:41.229Z - info: [17:49:41] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/steps-view-revision-graph-fragment.md
+2025-12-19T09:49:41.229Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:49:41.229Z - info: No pages are currently opened
+2025-12-19T09:49:41.229Z - info: [17:49:41] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md
+2025-12-19T09:49:41.229Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:49:41.229Z - info: No pages are currently opened
+2025-12-19T09:49:41.230Z - info: [17:49:41] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/steps-after-pushing-to-empty-remote-fragment.md
+2025-12-19T09:49:41.230Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:49:41.230Z - info: No pages are currently opened
+2025-12-19T09:49:41.230Z - info: [17:49:41] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/steps-subsequent-push-fragment.md
+2025-12-19T09:49:41.230Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:49:41.230Z - info: No pages are currently opened
+2025-12-19T09:49:41.230Z - info: [17:49:41] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/steps-view-commits-list-fragment.md
+2025-12-19T09:49:41.230Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:49:41.230Z - info: No pages are currently opened
+2025-12-19T09:49:41.234Z - info: [17:49:41] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/steps-commit-changes-fragment.md
+2025-12-19T09:49:41.234Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:49:41.234Z - info: No pages are currently opened
+2025-12-19T09:49:42.239Z - info: No pages needed to be rebuilt
+2025-12-19T09:49:42.241Z - info: Assets built
+2025-12-19T09:52:40.412Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/all as some of its dependencies were changed since the last visit
+2025-12-19T09:52:42.555Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:52:42.555Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:52:42.555Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:52:42.555Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:52:42.555Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T09:52:42.556Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-19T09:52:42.557Z - info: Site data built
+2025-12-19T09:52:42.557Z - info: Lazy website regeneration complete! Total build time: 2.145s
+2025-12-19T09:52:54.614Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2025-12-19T09:52:54.934Z - info: Site data built
+2025-12-19T09:52:54.934Z - info: Lazy website regeneration complete! Total build time: 0.32s
+2025-12-19T09:53:00.104Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index as some of its dependencies were changed since the last visit
+2025-12-19T09:53:00.632Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:53:00.633Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:53:00.633Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:53:00.633Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:53:00.633Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T09:53:00.633Z - info: Site data built
+2025-12-19T09:53:00.633Z - info: Lazy website regeneration complete! Total build time: 0.53s
+2025-12-19T09:54:53.996Z - info: [17:54:53] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-19T09:54:53.998Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:54:53.999Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:54:53.999Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:54:54.001Z - info: [17:54:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md
+2025-12-19T09:54:54.001Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:54:54.001Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:54:54.001Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:54:54.002Z - info: [17:54:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md
+2025-12-19T09:54:54.002Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:54:54.002Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:54:54.002Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:54:54.002Z - info: [17:54:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md
+2025-12-19T09:54:54.002Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:54:54.002Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:54:54.002Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:54:54.002Z - info: [17:54:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/text.md
+2025-12-19T09:54:54.002Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:54:54.002Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:54:54.002Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:54:54.002Z - info: [17:54:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md
+2025-12-19T09:54:54.002Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:54:54.002Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:54:54.002Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:54:54.002Z - info: [17:54:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md
+2025-12-19T09:54:54.002Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:54:54.002Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:54:54.002Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:54:54.002Z - info: [17:54:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/text.md
+2025-12-19T09:54:54.002Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:54:54.002Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:54:54.002Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:54:54.002Z - info: [17:54:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md
+2025-12-19T09:54:54.002Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:54:54.002Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:54:54.002Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:54:54.002Z - info: [17:54:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md
+2025-12-19T09:54:54.002Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:54:54.002Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:54:54.002Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:54:54.002Z - info: [17:54:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/steps-commit-changes-fragment.md
+2025-12-19T09:54:54.003Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:54:54.003Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:54:54.003Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:54:54.003Z - info: [17:54:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/text.md
+2025-12-19T09:54:54.003Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:54:54.003Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:54:54.003Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:54:54.003Z - info: [17:54:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/detour-resetTrackingBranch-fragment.md
+2025-12-19T09:54:54.003Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:54:54.003Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:54:54.003Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:54:54.003Z - info: [17:54:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md
+2025-12-19T09:54:54.003Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:54:54.003Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:54:54.003Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:54:54.003Z - info: [17:54:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPush/text.md
+2025-12-19T09:54:54.003Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:54:54.003Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:54:54.003Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:54:54.003Z - info: [17:54:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByRebase/text.md
+2025-12-19T09:54:54.003Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:54:54.003Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:54:54.003Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:54:54.003Z - info: [17:54:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByMerge/text.md
+2025-12-19T09:54:54.003Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:54:54.003Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:54:54.003Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:54:54.003Z - info: [17:54:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/steps-view-revision-graph-fragment.md
+2025-12-19T09:54:54.003Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:54:54.003Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:54:54.004Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:54:54.004Z - info: [17:54:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/steps-subsequent-push-fragment.md
+2025-12-19T09:54:54.004Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:54:54.004Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:54:54.004Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:54:54.004Z - info: [17:54:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/cherryPick/text.md
+2025-12-19T09:54:54.004Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:54:54.004Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:54:54.004Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:54:55.005Z - info: Rebuilding 1 pages
+2025-12-19T09:54:55.907Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:54:55.908Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:54:55.908Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:54:55.908Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:54:55.908Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T09:54:55.909Z - info: Site data built
+2025-12-19T09:54:55.909Z - info: Pages rebuilt
+2025-12-19T09:54:55.909Z - info: Website regeneration complete! Total build time: 0.907s
+2025-12-19T09:56:35.480Z - info: [17:56:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPull/text.md
+2025-12-19T09:56:35.484Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:56:35.485Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:56:35.485Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:56:35.485Z - info: [17:56:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-19T09:56:35.485Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:56:35.486Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:56:35.486Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:56:35.486Z - info: [17:56:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md
+2025-12-19T09:56:35.486Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:56:35.486Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:56:35.486Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:56:35.486Z - info: [17:56:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/steps-view-revision-graph-fragment.md
+2025-12-19T09:56:35.487Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:56:35.487Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:56:35.487Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:56:35.487Z - info: [17:56:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md
+2025-12-19T09:56:35.487Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:56:35.487Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:56:35.487Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:56:35.487Z - info: [17:56:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md
+2025-12-19T09:56:35.487Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:56:35.487Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:56:35.487Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:56:35.488Z - info: [17:56:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/cli-checkout-commits-fragment.md
+2025-12-19T09:56:35.488Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:56:35.488Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:56:35.488Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:56:35.488Z - info: [17:56:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/text.md
+2025-12-19T09:56:35.488Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:56:35.488Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:56:35.488Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:56:35.488Z - info: [17:56:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md
+2025-12-19T09:56:35.488Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:56:35.488Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:56:35.488Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:56:35.489Z - info: [17:56:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/detour-resetTrackingBranch-fragment.md
+2025-12-19T09:56:35.489Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:56:35.489Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:56:35.489Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:56:35.490Z - info: [17:56:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPush/text.md
+2025-12-19T09:56:35.490Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:56:35.490Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:56:35.490Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:56:35.490Z - info: [17:56:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/text.md
+2025-12-19T09:56:35.490Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:56:35.490Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:56:35.490Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:56:35.490Z - info: [17:56:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/steps-subsequent-push-fragment.md
+2025-12-19T09:56:35.490Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:56:35.490Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:56:35.490Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:56:35.490Z - info: [17:56:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/steps-commit-changes-fragment.md
+2025-12-19T09:56:35.490Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:56:35.490Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:56:35.491Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:56:35.491Z - info: [17:56:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/steps-after-pushing-to-empty-remote-fragment.md
+2025-12-19T09:56:35.491Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:56:35.491Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:56:35.491Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:56:35.492Z - info: [17:56:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/steps-push-to-empty-remote-fragment.md
+2025-12-19T09:56:35.492Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:56:35.492Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:56:35.492Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:56:36.496Z - info: Rebuilding 1 pages
+2025-12-19T09:56:37.080Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T09:56:37.081Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:56:37.081Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:56:37.081Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T09:56:37.081Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T09:56:37.082Z - info: Site data built
+2025-12-19T09:56:37.082Z - info: Pages rebuilt
+2025-12-19T09:56:37.082Z - info: Website regeneration complete! Total build time: 0.587s
+2025-12-19T09:57:20.345Z - info: [17:57:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-19T09:57:20.348Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:57:20.348Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:57:20.348Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:57:20.352Z - info: [17:57:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md
+2025-12-19T09:57:20.353Z - info: Synchronizing opened pages list before reload
+2025-12-19T09:57:20.353Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T09:57:20.353Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T09:57:21.355Z - info: No pages needed to be rebuilt
+2025-12-19T10:00:16.885Z - info: [18:00:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-19T10:00:16.886Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:00:16.887Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:00:16.887Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:00:16.887Z - info: [18:00:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-commit-fragment.md
+2025-12-19T10:00:16.887Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:00:16.887Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:00:16.887Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:00:16.888Z - info: [18:00:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/steps-stage-new-file-fragment.md
+2025-12-19T10:00:16.888Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:00:16.888Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:00:16.888Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:00:16.888Z - info: [18:00:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/steps-verify-file-modified-fragment.md
+2025-12-19T10:00:16.889Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:00:16.889Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:00:16.889Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:00:16.889Z - info: [18:00:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/text.md
+2025-12-19T10:00:16.889Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:00:16.889Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:00:16.889Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:00:16.890Z - info: [18:00:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/steps-commit-changes-fragment.md
+2025-12-19T10:00:16.891Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:00:16.891Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:00:16.891Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:00:16.892Z - info: [18:00:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md
+2025-12-19T10:00:16.892Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:00:16.892Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:00:16.892Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:00:17.892Z - info: Rebuilding 1 pages
+2025-12-19T10:00:18.469Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T10:00:18.469Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T10:00:18.469Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T10:00:18.469Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T10:00:18.469Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T10:00:18.471Z - info: Site data built
+2025-12-19T10:00:18.471Z - info: Pages rebuilt
+2025-12-19T10:00:18.471Z - info: Website regeneration complete! Total build time: 0.581s
+2025-12-19T10:02:32.056Z - info: [18:02:32] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/text.md
+2025-12-19T10:02:32.057Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:02:32.057Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:02:32.057Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:02:32.058Z - info: [18:02:32] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md
+2025-12-19T10:02:32.058Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:02:32.058Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:02:32.058Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:02:32.058Z - info: [18:02:32] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/text.md
+2025-12-19T10:02:32.058Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:02:32.058Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:02:32.058Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:02:32.058Z - info: [18:02:32] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/text.md
+2025-12-19T10:02:32.058Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:02:32.058Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:02:32.059Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:02:32.059Z - info: [18:02:32] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md
+2025-12-19T10:02:32.059Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:02:32.059Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:02:32.059Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:02:32.059Z - info: [18:02:32] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/text.md
+2025-12-19T10:02:32.059Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:02:32.059Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:02:32.059Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:02:33.070Z - info: No pages needed to be rebuilt
+2025-12-19T10:03:24.619Z - info: [18:03:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByMerge/text.md
+2025-12-19T10:03:24.620Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:03:24.621Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:03:24.621Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:03:24.622Z - info: [18:03:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/text.md
+2025-12-19T10:03:24.622Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:03:24.622Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:03:24.622Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:03:24.622Z - info: [18:03:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/cli-checkout-commits-fragment.md
+2025-12-19T10:03:24.622Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:03:24.622Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:03:24.622Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:03:24.622Z - info: [18:03:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/text.md
+2025-12-19T10:03:24.622Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:03:24.622Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:03:24.622Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:03:24.622Z - info: [18:03:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPush/text.md
+2025-12-19T10:03:24.623Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:03:24.623Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:03:24.623Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:03:24.623Z - info: [18:03:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/cherryPick/text.md
+2025-12-19T10:03:24.623Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:03:24.623Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:03:24.623Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:03:24.623Z - info: [18:03:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/text.md
+2025-12-19T10:03:24.623Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:03:24.623Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:03:24.623Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:03:24.624Z - info: [18:03:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md
+2025-12-19T10:03:24.624Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:03:24.624Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:03:24.624Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:03:24.624Z - info: [18:03:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createPRs/detour-resolvePrConflict-fragment.md
+2025-12-19T10:03:24.624Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:03:24.624Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:03:24.626Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:03:24.626Z - info: [18:03:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md
+2025-12-19T10:03:24.626Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:03:24.627Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:03:24.627Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:03:24.627Z - info: [18:03:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByRebase/text.md
+2025-12-19T10:03:24.627Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:03:24.627Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:03:24.627Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:03:25.635Z - info: No pages needed to be rebuilt
+2025-12-19T10:03:25.645Z - info: Assets built
+2025-12-19T10:04:51.180Z - info: [18:04:51] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/text.md
+2025-12-19T10:04:51.181Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:04:51.182Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:04:51.182Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:04:51.183Z - info: [18:04:51] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPush/text.md
+2025-12-19T10:04:51.184Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:04:51.184Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:04:51.184Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:04:51.187Z - info: [18:04:51] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByMerge/text.md
+2025-12-19T10:04:51.188Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:04:51.188Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:04:51.188Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:04:51.189Z - info: [18:04:51] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/text.md
+2025-12-19T10:04:51.189Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:04:51.189Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:04:51.189Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:04:51.189Z - info: [18:04:51] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md
+2025-12-19T10:04:51.189Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:04:51.189Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:04:51.190Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:04:51.193Z - info: [18:04:51] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/text.md
+2025-12-19T10:04:51.194Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:04:51.194Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:04:51.194Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:04:51.194Z - info: [18:04:51] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md
+2025-12-19T10:04:51.194Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:04:51.194Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:04:51.194Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:04:52.194Z - info: No pages needed to be rebuilt
+2025-12-19T10:07:07.432Z - info: [18:07:07] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md
+2025-12-19T10:07:07.433Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:07:07.434Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:07:07.434Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:07:07.434Z - info: [18:07:07] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPush/text.md
+2025-12-19T10:07:07.435Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:07:07.435Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:07:07.435Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:07:07.435Z - info: [18:07:07] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByRebase/text.md
+2025-12-19T10:07:07.435Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:07:07.435Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:07:07.435Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:07:07.436Z - info: [18:07:07] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/cherryPick/text.md
+2025-12-19T10:07:07.436Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:07:07.436Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:07:07.437Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:07:08.449Z - info: No pages needed to be rebuilt
+2025-12-19T10:08:38.893Z - info: [18:08:38] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md
+2025-12-19T10:08:38.894Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:08:38.895Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:08:38.895Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:08:38.896Z - info: [18:08:38] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByRebase/text.md
+2025-12-19T10:08:38.896Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:08:38.896Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:08:38.896Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:08:38.896Z - info: [18:08:38] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByMerge/text.md
+2025-12-19T10:08:38.897Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:08:38.897Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:08:38.897Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:08:38.897Z - info: [18:08:38] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createPRs/detour-resolvePrConflict-fragment.md
+2025-12-19T10:08:38.897Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:08:38.897Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:08:38.897Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:08:39.914Z - info: No pages needed to be rebuilt
+2025-12-19T10:08:39.916Z - info: Assets built
+2025-12-19T10:11:13.200Z - info: [18:11:13] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-19T10:11:13.201Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:11:13.201Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:11:13.201Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:11:13.203Z - info: [18:11:13] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md
+2025-12-19T10:11:13.205Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:11:13.205Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:11:13.205Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:11:13.205Z - info: [18:11:13] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/steps-subsequent-push-fragment.md
+2025-12-19T10:11:13.205Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:11:13.205Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:11:13.205Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:11:13.206Z - info: [18:11:13] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/steps-push-to-empty-remote-fragment.md
+2025-12-19T10:11:13.206Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:11:13.206Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:11:13.206Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:11:14.206Z - info: No pages needed to be rebuilt
+2025-12-19T10:17:24.144Z - info: [18:17:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-19T10:17:24.145Z - info: Synchronizing opened pages list before reload
+2025-12-19T10:17:24.146Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T10:17:24.146Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T10:17:25.150Z - info: No pages needed to be rebuilt
+2025-12-19T11:22:13.788Z - info: [19:22:13] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md
+2025-12-19T11:22:13.790Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:22:13.791Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:22:13.791Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:22:14.808Z - info: No pages needed to be rebuilt
+2025-12-19T11:24:15.599Z - info: [19:24:15] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/text.md
+2025-12-19T11:24:15.603Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:24:15.604Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:24:15.604Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:24:15.605Z - info: [19:24:15] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md
+2025-12-19T11:24:15.605Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:24:15.605Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:24:15.605Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:24:15.605Z - info: [19:24:15] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/text.md
+2025-12-19T11:24:15.605Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:24:15.605Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:24:15.605Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:24:15.605Z - info: [19:24:15] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPush/text.md
+2025-12-19T11:24:15.605Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:24:15.605Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:24:15.605Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:24:15.605Z - info: [19:24:15] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/text.md
+2025-12-19T11:24:15.606Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:24:15.606Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:24:15.606Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:24:15.606Z - info: [19:24:15] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md
+2025-12-19T11:24:15.606Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:24:15.606Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:24:15.606Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:24:16.610Z - info: No pages needed to be rebuilt
+2025-12-19T11:31:42.699Z - info: [19:31:42] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPull/text.md
+2025-12-19T11:31:42.701Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:31:42.701Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:31:42.701Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:31:42.708Z - info: [19:31:42] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/cli-checkout-commits-fragment.md
+2025-12-19T11:31:42.708Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:31:42.708Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:31:42.708Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:31:42.708Z - info: [19:31:42] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createPRs/detour-resolvePrConflict-fragment.md
+2025-12-19T11:31:42.708Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:31:42.708Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:31:42.708Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:31:42.708Z - info: [19:31:42] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranches/cli_2.md
+2025-12-19T11:31:42.708Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:31:42.708Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:31:42.708Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:31:42.794Z - info: [19:31:42] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/detour-pushToMultipleRepos-fragment.md
+2025-12-19T11:31:42.794Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:31:42.795Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:31:42.795Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:31:42.795Z - info: [19:31:42] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md
+2025-12-19T11:31:42.795Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:31:42.795Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:31:42.796Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:31:42.796Z - info: [19:31:42] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/detour-pullingFromMultipleRemotes-fragment.md
+2025-12-19T11:31:42.796Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:31:42.796Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:31:42.796Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:31:42.796Z - info: [19:31:42] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2025-12-19T11:31:42.797Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:31:42.797Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:31:42.797Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:31:42.797Z - info: [19:31:42] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md
+2025-12-19T11:31:42.797Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:31:42.797Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:31:42.798Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:31:42.798Z - info: [19:31:42] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/text.md
+2025-12-19T11:31:42.798Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:31:42.798Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:31:42.798Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:31:42.798Z - info: [19:31:42] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md
+2025-12-19T11:31:42.798Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:31:42.798Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:31:42.798Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:31:42.798Z - info: [19:31:42] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-commit-fragment.md
+2025-12-19T11:31:42.798Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:31:42.798Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:31:42.798Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:31:42.798Z - info: [19:31:42] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createPRs/text.md
+2025-12-19T11:31:42.798Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:31:42.798Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:31:42.798Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:31:42.799Z - info: [19:31:42] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByRebase/text.md
+2025-12-19T11:31:42.799Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:31:42.799Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:31:42.799Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:31:43.715Z - info: Rebuilding 1 pages
+2025-12-19T11:31:44.261Z - info: Assets built
+2025-12-19T11:31:44.330Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T11:31:44.331Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T11:31:44.331Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T11:31:44.331Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T11:31:44.331Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T11:31:44.331Z - info: Site data built
+2025-12-19T11:31:44.331Z - info: Pages rebuilt
+2025-12-19T11:31:44.331Z - info: Website regeneration complete! Total build time: 0.618s
+2025-12-19T11:34:48.342Z - info: [19:34:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md
+2025-12-19T11:34:48.345Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:34:48.351Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:34:48.352Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:34:48.356Z - info: [19:34:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md
+2025-12-19T11:34:48.356Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:34:48.356Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:34:48.356Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:34:48.390Z - info: [19:34:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2025-12-19T11:34:48.390Z - info: Synchronizing opened pages list before reload
+2025-12-19T11:34:48.390Z - info: Current opened pages, from most-to-least recent:
+2025-12-19T11:34:48.390Z - info: 1. lessons/trail/recordingFolderHistory/index
+2025-12-19T11:34:49.361Z - info: Rebuilding 1 pages
+2025-12-19T11:34:50.008Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-19T11:34:50.009Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T11:34:50.009Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T11:34:50.009Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-19T11:34:50.009Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-19T11:34:50.011Z - info: Site data built
+2025-12-19T11:34:50.011Z - info: Pages rebuilt
+2025-12-19T11:34:50.011Z - info: Website regeneration complete! Total build time: 0.652s
+2025-12-19T11:36:37.533Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/usingRevisionHistory/index as some of its dependencies were changed since the last visit
+2025-12-19T11:36:38.024Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-19T11:36:38.025Z - info: Site data built
+2025-12-19T11:36:38.026Z - info: Lazy website regeneration complete! Total build time: 0.494s
+2025-12-19T11:38:50.918Z - info: Website generation started at 19:38:50
+2025-12-19T11:38:51.039Z - info: Building assets...
