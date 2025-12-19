@@ -51,10 +51,10 @@ Date:   ...
 
 To see the list of commits, click on the `History` item (listed under the `WORKSPACE` section) on the menu on the right edge of Sourcetree.
 
-<pic eager src="{{baseUrl}}/lessons/log/images/sourcetree_8.png" />
+<pic eager src="{{baseUrl}}/lessons/log/images/sourcetree_8.png" width="300"/>
 
 After adding two more commits, the list of commits should look something like this:
 
-<pic eager src="{{baseUrl}}/lessons/log/images/sourcetree_7.png" height="150" />
+<pic eager src="{{baseUrl}}/lessons/log/images/sourcetree_7.png" width="600" />
 <p/>
 </div><!-- ------------------------------------------------------------------- -->
