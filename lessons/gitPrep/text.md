@@ -106,6 +106,32 @@ git config --global user.email
 ```
 {% endcall %} <!-- show_prep -->
 
+##### Configuring `init.defaultBranch`
+
+**Git has a property named `init.defaultBranch` that specify a _branch_ name** that it uses for a couple of things (you'll learn more about Git branches in later lessons). Git uses the default value `master` for this but these days it is more common to use `main` instead. Git-Mastery uses `main` too. To make your Git behaviour matches our lessons better, you should set this property to `main` too, as described in the panel below:
+
+{% call show_prep("Set `init.defaultBranch` to `main`", "set-default-branch") %}
+
+**To set the three config settings**, run the following commands in your terminal window:
+```bash{.no-line-numbers}
+git config --global init.defaultBranch main
+```
+
+**To verify**, you can run,
+```bash{.no-line-numbers}
+git config --global init.defaultBranch
+```
+{% call show_output() %}
+```bash
+main
+```
+{% endcall %}
+
+{{ icon_info }} If you wish to set this property back to `master` at a later time, simply use the command `git config --global init.defaultBranch master`.
+
+{% endcall %} <!-- show_prep -->
+
+
 ##### Interacting with Git: CLI vs GUI
 **Git is fundamentally a command-line tool.** You primarily interact with it through its <tooltip content="Command-Line Interface">CLI</tooltip> by typing commands. This gives you full control over its features and helps you understand what’s really happening under the hood.
 

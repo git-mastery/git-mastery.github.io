@@ -27,6 +27,7 @@ pageNav: 6
 
 <include src="{{ baseUrl }}/lessons/gitPrep/text.md#install-git" />
 <include src="{{ baseUrl }}/lessons/gitPrep/text.md#set-user" />
+<include src="{{ baseUrl }}/lessons/gitPrep/text.md#set-default-branch" />
 <include src="{{ baseUrl }}/lessons/gitPrep/text.md#install-gui" />
 
 ### 2. Setting up Git-Mastery App

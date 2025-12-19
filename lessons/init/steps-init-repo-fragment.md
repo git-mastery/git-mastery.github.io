@@ -11,7 +11,6 @@ git init
 Initialized empty Git repository in <path-to-repo>/things/.git/
 ```
 {% endcall %}
-{{ icon_info }} The output might also contain a hint about a name for an initial branch (e.g., `hint: Using 'master' as the name for the initial branch ...`). You can ignore that for now.
 
 {{ icon_info }} Note how the output mentions the repo being created in `things/.git/` (not `things/`). More on that later.
 
