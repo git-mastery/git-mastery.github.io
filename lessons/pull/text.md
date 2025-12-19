@@ -29,7 +29,7 @@ gitGraph BT:
     commit id: "add loan to Ben"
     commit id: "add assets.txt"
     commit id: "add goals.txt"
-    commit id: "[head → master] add loan to Chang"
+    commit id: "[HEAD → main] add loan to Chang"
 </mermaid>
 
 <small>->[R: Remote repo `origin`]<-</small>
@@ -40,7 +40,7 @@ gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "add loans.txt"
     commit id: "add loan to Ben"
-    commit id: "[head → master][origin/main] add assets.txt"
+    commit id: "[HEAD → main][origin/main] add assets.txt"
 </mermaid>
 
 <small>->[L1: Local repo -- currently, <br>
@@ -57,7 +57,7 @@ gitGraph BT:
     commit id: "add loan to Ben"
     commit id: "add assets.txt"
     commit id: "add goals.txt"
-    commit id: "[head → master][origin/main] add loan to Chang"
+    commit id: "[HEAD → main][origin/main] add loan to Chang"
 </mermaid>
 
 <small>->[L2: Local repo -- **after downloading**<br>
@@ -294,7 +294,7 @@ gitGraph BT:
     commit id: "add loan to Ben"
     commit id: "add assets.txt"
     commit id: "add goals.txt"
-    commit id: "[head → master] add loan to Chang"
+    commit id: "[HEAD → main] add loan to Chang"
 </mermaid>
 
 <small>->[R: the original remote repo]<-</small>
@@ -305,7 +305,7 @@ gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "add loans.txt"
     commit id: "add loan to Ben"
-    commit id: "[head → master] add assets.txt"
+    commit id: "[HEAD → main] add assets.txt"
 </mermaid>
 
 <small>->[F: your fork (remote), <br>
@@ -317,7 +317,7 @@ gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "add loans.txt"
     commit id: "add loan to Ben"
-    commit id: "[head → master][origin/main] add assets.txt"
+    commit id: "[HEAD → main][origin/main] add assets.txt"
 </mermaid>
 
 <small>->[C: your clone (local), also <br>
