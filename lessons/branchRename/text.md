@@ -51,7 +51,7 @@ gitGraph BT:
     checkout fantasy
     commit id: "[fantasy] f1"
     checkout main
-    merge textbooks id: "[HEAD → master] mc1"
+    merge textbooks id: "[HEAD → main] mc1"
 </mermaid>
 {% endset %}
 {% set b %}<small>%%[rename branches]%%</small> {% endset %}
@@ -68,7 +68,7 @@ gitGraph BT:
     checkout fantasy-books
     commit id: "[fantasy-books] f1"
     checkout main
-    merge study-books id: "[HEAD → master] mc1"
+    merge study-books id: "[HEAD → main] mc1"
 </mermaid>
 {% endset %}
 {{ show_transformation_columns(a, b, c) }}

@@ -22,7 +22,7 @@ gitGraph BT:
     checkout bug-fix
     commit id: "[bug-fix] b1"
     checkout main
-    merge bug-fix id: "[HEAD → master] mc1"
+    merge bug-fix id: "[HEAD → main] mc1"
 </mermaid>
 {% endset %}
 {% set b %}<small>%%[delete branch `bug-fix`]%%</small> {% endset %}
@@ -35,7 +35,7 @@ gitGraph BT:
     checkout _
     commit id: "b1"
     checkout main
-    merge _ id: "[HEAD → master] mc1"
+    merge _ id: "[HEAD → main] mc1"
 </mermaid>
 {% endset %}
 {{ show_transformation_columns(a, b, c) }}
@@ -50,7 +50,7 @@ In fact, some prefer to delete the branch soon after merging it, to reduce branc
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
-    commit id: "[HEAD → master] m1"
+    commit id: "[HEAD → main] m1"
     branch bug-fix
     checkout bug-fix
     commit id: "[bug-fix] b1"
@@ -62,7 +62,7 @@ gitGraph BT:
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
-    commit id: "[HEAD → master] m1"
+    commit id: "[HEAD → main] m1"
     branch _
     checkout _
     commit id: "b1"
@@ -132,7 +132,7 @@ gitGraph BT:
     checkout fantasy
     commit id: "[fantasy] f1"
     checkout main
-    merge textbooks id: "[HEAD → master] mc1"
+    merge textbooks id: "[HEAD → main] mc1"
 </mermaid>
 
 

@@ -37,7 +37,7 @@ gitGraph
     checkout feature
     commit id: "[feature] f3"
     checkout main
-    commit id: "[HEAD → master] m4"
+    commit id: "[HEAD → main] m4"
 </mermaid>
 
 In the example above, you can see how the `feature` branch is merging the `main` branch periodically to keep itself in sync with the changes being introduced to the `main` branch.

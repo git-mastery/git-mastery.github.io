@@ -51,7 +51,7 @@ gitGraph BT:
     checkout fix1
     commit id: "[fix1] Add green, red, white"
     checkout main
-    commit id: "[HEAD → master] Add black, red, white"
+    commit id: "[HEAD → main] Add black, red, white"
 </mermaid>
 
 As you can see from the above, both `main` and `fix1` branches are modifying the same file at the same location. The master branch is inserting `black` in the same place the `fix1` is inserting `green`.

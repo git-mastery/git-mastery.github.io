@@ -207,7 +207,7 @@ gitGraph BT:
     commit id: "f1"
     commit id: "[feature1] f2"
     checkout main
-    commit id: "[HEAD → master] m3"
+    commit id: "[HEAD → main] m3"
     checkout feature1
 </mermaid>
 </div>
@@ -238,7 +238,7 @@ gitGraph BT:
     commit id: "f1"
     commit id: "[feature1] f2"
     checkout main
-    commit id: "[HEAD → master] m3"
+    commit id: "[HEAD → main] m3"
     checkout feature1-alt
     commit id: "[HEAD → feature1-alt] a1"
 </mermaid>

@@ -120,7 +120,7 @@ gitGraph BT:
     merge master id: "mc1"
     commit id: "[feature1] f3"
     checkout main
-    commit id: "[HEAD → master] m4"
+    commit id: "[HEAD → main] m4"
 </mermaid>
 
 {{ hp_number ('4') }} **Merge `feature1` to the master branch**, giving an end-result like this:
@@ -140,7 +140,7 @@ gitGraph BT:
     commit id: "[feature1] f3"
     checkout main
     commit id: "m4"
-    merge feature1 id: "[HEAD → master] mc2"
+    merge feature1 id: "[HEAD → main] mc2"
 </mermaid>
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
@@ -167,7 +167,7 @@ Now, any changes you made in `feature1` branch are available in the master branc
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
-    commit id: "[HEAD → master] m2"
+    commit id: "[HEAD → main] m2"
     branch bug-fix
     commit id: "b1"
     commit id: "[bug-fix] b2"
@@ -182,7 +182,7 @@ gitGraph BT:
     commit id: "m1"
     commit id: "m2"
     commit id: "b1"
-    commit id: "[HEAD → master][bug-fix] b2"
+    commit id: "[HEAD → main][bug-fix] b2"
     checkout main
 </mermaid>
 {% endset %}
@@ -228,7 +228,7 @@ gitGraph BT:
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
-    commit id: "[HEAD → master] mc2"
+    commit id: "[HEAD → main] mc2"
     branch add-swimming
     commit id: "a1"
     commit id: "add-swimming] a2"
@@ -241,7 +241,7 @@ gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master (and add-swimming)'}} }%%" }}
     commit id: "mc2"
     commit id: "a1"
-    commit id: "[HEAD → master][add-swimming] a2"
+    commit id: "[HEAD → main][add-swimming] a2"
 </mermaid>
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
@@ -299,7 +299,7 @@ To permanently prevent fast-forwarding:
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
-    commit id: "[HEAD → master] m1"
+    commit id: "[HEAD → main] m1"
     branch feature
     checkout feature
     commit id: "f1"
@@ -318,7 +318,7 @@ gitGraph BT:
     commit id: "f1"
     commit id: "[feature] f2"
     checkout main
-    commit id: "[HEAD → master] s1 (same as f1+f2)"
+    commit id: "[HEAD → main] s1 (same as f1+f2)"
 </mermaid>
 
 {% endset %}
@@ -334,7 +334,7 @@ After a squash merge, you typically delete the source branch, so its individual 
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
-    commit id: "[HEAD → master] m1"
+    commit id: "[HEAD → main] m1"
     branch feature
     checkout feature
     commit id: "f1"
@@ -350,7 +350,7 @@ gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     commit id: "f1"
-    commit id: "[HEAD → master][feature] f2"
+    commit id: "[HEAD → main][feature] f2"
 </mermaid>
 
 <small>->[If using a fast-forward merge]<-</small>
@@ -360,7 +360,7 @@ gitGraph BT:
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
-    commit id: "[HEAD → master] s1 (same as f1+f2)"
+    commit id: "[HEAD → main] s1 (same as f1+f2)"
 </mermaid>
 
 <small>->[If using a squash merge, and after<br>deleting the source branch thereafter]<-</small>
