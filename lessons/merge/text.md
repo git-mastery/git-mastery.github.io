@@ -123,7 +123,7 @@ gitGraph BT:
     commit id: "[HEAD → main] m4"
 </mermaid>
 
-{{ hp_number ('4') }} **Merge `feature1` to the master branch**, giving an end-result like this:
+{{ hp_number ('4') }} **Merge `feature1` to the main branch**, giving an end-result like this:
 
 <mermaid>
 gitGraph BT:
@@ -157,7 +157,7 @@ Right-click on the `feature1` branch and choose `Merge...`. The resulting revisi
 {{ show_git_tabs_from_text(cli, sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
-Now, any changes you made in `feature1` branch are available in the master branch.
+Now, any changes you made in `feature1` branch are available in the main branch.
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
 **When the destination branch hasn't diverged** — meaning it hasn't had any new commits since the merge base commit —  **Git simply moves the branch pointer forward to include all the new commits in the source branch**, keeping the history clean and linear. This is **called a {{ show_git_term("fast-forward merge") }}** because Git simply "fast-forwards" the branch pointer to the tip of the other branch. The result looks as if all the changes had been made directly on one branch, without any branching at all.
@@ -196,7 +196,7 @@ In the example above, the `main` branch has not changed since the merge base (i.
 {{ hp_number(hop_preparation) }} Let's continue with the same `sports` repo we used above, and do a fast-forward merge this time.
 
  **Create a new branch called `add-swimming`, and some commits to it** as follows:<br>
-Switch to the master branch, create a new branch, switch to the new branch, add a file named `swimming.txt`, stage it, and commit it.<br>
+Switch to the main branch, create a new branch, switch to the new branch, add a file named `swimming.txt`, stage it, and commit it.<br>
 Do some changes to `swimming.txt`, and commit those changes.
 ```bash
 git switch main

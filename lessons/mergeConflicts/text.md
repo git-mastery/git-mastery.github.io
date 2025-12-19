@@ -54,7 +54,7 @@ gitGraph BT:
     commit id: "[HEAD → main] Add black, red, white"
 </mermaid>
 
-As you can see from the above, both `main` and `fix1` branches are modifying the same file at the same location. The master branch is inserting `black` in the same place the `fix1` is inserting `green`.
+As you can see from the above, both `main` and `fix1` branches are modifying the same file at the same location. The main branch is inserting `black` in the same place the `fix1` is inserting `green`.
 
 {% set a %} <!-- ------ start: columns --------------->
 ```txt {.line-numbers highlight-lines="2" heading="colours.txt"}
