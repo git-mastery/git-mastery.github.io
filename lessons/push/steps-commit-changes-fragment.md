@@ -10,18 +10,18 @@ git status
 {% call m.show_output() %}
 ```bash {highlight-lines="2"}
 On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
+Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
 ```
 {% endcall %}
 
-You can also use the `git log --oneline --graph` command to see where the branch refs are. Note how the remote-tracking branch `origin/master` is one commit behind the local `main`.
+You can also use the `git log --oneline --graph` command to see where the branch refs are. Note how the remote-tracking branch `origin/main` is one commit behind the local `main`.
 
-```bash {highlight-lines="1['HEAD']@pink,1['main']@#e6fff2,2['origin/master']@#e6fff2"}
+```bash {highlight-lines="1['HEAD']@pink,1['main']@#e6fff2,2['origin/main']@#e6fff2"}
 e60deae (HEAD -> main) Update fruits list
-f761ea6 (origin/master) Add colours.txt, shapes.txt
+f761ea6 (origin/main) Add colours.txt, shapes.txt
 2bedace Insert figs into fruits.txt
 d5f91de Add fruits.txt
 ```

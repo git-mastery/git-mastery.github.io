@@ -40,7 +40,7 @@ gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "add loans.txt"
     commit id: "add loan to Ben"
-    commit id: "[head → master][origin/master] add assets.txt"
+    commit id: "[head → master][origin/main] add assets.txt"
 </mermaid>
 
 <small>->[L1: Local repo -- currently, <br>
@@ -57,7 +57,7 @@ gitGraph BT:
     commit id: "add loan to Ben"
     commit id: "add assets.txt"
     commit id: "add goals.txt"
-    commit id: "[head → master][origin/master] add loan to Chang"
+    commit id: "[head → master][origin/main] add loan to Chang"
 </mermaid>
 
 <small>->[L2: Local repo -- **after downloading**<br>
@@ -106,7 +106,7 @@ git status
 {% call show_output() %}
 ```bash{.no-line-numbers  highlight-lines="2"}
 On branch master
-Your branch is up to date with 'origin/master'.
+Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
 ```
@@ -141,7 +141,7 @@ git fetch origin
 ```bash{.no-line-numbers  highlight-lines="2['2bedace..e60deae']"}
 remote: Enumerating objects: 8, done.
 ... # more output ...
-   afbe966..cc6a151  master     -> origin/master
+   afbe966..cc6a151  master     -> origin/main
  * [new tag]         beta       -> beta
 ```
 {% endcall %}
@@ -172,7 +172,7 @@ git status
 {% call show_output() %}
 ```bash{.no-line-numbers highlight-lines="2[:50]"}
 On branch master
-Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
   (use "git pull" to update your local branch)
 
 nothing to commit, working tree clean
@@ -182,7 +182,7 @@ nothing to commit, working tree clean
 {% endset %}
 {% set sourcetree %}
 
-Now, the revision graph should look something like the below. Note how the `origin/master` ref is now two commits ahead of the `main` ref.
+Now, the revision graph should look something like the below. Note how the `origin/main` ref is now two commits ahead of the `main` ref.
 
 <pic src="images/sourcetreeAfterFetching.png" width="500" />
 {% endset %}
@@ -197,7 +197,7 @@ Now, the revision graph should look something like the below. Note how the `orig
 Use the `git merge <remote-tracking-branch>` command to merge the fetched changes. Check the status and the revision graph to verify that the branch tip has now moved by two more commits.
 
 ```bash{.no-line-numbers}
-git merge origin/master
+git merge origin/main
 
 git status
 git log --oneline --decorate
@@ -317,7 +317,7 @@ gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "add loans.txt"
     commit id: "add loan to Ben"
-    commit id: "[head → master][origin/master] add assets.txt"
+    commit id: "[head → master][origin/main] add assets.txt"
 </mermaid>
 
 <small>->[C: your clone (local), also <br>
@@ -339,10 +339,10 @@ gitGraph BT:
 git log --oneline --decorate --graph --all
 ```
 {% call show_output() %}
-```{highlight-lines="1['upstream/master']@#e6fff2,3['origin/master']@pink,3['main']@pink"}
-* b201f03 (upstream/master, upstream/HEAD) Add loan to Chang
+```{highlight-lines="1['upstream/main']@#e6fff2,3['origin/main']@pink,3['main']@pink"}
+* b201f03 (upstream/main, upstream/HEAD) Add loan to Chang
 * 1b923a4 Add goals.txt
-* afbe966 (HEAD -> main, origin/master, origin/HEAD) Add assets.txt
+* afbe966 (HEAD -> main, origin/main, origin/HEAD) Add assets.txt
 * 0434002 Add loan to Ben
 * fd96227 Add loans.txt
 ```

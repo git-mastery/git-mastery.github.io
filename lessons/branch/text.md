@@ -181,9 +181,9 @@ Double-click the `main` branch.
 <pic eager src="{{baseUrl}}/lessons/branch/images/sourcetreeMasterBranchSelected.png" height="150" />
 <p/>
 
-<box type="info" header="Revisiting `main` vs `origin/master`" seamless>
+<box type="info" header="Revisiting `main` vs `origin/main`" seamless>
 
-In the screenshot above, you see a `main` ref and a `origin/master` ref for the same commit. The former identifies the <tooltip content="i.e., the most recent commit on the branch">tip</tooltip> of the local `main` branch while the latter identifies the tip of the `main` branch at the remote repo named `origin`. The fact that both refs point to the same commit means the local `main` branch and its remote counterpart are <tooltip content="neither one has commits the other one doesn't">in sync</tooltip> with each other.
+In the screenshot above, you see a `main` ref and a `origin/main` ref for the same commit. The former identifies the <tooltip content="i.e., the most recent commit on the branch">tip</tooltip> of the local `main` branch while the latter identifies the tip of the `main` branch at the remote repo named `origin`. The fact that both refs point to the same commit means the local `main` branch and its remote counterpart are <tooltip content="neither one has commits the other one doesn't">in sync</tooltip> with each other.
 Similarly, `origin/HEAD` ref appearing against the same commit indicates that <tooltip content="`HEAD` ref indicates the currently checked-out branch's latest commit">the `HEAD` ref</tooltip> of the remote repo is pointing to this commit as well.
 
 </box>

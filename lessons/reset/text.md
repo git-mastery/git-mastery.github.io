@@ -193,7 +193,7 @@ git log --oneline --graph --all
 {% call show_output() %}
 ```bash
 * fc1d04e (HEAD -> main) Add drinks.txt
-| * e60deae (upstream/master, origin/master) Update fruits list
+| * e60deae (upstream/main, origin/main) Update fruits list
 |/
 * f761ea6 (tag: v1.0) Add colours.txt, shapes.txt
 * 2bedace (tag: v0.9) Insert figs into fruits.txt

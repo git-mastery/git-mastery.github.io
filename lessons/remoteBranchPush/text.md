@@ -20,7 +20,7 @@ gitGraph BT:
     commit id: "m1"
     branch bug-fix
     checkout master
-    commit id: "[origin/master][HEAD → master] m2"
+    commit id: "[origin/main][HEAD → master] m2"
     checkout bug-fix
     commit id: "[bug-fix] b1"
     checkout master
@@ -36,7 +36,7 @@ gitGraph BT:
     commit id: "m1"
     branch bug-fix
     checkout master
-    commit id: "[origin/master][HEAD → master] m2"
+    commit id: "[origin/main][HEAD → master] m2"
     checkout bug-fix
     commit id: "[origin/bug-fix][bug-fix] b1"
     checkout master
@@ -87,7 +87,7 @@ gitGraph BT:
     checkout track-sales
     commit id: "[origin/track-sales] s1"
     checkout master
-    commit id: "[origin/master][origin/HEAD][HEAD → master] m3"
+    commit id: "[origin/main][origin/HEAD][HEAD → master] m3"
 </mermaid>
 
 <box type="info" seamless>
@@ -117,7 +117,7 @@ gitGraph BT:
     checkout track-sales
     commit id: "[origin/track-sales] s1"
     checkout master
-    commit id: "[origin/master][origin/HEAD][master] m3"
+    commit id: "[origin/main][origin/HEAD][master] m3"
     branch hiring
     checkout hiring
     commit id: "[HEAD → hiring] h1"

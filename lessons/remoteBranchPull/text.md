@@ -41,9 +41,9 @@ git branch -a
 ```bash{.no-line-numbers}
 * hiring
   master
-  remotes/origin/HEAD -> origin/master
+  remotes/origin/HEAD -> origin/main
   remotes/origin/hiring
-  remotes/origin/master
+  remotes/origin/main
   remotes/origin/track-sales
 ```
 <box type="tip" seamless>

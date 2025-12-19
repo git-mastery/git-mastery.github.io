@@ -45,7 +45,7 @@ You can run the `git log --oneline --decorate --graph --all` to check the revisi
 
 ```bash{.no-line-numbers}
 * 355915c (HEAD -> fantasy-books, origin/fantasy-books) Add fantasy.txt
-| * 027b2b0 (origin/master, origin/HEAD, master) Merge branch textbooks
+| * 027b2b0 (origin/main, origin/HEAD, master) Merge branch textbooks
 |/|
 | * a6ebaec (origin/textbooks) Add textbooks.txt
 |/

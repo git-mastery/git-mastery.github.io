@@ -162,7 +162,7 @@ git log --oneline --decorate
 ```
 {% call show_output() %}
 ```bash{.no-line-numbers}
- e60deae (HEAD -> main, origin/master) Update fruits list
+ e60deae (HEAD -> main, origin/main) Update fruits list
  f761ea6 Add colours.txt, shapes.txt
  2bedace Insert figs into fruits.txt
  d5f91de Add fruits.txt
@@ -176,7 +176,7 @@ git show  # shows the latest commit
 ```
 {% call show_output() %}
 ```diff{.no-line-numbers}
-commit e60deaeb2964bf2ebc907b7416efc890c9d4914b (HEAD -> main, origin/master)
+commit e60deaeb2964bf2ebc907b7416efc890c9d4914b (HEAD -> main, origin/main)
 Author: damithc <...@...>
 Date:   Sat Jun ...
 

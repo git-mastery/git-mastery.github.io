@@ -17,24 +17,24 @@ The third step of backing up a local repo on GitHub: **push a copy of the local 
 * **To push, you need to have <tooltip content="permission to update contents on the remote">write-access</tooltip> to the remote repo**.
 * **Pushing is performed one branch at a time**; you must specify which branch you want to push.
 
-**You can configure Git to {{ show_git_term("track") }} a pairing between a local branch and a remote branch**, so in future you can push from the same local branch to the corresponding remote branch without needing to specify them again. For example, you can set your local `main` branch to _track_ the `main` branch on the remote repo `origin` i.e., local `main` branch will track the <tooltip content="'upstream' is commonly used to refer to the remote repo connected to a local repo">upstream</tooltip> branch `origin/master`.
+**You can configure Git to {{ show_git_term("track") }} a pairing between a local branch and a remote branch**, so in future you can push from the same local branch to the corresponding remote branch without needing to specify them again. For example, you can set your local `main` branch to _track_ the `main` branch on the remote repo `origin` i.e., local `main` branch will track the <tooltip content="'upstream' is commonly used to refer to the remote repo connected to a local repo">upstream</tooltip> branch `origin/main`.
 
-{{ show_commit('C3', desc=show_ref('main') + show_head() + show_ref('origin/master')) }}
+{{ show_commit('C3', desc=show_ref('main') + show_head() + show_ref('origin/main')) }}
 {{ show_commit('C2') }}
 {{ show_commit('C1', edge='') }}
 <p/>
 
-In the revision graph above, you see a new type of ref ({{ show_ref('origin/master') }}). This is a {{ show_git_term("remote-tracking branch") }} **ref that represents the state of a corresponding branch in a remote repository** (if you previously set up the branch to 'track' a remote branch). In this example, the `main` branch in the remote `origin` is also at the commit `C3` (which means you have not created new commits after you pushed to the remote).
+In the revision graph above, you see a new type of ref ({{ show_ref('origin/main') }}). This is a {{ show_git_term("remote-tracking branch") }} **ref that represents the state of a corresponding branch in a remote repository** (if you previously set up the branch to 'track' a remote branch). In this example, the `main` branch in the remote `origin` is also at the commit `C3` (which means you have not created new commits after you pushed to the remote).
 
 If you now create a new commit `C4`, the state of the revision graph will be as follows:
 
 {{ show_commit('#y#C4##', desc=show_ref('main')  + show_head(), style="primary") }}
-{{ show_commit('C3', desc= show_ref('origin/master')) }}
+{{ show_commit('C3', desc= show_ref('origin/main')) }}
 {{ show_commit('C2') }}
 {{ show_commit('C1', edge='') }}
 <p/>
 
-Explanation: When you create `C4`, the current branch `main` moves to `C4`, and `HEAD` moves along with it. However, the `main` branch in the remote `origin` remains at `C3` (because you have not pushed `C4` yet). That is, the remote-tracking branch `origin/master` is _one commit {{ show_git_term("behind") }}_ the local branch `main` (or, the local branch is _one commit {{ show_git_term("ahead") }}_). The `origin/master` ref will move to `C4` only after you push your local branch to the remote again.
+Explanation: When you create `C4`, the current branch `main` moves to `C4`, and `HEAD` moves along with it. However, the `main` branch in the remote `origin` remains at `C3` (because you have not pushed `C4` yet). That is, the remote-tracking branch `origin/main` is _one commit {{ show_git_term("behind") }}_ the local branch `main` (or, the local branch is _one commit {{ show_git_term("ahead") }}_). The `origin/main` ref will move to `C4` only after you push your local branch to the remote again.
 
 {% call show_hands_on_practical('Pushing a local repo to an empty remote repo')  %}
 
@@ -49,7 +49,7 @@ Explanation: When you create `C4`, the current branch `main` moves to `C4`, and 
 
 {{ show_steps_tabs('push-to-empty-remote') }}
 
-{{ hp_number("2") }} **Observe the remote-tracking branch** `origin/master` is now pointing at the same commit as the `main` branch.
+{{ hp_number("2") }} **Observe the remote-tracking branch** `origin/main` is now pointing at the same commit as the `main` branch.
 
 {{ show_steps_tabs('after-pushing-to-empty-remote') }}
 
