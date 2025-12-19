@@ -41,7 +41,7 @@ The above should give you a repo similar to the revision graph given below, on t
 {% set a %}<!-- ------ start: transformation columns --------------->
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     branch textbooks
     checkout textbooks
@@ -58,7 +58,7 @@ gitGraph BT:
 {% set c %}
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     branch study-books
     checkout study-books

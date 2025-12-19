@@ -16,7 +16,7 @@ In a previous lesson, we saw how to push the default branch to a remote reposito
 {% set a %} <!-- ------ start: transformation columns --------------->
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     branch bug-fix
     checkout master
@@ -32,7 +32,7 @@ gitGraph BT:
 {% set c %}
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     branch bug-fix
     checkout master
@@ -80,7 +80,7 @@ After forking, go to the fork and ensure both branches (`main`, and `track-sales
 
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     commit id: "m2"
     branch track-sales
@@ -110,7 +110,7 @@ git commit -am "Add Pam to employees.txt"
 
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     commit id: "m2"
     branch track-sales

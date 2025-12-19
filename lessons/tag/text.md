@@ -11,15 +11,15 @@ When working with many commits, it helps to **tag specific commits with custom n
 
 **Git lets you {{ show_git_term('tag') }} commits with names, making them easy to reference later.** This is useful when you want to mark specific commits -- such as releases or key milestones (e.g., `v1.0` or `v2.1`). Using tags to refer to commits is much more convenient than using SHA hashes. In the diagram below, {{ show_tag('v1.0') }} and {{ show_tag('interim') }} are tags.
 
-{{ show_commit('C3', desc=show_ref('master') + show_head() + show_tag('interim'), msg='Update list') }}
+{{ show_commit('C3', desc=show_ref('main') + show_head() + show_tag('interim'), msg='Update list') }}
 {{ show_commit('C2', desc=show_tag('v1.0'), msg='Populate list') }}
 {{ show_commit('C1', edge='', msg="Add empty list") }}
 <p/>
 
 
-**A tag stays fixed to the commit.** Unlike branch refs or `HEAD`, tags do not move automatically as new commits are made. As you see below, after adding a new commit, tags stay in the previous commits while {{ show_ref('master')  + show_head() }} has moved to the new commit.
+**A tag stays fixed to the commit.** Unlike branch refs or `HEAD`, tags do not move automatically as new commits are made. As you see below, after adding a new commit, tags stay in the previous commits while {{ show_ref('main')  + show_head() }} has moved to the new commit.
 
-{{ show_commit('C4', desc=show_ref('master') + show_head(), msg='Trim the list') }}
+{{ show_commit('C4', desc=show_ref('main') + show_head(), msg='Trim the list') }}
 {{ show_commit('C3', desc=show_tag('interim'), msg='Update list') }}
 {{ show_commit('C2', desc=show_tag('v1.0'), msg='Populate list') }}
 {{ show_commit('C1', edge='', msg="Add empty list") }}

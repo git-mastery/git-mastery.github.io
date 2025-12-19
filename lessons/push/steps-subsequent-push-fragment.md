@@ -12,7 +12,7 @@ To push the newer commit(s) in the current branch `main` to the remote `origin`,
 
 After pushing, the revision graph should look something like the following (note how both local and remote-tracking branch refs are pointing to the same commit again).
 
-```bash {highlight-lines="1['HEAD']@pink,1['master']@#e6fff2,1['origin/master']@#e6fff2"}
+```bash {highlight-lines="1['HEAD']@pink,1['main']@#e6fff2,1['origin/master']@#e6fff2"}
 e60deae (HEAD -> main, origin/master) Update fruits list
 f761ea6 Add colours.txt, shapes.txt
 2bedace Insert figs into fruits.txt

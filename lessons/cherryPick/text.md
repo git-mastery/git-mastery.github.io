@@ -19,7 +19,7 @@ Because cherry-picking copies only the chosen commits, **it creates new commits 
 Suppose we have the following revision graph, and we want to bring over the changes introduced in `m3` (in the `main` branch) onto the `feature` branch.
 <mermaid>
 gitGraph
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     branch feature
     checkout feature
@@ -36,7 +36,7 @@ After cherry-picking `m3` onto the `feature` branch, the revision graph should l
 
 <mermaid>
 gitGraph
-{{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+{{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     branch feature
     checkout feature

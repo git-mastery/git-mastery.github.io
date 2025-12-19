@@ -45,7 +45,7 @@ git commit -am "Add black, red, white"
 The result will be something like this:
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "Add colours.txt"
     branch fix1
     checkout fix1

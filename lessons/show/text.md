@@ -24,7 +24,7 @@ It is useful to be able to **see what changes were included in a specific commit
 **Another related technique is to use the `<ref>~<n>` notation** (e.g., `HEAD~1`) to address the commit that is `n` commits prior to the commit pointed by `<ref>` i.e., "start with the commit pointed by `<ref>` and go back `n` commits".<br>
 A related alternative notation is `HEAD~`, `HEAD~~`, `HEAD~~~`, ... to mean `HEAD~1`, `HEAD~2`, `HEAD~3` etc.
 
-{{ show_commit('C3', desc=show_ref('master') + ' ' + show_head(), msg='This commit can be addressed as `HEAD` or `main`') }}
+{{ show_commit('C3', desc=show_ref('main') + ' ' + show_head(), msg='This commit can be addressed as `HEAD` or `main`') }}
 {{ show_commit('C2', msg='Can be addressed as `HEAD~1` or `master~1` or `HEAD~` or `master~`') }}
 {{ show_commit('C1', msg='Can be addressed as `HEAD~2` or `master~2`', edge='') }}
 <p/>

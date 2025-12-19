@@ -16,7 +16,7 @@
 {% set a %}<!-- ------ start: transformation columns --------------->
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     branch bug-fix
     checkout bug-fix
@@ -29,7 +29,7 @@ gitGraph BT:
 {% set c %}
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     branch _
     checkout _
@@ -49,7 +49,7 @@ In fact, some prefer to delete the branch soon after merging it, to reduce branc
 {% set a %}<!-- ------ start: transformation columns --------------->
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "[HEAD → master] m1"
     branch bug-fix
     checkout bug-fix
@@ -61,7 +61,7 @@ gitGraph BT:
 {% set c %}
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "[HEAD → master] m1"
     branch _
     checkout _
@@ -83,11 +83,11 @@ In the above example, the commit `b1` is no longer reachable, unless we know its
 
 <div class="indented-level1">
 
-In the example below, `C4` is unreachable (i.e., cannot be reached by starting at any of the three refs: {{ show_tag('v1.0') }} or {{ show_ref('master') }} or {{ show_head() }}), but the other three are all reachable.
+In the example below, `C4` is unreachable (i.e., cannot be reached by starting at any of the three refs: {{ show_tag('v1.0') }} or {{ show_ref('main') }} or {{ show_head() }}), but the other three are all reachable.
 
 {{ show_commit('C4', edge="↓", desc="<md>#r#unreachable!##", style="dark") }}
 {{ show_commit('C3', edge="↓", desc= show_tag("v1.0")) }}
-{{ show_commit('C2', edge="↓", desc=show_ref('master')  + show_head()) }}
+{{ show_commit('C2', edge="↓", desc=show_ref('main')  + show_head()) }}
 {{ show_commit('C1', edge='') }}
 <p/>
 </div>
@@ -122,7 +122,7 @@ git merge --no-ff -m "Merge branch textbooks" textbooks
 The result should be something like this:
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     branch textbooks
     checkout textbooks

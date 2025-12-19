@@ -21,7 +21,7 @@ Resetting is different from the _checkout_ feature:
 * Checkout: Lets you explore a past state _without_ rewriting history. It just moves the `HEAD` ref.
 
 {% set a %}
-{{ show_commit('C3', desc=show_ref('master') + show_head() + " <small>(original _tip_ of the branch)</small>") }}
+{{ show_commit('C3', desc=show_ref('main') + show_head() + " <small>(original _tip_ of the branch)</small>") }}
 {{ show_commit('C2') }}
 {{ show_commit('C1', edge='') }}
 <p/>
@@ -29,7 +29,7 @@ Resetting is different from the _checkout_ feature:
 {% set b %}<small>%%[reset to `C2`...]%%</small> {% endset %}
 {% set c %}
 {{ show_commit('C3', style="light", desc="<small><md>#r#commit no longer in the `main` branch!##</md></small>") }}
-{{ show_commit('C2', desc=show_ref('master') + show_head() + " <small>(the new _tip_)</small>") }}
+{{ show_commit('C2', desc=show_ref('main') + show_head() + " <small>(the new _tip_)</small>") }}
 {{ show_commit('C1', edge='') }}
 <p/>
 {% endset %}
@@ -50,7 +50,7 @@ i) Add four commits that are supposedly 'bad' commits.<br>
 ii) Do a 'bad' change to one file and stage it.<br>
 iii) Do a 'bad' change to another file, but don't stage it.
 
-{{ show_commit('B4', style="dark", desc=show_ref('master') + show_head(), msg='Add incorrect.txt') }}
+{{ show_commit('B4', style="dark", desc=show_ref('main') + show_head(), msg='Add incorrect.txt') }}
 {{ show_commit('B3', style="dark", msg='Incorrectly update fruits.txt') }}
 {{ show_commit('B2', style="dark", msg='Incorrectly update shapes.txt') }}
 {{ show_commit('B1', style="dark", msg='Incorrectly update colours.txt') }}

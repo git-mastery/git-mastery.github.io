@@ -46,7 +46,7 @@ In the above example, `main` is the destination branch and `fix1` is the source 
 
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     commit id: "m2"
     branch feature1
@@ -60,7 +60,7 @@ gitGraph BT:
 {{ hp_number ('2') }} **Merge the `main` branch to the `feature1` branch**, giving an end-result like the following. Also note how Git has created a _merge commit_ (shown as `mc1` in the diagram below).
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     commit id: "m2"
     branch feature1
@@ -108,7 +108,7 @@ git commit -am "Add Messi to football.txt"
 
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     commit id: "m2"
     branch feature1
@@ -127,7 +127,7 @@ gitGraph BT:
 
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     commit id: "m2"
     branch feature1
@@ -165,7 +165,7 @@ Now, any changes you made in `feature1` branch are available in the master branc
 {% set a %}
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     commit id: "[HEAD → master] m2"
     branch bug-fix
@@ -178,7 +178,7 @@ gitGraph BT:
 {% set c %}
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     commit id: "m2"
     commit id: "b1"
@@ -214,7 +214,7 @@ git switch master
 You should have something like this now:
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "[master] mc2"
     branch add-swimming
     commit id: "a1"
@@ -227,7 +227,7 @@ gitGraph BT:
 
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "[HEAD → master] mc2"
     branch add-swimming
     commit id: "a1"
@@ -298,7 +298,7 @@ To permanently prevent fast-forwarding:
 {% set a %} <!-- ------ start: transformation columns --------------->
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "[HEAD → master] m1"
     branch feature
     checkout feature
@@ -311,7 +311,7 @@ gitGraph BT:
 {% set c %}
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     branch feature
     checkout feature
@@ -333,7 +333,7 @@ After a squash merge, you typically delete the source branch, so its individual 
 {% set a %} <!-- ------ start: transformation columns --------------->
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "[HEAD → master] m1"
     branch feature
     checkout feature
@@ -347,7 +347,7 @@ gitGraph BT:
 {% set b %}
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     commit id: "f1"
     commit id: "[HEAD → master][feature] f2"
@@ -358,7 +358,7 @@ gitGraph BT:
 {% set c %}
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     commit id: "[HEAD → master] s1 (same as f1+f2)"
 </mermaid>

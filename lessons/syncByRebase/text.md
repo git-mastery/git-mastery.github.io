@@ -16,7 +16,7 @@ Rebasing is especially useful when you want to update your branch with the lates
 Suppose we have the following revision graph, and we want to sync the `feature` branch with `main`, so that changes in commit `m2` become visible to the `feature` branch.
 <mermaid>
 gitGraph
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     branch feature
     checkout feature
@@ -30,7 +30,7 @@ gitGraph
 If we merge the `main` branch to the `feature` branch as given below, `m2` becomes visible to the `feature` branch. However, it creates a merge commit.
 <mermaid>
 gitGraph
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     branch feature
     checkout feature
@@ -44,7 +44,7 @@ gitGraph
 Instead of merging, if we _rebased_ the `feature` branch on the `main` branch, we would get the following.
 <mermaid>
 gitGraph
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "m1"
     checkout master
     commit id: "[branch: master] m2"

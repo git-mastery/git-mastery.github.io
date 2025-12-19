@@ -6,7 +6,7 @@ Suppose you moved back the current branch ref by two commits, as follows:
 git reset --hard HEAD~2
 ```
 {% set a %}
-{{ show_commit('C4', desc=show_ref('master') + show_head() + show_ref('origin/master')) }}
+{{ show_commit('C4', desc=show_ref('main') + show_head() + show_ref('origin/master')) }}
 {{ show_commit('C3') }}
 {{ show_commit('C2') }}
 {{ show_commit('C1', edge='') }}
@@ -15,7 +15,7 @@ git reset --hard HEAD~2
 {% set c %}
 {{ show_commit('C4', desc=show_ref('origin/master')) }}
 {{ show_commit('C3') }}
-{{ show_commit('C2', desc=show_ref('master') + show_head()) }}
+{{ show_commit('C2', desc=show_ref('main') + show_head()) }}
 {{ show_commit('C1', edge='') }}
 {% endset %}
 {{ show_transformation_columns(a, b, c) }}
@@ -30,14 +30,14 @@ git update-ref refs/remotes/origin/master HEAD
 {% set a %}
 {{ show_commit('C4', desc=show_ref('origin/master')) }}
 {{ show_commit('C3') }}
-{{ show_commit('C2', desc=show_ref('master') + show_head()) }}
+{{ show_commit('C2', desc=show_ref('main') + show_head()) }}
 {{ show_commit('C1', edge='') }}
 {% endset %}
 {% set b %}{% endset %}
 {% set c %}
 {{ show_commit('  ', style='light') }}
 {{ show_commit('  ', style='light') }}
-{{ show_commit('C2', desc=show_ref('master') + show_head() + show_ref('origin/master')) }}
+{{ show_commit('C2', desc=show_ref('main') + show_head() + show_ref('origin/master')) }}
 {{ show_commit('C1', edge='') }}
 {% endset %}
 {{ show_transformation_columns(a, b, c) }}

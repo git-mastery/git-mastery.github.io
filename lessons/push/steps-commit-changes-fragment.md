@@ -19,7 +19,7 @@ nothing to commit, working tree clean
 
 You can also use the `git log --oneline --graph` command to see where the branch refs are. Note how the remote-tracking branch `origin/master` is one commit behind the local `main`.
 
-```bash {highlight-lines="1['HEAD']@pink,1['master']@#e6fff2,2['origin/master']@#e6fff2"}
+```bash {highlight-lines="1['HEAD']@pink,1['main']@#e6fff2,2['origin/master']@#e6fff2"}
 e60deae (HEAD -> main) Update fruits list
 f761ea6 (origin/master) Add colours.txt, shapes.txt
 2bedace Insert figs into fruits.txt

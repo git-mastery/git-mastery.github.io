@@ -19,7 +19,7 @@ The third step of backing up a local repo on GitHub: **push a copy of the local 
 
 **You can configure Git to {{ show_git_term("track") }} a pairing between a local branch and a remote branch**, so in future you can push from the same local branch to the corresponding remote branch without needing to specify them again. For example, you can set your local `main` branch to _track_ the `main` branch on the remote repo `origin` i.e., local `main` branch will track the <tooltip content="'upstream' is commonly used to refer to the remote repo connected to a local repo">upstream</tooltip> branch `origin/master`.
 
-{{ show_commit('C3', desc=show_ref('master') + show_head() + show_ref('origin/master')) }}
+{{ show_commit('C3', desc=show_ref('main') + show_head() + show_ref('origin/master')) }}
 {{ show_commit('C2') }}
 {{ show_commit('C1', edge='') }}
 <p/>
@@ -28,7 +28,7 @@ In the revision graph above, you see a new type of ref ({{ show_ref('origin/mast
 
 If you now create a new commit `C4`, the state of the revision graph will be as follows:
 
-{{ show_commit('#y#C4##', desc=show_ref('master')  + show_head(), style="primary") }}
+{{ show_commit('#y#C4##', desc=show_ref('main')  + show_head(), style="primary") }}
 {{ show_commit('C3', desc= show_ref('origin/master')) }}
 {{ show_commit('C2') }}
 {{ show_commit('C1', edge='') }}

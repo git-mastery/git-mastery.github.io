@@ -24,7 +24,7 @@ When there are new changes in the remote, you need to **_pull_ those changes dow
 {% set a %}
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "add loans.txt"
     commit id: "add loan to Ben"
     commit id: "add assets.txt"
@@ -37,7 +37,7 @@ gitGraph BT:
 {% set b %}
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "add loans.txt"
     commit id: "add loan to Ben"
     commit id: "[head → master][origin/master] add assets.txt"
@@ -52,7 +52,7 @@ gitGraph BT:
 {% set d %}
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "add loans.txt"
     commit id: "add loan to Ben"
     commit id: "add assets.txt"
@@ -289,7 +289,7 @@ In the next dialog, choose as follows:<br>
 {% set a %}
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "add loans.txt"
     commit id: "add loan to Ben"
     commit id: "add assets.txt"
@@ -302,7 +302,7 @@ gitGraph BT:
 {% set b %}
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "add loans.txt"
     commit id: "add loan to Ben"
     commit id: "[head → master] add assets.txt"
@@ -314,7 +314,7 @@ gitGraph BT:
 {% set c %}
 <mermaid>
 gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
     commit id: "add loans.txt"
     commit id: "add loan to Ben"
     commit id: "[head → master][origin/master] add assets.txt"
@@ -339,7 +339,7 @@ gitGraph BT:
 git log --oneline --decorate --graph --all
 ```
 {% call show_output() %}
-```{highlight-lines="1['upstream/master']@#e6fff2,3['origin/master']@pink,3['master']@pink"}
+```{highlight-lines="1['upstream/master']@#e6fff2,3['origin/master']@pink,3['main']@pink"}
 * b201f03 (upstream/master, upstream/HEAD) Add loan to Chang
 * 1b923a4 Add goals.txt
 * afbe966 (HEAD -> main, origin/master, origin/HEAD) Add assets.txt

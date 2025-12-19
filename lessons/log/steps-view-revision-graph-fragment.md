@@ -7,7 +7,7 @@
 git log
 ```
 {% call show_output() %}
-```bash{.no-line-numbers highlight-lines="1[:22],1['HEAD']@pink,1['master']@#e6fff2,7,13"}
+```bash{.no-line-numbers highlight-lines="1[:22],1['HEAD']@pink,1['main']@#e6fff2,7,13"}
 commit f761ea63738a... (HEAD -> main)
 Author: ... <...@...>
 Date:   Sat ...
@@ -28,7 +28,7 @@ Date:   Fri ...
 ```
 Given below the visual representation of the same revision graph. As you can see, the `log` output shows the refs slightly differently, but it is not hard to see what they mean.
 
-{{ show_commit('C3', desc=show_ref('master') + show_head(), msg='Add colours.txt, shapes.txt') }}
+{{ show_commit('C3', desc=show_ref('main') + show_head(), msg='Add colours.txt, shapes.txt') }}
 {{ show_commit('C2', msg='Insert figs into fruits.txt') }}
 {{ show_commit('C1', edge='', msg='Add fruits.txt') }}
 <p/>

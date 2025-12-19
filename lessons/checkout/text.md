@@ -19,7 +19,7 @@ Suppose you added a new feature to a software product, and while testing it, you
 2. **Moves the `HEAD` ref to that commit**, marking it as the current state you’re viewing.
 
 {% set a %}
-{{ show_commit('C3', desc=show_ref('master') + show_head()) }}
+{{ show_commit('C3', desc=show_ref('main') + show_head()) }}
 {{ show_commit('C2') }}
 {{ show_commit('C1', edge='') }}
 <p/>
@@ -27,7 +27,7 @@ Suppose you added a new feature to a software product, and while testing it, you
 {% endset %}
 {% set b %}<small>%%[check out commit `C2`...]%%</small> {% endset %}
 {% set c %}
-{{ show_commit('C3', desc=show_ref('master')) }}
+{{ show_commit('C3', desc=show_ref('main')) }}
 {{ show_commit('C2', desc=show_head() + " <small>#r#detached head!##</small>") }}
 {{ show_commit('C1', edge='') }}
 <p/>
@@ -41,14 +41,14 @@ Suppose you added a new feature to a software product, and while testing it, you
 
 
 {% set a %}
-{{ show_commit('C3', desc=show_ref('master')) }}
+{{ show_commit('C3', desc=show_ref('main')) }}
 {{ show_commit('C2', desc=show_head() + " <small>#r#detached head!##</small>") }}
 {{ show_commit('C1', edge='') }}
 <p/>
 {% endset %}
 {% set b %}<small>%%[check out `main`...]%%</small> {% endset %}
 {% set c %}
-{{ show_commit('C3', desc=show_ref('master') + show_head() + " <small>%%head re-attached!%%</small>") }}
+{{ show_commit('C3', desc=show_ref('main') + show_head() + " <small>%%head re-attached!%%</small>") }}
 {{ show_commit('C2') }}
 {{ show_commit('C1', edge='') }}
 <p/>

@@ -72,14 +72,14 @@ Given every commit has a unique hash, the #r#commit hash values you see in our e
 
 **Git uses refs to name and keep track of various points in a repository’s history.** These refs are essentially 'named-pointers' that can serve as bookmarks to reach a certain point in the revision graph using the ref name.
 
-{{ show_commit('C3', desc=show_ref('master') + show_head()) }}
+{{ show_commit('C3', desc=show_ref('main') + show_head()) }}
 {{ show_commit('C2') }}
 {{ show_commit('C1', edge='') }}
 <p/>
 
-In the revision graph above, there are two refs {{ show_ref('master') }} and &nbsp;{{ show_head()}}.
+In the revision graph above, there are two refs {{ show_ref('main') }} and &nbsp;{{ show_head()}}.
 
-* {{ show_ref('master') }} is a branch ref. **A {{ show_git_term("branch ref") }} points to the latest commit on a branch**. In this visualisation, the commit shown alongside the ref is the one it points to i.e., `C3`.<br>
+* {{ show_ref('main') }} is a branch ref. **A {{ show_git_term("branch ref") }} points to the latest commit on a branch**. In this visualisation, the commit shown alongside the ref is the one it points to i.e., `C3`.<br>
   **When you create a new commit, the branch ref of the <tooltip content="the currently active branch">current</tooltip> branch moves to the new commit.**<br>
   You'll be learning more about Git branches in a later lesson.
 * **{{ show_head()}} is a special ref that typically points to the current branch and moves along with that branch ref.** In this example, it is pointing to the `main` branch.<br>
