@@ -40,7 +40,7 @@ gitGraph BT:
 {% endset %}
 {{ show_transformation_columns(a, b, c) }}
 
-In the above example, the only impact of the deletion is the loss of the branch ref `bug-fix`. All commits remain reachable (via the `master` branch), and there is no other impact on the revision history.
+In the above example, the only impact of the deletion is the loss of the branch ref `bug-fix`. All commits remain reachable (via the `main` branch), and there is no other impact on the revision history.
 
 In fact, some prefer to delete the branch soon after merging it, to reduce branch references cluttering up the revision history.
 
@@ -145,7 +145,7 @@ git log --oneline --decorate --graph --all  # check the current revision graph
 ```
 {% call show_output() %}
 ```bash{.no-line-numbers}
-*   443132a (HEAD -> master) Merge branch textbooks
+*   443132a (HEAD -> main) Merge branch textbooks
 |\
 | * 4969163 Add textbooks.txt
 |/
@@ -196,7 +196,7 @@ git log --oneline --decorate --graph --all
 ```
 {% call show_output() %}
 ```bash{.no-line-numbers}
-*   443132a (HEAD -> master) Merge branch textbooks
+*   443132a (HEAD -> main) Merge branch textbooks
 |\
 | * 4969163 Add textbooks.txt
 |/

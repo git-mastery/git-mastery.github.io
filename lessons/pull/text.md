@@ -160,7 +160,7 @@ Click on the `Fetch` button on the top menu:<br>
 
 <!-- ------ end: Git Tabs -------------------------------->
 
-{{ hp_number ('3') }} **Verify the fetch worked** i.e., the local repo is now aware of the two missing commits. Also observe how the local branch ref of the `master` branch, the staging area, and the working directory remain unchanged after the fetch.
+{{ hp_number ('3') }} **Verify the fetch worked** i.e., the local repo is now aware of the two missing commits. Also observe how the local branch ref of the `main` branch, the staging area, and the working directory remain unchanged after the fetch.
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
@@ -182,7 +182,7 @@ nothing to commit, working tree clean
 {% endset %}
 {% set sourcetree %}
 
-Now, the revision graph should look something like the below. Note how the `origin/master` ref is now two commits ahead of the `master` ref.
+Now, the revision graph should look something like the below. Note how the `origin/master` ref is now two commits ahead of the `main` ref.
 
 <pic src="images/sourcetreeAfterFetching.png" width="500" />
 {% endset %}
@@ -342,7 +342,7 @@ git log --oneline --decorate --graph --all
 ```{highlight-lines="1['upstream/master']@#e6fff2,3['origin/master']@pink,3['master']@pink"}
 * b201f03 (upstream/master, upstream/HEAD) Add loan to Chang
 * 1b923a4 Add goals.txt
-* afbe966 (HEAD -> master, origin/master, origin/HEAD) Add assets.txt
+* afbe966 (HEAD -> main, origin/master, origin/HEAD) Add assets.txt
 * 0434002 Add loan to Ben
 * fd96227 Add loans.txt
 ```

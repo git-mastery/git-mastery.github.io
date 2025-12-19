@@ -8,7 +8,7 @@ git log
 ```
 {% call show_output() %}
 ```bash{.no-line-numbers highlight-lines="1[:22],1['HEAD']@pink,1['master']@#e6fff2,7,13"}
-commit f761ea63738a... (HEAD -> master)
+commit f761ea63738a... (HEAD -> main)
 Author: ... <...@...>
 Date:   Sat ...
 
@@ -42,7 +42,7 @@ git log --oneline
 ```
 {% call show_output() %}
 ```bash{.no-line-numbers}
-f761ea6 (HEAD -> master, origin/master) Add colours.txt, shapes.txt
+f761ea6 (HEAD -> main, origin/master) Add colours.txt, shapes.txt
 2bedace Insert figs into fruits.txt
 d5f91de Add fruits.txt
  ```
@@ -55,7 +55,7 @@ git log --oneline --graph
 ```
 {% call show_output() %}
 ```bash{.no-line-numbers}
-* f761ea6 (HEAD -> master, origin/master) Add colours.txt, shapes.txt
+* f761ea6 (HEAD -> main, origin/master) Add colours.txt, shapes.txt
 * 2bedace Insert figs into fruits.txt
 * d5f91de Add fruits.txt
 ```

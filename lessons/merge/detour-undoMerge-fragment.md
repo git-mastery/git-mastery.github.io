@@ -6,7 +6,7 @@
 
 ----{.dashed .border-warning}
 
-{{ icon_example }} In the example below, you merged `master` to `feature1`.
+{{ icon_example }} In the example below, you merged `main` to `feature1`.
 
 <annotate src="{{baseUrl}}/lessons/merge/images/sourcetreeAfterMeringMaster.png" width="500" >
 {{ annotation_label(21, 15, "#r# **merge commit**##") }}
@@ -17,6 +17,6 @@
 If you want to undo that merge,
 
 1. Ensure you are in the `feature1` branch (because that's the destination branch).
-1. Reset the `feature1` branch to the commit that was the tip of the `feature1` branch just before you merged the `master` branch to it.
+1. Reset the `feature1` branch to the commit that was the tip of the `feature1` branch just before you merged the `main` branch to it.
 
 {{ show_exercise(exercises.merge_undo) }}

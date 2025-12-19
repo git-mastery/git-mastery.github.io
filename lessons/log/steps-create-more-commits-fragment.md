@@ -25,7 +25,7 @@ git log  # check commits list
 
 The output of the final `git log` should be something like this:
 ```bash{highlight-lines="5,11,17"}
-commit ... (HEAD -> master)
+commit ... (HEAD -> main)
 Author: ... <...@...>
 Date:   ...
 

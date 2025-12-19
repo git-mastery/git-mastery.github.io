@@ -16,7 +16,7 @@ Unlike merging or rebasing — which bring over all changes since the branches d
 
 Because cherry-picking copies only the chosen commits, **it creates new commits on your branch with the same changes but different SHA values**.
 
-Suppose we have the following revision graph, and we want to bring over the changes introduced in `m3` (in the `master` branch) onto the `feature` branch.
+Suppose we have the following revision graph, and we want to bring over the changes introduced in `m3` (in the `main` branch) onto the `feature` branch.
 <mermaid>
 gitGraph
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}

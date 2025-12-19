@@ -5,7 +5,7 @@
 
 <div id="body">
 
-**The {{ show_git_term("centralized workflow") }} is similar to the feature branch workflow except all changes are done in the `master` branch.**
+**The {{ show_git_term("centralized workflow") }} is similar to the feature branch workflow except all changes are done in the `main` branch.**
 
 </div>
 

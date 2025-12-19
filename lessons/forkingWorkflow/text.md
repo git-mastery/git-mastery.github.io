@@ -14,13 +14,13 @@
 To illustrate how the workflow goes, let’s assume Jean wants to fix a bug in the code. Here are the steps:
 
 * Jean creates a separate branch in her local repo and fixes the bug in that branch.<br>
-   {{ icon_important_big_red }} Common mistake: Doing the proposed changes in the `master` branch -- if Jean does that, she will not be able to have more than one PR open at any time because any changes to the `master` branch will be reflected in all open PRs.{{  numbers_abcd }}
+   {{ icon_important_big_red }} Common mistake: Doing the proposed changes in the `main` branch -- if Jean does that, she will not be able to have more than one PR open at any time because any changes to the `main` branch will be reflected in all open PRs.{{  numbers_abcd }}
 * Jean pushes the branch to her fork.
 * Jean creates a pull request from that branch in her fork to the main repo.
 * Other members review Jean’s pull request.
 * If reviewers suggested any changes, Jean updates the PR accordingly.
 * When reviewers are satisfied with the PR, one of the members (usually the team lead or a designated 'maintainer' of the main repo) merges the PR, which brings Jean’s code to the main repo.
-* Other members, realizing there is new code in the upstream repo, sync their forks with the new upstream repo (i.e., the main repo). This is done by pulling the new code to their own local repo and pushing the updated code to their own fork. If there are unmerged branches in the local repo, they can be updated too e.g., by merging the new `master` branch to each of them.<br>
+* Other members, realizing there is new code in the upstream repo, sync their forks with the new upstream repo (i.e., the main repo). This is done by pulling the new code to their own local repo and pushing the updated code to their own fork. If there are unmerged branches in the local repo, they can be updated too e.g., by merging the new `main` branch to each of them.<br>
    {{ icon_important_big_red }} Possible mistake: Creating another 'reverse' PR from the team repo to the team member's fork to sync the member's fork with the merged code. PRs are meant to go from downstream repos to upstream repos, not in the other direction.
 
 **One main benefit of this workflow is that it does not require most contributors to have write permissions to the main repository.** Only those who are merging PRs need write permissions.
@@ -53,7 +53,7 @@ The main drawback of this workflow is the extra overhead of sending everything t
 
 * **Push that branch to your fork**.
 
-* **Create a PR** from that branch to the `master` branch of the team repo.
+* **Create a PR** from that branch to the `main` branch of the team repo.
 
 
 {{ hp_number("2") }} **For each PR: review, update, and merge.**
@@ -67,7 +67,7 @@ The main drawback of this workflow is the extra overhead of sending everything t
 * **[All members]** [**Sync your local repo (and your fork)** with upstream repo](https://help.github.com/articles/syncing-a-fork/). In this case, your _upstream repo_ is the repo in your team org.
    * The basic mechanism for this has two steps (which you can do using Git CLI or any Git GUI):<br>
      (1) First, pull from the upstream repo -- this will update your clone with the latest code from the upstream repo.<br>
-     If there are any unmerged branches in your local repo, you can update them too e.g., you can merge the new `master` branch to each of them.<br>
+     If there are any unmerged branches in your local repo, you can update them too e.g., you can merge the new `main` branch to each of them.<br>
      (2) Then, push the updated branches to your fork. This will also update any PRs from your fork to the upstream repo.
    * Some alternatives mechanisms to achieve the same can be found in [this GitHub help page](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork).<br>
      If you are new to Git, we recommend that you use the above two-step mechanism instead, so that you get a better view of what's actually happening behind the scene.
@@ -75,7 +75,7 @@ The main drawback of this workflow is the extra overhead of sending everything t
 
 {{ hp_number("3") }} **Create conflicting PRs.**
 
-* **[One member]: Update README:** In the `master` branch, remove John Doe and Jane Doe from the `README.md`, commit, and push to the main repo.{texts="['3.1)', '3.2)', '3.3)', '3.4)', '3.5)']"}
+* **[One member]: Update README:** In the `main` branch, remove John Doe and Jane Doe from the `README.md`, commit, and push to the main repo.{texts="['3.1)', '3.2)', '3.3)', '3.4)', '3.5)']"}
 
 * **[Each team member] Create a PR** to add yourself under the `Team Members` section in the `README.md`. Use a new branch for the PR e.g., `add-johnTan-name`.
 
@@ -84,8 +84,8 @@ The main drawback of this workflow is the extra overhead of sending everything t
 * [Optional] A member can inform the PR author (by posting a comment) that there is a conflict in the PR.{texts="['4.1)', '4.2)', '4.3)', '4.4)', '4.5)']"}
 
 * **[PR author] Resolve the conflict locally**:
-   1. Pull the `master` branch from the repo in your team org.
-   1. Merge the pulled `master` branch to your PR branch.
+   1. Pull the `main` branch from the repo in your team org.
+   1. Merge the pulled `main` branch to your PR branch.
    1. Resolve the merge conflict that crops up during the merge.
    1. Push the updated PR branch to your fork.
 

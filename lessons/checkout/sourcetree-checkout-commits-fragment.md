@@ -12,7 +12,7 @@ The specified commit is now loaded onto the working folder, as indicated by the 
 <pic src="images/sourcetreeHeadMoved.png" width="300" />
 <p/>
 
-To go back to the latest commit on the `master` branch, double-click the `master` branch.
+To go back to the latest commit on the `main` branch, double-click the `main` branch.
 
 <pic src="images/sourcetreeMasterBranch.png" width="300" />
 <p/>

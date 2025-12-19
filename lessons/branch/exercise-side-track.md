@@ -8,7 +8,7 @@ The steps to follow are given below:
 
 <box type="info" seamless>
 
-This repo uses `main` (not `master`) as the default branch.
+This repo uses `main` (not `main`) as the default branch.
 </box>
 
 1. **Create a branch** named `bug-fix`.<br>

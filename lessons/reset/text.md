@@ -28,7 +28,7 @@ Resetting is different from the _checkout_ feature:
 {% endset %}
 {% set b %}<small>%%[reset to `C2`...]%%</small> {% endset %}
 {% set c %}
-{{ show_commit('C3', style="light", desc="<small><md>#r#commit no longer in the `master` branch!##</md></small>") }}
+{{ show_commit('C3', style="light", desc="<small><md>#r#commit no longer in the `main` branch!##</md></small>") }}
 {{ show_commit('C2', desc=show_ref('master') + show_head() + " <small>(the new _tip_)</small>") }}
 {{ show_commit('C1', edge='') }}
 <p/>
@@ -85,7 +85,7 @@ Now we have some 'bad' commits and some 'bad' changes in both the staging area a
 
 {{ hp_number ('1') }} **Do a _soft_ reset to `B2`** (i.e., discard last two commits). Verify,
 
-* the `master` branch is now pointing at `B2`, and,
+* the `main` branch is now pointing at `B2`, and,
 * the changes that were in the discarded commits (i.e., `B3` and `B4`) are now in the staging area.
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
@@ -120,7 +120,7 @@ In the next dialog, choose `Soft - keep all local changes`.
 
 {{ hp_number ('2') }} **Do a _mixed_ reset to commit `B1`**. Verify,
 
-* the `master` branch is now pointing at `B1`.
+* the `main` branch is now pointing at `B1`.
 * the staging area is empty.
 * the accumulated changes from all three discarded commits (including those from the previous soft reset) are now appearing as unstaged changes in the working directory.<br>
   Note how `incorrect.txt` appears as an 'untracked' file -- this is because unstaging a change of type 'add file' results in an untracked file.
@@ -145,7 +145,7 @@ Similar to the previous reset, but choose the `Mixed - keep working copy but res
 
 {{ hp_number ('3') }} **Do a _hard_ reset to commit `C4`**. Verify,
 
-* the `master` branch is now pointing at `C4` i.e., all 'bad' commits are gone.
+* the `main` branch is now pointing at `C4` i.e., all 'bad' commits are gone.
 * the staging area is empty.
 * there are no unstaged changes (except for the untracked files `incorrect.txt` -- Git leaves untracked files alone, as untracked files are not meant to be under Git's control).
 
@@ -192,7 +192,7 @@ git log --oneline --graph --all
 ```
 {% call show_output() %}
 ```bash
-* fc1d04e (HEAD -> master) Add drinks.txt
+* fc1d04e (HEAD -> main) Add drinks.txt
 | * e60deae (upstream/master, origin/master) Update fruits list
 |/
 * f761ea6 (tag: v1.0) Add colours.txt, shapes.txt

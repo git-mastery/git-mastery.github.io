@@ -25,14 +25,14 @@ Given below is an illustration of how such a merge looks like in the revision gr
 <p/>
 
 * We are on the `fix1` branch (as indicated by `HEAD`). {texts="['[1]', '[2]', '[3]']"}
-* We have switched to the `master` branch (thus, `HEAD` is now pointing to `master` ref).
-* The `fix1` branch has been merged into the `master` branch, creating a _merge commit_ `f`. The repo is still on the `master` branch.
+* We have switched to the `main` branch (thus, `HEAD` is now pointing to `main` ref).
+* The `fix1` branch has been merged into the `main` branch, creating a _merge commit_ `f`. The repo is still on the `main` branch.
 
 **The branch you are merging into called the {{ show_git_term("destination branch") }}** (other terms: _receiving_ branch, _target_ branch)<br>
 **The branch you are merging is referred to as the {{ show_git_term("source branch") }}</tooltip>** (other terms: _incoming_ branch, _merge_ branch).<br>
-In the above example, `master` is the destination branch and `fix1` is the source branch.
+In the above example, `main` is the destination branch and `fix1` is the source branch.
 
-**A merge commit has two parent commits** e.g., in the above example, the merge commit `f` has both `d` and `e` as parent commits. **The parent commit on the destination branch is considered the {{ show_git_term("first parent") }} and the parent commit on the source branch is considered the {{ show_git_term("second parent") }}** e.g., in the example above, `fix1` branch is the source branch that is being merged into the destination branch `master` -- accordingly, `d` is the first parent and `e` is the second parent.
+**A merge commit has two parent commits** e.g., in the above example, the merge commit `f` has both `d` and `e` as parent commits. **The parent commit on the destination branch is considered the {{ show_git_term("first parent") }} and the parent commit on the source branch is considered the {{ show_git_term("second parent") }}** e.g., in the example above, `fix1` branch is the source branch that is being merged into the destination branch `main` -- accordingly, `d` is the first parent and `e` is the second parent.
 
 
 <!-- ================== start: HANDS-ON =========================== -->
@@ -57,7 +57,7 @@ gitGraph BT:
     checkout feature1
 </mermaid>
 
-{{ hp_number ('2') }} **Merge the `master` branch to the `feature1` branch**, giving an end-result like the following. Also note how Git has created a _merge commit_ (shown as `mc1` in the diagram below).
+{{ hp_number ('2') }} **Merge the `main` branch to the `feature1` branch**, giving an end-result like the following. Also note how Git has created a _merge commit_ (shown as `mc1` in the diagram below).
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
@@ -79,7 +79,7 @@ git merge master
 ```
 {% endset %}
 {% set sourcetree %}
-Right-click on the `master` branch and choose `merge master into the current branch`. Click `OK` in the next dialog.<br>
+Right-click on the `main` branch and choose `merge master into the current branch`. Click `OK` in the next dialog.<br>
 <pic src="{{baseUrl}}/lessons/merge/images/sourcetreeChooseToMergeMaster.png" width="500" /><br>
 _If_ a confirmation dialog pops up, choose as follows:<br>
 <pic src="{{baseUrl}}/lessons/merge/images/sourcetreeMergeConfirmationDialog.png" width="500" /><br>
@@ -91,7 +91,7 @@ The revision graph should look like this now (colours and line alignment might v
 
 <!-- ------ end: Git Tabs -------------------------------->
 
-Observe how the changes you made in the `master` branch (i.e., the imaginary bug fix in `m3`) is now available even when you are in the `feature1` branch.<br>
+Observe how the changes you made in the `main` branch (i.e., the imaginary bug fix in `m3`) is now available even when you are in the `feature1` branch.<br>
 Furthermore, observe (e.g., `git show HEAD`) how the merge commit contains the sum of changes done in  commits `m3`, `f1`, and `f2`.
 
 {{ hp_number ('3') }} **Add another commit to the `feature1` branch**, in which you do some further changes to the `boxing.txt`.
@@ -99,7 +99,7 @@ Furthermore, observe (e.g., `git show HEAD`) how the merge commit contains the s
 echo -e "Manny Pacquiao" >> boxing.txt
 git commit -am "Add Manny to boxing.txt"
 ```
-**Switch to the `master` branch and add one more commit.**
+**Switch to the `main` branch and add one more commit.**
 ```bash
 git switch master
 echo -e "Lionel Messi" >> football.txt
@@ -188,7 +188,7 @@ gitGraph BT:
 {% endset %}
 {{ show_transformation_columns(a, b, c) }}
 
-In the example above, the `master` branch has not changed since the merge base (i.e., `m2`). Hence, merging the branch `bug-fix` onto `master` can be done by fast-forwarding the `master` branch ref to the tip of the `bug-fix` branch (i.e., `b2`).
+In the example above, the `main` branch has not changed since the merge base (i.e., `m2`). Hence, merging the branch `bug-fix` onto `main` can be done by fast-forwarding the `main` branch ref to the tip of the `bug-fix` branch (i.e., `b2`).
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Do a fast-forward merge")  %}
@@ -223,7 +223,7 @@ gitGraph BT:
 
 {{ hp_number(hop_target) }} Do a fast-forward merge of the `add-swimming` branch.
 
-{{ hp_number ('1') }} **Ensure you are on the `master` branch.**
+{{ hp_number ('1') }} **Ensure you are on the `main` branch.**
 
 <mermaid>
 gitGraph BT:
@@ -234,7 +234,7 @@ gitGraph BT:
     commit id: "add-swimming] a2"
 </mermaid>
 
-{{ hp_number ('2') }} **Merge the `add-swimming` branch onto the `master` branch.** Observe that there is no merge commit. The `master` branch ref (and the `HEAD` ref along with it) moved to the tip of the `add-swimming` branch (i.e., `a2`) and both branches now point to `a2`.
+{{ hp_number ('2') }} **Merge the `add-swimming` branch onto the `main` branch.** Observe that there is no merge commit. The `main` branch ref (and the `HEAD` ref along with it) moved to the tip of the `add-swimming` branch (i.e., `a2`) and both branches now point to `a2`.
 
 <mermaid>
 gitGraph BT:
@@ -325,7 +325,7 @@ gitGraph BT:
 {{ show_transformation_columns(a, b, c) }}
 <!-- ------ end: transformation columns -------------------------------->
 
-In the example above, the branch `feature` has been squash merged onto the `master` branch, creating a single 'squashed' commit `s1` that combines all the commits in `feature` branch.
+In the example above, the branch `feature` has been squash merged onto the `main` branch, creating a single 'squashed' commit `s1` that combines all the commits in `feature` branch.
 
 
 After a squash merge, you typically delete the source branch, so its individual commits are no longer kept. The destination branch's history stays linear, as the work done in the source branch is replaced by one commit on the destination branch. As a result, a squash merge commit is just a normal commit, and does not have a 'parent' reference to the source branch.

@@ -13,7 +13,7 @@ git log --oneline --decorate
 
 {% call show_output() %}
 ```bash{.no-line-numbers}
-e60deae (HEAD -> master, origin/master) Update fruits list
+e60deae (HEAD -> main, origin/master) Update fruits list
 f761ea6 (tag: v1.0) Add colours.txt, shapes.txt
 2bedace (tag: v0.9) Insert figs into fruits.txt
 d5f91de Add fruits.txt
@@ -76,7 +76,7 @@ d5f91de Add fruits.txt
 ```
 {% endcall %}
 
-{{ hp_number ('4') }} **Go back to the latest commit** by checking out the `master` branch again.
+{{ hp_number ('4') }} **Go back to the latest commit** by checking out the `main` branch again.
 
 ```bash{.no-line-numbers}
 git checkout master

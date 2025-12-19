@@ -25,7 +25,7 @@ While Git cannot rename a remote branch in place, **[GitHub allows you to rename
 
 {{ hp_number("Steps") }}
 
-1. Ensure you are in the `master` branch.
+1. Ensure you are in the `main` branch.
 1. Create a local copy of the remote-tracking branch `origin/fantasy`.
 1. Rename the local copy of the branch to `fantasy-books`.
 1. Push the renamed local branch to the remote, while setting up tracking for the branch as well.

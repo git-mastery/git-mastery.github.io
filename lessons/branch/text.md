@@ -9,12 +9,12 @@
 **To work in parallel timelines, you can use Git _branches_.**
 {% endcall %}
 
-**Git {{ show_git_term("branches") }} let you develop multiple versions of your work in parallel — effectively creating {{ show_git_term("diverged") }} timelines of your repository’s history.** For example, one team member can create a new branch to experiment with a change, while the rest of the team continues working on another branch. Branches can have meaningful names, such as `master`, `release`, or `draft`.
+**Git {{ show_git_term("branches") }} let you develop multiple versions of your work in parallel — effectively creating {{ show_git_term("diverged") }} timelines of your repository’s history.** For example, one team member can create a new branch to experiment with a change, while the rest of the team continues working on another branch. Branches can have meaningful names, such as `main`, `release`, or `draft`.
 
 **A Git branch is simply a ref (a named label) that points to a commit and automatically moves forward as you add new commits to that branch.** As you’ve seen before, the `HEAD` ref indicates which branch you’re currently working on, by pointing to the corresponding branch ref.<br>
 **When you add a commit, it goes into the branch you are currently on**, and the branch ref (together with the `HEAD` ref) moves to the new commit.
 
-**Git creates a branch named `master` by default** (Git can be configured to use a different name e.g., `main`).
+**Git creates a branch named `main` by default** (Git can be configured to use a different name e.g., `main`).
 
 Given below is an illustration of how branch refs move as branches evolve. Refer to the text below it for explanations of each stage.
 
@@ -26,8 +26,8 @@ Given below is an illustration of how branch refs move as branches evolve. Refer
 </annotate>
 <p/>
 
-* There is only one branch (i.e., `master`) and there is only one commit on it. The `HEAD` ref is pointing to the `master` branch (as we are currently on that branch). {texts="['[1]', '[2]', '[3]', '[4]']"}
-* A new commit has been added. The `master` and the `HEAD` refs have moved to the new commit.
+* There is only one branch (i.e., `main`) and there is only one commit on it. The `HEAD` ref is pointing to the `main` branch (as we are currently on that branch). {texts="['[1]', '[2]', '[3]', '[4]']"}
+* A new commit has been added. The `main` and the `HEAD` refs have moved to the new commit.
 * A new branch `fix1` has been added. The repo has switched to the new branch too (hence, the `HEAD` ref is attached to the `fix1` branch).
 * A new commit (`c`) has been added. The current branch ref `fix1` moves to the new commit, together with the `HEAD` ref.
    At this point, the repo's working directory reflects the code at commit `b` (not `c`).
@@ -38,9 +38,9 @@ Given below is an illustration of how branch refs move as branches evolve. Refer
 <a-point x="70%" y="5%" label="[7]" opacity="0"/>
 </annotate>
 
-* A new commit (`d`) has been added. The `master` and the `HEAD` refs have moved to that commit. {texts="['[5]', '[6]', '[7]']"}
-* The repo has switched back to the `fix1` branch and added a new commit `e` to it. Note how the branch ref `fix1` (together with `HEAD`) has moved to the new commit `e` while the branch ref `master` still points to `d`.
-* The repo has switched back to the `master` branch. Hence, the `HEAD` has moved back to `master` branch's <tooltip content="latest commit of that branch">tip</tooltip>.<br>
+* A new commit (`d`) has been added. The `main` and the `HEAD` refs have moved to that commit. {texts="['[5]', '[6]', '[7]']"}
+* The repo has switched back to the `fix1` branch and added a new commit `e` to it. Note how the branch ref `fix1` (together with `HEAD`) has moved to the new commit `e` while the branch ref `main` still points to `d`.
+* The repo has switched back to the `main` branch. Hence, the `HEAD` has moved back to `main` branch's <tooltip content="latest commit of that branch">tip</tooltip>.<br>
 
 <box type="warning" seamless>
 
@@ -68,7 +68,7 @@ git stage football.txt
 git commit -m "Add football.txt"
 ```
 
-{{ hp_number ('1') }} **Observe that you are on the branch called `master`.**
+{{ hp_number ('1') }} **Observe that you are on the branch called `main`.**
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
 ```bash
@@ -148,7 +148,7 @@ Note how the `feature1` is indicated as the current branch (reason: Sourcetree a
   git commit -m "Add boxing.txt"
   ```
 * Observe how commits you add while on `feature1` branch will becomes part of that branch.<br>
-  Observe how the `master` ref and the `HEAD` ref move to the new commit.
+  Observe how the `main` ref and the `HEAD` ref move to the new commit.
 
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
@@ -168,7 +168,7 @@ As before, you can use the `git log --oneline --decorate` command for this.
   git commit -am "Add Tyson to boxing.txt"
   ```
 
-{{ hp_number ('4') }} **Switch to the `master` branch.** Note how the changes you made in the `feature1` branch are no longer in the working directory.
+{{ hp_number ('4') }} **Switch to the `main` branch.** Note how the changes you made in the `feature1` branch are no longer in the working directory.
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 ```bash
@@ -176,14 +176,14 @@ git switch master
 ```
 {% endset %}
 {% set sourcetree %}
-Double-click the `master` branch.
+Double-click the `main` branch.
 
 <pic eager src="{{baseUrl}}/lessons/branch/images/sourcetreeMasterBranchSelected.png" height="150" />
 <p/>
 
-<box type="info" header="Revisiting `master` vs `origin/master`" seamless>
+<box type="info" header="Revisiting `main` vs `origin/master`" seamless>
 
-In the screenshot above, you see a `master` ref and a `origin/master` ref for the same commit. The former identifies the <tooltip content="i.e., the most recent commit on the branch">tip</tooltip> of the local `master` branch while the latter identifies the tip of the `master` branch at the remote repo named `origin`. The fact that both refs point to the same commit means the local `master` branch and its remote counterpart are <tooltip content="neither one has commits the other one doesn't">in sync</tooltip> with each other.
+In the screenshot above, you see a `main` ref and a `origin/master` ref for the same commit. The former identifies the <tooltip content="i.e., the most recent commit on the branch">tip</tooltip> of the local `main` branch while the latter identifies the tip of the `main` branch at the remote repo named `origin`. The fact that both refs point to the same commit means the local `main` branch and its remote counterpart are <tooltip content="neither one has commits the other one doesn't">in sync</tooltip> with each other.
 Similarly, `origin/HEAD` ref appearing against the same commit indicates that <tooltip content="`HEAD` ref indicates the currently checked-out branch's latest commit">the `HEAD` ref</tooltip> of the remote repo is pointing to this commit as well.
 
 </box>
@@ -191,8 +191,8 @@ Similarly, `origin/HEAD` ref appearing against the same commit indicates that <t
 {{ show_git_tabs_from_text(cli, sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
-{{ hp_number ('5') }} **Add a commit to the `master` branch.** Let’s imagine it’s a bug fix.<br>
-To keep things simple for the time being, this commit should ==not involve the `boxing.txt` file that you changed in the `feature1` branch==. Of course, this is easily done, as the `boxing.txt` file you added in the `feature1` branch is not even visible when you are in the `master` branch.
+{{ hp_number ('5') }} **Add a commit to the `main` branch.** Let’s imagine it’s a bug fix.<br>
+To keep things simple for the time being, this commit should ==not involve the `boxing.txt` file that you changed in the `feature1` branch==. Of course, this is easily done, as the `boxing.txt` file you added in the `feature1` branch is not even visible when you are in the `main` branch.
 ```bash
 echo -e "Martina Navratilova" >> tennis.txt
 git commit -am "Add Martina to tennis.txt"
@@ -247,13 +247,13 @@ gitGraph BT:
 
 **Avoid this rookie mistake!**{.text-danger}
 
-==Always remember to switch back to the `master` branch before creating a new branch.== If not, your new branch will be created on top of the current branch.
+==Always remember to switch back to the `main` branch before creating a new branch.== If not, your new branch will be created on top of the current branch.
 </box>
 
 
-{{ hp_number('1') }} Switch to the `master` branch.
+{{ hp_number('1') }} Switch to the `main` branch.
 
-{{ hp_number('2') }} Checkout the commit at which the `feature1` branch diverged from the `master` branch (e.g. `git checkout HEAD~1`). This will create a detached `HEAD`.
+{{ hp_number('2') }} Checkout the commit at which the `feature1` branch diverged from the `main` branch (e.g. `git checkout HEAD~1`). This will create a detached `HEAD`.
 
 {{ hp_number('3') }} Create a new branch called `feature1-alt`. The `HEAD` will now point to this new branch (i.e., no longer 'detached').
 

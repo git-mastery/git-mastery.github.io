@@ -21,7 +21,7 @@ When merging branches, **you need to guide Git on how to resolve conflicting cha
 {{ hp_number(hop_preparation) }} We need a repo with two branches containing conflicting changes. Given below is how you can create such a scenario:
 1. **Create a repo named `nouns`** with one commit.
 1. **Start a branch named `fix1` in the repo. Create a commit** that adds a line with some text to one of the files.
-1. **Switch back to `master` branch. Create a commit with a conflicting change** i.e., it adds a line with some different text in the exact location the previous line was added.
+1. **Switch back to `main` branch. Create a commit with a conflicting change** i.e., it adds a line with some different text in the exact location the previous line was added.
 
 The above can be done with the following commands:
 
@@ -54,7 +54,7 @@ gitGraph BT:
     commit id: "[HEAD → master] Add black, red, white"
 </mermaid>
 
-As you can see from the above, both `master` and `fix1` branches are modifying the same file at the same location. The master branch is inserting `black` in the same place the `fix1` is inserting `green`.
+As you can see from the above, both `main` and `fix1` branches are modifying the same file at the same location. The master branch is inserting `black` in the same place the `fix1` is inserting `green`.
 
 {% set a %} <!-- ------ start: columns --------------->
 ```txt {.line-numbers highlight-lines="2" heading="colours.txt"}
@@ -63,7 +63,7 @@ black
 red
 white
 ```
-<small>->[`master` branch]<-</small>
+<small>->[`main` branch]<-</small>
 {% endset %}
 {% set b %}
 ```txt {.line-numbers highlight-lines="2" heading="colours.txt"}
@@ -80,7 +80,7 @@ white
 {{ hp_number(hop_target) }} Merge the two branches while reconciling the conflicting changes in the two branches.
 
 
-{{ hp_number("1") }} **Try to merge the `fix1` branch onto the `master` branch.** Git will pause mid-way during the merge and report a merge conflict. If you open the conflicted file `colours.txt`, you will see something like this:
+{{ hp_number("1") }} **Try to merge the `fix1` branch onto the `main` branch.** Git will pause mid-way during the merge and report a merge conflict. If you open the conflicted file `colours.txt`, you will see something like this:
 
 ``` {.line-numbers highlight-lines="2,4,6" heading="colours.txt"}
 blue
@@ -95,7 +95,7 @@ white
 
 {{ hp_number("2") }} **Observe how the conflicted part is marked** between a line starting with `<<<<<< ` and a line starting with `>>>>>>`, separated by another line starting with `=======`.
 
-Highlighted in ==yellow== in the box below is the conflicting part that is coming from the `master` branch (note the `HEAD` label in line 2, which indicates this conflicting change is in the currently active branch, which is the `master` branch):
+Highlighted in ==yellow== in the box below is the conflicting part that is coming from the `main` branch (note the `HEAD` label in line 2, which indicates this conflicting change is in the currently active branch, which is the `main` branch):
 
 ```txt {.line-numbers highlight-lines="2,3@yellow,4"}
 blue

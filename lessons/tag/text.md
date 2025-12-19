@@ -61,7 +61,7 @@ git log --oneline --decorate
 ```
 {% call show_output() %}
 ```bash{.no-line-numbers highlight-lines="1['tag: v1.0']"}
-507bb74 (HEAD -> master, tag: v1.0, origin/master, origin/HEAD) Add donuts
+507bb74 (HEAD -> main, tag: v1.0, origin/master, origin/HEAD) Add donuts
 de97f08 Add cake
 5e6733a Add bananas
 3398df7 Add food.txt

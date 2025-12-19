@@ -46,7 +46,7 @@ Suppose you added a new feature to a software product, and while testing it, you
 {{ show_commit('C1', edge='') }}
 <p/>
 {% endset %}
-{% set b %}<small>%%[check out `master`...]%%</small> {% endset %}
+{% set b %}<small>%%[check out `main`...]%%</small> {% endset %}
 {% set c %}
 {{ show_commit('C3', desc=show_ref('master') + show_head() + " <small>%%head re-attached!%%</small>") }}
 {{ show_commit('C2') }}

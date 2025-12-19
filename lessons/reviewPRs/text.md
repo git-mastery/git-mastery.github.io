@@ -16,7 +16,7 @@
 * Create a branch in a repo that you have forked and cloned (e.g., [samplerepo-pr-practice](https://github.com/se-edu/samplerepo-pr-practice)). {{ numbers_roman }}
 * Do some changes in the branch.
 * Push the branch to the remote repo.
-* Create a PR within your fork, from the new branch to the `master` branch.
+* Create a PR within your fork, from the new branch to the `main` branch.
 
 
 

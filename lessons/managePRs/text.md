@@ -14,7 +14,7 @@
 * Create a branch in a repo that you have forked and cloned (e.g., [samplerepo-pr-practice](https://github.com/se-edu/samplerepo-pr-practice)). {{ numbers_roman }}
 * Do some changes in the branch.
 * Push the branch to the remote repo.
-* Create a PR within your fork, from the new branch to the `master` branch.
+* Create a PR within your fork, from the new branch to the `main` branch.
 
 
 {{ hp_number("1") }} **Locate the PR** to be merged in your repo's GitHub page.
@@ -24,10 +24,10 @@
 
 {{ hp_number("3") }} **If the PR is not merge-able in the current state**, the {{ button_light("Merge pull request :octicon-triangle-down:") }} will not be green. Here are the possible reasons and remedies:
 
-* **Problem: The PR code is out-of-date**, indicated by the message **%%This branch is out-of-date with the base branch%%**. That means the repo's `master` branch has been updated since the PR code was last updated.
+* **Problem: The PR code is out-of-date**, indicated by the message **%%This branch is out-of-date with the base branch%%**. That means the repo's `main` branch has been updated since the PR code was last updated.
   * If the PR author has allowed you to update the PR and you have sufficient permissions, GitHub will allow you to update the PR simply by clicking the {{ button_light("Update branch") }} on the right side of the 'out-of-date' error message.
     If that option is not available, post a message in the PR requesting the PR author to update the PR.
-* **Problem: There are merge conflicts**, indicated by the message **%%This branch has conflicts that must be resolved%%**. That means the repo's `master` branch has been updated since the PR code was last updated, in a way that the PR code conflicts with the current `master` branch. Those <trigger trigger="click" for="modal:managePRs-mergeConflics">conflicts must be resolved</trigger>  before the PR can be merged.
+* **Problem: There are merge conflicts**, indicated by the message **%%This branch has conflicts that must be resolved%%**. That means the repo's `main` branch has been updated since the PR code was last updated, in a way that the PR code conflicts with the current `main` branch. Those <trigger trigger="click" for="modal:managePRs-mergeConflics">conflicts must be resolved</trigger>  before the PR can be merged.
   * If the conflicts are simple, GitHub might allow you to resolve them using the Web interface.
   * If that option is not available, post a message in the PR requesting the PR author to update the PR.
 

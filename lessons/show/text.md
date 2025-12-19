@@ -20,11 +20,11 @@ It is useful to be able to **see what changes were included in a specific commit
 1. **Compression:** Git also compresses all the files and data it stores using an algorithm (zlib). So, even the objects that are stored (whether reused or new) take up less disk space because they are saved in a compressed format.
 
 **To address a specific commit, you can use its SHA** (e.g., `e60deaeb2964bf2ebc907b7416efc890c9d4914b`). In fact, just the first few characters of the SHA is enough to uniquely address a commit (e.g., `e60deae`), provided the partial SHA is long enough to uniquely identify the commit (i.e., only one commit has that partial SHA).<br>
-**Naturally, a commit can be addressed using any ref pointing to it** too (e.g., `HEAD`, `master`).<br>
+**Naturally, a commit can be addressed using any ref pointing to it** too (e.g., `HEAD`, `main`).<br>
 **Another related technique is to use the `<ref>~<n>` notation** (e.g., `HEAD~1`) to address the commit that is `n` commits prior to the commit pointed by `<ref>` i.e., "start with the commit pointed by `<ref>` and go back `n` commits".<br>
 A related alternative notation is `HEAD~`, `HEAD~~`, `HEAD~~~`, ... to mean `HEAD~1`, `HEAD~2`, `HEAD~3` etc.
 
-{{ show_commit('C3', desc=show_ref('master') + ' ' + show_head(), msg='This commit can be addressed as `HEAD` or `master`') }}
+{{ show_commit('C3', desc=show_ref('master') + ' ' + show_head(), msg='This commit can be addressed as `HEAD` or `main`') }}
 {{ show_commit('C2', msg='Can be addressed as `HEAD~1` or `master~1` or `HEAD~` or `master~`') }}
 {{ show_commit('C1', msg='Can be addressed as `HEAD~2` or `master~2`', edge='') }}
 <p/>
@@ -162,7 +162,7 @@ git log --oneline --decorate
 ```
 {% call show_output() %}
 ```bash{.no-line-numbers}
- e60deae (HEAD -> master, origin/master) Update fruits list
+ e60deae (HEAD -> main, origin/master) Update fruits list
  f761ea6 Add colours.txt, shapes.txt
  2bedace Insert figs into fruits.txt
  d5f91de Add fruits.txt
@@ -176,7 +176,7 @@ git show  # shows the latest commit
 ```
 {% call show_output() %}
 ```diff{.no-line-numbers}
-commit e60deaeb2964bf2ebc907b7416efc890c9d4914b (HEAD -> master, origin/master)
+commit e60deaeb2964bf2ebc907b7416efc890c9d4914b (HEAD -> main, origin/master)
 Author: damithc <...@...>
 Date:   Sat Jun ...
 

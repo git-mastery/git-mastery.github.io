@@ -13,7 +13,7 @@
 
 Rebasing is especially useful when you want to update your branch with the latest changes from a main branch, but you prefer an uncluttered history with fewer merge commits.
 
-Suppose we have the following revision graph, and we want to sync the `feature` branch with `master`, so that changes in commit `m2` become visible to the `feature` branch.
+Suppose we have the following revision graph, and we want to sync the `feature` branch with `main`, so that changes in commit `m2` become visible to the `feature` branch.
 <mermaid>
 gitGraph
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
@@ -27,7 +27,7 @@ gitGraph
     commit id: "[HEAD → feature] f2"
 </mermaid>
 
-If we merge the `master` branch to the `feature` branch as given below, `m2` becomes visible to the `feature` branch. However, it creates a merge commit.
+If we merge the `main` branch to the `feature` branch as given below, `m2` becomes visible to the `feature` branch. However, it creates a merge commit.
 <mermaid>
 gitGraph
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}
@@ -41,7 +41,7 @@ gitGraph
     commit id: "f2"
     merge master id: "[HEAD → feature] mc1"
 </mermaid>
-Instead of merging, if we _rebased_ the `feature` branch on the `master` branch, we would get the following.
+Instead of merging, if we _rebased_ the `feature` branch on the `main` branch, we would get the following.
 <mermaid>
 gitGraph
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'master'}} }%%" }}

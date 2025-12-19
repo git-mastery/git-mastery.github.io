@@ -5,7 +5,7 @@
 
 <div id="body">
 
-**{{ show_git_term("Feature branch workflow") }} is similar to the forking workflow except there are no forks.** Everyone is pushing/pulling from the same remote repo. The phrase _feature branch_ is used because each new feature (or bug fix, or any other modification) is done in a separate branch and merged to the `master` branch when ready. Pull requests can still be created within the central repository, from the feature branch to the main branch.
+**{{ show_git_term("Feature branch workflow") }} is similar to the forking workflow except there are no forks.** Everyone is pushing/pulling from the same remote repo. The phrase _feature branch_ is used because each new feature (or bug fix, or any other modification) is done in a separate branch and merged to the `main` branch when ready. Pull requests can still be created within the central repository, from the feature branch to the main branch.
 
 As this workflow require all team members to have write access to the repository,
   * it is better to _protect_ the main branch using some mechanism, to reduce the risk of accidental undesirable changes to it.

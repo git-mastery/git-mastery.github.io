@@ -10,14 +10,14 @@
 Suppose you want to propose some changes to a GitHub repo (e.g., [samplerepo-pr-practice](https://github.com/se-edu/samplerepo-pr-practice)) as a pull request (PR).
 
 <!-- ================== start: HANDS-ON =========================== -->
-{% call show_hands_on_practical("<md>Create a PR from the `master` branch</md>")  %}
+{% call show_hands_on_practical("<md>Create a PR from the `main` branch</md>")  %}
 
 {{ hp_number("preparation") }} [samplerepo-pr-practice](https://github.com/se-edu/samplerepo-pr-practice) is an unmonitored repo that we have created for you to practice working with PRs.
 
 * **Fork** that repo onto your GitHub account.{{ numbers_roman }}
 * **Clone** it onto your computer.
-* **Commit** some changes (e.g., add a new file with some contents) onto the `master` branch.
-* **Push** the branch you updated (i.e., `master` branch or the new branch) to your fork, as explained <trigger trigger="click" for="modal:createPr-pushBranch">here</trigger>.
+* **Commit** some changes (e.g., add a new file with some contents) onto the `main` branch.
+* **Push** the branch you updated (i.e., `main` branch or the new branch) to your fork, as explained <trigger trigger="click" for="modal:createPr-pushBranch">here</trigger>.
 
 <modal large header="Git & GitHub → Updating the Remote Repo →" id="modal:createPr-pushBranch">
   <include src="../push/text.md#body"/>
@@ -67,9 +67,9 @@ Normally, the default value shown in the dropdown is what you want but in case y
 
 **You can update the PR along the way too.** Suppose PR reviewers suggested a certain improvement to your proposed code. To update your PR as per the suggestion, you can simply modify the code in your local repo, commit the updated code to the same branch as before, and push to your fork as you did earlier. The PR will auto-update accordingly.
 
-**Sending PRs using the `master` branch is less common** than sending PRs using separate branches. For example, suppose you wanted to propose two bug fixes that are not related to each other. In that case, it is more appropriate to send two separate PRs so that each fix can be reviewed, refined, and merged independently. But if you send PRs using the `master` branch only, both fixes (and any other change you do in the `master` branch) will appear in the PRs you create from it.
+**Sending PRs using the `main` branch is less common** than sending PRs using separate branches. For example, suppose you wanted to propose two bug fixes that are not related to each other. In that case, it is more appropriate to send two separate PRs so that each fix can be reviewed, refined, and merged independently. But if you send PRs using the `main` branch only, both fixes (and any other change you do in the `main` branch) will appear in the PRs you create from it.
 
-**It is possible to create PRs within the same repo too** e.g., you can create a PR from branch `feature-x` to the `master` branch, within the same repo. Doing so will allow the code to be reviewed by other developers (using PR review mechanism) before it is merged.
+**It is possible to create PRs within the same repo too** e.g., you can create a PR from branch `feature-x` to the `main` branch, within the same repo. Doing so will allow the code to be reviewed by other developers (using PR review mechanism) before it is merged.
 
 </div>
 

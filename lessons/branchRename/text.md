@@ -88,7 +88,7 @@ git log --oneline --decorate --graph --all  # verify the changes
 ```
 {% call show_output() %}
 ```bash{.no-line-numbers}
-*   443132a (HEAD -> master) Merge branch textbooks
+*   443132a (HEAD -> main) Merge branch textbooks
 |\
 | * 4969163 (study-books) Add textbooks.txt
 |/

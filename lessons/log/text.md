@@ -11,7 +11,7 @@ It is useful to be able to **visualise the commits timeline, aka the _revision g
 {% endcall %}
 
 **Git commits form a timeline**, as each corresponds to a point in time when you asked Git to take a snapshot of your working directory. Each commit links to at least one previous commit, forming a structure that we can traverse.<br>
-**A timeline of commits is called a {{ show_git_term('branch') }}**. By default, Git names the initial branch `master` -- though many now use `main` instead. You'll learn more about branches in future lessons. For now, just be aware that the commits you create in a new repo will be on a branch called `master` (or `main`) by default.
+**A timeline of commits is called a {{ show_git_term('branch') }}**. By default, Git names the initial branch `main` -- though many now use `main` instead. You'll learn more about branches in future lessons. For now, just be aware that the commits you create in a new repo will be on a branch called `main` (or `main`) by default.
 
 <mermaid>
 gitGraph
@@ -82,7 +82,7 @@ In the revision graph above, there are two refs {{ show_ref('master') }} and &nb
 * {{ show_ref('master') }} is a branch ref. **A {{ show_git_term("branch ref") }} points to the latest commit on a branch**. In this visualisation, the commit shown alongside the ref is the one it points to i.e., `C3`.<br>
   **When you create a new commit, the branch ref of the <tooltip content="the currently active branch">current</tooltip> branch moves to the new commit.**<br>
   You'll be learning more about Git branches in a later lesson.
-* **{{ show_head()}} is a special ref that typically points to the current branch and moves along with that branch ref.** In this example, it is pointing to the `master` branch.<br>
+* **{{ show_head()}} is a special ref that typically points to the current branch and moves along with that branch ref.** In this example, it is pointing to the `main` branch.<br>
   In certain cases, the `HEAD` may point directly to a specific commit instead of a branch. This situation is called a 'detached `HEAD`', which will be covered in a later lesson.
 
 

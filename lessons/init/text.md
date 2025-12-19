@@ -88,7 +88,7 @@ nothing to commit (create/copy files and use "git add" to track)
 ```
 {% endcall %}
 
-{{ icon_info }} Don't worry if you don't understand the output (we will learn about them later) or if your output is slightly different (e.g., `main` instead of `master`); what matters is that it no longer gives an error message as it did before.
+{{ icon_info }} Don't worry if you don't understand the output (we will learn about them later) or if your output is slightly different (e.g., `main` instead of `main`); what matters is that it no longer gives an error message as it did before.
 {% endcall %}
 
 * **Second, Git created a hidden subfolder named `.git`** inside the `things` folder. This folder will be used by Git to store metadata about this repository.{{ bold_number("b)") }}

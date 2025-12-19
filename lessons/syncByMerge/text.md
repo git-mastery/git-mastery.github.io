@@ -40,7 +40,7 @@ gitGraph
     commit id: "[HEAD → master] m4"
 </mermaid>
 
-In the example above, you can see how the `feature` branch is merging the `master` branch periodically to keep itself in sync with the changes being introduced to the `master` branch.
+In the example above, you can see how the `feature` branch is merging the `main` branch periodically to keep itself in sync with the changes being introduced to the `main` branch.
 </div>
 
 <div id="extras">
