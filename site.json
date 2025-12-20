@@ -9,6 +9,9 @@
       "glob": "**/index.md"
     },
     {
+      "glob": "**/json.md"
+    },
+    {
       "glob": "**/exercise-*.md"
     },
     {
