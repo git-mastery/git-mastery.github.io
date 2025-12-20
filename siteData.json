@@ -380,6 +380,11 @@
       "headingKeywords": {}
     },
     {
+      "src": "exercises-directory/json.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
       "src": "lessons/branch/exercise-branch-compare.md",
       "headings": {
         "exercise-branch-compare": "Exercise branch-compare"
