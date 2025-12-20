@@ -1,0 +1,30 @@
+2025-12-20T07:09:21.597Z - info: Website generation (lazy) started at 15:09:21
+2025-12-20T07:09:21.797Z - info: Building assets...
+2025-12-20T07:09:22.097Z - info: Assets built
+2025-12-20T07:09:22.097Z - info: Generating landing page...
+2025-12-20T07:09:22.195Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-12-20T07:09:22.265Z - info: Site data built
+2025-12-20T07:09:22.265Z - info: Website generation (lazy) complete! Total build time: 0.857s
+2025-12-20T07:09:22.275Z - info: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2025-12-20T07:09:22.275Z - info: Press CTRL+C to stop ...
+2025-12-20T07:09:26.617Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/exercises-directory/index as some of its dependencies were changed since the last visit
+2025-12-20T07:09:26.906Z - info: Site data built
+2025-12-20T07:09:26.906Z - info: Lazy website regeneration complete! Total build time: 0.289s
+2025-12-20T07:11:05.875Z - info: [15:11:05] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/exercises-directory/index.md
+2025-12-20T07:11:05.878Z - info: Synchronizing opened pages list before reload
+2025-12-20T07:11:05.883Z - info: Current opened pages, from most-to-least recent:
+2025-12-20T07:11:05.884Z - info: 1. exercises-directory/index
+2025-12-20T07:11:06.897Z - info: Rebuilding 1 pages
+2025-12-20T07:11:07.160Z - info: Site data built
+2025-12-20T07:11:07.160Z - info: Pages rebuilt
+2025-12-20T07:11:07.160Z - info: Website regeneration complete! Total build time: 0.268s
+2025-12-20T07:11:22.664Z - info: [15:11:22] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/exercises-directory/index.md
+2025-12-20T07:11:22.664Z - info: Synchronizing opened pages list before reload
+2025-12-20T07:11:22.664Z - info: Current opened pages, from most-to-least recent:
+2025-12-20T07:11:22.665Z - info: 1. exercises-directory/index
+2025-12-20T07:11:23.668Z - info: Rebuilding 1 pages
+2025-12-20T07:11:24.047Z - info: Site data built
+2025-12-20T07:11:24.047Z - info: Pages rebuilt
+2025-12-20T07:11:24.047Z - info: Website regeneration complete! Total build time: 0.381s
+2025-12-20T07:11:43.463Z - info: Website generation started at 15:11:43
+2025-12-20T07:11:43.582Z - info: Building assets...
