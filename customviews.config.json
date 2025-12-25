@@ -41,5 +41,5 @@
     "showWelcome": true,
     "title": "Configure your view of Git-Mastery site"
   },
-  "showUrl": true
+  "showUrl": false
 }
