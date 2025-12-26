@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_output, show_protip, show_ref, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_output, show_protip, show_ref, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can examine the changes in a commit.</span>
@@ -152,7 +152,14 @@ Points to note:
 
 {{ hp_number(hop_target) }}**View contents of specific commits** in a repo.
 
-{{ hp_number(hop_preparation) }} You can use any repo that has commits e.g., the `things` repo.
+{{ hp_number(hop_preparation) }}
+
+{% set manual %}
+
+You can use any repo that has commits e.g., the `things` repo you used in earlier hands-on practicals.
+{% endset %}
+{{ show_hop_prep('hp-view-commits', manual_info=manual) }}
+
 
 {% set cli %}
 {{ hp_number ('1') }} **Locate the commits to view**, using the revision graph.
@@ -223,4 +230,6 @@ Click on the commit. The remaining panels (indicated in the image below) will be
 </div>
 
 <div id="extras">
+{{ show_exercise(exercises.view_commits) }}
+
 </div>

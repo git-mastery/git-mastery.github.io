@@ -11,7 +11,7 @@ Now, you have found that the **last few commits have some problems**, might need
 
 <div id="task" class="d-none">
 
-To preparation for the manual fixes to problematic fixes, do the following steps.
+To preparation for the manual fixes to problematic commits, do the following steps.
 
 1. Discard the last two commits entirely. They are totally incorrect.
 2. Discard the next commit (i.e., data for Jan 13) but keep the changes in the working directory. They need some major changes, which you'll do later.

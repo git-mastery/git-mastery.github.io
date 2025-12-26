@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_output, show_ref, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_steps_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Able to check out a commit.</span>
@@ -61,9 +61,11 @@ Suppose you added a new feature to a software product, and while testing it, you
 
 {{ hp_number(hop_target) }} **Checkout a few commits in a local repo**, while examining the working directory to verify that it matches the state when you created the corresponding commit
 
-{{ hp_number(hop_preparation) }} Use any repo with commits e.g., the `things` repo
+{{ hp_number(hop_preparation) }}
 
-{{ show_git_tabs('-checkout-commits-fragment') }}
+{{ show_hop_prep('hp-checkout-commits', manual_info="Use any repo with commits e.g., the `things` repo") }}
+
+{{ show_steps_tabs('checkout-commits') }}
 
 <box type="info" seamless>
 
@@ -82,6 +84,7 @@ If you check out a commit that comes before the commit in which you added a cert
 </div>
 
 <div id="extras">
+{{ show_exercise(exercises.sensors_checkout) }}
 {{ show_detour('stashingChanges') }}
 {{ show_detour('conflictAtCheckout') }}
 </div>

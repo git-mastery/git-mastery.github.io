@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_output, show_ref, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Able to tag a commit.</span>
@@ -36,7 +36,12 @@ When working with many commits, it helps to **tag specific commits with custom n
 
 {{ hp_number(hop_target) }} **Add a few tags to a repository.**
 
-{{ hp_number (hop_preparation) }} **Fork and clone the [samplerepo-preferences](https://github.com/git-mastery/samplerepo-preferences).** Use the cloned repo on your computer for the following steps.
+{{ hp_number (hop_preparation) }}
+
+{% set manual %}
+**Fork and clone the [samplerepo-preferences](https://github.com/git-mastery/samplerepo-preferences)** to your computer.
+{% endset %}
+{{ show_hop_prep('hp-add-tags', manual_info=manual) }}
 
 {% set cli %}
 
@@ -123,7 +128,9 @@ Tags will appear as labels in the revision graph, as seen below. To see the deta
 
 {% call show_hands_on_practical('Deleting/moving tags')  %}
 
-{{ hp_number(hop_preparation) }} Continue with the same repo you used for the previous hands-on practical.
+{{ hp_number(hop_preparation) }}
+
+{{ show_hop_prep('hp-move-tags', is_continue=1) }}
 
 **Move the `v1.0` tag to the commit `HEAD~1`**, by deleting it first and creating it again at the destination commit.
 
@@ -157,7 +164,10 @@ The same dialog used to add a tag can be used to delete and even move a tag. Not
 
 {{ hp_number(hop_target) }} **Push tags you created earlier to the remote.**
 
-{{ hp_number(hop_preparation) }} Continue with the same repo you used for the previous hands-on practical.
+{{ hp_number(hop_preparation) }}
+
+{{ show_hop_prep('hp-push-tags', is_continue=1) }}
+
 
 <box type="info" seamless>
 
@@ -211,4 +221,7 @@ To push all tags, you can tick the `Push all tags` option when pushing commits:
 </div>
 
 <div id="extras">
+{{ show_exercise(exercises.tags_add) }}
+{{ show_exercise(exercises.tags_update) }}
+{{ show_exercise(exercises.tags_push) }}
 </div>

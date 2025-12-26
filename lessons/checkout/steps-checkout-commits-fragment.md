@@ -1,7 +1,8 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_output, show_ref, show_transformation_columns, show_under_the_hood with context %}
+{% import "common/macros.njk" as m with context %}
 
+<div id="cli"><!-- ------------------------------------------------------------------- -->
 
-{{ hp_number ('1') }} **Examine the revision tree**, to get your bearing first.
+{{ m.hp_number ('1') }} **Examine the revision tree**, to get your bearing first.
 ```bash{.no-line-numbers}
 git log --oneline --decorate
 ```
@@ -11,7 +12,7 @@ git log --oneline --decorate
   <include src="../common/aliases-fragment.md"/>
 </modal>
 
-{% call show_output() %}
+{% call m.show_output() %}
 ```bash{.no-line-numbers}
 e60deae (HEAD -> main, origin/main) Update fruits list
 f761ea6 (tag: v1.0) Add colours.txt, shapes.txt
@@ -20,7 +21,7 @@ d5f91de Add fruits.txt
 ```
 {% endcall %}
 
-{{ hp_number ('2') }} **Use the `checkout <commit-identifier>` command to check out a commit** other than the one currently pointed by `HEAD`. You can use any of the following methods:
+{{ m.hp_number ('2') }} **Use the `checkout <commit-identifier>` command to check out a commit** other than the one currently pointed by `HEAD`. You can use any of the following methods:
 
 * `git checkout v1.0`: checks out the commit tagged `v1.0`
 * `git checkout 0023cdd`: checks out the commit with the hash `0023cdd`
@@ -29,7 +30,7 @@ d5f91de Add fruits.txt
 ```bash{.no-line-numbers}
 git checkout HEAD~2
 ```
-{% call show_output() %}
+{% call m.show_output() %}
 ```bash{.no-line-numbers}
 Note: switching to 'HEAD~2'.
 
@@ -40,7 +41,7 @@ HEAD is now at 2bedace Insert figs into fruits.txt
 ```
 {% endcall %}
 
-{{ hp_number ('3') }} **Verify `HEAD` and the working directory have updated** as expected.
+{{ m.hp_number ('3') }} **Verify `HEAD` and the working directory have updated** as expected.
 
 * `HEAD` should now be pointing at the target commit
 * The working directory should match the state it was in at that commit (e.g., files added after that commit -- such as `shapes.txt` should not be in the folder).
@@ -48,7 +49,7 @@ HEAD is now at 2bedace Insert figs into fruits.txt
 ```bash{.no-line-numbers}
 git log --oneline --decorate
 ```
-{% call show_output() %}
+{% call m.show_output() %}
 ```bash{.no-line-numbers highlight-lines="1['HEAD']@pink}
 2bedace (HEAD, tag: v0.9) Insert figs into fruits.txt
 d5f91de Add fruits.txt
@@ -66,7 +67,7 @@ But note how the output does not show commits you added _after_ the checked-out 
 ```bash{.no-line-numbers highlight-lines="1['--all']@yellow"}
 git log --oneline --decorate --all
 ```
-{% call show_output() %}
+{% call m.show_output() %}
 ```bash{.no-line-numbers highlight-lines="1,2,['--all']@yellow"}
 e60deae (origin/main, main) Update fruits list
 f761ea6 (tag: v1.0) Add colours.txt, shapes.txt
@@ -76,8 +77,34 @@ d5f91de Add fruits.txt
 ```
 {% endcall %}
 
-{{ hp_number ('4') }} **Go back to the latest commit** by checking out the `main` branch again.
+{{ m.hp_number ('4') }} **Go back to the latest commit** by checking out the `main` branch again.
 
 ```bash{.no-line-numbers}
 git checkout main
 ```
+</div>
+<div id="sourcetree"><!-- ---------------------------------------------------- -->
+
+In the revision graph, double-click the commit you want to check out, or right-click on that commit and choose `Checkout...`.<br>
+
+<pic src="images/sourcetreeCheckoutMenu.png" width="300" />
+
+Click `OK` to the warning about ‘detached HEAD’ (similar to below).
+
+<pic src="images/sourcetreeDetachedHeadWarning.png" height="140" />
+<p/>
+
+The specified commit is now loaded onto the working folder, as indicated by the `HEAD` label.
+
+<pic src="images/sourcetreeHeadMoved.png" width="300" />
+<p/>
+
+To go back to the latest commit on the `main` branch, double-click the `main` branch.
+
+<pic src="images/sourcetreeMasterBranch.png" width="300" />
+<p/>
+</div><!-- ------------------------------------------------------------------- -->
+
+
+
+

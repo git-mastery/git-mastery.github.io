@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_output, show_ref, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can compare different points of history</span>
@@ -17,7 +17,12 @@ Example use case: To verify the next commit will include exactly what you intend
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Examining staged and unstaged changes")  %}
 
-{{ hp_number(hop_preparation) }} **For this, you can use the `things` repo** you created earlier. If you don't have it, you can clone a copy of a similar repo given [here](https://github.com/git-mastery/samplerepo-things).
+{{ hp_number(hop_preparation) }}
+
+{% set manual %}
+**For this, you can use the `things` repo** you created earlier. If you don't have it, you can clone a copy of a similar repo given [here](https://github.com/git-mastery/samplerepo-things).
+{% endset %}
+{{ show_hop_prep('hp-diff-changes', manual_info=manual) }}
 
 {{ hp_number("1") }} **Do some changes to the working directory. Stage some (but not all) changes.** For example, you can run the following commands.
 
@@ -72,7 +77,10 @@ Example use case: Suppose you’re trying to improve the performance of a piece 
 
 {{ hp_number(hop_target) }} **Compare two commits** in a repo.
 
-{{ hp_number(hop_preparation) }} You can use any repo with multiple commits e.g., the `things` repo.
+{{ hp_number(hop_preparation) }}
+
+{{ show_hop_prep('hp-diff-changes', is_continue=1) }}
+
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
@@ -142,7 +150,10 @@ Example use case: Similar to other use cases but when you are interested in a sp
 
 {{ hp_number(hop_target) }} **Examine the changes done to a file between two different points in the version history** (including the working directory).
 
-{{ hp_number(hop_preparation) }} Use any repo with multiple commits e.g. the `things` repo.
+{{ hp_number(hop_preparation) }}
+
+{{ show_hop_prep('hp-diff-changes', is_continue=1) }}
+
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
@@ -169,4 +180,5 @@ Sourcetree UI shows changes to one file at a time by default; just click on the 
 </div>
 
 <div id="extras">
+{{ show_exercise(exercises.sensors_diff) }}
 </div>

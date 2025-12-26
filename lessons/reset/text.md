@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_output, show_ref, show_tag, show_tour_link, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs, show_steps_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_output, show_ref, show_tag, show_tour_link, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can reset Git history.</span>
@@ -45,10 +45,8 @@ Resetting is different from the _checkout_ feature:
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Resetting to past commits")  %}
 
-{{ hp_number(hop_preparation) }} **First, set the stage** as follows (e.g., in the `things` repo):<br>
-i) Add four commits that are supposedly 'bad' commits.<br>
-ii) Do a 'bad' change to one file and stage it.<br>
-iii) Do a 'bad' change to another file, but don't stage it.
+{{ hp_number(hop_scenario) }} Imagine the following scenario. After working with the `things` repo for a while, you realised that you made the following mistakes.<br>
+i) First, you added four 'bad' commits (i.e., commits that shouldn't have been created) -- shown as `B1` to `B4` in the revision graph given below.
 
 {{ show_commit('B4', style="dark", desc=show_ref('main') + show_head(), msg='Add incorrect.txt') }}
 {{ show_commit('B3', style="dark", msg='Incorrectly update fruits.txt') }}
@@ -56,8 +54,17 @@ iii) Do a 'bad' change to another file, but don't stage it.
 {{ show_commit('B1', style="dark", msg='Incorrectly update colours.txt') }}
 {{ show_commit('C4', msg='Update fruits list') }}
 <p/>
+ii) Then, you did a 'bad' change in `colours.txt` and staged it.<br>
+iii) Last, you did a 'bad' change in `shapes.txt`, but didn't stage it yet.
+<p/>
 
-{{ icon_tip }} The following commands can be used to add commits `B1`-`B4`:
+{{ hp_number(hop_target) }} To rewrite the history of the repo in way that gets rid of the 'bad' commits/changes listed above.
+
+{{ hp_number(hop_preparation) }}
+
+{% set manual %}
+
+The following commands can be used to set up the scenario.
 ```bash
 echo "bad colour" >> colours.txt
 git add colours.txt
@@ -80,6 +87,9 @@ git add colours.txt
 
 echo "another bad shape" >> shapes.txt
 ```
+{% endset %}
+
+{{ show_hop_prep('hp-reset-commits', manual_info=manual) }}
 
 Now we have some 'bad' commits and some 'bad' changes in both the staging area and the working directory. Let's use the reset feature to get rid of all of them, but do it in three steps so that you can learn all three types of resets.
 
@@ -115,7 +125,7 @@ In the next dialog, choose `Soft - keep all local changes`.
 <pic src="images/sourcetreeResetDialog.png" width="400" />
 
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
 {{ hp_number ('2') }} **Do a _mixed_ reset to commit `B1`**. Verify,
@@ -140,7 +150,7 @@ Similar to the previous reset, but choose the `Mixed - keep working copy but res
 
 <pic src="images/sourcetreeResetDialogMixed.png" width="400" />
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
 {{ hp_number ('3') }} **Do a _hard_ reset to commit `C4`**. Verify,
@@ -162,7 +172,7 @@ Verify the repo status, as before.
 
 Similar to the previous reset, but choose the `Hard - discard all working copy changes` option.
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
@@ -174,9 +184,15 @@ To protect the integrity of the remote, Git will reject attempts to push a diver
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Force-push commits")  %}
 
-{{ hp_number(hop_preparation) }} **Choose a local-remote repo pair under your control** e.g., the `things` repo from {{ show_tour_link(trail.backingUpOnCloud) }}.
+{{ hp_number(hop_preparation) }}
 
-{{ hp_number("1") }} **Rewrite the last commit**: Reset the current branch back by one commit, and add a new commit.<br>
+{% set manual %}
+**Choose a local-remote repo pair under your control** e.g., the `things` repo from {{ show_tour_link(trail.backingUpOnCloud) }}.
+{% endset %}
+
+{{ show_hop_prep('hp-force-push', manual_info=manual) }}
+
+{{ hp_number("1") }} **Rewrite the last commit** as follows: Reset the current branch back by one commit, and add a new commit.<br>
 For example, you can use the following commands.
 
 ```bash
@@ -242,6 +258,7 @@ git push --force-with-lease origin main
 </div>
 
 <div id="extras">
+{{ show_exercise(exercises.sensors_reset) }}
 {{ show_detour('resetUncommitedChanges') }}
 {{ show_detour_preview('updateLastCommit') }}
 {{ show_detour('undoRecentCommits') }}
