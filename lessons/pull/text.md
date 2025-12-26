@@ -138,11 +138,10 @@ Use the `git fetch <remote>` command to fetch changes from a remote. If the `<re
 git fetch origin
 ```
 {% call show_output() %}
-```bash{.no-line-numbers  highlight-lines="2['2bedace..e60deae']"}
+```bash{.no-line-numbers  highlight-lines="3['afbe966..b201f03']"}
 remote: Enumerating objects: 8, done.
 ... # more output ...
-   afbe966..cc6a151  main     -> origin/main
- * [new tag]         beta       -> beta
+   afbe966..b201f03  main     -> origin/main
 ```
 {% endcall %}
 

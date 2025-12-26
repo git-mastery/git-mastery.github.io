@@ -34,7 +34,7 @@ pageNav: 6
 
 <include src="{{ baseUrl }}/lessons/gitPrep/text.md#install-git-mastery" />
 
-### 3. Setting up Git-Hub Tools
+### 3. Setting up GitHub Tools
 
 <include src="{{ baseUrl }}/lessons/githubPrep/text.md#create-github-account" />
 <include src="{{ baseUrl }}/lessons/githubPrep/text.md#setup-authentication" />
