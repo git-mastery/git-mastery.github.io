@@ -16,6 +16,11 @@
     },
     {
       "glob": "lessons/trail/all.md"
+    },
+    {
+      "src": "exercises-directory/exercises.md",
+      "fileExtension": ".json",
+      "searchable": "no"
     }
   ],
   "pagesExclude": ["**/*-fragment.md"],
