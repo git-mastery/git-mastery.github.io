@@ -1,0 +1,300 @@
+
+{
+  "under_control": {
+    "lesson": {
+      "path": "lessons/init",
+      "title": "T1L3. Putting a Folder Under Git's Control"
+    },
+    "identifier": "under-control"
+  },
+  "undo_init": {
+    "lesson": {
+      "path": "lessons/init",
+      "title": "T1L3. Putting a Folder Under Git's Control"
+    },
+    "detour": {
+      "lesson": {
+        "path": "lessons/init",
+        "title": "T1L3. Putting a Folder Under Git's Control"
+      },
+      "title": "Undoing a Repo Initialisation"
+    },
+    "identifier": "undo-init",
+    "wip": 1
+  },
+  "stage_fright": {
+    "lesson": {
+      "path": "lessons/stage",
+      "title": "T1L4. Specifying What to Include in a Snapshot"
+    },
+    "identifier": "stage-fright"
+  },
+  "staging_intervention": {
+    "detour": {
+      "lesson": {
+        "path": "lessons/stage",
+        "title": "T1L4. Specifying What to Include in a Snapshot"
+      },
+      "title": "Unstaging Changes"
+    },
+    "identifier": "staging-intervention"
+  },
+  "grocery_shopping": {
+    "lesson": {
+      "path": "lessons/commit",
+      "title": "T1L5. Saving a Snapshot"
+    },
+    "identifier": "grocery-shopping"
+  },
+  "log_and_order": {
+    "lesson": {
+      "path": "lessons/log",
+      "title": "T1L6. Examining the Revision History"
+    },
+    "identifier": "log-and-order"
+  },
+  "remote_control": {
+    "lesson": {
+      "path": "lessons/createRemoteRepo",
+      "title": "T2L3. Creating a Repo on GitHub"
+    },
+    "identifier": "remote-control"
+  },
+  "link_me": {
+    "lesson": {
+      "path": "lessons/setRemote",
+      "title": "T2L4. Linking a Local Repo With a Remote Repo"
+    },
+    "identifier": "link-me"
+  },
+  "push_over": {
+    "lesson": {
+      "path": "lessons/push",
+      "title": "T2L5. Updating the Remote Repo"
+    },
+    "identifier": "push-over"
+  },
+  "ignoring_somethings": {
+    "lesson": {
+      "path": "lessons/ignore",
+      "title": "T2L6. Omitting Files from Revision Control"
+    },
+    "identifier": "ignoring-somethings"
+  },
+  "fork_repo": {
+    "lesson": {
+      "path": "lessons/fork",
+      "title": "T3L1. Duplicating a Remote Repo on the Cloud"
+    },
+    "identifier": "fork-repo"
+  },
+  "clone_repo": {
+    "lesson": {
+      "path": "lessons/clone",
+      "title": "T3L2. Creating a Local Copy of a Repo"
+    },
+    "identifier": "clone-repo"
+  },
+  "fetch_and_pull": {
+    "lesson": {
+      "path": "lessons/pull",
+      "title": "T3L3. Downloading Data Into a Local Repo"
+    },
+    "identifier": "fetch-and-pull"
+  },
+  "view_commits": {
+    "lesson": {
+      "path": "lessons/show",
+      "title": "T4L1. Examining a Commit"
+    },
+    "identifier": "view-commits",
+    "wip": 1
+  },
+  "tags_add": {
+    "lesson": {
+      "path": "lessons/tag",
+      "title": "T4L2. Tagging Commits"
+    },
+    "identifier": "tags-add",
+    "wip": 1
+  },
+  "tags_update": {
+    "lesson": {
+      "path": "lessons/tag",
+      "title": "T4L2. Tagging Commits"
+    },
+    "identifier": "tags-update",
+    "wip": 1
+  },
+  "tags_push": {
+    "lesson": {
+      "path": "lessons/tag",
+      "title": "T4L2. Tagging Commits"
+    },
+    "identifier": "tags-push",
+    "wip": 1
+  },
+  "sensors_diff": {
+    "lesson": {
+      "path": "lessons/diff",
+      "title": "T4L3. Comparing Points of History"
+    },
+    "identifier": "sensors-diff",
+    "wip": 1
+  },
+  "sensors_checkout": {
+    "lesson": {
+      "path": "lessons/checkout",
+      "title": "T4L4. Traversing to a Specific Commit"
+    },
+    "identifier": "sensors-checkout",
+    "wip": 1
+  },
+  "sensors_reset": {
+    "lesson": {
+      "path": "lessons/reset",
+      "title": "T4L5. Rewriting History to Start Over"
+    },
+    "identifier": "sensors-reset",
+    "wip": 1
+  },
+  "sensors_revert": {
+    "lesson": {
+      "path": "lessons/revert",
+      "title": "T4L6. Reverting a Specific Commit"
+    },
+    "identifier": "sensors-revert",
+    "wip": 1
+  },
+  "side_track": {
+    "lesson": {
+      "path": "lessons/branch",
+      "title": "T6L1. Creating Branches"
+    },
+    "identifier": "side-track"
+  },
+  "branch_previous": {
+    "lesson": {
+      "path": "lessons/branch",
+      "title": "T6L1. Creating Branches"
+    },
+    "identifier": "branch-previous",
+    "wip": 1
+  },
+  "branch_compare": {
+    "lesson": {
+      "path": "lessons/branch",
+      "title": "T6L1. Creating Branches"
+    },
+    "detour": {
+      "lesson": {
+        "path": "lessons/merge",
+        "title": "T6L2. Merging Branches"
+      },
+      "title": "Comparing Branches"
+    },
+    "identifier": "branch-compare",
+    "wip": 1
+  },
+  "branch_bender": {
+    "lesson": {
+      "path": "lessons/merge",
+      "title": "T6L2. Merging Branches"
+    },
+    "identifier": "branch-bender"
+  },
+  "branch_forward": {
+    "lesson": {
+      "path": "lessons/merge",
+      "title": "T6L2. Merging Branches"
+    },
+    "identifier": "branch-forward"
+  },
+  "merge_undo": {
+    "lesson": {
+      "path": "lessons/merge",
+      "title": "T6L2. Merging Branches"
+    },
+    "detour": {
+      "lesson": {
+        "path": "lessons/merge",
+        "title": "T6L2. Merging Branches"
+      },
+      "title": "Undoing a Merge"
+    },
+    "identifier": "merge-undo"
+  },
+  "ff_undo": {
+    "lesson": {
+      "path": "lessons/merge",
+      "title": "T6L2. Merging Branches"
+    },
+    "detour": {
+      "lesson": {
+        "path": "lessons/merge",
+        "title": "T6L2. Merging Branches"
+      },
+      "title": "Undoing a Merge"
+    },
+    "identifier": "ff-undo",
+    "wip": 1
+  },
+  "merge_squash": {
+    "lesson": {
+      "path": "lessons/merge",
+      "title": "T6L2. Merging Branches"
+    },
+    "detour": {
+      "lesson": {
+        "path": "lessons/merge",
+        "title": "T6L2. Merging Branches"
+      },
+      "title": "Doing a Squash Merge"
+    },
+    "identifier": "merge-squash",
+    "wip": 1
+  },
+  "conflict_mediator": {
+    "lesson": {
+      "path": "lessons/mergeConflicts",
+      "title": "T6L3. Resolving Merge Conflicts"
+    },
+    "identifier": "conflict-mediator"
+  },
+  "branch_rename": {
+    "lesson": {
+      "path": "lessons/branchRename",
+      "title": "T6L4. Renaming Branches"
+    },
+    "identifier": "branch-rename"
+  },
+  "branch_delete": {
+    "lesson": {
+      "path": "lessons/branchDelete",
+      "title": "T6L5. Deleting Branches"
+    },
+    "identifier": "branch-delete"
+  },
+  "mix_messy_docs": {
+    "lesson": {
+      "path": "lessons/branchDelete",
+      "title": "T6L5. Deleting Branches"
+    },
+    "identifier": "mix-messy-docs"
+  },
+  "mix_messy_graph": {
+    "lesson": {
+      "path": "lessons/branchDelete",
+      "title": "T6L5. Deleting Branches"
+    },
+    "identifier": "mix-messy-graph"
+  },
+  "remote_branch_rename": {
+    "lesson": {
+      "path": "lessons/remoteBranchRename",
+      "title": "T8L4. Renaming Branches in a Remote"
+    },
+    "identifier": "remote-branch-rename",
+    "wip": 1
+  }
+}

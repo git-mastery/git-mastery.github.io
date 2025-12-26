@@ -1,0 +1,25 @@
+2025-12-26T05:48:45.403Z - info: Website generation started at 13:48:45
+2025-12-26T05:48:45.556Z - info: Building assets...
+2025-12-26T05:48:45.824Z - info: Assets built
+2025-12-26T05:48:45.824Z - info: Generating pages...
+2025-12-26T05:48:51.695Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-26T05:48:51.695Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-26T05:48:51.695Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-26T05:48:51.695Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-26T05:48:51.695Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-26T05:48:51.696Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-26T05:48:51.698Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/branch/images/listRemoteBranches.png' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranches/sourcetree_4.md'
+2025-12-26T05:48:51.698Z - info: Pages built
+2025-12-26T05:48:51.769Z - info: Site data built
+2025-12-26T05:48:51.769Z - info: Website generation complete! Total build time: 6.559s
+2025-12-26T05:48:51.779Z - info: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2025-12-26T05:48:51.779Z - info: Press CTRL+C to stop ...
+2025-12-26T05:51:04.972Z - info: Website generation started at 13:51:04
+2025-12-26T05:51:05.106Z - info: Building assets...
