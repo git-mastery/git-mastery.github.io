@@ -6,7 +6,7 @@
 
 <div id="body">
 {% call show_lesson_intro() %}
-If you have appropriate level of access to a GitHub repo, you can merge Pull Requests.
+If you have appropriate level of access to a GitHub repo, you can merge pull requests.
 {% endcall %}
 
 **A project member with sufficient access to the remote repo can merge a PR**, incorporating proposed changes into the main codebase. {{ show_git_term("Merging a PR") }} is similar to performing a Git merge in a local repo, except that it occurs in the remote repository.

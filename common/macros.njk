@@ -92,6 +92,13 @@
       PrsReview: {path: "lessons/prsReview", title: "T9L2. Reviewing Pull Requests"},
       PrsMerge: {path: "lessons/prsMerge", title: "T9L3. Merging Pull Requests"}
     }
+  },
+  managingProjects: {
+    folder: "managingProjects",
+    title: "Tour 10: Managing Git-Based Projects",
+    lessons: {
+      PrsCreate: {path: "lessons/workflows", title: "T9L1. Git Workflows"}
+    }
   }
 } %}
 
@@ -156,7 +163,7 @@
 {%- macro slugify(text) %}{{ text | lower | replace(r/[\'\s\/]/g, '-') | replace(r/[\(\)%:,&\`\[\]\+\.]/g, '') }}{% endmacro -%}
 <!-- ============================================================ -->
 
-{%- macro bold_number(text) %}{{ "{" }} text="{{ text }}" t-class="fw-bold" {{ "}" }}{% endmacro -%}
+{%- macro bold_number(text) %}{{ "{" }} {{ 'texts' if '[' in text else 'text' }}="{{ text }}" t-class="fw-bold" {{ "}" }}{% endmacro -%}
 <!-- ============================================================ -->
 
 {%- macro label(style, text) %}<span class="badge bg-{{ style }} text-{{ 'dark' if style in ['warning', 'light'] else 'white' }}">{{ text }}</span>{% endmacro -%}
