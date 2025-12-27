@@ -44,12 +44,6 @@
       "headingKeywords": {}
     },
     {
-      "src": "lessons/PrsCreate/index.md",
-      "title": "",
-      "headings": {},
-      "headingKeywords": {}
-    },
-    {
       "src": "lessons/branch/index.md",
       "title": "T6L1. Creating Branches",
       "headings": {},
@@ -205,6 +199,12 @@
     {
       "src": "lessons/otherPmFeatures/index.md",
       "title": "T10L3. Other Project Management Features",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "lessons/prsCreate/index.md",
+      "title": "",
       "headings": {},
       "headingKeywords": {}
     },
