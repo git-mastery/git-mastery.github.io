@@ -10,7 +10,7 @@ pageNav: 4
 
 <span class="d-none" id="destination">To manage a multi-person project on GitHub</span>
 
-<span class="d-none" id="motivation">To manage a multi-person project on GitHub, one needs to know so some additional project management features GitHub offers.</span>
+<span class="d-none" id="motivation">To manage a multi-person project on GitHub, one needs to know some additional project management features GitHub offers.</span>
 
 <div id="body">
 

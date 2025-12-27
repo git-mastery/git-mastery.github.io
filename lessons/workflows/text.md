@@ -7,7 +7,7 @@
 
 <div id="body">
 {% call show_lesson_intro() %}
-...
+There are different Git-based workflows a project can use to manage code changes in a repo.
 {% endcall %}
 
 **A Git {{ show_git_term('workflow') }} is essentially a set of agreed-upon rules that a development team uses to manage code changes** and collaborate effectively on a project, answering questions such as: "How do we add a new feature without breaking the existing code?", and "When should we create a branch?". By having a consistent workflow, a team can proceed in an organized, predictable manner.
