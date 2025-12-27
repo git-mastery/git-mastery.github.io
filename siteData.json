@@ -204,19 +204,19 @@
     },
     {
       "src": "lessons/prsCreate/index.md",
-      "title": "",
+      "title": "T9L1. Creating Pull Requests",
       "headings": {},
       "headingKeywords": {}
     },
     {
       "src": "lessons/prsMerge/index.md",
-      "title": "",
+      "title": "T9L3. Merging Pull Requests",
       "headings": {},
       "headingKeywords": {}
     },
     {
       "src": "lessons/prsReview/index.md",
-      "title": "",
+      "title": "T9L2. Reviewing Pull Requests",
       "headings": {},
       "headingKeywords": {}
     },
