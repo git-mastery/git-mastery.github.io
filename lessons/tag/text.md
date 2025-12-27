@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_steps_tabs, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Able to tag a commit.</span>
@@ -120,7 +120,7 @@ Tags will appear as labels in the revision graph, as seen below. To see the deta
 <p/>
 
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 
 {% endcall %}
 
@@ -148,7 +148,7 @@ The same dialog used to add a tag can be used to delete and even move a tag. Not
 
 <pic src="images/sourcetreeMoveTag.png" width="500" />
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 
 {% endcall %}
 
@@ -214,7 +214,7 @@ To push all tags, you can tick the `Push all tags` option when pushing commits:
 
 <pic src="images/sourcetreePushAllTags.png" width="500" />
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->

@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_steps_tabs, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can compare different points of history</span>
@@ -65,7 +65,7 @@ Select the two commits: Click on one commit, and <kbd>Ctrl</kbd>-Click (or <kbd>
 
 <pic src="images/sourcetreeStagedAndUnstaged.png" width="600" />
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
@@ -136,7 +136,7 @@ The same method can be used to compare the current state of the working director
 <p/>
 
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
@@ -171,7 +171,7 @@ Sourcetree UI shows changes to one file at a time by default; just click on the 
 
 <pic src="images/sourcetreeStagedAndUnstaged.png" width="600" />
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->

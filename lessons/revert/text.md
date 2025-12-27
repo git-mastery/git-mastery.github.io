@@ -1,4 +1,4 @@
-.{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
+.{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_steps_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can revert a commit</span>
@@ -21,7 +21,7 @@ Git can add a new commit to **reverse the changes done in a specific past commit
 {% endset %}
 {% set b %}<small>%%[revert `C2`]%%</small> {% endset %}
 {% set c %}
-{{ show_commit('R2', style="danger", msg="This commit is the reverse of `C2`") }}
+{{ show_commit('R2', style="danger", msg="(This commit is the reverse of `C2`)") }}
 {{ show_commit('C3') }}
 {{ show_commit('C2') }}
 {{ show_commit('C1', edge='') }}
@@ -33,8 +33,17 @@ Git can add a new commit to **reverse the changes done in a specific past commit
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Revert a commit")  %}
 
-{{ hp_number(hop_preparation) }} **Run the following commands to create a repo with a few commits:**
+{{ hp_number(hop_scenario) }} You are working with a repo named `pioneers`, which contains information about computer science pioneers. You discovered that one of the earlier commits mistakenly added information about a fictional character instead of a real CS pioneer.
 
+
+{{ show_commit('C3', msg='Add Hopper', desc=show_head()) }}
+{{ show_commit('C2', msg='Add Turing') }}
+{{ show_commit('C1', msg='Add Neo', edge='') }}
+<p/>
+
+{{ hp_number(hop_preparation) }}
+{% set manual %}
+Run the following commands to create the `pioneers` repo:
 ```bash
 mkdir pioneers
 cd pioneers
@@ -52,10 +61,9 @@ echo "created COBOL, compiler pioneer" >> grace-hopper.txt
 git add .
 git commit -m "Add Hopper"
 ```
-{{ show_commit('C3', msg='Add Hopper', desc=show_head()) }}
-{{ show_commit('C2', msg='Add Turing') }}
-{{ show_commit('C1', msg='Add Neo', edge='') }}
-<p/>
+{% endset %}
+
+{{ show_hop_prep('hp-revert-commit', manual_info=manual) }}
 
 {{ hp_number("1") }} **Revert the commit `Add Neo`**.
 
@@ -75,7 +83,7 @@ What happens next:
 
 In the revision graph, right-click on the commit you want to revert, and choose `Reverse commit...`
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
@@ -86,4 +94,5 @@ In the revision graph, right-click on the commit you want to revert, and choose 
 </div>
 
 <div id="extras">
+{{ show_exercise(exercises.sensors_revert) }}
 </div>
