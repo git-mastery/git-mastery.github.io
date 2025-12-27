@@ -44,6 +44,12 @@
       "headingKeywords": {}
     },
     {
+      "src": "lessons/PrsCreate/index.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
       "src": "lessons/branch/index.md",
       "title": "T6L1. Creating Branches",
       "headings": {},
@@ -94,12 +100,6 @@
     {
       "src": "lessons/commitMessage/index.md",
       "title": "T5L2. Writing Good Commit Messages",
-      "headings": {},
-      "headingKeywords": {}
-    },
-    {
-      "src": "lessons/createPRs/index.md",
-      "title": "Git and GitHub: Create PRs",
       "headings": {},
       "headingKeywords": {}
     },
@@ -191,12 +191,6 @@
       "headingKeywords": {}
     },
     {
-      "src": "lessons/managePRs/index.md",
-      "title": "Git and GitHub: Manage PRs",
-      "headings": {},
-      "headingKeywords": {}
-    },
-    {
       "src": "lessons/merge/index.md",
       "title": "T6L2. Merging Branches",
       "headings": {},
@@ -205,6 +199,18 @@
     {
       "src": "lessons/mergeConflicts/index.md",
       "title": "T6L3. Resolving Merge Conflicts",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "lessons/prsMerge/index.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "lessons/prsReview/index.md",
+      "title": "",
       "headings": {},
       "headingKeywords": {}
     },
@@ -265,12 +271,6 @@
     {
       "src": "lessons/revert/index.md",
       "title": "T4L6. Reverting a Specific Commit",
-      "headings": {},
-      "headingKeywords": {}
-    },
-    {
-      "src": "lessons/reviewPRs/index.md",
-      "title": "Git and GitHub: Manage PRs",
       "headings": {},
       "headingKeywords": {}
     },
@@ -370,6 +370,12 @@
     {
       "src": "lessons/trail/usingRevisionHistory/index.md",
       "title": "Tour 4: Using the Revision History of a Repo",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "lessons/trail/workingWithPrs/index.md",
+      "title": "Tour 9: Working with Pull Requests",
       "headings": {},
       "headingKeywords": {}
     },

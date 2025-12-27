@@ -2219,3 +2219,561 @@ Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/les
 2025-12-27T05:24:08.376Z - info: Build success!
 2025-12-27T05:24:12.524Z - info: Website generation started at 13:24:12
 2025-12-27T05:24:12.593Z - info: Building assets...
+2025-12-27T05:24:12.810Z - info: Assets built
+2025-12-27T05:24:12.810Z - info: Generating pages...
+2025-12-27T05:24:20.039Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-27T05:24:20.039Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T05:24:20.039Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T05:24:20.039Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T05:24:20.039Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-27T05:24:20.040Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-27T05:24:20.041Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/branch/images/listRemoteBranches.png' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranches/sourcetree_4.md'
+2025-12-27T05:24:20.042Z - info: Pages built
+2025-12-27T05:24:20.100Z - info: Site data built
+2025-12-27T05:24:20.100Z - info: Website generation complete! Total build time: 7.724s
+2025-12-27T05:24:20.101Z - info: Build success!
+2025-12-27T05:24:27.802Z - info: The website has been deployed at: https://git-mastery.github.io/git-mastery.github.io
+2025-12-27T05:44:43.819Z - info: Website generation started at 13:44:43
+2025-12-27T05:44:43.942Z - info: Building assets...
+2025-12-27T05:44:44.196Z - info: Assets built
+2025-12-27T05:44:44.196Z - info: Generating pages...
+2025-12-27T05:44:48.175Z - error: No such segment '#overview' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/text.md
+Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md
+2025-12-27T05:44:49.843Z - error: No such segment '#overview' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/text.md
+Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md
+2025-12-27T05:44:50.468Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-27T05:44:50.468Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T05:44:50.468Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T05:44:50.468Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T05:44:50.468Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-27T05:44:50.469Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-27T05:44:50.470Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/lessons.md'
+2025-12-27T05:44:50.470Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md'
+2025-12-27T05:44:50.471Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/branch/images/listRemoteBranches.png' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranches/sourcetree_4.md'
+2025-12-27T05:44:50.471Z - info: Pages built
+2025-12-27T05:44:50.537Z - info: Site data built
+2025-12-27T05:44:50.537Z - info: Website generation complete! Total build time: 6.896s
+2025-12-27T05:44:50.548Z - info: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2025-12-27T05:44:50.548Z - info: Press CTRL+C to stop ...
+2025-12-27T05:45:30.129Z - info: [13:45:30] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2025-12-27T05:45:31.211Z - info: Rebuilding 95 pages
+2025-12-27T05:45:35.207Z - error: No such segment '#overview' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/text.md
+Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md
+2025-12-27T05:45:36.952Z - error: No such segment '#overview' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/text.md
+Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md
+2025-12-27T05:45:37.599Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/lessons.md'
+2025-12-27T05:45:37.599Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-27T05:45:37.600Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T05:45:37.600Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T05:45:37.600Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T05:45:37.600Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-27T05:45:37.600Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-27T05:45:37.602Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md'
+2025-12-27T05:45:37.602Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/branch/images/listRemoteBranches.png' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranches/sourcetree_4.md'
+2025-12-27T05:45:37.604Z - info: Site data built
+2025-12-27T05:45:37.604Z - info: Pages rebuilt
+2025-12-27T05:45:37.604Z - info: Website regeneration complete! Total build time: 6.394s
+2025-12-27T05:47:55.653Z - info: [13:47:55] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md
+2025-12-27T05:47:56.713Z - info: Rebuilding 4 pages
+2025-12-27T05:47:56.963Z - error: No such segment '#overview' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/text.md
+Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md
+2025-12-27T05:47:57.059Z - error: No such segment '#overview' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/text.md
+Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md
+2025-12-27T05:47:59.384Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md'
+2025-12-27T05:47:59.385Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-27T05:47:59.385Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T05:47:59.385Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T05:47:59.385Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T05:47:59.385Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-27T05:47:59.386Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-27T05:47:59.387Z - info: Site data built
+2025-12-27T05:47:59.387Z - info: Pages rebuilt
+2025-12-27T05:47:59.387Z - info: Website regeneration complete! Total build time: 2.676s
+2025-12-27T05:48:14.314Z - info: [13:48:14] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md
+2025-12-27T05:48:15.320Z - info: Rebuilding 4 pages
+2025-12-27T05:48:15.568Z - error: No such segment '#overview' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/text.md
+Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md
+2025-12-27T05:48:15.668Z - error: No such segment '#overview' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/text.md
+Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md
+2025-12-27T05:48:15.675Z - error: No such segment '#overview' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/text.md
+Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md
+2025-12-27T05:48:16.167Z - error: No such segment '#overview' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/text.md
+Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md
+2025-12-27T05:48:17.924Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md'
+2025-12-27T05:48:17.924Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md'
+2025-12-27T05:48:17.924Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-27T05:48:17.924Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T05:48:17.924Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T05:48:17.924Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T05:48:17.924Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-27T05:48:17.925Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-27T05:48:17.926Z - info: Site data built
+2025-12-27T05:48:17.926Z - info: Pages rebuilt
+2025-12-27T05:48:17.926Z - info: Website regeneration complete! Total build time: 2.608s
+2025-12-27T05:50:26.548Z - info: [13:50:26] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/PrsCreate/text.md
+2025-12-27T05:50:27.586Z - info: Rebuilding 1 pages
+2025-12-27T05:50:27.652Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/PrsCreate/unit-inElsewhere-asFlat.md:
+Segment '#title' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/PrsCreate/text.md is empty
+2025-12-27T05:50:27.795Z - info: Site data built
+2025-12-27T05:50:27.795Z - info: Pages rebuilt
+2025-12-27T05:50:27.795Z - info: Website regeneration complete! Total build time: 0.211s
+2025-12-27T05:56:43.603Z - info: [13:56:43] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md
+2025-12-27T05:56:44.627Z - info: Rebuilding 4 pages
+2025-12-27T05:56:44.872Z - error: No such segment '#overview' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/text.md
+Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md
+2025-12-27T05:56:44.968Z - error: No such segment '#overview' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/text.md
+Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md
+2025-12-27T05:56:44.975Z - error: No such segment '#overview' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/text.md
+Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md
+2025-12-27T05:56:45.463Z - error: No such segment '#overview' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/text.md
+Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md
+2025-12-27T05:56:47.258Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md'
+2025-12-27T05:56:47.258Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md'
+2025-12-27T05:56:47.258Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-27T05:56:47.258Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T05:56:47.258Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T05:56:47.258Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T05:56:47.258Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-27T05:56:47.259Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-27T05:56:47.260Z - info: Site data built
+2025-12-27T05:56:47.260Z - info: Pages rebuilt
+2025-12-27T05:56:47.260Z - info: Website regeneration complete! Total build time: 2.639s
+2025-12-27T05:58:13.813Z - info: [13:58:13] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/PrsCreate/text.md
+2025-12-27T05:58:14.823Z - info: Rebuilding 1 pages
+2025-12-27T05:58:14.897Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/PrsCreate/unit-inElsewhere-asFlat.md:
+Segment '#title' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/PrsCreate/text.md is empty
+2025-12-27T05:58:15.034Z - info: Site data built
+2025-12-27T05:58:15.034Z - info: Pages rebuilt
+2025-12-27T05:58:15.034Z - info: Website regeneration complete! Total build time: 0.213s
+2025-12-27T05:58:45.916Z - info: Website generation (lazy) started at 13:58:45
+2025-12-27T05:58:46.040Z - info: Building assets...
+2025-12-27T05:58:46.300Z - info: Assets built
+2025-12-27T05:58:46.301Z - info: Generating landing page...
+2025-12-27T05:58:46.388Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-12-27T05:58:46.453Z - info: Site data built
+2025-12-27T05:58:46.453Z - info: Website generation (lazy) complete! Total build time: 0.708s
+2025-12-27T05:58:46.459Z - info: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2025-12-27T05:58:46.459Z - info: Press CTRL+C to stop ...
+2025-12-27T05:58:49.744Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2025-12-27T05:58:50.052Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md'
+2025-12-27T05:58:50.053Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/lessons.md'
+2025-12-27T05:58:50.053Z - info: Site data built
+2025-12-27T05:58:50.053Z - info: Lazy website regeneration complete! Total build time: 0.309s
+2025-12-27T05:58:54.981Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/index as some of its dependencies were changed since the last visit
+2025-12-27T05:58:55.198Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md'
+2025-12-27T05:58:55.198Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-27T05:58:55.198Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-27T05:58:55.198Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md'
+2025-12-27T05:58:55.198Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md'
+2025-12-27T05:58:55.198Z - info: Site data built
+2025-12-27T05:58:55.199Z - info: Lazy website regeneration complete! Total build time: 0.217s
+2025-12-27T06:07:09.024Z - info: [14:07:09] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reviewPRs/index.md
+2025-12-27T06:07:09.027Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:07:09.028Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:07:09.028Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:07:09.030Z - info: [14:07:09] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reviewPRs/text.md
+2025-12-27T06:07:09.030Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:07:09.030Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:07:09.030Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:07:09.033Z - info: [14:07:09] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reviewPRs/images/addComment.png
+2025-12-27T06:07:09.035Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:07:09.035Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:07:09.035Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:07:09.035Z - info: [14:07:09] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reviewPRs/images/addCommentForMultipleLines.png
+2025-12-27T06:07:09.035Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:07:09.036Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:07:09.036Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:07:09.036Z - info: [14:07:09] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reviewPRs/images/giveInlineSuggestion.png
+2025-12-27T06:07:09.036Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:07:09.036Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:07:09.036Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:07:09.036Z - info: [14:07:09] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reviewPRs/images/giveInlineSuggestionPreview.png
+2025-12-27T06:07:09.036Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:07:09.037Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:07:09.037Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:07:09.037Z - info: [14:07:09] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reviewPRs/images/hideExistingComments.png
+2025-12-27T06:07:09.037Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:07:09.037Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:07:09.037Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:07:09.037Z - info: [14:07:09] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reviewPRs/images/splitVsUnifiedDiffView.png
+2025-12-27T06:07:09.037Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:07:09.037Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:07:09.037Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:07:09.038Z - info: [14:07:09] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reviewPRs/images/submitReview.png
+2025-12-27T06:07:09.038Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:07:09.038Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:07:09.038Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:07:09.192Z - info: [14:07:09] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/index.md
+2025-12-27T06:07:09.192Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:07:09.192Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:07:09.192Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:07:09.192Z - info: [14:07:09] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/text.md
+2025-12-27T06:07:09.192Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:07:09.192Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:07:09.192Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:07:09.220Z - info: [14:07:09] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/images/addComment.png
+2025-12-27T06:07:09.220Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:07:09.220Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:07:09.220Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:07:09.220Z - info: [14:07:09] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/images/addCommentForMultipleLines.png
+2025-12-27T06:07:09.220Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:07:09.220Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:07:09.220Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:07:09.220Z - info: [14:07:09] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/images/giveInlineSuggestion.png
+2025-12-27T06:07:09.220Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:07:09.220Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:07:09.220Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:07:09.220Z - info: [14:07:09] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/images/giveInlineSuggestionPreview.png
+2025-12-27T06:07:09.220Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:07:09.221Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:07:09.221Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:07:09.221Z - info: [14:07:09] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/images/hideExistingComments.png
+2025-12-27T06:07:09.221Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:07:09.221Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:07:09.221Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:07:09.221Z - info: [14:07:09] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/images/splitVsUnifiedDiffView.png
+2025-12-27T06:07:09.221Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:07:09.221Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:07:09.221Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:07:09.221Z - info: [14:07:09] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/images/submitReview.png
+2025-12-27T06:07:09.221Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:07:09.221Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:07:09.221Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:07:10.078Z - info: Pages or site config modified, updating pages...
+2025-12-27T06:07:10.128Z - debug: Assets removed
+2025-12-27T06:07:10.131Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/index as some of its dependencies were changed since the last visit
+2025-12-27T06:07:10.325Z - info: Assets built
+2025-12-27T06:07:10.326Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md'
+2025-12-27T06:07:10.327Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-27T06:07:10.327Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-27T06:07:10.327Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md'
+2025-12-27T06:07:10.327Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md'
+2025-12-27T06:07:10.327Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/lessons.md'
+2025-12-27T06:07:10.329Z - info: Site data built
+2025-12-27T06:07:10.329Z - info: Lazy website regeneration complete! Total build time: 0.198s
+2025-12-27T06:08:34.167Z - info: [14:08:34] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/PrsCreate/index.md
+2025-12-27T06:08:34.169Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:08:34.177Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:08:34.188Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:08:34.206Z - info: [14:08:34] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/index.md
+2025-12-27T06:08:34.206Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:08:34.207Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:08:34.208Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:08:35.222Z - info: No pages needed to be rebuilt
+2025-12-27T06:10:20.358Z - info: [14:10:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/PrsCreate/index.md
+2025-12-27T06:10:20.363Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:10:20.365Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:10:20.366Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:10:20.371Z - info: [14:10:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2025-12-27T06:10:20.372Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:10:20.372Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:10:20.372Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:10:20.423Z - info: [14:10:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/index.md
+2025-12-27T06:10:20.423Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:10:20.423Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:10:20.423Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:10:21.442Z - info: Rebuilding 1 pages
+2025-12-27T06:10:21.457Z - error: No such segment '#overview' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/text.md
+Missing reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md
+2025-12-27T06:10:21.613Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/lessons.md'
+2025-12-27T06:10:21.613Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md'
+2025-12-27T06:10:21.613Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-27T06:10:21.613Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-27T06:10:21.613Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md'
+2025-12-27T06:10:21.613Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md'
+2025-12-27T06:10:21.614Z - info: Site data built
+2025-12-27T06:10:21.614Z - info: Pages rebuilt
+2025-12-27T06:10:21.614Z - info: Website regeneration complete! Total build time: 0.172s
+2025-12-27T06:12:59.691Z - info: [14:12:59] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/text.md
+2025-12-27T06:12:59.696Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:12:59.696Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:12:59.697Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:13:00.703Z - info: Rebuilding 1 pages
+2025-12-27T06:13:00.947Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md'
+2025-12-27T06:13:00.947Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-27T06:13:00.947Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-27T06:13:00.947Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md'
+2025-12-27T06:13:00.947Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md'
+2025-12-27T06:13:00.949Z - info: Site data built
+2025-12-27T06:13:00.949Z - info: Pages rebuilt
+2025-12-27T06:13:00.949Z - info: Website regeneration complete! Total build time: 0.249s
+2025-12-27T06:15:17.410Z - info: [14:15:17] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/managePRs/text.md
+2025-12-27T06:15:17.411Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:15:17.412Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:15:17.412Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:15:17.413Z - info: [14:15:17] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/managePRs/index.md
+2025-12-27T06:15:17.413Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:15:17.413Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:15:17.413Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:15:17.417Z - info: [14:15:17] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/managePRs/images/mergePr.png
+2025-12-27T06:15:17.418Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:15:17.418Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:15:17.418Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:15:17.508Z - info: [14:15:17] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsMerge/index.md
+2025-12-27T06:15:17.508Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:15:17.508Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:15:17.508Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:15:17.508Z - info: [14:15:17] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsMerge/text.md
+2025-12-27T06:15:17.508Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:15:17.509Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:15:17.509Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:15:17.535Z - info: [14:15:17] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsMerge/images/mergePr.png
+2025-12-27T06:15:17.535Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:15:17.535Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:15:17.535Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:15:18.480Z - debug: Assets removed
+2025-12-27T06:15:18.493Z - info: Pages or site config modified, updating pages...
+2025-12-27T06:15:18.551Z - info: Assets built
+2025-12-27T06:15:19.548Z - debug: Assets removed
+2025-12-27T06:15:19.556Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/index as some of its dependencies were changed since the last visit
+2025-12-27T06:15:19.796Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md'
+2025-12-27T06:15:19.797Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-27T06:15:19.797Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-27T06:15:19.797Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md'
+2025-12-27T06:15:19.797Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md'
+2025-12-27T06:15:19.797Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/lessons.md'
+2025-12-27T06:15:19.798Z - info: Site data built
+2025-12-27T06:15:19.798Z - info: Lazy website regeneration complete! Total build time: 0.243s
+2025-12-27T06:18:09.801Z - info: [14:18:09] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsMerge/index.md
+2025-12-27T06:18:09.802Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:18:09.802Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:18:09.803Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:18:09.809Z - info: [14:18:09] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsMerge/text.md
+2025-12-27T06:18:09.810Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:18:09.810Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:18:09.811Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:18:09.811Z - info: [14:18:09] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2025-12-27T06:18:09.811Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:18:09.811Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T06:18:09.811Z - info: 1. lessons/trail/workingWithPrs/index
+2025-12-27T06:18:10.841Z - warn:  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/lessons.md)
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/lessons.md)
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/navbar.md)
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/lessons.md) [Line 93, Column 17]
+  parseAggregate: expected colon after dict key
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:261:3)
+    at Template.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:372:8)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:54:25
+    at createTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:121:7)
+    at handle (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:133:9)
+    at /opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:145:7
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+    at Environment.getTemplate (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:127:7)
+    at Environment.render (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:48:8)
+    at VariableRenderer.renderFile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:73:24)
+    at VariableProcessor.renderWithSiteVariables (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:154:57)
+    at Layout.<anonymous> (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Layout/Layout.js:70:61)
+    at Generator.next (<anonymous>)
+2025-12-27T06:18:10.842Z - info: Assets built
+2025-12-27T06:18:46.317Z - info: [14:18:46] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2025-12-27T06:18:46.318Z - info: Synchronizing opened pages list before reload
+2025-12-27T06:18:46.318Z - info: No pages are currently opened
+2025-12-27T06:18:47.321Z - info: No pages needed to be rebuilt
+2025-12-27T06:18:57.086Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/index as some of its dependencies were changed since the last visit
+2025-12-27T06:18:57.303Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md'
+2025-12-27T06:18:57.303Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-27T06:18:57.303Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-27T06:18:57.304Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md'
+2025-12-27T06:18:57.304Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md'
+2025-12-27T06:18:57.304Z - info: Site data built
+2025-12-27T06:18:57.304Z - info: Lazy website regeneration complete! Total build time: 0.219s
+2025-12-27T06:19:11.028Z - info: Website generation started at 14:19:11
+2025-12-27T06:19:11.130Z - info: Building assets...
+2025-12-27T06:19:11.439Z - info: Assets built
+2025-12-27T06:19:11.439Z - info: Generating pages...
+2025-12-27T06:19:17.043Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/unit-inElsewhere-asFlat.md:
+Segment '#title' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/text.md is empty
+2025-12-27T06:19:17.070Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsMerge/unit-inElsewhere-asFlat.md:
+Segment '#title' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsMerge/text.md is empty
+2025-12-27T06:19:18.052Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/PrsCreate/unit-inElsewhere-asFlat.md:
+Segment '#title' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/PrsCreate/text.md is empty
+2025-12-27T06:19:18.140Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-27T06:19:18.140Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T06:19:18.140Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T06:19:18.140Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T06:19:18.140Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-27T06:19:18.141Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-27T06:19:18.142Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md'
+2025-12-27T06:19:18.142Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/lessons.md'
+2025-12-27T06:19:18.142Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md'
+2025-12-27T06:19:18.143Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/branch/images/listRemoteBranches.png' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranches/sourcetree_4.md'
+2025-12-27T06:19:18.143Z - info: Pages built
+2025-12-27T06:19:18.210Z - info: Site data built
+2025-12-27T06:19:18.210Z - info: Website generation complete! Total build time: 7.203s
+2025-12-27T06:19:18.217Z - info: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2025-12-27T06:19:18.217Z - info: Press CTRL+C to stop ...
+2025-12-27T06:21:20.510Z - info: [14:21:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md
+2025-12-27T06:21:21.591Z - info: Rebuilding 4 pages
+2025-12-27T06:21:24.394Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md'
+2025-12-27T06:21:24.395Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md'
+2025-12-27T06:21:24.395Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-27T06:21:24.395Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T06:21:24.395Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T06:21:24.395Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T06:21:24.396Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-27T06:21:24.396Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-27T06:21:24.397Z - info: Site data built
+2025-12-27T06:21:24.397Z - info: Pages rebuilt
+2025-12-27T06:21:24.397Z - info: Website regeneration complete! Total build time: 2.809s
+2025-12-27T06:24:15.052Z - info: [14:24:15] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md
+2025-12-27T06:24:16.086Z - info: Rebuilding 4 pages
+2025-12-27T06:24:16.340Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md is empty
+2025-12-27T06:24:16.440Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md is empty
+2025-12-27T06:24:16.497Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md is empty
+2025-12-27T06:24:17.003Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md is empty
+2025-12-27T06:24:18.950Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md'
+2025-12-27T06:24:18.951Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md'
+2025-12-27T06:24:18.951Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-27T06:24:18.951Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T06:24:18.951Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T06:24:18.951Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T06:24:18.951Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-27T06:24:18.952Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-27T06:24:18.953Z - info: Site data built
+2025-12-27T06:24:18.953Z - info: Pages rebuilt
+2025-12-27T06:24:18.953Z - info: Website regeneration complete! Total build time: 2.87s
+2025-12-27T06:25:13.252Z - info: [14:25:13] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/remoteBranches/text.md
+2025-12-27T06:25:14.288Z - info: Rebuilding 4 pages
+2025-12-27T06:25:14.536Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md is empty
+2025-12-27T06:25:14.634Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md is empty
+2025-12-27T06:25:15.167Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md is empty
+2025-12-27T06:25:16.992Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md'
+2025-12-27T06:25:16.992Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-27T06:25:16.992Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T06:25:16.992Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T06:25:16.992Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T06:25:16.992Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-27T06:25:16.993Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-27T06:25:16.994Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md'
+2025-12-27T06:25:16.994Z - info: Site data built
+2025-12-27T06:25:16.994Z - info: Pages rebuilt
+2025-12-27T06:25:16.994Z - info: Website regeneration complete! Total build time: 2.707s
+2025-12-27T06:26:13.238Z - info: Website generation started at 14:26:13
+2025-12-27T06:26:13.327Z - info: Building assets...
