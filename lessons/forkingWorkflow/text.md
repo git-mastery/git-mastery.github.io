@@ -1,27 +1,31 @@
-{% from "common/macros.njk" import trail, bold_number, button_green, button_light, callout, dropdown, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
-<span id="outcomes">{{ icon_outcome }} Can follow Forking Workflow</span>
-<span id="title">Forking Workflow</span>
+<span id="outcomes">{{ icon_outcome }} Can use a branch-based forking workflow</span>
+<span id="title">{{ trail.managingProjects.lessons.forkingWorkflow.title }}</span>
 
 <div id="body">
+{% call show_lesson_intro() %}
+A branch-based forking workflow is common in open-source projects and other large projects.
+{% endcall %}
+
+
+**In a branch-based forking workflow, the official code lives in a designated 'main' repo, while each developer works in their _own fork_ (hence, the name) and submits pull requests from _separate branches_** (either long-lived branches or short term branches) back to the main repo. That is, it is a combination of the forking model and the feature-branch strategy. Not only this workflow is common for OSS projects and other large-team projects, it provides a good foundation for learning Git workflows %%(because other workflows are simpler than this, once you learn this workflow, it is easy to move to other workflows)%%.
 
 <pic src="{{baseUrl}}/lessons/forkingWorkflow/images/diagram.png" height="330" />
 <p/>
 
-**In the {{ show_git_term("forking workflow") }}, the official code lives in a designated 'main' repo, while each developer works in their _own fork_ (hence, the name) and submits pull requests from _separate branches_ back to the main repo.**
-
 To illustrate how the workflow goes, let’s assume Jean wants to fix a bug in the code. Here are the steps:
 
-* Jean creates a separate branch in her local repo and fixes the bug in that branch.<br>
-   {{ icon_important_big_red }} Common mistake: Doing the proposed changes in the `main` branch -- if Jean does that, she will not be able to have more than one PR open at any time because any changes to the `main` branch will be reflected in all open PRs.{{  numbers_abcd }}
-* Jean pushes the branch to her fork.
-* Jean creates a pull request from that branch in her fork to the main repo.
-* Other members review Jean’s pull request.
-* If reviewers suggested any changes, Jean updates the PR accordingly.
-* When reviewers are satisfied with the PR, one of the members (usually the team lead or a designated 'maintainer' of the main repo) merges the PR, which brings Jean’s code to the main repo.
-* Other members, realizing there is new code in the upstream repo, sync their forks with the new upstream repo (i.e., the main repo). This is done by pulling the new code to their own local repo and pushing the updated code to their own fork. If there are unmerged branches in the local repo, they can be updated too e.g., by merging the new `main` branch to each of them.<br>
-   {{ icon_important_big_red }} Possible mistake: Creating another 'reverse' PR from the team repo to the team member's fork to sync the member's fork with the merged code. PRs are meant to go from downstream repos to upstream repos, not in the other direction.
+1. Jean creates a separate branch in her local repo and fixes the bug in that branch.<br>
+   {{ icon_important_big_red }} Common mistake: Doing the proposed changes in the `main` branch -- if Jean does that, she will not be able to have more than one PR open at any time because any changes to the `main` branch will be reflected in all open PRs.
+1. Jean pushes the branch to her fork.
+1. Jean creates a pull request from that branch in her fork to the main repo.
+1. Other members review Jean’s pull request.
+1. If reviewers suggested any changes, Jean updates the PR accordingly.
+1. When reviewers are satisfied with the PR, one of the members (usually the team lead or a designated 'maintainer' of the main repo) merges the PR, which brings Jean’s code to the main repo.
+1. Other members (and Jean), realizing there is new code in the upstream repo, sync their forks with the new upstream repo (i.e., the main repo). This is done by pulling the new code to their own local repo and pushing the updated code to their own fork. If there are unmerged branches in the local repo, they can be updated too e.g., by merging the new `main` branch to each of them.<br>
+   {{ icon_important_big_red }} Potential mistake: Creating another 'reverse' PR from the team repo to the team member's fork to sync the member's fork with the merged code. PRs are meant to go from downstream repos to upstream repos, not in the other direction.
 
 **One main benefit of this workflow is that it does not require most contributors to have write permissions to the main repository.** Only those who are merging PRs need write permissions.
 The main drawback of this workflow is the extra overhead of sending everything through forks.
@@ -95,7 +99,8 @@ The main drawback of this workflow is the extra overhead of sending everything t
 </div>
 
 <div id="extras">
+{% call show_resources() %}
+* [A detailed explanation of the Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows#forking-workflow) - From Atlassian
 
-<include src="resourcesPanel.md" boilerplate/>
-
+{% endcall %}
 </div>

@@ -1,5 +1,6 @@
+{% from "common/macros.njk" import trail with context %}
 <frontmatter>
-title: "Git and GitHub: Forking Workflow"
+title: "{{ trail.managingProjects.lessons.forkingWorkflow.title }}"
 layout: lessons.md
 </frontmatter>
 
