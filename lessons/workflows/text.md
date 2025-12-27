@@ -3,7 +3,7 @@
 
 <span id="prereqs"></span>
 <span id="outcomes">Can understand Git workflows</span>
-<span id="title">{{ trail.usingRevisionHistory.lessons.workflows.title }}</span>
+<span id="title">{{ trail.managingProjects.lessons.workflows.title }}</span>
 
 <div id="body">
 {% call show_lesson_intro() %}
