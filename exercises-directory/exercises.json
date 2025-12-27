@@ -19,8 +19,7 @@
       },
       "title": "Undoing a Repo Initialisation"
     },
-    "identifier": "undo-init",
-    "wip": 1
+    "identifier": "undo-init"
   },
   "stage_fright": {
     "lesson": {
@@ -107,64 +106,56 @@
       "path": "lessons/show",
       "title": "T4L1. Examining a Commit"
     },
-    "identifier": "view-commits",
-    "wip": 1
+    "identifier": "view-commits"
   },
   "tags_add": {
     "lesson": {
       "path": "lessons/tag",
       "title": "T4L2. Tagging Commits"
     },
-    "identifier": "tags-add",
-    "wip": 1
+    "identifier": "tags-add"
   },
   "tags_update": {
     "lesson": {
       "path": "lessons/tag",
       "title": "T4L2. Tagging Commits"
     },
-    "identifier": "tags-update",
-    "wip": 1
+    "identifier": "tags-update"
   },
   "tags_push": {
     "lesson": {
       "path": "lessons/tag",
       "title": "T4L2. Tagging Commits"
     },
-    "identifier": "tags-push",
-    "wip": 1
+    "identifier": "tags-push"
   },
   "sensors_diff": {
     "lesson": {
       "path": "lessons/diff",
       "title": "T4L3. Comparing Points of History"
     },
-    "identifier": "sensors-diff",
-    "wip": 1
+    "identifier": "sensors-diff"
   },
   "sensors_checkout": {
     "lesson": {
       "path": "lessons/checkout",
       "title": "T4L4. Traversing to a Specific Commit"
     },
-    "identifier": "sensors-checkout",
-    "wip": 1
+    "identifier": "sensors-checkout"
   },
   "sensors_reset": {
     "lesson": {
       "path": "lessons/reset",
       "title": "T4L5. Rewriting History to Start Over"
     },
-    "identifier": "sensors-reset",
-    "wip": 1
+    "identifier": "sensors-reset"
   },
   "sensors_revert": {
     "lesson": {
       "path": "lessons/revert",
       "title": "T4L6. Reverting a Specific Commit"
     },
-    "identifier": "sensors-revert",
-    "wip": 1
+    "identifier": "sensors-revert"
   },
   "side_track": {
     "lesson": {
