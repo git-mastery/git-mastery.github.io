@@ -1,10 +1,13 @@
 {% from "common/macros.njk" import trail, bold_number, button_green, button_light, callout, dropdown, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood, sub_numbers with context %}
 
-<span id="title">Merging PRs</span>
 <span id="prereqs"></span>
-<span id="outcomes">{{ icon_outcome }} Can review and merge PRs on GitHub</span>
+<span id="outcomes">Can review PRs on GitHub</span>
+<span id="title">{{ trail.workingWithPrs.lessons.prsMerge.title }}</span>
 
 <div id="body">
+{% call show_lesson_intro() %}
+If you have appropriate level of access to a GitHub repo, you can merge Pull Requests.
+{% endcall %}
 
 **A project member with sufficient access to the remote repo can merge a PR**, incorporating proposed changes into the main codebase. {{ show_git_term("Merging a PR") }} is similar to performing a Git merge in a local repo, except that it occurs in the remote repository.
 
@@ -20,7 +23,7 @@
 {{ hp_number("1") }} **Locate the PR** to be merged in your repo's GitHub page.
 
 {{ hp_number("2") }} **Click on the <span class="tab">:far-comments: Conversation</span> tab** and scroll to the bottom. You'll see a panel containing the PR status summary.<br>
-<pic eager src="{{baseUrl}}/lessons/managePRs/images/mergePr.png" width="800" />
+<pic eager src="{{baseUrl}}/lessons/prsMerge/images/mergePr.png" width="800" />
 
 {{ hp_number("3") }} **If the PR is not merge-able in the current state**, the {{ button_light("Merge pull request :octicon-triangle-down:") }} will not be green. Here are the possible reasons and remedies:
 

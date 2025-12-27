@@ -1,10 +1,14 @@
 {% from "common/macros.njk" import trail, bold_number, button_green, button_light, callout, dropdown, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood, sub_numbers with context %}
 
-<span id="title">Reviewing PRs</span>
 <span id="prereqs"></span>
-<span id="outcomes">{{ icon_outcome }} Can review PRs on GitHub</span>
+<span id="outcomes">Can review PRs on GitHub</span>
+<span id="title">{{ trail.workingWithPrs.lessons.prsReview.title }}</span>
 
 <div id="body">
+{% call show_lesson_intro() %}
+Another way to contribute to a GitHub project is by giving your inputs via a Pull Request review.
+{% endcall %}
+
 
 **PR reviews are a collaborative process in which project members examine and provide feedback on PRs submitted to a remote repo.** After an initial review, the reviewer may suggest improvements or identify issues, prompting the submitter to refine and update their code in the PR. This review-refine-update cycle can repeat several times, with reviewers reassessing each new iteration until all feedback is addressed and the code meets the team’s expectations. Once approved, the PR can be merged, making the changes an official part of the codebase.
 

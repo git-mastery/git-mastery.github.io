@@ -14,7 +14,7 @@ pageNav: 4
 
 <span class="d-none" id="achievements">You should now be able to work with branches in a remote repo, and keep them synchronised with branches in the local repo.</span>
 
-<span id="next">More trails to be added in the future.</span>
+<span id="next">{{ show_tour_link(trail.workingWithPrs) }}</span>
 
 <div id="body">
 

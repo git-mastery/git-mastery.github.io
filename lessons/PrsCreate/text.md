@@ -1,9 +1,13 @@
 {% from "common/macros.njk" import trail, bold_number, button_green, button_light, callout, dropdown, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 
-<span id="title">Creating PRs</span>
-<span id="outcomes">{{ icon_outcome }} Can create PRs on GitHub</span>
+<span id="prereqs"></span>
+<span id="outcomes">Can create PRs on GitHub</span>
+<span id="title">{{ trail.workingWithPrs.lessons.prsCreate.title }}</span>
 
 <div id="body">
+{% call show_lesson_intro() %}
+To propose a contribution to a GitHub project, you can create a Pull Request.
+{% endcall %}
 
 **A {{ show_git_term("pull request") }} ({{ show_git_term("PR") }} for short) is a mechanism for contributing code to a remote repo** i.e., "I'm _requesting_ you to _pull_ my proposed changes to your repo". It's feature provided by RCS platforms such as GitHub. For this to work, the two repos must have a shared history. The most common case is sending PRs from a fork to its <tooltip content="_upstream_ repo is a repo you forked from">upstream</tooltip> repo.
 
