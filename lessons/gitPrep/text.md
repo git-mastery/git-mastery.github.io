@@ -266,7 +266,8 @@ Notes:
 * If the command failed due to checks (a) or (b) failing, you can rectify the problem and run the command again.
 * If you wish to check the Git set up again at a later time, you can run the `gitmastery check git` command.
 
-
+--- {.dotted .border-dark}
+<div id="app-commands">
 
 ##### **Git-Mastery App: Commands**{.text-info}
 
@@ -285,7 +286,11 @@ Command|Description|
 `gitmastery progress show`|Disables your progress made so far and a link to the progress dashboard if you have already enabled sync.|
 `gitmastery progress reset`|Resets the progress for one of your exercises.|
 </box>
+</div>
 
+--- {.dotted .border-dark}
+
+<div id="updating-app">
 
 ##### **Updating the Git-Mastery App**{.text-info}
 
@@ -323,6 +328,7 @@ sudo pacman -S gitmastery-bin
 
 {{ os_tabs_marker('end') }}
 
+</div><!-- div id="updating-app" -->
 {% endcall %} <!-- show_prep -->
 </div>
 
