@@ -363,6 +363,31 @@ The method given above is the more 'standard' method of synchronising a fork wit
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
+{% call show_sidebar("Distributed vs Centralised Revision Control", non_printable=0) %}
+**Revision control can be done in two ways: the _centralized_ way and the _distributed_ way.**
+
+**{{ show_git_term("Centralized RCS") }} use a single central (server-hosted) repository that is shared by the team.** Developers check out a working copy, make changes locally, and then commit directly to the central repository. Instead of having their own copy of the entire repository history, they only have a working copy of files. One advantage of this model is having a clear and single "source of truth." One big disadvantage is that the central server becomes a critical dependency: if it's down, most operations (commits and history queries beyond the local working copy) are blocked. Older RCS tools such as CVS, Subversion, and Perforce follow this model.
+
+<pic eager src="{{baseUrl}}/lessons/drcsVsCrcs/images/crcsDiagram.png" width="450">
+
+_The centralized RCS approach_
+</pic>
+
+**{{ show_git_term("Distributed RCS") }} (also known as decentralized RCS) allow multiple remote and local repositories to work together.** The workflow can vary from team to team. For example, every team member can have their own remote repository in addition to a local repository. This architecture enables offline work, fast local operations, and more flexible workflows. It also supports multiple integration points (e.g., forks or alternative remotes) and uses cryptographic checksums to ensure history integrity. The trade-offs include more conceptual complexity (multiple repositories, remotes, and sync patterns) and the need for conventions to establish an authoritative integration flow. Git and Mercurial are prominent RCS tools that support the distributed approach.
+
+<pic eager src="{{baseUrl}}/lessons/drcsVsCrcs/images/drcsDiagram.png" width="450">
+
+_The decentralized RCS approach_
+</pic>
+
+{% endcall %}
+
+
+<box type="important" light>
+
+Given its use of multiple copies of a repository, **Git is considered a _distributed_ revision control software**, as opposed to a _centralised_ revision control software that keep only a single repository.
+</box>
+
 </div>
 <div id="extras">
 {{ show_exercise(exercises.fetch_and_pull) }}
