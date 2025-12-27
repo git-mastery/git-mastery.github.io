@@ -135,7 +135,7 @@
     },
     {
       "src": "lessons/forkingWorkflow/index.md",
-      "title": "Git and GitHub: Forking Workflow",
+      "title": "T10L2. Forking Workflow (with Branching)",
       "headings": {},
       "headingKeywords": {}
     },
@@ -199,6 +199,12 @@
     {
       "src": "lessons/mergeConflicts/index.md",
       "title": "T6L3. Resolving Merge Conflicts",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "lessons/otherPmFeatures/index.md",
+      "title": "T10L3. Other Project Management Features",
       "headings": {},
       "headingKeywords": {}
     },
@@ -350,6 +356,12 @@
       "headingKeywords": {}
     },
     {
+      "src": "lessons/trail/managingProjects/index.md",
+      "title": "Tour 10: Managing Git-Based Projects",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
       "src": "lessons/trail/recordingFolderHistory/index.md",
       "title": "Tour 1: Recording the History of a Folder",
       "headings": {},
@@ -382,6 +394,12 @@
     {
       "src": "lessons/trail/workingWithRemotes/index.md",
       "title": "Tour 3: Working Off a Remote Repo",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "lessons/workflows/index.md",
+      "title": "",
       "headings": {},
       "headingKeywords": {}
     },

@@ -2777,3 +2777,749 @@ Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io
 2025-12-27T06:25:16.994Z - info: Website regeneration complete! Total build time: 2.707s
 2025-12-27T06:26:13.238Z - info: Website generation started at 14:26:13
 2025-12-27T06:26:13.327Z - info: Building assets...
+2025-12-27T06:26:13.620Z - info: Assets built
+2025-12-27T06:26:13.620Z - info: Generating pages...
+2025-12-27T06:26:14.661Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md is empty
+2025-12-27T06:26:16.780Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md is empty
+2025-12-27T06:26:17.728Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md is empty
+2025-12-27T06:26:19.005Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/unit-inElsewhere-asFlat.md:
+Segment '#title' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/text.md is empty
+2025-12-27T06:26:19.021Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsMerge/unit-inElsewhere-asFlat.md:
+Segment '#title' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsMerge/text.md is empty
+2025-12-27T06:26:19.381Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md is empty
+2025-12-27T06:26:19.908Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/PrsCreate/unit-inElsewhere-asFlat.md:
+Segment '#title' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/PrsCreate/text.md is empty
+2025-12-27T06:26:20.037Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2025-12-27T06:26:20.037Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T06:26:20.037Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T06:26:20.037Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2025-12-27T06:26:20.037Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2025-12-27T06:26:20.038Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2025-12-27T06:26:20.038Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md'
+2025-12-27T06:26:20.039Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/lessons.md'
+2025-12-27T06:26:20.039Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md'
+2025-12-27T06:26:20.039Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/branch/images/listRemoteBranches.png' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranches/sourcetree_4.md'
+2025-12-27T06:26:20.040Z - info: Pages built
+2025-12-27T06:26:20.109Z - info: Site data built
+2025-12-27T06:26:20.109Z - info: Website generation complete! Total build time: 7.044s
+2025-12-27T06:26:20.109Z - info: Build success!
+2025-12-27T06:26:28.345Z - info: The website has been deployed at: https://git-mastery.github.io/git-mastery.github.io
+2025-12-27T07:48:59.415Z - info: Website generation (lazy) started at 15:48:59
+2025-12-27T07:48:59.555Z - info: Building assets...
+2025-12-27T07:48:59.823Z - info: Assets built
+2025-12-27T07:48:59.823Z - info: Generating landing page...
+2025-12-27T07:48:59.906Z - info: Landing page built, other pages will be built as you navigate to them!
+2025-12-27T07:48:59.973Z - info: Site data built
+2025-12-27T07:48:59.973Z - info: Website generation (lazy) complete! Total build time: 0.736s
+2025-12-27T07:48:59.981Z - info: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2025-12-27T07:48:59.982Z - info: Press CTRL+C to stop ...
+2025-12-27T07:49:04.392Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2025-12-27T07:49:04.647Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T07:49:04.719Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/text.md'
+2025-12-27T07:49:04.719Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/lessons.md'
+2025-12-27T07:49:04.720Z - info: Site data built
+2025-12-27T07:49:04.720Z - info: Lazy website regeneration complete! Total build time: 0.328s
+2025-12-27T07:49:09.141Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/index as some of its dependencies were changed since the last visit
+2025-12-27T07:49:09.480Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md'
+2025-12-27T07:49:09.481Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-27T07:49:09.481Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-27T07:49:09.481Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md'
+2025-12-27T07:49:09.481Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md'
+2025-12-27T07:49:09.482Z - info: Site data built
+2025-12-27T07:49:09.482Z - info: Lazy website regeneration complete! Total build time: 0.341s
+2025-12-27T07:49:15.857Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/index as some of its dependencies were changed since the last visit
+2025-12-27T07:49:16.119Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/index.html' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md'
+2025-12-27T07:49:16.119Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-27T07:49:16.119Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2025-12-27T07:49:16.120Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#git-mastery-app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md'
+2025-12-27T07:49:16.120Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /companion-app/index.html#updating-the-git-mastery-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md'
+2025-12-27T07:49:16.120Z - info: Site data built
+2025-12-27T07:49:16.121Z - info: Lazy website regeneration complete! Total build time: 0.264s
+2025-12-27T07:49:52.497Z - info: [15:49:52] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md
+2025-12-27T07:49:52.498Z - info: Synchronizing opened pages list before reload
+2025-12-27T07:49:52.498Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T07:49:52.498Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T07:49:53.514Z - info: Rebuilding 1 pages
+2025-12-27T07:49:53.584Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T07:49:53.610Z - info: Site data built
+2025-12-27T07:49:53.610Z - info: Pages rebuilt
+2025-12-27T07:49:53.610Z - info: Website regeneration complete! Total build time: 0.099s
+2025-12-27T07:58:39.491Z - info: [15:58:39] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T07:58:39.491Z - info: Synchronizing opened pages list before reload
+2025-12-27T07:58:39.492Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T07:58:39.492Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T07:58:40.520Z - info: Rebuilding 1 pages
+2025-12-27T07:58:40.580Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T07:58:40.605Z - info: Site data built
+2025-12-27T07:58:40.605Z - info: Pages rebuilt
+2025-12-27T07:58:40.606Z - info: Website regeneration complete! Total build time: 0.088s
+2025-12-27T08:00:27.270Z - info: [16:00:27] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:00:27.273Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:00:27.277Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:00:27.277Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:00:28.284Z - info: Rebuilding 1 pages
+2025-12-27T08:00:28.337Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:00:28.367Z - info: Site data built
+2025-12-27T08:00:28.367Z - info: Pages rebuilt
+2025-12-27T08:00:28.367Z - info: Website regeneration complete! Total build time: 0.085s
+2025-12-27T08:02:53.906Z - info: [16:02:53] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:02:53.908Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:02:53.912Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:02:53.914Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:02:54.920Z - info: Rebuilding 1 pages
+2025-12-27T08:02:54.983Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:02:55.017Z - info: Site data built
+2025-12-27T08:02:55.017Z - info: Pages rebuilt
+2025-12-27T08:02:55.017Z - info: Website regeneration complete! Total build time: 0.099s
+2025-12-27T08:03:18.304Z - info: [16:03:18] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:03:18.306Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:03:18.307Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:03:18.307Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:03:19.532Z - info: Rebuilding 1 pages
+2025-12-27T08:03:19.665Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:03:19.691Z - info: Site data built
+2025-12-27T08:03:19.691Z - info: Pages rebuilt
+2025-12-27T08:03:19.691Z - info: Website regeneration complete! Total build time: 0.233s
+2025-12-27T08:03:51.086Z - info: [16:03:51] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:03:51.091Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:03:51.094Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:03:51.094Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:03:52.101Z - info: Rebuilding 1 pages
+2025-12-27T08:03:52.156Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:03:52.180Z - info: Site data built
+2025-12-27T08:03:52.180Z - info: Pages rebuilt
+2025-12-27T08:03:52.180Z - info: Website regeneration complete! Total build time: 0.081s
+2025-12-27T08:04:20.505Z - info: [16:04:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:04:20.505Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:04:20.506Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:04:20.506Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:04:21.512Z - info: Rebuilding 1 pages
+2025-12-27T08:04:21.588Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:04:21.609Z - info: Site data built
+2025-12-27T08:04:21.609Z - info: Pages rebuilt
+2025-12-27T08:04:21.609Z - info: Website regeneration complete! Total build time: 0.1s
+2025-12-27T08:04:39.262Z - info: [16:04:39] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:04:39.263Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:04:39.264Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:04:39.265Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:04:40.292Z - info: Rebuilding 1 pages
+2025-12-27T08:04:40.349Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:04:40.375Z - info: Site data built
+2025-12-27T08:04:40.375Z - info: Pages rebuilt
+2025-12-27T08:04:40.375Z - info: Website regeneration complete! Total build time: 0.085s
+2025-12-27T08:06:17.285Z - info: [16:06:17] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:06:17.287Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:06:17.288Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:06:17.289Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:06:18.295Z - info: Rebuilding 1 pages
+2025-12-27T08:06:18.352Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:06:18.374Z - info: Site data built
+2025-12-27T08:06:18.374Z - info: Pages rebuilt
+2025-12-27T08:06:18.374Z - info: Website regeneration complete! Total build time: 0.081s
+2025-12-27T08:06:56.430Z - info: [16:06:56] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:06:56.440Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:06:56.442Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:06:56.443Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:06:57.449Z - info: Rebuilding 1 pages
+2025-12-27T08:06:57.508Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:06:57.541Z - info: Site data built
+2025-12-27T08:06:57.541Z - info: Pages rebuilt
+2025-12-27T08:06:57.541Z - info: Website regeneration complete! Total build time: 0.094s
+2025-12-27T08:07:21.558Z - info: [16:07:21] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:07:21.566Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:07:21.577Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:07:21.584Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:07:22.631Z - info: Rebuilding 1 pages
+2025-12-27T08:07:22.686Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:07:22.708Z - info: Site data built
+2025-12-27T08:07:22.708Z - info: Pages rebuilt
+2025-12-27T08:07:22.708Z - info: Website regeneration complete! Total build time: 0.079s
+2025-12-27T08:08:13.239Z - info: [16:08:13] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:08:13.242Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:08:13.243Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:08:13.243Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:08:14.252Z - info: Rebuilding 1 pages
+2025-12-27T08:08:14.300Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:08:14.326Z - info: Site data built
+2025-12-27T08:08:14.326Z - info: Pages rebuilt
+2025-12-27T08:08:14.326Z - info: Website regeneration complete! Total build time: 0.076s
+2025-12-27T08:09:15.974Z - info: [16:09:15] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:09:15.976Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:09:15.978Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:09:15.978Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:09:16.992Z - info: Rebuilding 1 pages
+2025-12-27T08:09:17.058Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:09:17.094Z - info: Site data built
+2025-12-27T08:09:17.094Z - info: Pages rebuilt
+2025-12-27T08:09:17.094Z - info: Website regeneration complete! Total build time: 0.104s
+2025-12-27T08:11:21.342Z - info: [16:11:21] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:11:21.345Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:11:21.346Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:11:21.346Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:11:22.350Z - info: Rebuilding 1 pages
+2025-12-27T08:11:22.404Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:11:22.430Z - info: Site data built
+2025-12-27T08:11:22.430Z - info: Pages rebuilt
+2025-12-27T08:11:22.430Z - info: Website regeneration complete! Total build time: 0.082s
+2025-12-27T08:12:06.193Z - info: [16:12:06] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:12:06.196Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:12:06.197Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:12:06.197Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:12:07.210Z - info: Rebuilding 1 pages
+2025-12-27T08:12:07.274Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:12:07.294Z - info: Site data built
+2025-12-27T08:12:07.294Z - info: Pages rebuilt
+2025-12-27T08:12:07.294Z - info: Website regeneration complete! Total build time: 0.088s
+2025-12-27T08:12:38.320Z - info: [16:12:38] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:12:38.324Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:12:38.326Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:12:38.329Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:12:39.346Z - info: Rebuilding 1 pages
+2025-12-27T08:12:39.405Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:12:39.433Z - info: Site data built
+2025-12-27T08:12:39.433Z - info: Pages rebuilt
+2025-12-27T08:12:39.433Z - info: Website regeneration complete! Total build time: 0.095s
+2025-12-27T08:13:23.980Z - info: [16:13:23] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:13:23.982Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:13:23.984Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:13:23.985Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:13:24.990Z - info: Rebuilding 1 pages
+2025-12-27T08:13:25.061Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:13:25.084Z - info: Site data built
+2025-12-27T08:13:25.084Z - info: Pages rebuilt
+2025-12-27T08:13:25.084Z - info: Website regeneration complete! Total build time: 0.095s
+2025-12-27T08:14:24.131Z - info: [16:14:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:14:24.135Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:14:24.186Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:14:24.186Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:14:24.209Z - info: [16:14:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:14:24.209Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:14:24.209Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:14:24.209Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:14:25.206Z - info: Rebuilding 1 pages
+2025-12-27T08:14:25.260Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:14:25.287Z - info: Site data built
+2025-12-27T08:14:25.287Z - info: Pages rebuilt
+2025-12-27T08:14:25.287Z - info: Website regeneration complete! Total build time: 0.083s
+2025-12-27T08:15:03.283Z - info: [16:15:03] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:15:03.284Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:15:03.285Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:15:03.285Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:15:04.291Z - info: Rebuilding 1 pages
+2025-12-27T08:15:04.350Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:15:04.371Z - info: Site data built
+2025-12-27T08:15:04.371Z - info: Pages rebuilt
+2025-12-27T08:15:04.371Z - info: Website regeneration complete! Total build time: 0.082s
+2025-12-27T08:16:57.415Z - info: [16:16:57] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2025-12-27T08:16:57.424Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:16:57.427Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:16:57.428Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:16:57.430Z - info: [16:16:57] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:16:57.430Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:16:57.430Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:16:57.430Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:16:58.501Z - info: Rebuilding 1 pages
+2025-12-27T08:16:58.512Z - error: Error parsing texts: D1:, please check the format of the texts attribute
+
+2025-12-27T08:16:58.512Z - error: Error parsing texts: D1a:, please check the format of the texts attribute
+
+2025-12-27T08:16:58.512Z - error: Error parsing texts: D1b:, please check the format of the texts attribute
+
+2025-12-27T08:16:58.516Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:16:58.544Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/lessons.md'
+2025-12-27T08:16:58.545Z - info: Site data built
+2025-12-27T08:16:58.545Z - info: Pages rebuilt
+2025-12-27T08:16:58.545Z - info: Website regeneration complete! Total build time: 0.045s
+2025-12-27T08:17:26.587Z - info: [16:17:26] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2025-12-27T08:17:26.589Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:17:26.590Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:17:26.590Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:17:27.661Z - info: Rebuilding 1 pages
+2025-12-27T08:17:27.675Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:17:27.692Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/lessons.md'
+2025-12-27T08:17:27.692Z - info: Site data built
+2025-12-27T08:17:27.692Z - info: Pages rebuilt
+2025-12-27T08:17:27.692Z - info: Website regeneration complete! Total build time: 0.031s
+2025-12-27T08:18:05.460Z - info: [16:18:05] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:18:05.461Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:18:05.461Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:18:05.461Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:18:06.473Z - info: Rebuilding 1 pages
+2025-12-27T08:18:06.535Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:18:06.561Z - info: Site data built
+2025-12-27T08:18:06.561Z - info: Pages rebuilt
+2025-12-27T08:18:06.561Z - info: Website regeneration complete! Total build time: 0.089s
+2025-12-27T08:18:18.458Z - info: [16:18:18] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:18:18.458Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:18:18.458Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:18:18.459Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:18:19.469Z - info: Rebuilding 1 pages
+2025-12-27T08:18:19.534Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:18:19.562Z - info: Site data built
+2025-12-27T08:18:19.562Z - info: Pages rebuilt
+2025-12-27T08:18:19.562Z - info: Website regeneration complete! Total build time: 0.1s
+2025-12-27T08:19:40.320Z - info: [16:19:40] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:19:40.321Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:19:40.348Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:19:40.354Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:19:41.394Z - info: Rebuilding 1 pages
+2025-12-27T08:19:41.454Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:19:41.481Z - info: Site data built
+2025-12-27T08:19:41.481Z - info: Pages rebuilt
+2025-12-27T08:19:41.481Z - info: Website regeneration complete! Total build time: 0.09s
+2025-12-27T08:20:06.217Z - info: [16:20:06] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:20:06.219Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:20:06.219Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:20:06.220Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:20:07.225Z - info: Rebuilding 1 pages
+2025-12-27T08:20:07.278Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:20:07.298Z - info: Site data built
+2025-12-27T08:20:07.298Z - info: Pages rebuilt
+2025-12-27T08:20:07.298Z - info: Website regeneration complete! Total build time: 0.075s
+2025-12-27T08:20:55.076Z - info: [16:20:55] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:20:55.079Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:20:55.081Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:20:55.081Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:20:56.090Z - info: Rebuilding 1 pages
+2025-12-27T08:20:56.159Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:20:56.189Z - info: Site data built
+2025-12-27T08:20:56.189Z - info: Pages rebuilt
+2025-12-27T08:20:56.189Z - info: Website regeneration complete! Total build time: 0.101s
+2025-12-27T08:21:03.139Z - info: [16:21:03] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:21:03.140Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:21:03.140Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:21:03.140Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:21:04.146Z - info: Rebuilding 1 pages
+2025-12-27T08:21:04.214Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:21:04.235Z - info: Site data built
+2025-12-27T08:21:04.235Z - info: Pages rebuilt
+2025-12-27T08:21:04.236Z - info: Website regeneration complete! Total build time: 0.091s
+2025-12-27T08:21:24.217Z - info: [16:21:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:21:24.218Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:21:24.218Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:21:24.219Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:21:25.224Z - info: Rebuilding 1 pages
+2025-12-27T08:21:25.284Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:21:25.307Z - info: Site data built
+2025-12-27T08:21:25.307Z - info: Pages rebuilt
+2025-12-27T08:21:25.307Z - info: Website regeneration complete! Total build time: 0.086s
+2025-12-27T08:23:17.904Z - info: [16:23:17] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:23:17.905Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:23:17.906Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:23:17.906Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:23:18.910Z - info: Rebuilding 1 pages
+2025-12-27T08:23:18.974Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:23:19.004Z - info: Site data built
+2025-12-27T08:23:19.004Z - info: Pages rebuilt
+2025-12-27T08:23:19.004Z - info: Website regeneration complete! Total build time: 0.096s
+2025-12-27T08:25:22.344Z - info: [16:25:22] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:25:22.352Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:25:22.363Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:25:22.366Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:25:23.375Z - info: Rebuilding 1 pages
+2025-12-27T08:25:23.433Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:25:23.457Z - info: Site data built
+2025-12-27T08:25:23.457Z - info: Pages rebuilt
+2025-12-27T08:25:23.457Z - info: Website regeneration complete! Total build time: 0.085s
+2025-12-27T08:27:02.530Z - info: [16:27:02] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:27:02.536Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:27:02.537Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:27:02.537Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:27:03.544Z - info: Rebuilding 1 pages
+2025-12-27T08:27:03.607Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:27:03.634Z - info: Site data built
+2025-12-27T08:27:03.634Z - info: Pages rebuilt
+2025-12-27T08:27:03.634Z - info: Website regeneration complete! Total build time: 0.093s
+2025-12-27T08:30:20.061Z - info: [16:30:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:30:20.064Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:30:20.066Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:30:20.066Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:30:21.072Z - info: Rebuilding 1 pages
+2025-12-27T08:30:21.140Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:30:21.175Z - info: Site data built
+2025-12-27T08:30:21.175Z - info: Pages rebuilt
+2025-12-27T08:30:21.175Z - info: Website regeneration complete! Total build time: 0.106s
+2025-12-27T08:33:17.550Z - info: [16:33:17] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/PrsCreate/text.md
+2025-12-27T08:33:17.551Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:33:17.552Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:33:17.552Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:33:17.554Z - info: [16:33:17] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/text.md
+2025-12-27T08:33:17.554Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:33:17.554Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:33:17.554Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:33:17.555Z - info: [16:33:17] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T08:33:17.555Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:33:17.555Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:33:17.555Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:33:17.556Z - info: [16:33:17] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/text.md
+2025-12-27T08:33:17.556Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:33:17.556Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:33:17.557Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:33:17.650Z - info: [16:33:17] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsMerge/text.md
+2025-12-27T08:33:17.650Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:33:17.651Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:33:17.651Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:33:18.563Z - info: Assets built
+2025-12-27T08:33:18.566Z - info: Rebuilding 1 pages
+2025-12-27T08:33:18.622Z - warn: Empty reference in /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md:
+Segment '#next' in file: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md is empty
+2025-12-27T08:33:18.657Z - info: Site data built
+2025-12-27T08:33:18.657Z - info: Pages rebuilt
+2025-12-27T08:33:18.657Z - info: Website regeneration complete! Total build time: 0.092s
+2025-12-27T08:36:52.901Z - info: [16:36:52] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md
+2025-12-27T08:36:52.913Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:36:52.916Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:36:52.916Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:36:53.934Z - info: Rebuilding 1 pages
+2025-12-27T08:36:54.014Z - info: Site data built
+2025-12-27T08:36:54.014Z - info: Pages rebuilt
+2025-12-27T08:36:54.014Z - info: Website regeneration complete! Total build time: 0.082s
+2025-12-27T08:37:17.916Z - info: [16:37:17] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md
+2025-12-27T08:37:17.917Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:37:17.918Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:37:17.918Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:37:18.924Z - info: Rebuilding 1 pages
+2025-12-27T08:37:19.004Z - info: Site data built
+2025-12-27T08:37:19.004Z - info: Pages rebuilt
+2025-12-27T08:37:19.004Z - info: Website regeneration complete! Total build time: 0.083s
+2025-12-27T08:38:21.319Z - info: [16:38:21] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md
+2025-12-27T08:38:21.331Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:38:21.332Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:38:21.335Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:38:22.354Z - info: Rebuilding 1 pages
+2025-12-27T08:38:22.452Z - info: Site data built
+2025-12-27T08:38:22.452Z - info: Pages rebuilt
+2025-12-27T08:38:22.452Z - info: Website regeneration complete! Total build time: 0.1s
+2025-12-27T08:48:30.022Z - info: [16:48:30] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/index.md
+2025-12-27T08:48:30.028Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:48:30.030Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:48:30.031Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:48:30.034Z - info: [16:48:30] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/text.md
+2025-12-27T08:48:30.036Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:48:30.036Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:48:30.036Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:48:30.037Z - info: [16:48:30] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2025-12-27T08:48:30.037Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:48:30.037Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:48:30.037Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:48:31.127Z - info: Rebuilding 1 pages
+2025-12-27T08:48:31.178Z - info: Assets built
+2025-12-27T08:48:31.225Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/lessons.md'
+2025-12-27T08:48:31.226Z - info: Site data built
+2025-12-27T08:48:31.226Z - info: Pages rebuilt
+2025-12-27T08:48:31.226Z - info: Website regeneration complete! Total build time: 0.099s
+2025-12-27T08:51:03.134Z - info: [16:51:03] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/text.md
+2025-12-27T08:51:03.135Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:51:03.135Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:51:03.135Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:51:04.146Z - info: Rebuilding 1 pages
+2025-12-27T08:51:04.291Z - info: Site data built
+2025-12-27T08:51:04.291Z - info: Pages rebuilt
+2025-12-27T08:51:04.291Z - info: Website regeneration complete! Total build time: 0.147s
+2025-12-27T08:52:03.503Z - info: [16:52:03] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/text.md
+2025-12-27T08:52:03.505Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:52:03.506Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:52:03.506Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:52:04.514Z - info: Rebuilding 1 pages
+2025-12-27T08:52:04.658Z - info: Site data built
+2025-12-27T08:52:04.658Z - info: Pages rebuilt
+2025-12-27T08:52:04.658Z - info: Website regeneration complete! Total build time: 0.145s
+2025-12-27T08:52:21.723Z - info: [16:52:21] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/text.md
+2025-12-27T08:52:21.724Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:52:21.725Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:52:21.725Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:52:22.733Z - info: Rebuilding 1 pages
+2025-12-27T08:52:22.833Z - info: Site data built
+2025-12-27T08:52:22.834Z - info: Pages rebuilt
+2025-12-27T08:52:22.834Z - info: Website regeneration complete! Total build time: 0.102s
+2025-12-27T08:57:01.022Z - info: [16:57:01] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/text.md
+2025-12-27T08:57:01.026Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:57:01.026Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:57:01.027Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:57:02.033Z - info: Rebuilding 1 pages
+2025-12-27T08:57:02.143Z - info: Site data built
+2025-12-27T08:57:02.143Z - info: Pages rebuilt
+2025-12-27T08:57:02.143Z - info: Website regeneration complete! Total build time: 0.112s
+2025-12-27T08:57:34.506Z - info: [16:57:34] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/text.md
+2025-12-27T08:57:34.539Z - info: Synchronizing opened pages list before reload
+2025-12-27T08:57:34.548Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T08:57:34.548Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T08:57:35.565Z - info: Rebuilding 1 pages
+2025-12-27T08:57:35.678Z - info: Site data built
+2025-12-27T08:57:35.678Z - info: Pages rebuilt
+2025-12-27T08:57:35.678Z - info: Website regeneration complete! Total build time: 0.115s
+2025-12-27T09:00:18.049Z - info: [17:00:18] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/text.md
+2025-12-27T09:00:18.050Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:00:18.051Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:00:18.051Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:00:19.056Z - info: Rebuilding 1 pages
+2025-12-27T09:00:19.194Z - info: Site data built
+2025-12-27T09:00:19.194Z - info: Pages rebuilt
+2025-12-27T09:00:19.194Z - info: Website regeneration complete! Total build time: 0.14s
+2025-12-27T09:00:26.155Z - info: [17:00:26] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/resources.md
+2025-12-27T09:00:26.157Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:00:26.157Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:00:26.158Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:00:27.228Z - debug: Assets removed
+2025-12-27T09:01:38.073Z - info: [17:01:38] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/text.md
+2025-12-27T09:01:38.077Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:01:38.077Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:01:38.078Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:01:39.086Z - info: Rebuilding 1 pages
+2025-12-27T09:01:39.210Z - info: Site data built
+2025-12-27T09:01:39.210Z - info: Pages rebuilt
+2025-12-27T09:01:39.210Z - info: Website regeneration complete! Total build time: 0.127s
+2025-12-27T09:02:29.470Z - info: [17:02:29] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/text.md
+2025-12-27T09:02:29.474Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:02:29.474Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:02:29.474Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:02:30.480Z - info: Rebuilding 1 pages
+2025-12-27T09:02:30.601Z - info: Site data built
+2025-12-27T09:02:30.601Z - info: Pages rebuilt
+2025-12-27T09:02:30.601Z - info: Website regeneration complete! Total build time: 0.123s
+2025-12-27T09:02:39.794Z - info: [17:02:39] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/text.md
+2025-12-27T09:02:39.796Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:02:39.797Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:02:39.802Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:02:40.818Z - info: Rebuilding 1 pages
+2025-12-27T09:02:40.927Z - info: Site data built
+2025-12-27T09:02:40.927Z - info: Pages rebuilt
+2025-12-27T09:02:40.927Z - info: Website regeneration complete! Total build time: 0.113s
+2025-12-27T09:03:29.419Z - info: [17:03:29] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/diagrams/revisionControl/forkingWorkflow/~$diagram.pptx
+2025-12-27T09:03:29.420Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:03:29.420Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:03:29.420Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:03:30.485Z - info: Assets built
+2025-12-27T09:12:48.327Z - info: [17:12:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/diagrams/revisionControl/forkingWorkflow/diagram.pptx
+2025-12-27T09:12:48.327Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:12:48.328Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:12:48.328Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:12:49.332Z - info: Assets built
+2025-12-27T09:13:32.288Z - info: [17:13:32] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/images/diagram.png
+2025-12-27T09:13:32.290Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:13:32.291Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:13:32.291Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:13:32.587Z - info: [17:13:32] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/images/diagram.png
+2025-12-27T09:13:32.587Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:13:32.589Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:13:32.590Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:13:33.313Z - info: Assets built
+2025-12-27T09:15:49.492Z - info: [17:15:49] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/diagrams/revisionControl/forkingWorkflow/diagram.pptx
+2025-12-27T09:15:49.492Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:15:49.493Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:15:49.494Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:15:50.497Z - info: Assets built
+2025-12-27T09:16:03.332Z - info: [17:16:03] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/images/diagram.png
+2025-12-27T09:16:03.333Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:16:03.333Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:16:03.333Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:16:03.634Z - info: [17:16:03] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/images/diagram.png
+2025-12-27T09:16:03.634Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:16:03.634Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:16:03.634Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:16:04.346Z - info: Assets built
+2025-12-27T09:17:09.651Z - info: [17:17:09] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/text.md
+2025-12-27T09:17:09.654Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:17:09.655Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:17:09.655Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:17:10.718Z - info: Rebuilding 1 pages
+2025-12-27T09:17:10.857Z - info: Site data built
+2025-12-27T09:17:10.857Z - info: Pages rebuilt
+2025-12-27T09:17:10.857Z - info: Website regeneration complete! Total build time: 0.153s
+2025-12-27T09:18:19.942Z - info: [17:18:19] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/diagrams/revisionControl/forkingWorkflow/~$diagram.pptx
+2025-12-27T09:18:19.943Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:18:19.944Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:18:19.944Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:18:20.995Z - debug: Assets removed
+2025-12-27T09:26:46.350Z - info: [17:26:46] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/otherPmFeatures/index.md
+2025-12-27T09:26:46.352Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:26:46.353Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:26:46.353Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:26:46.355Z - info: [17:26:46] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/otherPmFeatures/text.md
+2025-12-27T09:26:46.355Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:26:46.356Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:26:46.356Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:26:46.433Z - info: [17:26:46] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/otherPmFeatures/images/diagram.png
+2025-12-27T09:26:46.433Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:26:46.433Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:26:46.433Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:26:47.411Z - info: Pages or site config modified, updating pages...
+2025-12-27T09:26:47.468Z - info: Assets built
+2025-12-27T09:26:48.475Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/index as some of its dependencies were changed since the last visit
+2025-12-27T09:26:48.609Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/lessons.md'
+2025-12-27T09:26:48.609Z - info: Site data built
+2025-12-27T09:26:48.610Z - info: Lazy website regeneration complete! Total build time: 0.134s
+2025-12-27T09:27:14.854Z - info: [17:27:14] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/otherPmFeatures/images/diagram.png
+2025-12-27T09:27:14.855Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:27:14.855Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:27:14.855Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:27:15.908Z - debug: Assets removed
+2025-12-27T09:28:47.207Z - info: [17:28:47] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2025-12-27T09:28:47.208Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:28:47.209Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:28:47.209Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:28:47.211Z - info: [17:28:47] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/otherPmFeatures/index.md
+2025-12-27T09:28:47.211Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:28:47.212Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:28:47.212Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:28:48.292Z - info: Rebuilding 1 pages
+2025-12-27T09:28:48.395Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsCreate/' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/lessons.md'
+2025-12-27T09:28:48.396Z - info: Site data built
+2025-12-27T09:28:48.396Z - info: Pages rebuilt
+2025-12-27T09:28:48.396Z - info: Website regeneration complete! Total build time: 0.105s
+2025-12-27T09:30:45.321Z - info: [17:30:45] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/otherPmFeatures/text.md
+2025-12-27T09:30:45.328Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:30:45.331Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:30:45.332Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:30:46.346Z - info: Rebuilding 1 pages
+2025-12-27T09:30:46.510Z - info: Site data built
+2025-12-27T09:30:46.510Z - info: Pages rebuilt
+2025-12-27T09:30:46.510Z - info: Website regeneration complete! Total build time: 0.166s
+2025-12-27T09:31:59.270Z - info: [17:31:59] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2025-12-27T09:31:59.272Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:31:59.273Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:31:59.273Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:32:00.279Z - info: Rebuilding 1 pages
+2025-12-27T09:32:00.407Z - info: Site data built
+2025-12-27T09:32:00.407Z - info: Pages rebuilt
+2025-12-27T09:32:00.407Z - info: Website regeneration complete! Total build time: 0.13s
+2025-12-27T09:32:26.249Z - info: [17:32:26] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/otherPmFeatures/text.md
+2025-12-27T09:32:26.250Z - info: Synchronizing opened pages list before reload
+2025-12-27T09:32:26.251Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T09:32:26.251Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T09:32:27.260Z - info: Rebuilding 1 pages
+2025-12-27T09:32:27.407Z - info: Site data built
+2025-12-27T09:32:27.407Z - info: Pages rebuilt
+2025-12-27T09:32:27.407Z - info: Website regeneration complete! Total build time: 0.151s
+2025-12-27T11:36:35.820Z - info: [19:36:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/otherPmFeatures/text.md
+2025-12-27T11:36:35.823Z - info: Synchronizing opened pages list before reload
+2025-12-27T11:36:35.824Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T11:36:35.825Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T11:36:36.863Z - info: Rebuilding 1 pages
+2025-12-27T11:36:37.067Z - info: Site data built
+2025-12-27T11:36:37.067Z - info: Pages rebuilt
+2025-12-27T11:36:37.067Z - info: Website regeneration complete! Total build time: 0.219s
+2025-12-27T11:38:01.863Z - info: [19:38:01] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/otherPmFeatures/text.md
+2025-12-27T11:38:01.868Z - info: Synchronizing opened pages list before reload
+2025-12-27T11:38:01.879Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T11:38:01.879Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T11:38:02.902Z - info: Rebuilding 1 pages
+2025-12-27T11:38:03.074Z - info: Site data built
+2025-12-27T11:38:03.074Z - info: Pages rebuilt
+2025-12-27T11:38:03.074Z - info: Website regeneration complete! Total build time: 0.176s
+2025-12-27T11:39:01.754Z - info: [19:39:01] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/otherPmFeatures/text.md
+2025-12-27T11:39:01.768Z - info: Synchronizing opened pages list before reload
+2025-12-27T11:39:01.771Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T11:39:01.771Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T11:39:02.784Z - info: Rebuilding 1 pages
+2025-12-27T11:39:02.920Z - info: Site data built
+2025-12-27T11:39:02.920Z - info: Pages rebuilt
+2025-12-27T11:39:02.920Z - info: Website regeneration complete! Total build time: 0.138s
+2025-12-27T11:41:59.446Z - info: [19:41:59] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/otherPmFeatures/text.md
+2025-12-27T11:41:59.452Z - info: Synchronizing opened pages list before reload
+2025-12-27T11:41:59.459Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T11:41:59.461Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T11:42:00.500Z - info: Rebuilding 1 pages
+2025-12-27T11:42:00.666Z - info: Site data built
+2025-12-27T11:42:00.666Z - info: Pages rebuilt
+2025-12-27T11:42:00.666Z - info: Website regeneration complete! Total build time: 0.168s
+2025-12-27T11:42:05.778Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/otherPmFeatures/index as some of its dependencies were changed since the last visit
+2025-12-27T11:42:05.848Z - info: Site data built
+2025-12-27T11:42:05.848Z - info: Lazy website regeneration complete! Total build time: 0.07s
+2025-12-27T11:42:51.950Z - info: [19:42:51] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/otherPmFeatures/text.md
+2025-12-27T11:42:51.954Z - info: Synchronizing opened pages list before reload
+2025-12-27T11:42:51.955Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T11:42:51.955Z - info: 1. lessons/otherPmFeatures/index
+2025-12-27T11:42:52.965Z - info: Rebuilding 1 pages
+2025-12-27T11:42:53.070Z - info: Site data built
+2025-12-27T11:42:53.070Z - info: Pages rebuilt
+2025-12-27T11:42:53.070Z - info: Website regeneration complete! Total build time: 0.108s
+2025-12-27T11:43:52.303Z - info: [19:43:52] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/otherPmFeatures/text.md
+2025-12-27T11:43:52.340Z - info: Synchronizing opened pages list before reload
+2025-12-27T11:43:52.343Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T11:43:52.345Z - info: 1. lessons/otherPmFeatures/index
+2025-12-27T11:43:53.351Z - info: Rebuilding 1 pages
+2025-12-27T11:43:53.449Z - info: Site data built
+2025-12-27T11:43:53.449Z - info: Pages rebuilt
+2025-12-27T11:43:53.449Z - info: Website regeneration complete! Total build time: 0.099s
+2025-12-27T11:44:52.474Z - info: [19:44:52] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/otherPmFeatures/text.md
+2025-12-27T11:44:52.475Z - info: Synchronizing opened pages list before reload
+2025-12-27T11:44:52.482Z - info: No pages are currently opened
+2025-12-27T11:44:53.486Z - info: No pages needed to be rebuilt
+2025-12-27T11:46:20.886Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/index as some of its dependencies were changed since the last visit
+2025-12-27T11:46:21.005Z - info: Site data built
+2025-12-27T11:46:21.005Z - info: Lazy website regeneration complete! Total build time: 0.121s
+2025-12-27T11:47:02.429Z - info: [19:47:02] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/text.md
+2025-12-27T11:47:02.433Z - info: Synchronizing opened pages list before reload
+2025-12-27T11:47:02.435Z - info: Current opened pages, from most-to-least recent:
+2025-12-27T11:47:02.435Z - info: 1. lessons/trail/managingProjects/index
+2025-12-27T11:47:03.463Z - info: Rebuilding 1 pages
+2025-12-27T11:47:03.613Z - info: Site data built
+2025-12-27T11:47:03.613Z - info: Pages rebuilt
+2025-12-27T11:47:03.613Z - info: Website regeneration complete! Total build time: 0.154s
+2025-12-27T11:47:50.026Z - info: Website generation started at 19:47:49
+2025-12-27T11:47:50.121Z - info: Building assets...
