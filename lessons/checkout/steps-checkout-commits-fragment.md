@@ -14,10 +14,12 @@ git log --oneline --decorate
 
 {% call m.show_output() %}
 ```bash{.no-line-numbers}
-e60deae (HEAD -> main, origin/main) Update fruits list
-f761ea6 (tag: v1.0) Add colours.txt, shapes.txt
-2bedace (tag: v0.9) Insert figs into fruits.txt
-d5f91de Add fruits.txt
+6304a59 (HEAD -> main) shapes.txt: Add some shapes
+9f68246 (tag: 1.0) colours.txt: Add some colours
+2ef8852 Update fruits list
+8ca5cc6 (tag: 0.9) Add colours.txt, shapes.txt
+542668f Add elderberries and figs into fruits.txt
+ec49b17 Add fruits.txt
 ```
 {% endcall %}
 
@@ -37,22 +39,24 @@ Note: switching to 'HEAD~2'.
 You are in 'detached HEAD' state.
 # rest of the warning about the detached head ...
 
-HEAD is now at 2bedace Insert figs into fruits.txt
+HEAD is now at 2ef8852 Update fruits list
 ```
 {% endcall %}
 
 {{ m.hp_number ('3') }} **Verify `HEAD` and the working directory have updated** as expected.
 
 * `HEAD` should now be pointing at the target commit
-* The working directory should match the state it was in at that commit (e.g., files added after that commit -- such as `shapes.txt` should not be in the folder).
+* The working directory should match the state it was in at that commit (i.e., changes done after that commit should not be in the folder).
 
 ```bash{.no-line-numbers}
 git log --oneline --decorate
 ```
 {% call m.show_output() %}
 ```bash{.no-line-numbers highlight-lines="1['HEAD']@pink}
-2bedace (HEAD, tag: v0.9) Insert figs into fruits.txt
-d5f91de Add fruits.txt
+2ef8852 (HEAD) Update fruits list
+8ca5cc6 (tag: 0.9) Add colours.txt, shapes.txt
+542668f Add elderberries and figs into fruits.txt
+ec49b17 Add fruits.txt
 ```
 `HEAD` is indeed pointing at the target commit.
 
@@ -69,11 +73,12 @@ git log --oneline --decorate --all
 ```
 {% call m.show_output() %}
 ```bash{.no-line-numbers highlight-lines="1,2,['--all']@yellow"}
-e60deae (origin/main, main) Update fruits list
-f761ea6 (tag: v1.0) Add colours.txt, shapes.txt
-2bedace (HEAD, tag: v0.9) Insert figs into fruits.txt
-d5f91de Add fruits.txt
-
+6304a59 (main) shapes.txt: Add some shapes
+8ca5cc6 (tag: 0.9) Add colours.txt, shapes.txt
+9f68246 (tag: 1.0) colours.txt: Add some colours
+2ef8852 (HEAD) Update fruits list
+542668f Add elderberries and figs into fruits.txt
+ec49b17 Add fruits.txt
 ```
 {% endcall %}
 

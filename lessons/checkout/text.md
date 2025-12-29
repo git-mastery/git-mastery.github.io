@@ -62,8 +62,11 @@ Suppose you added a new feature to a software product, and while testing it, you
 {{ hp_number(hop_target) }} **Checkout a few commits in a local repo**, while examining the working directory to verify that it matches the state when you created the corresponding commit
 
 {{ hp_number(hop_preparation) }}
+{% set manual %}
+**Clone a copy of the `things` repo** given [here](https://github.com/git-mastery/samplerepo-things).
+{% endset %}
 
-{{ show_hop_prep('hp-checkout-commits', manual_info="Use any repo with commits e.g., the `things` repo") }}
+{{ show_hop_prep('hp-checkout-commits', manual_info=manual) }}
 
 {{ show_steps_tabs('checkout-commits') }}
 

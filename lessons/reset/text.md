@@ -66,6 +66,27 @@ iii) Last, you did a 'bad' change in `shapes.txt`, but didn't stage it yet.
 
 The following commands can be used to set up the scenario.
 ```bash
+makdir things
+cd things
+git init
+
+echo -e "apples\nbananas\ncherries\ndragon fruits" >> fruits.txt
+git add fruits.txt
+git commit -m "Add fruits.txt"
+
+echo -e "elderberries\nfigs" >> fruits.txt
+git add fruits.txt  # stage the updated file
+git commit -m "Add elderberries and figs into fruits.txt"
+
+echo "a file for colours" >> colours.txt
+echo "a file for shapes" >> shapes.txt
+git add colours.txt shapes.txt
+git commit -m "Add colours.txt, shapes.txt"
+git tag 0.9
+
+echo -e "apples, apricots\nbananas\nblueberries\ncherries\ndragon fruits\nfigs" > fruits.txt
+git commit -am "Update fruits list"
+
 echo "bad colour" >> colours.txt
 git add colours.txt
 git commit -m "Incorrectly update colours.txt"
@@ -86,6 +107,7 @@ echo "another bad colour" >> colours.txt
 git add colours.txt
 
 echo "another bad shape" >> shapes.txt
+
 ```
 {% endset %}
 
@@ -184,13 +206,17 @@ To protect the integrity of the remote, Git will reject attempts to push a diver
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Force-push commits")  %}
 
+{{ hp_number(hop_scenario) }} You have a local repo that is linked to a remote repo on the GitHub. You have pushed all local commits to the remote repo (i.e., the two are in sync).
+
+{{ hp_number(hop_target) }} You wish the rewrite the last commit in the local repo and update the remote repo to match the local repo.
+
 {{ hp_number(hop_preparation) }}
 
 {% set manual %}
 **Choose a local-remote repo pair under your control** e.g., the `things` repo from {{ show_tour_link(trail.backingUpOnCloud) }}.
 {% endset %}
 
-{{ show_hop_prep('hp-force-push', manual_info=manual) }}
+{{ show_hop_prep('hp-force-push') }}
 
 {{ hp_number("1") }} **Rewrite the last commit** as follows: Reset the current branch back by one commit, and add a new commit.<br>
 For example, you can use the following commands.
@@ -208,12 +234,14 @@ git log --oneline --graph --all
 ```
 {% call show_output() %}
 ```bash
-* fc1d04e (HEAD -> main) Add drinks.txt
-| * e60deae (upstream/main, origin/main) Update fruits list
+* 9ff4d04 (HEAD -> main) Add drinks.txt
+| * d086f15 (origin/main) shapes.txt: Add some shapes
 |/
-* f761ea6 (tag: v1.0) Add colours.txt, shapes.txt
-* 2bedace (tag: v0.9) Insert figs into fruits.txt
-* d5f91de Add fruits.txt
+* 01472c4 colours.txt: Add some colours
+* 4d6714c Update fruits list
+* 55be601 Add colours.txt, shapes.txt
+* fb8d75d Add elderberries and figs into fruits.txt
+* 16cad65 Add fruits.txt
 ```
 {% endcall %}
 
@@ -227,7 +255,7 @@ git push origin main
 ```bash
 To https://github.com/.../things.git
  ! [rejected]        main -> main (non-fast-forward)
-error: failed to push some refs to 'https://github.com/.../things.git'
+error: failed to push some refs to 'https://github.com/.../gitmastery-samplerepo-things.git'
 hint: Updates were rejected because the tip of your current branch is behind
 hint: its remote counterpart. If you want to integrate the remote changes,
 hint: ...

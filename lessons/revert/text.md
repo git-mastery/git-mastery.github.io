@@ -35,8 +35,15 @@ Git can add a new commit to **reverse the changes done in a specific past commit
 
 {{ hp_number(hop_scenario) }} You are working with a repo named `pioneers`, which contains information about computer science pioneers. You discovered that one of the earlier commits mistakenly added information about a fictional character instead of a real CS pioneer.
 
-
 {{ show_commit('C3', msg='Add Hopper', desc=show_head()) }}
+{{ show_commit('C2', msg='Add Turing') }}
+{{ show_commit('C1', msg='Add Neo', edge='') }}
+<p/>
+
+{{ hp_number(hop_target) }} Correct the mistake without rewriting past commits. That is, add a new commit that reverts the offending comment.
+
+{{ show_commit('C4', msg='Revert "Add Neo"', desc=show_head()) }}
+{{ show_commit('C3', msg='Add Hopper') }}
 {{ show_commit('C2', msg='Add Turing') }}
 {{ show_commit('C1', msg='Add Neo', edge='') }}
 <p/>
@@ -85,6 +92,20 @@ In the revision graph, right-click on the commit you want to revert, and choose 
 {% endset %}
 {{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
+
+{{ hp_number("2") }} **Verify the revert commit has been added** e.g.,
+```bash
+git log --oneline --decorate
+```
+{% call show_output() %}
+```bash
+604b770 (HEAD -> main) Revert "Add Neo"
+682fc8d Add Hopper
+268ceb1 Add Turing
+6fb6bd8 Add Neo
+```
+{% endcall %}
+
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
 <box type="warning" seamless>
