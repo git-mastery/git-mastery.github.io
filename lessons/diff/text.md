@@ -43,12 +43,14 @@ git diff
 {% call show_output() %}
 ```diff{.no-line-numbers}
 diff --git a/shapes.txt b/shapes.txt
-index 5c2644b..949c676 100644
+index 4bc044e..1971ab8 100644
 --- a/shapes.txt
 +++ b/shapes.txt
-@@ -1 +1,2 @@
-a file for shapes
-+no shapes added yet!
+@@ -3,3 +3,4 @@ circle
+oval
+rectangle
+square
++no shapes added yet
 ```
 {% endcall %}
 
@@ -79,7 +81,7 @@ Example use case: Suppose you’re trying to improve the performance of a piece 
 
 {{ hp_number(hop_preparation) }}
 
-{{ show_hop_prep('hp-diff-changes', is_continue=1) }}
+{{ show_hop_prep('hp-diff-changes', is_continue=0) }}
 
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
@@ -95,12 +97,12 @@ git diff v0.9 HEAD
 {% call show_output() %}
 ```diff{.no-line-numbers}
 diff --git a/colours.txt b/colours.txt
-new file mode 100644
-index 0000000..55c8449
---- /dev/null
+index 55c8449..435e81d 100644
+--- a/colours.txt
 +++ b/colours.txt
-@@ -0,0 +1 @@
-+a file for colours
+@@ -1 +1,4 @@
+a file for colours
++blue
 # rest of the diff ...
 ```
 {% endcall %}
@@ -112,12 +114,12 @@ git diff HEAD v0.9
 {% call show_output() %}
 ```diff{.no-line-numbers}
 diff --git a/colours.txt b/colours.txt
-deleted file mode 100644
-index 55c8449..0000000
+index 435e81d..55c8449 100644
 --- a/colours.txt
-+++ /dev/null
-@@ -1 +0,0 @@
--a file for colours
++++ b/colours.txt
+@@ -1,4 +1 @@
+a file for colours
+-blue
 # rest of the diff ...
 ```
 As you can see, the `diff` is _directional_ i.e., `diff <commit1> <commit2>` shows what changes you need to do to go from the `<commit1>` to `<commit2>`. If you swap `<commit1>` and `<commit2>`, the output will change accordingly e.g., lines previously shown as 'added' will now be shown as 'deleted'.
@@ -152,17 +154,17 @@ Example use case: Similar to other use cases but when you are interested in a sp
 
 {{ hp_number(hop_preparation) }}
 
-{{ show_hop_prep('hp-diff-changes', is_continue=1) }}
+{{ show_hop_prep('hp-diff-files') }}
 
-
+{{ hp_number('1') }} Examine changes to a specific file, between specific points in history.
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
 Add the `-- path/to/file` to a previous diff command to narrow the output to a specific file. Some examples:
 
-```bash{.no-line-numbers}
-git diff -- fruits.txt               # unstaged changes to fruits.txt
-git diff --staged -- src/main.java   # staged changes to src/main.java
-git diff HEAD~2..HEAD -- fruits.txt  # changes to fruits.txt between commits
+```bash
+git diff -- list.txt                    # unstaged changes to list.txt
+git diff --staged -- andy/history.txt   # staged changes to andy/history.txta
+git diff HEAD~2..HEAD -- list.txt       # changes to list.txt between commits
 ```
 {% endset %}
 {% set sourcetree %}
