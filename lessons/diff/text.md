@@ -11,67 +11,7 @@ Git can tell you **the net effect of changes between two points of history**.
 
 **Git's {{ show_git_term("diff") }} feature can show you what changed between two points** in the revision history. Given below are some use cases.
 
-**++Usage 1: Examining changes in the working directory++**<br>
-Example use case: To verify the next commit will include exactly what you intend it to include.
-
-<!-- ================== start: HANDS-ON =========================== -->
-{% call show_hands_on_practical("Examining staged and unstaged changes")  %}
-
-{{ hp_number(hop_preparation) }}
-
-{% set manual %}
-**For this, you can use the `things` repo** you created earlier. If you don't have it, you can clone a copy of a similar repo given [here](https://github.com/git-mastery/samplerepo-things).
-{% endset %}
-{{ show_hop_prep('hp-diff-changes', manual_info=manual) }}
-
-{{ hp_number("1") }} **Do some changes to the working directory. Stage some (but not all) changes.** For example, you can run the following commands.
-
-```bash
-echo -e "blue\nred\ngreen" >> colours.txt
-git add .  # a shortcut to stage all changes
-echo "no shapes added yet" >> shapes.txt
-```
-{{ hp_number("2") }} **Examine the staged and unstaged changes.**
-
-{% set cli %} <!-- ------ start: Git Tabs --------------->
-
-**The `git diff` command shows unstaged changes** in the working directory (tracked files only). The output of the `diff` command, is a diff view (introduced in [this lesson](../show/index.html)).
-
-```bash{.no-line-numbers}
-git diff
-```
-{% call show_output() %}
-```diff{.no-line-numbers}
-diff --git a/shapes.txt b/shapes.txt
-index 4bc044e..1971ab8 100644
---- a/shapes.txt
-+++ b/shapes.txt
-@@ -3,3 +3,4 @@ circle
-oval
-rectangle
-square
-+no shapes added yet
-```
-{% endcall %}
-
-**The `git diff --staged` command shows the staged changes** (same as `git diff --cached`).
-
-```bash{.no-line-numbers}
-git diff --staged
-```
-
-{% endset %}
-{% set sourcetree %}
-
-Select the two commits: Click on one commit, and <kbd>Ctrl</kbd>-Click (or <kbd>Cmd</kbd>-Click) on the second commit. The changes between the two selected commits will appear in the other panels, as shown below:
-
-<pic src="images/sourcetreeStagedAndUnstaged.png" width="600" />
-{% endset %}
-{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
-<!-- ------ end: Git Tabs -------------------------------->
-{% endcall %}<!-- ===== end: HANDS-ON ============================ -->
-
-**++Usage 2: Comparing two commits at different points of the revision graph++**<br>
+**++Usage 1: Comparing two commits at different points of the revision graph++**<br>
 Example use case: Suppose you’re trying to improve the performance of a piece of software by experimenting with different code tweaks. You commit after each change (as you should). After several commits, you now want to review the overall effect of all those changes on the code.
 
 <!-- ================== start: HANDS-ON =========================== -->
@@ -81,7 +21,11 @@ Example use case: Suppose you’re trying to improve the performance of a piece 
 
 {{ hp_number(hop_preparation) }}
 
-{{ show_hop_prep('hp-diff-changes', is_continue=0) }}
+{% set manual %}
+**Clone a copy of the `things` repo** given [here](https://github.com/git-mastery/samplerepo-things).
+{% endset %}
+{{ show_hop_prep('hp-diff-changes', manual_info=manual) }}
+
 
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
@@ -143,6 +87,65 @@ The same method can be used to compare the current state of the working director
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
+**++Usage 2: Examining changes in the working directory++**<br>
+Example use case: To verify the next commit will include exactly what you intend it to include.
+
+<!-- ================== start: HANDS-ON =========================== -->
+{% call show_hands_on_practical("Examining staged and unstaged changes")  %}
+
+{{ hp_number(hop_preparation) }}
+
+{{ show_hop_prep('hp-diff-changes', sandbox_info="the `things` repo", is_continue=1) }}
+
+{{ hp_number("1") }} **Do some changes to the working directory. Stage some (but not all) changes.** For example, you can run the following commands.
+
+```bash
+echo -e "blue\nred\ngreen" >> colours.txt
+git add .  # a shortcut to stage all changes
+echo "no shapes added yet" >> shapes.txt
+```
+{{ hp_number("2") }} **Examine the staged and unstaged changes.**
+
+{% set cli %} <!-- ------ start: Git Tabs --------------->
+
+**The `git diff` command shows unstaged changes** in the working directory (tracked files only). The output of the `diff` command, is a diff view (introduced in [this lesson](../show/index.html)).
+
+```bash{.no-line-numbers}
+git diff
+```
+{% call show_output() %}
+```diff{.no-line-numbers}
+diff --git a/shapes.txt b/shapes.txt
+index 4bc044e..1971ab8 100644
+--- a/shapes.txt
++++ b/shapes.txt
+@@ -3,3 +3,4 @@ circle
+oval
+rectangle
+square
++no shapes added yet
+```
+{% endcall %}
+
+**The `git diff --staged` command shows the staged changes** (same as `git diff --cached`).
+
+```bash{.no-line-numbers}
+git diff --staged
+```
+
+{% endset %}
+{% set sourcetree %}
+
+Select the two commits: Click on one commit, and <kbd>Ctrl</kbd>-Click (or <kbd>Cmd</kbd>-Click) on the second commit. The changes between the two selected commits will appear in the other panels, as shown below:
+
+<pic src="images/sourcetreeStagedAndUnstaged.png" width="600" />
+{% endset %}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
+<!-- ------ end: Git Tabs -------------------------------->
+{% endcall %}<!-- ===== end: HANDS-ON ============================ -->
+
+
+
 
 **++Usage 3: Examining changes to a specific file++**<br>
 Example use case: Similar to other use cases but when you are interested in a specific file only.
@@ -154,7 +157,33 @@ Example use case: Similar to other use cases but when you are interested in a sp
 
 {{ hp_number(hop_preparation) }}
 
-{{ show_hop_prep('hp-diff-files') }}
+{% set manual %}
+Use the following bash commands for set up the sandbox repo:
+```bash
+mkdir employees
+cd employees
+git init
+
+echo "Andy Bernard" > list.txt
+mkdir andy
+echo "Previously in Stamford branch" > andy/history.txt
+git add .
+git commit -m "Add Andy"
+
+echo "Pam Beesly" >> list.txt
+git commit -am "Add Pam"
+
+# Change list.txt, stage it, but don't commit it
+echo "Kevin Malone" >> list.txt
+git add .
+
+# Change list.txt and andy/history.txt but don't stage
+echo "Jim Halpert" >> list.txt
+echo "Education: Cornell" >> andy/history.txt
+```
+{% endset %}
+
+{{ show_hop_prep('hp-diff-files', manual_info=manual) }}
 
 {{ hp_number('1') }} Examine changes to a specific file, between specific points in history.
 {% set cli %} <!-- ------ start: Git Tabs --------------->
