@@ -541,52 +541,42 @@ That aspect is covered in {{ show_detour_link(detour_name) }}.
 <!-- ============================================================ -->
 
 {% macro show_hop_prep(identifier, manual_info='', continue_info='', sandbox_info='the sandbox', is_continue=0) %}
-{% if is_continue %}
-<div class="indented-level1">
-
-{% if continue_info %}
-
-<panel header="Option 1: **Repurpose {{ sandbox_info }} from the previous** hands-on practical" peek>
-
-{{ continue_info }}
-</panel>
-{% else %}
-<div class="indented-level1">
-
-Option 1: **Continue with {{ sandbox_info }} from the previous** hands-on practical
-</div>
-{% endif %}
-
-<panel header="Option 2: Use the Git-Mastery app to **create a fresh sandbox**" peek>
-
-* Navigate inside the `gitmastery-exercises` folder.{{ numbers_roman }}
-* Run `gitmastery download {{ identifier }}` command.
-
-{{ show_gm_footer() }}
-</panel>
-</div>
-<p/>
-{% else %}
-<tabs>
-  <tab header="With Git-Mastery">
-<div class="indented-level1">
-
-**To prepare** the sandbox for this practical:
+{% set has_multiple_option = continue_info or is_continue or manual_info %}
+<panel header="{{ 'Option 1: ' if has_multiple_options else '' }}**Create a fresh sandbox** using the Git-Mastery app" peek>
 
 * Navigate inside the `gitmastery-exercises` folder.{{ numbers_roman }}
 * Run `gitmastery download {{ identifier }}` command.
 
 The sandbox will be set up inside the `gitmastery-exercises/{{ identifier }}` folder.
-
 {{ show_gm_footer() }}
-</div>
-  </tab>
-  <tab header="Manual">
+</panel>
+
+{% set count = 2 %}
+{% if continue_info %}
+<panel header="Option {{ count }}: **Repurpose {{ sandbox_info }} from the previous** hands-on practical" peek>
+
+{{ continue_info }}
+</panel>
+{% set count = count+1 %}
+{% endif %}
+
+{% if manual_info %}
+<panel header="Option {{ count }}: **Manually set up a sandbox**" peek>
 
 {{ manual_info }}
-</tab>
-</tabs>
+</panel>
+{% set count = count+1 %}
 {% endif %}
+
+{% if is_continue %}
+<div class="indented-level1">
+<p/>
+
+Option {{ count }}: **Continue with {{ sandbox_info }} from the previous** hands-on practical
+</div>
+{% endif %}
+
+<p/>
 {% endmacro %}
 <!-- ============================================================ -->
 

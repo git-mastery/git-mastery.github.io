@@ -62,12 +62,6 @@
       "headingKeywords": {}
     },
     {
-      "src": "lessons/centralizedFlow/index.md",
-      "title": "Git & GitHub: Centralized Workflow",
-      "headings": {},
-      "headingKeywords": {}
-    },
-    {
       "src": "lessons/checkout/index.md",
       "title": "T4L4. Traversing to a Specific Commit",
       "headings": {},
@@ -106,18 +100,6 @@
     {
       "src": "lessons/diff/index.md",
       "title": "T4L3. Comparing Points of History",
-      "headings": {},
-      "headingKeywords": {}
-    },
-    {
-      "src": "lessons/drcsVsCrcs/index.md",
-      "title": "Git & GitHub: DRCS vs CRCS",
-      "headings": {},
-      "headingKeywords": {}
-    },
-    {
-      "src": "lessons/featureBranchFlow/index.md",
-      "title": "Git & GitHub: Feature Branch Workflow",
       "headings": {},
       "headingKeywords": {}
     },
