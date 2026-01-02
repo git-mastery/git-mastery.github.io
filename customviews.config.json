@@ -1,15 +1,12 @@
 {
   "config": {
     "toggles": [
-        { "id": "lesson-intros", "label": "Section intros/outros (green panels at the start/end of a lesson/tour)"},
-        { "id": "hands-on-practicals", "label": "Hands-on practicals"},
-        { "id": "detours", "label": "Detours"},
-        { "id": "exercises", "label": "Exercises"},
-        { "id": "windows-only", "label": "Windows-only text segments"}
+        { "id": "lesson-intros", "label": "Section intros/outros", "default": "show", "description":  "Green panels at the start/end of a lesson/tour"},
+        { "id": "hands-on-practicals", "label": "Hands-on practicals", "default": "show"},
+        { "id": "detours", "label": "Detours", "default": "show"},
+        { "id": "exercises", "label": "Exercises", "default": "show"},
+        { "id": "windows-only", "label": "Windows-only text segments", "description":  "Additional information related to Windows OS only"}
       ],
-    "defaultState": {
-      "toggles": ["hands-on-practicals", "detours", "lesson-intros", "exercises", "windows-only"]
-    },
     "tabGroups": [
       {
         "id": "os",
