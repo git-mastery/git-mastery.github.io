@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_exercise, show_hop_prep, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can rename a branch in a local repository.</span>
@@ -14,29 +14,7 @@
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Rename local branches")  %}
 
-{{ hp_number(hop_preparation) }} **First, create the repo `samplerepo-books` for this hands-on practical**, by running the following commands in your terminal.
-
-```bash
-mkdir samplerepo-books
-cd samplerepo-books
-git init
-echo "Horror Stories" >> horror.txt
-git add .
-git commit -m "Add horror.txt"
-git switch -c textbooks
-echo "Textbooks" >> textbooks.txt
-git add .
-git commit -m "Add textbooks.txt"
-git switch main
-git switch -c fantasy
-echo "Fantasy Books" >> fantasy.txt
-git add .
-git commit -m "Add fantasy.txt"
-git switch main
-git merge --no-ff -m "Merge branch textbooks" textbooks
-```
-The above should give you a repo similar to the revision graph given below, on the left.
-
+{{ hp_number(hop_target) }} You wish to rename `fantasy` (not yet merged) and `textbooks` (merged), as shown below:
 
 {% set a %}<!-- ------ start: transformation columns --------------->
 <mermaid>
@@ -72,9 +50,37 @@ gitGraph BT:
 </mermaid>
 {% endset %}
 {{ show_transformation_columns(a, b, c) }}
+
+{{ hp_number(hop_preparation) }}
+
+{% set manual %}
+To create the repo `samplerepo-books` used for this hands-on practical, run the following commands in your terminal.
+
+```bash
+mkdir samplerepo-books
+cd samplerepo-books
+git init
+echo "Horror Stories" >> horror.txt
+git add .
+git commit -m "Add horror.txt"
+git switch -c textbooks
+echo "Textbooks" >> textbooks.txt
+git add .
+git commit -m "Add textbooks.txt"
+git switch main
+git switch -c fantasy
+echo "Fantasy Books" >> fantasy.txt
+git add .
+git commit -m "Add fantasy.txt"
+git switch main
+git merge --no-ff -m "Merge branch textbooks" textbooks
+```
+{% endset %}
+
+{{ show_hop_prep('hp-branch-rename', manual_info=manual) }}
+
 <!-- ------ end: transformation columns -------------------------------->
 
-{{ hp_number(hop_target) }} **Rename the `fantasy` branch to `fantasy-books`.** Similarly, rename `textbooks` branch to `study-books`. The outcome should be similar to the revision graph above, on the right.
 
 {{ hp_number("steps:") }}
 
@@ -108,7 +114,7 @@ Right-click on the branch name and choose `Rename...`. Provide the new branch na
 
 <pic src="images/sourcetreeRightClickToRename.png" width="400" />
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
