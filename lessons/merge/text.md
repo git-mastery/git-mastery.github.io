@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_link, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_multiple_columns, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_hop_prep, show_detour, show_detour_link, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_multiple_columns, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can merge branches in a local repo.</span>
@@ -28,7 +28,7 @@ Given below is an illustration of how such a merge looks like in the revision gr
 * We have switched to the `main` branch (thus, `HEAD` is now pointing to `main` ref).
 * The `fix1` branch has been merged into the `main` branch, creating a _merge commit_ `f`. The repo is still on the `main` branch.
 
-**The branch you are merging into called the {{ show_git_term("destination branch") }}** (other terms: _receiving_ branch, _target_ branch)<br>
+**The branch you are merging into is called the {{ show_git_term("destination branch") }}** (other terms: _receiving_ branch, _target_ branch)<br>
 **The branch you are merging is referred to as the {{ show_git_term("source branch") }}</tooltip>** (other terms: _incoming_ branch, _merge_ branch).<br>
 In the above example, `main` is the destination branch and `fix1` is the source branch.
 
@@ -38,9 +38,15 @@ In the above example, `main` is the destination branch and `fix1` is the source 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Merge a branch (with a merge commit)")  %}
 
-{{ hp_number(hop_preparation) }} We continue with the `sports` repo from earlier, which should look like the following. Note that we are ignoring the `feature1-alt` branch, for simplicity.
+{{ hp_number(hop_scenario) }} You have a repo with two unmerged branches `main` and `feature1`.
 
 <include src="../branch/text.md#sports-repo-before-merging" />
+
+{{ hp_number(hop_target) }} To practice branch merging, let's merge each branch to the other.
+
+{{ hp_number(hop_preparation) }}
+
+{{ show_hop_prep('hp-merge-commit', continue_info="You can continue with the `sports` repo from earlier, which should look like the following. Note that we are ignoring the `feature1-alt` branch, for simplicity.") }}
 
 {{ hp_number ('1') }} **Switch back to the `feature1` branch.**
 
@@ -87,7 +93,7 @@ The revision graph should look like this now (colours and line alignment might v
 <pic src="{{baseUrl}}/lessons/merge/images/sourcetreeAfterMeringMaster.png" width="500" />
 <p/>
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 
 <!-- ------ end: Git Tabs -------------------------------->
 
@@ -154,7 +160,7 @@ Right-click on the `feature1` branch and choose `Merge...`. The resulting revisi
 <pic eager src="{{baseUrl}}/lessons/merge/images/sourcetreeAfterMeringFeature1.png" width="400" />
 <p/>
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
 Now, any changes you made in `feature1` branch are available in the main branch.
@@ -193,11 +199,27 @@ In the example above, the `main` branch has not changed since the merge base (i.
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Do a fast-forward merge")  %}
 
-{{ hp_number(hop_preparation) }} Let's continue with the same `sports` repo we used above, and do a fast-forward merge this time.
+{{ hp_number(hop_scenario) }} You have a repo with an unmerged branch `add-swimming`. The `main` branch has not diverged from the `add-swimming` branch yet.
 
- **Create a new branch called `add-swimming`, and some commits to it** as follows:<br>
+<mermaid>
+gitGraph BT:
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
+    commit id: "more commits ..."
+    commit id: "[main] mc2"
+    branch add-swimming
+    commit id: "a1"
+    commit id: "[HEAD → add-swimming] a2"
+</mermaid>
+
+{{ hp_number(hop_target) }} Do a fast-forward merge of the `add-swimming` branch into the `main` branch.
+
+{{ hp_number(hop_preparation) }}
+{% set continue_info %}
+To continue with the same `sports` repo we used above, **create a new branch called `add-swimming`, and some commits to it** as follows:<br>
 Switch to the main branch, create a new branch, switch to the new branch, add a file named `swimming.txt`, stage it, and commit it.<br>
 Do some changes to `swimming.txt`, and commit those changes.
+
+Here are the equivalent commands:
 ```bash
 git switch main
 git switch -c add-swimming
@@ -211,15 +233,9 @@ git commit -am "Add Thorpe to swimming.txt"
 
 git switch main
 ```
-You should have something like this now:
-<mermaid>
-gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
-    commit id: "[main] mc2"
-    branch add-swimming
-    commit id: "a1"
-    commit id: "[HEAD → add-swimming] a2"
-</mermaid>
+{% endset %}
+
+{{ show_hop_prep('hp-merge-ff', continue_info=continue_info) }}
 
 {{ hp_number(hop_target) }} Do a fast-forward merge of the `add-swimming` branch.
 
@@ -228,6 +244,7 @@ gitGraph BT:
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
+    commit id: "more commits ..."
     commit id: "[HEAD → main] mc2"
     branch add-swimming
     commit id: "a1"
@@ -239,14 +256,13 @@ gitGraph BT:
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main (and add-swimming)'}} }%%" }}
+    commit id: "more commits ..."
     commit id: "mc2"
     commit id: "a1"
     commit id: "[HEAD → main][add-swimming] a2"
 </mermaid>
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
-
-
 
 **It is possible to force Git to create a merge commit even if fast forwarding is possible.** This is useful if you prefer the revision graph to visually show when each branch was merged to the main timeline.
 
@@ -259,16 +275,14 @@ To prevent Git from fast-forwarding, use the `--no-ff` switch when merging. Exam
 git merge --no-ff add-swimming
 ```
 {% endset %}
-{% set sourcetree %}
-:fab-windows: Windows: Tick the box shown below when you merge a branch:
+{% set sourcetree_windows %}
+Tick the box shown below when you merge a branch:
 
 <pic eager src="{{baseUrl}}/lessons/merge/images/sourcetreeMergeBranchDialog.png" height="150" />
 <p/>
 
--------
-
-:fab-apple: Mac:
-
+{% endset %}
+{% set sourcetree_mac %}
 Trigger the branch operation using the following menu button:
 
 <annotate src="{{baseUrl}}/lessons/images/sourcetreeTopMenu.png" width="400" alt="Sourcetree top menu">
@@ -289,7 +303,7 @@ To permanently prevent fast-forwarding:
 1. Tick the box `Do not fast-forward when merging, always create commit`.
 
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree_windows=sourcetree_windows, sourcetree_mac=sourcetree_mac) }}
 <!-- ------ end: Git Tabs -------------------------------->
 </div>
 
@@ -299,6 +313,7 @@ To permanently prevent fast-forwarding:
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
+    commit id: "more commits ..."
     commit id: "[HEAD → main] m1"
     branch feature
     checkout feature
@@ -312,6 +327,7 @@ gitGraph BT:
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
+    commit id: "more commits ..."
     commit id: "m1"
     branch feature
     checkout feature
@@ -334,6 +350,7 @@ After a squash merge, you typically delete the source branch, so its individual 
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
+    commit id: "more commits ..."
     commit id: "[HEAD → main] m1"
     branch feature
     checkout feature
@@ -348,6 +365,7 @@ gitGraph BT:
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
+    commit id: "more commits ..."
     commit id: "m1"
     commit id: "f1"
     commit id: "[HEAD → main][feature] f2"
@@ -359,6 +377,7 @@ gitGraph BT:
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
+    commit id: "more commits ..."
     commit id: "m1"
     commit id: "[HEAD → main] s1 (same as f1+f2)"
 </mermaid>
