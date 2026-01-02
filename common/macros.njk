@@ -146,7 +146,7 @@
   sensors_reset: {lesson: trail.usingRevisionHistory.lessons.reset, identifier: "sensors-reset"},
   sensors_revert: {lesson: trail.usingRevisionHistory.lessons.revert, identifier: "sensors-revert"},
   side_track: {lesson: trail.branchingLocally.lessons.branch, identifier: "side-track"},
-  branch_previous: {lesson: trail.branchingLocally.lessons.branch, identifier: "branch-previous", wip: 1},
+  branch_previous: {lesson: trail.branchingLocally.lessons.branch, identifier: "branch-previous"},
   branch_compare: {lesson: trail.branchingLocally.lessons.branch, detour: detours.compareBranches, identifier: "branch-compare", wip: 1},
   branch_bender: {lesson: trail.branchingLocally.lessons.merge, identifier: "branch-bender"},
   branch_forward: {lesson: trail.branchingLocally.lessons.merge, identifier: "branch-forward"},
@@ -415,6 +415,7 @@
 <cv-tab id="cli">
 <cv-tab-header><md><span class="bg-secondary text-light ps-1 pe-1 pb-1 small rounded-1"> >_ </span>&nbsp;CLI</md></cv-tab-header>
 <cv-tab-body>
+
   {% if cli %}{{ cli }}{% else %}<include src="./steps-{{ filename_suffix }}-fragment.md#cli" />{% endif %}
 </cv-tab-body>
 </cv-tab>
@@ -426,12 +427,14 @@
 <cv-tab id="sourcetree-windows" class="d-print-none">
 <cv-tab-header><md>:fab-windows: Sourcetree on Windows</md></cv-tab-header>
 <cv-tab-body>
+
   {% if sourcetree_windows %}{{ sourcetree_windows }}{% else %}<include src="./steps-{{ filename_suffix }}-fragment.md#sourcetree-windows" />{% endif %}
 </cv-tab-body>
 </cv-tab>
 <cv-tab id="sourcetree-mac" class="d-print-none">
 <cv-tab-header><md>:fab-apple: Sourcetree on MacOS</md></cv-tab-header>
 <cv-tab-body>
+
   {% if sourcetree_mac %}{{ sourcetree_mac }}{% else %}<include src="./steps-{{ filename_suffix }}-fragment.md#sourcetree-mac" />{% endif %}
 </cv-tab-body>
 </cv-tab>
@@ -439,6 +442,7 @@
 <cv-tab id="sourcetree-windows|sourcetree-mac" class="d-print-none">
 <cv-tab-header><md>:fab-bitbucket: Sourcetree</md></cv-tab-header>
 <cv-tab-body>
+
   {% if sourcetree %}{{ sourcetree }}{% else %}<include src="./steps-{{ filename_suffix }}-fragment.md#sourcetree" />{% endif %}
 </cv-tab-body>
 </cv-tab>
@@ -541,7 +545,7 @@ That aspect is covered in {{ show_detour_link(detour_name) }}.
 <!-- ============================================================ -->
 
 {% macro show_hop_prep(identifier, manual_info='', continue_info='', sandbox_info='the sandbox', is_continue=0) %}
-{% set has_multiple_option = continue_info or is_continue or manual_info %}
+{% set has_multiple_options = continue_info or is_continue or manual_info %}
 <panel header="{{ 'Option 1: ' if has_multiple_options else '' }}**Create a fresh sandbox** using the Git-Mastery app" peek>
 
 * Navigate inside the `gitmastery-exercises` folder.{{ numbers_roman }}
