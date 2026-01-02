@@ -169,8 +169,7 @@
       "path": "lessons/branch",
       "title": "T6L1. Creating Branches"
     },
-    "identifier": "branch-previous",
-    "wip": 1
+    "identifier": "branch-previous"
   },
   "branch_compare": {
     "lesson": {
@@ -184,8 +183,7 @@
       },
       "title": "Comparing Branches"
     },
-    "identifier": "branch-compare",
-    "wip": 1
+    "identifier": "branch-compare"
   },
   "branch_bender": {
     "lesson": {
@@ -227,8 +225,7 @@
       },
       "title": "Undoing a Merge"
     },
-    "identifier": "ff-undo",
-    "wip": 1
+    "identifier": "ff-undo"
   },
   "merge_squash": {
     "lesson": {
@@ -242,8 +239,7 @@
       },
       "title": "Doing a Squash Merge"
     },
-    "identifier": "merge-squash",
-    "wip": 1
+    "identifier": "merge-squash"
   },
   "conflict_mediator": {
     "lesson": {
