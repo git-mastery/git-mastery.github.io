@@ -173,6 +173,9 @@ git commit -m "Add Andy"
 echo "Pam Beesly" >> list.txt
 git commit -am "Add Pam"
 
+echo "Kelly Kapoor" >> list.txt
+git commit -am "Add Kelly"
+
 # Change list.txt, stage it, but don't commit it
 echo "Kevin Malone" >> list.txt
 git add .
@@ -191,9 +194,9 @@ echo "Education: Cornell" >> andy/history.txt
 Add the `-- path/to/file` to a previous diff command to narrow the output to a specific file. Some examples:
 
 ```bash
-git diff -- list.txt                    # unstaged changes to list.txt
-git diff --staged -- andy/history.txt   # staged changes to andy/history.txta
-git diff HEAD~2..HEAD -- list.txt       # changes to list.txt between commits
+git diff -- andy/history.txt          # unstaged changes to andy/history.txt
+git diff --staged -- list.txt         # staged changes to list.txt
+git diff HEAD~2..HEAD -- list.txt     # changes to list.txt between commits
 ```
 {% endset %}
 {% set sourcetree %}
