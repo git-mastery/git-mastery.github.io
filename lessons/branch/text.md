@@ -29,8 +29,7 @@ Given below is an illustration of how branch refs move as branches evolve. Refer
 * There is only one branch (i.e., `main`) and there is only one commit on it. The `HEAD` ref is pointing to the `main` branch (as we are currently on that branch). {texts="['[1]', '[2]', '[3]', '[4]']"}
 * A new commit has been added. The `main` has moved to the new commit. `HEAD` continues to be attached to the `main` ref, thus pointing to the new commit as well.
 * A new branch `fix1` has been added. The repo has switched to the new branch too (hence, the `HEAD` ref is now attached to the `fix1` branch).
-* A new commit (`c`) has been added. The current branch ref `fix1` moves to the new commit. `HEAD` is also pointing to the new commit, as it remains attached to the `fix1` branch ref.
-   At this point, the repo's working directory reflects the code at commit `b` (not `c`).
+* A new commit (`c`) has been added. The current branch ref `fix1` has moved to the new commit. `HEAD` is also pointing to the new commit, as it remains attached to the `fix1` branch ref.
 
 <annotate src="{{ baseUrl }}/lessons/branch/images/branchesAsLabels2.png" width="700">
 <a-point x="15%" y="10%" label="[5]" opacity="0"/>
@@ -38,13 +37,14 @@ Given below is an illustration of how branch refs move as branches evolve. Refer
 <a-point x="70%" y="5%" label="[7]" opacity="0"/>
 </annotate>
 
-* A new commit (`d`) has been added. The `main` and the `HEAD` refs have moved to that commit. {texts="['[5]', '[6]', '[7]']"}
-* The repo has switched back to the `fix1` branch and added a new commit `e` to it. Note how the branch ref `fix1` (together with `HEAD`) has moved to the new commit `e` while the branch ref `main` still points to `d`.
-* The repo has switched back to the `main` branch. Hence, the `HEAD` is now pointing to `main` branch's <tooltip content="latest commit of that branch">tip</tooltip>.<br>
+* The repo has switched back to the `main` branch. Hence, the `HEAD` is now pointing to the `main` branch ref, and via that, to commit `b` that is at the <tooltip content="latest commit of that branch">tip</tooltip> of that branch.<br>
+  As a result, the repo's working directory now reflects the code at commit `b` (not `c`).{texts="['[5]', '[6]', '[7]']"}
+* A new commit (`d`) has been added. The `main` and the `HEAD` refs now point to that commit.
+* The repo has switched back to the `fix1` branch and added a new commit `e` to it. The branch ref `fix1` (together with `HEAD`) are now pointing to the new commit `e` while the branch ref `main` still points to `d`.
 
 <box type="warning" seamless>
 
-Note that appearance of the revision graph (colors, positioning, orientation etc.) varies based on the Git client you use, and might not match the exact diagrams given above.
+Appearance of the revision graph (colors, positioning, orientation etc.) varies based on the Git client you use, and might not match the exact diagrams given above.
 </box>
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Work on parallel branches")  %}
@@ -278,7 +278,11 @@ git switch -c b3 b1
 ```
 {% endcall %}
 
-{{ hp_number('4') }} Add a commit on the new branch.
+{{ hp_number('4') }} Add a commit on the new branch. Example:
+```bash
+echo -e "Venus Williams" >> tennis.txt
+git commit -am "Add Venus to tennis.txt"
+```
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
