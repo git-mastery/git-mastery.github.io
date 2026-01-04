@@ -1,6 +1,6 @@
 function getScripts() {
     return [
-        '<script src="https://unpkg.com/@customviews-js/customviews" data-base-url="/"></script>'
+        '<script src="https://unpkg.com/@customviews-js/customviews@beta" data-base-url="/"></script>'
     ];
 };
 
