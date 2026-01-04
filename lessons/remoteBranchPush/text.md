@@ -56,7 +56,7 @@ gitGraph BT:
 
 mkdir samplerepo-company
 cd samplerepo-company
-git init
+git init -b main
 echo "Employees" >> employees.txt
 git add .
 git commit -m "Add employees.txt"

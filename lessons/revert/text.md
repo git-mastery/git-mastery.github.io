@@ -54,7 +54,7 @@ Run the following commands to create the `pioneers` repo:
 ```bash
 mkdir pioneers
 cd pioneers
-git init
+git init -b main
 
 echo "hacked the matrix" >> neo.txt
 git add .
