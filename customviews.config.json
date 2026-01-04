@@ -1,45 +1,57 @@
 {
   "config": {
     "toggles": [
-        { "id": "lesson-intros", "label": "Section intros/outros (green panels at the start/end of a lesson/tour)"},
-        { "id": "hands-on-practicals", "label": "Hands-on practicals"},
-        { "id": "detours", "label": "Detours"},
-        { "id": "exercises", "label": "Exercises"},
-        { "id": "windows-only", "label": "Windows-only text segments"}
+        { "toggleId": "lesson-intros", "label": "Section intros/outros", "default": "show", "description":  "i.e., Green panels at the start/end of a lesson/tour"},
+        { "toggleId": "hands-on-practicals", "label": "Hands-on practicals", "default": "show"},
+        { "toggleId": "detours", "label": "Detours", "default": "show"},
+        { "toggleId": "exercises", "label": "Exercises", "default": "show"},
+        { "toggleId": "windows-only", "label": "Windows-only text segments", "description":  "i.e., Additional information related to Windows OS only"},
+        { "toggleId": "mac-only", "label": "MacOs-only text segments", "description":  "i.e., Additional information related to MacOS only"},
+        { "toggleId": "linux-only", "label": "Linux-only text segments", "description":  "i.e., Additional information related to Linux OS only"}
       ],
-    "defaultState": {
-      "toggles": ["hands-on-practicals", "detours", "lesson-intros", "exercises", "windows-only"]
-    },
     "tabGroups": [
       {
-        "id": "os",
-        "label": "OS that you normally use with Git on:",
+        "groupId": "os",
+        "label": "OS that you normally use Git on:",
         "default": "windows",
         "tabs": [
-          { "id": "windows", "label": "Windows" },
-          { "id": "mac", "label": "MacOS" },
-          { "id": "linux", "label": "Linux" }
+          { "tabId": "windows", "label": "Windows" },
+          { "tabId": "mac", "label": "MacOS" },
+          { "tabId": "linux", "label": "Linux" }
         ]
       },
       {
-        "id": "git-ui",
+        "groupId": "git-ui",
         "label": "The UI you use to interact with Git:",
         "default": "cli",
         "tabs": [
-          { "id": "cli", "label": "CLI" },
-          { "id": "sourcetree-windows", "label": "Sourcetree on Windows" },
-          { "id": "sourcetree-mac", "label": "Sourcetree on MacOS" }
+          { "tabId": "cli", "label": "CLI" },
+          { "tabId": "sourcetree-windows", "label": "Sourcetree on Windows" },
+          { "tabId": "sourcetree-mac", "label": "Sourcetree on MacOS" }
         ]
       }
     ]
   },
   "baseUrl": "/",
-  "widget": {
-    "enabled": true,
-    "position": "middle-left",
-    "showReset": true,
-    "showWelcome": true,
-    "title": "Configure your view of Git-Mastery site"
+  "settings": {
+    "panel": {
+      "title": "Customise your view of the Git-Mastery site",
+      "description": "Customise how different content sections shown (e.g., show/hide some sections)"
+    },
+    "callout": {
+      "show": true,
+      "enablePulse": true,
+      "message": "You can customise your view of the Git-Mastery site by clicking this button.",
+      "backgroundColor": "yellow",
+      "textColor": "black"
+    },
+    "icon": {
+      "position": "middle-left",
+      "color": "white",
+      "backgroundColor": "#198754",
+      "opacity": 0.5,
+      "scale": 1.1
+    }
   },
   "showUrl": false
 }

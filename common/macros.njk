@@ -340,20 +340,20 @@
 
 {% macro os_tabs_marker(os='') -%}
 {% if os == 'windows' %}
-<cv-tabgroup id="os">
-<cv-tab id="windows">
+<cv-tabgroup group-id="os">
+<cv-tab tab-id="windows">
 <cv-tab-header><md>:fab-windows: Windows</md></cv-tab-header>
 <cv-tab-body>
 {% elseif os == 'mac' %}
 </cv-tab-body>
 </cv-tab>
-<cv-tab id="mac">
+<cv-tab tab-id="mac">
 <cv-tab-header><md>:fab-apple: MacOS</md></cv-tab-header>
 <cv-tab-body>
 {% elseif os == 'linux' %}
 </cv-tab-body>
 </cv-tab>
-<cv-tab id="linux">
+<cv-tab tab-id="linux">
 <cv-tab-header><md>:fab-linux: Linux</md></cv-tab-header>
 <cv-tab-body>
 {% elseif os in ['end', ''] %}
@@ -367,15 +367,15 @@
 {% macro show_git_tabs_from_text(cli, sourcetree, indent_level='') -%}
 <!-- to be removed -->
 {% if indent_level %}<div class="indented-level{{ indent_level }}">{% endif %}
-<cv-tabgroup id="git-ui">
-<cv-tab id="cli">
+<cv-tabgroup group-id="git-ui">
+<cv-tab tab-id="cli">
 <cv-tab-header><md>:fas-terminal: CLI</md></cv-tab-header>
 <cv-tab-body>
 
 {{ cli }}
 </cv-tab-body>
 </cv-tab>
-<cv-tab id="sourcetree-windows|sourcetree-mac" class="d-print-none">
+<cv-tab tab-id="sourcetree-windows|sourcetree-mac" class="d-print-none">
 <cv-tab-header><md>:fab-bitbucket: Sourcetree</md></cv-tab-header>
 <cv-tab-body>
 
@@ -390,14 +390,14 @@
 {% macro show_git_tabs(filename_suffix='', indent_level='') -%}
 <!-- to be removed -->
 {% if indent_level %}<div class="indented-level{{ indent_level }}">{% endif %}
-<cv-tabgroup id="git-ui">
-<cv-tab id="cli">
+<cv-tabgroup group-id="git-ui">
+<cv-tab tab-id="cli">
 <cv-tab-header><md>:fas-terminal: CLI</md></cv-tab-header>
 <cv-tab-body>
     <include src="./cli{{ filename_suffix }}.md" />
 </cv-tab-body>
 </cv-tab>
-<cv-tab id="sourcetree-windows|sourcetree-mac" class="d-print-none">
+<cv-tab tab-id="sourcetree-windows|sourcetree-mac" class="d-print-none">
 <cv-tab-header><md>:fab-bitbucket: Sourcetree</md></cv-tab-header>
 <cv-tab-body>
     <include src="./sourcetree{{ filename_suffix }}.md" />
@@ -410,9 +410,9 @@
 
 {% macro show_steps_tabs(filename_suffix='', cli='', sourcetree='', sourcetree_windows='', sourcetree_mac='', indent_level='', is_os_specific=0, has_cli=1) -%}
 {% if indent_level %}<div class="indented-level{{ indent_level }}">{% endif %}
-<cv-tabgroup id="git-ui">
+<cv-tabgroup group-id="git-ui">
 {% if has_cli %}
-<cv-tab id="cli">
+<cv-tab tab-id="cli">
 <cv-tab-header><md><span class="bg-secondary text-light ps-1 pe-1 pb-1 small rounded-1"> >_ </span>&nbsp;CLI</md></cv-tab-header>
 <cv-tab-body>
 
@@ -424,14 +424,14 @@
 {% endif %}
 {% if sourcetree_windows %}{% set is_os_specific = 1 %}{% endif %}
 {% if is_os_specific %}
-<cv-tab id="sourcetree-windows" class="d-print-none">
+<cv-tab tab-id="sourcetree-windows">
 <cv-tab-header><md>:fab-windows: Sourcetree on Windows</md></cv-tab-header>
 <cv-tab-body>
 
   {% if sourcetree_windows %}{{ sourcetree_windows }}{% else %}<include src="./steps-{{ filename_suffix }}-fragment.md#sourcetree-windows" />{% endif %}
 </cv-tab-body>
 </cv-tab>
-<cv-tab id="sourcetree-mac" class="d-print-none">
+<cv-tab tab-id="sourcetree-mac">
 <cv-tab-header><md>:fab-apple: Sourcetree on MacOS</md></cv-tab-header>
 <cv-tab-body>
 
@@ -439,7 +439,7 @@
 </cv-tab-body>
 </cv-tab>
 {% else %}
-<cv-tab id="sourcetree-windows|sourcetree-mac" class="d-print-none">
+<cv-tab tab-id="sourcetree-windows|sourcetree-mac">
 <cv-tab-header><md>:fab-bitbucket: Sourcetree</md></cv-tab-header>
 <cv-tab-body>
 
@@ -468,7 +468,7 @@
 <!-- ============================================================ -->
 
 {% macro show_hands_on_practical(title) %}
-<div class="non-printable" data-cv-toggle="hands-on-practicals">
+<cv-toggle class="non-printable" toggle-id="hands-on-practicals">
 <span style="position: relative; top: 10px; background-color: rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6">{{ icon_hands_on }} HANDS-ON: {{ title }}</span>
 <div class="indented-level1">
 
@@ -478,18 +478,20 @@
 {{ hp_number(":far-square-check: done!") }}
 </box>
 </div>
-</div>
+</cv-toggle>
 {% endmacro %}
 <!-- ============================================================ -->
 
 {% macro callout(toggle_id='') %}
-<div class="indented-level2 non-printable" {% if toggle_id %}data-cv-toggle="{{ toggle_id }}"{% endif %}>
+{% if toggle_id %}<cv-toggle toggle-id="{{ toggle_id }}">{% endif %}
+<div class="indented-level2 non-printable" >
 
 <div class="callout shadow">
 
 **What is this?**{.text-info} {{ caller() }}
 </div>
 </div>
+{% if toggle_id %}</cv-toggle>{% endif %}
 {% endmacro %}
 <!-- ============================================================ -->
 
@@ -509,10 +511,10 @@
 {% set title = detour_title if detour_title else detour.title %}
 {% set path = detour_path if detour_path else (baseUrl + "/" + detour.lesson.path + "/detour-" + detour_name + "-fragment.md") %}
 <a id="{{ detour_name }}"/>
-<div data-cv-toggle="detours"><panel class="non-printable" header="{{ icon_detour }} DETOUR: **{{ title }}**" type="warning" peek>
+<cv-toggle toggle-id="detours"><panel class="non-printable" header="{{ icon_detour }} DETOUR: **{{ title }}**" type="warning" peek>
 
 <include src="{{ path }}" />
-</panel></div>
+</panel></cv-toggle>
 {% endmacro %}
 <!-- ============================================================ -->
 
@@ -524,12 +526,12 @@ the tour _{{ detour.title }}_ given in the lesson [_{{ detour.lesson.title }}_](
 
 {% macro show_detour_preview(detour_name) %}
 {% set detour = detours[detour_name] %}
-<div  data-cv-toggle="detours"><panel class="non-printable" header="{{ icon_detour }} Related DETOUR: **{{ detour.title }}**" type="secondary" expanded>
+<cv-toggle  toggle-id="detours"><panel class="non-printable" header="{{ icon_detour }} Related DETOUR: **{{ detour.title }}**" type="secondary" expanded>
 
 <include src="{{ baseUrl }}/{{ detour.lesson.path }}/detour-{{ detour_name }}-fragment.md#preview" />
 
 That aspect is covered in {{ show_detour_link(detour_name) }}.
-</panel></div>
+</panel></cv-toggle>
 {% endmacro %}
 <!-- ============================================================ -->
 
@@ -588,7 +590,10 @@ Option {{ count }}: **Continue with {{ sandbox_info }} from the previous** hands
 {% set identifier = exercise.identifier %}
 {% set path = (exercise.lesson.path if exercise.lesson else exercise.detour.lesson.path) %}
 {% set file =  baseUrl + "/" + path + "/exercise-" + identifier + ".md" %}
-{% if is_panel %}<div data-cv-toggle="exercises"><panel tags="git-mastery" class="non-printable" type="danger" {{ status }}
+{% if is_panel %}
+<cv-toggle toggle-id="exercises">
+
+<panel tags="git-mastery" class="non-printable" type="danger" {{ status }}
 header="###### {{ icon_exercise }} EXERCISE{{ (' ' + number) if number else '' }}: `{{ identifier }}`"
 popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 # Exercise `{{ identifier }}`
@@ -627,7 +632,8 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 <small>%%**To reset the exercise** and start over, navigate to the `gitmastery-exercises/{{ identifier }}` folder and run the `gitmastery progress reset` command.%%</small>
 {% endif %}
 {{ show_gm_footer() if has_footer else ""}}
-{% if is_panel %}</panel></div>{% endif %}
+{% if is_panel %}</panel>{% endif %}
+</cv-toggle>
 {% endmacro %}
 <!-- ============================================================ -->
 
@@ -654,8 +660,8 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 <!-- ============================================================ -->
 
 {% macro show_lesson_intro() %}
-<div class="non-printable" data-cv-toggle="lesson-intros">
-<div class="border border-success pt-0 ps-1 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color: #e6fff2">
+<cv-toggle toggle-id="lesson-intros">
+<div class="non-printable border border-success pt-0 ps-1 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color: #e6fff2">
 
 <div class="indented">
 <br>
@@ -667,7 +673,7 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 </div>
 </div>
 <br>
-</div>
+</cv-toggle>
 {% endmacro %}
 <!-- ============================================================ -->
 
@@ -718,7 +724,8 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 
 {% macro show_tour_intro(tour, is_outside_tour=0) %}
 {% set tour_folder = baseUrl + "/lessons/trail/" + tour.folder %}
-<div class="non-printable"  data-cv-toggle="lesson-intros" style="background-color: #e6fff2; border-top-left-radius: 15px; border-top-right-radius: 15px;">
+<cv-toggle toggle-id="lesson-intros">
+<div class="non-printable" style="background-color: #e6fff2; border-top-left-radius: 15px; border-top-right-radius: 15px;">
 
 {{ show_tour_title(tour.title) }}
 <div class="p-3">
@@ -734,19 +741,22 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 
 </div>
 </div>
+</cv-toggle>
 {% endmacro %}
 <!-- ============================================================ -->
 
 {% macro show_tour_outro(tour) %}
 {% set tour_folder = baseUrl + "/lessons/trail/" + tour.folder %}
 
-<div  data-cv-toggle="lesson-intros" style="background-color: #e6fff2; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" class="non-printable p-3 border-bottom border-5 border-success">
+<cv-toggle toggle-id="lesson-intros">
+<div  style="background-color: #e6fff2; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" class="non-printable p-3 border-bottom border-5 border-success">
 
 **At this point**: <include src="{{ tour_folder }}/text.md#achievements" trim inline/>
 
 **What's next**: <include src="{{ tour_folder }}/text.md#next" trim inline/>
 
 </div>
+</cv-toggle>
 {% endmacro %}
 <!-- ============================================================ -->
 

@@ -31,7 +31,9 @@ Before you start learning Git, **you need to install some tools** on your comput
 </panel>
 </box>
 
-<box type="warning" data-cv-toggle="lesson-intros" seamless>
+<cv-toggle toggle-id="windows-only">
+
+<box type="warning" seamless>
 
 When running Git commands, we recommend Windows users to **use the Git Bash terminal** that comes with Git. To open Git Bash terminal, hit the <kbd>:fab-windows:</kbd> key and type `git-bash`.
 
@@ -39,6 +41,8 @@ When running Git commands, we recommend Windows users to **use the Git Bash term
 You can navigate to the directory where `git-bash.exe` is (most likely `C:\Program Files\Git\git-bash.exe`), double click `git-bash.exe` to open Git Bash.<br>
 You can also right-click it and choose `Pin to Start` or `Pin to taskbar`.
 </box>
+</cv-toggle>
+
 
 {% call show_sidebar("Git Bash Terminal") %}
 **Git Bash is a terminal application that lets you use Git from the command line on Windows.** Since Git was originally developed for Unix-like systems (like Linux and macOS), Windows does not come with a native shell that supports all the commands and utilities commonly used with Git.
