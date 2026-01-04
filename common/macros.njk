@@ -784,3 +784,16 @@ Click [here]({{ tour_page }}) to see the full tour page.
 </div>
 {% endmacro %}
 <!-- ============================================================ -->
+
+{% macro show_faq(faq_id, status="", is_embedded=0, is_compact=0) %}
+<a id="{{ faq_id }}" />
+<panel type="seamless" {{ status if is_embedded else "expanded" }}>
+<span slot="header" class="card-title"><markdown>{{ "" if is_embedded else "####" }} {{ faq }} <include src="{{ baseUrl }}/faq/faq-fragment.md#faq-{{ faq_id }}-Q" inline /></markdown></span>
+<box type="secondary" seamless>
+
+<include src="{{ baseUrl }}/faq/faq-fragment.md#faq-{{ faq_id }}-A" />
+</box>
+</panel>
+{{ "<p/>" if not is_compact }}
+{% endmacro %}
+<!-- ============================================================ -->

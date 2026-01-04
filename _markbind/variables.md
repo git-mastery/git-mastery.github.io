@@ -3,6 +3,8 @@
 <variable id="bullet_checkbox_selected">{ icon="fas-square-check" }</variable>
 <variable id="bullet_checkbox_selected_green">{ icon="fas-square-check" i-class="text-success" }</variable>
 
+<variable name="faq"><span class="badge rounded-pill bg-info"><md>:far-question: FAQ</md></span></variable>
+
 <variable name="hop_preparation">:fas-suitcase: Preparation</variable>
 <variable name="hop_scenario">:fas-grip-lines-vertical::fas-arrow-right: Scenario</variable>
 <variable name="hop_target">Target :fas-arrow-right::fas-grip-lines-vertical:</variable>
