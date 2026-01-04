@@ -1,16 +1,18 @@
 {
   "config": {
     "toggles": [
-        { "toggleId": "lesson-intros", "label": "Section intros/outros", "default": "show", "description":  "Green panels at the start/end of a lesson/tour"},
+        { "toggleId": "lesson-intros", "label": "Section intros/outros", "default": "show", "description":  "i.e., Green panels at the start/end of a lesson/tour"},
         { "toggleId": "hands-on-practicals", "label": "Hands-on practicals", "default": "show"},
         { "toggleId": "detours", "label": "Detours", "default": "show"},
         { "toggleId": "exercises", "label": "Exercises", "default": "show"},
-        { "toggleId": "windows-only", "label": "Windows-only text segments", "description":  "Additional information related to Windows OS only"}
+        { "toggleId": "windows-only", "label": "Windows-only text segments", "description":  "i.e., Additional information related to Windows OS only"},
+        { "toggleId": "mac-only", "label": "MacOs-only text segments", "description":  "i.e., Additional information related to MacOS only"},
+        { "toggleId": "linux-only", "label": "Linux-only text segments", "description":  "i.e., Additional information related to Linux OS only"}
       ],
     "tabGroups": [
       {
         "groupId": "os",
-        "label": "OS that you normally use with Git on:",
+        "label": "OS that you normally use Git on:",
         "default": "windows",
         "tabs": [
           { "tabId": "windows", "label": "Windows" },
@@ -33,8 +35,8 @@
   "baseUrl": "/",
   "settings": {
     "panel": {
-      "title": "Configure your view of the Git-Mastery site",
-      "description": "Control your view of different content sections to customize your view (e.g., show/hide some sections)"
+      "title": "Customise your view of the Git-Mastery site",
+      "description": "Customise how different content sections shown (e.g., show/hide some sections)"
     },
     "callout": {
       "show": true,
