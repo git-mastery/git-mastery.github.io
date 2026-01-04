@@ -56,10 +56,10 @@ gitGraph BT:
 {% set manual %}
 To create the repo `samplerepo-books` used for this hands-on practical, run the following commands in your terminal.
 
-```bash
+```bash{.line-numbers}
 mkdir samplerepo-books
 cd samplerepo-books
-git init
+git init -b main
 echo "Horror Stories" >> horror.txt
 git add .
 git commit -m "Add horror.txt"
@@ -73,9 +73,14 @@ echo "Fantasy Books" >> fantasy.txt
 git add .
 git commit -m "Add fantasy.txt"
 git switch main
+sleep 1
 git merge --no-ff -m "Merge branch textbooks" textbooks
 ```
+
+{{ icon_info }} The `sleep 1` in line 17 adds delay to ensure the next commit has a different timestamp the one before.<br>
+Reason: Commit timestamps are rounded to the nearest second. If multiple commits have the same timestamp, the shape of `git log` output (which orders commits based on commit timestamp) can be slightly different from what we expect, which can be confusing.
 {% endset %}
+
 
 {{ show_hop_prep('hp-branch-rename', manual_info=manual) }}
 

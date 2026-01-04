@@ -128,7 +128,7 @@ To create the repo `samplerepo-books-2` manually, run the following commands in 
 ```bash
 mkdir samplerepo-books-2
 cd samplerepo-books-2
-git init
+git init -b main
 echo "Horror Stories" >> horror.txt
 git add .
 git commit -m "Add horror.txt"
@@ -142,6 +142,7 @@ echo "Fantasy Books" >> fantasy.txt
 git add .
 git commit -m "Add fantasy.txt"
 git switch main
+sleep 1
 git merge --no-ff -m "Merge branch textbooks" textbooks
 ```
 {% endset %}
