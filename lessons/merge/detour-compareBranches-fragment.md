@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% import "common/macros.njk" as m with context %}
 
 <div id="preview">
 
@@ -11,7 +11,9 @@ Here are two ways to compare two branches:
 * **Triple-dot notation** `git diff branchA...branchB`: This shows changes in all the commits that are reachable by either of two references but not by both of them.<br>
   i.e., commits unique to `branchA` or `branchB`.
 
-{% call show_resources() %}
+{% call m.show_resources() %}
 
 * [**Notations used for referring commits/branches**, from git-scm.com](https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection)
 {% endcall %}
+
+{{ m.show_exercise(m.exercises.branch_compare) }}

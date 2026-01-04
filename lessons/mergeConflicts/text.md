@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_multiple_columns, show_output, show_ref, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_multiple_columns, show_output, show_ref, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can resolve merge conflicts.</span>
@@ -17,32 +17,7 @@ When merging branches, **you need to guide Git on how to resolve conflicting cha
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Resolve a merge conflict")  %}
 
-
-{{ hp_number(hop_preparation) }} We need a repo with two branches containing conflicting changes. Given below is how you can create such a scenario:
-1. **Create a repo named `nouns`** with one commit.
-1. **Start a branch named `fix1` in the repo. Create a commit** that adds a line with some text to one of the files.
-1. **Switch back to `main` branch. Create a commit with a conflicting change** i.e., it adds a line with some different text in the exact location the previous line was added.
-
-The above can be done with the following commands:
-
-```bash
-md nouns
-cd nouns
-git init
-
-echo -e "blue" > colours.txt
-git stage colours.txt
-git commit -m "Add colours.txt"
-
-git switch -c fix1
-echo "green\nred\nwhite" >> colours.txt
-git commit -am "Add green, red, white"
-
-git switch main
-echo "black\nred\nwhite" >> colours.txt
-git commit -am "Add black, red, white"
-```
-The result will be something like this:
+{{ hp_number(hop_scenario) }} In the `nouns` repo (revision graph shown below), both the `main` and the `fix1` branches are modifying the same file at the same location. The main branch is inserting `black` in the same place the `fix1` is inserting `green`.
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
@@ -53,8 +28,6 @@ gitGraph BT:
     checkout main
     commit id: "[HEAD → main] Add black, red, white"
 </mermaid>
-
-As you can see from the above, both `main` and `fix1` branches are modifying the same file at the same location. The main branch is inserting `black` in the same place the `fix1` is inserting `green`.
 
 {% set a %} <!-- ------ start: columns --------------->
 ```txt {.line-numbers highlight-lines="2" heading="colours.txt"}
@@ -79,6 +52,35 @@ white
 
 {{ hp_number(hop_target) }} Merge the two branches while reconciling the conflicting changes in the two branches.
 
+{{ hp_number(hop_preparation) }}
+{% set manual %}
+We need a repo with two branches containing conflicting changes. Given below is how you can create such a scenario:
+1. **Create a repo named `nouns`** with one commit.
+1. **Start a branch named `fix1` in the repo. Create a commit** that adds a line with some text to one of the files.
+1. **Switch back to `main` branch. Create a commit with a conflicting change** i.e., it adds a line with some different text in the exact location the previous line was added.
+
+The above can be done with the following commands:
+
+```bash
+md nouns
+cd nouns
+git init
+
+echo -e "blue" > colours.txt
+git stage colours.txt
+git commit -m "Add colours.txt"
+
+git switch -c fix1
+echo "green\nred\nwhite" >> colours.txt
+git commit -am "Add green, red, white"
+
+git switch main
+echo "black\nred\nwhite" >> colours.txt
+git commit -am "Add black, red, white"
+```
+{% endset %}
+
+{{ show_hop_prep('hp-merge-conflicts', manual_info=manual) }}
 
 {{ hp_number("1") }} **Try to merge the `fix1` branch onto the `main` branch.** Git will pause mid-way during the merge and report a merge conflict. If you open the conflicted file `colours.txt`, you will see something like this:
 

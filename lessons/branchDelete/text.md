@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_output, show_ref, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can delete a branch in a local repository.</span>
@@ -98,7 +98,32 @@ In the example below, `C4` is unreachable (i.e., cannot be reached by starting a
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Delete branches")  %}
 
-{{ hp_number(hop_preparation) }} **First, create the repo `samplerepo-books-2` for this hands-on practical**, by running the following commands in your terminal.
+{{ hp_number(hop_scenario) }} You have the following repo, named `samplerepo-books-2`.
+
+<mermaid>
+gitGraph BT:
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
+    commit id: "m1"
+    branch textbooks
+    checkout textbooks
+    commit id: "[textbooks] t1"
+    checkout main
+    branch fantasy
+    checkout fantasy
+    commit id: "[fantasy] f1"
+    checkout main
+    merge textbooks id: "[HEAD → main] mc1"
+</mermaid>
+
+The work in the `textbook` branch has been completed, and the branch has been merged -- there is no need to keep that branch anymore.<br>
+The work in the `fantasy` branch is no longer needed. Hence, there is no need for the branch either.
+
+{{ hp_number(hop_target) }} Delete the `textbooks` (merged) and `fantasy` branches (unmerged).
+
+{{ hp_number(hop_preparation) }}
+
+{% set manual %}
+To create the repo `samplerepo-books-2` manually, run the following commands in your terminal.
 
 ```bash
 mkdir samplerepo-books-2
@@ -119,26 +144,14 @@ git commit -m "Add fantasy.txt"
 git switch main
 git merge --no-ff -m "Merge branch textbooks" textbooks
 ```
-The result should be something like this:
-<mermaid>
-gitGraph BT:
-    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
-    commit id: "m1"
-    branch textbooks
-    checkout textbooks
-    commit id: "[textbooks] t1"
-    checkout main
-    branch fantasy
-    checkout fantasy
-    commit id: "[fantasy] f1"
-    checkout main
-    merge textbooks id: "[HEAD → main] mc1"
-</mermaid>
+{% endset %}
 
+{{ show_hop_prep('hp-branch-delete', manual_info=manual) }}
 
 {{ hp_number("1") }} **Delete the (the merged) `textbooks` branch.**
 {% set cli %} <!-- ------ start: Git Tabs --------------->
-Use the `git branch -d <branch>` command to delete a local branch 'safely' -- this command will fail if the branch has unmerged changes.
+Use the `git branch -d <branch>` command to delete a local branch 'safely' -- this command will fail if the branch has unmerged changes. In this case, it will succeed as the branch has no unmerged commits.
+
 ```bash{.no-line-numbers}
 git branch -d textbooks
 git log --oneline --decorate --graph --all  # check the current revision graph
@@ -163,7 +176,7 @@ In the next dialog, click `OK`:<br>
 <pic src="images/sourcetreeDeleteBranchDialog.png" width="400" />
 
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
 Observe that all commits remain. The only missing thing is the `textbook` ref.
@@ -213,7 +226,7 @@ Attempt to delete the branch as you did before. It will fail because the branch 
 Try again but this time, tick the `Force delete` option, which will force Git to delete the unmerged branch:<br>
 <pic src="images/sourcetreeDeleteBranchDialog.png" width="400" />
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 
 Observe how the branch ref `fantasy` is gone, together with any unmerged commits on it.
 
@@ -236,4 +249,5 @@ Observe how the commit still exists and still is reachable using the commit ID, 
 As this is the last lesson for this tour, this is a good time to attempt exercises that combine knowledge from multiple lessons in this tour:
 
 {{ show_exercise(exercises.mix_messy_docs) }}
+{{ show_exercise(exercises.mix_messy_graph) }}
 </div>

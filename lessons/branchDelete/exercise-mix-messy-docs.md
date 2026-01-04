@@ -57,25 +57,25 @@ gitGraph BT:
 gitGraph BT:
   commit id: "Add features.md"
   commit id: "Mention feature for creating books" tag: "v10"
-  branch deleted-feature-search
-  branch deleted-feature-delete
+  branch DELETED_feature-search
+  branch DELETED_feature-delete
   branch feature-list
   branch development
-  checkout deleted-feature-delete
+  checkout DELETED_feature-delete
   commit id: "Mention feature for deleting books"
-  checkout deleted-feature-search
+  checkout DELETED_feature-search
   commit id: "Mention feature for searching books"
-  checkout deleted-feature-delete
+  checkout DELETED_feature-delete
   commit id: "Add missing period"
   checkout main
   commit id: "Fix phrasing of heading"
-  checkout deleted-feature-search
+  checkout DELETED_feature-search
   commit id: "Add more details on the search feature"
   checkout feature-list
   commit id: "Add partial docs for listing books"
   checkout development
-  merge deleted-feature-search
-  merge deleted-feature-delete
+  merge DELETED_feature-search
+  merge DELETED_feature-delete
 </mermaid>
 
 

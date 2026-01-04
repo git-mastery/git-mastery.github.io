@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_output, show_protip, show_ref, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_protip, show_ref, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Able to work in parallel Git branches, in the local repo.</span>
@@ -12,9 +12,9 @@
 **Git {{ show_git_term("branches") }} let you develop multiple versions of your work in parallel — effectively creating {{ show_git_term("diverged") }} timelines of your repository’s history.** For example, one team member can create a new branch to experiment with a change, while the rest of the team continues working on another branch. Branches can have meaningful names, such as `main`, `release`, or `draft`.
 
 **A Git branch is simply a ref (a named label) that points to a commit and automatically moves forward as you add new commits to that branch.** As you’ve seen before, the `HEAD` ref indicates which branch you’re currently working on, by pointing to the corresponding branch ref.<br>
-**When you add a commit, it goes into the branch you are currently on**, and the branch ref (together with the `HEAD` ref) moves to the new commit.
+**When you add a commit, it goes into the branch you are currently on**, and the branch ref moves to the new commit, effectively making the `HEAD` ref point to the new commit as well (via the branch ref).
 
-**Git creates a branch named `main` by default** (Git can be configured to use a different name e.g., `main`).
+**Git creates a branch named `master` by default** (Git can be configured to use a different name e.g., `main`<span class="non-printable"> -- which is the more common choice these days, and is the default used by Git-Mastery</span>).
 
 Given below is an illustration of how branch refs move as branches evolve. Refer to the text below it for explanations of each stage.
 
@@ -27,10 +27,9 @@ Given below is an illustration of how branch refs move as branches evolve. Refer
 <p/>
 
 * There is only one branch (i.e., `main`) and there is only one commit on it. The `HEAD` ref is pointing to the `main` branch (as we are currently on that branch). {texts="['[1]', '[2]', '[3]', '[4]']"}
-* A new commit has been added. The `main` and the `HEAD` refs have moved to the new commit.
-* A new branch `fix1` has been added. The repo has switched to the new branch too (hence, the `HEAD` ref is attached to the `fix1` branch).
-* A new commit (`c`) has been added. The current branch ref `fix1` moves to the new commit, together with the `HEAD` ref.
-   At this point, the repo's working directory reflects the code at commit `b` (not `c`).
+* A new commit has been added. The `main` has moved to the new commit. `HEAD` continues to be attached to the `main` ref, thus pointing to the new commit as well.
+* A new branch `fix1` has been added. The repo has switched to the new branch too (hence, the `HEAD` ref is now attached to the `fix1` branch).
+* A new commit (`c`) has been added. The current branch ref `fix1` has moved to the new commit. `HEAD` is also pointing to the new commit, as it remains attached to the `fix1` branch ref.
 
 <annotate src="{{ baseUrl }}/lessons/branch/images/branchesAsLabels2.png" width="700">
 <a-point x="15%" y="10%" label="[5]" opacity="0"/>
@@ -38,18 +37,22 @@ Given below is an illustration of how branch refs move as branches evolve. Refer
 <a-point x="70%" y="5%" label="[7]" opacity="0"/>
 </annotate>
 
-* A new commit (`d`) has been added. The `main` and the `HEAD` refs have moved to that commit. {texts="['[5]', '[6]', '[7]']"}
-* The repo has switched back to the `fix1` branch and added a new commit `e` to it. Note how the branch ref `fix1` (together with `HEAD`) has moved to the new commit `e` while the branch ref `main` still points to `d`.
-* The repo has switched back to the `main` branch. Hence, the `HEAD` has moved back to `main` branch's <tooltip content="latest commit of that branch">tip</tooltip>.<br>
+* The repo has switched back to the `main` branch. Hence, the `HEAD` is now pointing to the `main` branch ref, and via that, to commit `b` that is at the <tooltip content="latest commit of that branch">tip</tooltip> of that branch.<br>
+  As a result, the repo's working directory now reflects the code at commit `b` (not `c`).{texts="['[5]', '[6]', '[7]']"}
+* A new commit (`d`) has been added. The `main` and the `HEAD` refs now point to that commit.
+* The repo has switched back to the `fix1` branch and added a new commit `e` to it. The branch ref `fix1` (together with `HEAD`) are now pointing to the new commit `e` while the branch ref `main` still points to `d`.
 
 <box type="warning" seamless>
 
-Note that appearance of the revision graph (colors, positioning, orientation etc.) varies based on the Git client you use, and might not match the exact diagrams given above.
+Appearance of the revision graph (colors, positioning, orientation etc.) varies based on the Git client you use, and might not match the exact diagrams given above.
 </box>
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Work on parallel branches")  %}
 
-{{ hp_number(hop_preparation) }} Let's create a repo named `sports`, as follows:
+{{ hp_number(hop_preparation) }}
+
+{% set manual %}
+Let's create a repo named `sports`, as follows:
 ```
 md sports
 cd sports
@@ -67,6 +70,9 @@ echo -e "Pele\nMaradona" > football.txt
 git stage football.txt
 git commit -m "Add football.txt"
 ```
+{% endset %}
+
+{{ show_hop_prep('hp-create-branch', manual_info=manual) }}
 
 {{ hp_number ('1') }} **Observe that you are on the branch called `main`.**
 {% set cli %} <!-- ------ start: Git Tabs --------------->
@@ -85,7 +91,7 @@ On branch main
 <pic eager src="{{baseUrl}}/lessons/branch/images/onMasterBranch.png" height="120" />
 <p/>
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
 {{ hp_number ('2') }} **Start a branch named `feature1` and switch to the new branch.**
@@ -136,7 +142,7 @@ Note how the `feature1` is indicated as the current branch (reason: Sourcetree a
 <pic eager src="{{baseUrl}}/lessons/branch/images/sourcetreeFeature1BranchActive.png" height="150" />
 <p/>
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
 {{ hp_number ('3') }} **Create some commits in the new branch, as follows.**
@@ -159,7 +165,7 @@ As before, you can use the `git log --oneline --decorate` command for this.
   <pic eager src="images/sourcetree_HEAD_dot.png" />.
 * :fab-apple: The `HEAD` ref is not shown in the UI if it is already pointing at the active branch.
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
 * Add some more texts to `boxing.txt`, stage the changes, and commit it. This commit too will be added to the `feature1` branch.{texts="['3.3']"}
@@ -188,7 +194,7 @@ Similarly, `origin/HEAD` ref appearing against the same commit indicates that <t
 
 </box>
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
 {{ hp_number ('5') }} **Add a commit to the `main` branch.** Let’s imagine it’s a bug fix.<br>
@@ -221,7 +227,8 @@ gitGraph BT:
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Start a branch from an earlier commit")  %}
 
-{{ hp_number(hop_preparation) }} Continue with the `sports` repo.
+{{ hp_number(hop_preparation) }}
+{{ show_hop_prep('hp-early-branch', is_continue=1, sandbox_info="the `sports` repo") }}
 
 {{ hp_number(hop_scenario) }} Suppose we want to create a branch containing an alternative version of the content we added in the `feature1` branch.
 
@@ -271,7 +278,11 @@ git switch -c b3 b1
 ```
 {% endcall %}
 
-{{ hp_number('4') }} Add a commit on the new branch.
+{{ hp_number('4') }} Add a commit on the new branch. Example:
+```bash
+echo -e "Venus Williams" >> tennis.txt
+git commit -am "Add Venus to tennis.txt"
+```
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
@@ -279,4 +290,5 @@ git switch -c b3 b1
 
 <div id="extras">
 {{ show_exercise(exercises.side_track) }}
+{{ show_exercise(exercises.branch_previous) }}
 </div>
