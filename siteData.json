@@ -36,15 +36,6 @@
       "headingKeywords": {}
     },
     {
-      "src": "faq/index.md",
-      "title": "FAQ",
-      "headings": {
-        "git-mastery-faq": "Git-Mastery FAQ",
-        "progress-dashboard": "Progress Dashboard"
-      },
-      "headingKeywords": {}
-    },
-    {
       "src": "index.md",
       "title": "Git-Mastery: Home",
       "headings": {
