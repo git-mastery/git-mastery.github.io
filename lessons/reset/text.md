@@ -68,7 +68,7 @@ The following commands can be used to set up the scenario.
 ```bash
 makdir things
 cd things
-git init
+git init -b main
 
 echo -e "apples\nbananas\ncherries\ndragon fruits" >> fruits.txt
 git add fruits.txt

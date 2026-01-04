@@ -64,7 +64,7 @@ The above can be done with the following commands:
 ```bash
 md nouns
 cd nouns
-git init
+git init -b main
 
 echo -e "blue" > colours.txt
 git stage colours.txt

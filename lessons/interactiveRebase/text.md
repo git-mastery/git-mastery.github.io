@@ -19,7 +19,7 @@ When the revision history gets 'messy', **Git has a way to 'tidy up' the recent 
 ```bash
 mkdir samplerepo-sitcom
 cd samplerepo-sitcom
-git init
+git init -b main
 
 echo "Aspiring actress" >> Penny.txt
 git add .

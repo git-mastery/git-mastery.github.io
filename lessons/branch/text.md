@@ -56,7 +56,7 @@ Let's create a repo named `sports`, as follows:
 ```
 md sports
 cd sports
-git init
+git init -b main
 
 echo -e "Arnold Palmer\nTiger Woods" > golf.txt
 git stage golf.txt

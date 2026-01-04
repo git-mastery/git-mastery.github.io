@@ -162,7 +162,7 @@ Use the following bash commands for set up the sandbox repo:
 ```bash
 mkdir employees
 cd employees
-git init
+git init -b main
 
 echo "Andy Bernard" > list.txt
 mkdir andy
