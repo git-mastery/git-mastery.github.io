@@ -226,4 +226,43 @@ h2 {
     z-index: 1;
 }
 
+/* Hide site navigation when printing */
+@media print {
+    #site-nav {
+        display: none;
+    }
 
+    #page-nav {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    /* Reduce font size when printing */
+    h1 {
+        font-size: 1.2rem !important;
+    }
+    h2 {
+        font-size: 1.0rem !important;
+    }
+    h3 {
+        font-size: 0.9rem !important;
+    }
+    h4 {
+        font-size: 0.8rem !important;
+    }
+    h5 {
+        font-size: 0.7rem !important;
+    }
+    body {
+        font-size: 0.65rem !important;
+    }
+    .btn {
+        font-size: 0.65rem !important;
+    }
+    img {
+        zoom: 0.8;  /* might not work on some browsers */
+    }
+}
