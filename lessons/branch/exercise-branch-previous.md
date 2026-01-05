@@ -19,7 +19,7 @@ You are not very happy with the way the story is progressing, and wish to explor
 
 <div id="task" class="d-none">
 
-1. Start a new branch named `visitor-line`, starting from the second commit (i.e., commit `Add second line`).
+1. Start a new branch named `visitor-line`, starting from the second commit (i.e., commit `Describe location`).
 1. Add the line `I heard someone knocking at the door.` to the `story.txt`.
 1. Commit the change. You may use any suitable commit message.
 1. Start a new branch named `sleep-line`, starting from the same starting point as before.
