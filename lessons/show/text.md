@@ -58,7 +58,7 @@ index 0000000..55c8449
  ```
  A Git diff can consist of multiple {{ show_git_term("file diffs") }}, one for each changed file. Each file diff can contain one or more {{ show_git_term("hunk") }} i.e., a localised group of changes within the file — including lines added, removed, or left unchanged (included for context).
 
-<div class="non-printable">
+<div class="d-print-none">
 
 Given below is how the above diff is divided into its components:
 <div class="border border-info p-2">

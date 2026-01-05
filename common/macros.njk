@@ -453,7 +453,7 @@
 <!-- ============================================================ -->
 
 {% macro show_prep(title, div_id) %}
-<div class="non-printable" id="{{ div_id }}">
+<div class="d-print-none" id="{{ div_id }}">
 
 <panel type="dark" header="###### :fas-gear: PREPARATION: **{{ title }}**" expanded>
 
@@ -468,7 +468,7 @@
 <!-- ============================================================ -->
 
 {% macro show_hands_on_practical(title) %}
-<cv-toggle class="non-printable" toggle-id="hands-on-practicals">
+<cv-toggle class="d-print-none" toggle-id="hands-on-practicals">
 <span style="position: relative; top: 10px; background-color: rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6">{{ icon_hands_on }} HANDS-ON: {{ title }}</span>
 <div class="indented-level1">
 
@@ -484,7 +484,7 @@
 
 {% macro callout(toggle_id='') %}
 {% if toggle_id %}<cv-toggle toggle-id="{{ toggle_id }}">{% endif %}
-<div class="indented-level2 non-printable" >
+<div class="indented-level2 d-print-none" >
 
 <div class="callout shadow">
 
@@ -511,7 +511,7 @@
 {% set title = detour_title if detour_title else detour.title %}
 {% set path = detour_path if detour_path else (baseUrl + "/" + detour.lesson.path + "/detour-" + detour_name + "-fragment.md") %}
 <a id="{{ detour_name }}"/>
-<cv-toggle toggle-id="detours"><panel class="non-printable" header="{{ icon_detour }} DETOUR: **{{ title }}**" type="warning" peek>
+<cv-toggle toggle-id="detours"><panel class="d-print-none" header="{{ icon_detour }} DETOUR: **{{ title }}**" type="warning" peek>
 
 <include src="{{ path }}" />
 </panel></cv-toggle>
@@ -526,7 +526,7 @@ the tour _{{ detour.title }}_ given in the lesson [_{{ detour.lesson.title }}_](
 
 {% macro show_detour_preview(detour_name) %}
 {% set detour = detours[detour_name] %}
-<cv-toggle  toggle-id="detours"><panel class="non-printable" header="{{ icon_detour }} Related DETOUR: **{{ detour.title }}**" type="secondary" expanded>
+<cv-toggle  toggle-id="detours"><panel class="d-print-none" header="{{ icon_detour }} Related DETOUR: **{{ detour.title }}**" type="secondary" expanded>
 
 <include src="{{ baseUrl }}/{{ detour.lesson.path }}/detour-{{ detour_name }}-fragment.md#preview" />
 
@@ -538,7 +538,7 @@ That aspect is covered in {{ show_detour_link(detour_name) }}.
 {% macro show_under_the_hood(title, indent_level='') %}
 {% if indent_level %}<div class="indented-level{{ indent_level }}">{% endif %}
 
-<panel class="non-printable" header="{{ icon_under_the_hood }} UNDER-THE-HOOD: **{{ title }}**" type="info" >
+<panel class="d-print-none" header="{{ icon_under_the_hood }} UNDER-THE-HOOD: **{{ title }}**" type="info" >
 
 {{ caller() }}
 </panel>
@@ -593,7 +593,7 @@ Option {{ count }}: **Continue with {{ sandbox_info }} from the previous** hands
 {% if is_panel %}
 <cv-toggle toggle-id="exercises">
 
-<panel tags="git-mastery" class="non-printable" type="danger" {{ status }}
+<panel tags="git-mastery" class="d-print-none" type="danger" {{ status }}
 header="###### {{ icon_exercise }} EXERCISE{{ (' ' + number) if number else '' }}: `{{ identifier }}`"
 popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 # Exercise `{{ identifier }}`
@@ -643,7 +643,7 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 <!-- ============================================================ -->
 
 {% macro show_resources() %}
-<panel class="non-printable" type="info" header="{{ icon_resource }} RESOURCES" expanded>
+<panel class="d-print-none" type="info" header="{{ icon_resource }} RESOURCES" expanded>
 
 {{ caller() }}
 </panel>
@@ -661,7 +661,7 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 
 {% macro show_lesson_intro() %}
 <cv-toggle toggle-id="lesson-intros">
-<div class="non-printable border border-success pt-0 ps-1 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color: #e6fff2">
+<div class="d-print-none border border-success pt-0 ps-1 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color: #e6fff2">
 
 <div class="indented">
 <br>
@@ -678,7 +678,7 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 <!-- ============================================================ -->
 
 {% macro show_lesson_overview(lesson_data, is_outside_tour=0, tour=null) %}
-<div class="indented-level1 non-printable">
+<div class="indented-level1 d-print-none">
 
 <div class="border border-success pt-2 ps-2 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color: #e6fff2">
 <include src="{{ baseUrl }}/{{ lesson_data.path }}/text.md#overview" inline />
@@ -704,7 +704,7 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 <!-- ============================================================ -->
 
 {% macro show_sidebar(title, non_printable=0) %}
-{% if non_printable %}<div class="non-printable">{% endif %}
+{% if non_printable %}<div class="d-print-none">{% endif %}
 
 <box class="bg-light" icon=":fas-bookmark:" type="info" header="****SIDEBAR: {{ title }}****{.text-info}" seamless>
 
@@ -725,7 +725,7 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 {% macro show_tour_intro(tour, is_outside_tour=0) %}
 {% set tour_folder = baseUrl + "/lessons/trail/" + tour.folder %}
 <cv-toggle toggle-id="lesson-intros">
-<div class="non-printable" style="background-color: #e6fff2; border-top-left-radius: 15px; border-top-right-radius: 15px;">
+<div class="d-print-none" style="background-color: #e6fff2; border-top-left-radius: 15px; border-top-right-radius: 15px;">
 
 {{ show_tour_title(tour.title) }}
 <div class="p-3">
@@ -749,7 +749,7 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 {% set tour_folder = baseUrl + "/lessons/trail/" + tour.folder %}
 
 <cv-toggle toggle-id="lesson-intros">
-<div  style="background-color: #e6fff2; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" class="non-printable p-3 border-bottom border-5 border-success">
+<div  style="background-color: #e6fff2; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" class="d-print-none p-3 border-bottom border-5 border-success">
 
 **At this point**: <include src="{{ tour_folder }}/text.md#achievements" trim inline/>
 

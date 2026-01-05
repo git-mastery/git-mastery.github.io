@@ -14,7 +14,7 @@
 **A Git branch is simply a ref (a named label) that points to a commit and automatically moves forward as you add new commits to that branch.** As you’ve seen before, the `HEAD` ref indicates which branch you’re currently working on, by pointing to the corresponding branch ref.<br>
 **When you add a commit, it goes into the branch you are currently on**, and the branch ref moves to the new commit, effectively making the `HEAD` ref point to the new commit as well (via the branch ref).
 
-**Git creates a branch named `master` by default** (Git can be configured to use a different name e.g., `main`<span class="non-printable"> -- which is the more common choice these days, and is the default used by Git-Mastery</span>).
+**Git creates a branch named `master` by default** (Git can be configured to use a different name e.g., `main`<span class="d-print-none"> -- which is the more common choice these days, and is the default used by Git-Mastery</span>).
 
 Given below is an illustration of how branch refs move as branches evolve. Refer to the text below it for explanations of each stage.
 

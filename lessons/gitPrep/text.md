@@ -156,7 +156,7 @@ Our Git lessons show how to perform Git operations in Git CLI, and in Sourcetree
 
 {% endcall %} <!-- show_prep -->
 
-<div class="non-printable" tags="git-mastery">
+<div class="d-print-none" tags="git-mastery">
 
 ##### Installing the Git-Mastery App
 

@@ -10,7 +10,10 @@ title: "Lessons: All in one page"
 
 # Revision Control (Using Git & GitHub)
 
-This topic is divided into several 'tours', each aiming to cover the knowledge required to perform a general revision control use case.
+<div class="d-print-none">
+
+Git-Mastery lessons are divided into several 'tours', each aiming to cover the knowledge required to perform a general revision control use case.
+</div>
 
 {% for tour_id, tour in trail %}
 <include src="{{ tour_id }}/text.md#body" />

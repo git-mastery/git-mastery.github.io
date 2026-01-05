@@ -266,7 +266,7 @@ gitGraph BT:
 
 **It is possible to force Git to create a merge commit even if fast forwarding is possible.** This is useful if you prefer the revision graph to visually show when each branch was merged to the main timeline.
 
-<div class="non-printable">
+<div class="d-print-none">
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
@@ -393,7 +393,7 @@ gitGraph BT:
 
 <p/>
 
-<div class="non-printable">
+<div class="d-print-none">
 
 The mechanics of doing a squash merge is covered in a separate detour.
 </div>

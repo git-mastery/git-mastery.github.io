@@ -75,7 +75,7 @@ Set up your computer's GitHub authentication, as described in the se-edu guide [
 * **The {{ show_git_term("GitHub Desktop") }} app provides a GUI for performing most GitHub operations** from your desktop, without needing to visit the GitHub web UI.
 * **The {{ show_git_term("GitHub CLI (`gh`)") }} brings GitHub-specific commands to your terminal**, letting you perform most GitHub operations through your terminal.
 
-<div class="non-printable" tags="git-mastery">
+<div class="d-print-none" tags="git-mastery">
 
 **If you are using Git-Mastery exercises (strongly recommended), you need to install and configure GitHub CLI** because it is needed by Git-Mastery exercises involving GitHub.
 

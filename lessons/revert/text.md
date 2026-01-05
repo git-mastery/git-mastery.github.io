@@ -110,7 +110,7 @@ git log --oneline --decorate
 
 <box type="warning" seamless>
 
-**A revert can result in a {{ show_git_term("conflict") }}**, if the new changes done to reverse the previous commit conflict with the changes done in other more recent commits. Then, you need to resolve the conflict before the revert operation can proceed. <span class="non-printable">Conflict resolution is covered in a later topic.</span>
+**A revert can result in a {{ show_git_term("conflict") }}**, if the new changes done to reverse the previous commit conflict with the changes done in other more recent commits. Then, you need to resolve the conflict before the revert operation can proceed. <span class="d-print-none">Conflict resolution is covered in a later topic.</span>
 </box>
 </div>
 

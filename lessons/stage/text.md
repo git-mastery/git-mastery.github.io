@@ -117,13 +117,13 @@ dragon fruits
  * Staging an untracked file will both begin tracking the file and include it in the next snapshot.
  * **Staging an already tracked file will simply mark its current changes for inclusion in the next commit.**
 
-<div class="non-printable">
+<div class="d-print-none">
 
 **Git also supports fine-grained selective staging** i.e., staging only specific changes within a file while leaving other changes to the same file unstaged. This will be covered in a later lesson.
 </div>
 
 **Git does not track empty folders**. It tracks only folders that contain tracked files.<br>
-<span class="non-printable">You can test this by adding an empty subfolder inside the `things` folder (e.g., `things/more-things`) and checking if it shows up as 'untracked' (it will not). If you add a file to that folder (e.g., `things/more-things/food.txt`) and then staged that file (e.g., `git add more-things/food.txt`), the folder will now be included in the next snapshot.</span>
+<span class="d-print-none">You can test this by adding an empty subfolder inside the `things` folder (e.g., `things/more-things`) and checking if it shows up as 'untracked' (it will not). If you add a file to that folder (e.g., `things/more-things/food.txt`) and then staged that file (e.g., `git add more-things/food.txt`), the folder will now be included in the next snapshot.</span>
 
 <include src="../common/protip-multiple-files-notation-fragment.md" />
 

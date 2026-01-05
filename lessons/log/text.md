@@ -57,7 +57,7 @@ gitGraph
 * A commit is a full snapshot of the working directory, constructed based on the previous commit, and the  changes staged. That means **each commit (except the initial commit) is based on a another {{ show_git_term("'parent' commit") }}**. Some commits can have multiple parent commits -- we’ll cover that later.
 
 
-<box type="important" class="non-printable" seamless>
+<box type="important" class="d-print-none" seamless>
 
 Given every commit has a unique hash, the #r#commit hash values you see in our examples will be different from the hash values of your own commits##, for example, when following our hands-on practicals.
 </box>

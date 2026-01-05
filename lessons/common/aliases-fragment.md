@@ -4,7 +4,7 @@
 
 **The Git {{ show_git_term("alias") }} feature allows you to create custom shortcuts for frequently used Git commands.** This saves time and reduces typing, especially for long or complex commands. Once an alias is defined, you can use the alias just like any other Git command e.g., use `git lodg` as an alias for `git log --oneline --decorate --graph`.
 
-<div class="non-printable">
+<div class="d-print-none">
 
 **To define a global git alias, you can use the `git config --global alias.<alias> "<command>"` command.** e.g.,
 
@@ -15,7 +15,7 @@ git config --global alias.lodg "log --oneline --graph --decorate"
 
 **You can also create shell-level aliases using your shell configuration (e.g., `.bashrc`, `.zshrc`) to make even shorter aliases.** This lets you create shortcuts for any command, including Git commands, and even combine them with other tools. e.g., instead of the Git alias `git lodg`, you can define a shorter shell-level alias `glodg`.
 
-<div class="non-printable">
+<div class="d-print-none">
 
 <tabs>
   <tab header=":fab-windows: Windows + Git-Bash">
