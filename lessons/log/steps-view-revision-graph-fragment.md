@@ -26,7 +26,7 @@ Date:   Fri ...
 
     Add fruits.txt
 ```
-Given below the visual representation of the same revision graph. As you can see, the `log` output shows the refs slightly differently, but it is not hard to see what they mean.
+Given below is the visual representation of the same revision graph. As you can see, the `log` output shows the refs slightly differently, but it is not hard to see what they mean.
 
 {{ show_commit('C3', desc=show_ref('main') + show_head(), msg='Add colours.txt, shapes.txt') }}
 {{ show_commit('C2', msg='Insert figs into fruits.txt') }}

@@ -52,10 +52,10 @@ It is possible to ask Git to not use less at all, use a different pager, or fine
 git config --global core.pager "less -FRX"
 ```
 
-Explanation:
+Explanation: `-FRX` is a shorthand for combining the following three flags.
 
-* `-F` : Quit if the output fits on one screen (don’t show pager unnecessarily)
-* `-R` : Show raw control characters (for coloured Git output)
-* `-X` : Keep content visible after quitting the pager (so output stays on the terminal)
+* `-F` : Quits if the output fits on one screen (don’t show pager unnecessarily)
+* `-R` : Shows raw control characters (for coloured Git output)
+* `-X` : Keeps content visible after quitting the pager (so output stays on the terminal)
 
 {% endcall %}

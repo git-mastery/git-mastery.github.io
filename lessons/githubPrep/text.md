@@ -126,10 +126,9 @@ You should see confirmation that you’re logged in.
 gitmastery check github
 ```
 
-**6. [Optional, Recommended] Ask Git-Mastery to switch on the 'progress sync' feature.**
+**6. [Optional, Recommended] Ask Git-Mastery to switch on the 'progress sync' feature** by navigating inside the `gitmastery-exercises` folder and running the following command.
 
 ```bash{.no-line-numbers}
-# cd into the gitmastery-exercises folder first
 gitmastery progress sync on
 ```
 

@@ -36,7 +36,7 @@ Suppose you want to propose some changes to a GitHub repo (e.g., [samplerepo-pr-
 
 <box type="info" seamless>
 
-Normally, the default value shown in the dropdown is what you want but in case your fork has <popover content="e.g., the repo you forked from is also a fork of a another repo, which means both of those are considered upstream repos of your fork">multiple upstream repos</popover>, the default may not be what you want.
+Normally, the default value shown in the dropdown is what you want but in case your fork has <popover content="e.g., the repo you forked from is also a fork of another repo, which means both of those are considered upstream repos of your fork">multiple upstream repos</popover>, the default may not be what you want.
 
 </box>
 

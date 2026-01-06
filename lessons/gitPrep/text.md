@@ -102,6 +102,11 @@ The output should display the version number.
 git config --global user.name "<your-name>"
 git config --global user.email "<your-email@example.com>"
 ```
+Example:
+```bash{.no-line-numbers}
+git config --global user.name "John Doe"
+git config --global user.email "john.doe@example.com"
+```
 
 **To check if they are set as intended**, you can use the following two commands:
 ```bash{.no-line-numbers}
@@ -112,16 +117,16 @@ git config --global user.email
 
 ##### Configuring `init.defaultBranch`
 
-**Git has a property named `init.defaultBranch` that specify a _branch_ name** that it uses for a couple of things (you'll learn more about Git branches in later lessons). Git uses the default value `master` for this but these days it is more common to use `main` instead. Git-Mastery uses `main` too. To make your Git behaviour matches our lessons better, you should set this property to `main`, as described in the panel below:
+**Git has a property named `init.defaultBranch` that specifies a _branch_ name** that it uses for a couple of things (you'll learn more about Git branches in later lessons). Git uses the default value `master` for this but these days it is more common to use `main` instead. Git-Mastery uses `main` too. To make your Git behaviour match our lessons better, you should set this property to `main`, as described in the panel below:
 
 {% call show_prep("Set `init.defaultBranch` to `main`", "set-default-branch") %}
 
-**To set the three config settings**, run the following commands in your terminal window:
+**To set `init.defaultBranch` config property to `main`**, run the following command in your terminal window:
 ```bash{.no-line-numbers}
 git config --global init.defaultBranch main
 ```
 
-**To verify**, you can run,
+**To verify**, run the following command:
 ```bash{.no-line-numbers}
 git config --global init.defaultBranch
 ```
@@ -241,7 +246,7 @@ install -D -m 0755 gitmastery-3.3.0-linux-arm64 /usr/bin/gitmastery
 
 ```bash{.no-line-numbers highlight-lines="2['../my-projects']"}
 gitmastery --help
-cd ../my-projects  # cd into a different folder
+cd ../my-projects  # navigate to a different folder
 gitmastery --help
 ```
 
@@ -275,20 +280,23 @@ Notes:
 
 ##### **Git-Mastery App: Commands**{.text-info}
 
+{% set run_at_root %}<small>{{ icon_info }} This command needs to be run **in the Git-Mastery's _exercises directory_** (default name: `gitmastery-exercises`).</small>{% endset %}
+{% set run_in_exercise %}<small>{{ icon_info }} This command needs to be run **inside the folder containing the exercise** in concern.</small>{% endset %}
 
 Command|Description|
 -------|-----------|
-`gitmastery [command] help`|Prints the help documentation for each command. Omitting the `[command]` prints the documentation for the app|
+`gitmastery --help`|Prints a brief message on how to use the app.|
 `gitmastery setup`|Setup Git-Mastery for your local machine.|
-`gitmastery check git`|Verify that you have setup Git for Git-Mastery|
-`gitmastery check github`|Verify that you have setup Github and Github CLI for Git-Mastery|
-`gitmastery download <exercise name>`|Downloads the specified exercise to your local machine. For the list of exercises, refer [the Exercises page]({{ baseUrl }}/exercises-directory/index.html).|
-`gitmastery verify`|Verify your exercise attempt. Saves the progress made.|
+`gitmastery check git`|Verify that you have setup Git for Git-Mastery.|
+`gitmastery check github`|Verify that you have setup Github and Github CLI for Git-Mastery.|
+`gitmastery download <exercise name>`|Sets up the sandbox for the specified [exercise]({{ baseUrl }}/exercises-directory/index.html).<br>{{ run_at_root }}|
+`gitmastery download <hands-on-practical name>`|Sets up the specified hands-on practical in your computer.<br>{{ run_at_root }}|
+`gitmastery verify`|Verify your exercise attempt. Saves the progress made.<br>{{ run_in_exercise }}|
 `gitmastery version`|Get the current version of the Git-Mastery app on your machine.|
-`gitmastery progress sync on`|Enable remote progress tracking.|
-`gitmastery progress sync off`|Disable remote progress tracking.|
-`gitmastery progress show`|Disables your progress made so far and a link to the progress dashboard if you have already enabled sync.|
-`gitmastery progress reset`|Resets the progress for one of your exercises.|
+`gitmastery progress sync on`|Enable remote progress tracking of exercises.|
+`gitmastery progress sync off`|Disable remote progress tracking of exercises.|
+`gitmastery progress show`|Shows a summary of your progress of exercises.|
+`gitmastery progress reset`|Resets the progress of the current exercise.<br>{{ run_in_exercise }}|
 </box>
 </div>
 
