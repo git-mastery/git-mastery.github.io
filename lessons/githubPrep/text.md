@@ -120,7 +120,7 @@ gh auth status
 ```
 You should see confirmation that you’re logged in.
 
-**5. Verify that Github and GitHub CLI is set up for Git-Mastery:**
+**5. Verify that GitHub and GitHub CLI is set up for Git-Mastery:**
 
 ```bash{.no-line-numbers}
 gitmastery check github

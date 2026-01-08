@@ -37,7 +37,7 @@ Most of these reasons are equally valid, at least in theory, whether you're work
 
 **++[:fab-git-alt: Git](https://git-scm.com/)++ is the most widely used RCS today.** Other RCS tools include Mercurial, Subversion (SVN), Perforce, CVS (Concurrent Versions System), Bazaar, TFS (Team Foundation Server), and Clearcase.
 
-**++[:fab-github: Github](https://github.com/)++ is a web-based project hosting platform for projects using Git for revision control.** Other similar services include GitLab, BitBucket, and SourceForge.
+**++[:fab-github: GitHub](https://github.com/)++ is a web-based project hosting platform for projects using Git for revision control.** Other similar services include GitLab, BitBucket, and SourceForge.
 </div>
 
 <div id="extras">

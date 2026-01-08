@@ -290,7 +290,7 @@ Command|Run from ...|What it does|
 `gitmastery version`|%%anywhere%%|Get the current version of the Git-Mastery app on your machine.|
 `gitmastery setup`|%%anywhere%%|Setup Git-Mastery for your local machine.|
 `gitmastery check git`|%%anywhere%%|Verify that you have setup Git for Git-Mastery.|
-`gitmastery check github`|%%anywhere%%|Verify that you have setup Github and Github CLI for Git-Mastery.|
+`gitmastery check github`|%%anywhere%%|Verify that you have setup GitHub and GitHub CLI for Git-Mastery.|
 `gitmastery download <exercise name>`|#g#git-mastery root##| Sets up the sandbox for the specified [exercise]({{ baseUrl }}/exercises-directory/index.html).|
 `gitmastery download <hands-on-practical name>`|#g#git-mastery root##|Sets up the specified hands-on practical in your computer.|
 `gitmastery verify`|#m#inside exercise##|Verify your exercise attempt. Saves the progress made.|

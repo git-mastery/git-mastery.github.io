@@ -24,5 +24,4 @@
 ├─ {{ icon_file }} fruits.txt (tracked)<br>
 └─ {{ icon_file }} colours.txt (tracked)
 
-
 </div>
