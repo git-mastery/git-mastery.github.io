@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, ask_chatgpt, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 
@@ -72,6 +72,10 @@ Explanation: When you create `C4`, the current branch `main` moves to `C4`, and 
 echo "Elderberries" >> fruits.txt
 git commit -am "Update fruits list"
 ```
+<box type="info" seamless>
+
+**`-am` is a shorthand for `-a -m`**. The `-a` option stages any changes to tracked files, and `-m` is for specifying the commit message. <span class="d-print-none"> See {{ ask_chatgpt("here", "I'm new to Git. Explain what the `git commit -am \"Update fruits list\"` commad does. Elaborate how combining of options work in general.") }} for a longer explanation.</span>
+</box>
 
 {{ show_steps_tabs('commit-changes') }}
 

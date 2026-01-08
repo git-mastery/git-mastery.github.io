@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_prep, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, ask_chatgpt, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_prep, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 
@@ -41,7 +41,7 @@ To use GitHub, **you need to sign up for an account, and configure related tools
 A {{ show_git_term("Personal Access Token (PAT)") }} is essentially a long, random string that acts like a password, but it can be scoped to specific permissions (e.g., read-only or full access) and revoked at any time. This makes it more secure and flexible than a traditional password.
 </box>
 
-**Git supports two main protocols for communicating with GitHub: HTTPS and SSH.**
+**Git supports two main protocols for communicating with GitHub: {{ ask_chatgpt("HTTPS and SSH", "Give a brief explanation of HTTP and SSH. Context: I'm a Git beginner choosing the protocal for communicating with GitHub.") }}.**
 
 * **With HTTPS, you connect over the web** and authenticate using your GitHub username and a Personal Access Token.
 * **With SSH, you connect using a cryptographic key pair** you generate on your machine. Once you add your public key to your GitHub account, GitHub recognises your machine and lets you authenticate without typing anything further.
@@ -72,7 +72,7 @@ Set up your computer's GitHub authentication, as described in the se-edu guide [
 
 **GitHub offers its own clients to make working with GitHub more convenient.**
 
-* **The {{ show_git_term("GitHub Desktop") }} app provides a GUI for performing most GitHub operations** from your desktop, without needing to visit the GitHub web UI.
+* **The {{ show_git_term("GitHub Desktop") }} app provides a GUI for performing most GitHub operations** from your desktop, without needing to visit the GitHub web UI.<span class="d-print-none"><br>Git-Mastery lessons do not use the GitHub Desktop -- so, there is no need for you to install it.</span>
 * **The {{ show_git_term("GitHub CLI (`gh`)") }} brings GitHub-specific commands to your terminal**, letting you perform most GitHub operations through your terminal.
 
 <div class="d-print-none" tags="git-mastery">
@@ -83,7 +83,8 @@ Set up your computer's GitHub authentication, as described in the se-edu guide [
 
 {{ os_tabs_marker('windows') }}
 
-**1. Download and run the installer** from the [GitHub CLI releases page](https://github.com/cli/cli/releases). This is the file named as `GitHub CLI {version} windows {chip variant} installer`.
+**1. Download and run the installer** from the [GitHub CLI releases page](https://github.com/cli/cli/releases). This is the file named as `GitHub CLI {version} windows {chip variant} installer`.<br>
+Follow the steps of the installation process, as directed by installer.
 
 {{ os_tabs_marker('mac') }}
 
@@ -100,7 +101,7 @@ brew install gh
 {{ os_tabs_marker('end') }}
 
 
-**2. Authenticate yourself to GitHub account:**
+**2. Authenticate the GitHub CLI with your GitHub account:**
 ```bash{.no-line-numbers}
 gh auth login
 ```
@@ -120,7 +121,7 @@ gh auth status
 ```
 You should see confirmation that you’re logged in.
 
-**5. Verify that GitHub and GitHub CLI is set up for Git-Mastery:**
+**5. Verify that GitHub and GitHub CLI are set up for Git-Mastery:**
 
 ```bash{.no-line-numbers}
 gitmastery check github

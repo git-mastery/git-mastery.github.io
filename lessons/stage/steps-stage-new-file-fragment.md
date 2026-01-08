@@ -24,6 +24,12 @@ nothing added to commit but untracked files present (use "git add" to track)
 {% endcall %}
 </div>
 
+<box type="important" seamless>
+
+**Git commands targeting specific repo should be run inside the repo folder.**{.text-danger} For example, to check the status of the `things` repo, you need to navigate to the `things` folder in your terminal before you run the `git status` command.<br>
+Remember this for future Git commands too.
+</box>
+
 {{ hp_number(2.2) }} **Use the `git add <file>` command** to stage the file.
 <div class="indented-level1">
 

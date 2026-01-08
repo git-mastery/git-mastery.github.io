@@ -41,13 +41,6 @@ The second step of backing up a local repo on GitHub: **link the _local_ repo wi
 {{ hp_number('5') }} **Add another _remote_**, to verify that a repo can have multiple remotes. You can use any name (e.g., `backup` and any made-up `<owner>/<remote-repo>` for this).
 {% endcall %}
 
-<box type="tip" seamless class="d-print-none">
-
-**To find the URL of a repo on GitHub**, you can click on the {{ button_green(':fas-angle-left::fas-angle-right: Code :fas-caret-down:') }} button:
-
-<pic src="images/githubFindUrl.png" />
-</box>
-
 </div>
 
 <div id="extras">

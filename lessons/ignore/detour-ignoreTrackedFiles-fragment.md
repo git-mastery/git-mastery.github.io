@@ -8,3 +8,4 @@
    ```
 1. **Add it to the `.gitignore`** file, as usual.
 
+The above steps will remove the file from the staging area but will not delete it from the working directory. If this file was included in previous commits, the next commit will show it as 'deleted' (because is no longer visible to Git).

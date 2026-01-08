@@ -2,6 +2,8 @@
 
 <div id="cli"><!-- ------------------------------------------------------------------- -->
 
+Navigate inside the `things` folder.
+
 Use the `git push -u <remote-repo-name> <local-branch-name>` to push the commits to a remote repository.
 ```bash{.no-line-numbers}
 git push -u origin main

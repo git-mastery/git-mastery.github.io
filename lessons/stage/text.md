@@ -109,7 +109,7 @@ dragon fruits
 
 {{ hp_number('2') }} **Stage the file again**, the same way you added/staged it earlier.
 
-{{ hp_number('3') }} **Verify that Git no longer sees it as 'modified'**, similar to step 2.
+{{ hp_number('3') }} **Verify that Git no longer sees it as 'modified'**, similar to step 1.
 
 {% endcall %} <!-- end: HOP -->
 

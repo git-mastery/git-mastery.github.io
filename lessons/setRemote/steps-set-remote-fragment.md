@@ -4,7 +4,7 @@
 
 {{ m.hp_number ('1') }} **In a terminal, navigate to the folder containing the local repo** `things`.
 
-{{ m.hp_number ('2') }} **List the current list of remotes** using the `git remote -v` command, for a sanity check. No output is expected if there are no remotes yet.
+{{ m.hp_number ('2') }} **List the current list of remotes** using the `git remote -v` command (`-v` stands for 'verbose'), for a sanity check. No output is expected if there are no remotes yet.
 
 {{ m.hp_number ('3') }} **Add a new remote repo** using the `git remote add <remote-name> <remote-url>` command.<br>
 
@@ -19,6 +19,15 @@ The full command:
 git remote add origin https://github.com/JohnDoe/gitmastery-things.git  # using HTTPS
 git remote add origin git@github.com:JohnDoe/gitmastery-things.git  # using SSH
 ```
+<div id="tip-find-url-of-repo">
+
+<box type="tip" seamless class="d-print-none">
+
+**To find the URL of a repo on GitHub**, you can click on the {{ m.button_green(':fas-angle-left::fas-angle-right: Code :fas-caret-down:') }} button:
+
+<pic src="images/githubFindUrl.png" />
+</box>
+</div>
 
 {{ m.hp_number ('4') }} **List the remotes again to verify** the new remote was added.
 
@@ -32,7 +41,7 @@ origin  https://github.com/johndoe/gitmastery-things.git (push)
 ```
 {% endcall %}
 
-{{ icon_info }} The same remote will be listed twice, to show that you can do two operations (`fetch` and `push`) using this remote. You can ignore that for now. The important thing is the remote you added is being listed.
+{{ icon_info }} The same remote will be listed twice, to indicate that the remote supports two operations (`fetch` and `push`). You can ignore that for now. The important thing is the remote you added is being listed.
 
 </div>
 <div id="sourcetree"><!-- ---------------------------------------------------- -->
@@ -46,22 +55,23 @@ origin  https://github.com/johndoe/gitmastery-things.git (push)
 
 {{ m.hp_number('3') }} **Add a new _remote_** to the repo with the following values.
 
-   <pic eager src="images/fillRemoteInfoForSourceTree.png" width="450" />
+<pic eager src="images/fillRemoteInfoForSourceTree.png" width="450" />
 
-   * `Remote name`: the name you want to assign to the remote repo i.e., `origin`
-   * `URL/path`: the URL of your remote repo<br>
-     ```bash{highlight-lines="1['<owner>'],1['<repo>'],2['<owner>'],2['<repo>']"}
-     https://github.com/<owner>/<repo>.git  # using HTTPS
-     git@github.com:<owner>/<repo>.git  # using SSH
-     ```
-     e.g.,
-     ```bash{highlight-lines="1['JohnDoe'],1['things'],2['JohnDoe'],2['things']"}
-     https://github.com/JohnDoe/things.git  # using HTTPS
-     git@github.com:JohnDoe/things.git  # using SSH
-     ```
+* `Remote name`: the name you want to assign to the remote repo i.e., `origin`
+* `URL/path`: the URL of your remote repo<br>
+  ```bash{highlight-lines="1['<owner>'],1['<repo>'],2['<owner>'],2['<repo>']"}
+  https://github.com/<owner>/<repo>.git  # using HTTPS
+  git@github.com:<owner>/<repo>.git  # using SSH
+  ```
+  e.g.,
+  ```bash{highlight-lines="1['JohnDoe'],1['things'],2['JohnDoe'],2['things']"}
+  https://github.com/JohnDoe/things.git  # using HTTPS
+  git@github.com:JohnDoe/things.git  # using SSH
+  ```
 
+<include src="steps-set-remote-fragment.md#tip-find-url-of-repo" />
 
-   * `Username`: your GitHub username<br><br>
+* `Username`: your GitHub username
 
 {{ m.hp_number('4') }} **Verify the remote was added** by going to `Repository` → `Repository Settings` again.
 
