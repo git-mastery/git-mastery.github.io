@@ -30,7 +30,7 @@ GitHub allows you to **create a remote copy of another remote repo, called _fork
 </box>
 <box type="info" seamless>
 
-GitHub does not allow you to fork the same repo more than once to the same destination. If you want to re-fork, you need to delete the previous fork.
+GitHub does not allow you to fork the same repo more than once to the same destination. If you want to re-fork, you need to [delete the previous fork](https://docs.github.com/en/repositories/creating-and-managing-repositories/deleting-a-repository).
 </box>
 
 </div>

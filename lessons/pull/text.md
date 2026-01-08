@@ -197,10 +197,40 @@ Use the `git merge <remote-tracking-branch>` command to merge the fetched change
 
 ```bash{.no-line-numbers}
 git merge origin/main
+```
+{% call show_output() %}
+```
+Updating afbe966..b201f03
+Fast-forward
+ goals.txt | 1 +
+ loans.txt | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 goals.txt
+```
+{% endcall %}
 
+Verify the status of the repo is as expected:
+```bash{.no-line-numbers}
 git status
+```
+{% call show_output() %}
+```
+On branch main
+Your branch is up to date with 'origin/main'.
+```
+{% endcall %}
+```bash{.no-line-numbers}
 git log --oneline --decorate
 ```
+{% call show_output() %}
+```
+b201f03 (HEAD -> main, origin/main, origin/HEAD) Add loan to Chang
+1b923a4 Add goals.txt
+afbe966 Add assets.txt
+0434002 Add loan to Ben
+fd96227 Add loans.txt
+```
+{% endcall %}
 {% endset %}
 {% set sourcetree %}
 To merge the fetched changes, right-click on the latest commit on `origin/remote` branch and choose `Merge`.
@@ -252,6 +282,25 @@ Use the `git pull <remote> <branch>` command to pull changes.
 ```bash{.no-line-numbers}
 git pull origin main
 ```
+{% call show_output() %}
+```
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 1), reused 6 (delta 1), pack-reused 0 (from 0)
+Unpacking objects: 100% (6/6), 557 bytes | 69.00 KiB/s, done.
+From https://github.com/git-mastery/samplerepo-finances-2
+ * branch            main       -> FETCH_HEAD
+   afbe966..b201f03  main       -> origin/main
+Updating afbe966..b201f03
+Fast-forward
+ goals.txt | 1 +
+ loans.txt | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 goals.txt
+```
+{% endcall %}
+
 The following works too. If the `<remote>` and `<branch>` are not specified, Git will pull to the current branch from the remote branch it is tracking.
 ```bash{.no-line-numbers}
 git pull
@@ -330,7 +379,7 @@ gitGraph BT:
 
 {{ hp_number (hop_preparation) }}
 
-{{ show_hop_prep('hp-sync-upstream', manual_info="n/a") }}
+{{ show_hop_prep('hp-sync-upstream') }}
 
 {{ hp_number ('1') }} **Confirm your local repo is behind** by two commits. For example, you can examine the remote-tracking branches for this.
 
