@@ -7,7 +7,7 @@
 git rm data/list.txt plan.txt
 ```
 
-**If you’ve already deleted the file manually** (for example, using `rm` or deleting it in your file explorer), you can still stage the deletion using the `stage` command (or its synonym `add`) command. Even though the file no longer exists, Git add records its deletion into the staging area.
+**If you’ve already deleted the file manually** (for example, using `rm` or deleting it in your file explorer), you can still stage the deletion using the `stage` command (or its synonym `add`) command. Even though the file no longer exists, staging the deletion records its deletion into the staging area.
 
 ```bash{.no-line-numbers highlight-lines="1['add'],1['stage']"}
 git stage data/list.txt  # same as: git add data/list.txt

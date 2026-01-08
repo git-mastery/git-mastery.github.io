@@ -55,7 +55,7 @@ Students will not need to wonder if they did the exercise correctly, or where th
 {{ heading(":fas-list-check:", "Progress tracking/monitoring") }}
 <div class="indented-level3">
 
-Our companion app **keeps track of the student's progress** through the exercises. The student can even make their progress visible online.<br>
+Our companion **app keeps track of the student's progress** through the exercises. The student can even make their progress visible online.<br>
 **Instructors can keep track of their students' progress** using a dashboard.
 </div>
 

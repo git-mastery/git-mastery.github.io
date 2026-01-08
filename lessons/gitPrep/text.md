@@ -55,7 +55,7 @@ You can also right-click it and choose `Pin to Start` or `Pin to taskbar`.
 
 <box type="tip" seamless>
 
-**When copy-pasting text onto a Git Bash terminal**, you will not be able to use the familiar <kbd>Ctrl</kbd>+<kbd>V</kbd> key combo to paste. Instead, right-click on the terminal and use the `Paste` menu option.
+**When copy-pasting text onto a Git Bash terminal**, you will not be able to use the familiar <kbd>Ctrl</kbd>+<kbd>V</kbd> key combo to paste. Instead, use <kbd>Shift</kbd>+<kbd>Insert</kbd>, or, right-click on the terminal and use the `Paste` menu option.
 </box>
 {% endcall %} <!-- show_sidebar -->
 
@@ -175,8 +175,9 @@ Our Git lessons show how to perform Git operations in Git CLI, and in Sourcetree
 
 {{ os_tabs_marker('windows') }}
 
-* Download the `.exe` file from [the latest release](https://github.com/git-mastery/app/releases/latest). {{ numbers_abcd }}
-* Add the folder containing the `.exe` to your Windows System Variable `PATH`, by following [this guide](https://www.wikihow.com/Change-the-PATH-Environment-Variable-on-Windows).<br>
+* Download the `gitmastery.exe` file from [the latest release](https://github.com/git-mastery/app/releases/latest).<br>
+  Put it in a suitable location (ensure the file name remains `gitmastery.exe`).{{ numbers_abcd }}
+* Add the folder containing the `gitmastery.exe` to your Windows System Variable `PATH`, by following [this guide](https://www.wikihow.com/Change-the-PATH-Environment-Variable-on-Windows).<br>
   E.g. If the file location is `C:\Users\Jane\Tools\gitmastery.exe`, you should add `C:\Users\Jane\Tools` to your `PATH`.
 * Close and reopen the Git Bash terminal (for the updated `PATH` to take effect).
 
@@ -266,9 +267,10 @@ gitmastery setup
 The `gitmastery setup` command will perform the following tasks:
 * Checks if Git is installed. {{ numbers_abcd }}
 * Checks if `user.name` and `user.email` are set.
-* Prompts you to specify a name for the **git-mastery** {{ show_git_term("exercises directory") }}
+* Prompts you to specify a name for the **git-mastery** {{ show_git_term("exercises directory") }} (sometimes called the {{ show_git_term("git-mastery root") }} directory).
   * Recommended: accept the default (i.e., `gitmastery-exercises`) by pressing <kbd>Enter</kbd>.
   * If you choose to specify a different name for that folder, remember to use that name instead whenever our instructions refer to the `gitmastery-exercises` folder.
+  * Caution: do not rename or move this folder later, as doing so can affect the app's functionality.
 * Sets up a mechanism to locally track the progress of your exercises.
 
 Notes:
@@ -317,7 +319,7 @@ As the Git-Mastery app is under active development, it is likely to get updated 
 
 {{ os_tabs_marker('windows') }}
 
-Download the `.exe` file from [the latest release](https://github.com/git-mastery/app/releases/latest)
+Replace your current `gitmastery.exe` with the latest version from [the latest release](https://github.com/git-mastery/app/releases/latest) and restart your terminal.
 
 {{ os_tabs_marker('mac') }}
 

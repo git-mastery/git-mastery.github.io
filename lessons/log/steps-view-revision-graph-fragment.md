@@ -60,7 +60,7 @@ git log --oneline --graph
 * d5f91de Add fruits.txt
 ```
 {% endcall %}
-{{ icon_info }} The `--graph` option is more useful when examining a more complicated revision graph consisting of multiple parallel branches.
+{{ icon_info }} The `--graph` option is more useful when examining a more complicated revision graph consisting of multiple parallel branches (branches will be covered in a later lesson).
 
 </div>
 <div id="sourcetree"><!-- ---------------------------------------------------- -->

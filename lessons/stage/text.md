@@ -100,7 +100,7 @@ dragon fruits
 </box>
 </div>
 {% endset %}
-{{ show_hop_prep('hp-stage-modified', is_continue=1, continue_info=continue_info) }}
+{{ show_hop_prep('hp-stage-modified', is_continue=0, continue_info=continue_info) }}
 <!-- ------ end: show_hop_prep -------------------------------->
 
 {{ hp_number('1') }} **Now, verify that Git sees that file as 'modified'.**
