@@ -1,52 +1,28 @@
-<div id="a-staging">
+<div id="metadata">
 
-```txt {heading="{{ icon_file }} names.txt" .no-line-numbers}
-Alice
-```
+<div class="p-1">
+
+<thumbnail circle text="C1" background="red" font-color="white" size="40" /> <small>← a **commit**</small>
+<div class="indented-level1 small">
+<tree>
+↑
+  <small>a snapshot of **all tracked files**</small>
+    <small>{{ icon_file }} fruits.txt (snapshot)</small>
+    <small>{{ icon_file }} colours.txt (snapshot)</small>
+  <small>other **metadata about the commit**<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;%%e.g., author, date, commit message%%</small>
+</tree>
 </div>
-<div id="a-working">
-
-```txt {heading="{{ icon_file }} names.txt" .no-line-numbers}
-Alice
-```
-</div>
-<div id="a-text">
-(a) The file names.txt is staged. The copy in the staging area is an exact match to the one in the working directory.
-</div>
-
-
-<div id="b-staging">
-
-```txt {heading="{{ icon_file }} names.txt" .no-line-numbers}
-Alice
-```
-</div>
-<div id="b-working">
-
-```txt {heading="{{ icon_file }} names.txt #r#(modified)##" highlight-lines="2" .no-line-numbers}
-Alice
-Bob
-```
-</div>
-<div id="b-text">
-(b) State after adding a line to the file. Git indicates it as 'modified' because it now differs from the version in the staged area.
 </div>
 
-<div id="c-staging">
-
-```txt {heading="{{ icon_file }} names.txt" highlight-lines="2" .no-line-numbers}
-Alice
-Bob
-```
 </div>
-<div id="c-working">
+<div id="staging">
 
-```txt {heading="{{ icon_file }} names.txt" highlight-lines="2" .no-line-numbers}
-Alice
-Bob
-```
+%%[empty, if all staged changes were committed]%%
 </div>
-<div id="c-text">
+<div id="working">
 
-(c) After staging the file again, the staging area is updated with the latest copy of the file, and it is no longer marked as 'modified'.
+├─ {{ icon_file }} fruits.txt (tracked)<br>
+└─ {{ icon_file }} colours.txt (tracked)
+
+
 </div>

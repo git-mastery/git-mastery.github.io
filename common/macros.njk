@@ -247,17 +247,18 @@
 {%- endmacro %}
 <!-- ============================================================ -->
 
-{% macro show_folder_contents(filename, prefix='') -%}
+{% macro show_folder_contents(filename, prefix='', has_metadata=0, width=220) -%}
 {% set prefix_str = (prefix + '-') if prefix else '' %}
-<div class="border border-info p-0 bg-white" style="width: 220px;">
+<div class="border border-info p-0 bg-white" style="width: {{ width }}px;">
 <div class="bg-info text-white p-1"><md>{{ icon_folder }} Working Directory</md></div>
 <div class="p-2">
 
-  <div class="border border-warning bg-light pb-0" style="width: 205px;">
+  <div class="border border-warning bg-light pb-0" style="width: {{ width-15 }}px;">
   <div class="bg-warning text-dark p-1"><md>{{ icon_folder }} .git Folder</md></div>
-  <div style="width: 205px; ">
+  <div style="width: {{ width-15 }}px; ">
   <div class="pb-0" style="border-bottom: 1px dotted #aaa;">
 
+{% if has_metadata %}<include src="{{ filename }}#{{ prefix_str }}metadata"/>{% endif %}
 <span class="badge bg-light text-secondary mt-2">other Git metadata ...</span><br>
   </div>
   <div class="pt-0 p-1">
