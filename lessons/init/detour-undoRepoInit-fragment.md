@@ -9,3 +9,4 @@ rm -rf .git  #delete the .git folder
 
 git status #this should give an error, as the repo no longer exists
 ```
+{{ show_exercise(exercises.undo_init) }}

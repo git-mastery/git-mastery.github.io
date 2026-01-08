@@ -144,7 +144,7 @@ You can even dig around inside that folder -- it is just a bunch of subfolders a
 </div>
 
 {{ show_exercise(exercises.under_control) }}
-{{ show_exercise(exercises.undo_init) }}
+
 
 <p/>
 

@@ -78,7 +78,7 @@ Instructors can use it for their classes. No limits on class count/size.
 
 <div class="indented-level2">
 
-****If you are new to Git****, we recommend that you follow the [lessons section](lessons/) in the given sequence.
+****If you are new to Git****, we recommend that you follow the [lessons](lessons/) in the given sequence.
 
 ****If you have some familiarity with Git**** but wish to improve, you can still skim through the [lessons](lessons/) in the given sequence, and do the exercises as you encounter them.
 

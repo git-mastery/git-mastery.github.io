@@ -14,7 +14,7 @@ Here are some common ways to write them, shown with examples using the `git add 
   ```bash{highlight-lines="1['\'*.txt\'']"}
   git add '*.txt'  # stages all .txt files in the current directory
   ```
-  {{ icon_tip }} Quoting the glob pattern is recommended so your shell doesn’t expand it before Git sees it.
+  {{ icon_tip }} When using glob patterns in Git commands, putting them inside quotes (`'*.txt'` instead of `*.txt`) is recommended, to avoid your shell expanding the pattern before Git sees it.
 
 * **Use `.` to indicate 'all in the current directory and subdirectories':**
   ```bash{highlight-lines="1['.']"}

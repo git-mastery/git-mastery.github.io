@@ -283,21 +283,28 @@ Notes:
 {% set run_at_root %}<small>{{ icon_info }} This command needs to be run **in the Git-Mastery's _exercises directory_** (default name: `gitmastery-exercises`).</small>{% endset %}
 {% set run_in_exercise %}<small>{{ icon_info }} This command needs to be run **inside the folder containing the exercise** in concern.</small>{% endset %}
 
-Command|Description|
--------|-----------|
-`gitmastery --help`|Prints a brief message on how to use the app.|
-`gitmastery setup`|Setup Git-Mastery for your local machine.|
-`gitmastery check git`|Verify that you have setup Git for Git-Mastery.|
-`gitmastery check github`|Verify that you have setup Github and Github CLI for Git-Mastery.|
-`gitmastery download <exercise name>`|Sets up the sandbox for the specified [exercise]({{ baseUrl }}/exercises-directory/index.html).<br>{{ run_at_root }}|
-`gitmastery download <hands-on-practical name>`|Sets up the specified hands-on practical in your computer.<br>{{ run_at_root }}|
-`gitmastery verify`|Verify your exercise attempt. Saves the progress made.<br>{{ run_in_exercise }}|
-`gitmastery version`|Get the current version of the Git-Mastery app on your machine.|
-`gitmastery progress sync on`|Enable remote progress tracking of exercises.|
-`gitmastery progress sync off`|Disable remote progress tracking of exercises.|
-`gitmastery progress show`|Shows a summary of your progress of exercises.|
-`gitmastery progress reset`|Resets the progress of the current exercise.<br>{{ run_in_exercise }}|
+Command|Run from ...|What it does|
+-------|---|--------|
+`gitmastery --help`|%%anywhere%%|Prints a brief message on how to use the app.|
+`gitmastery <command> --help`|%%anywhere%%|Prints a brief explanation of the `<command>`.<br>e.g., `gitmastery download --help`|
+`gitmastery version`|%%anywhere%%|Get the current version of the Git-Mastery app on your machine.|
+`gitmastery setup`|%%anywhere%%|Setup Git-Mastery for your local machine.|
+`gitmastery check git`|%%anywhere%%|Verify that you have setup Git for Git-Mastery.|
+`gitmastery check github`|%%anywhere%%|Verify that you have setup Github and Github CLI for Git-Mastery.|
+`gitmastery download <exercise name>`|#g#git-mastery root##| Sets up the sandbox for the specified [exercise]({{ baseUrl }}/exercises-directory/index.html).|
+`gitmastery download <hands-on-practical name>`|#g#git-mastery root##|Sets up the specified hands-on practical in your computer.|
+`gitmastery verify`|#m#inside exercise##|Verify your exercise attempt. Saves the progress made.|
+`gitmastery progress reset`|<span class="text-warning">exercise root</span>|Resets the progress of the current exercise.|
+`gitmastery progress show`|#g#git-mastery root##|Shows a summary of your progress of exercises.|
+`gitmastery progress sync on`|#g#git-mastery root##|Enable remote progress tracking of exercises.|
+`gitmastery progress sync off`|#g#git-mastery root##|Disable remote progress tracking of exercises.|
 </box>
+
+Explanation of 'Run from ...' options:
+
+* **#g#git-mastery root##**: Run the command from the directory where Git-Mastery exercises are located, aka _exercises directory_ (default name of folder: `gitmastery-exercises`).
+* **<span class="text-warning">exercise root</span>**: Run the command in the sandbox folder containing the exercise.
+* **#m#inside exercise##**: Run the command from the sandbox folder containing the exercise, or any sub folder of it.
 </div>
 
 --- {.dotted .border-dark}
