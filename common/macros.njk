@@ -808,3 +808,6 @@ Click [here]({{ tour_page }}) to see the full tour page.
 {{ "<p/>" if not is_compact }}
 {% endmacro %}
 <!-- ============================================================ -->
+
+{% macro ask_chatgpt(visible_text, prompt) %}<a href="https://chatgpt.com/?q={{ (prompt if prompt else visible_text) | urlencode }}" target="_blank">{{ visible_text }}</a>{% endmacro %}
+<!-- ============================================================ -->
