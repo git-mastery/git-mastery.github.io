@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_steps_tabs, show_tag, show_multiple_columns, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can pull branches from a remote repo to a local repo.</span>
@@ -117,6 +117,129 @@ Fetching was covered in {{ show_lesson_link(trail.workingWithRemotes.lessons.pul
 </box>
 </div>
 
+**New commits can appear in a remote branch _after_ you have set up a local branch to track it** (as per use case 1 or 2 given above). %%e.g., a branch someone else pushed a commit to the remote branch after you pulled the previous version of it%%. Often you would want to update your local copy of the branch with those new commits.
+
+Here is an example:
+
+{% set a %} <!-- ------ start: transformation columns --------------->
+<mermaid>
+gitGraph BT:
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
+    commit id: "m1"
+    branch bug-fix
+    checkout main
+    commit id: "[origin/main][main] m2"
+    checkout bug-fix
+    commit id: "[origin/bug-fix][HEAD → bug-fix] b1"
+    checkout main
+</mermaid>
+
+[#g#local repo##: `bug-fix` branch is unaware<br> of the commit `b2` in the remote]
+{% endset %}
+{% set b %} &nbsp;&nbsp; {% endset %}
+{% set c %}
+<mermaid>
+gitGraph BT:
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
+    commit id: "m1"
+    branch bug-fix
+    checkout main
+    commit id: "[HEAD → main] m2"
+    checkout bug-fix
+    commit id: "b1"
+    commit id: "[bug-fix] b2"
+    checkout main
+</mermaid>
+
+[#r#remote repo##: has an extra commit<br> in the `bug-fix` branch]
+{% endset %}
+{{ show_multiple_columns([a, b, c]) }}
+<!-- ------ end: transformation columns -------------------------------->
+
+**To bring the missing commits to the local branch, simply pull the remote branch from your local branch**.
+
+**If you fetch first** (or if your Git GUI is set to auto-fetch periodically) the local repo will be as follows, before and after the pull.
+
+{% set a %} <!-- ------ start: transformation columns --------------->
+<mermaid>
+gitGraph BT:
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
+    commit id: "m1"
+    branch bug-fix
+    checkout main
+    commit id: "[origin/main][main] m2"
+    checkout bug-fix
+    commit id: "[HEAD → bug-fix] b1"
+    commit id: "[origin/bug-fix] b2"
+    checkout main
+</mermaid>
+
+[#g#local repo##: `bug-fix` branch is aware<br> of the commit `b2`]
+{% endset %}
+{% set b %} [pull, %%or just merge%%] {% endset %}
+{% set c %}
+<mermaid>
+gitGraph BT:
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
+    commit id: "m1"
+    branch bug-fix
+    checkout main
+    commit id: "[origin/main][main] m2"
+    checkout bug-fix
+    commit id: "b1"
+    commit id: "[origin/bug-fix][HEAD → bug-fix] b2"
+    checkout main
+</mermaid>
+
+[#g#local repo##: now has the commit `b2`]
+{% endset %}
+{{ show_transformation_columns(a, b, c) }}
+<!-- ------ end: transformation columns -------------------------------->
+
+**If both the local branch and the remote-tracking branch have new commits that the other does not, Git will try to combine the two diverged histories when you do a pull.** By default, this is done by creating a merge commit, although this behaviour can be changed (for example, to use rebasing instead).
+
+In the example below, the local branch `bug-fix` has a new commit `b3` while its remote tracking branch has a new commit `b2`. After pulling, Git has combined the two diverged branches with a merged commit.
+
+{% set a %} <!-- ------ start: transformation columns --------------->
+<mermaid>
+gitGraph BT:
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
+    commit id: "m1"
+    branch bug-fix
+    checkout main
+    commit id: "[origin/main][main] m2"
+    checkout bug-fix
+    commit id: "[origin/bug-fix] b1"
+    commit id: "[HEAD → bug-fix] b3"
+    checkout main
+</mermaid>
+
+[#g#local repo##: `bug-fix` has a new commit `b3`]
+{% endset %}
+{% set b %} [pull] {% endset %}
+{% set c %}
+<mermaid>
+gitGraph BT:
+    {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
+    commit id: "m1"
+    branch bug-fix
+    checkout main
+    commit id: "[origin/main][HEAD → main] m2"
+    checkout bug-fix
+    commit id: "b1"
+    commit id: "b3"
+    branch _
+    checkout _
+    commit id: "b2"
+    checkout bug-fix
+    merge _ id: "[HEAD → bug-fix] merge commit"
+    checkout main
+</mermaid>
+
+[#g#local repo##: now has `b2`, and a merge commit]
+{% endset %}
+{{ show_transformation_columns(a, b, c) }}
+<!-- ------ end: transformation columns -------------------------------->
 
 </div>
 
