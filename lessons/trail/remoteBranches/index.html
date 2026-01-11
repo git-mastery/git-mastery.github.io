@@ -355,7 +355,7 @@ After forking, go to the fork and ensure both branches (<code class="hljs inline
     commit id: &quot;m1&quot;
     branch bug-fix
     checkout main
-    commit id: &quot;[origin/main][main] m2&quot;
+    commit id: &quot;m2&quot;
     checkout bug-fix
     commit id: &quot;[origin/bug-fix][HEAD → bug-fix] b1&quot;
     checkout main
@@ -364,7 +364,7 @@ After forking, go to the fork and ensure both branches (<code class="hljs inline
     commit id: &quot;m1&quot;
     branch bug-fix
     checkout main
-    commit id: &quot;[HEAD → main] m2&quot;
+    commit id: &quot;m2&quot;
     checkout bug-fix
     commit id: &quot;b1&quot;
     commit id: &quot;[bug-fix] b2&quot;
@@ -374,7 +374,7 @@ After forking, go to the fork and ensure both branches (<code class="hljs inline
     commit id: &quot;m1&quot;
     branch bug-fix
     checkout main
-    commit id: &quot;[origin/main][main] m2&quot;
+    commit id: &quot;m2&quot;
     checkout bug-fix
     commit id: &quot;[HEAD → bug-fix] b1&quot;
     commit id: &quot;[origin/bug-fix] b2&quot;
@@ -385,7 +385,7 @@ After forking, go to the fork and ensure both branches (<code class="hljs inline
     commit id: &quot;m1&quot;
     branch bug-fix
     checkout main
-    commit id: &quot;[origin/main][main] m2&quot;
+    commit id: &quot;m2&quot;
     checkout bug-fix
     commit id: &quot;b1&quot;
     commit id: &quot;[origin/bug-fix][HEAD → bug-fix] b2&quot;
@@ -395,7 +395,7 @@ After forking, go to the fork and ensure both branches (<code class="hljs inline
     commit id: &quot;m1&quot;
     branch bug-fix
     checkout main
-    commit id: &quot;[origin/main][main] m2&quot;
+    commit id: &quot;m2&quot;
     checkout bug-fix
     commit id: &quot;[origin/bug-fix] b1&quot;
     commit id: &quot;[HEAD → bug-fix] b3&quot;
@@ -406,14 +406,14 @@ After forking, go to the fork and ensure both branches (<code class="hljs inline
     commit id: &quot;m1&quot;
     branch bug-fix
     checkout main
-    commit id: &quot;[origin/main][HEAD → main] m2&quot;
+    commit id: &quot;m2&quot;
     checkout bug-fix
     commit id: &quot;b1&quot;
-    commit id: &quot;b3&quot;
     branch _
     checkout _
     commit id: &quot;b2&quot;
     checkout bug-fix
+    commit id: &quot;b3&quot;
     merge _ id: &quot;[HEAD → bug-fix] merge commit&quot;
     checkout main
 </pre> <p>[<span class="mkb-text-green">local repo</span>: now has <code class="hljs inline no-lang">b2</code>, and a merge commit]</p></div></div></div> <div></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-seamless" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="" data-v-4484e25a></div><!----></div></div> <div class="card-container" data-v-4484e25a><div class="card expandable-card card-seamless border-0" data-v-4484e25a><div class="card-header header-toggle bg-transparent border-0" data-v-4484e25a><div class="caret-wrapper" data-v-4484e25a><span class="glyphicon glyphicon-chevron-down" data-v-4484e25a></span></div><div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-4484e25a><!--[--><!--[--><div class="card-title"><h4 id="t8l3-deleting-branches-from-a-remote"><span class="text-success">T8L3. Deleting Branches from a Remote</span><a class="fa fa-anchor" href="#t8l3-deleting-branches-from-a-remote" onclick="event.stopPropagation()"></a></h4></div><!--]--><!--]--></div><div class="button-wrapper" data-v-4484e25a><!--[--><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button><button style="" type="button" class="btn-outline-light seamless-button close-button btn" data-v-4484e25a><span class="glyphicon glyphicon-remove" aria-hidden="true" data-v-4484e25a></span></button><button style="" type="button" class="btn-outline-light seamless-button popup-button btn" data-v-4484e25a><span class="glyphicon glyphicon-new-window" aria-hidden="true" data-v-4484e25a></span></button><!--]--></div></div><div class="card-collapse" data-v-4484e25a><div class="card-body" data-v-4484e25a><!--[--><!--[--> <div><div class="indented"><div><cv-toggle toggle-id="lesson-intros"><div class="d-print-none border border-success pt-0 ps-1 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color:#e6fff2;"><div class="indented"><br> <div id="overview"><p>Often, you&#39;ll need to <strong>delete a branch in a remote repo</strong> after it has served its purpose.</p></div> <span><small>This lesson covers that part.</small></span></div></div> <br></cv-toggle> <p><strong>To delete a branch in a remote repository, you simply tell Git to remove the reference to that branch from the remote.</strong> This does not delete the branch from your local repository — it only removes it from the remote, so others won’t see it anymore. This is useful for cleaning up clutter in the remote repo e.g., delete old or merged branches that are no longer needed on the remote.</p> <cv-toggle class="d-print-none" toggle-id="hands-on-practicals"><span style="position:relative;top:10px;background-color:rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6"><span><span aria-hidden="true" class="fas fa-laptop-code"></span></span> HANDS-ON: Delete (and restore) branches in a remote</span> <div class="indented-level1"><div class="alert box-container seamless" style="" data-v-19514615><!--Icon and vertical divider for seamless header box--><!----><div class="header-and-body" data-v-19514615><!-- Header wrapper, not rendered if there is no header attribute --><!----><!-- Body wrapper --><div class="box-body-wrapper" data-v-19514615><!-- icon on the left, not shown if there is a header --><!----><!-- Icon -- content divider for seamless boxes without the header attribute --><div class="alert-danger vertical-divider" aria-hidden="true" data-v-19514615></div><!-- Content wrapper --><div class="contents" style="" data-v-19514615><!--[--><p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="fas fa-suitcase"></span> Preparation</strong></small></span> <strong>Fork the <a href="https://github.com/git-mastery/samplerepo-books">samplerepo-books</a></strong> to your GitHub account. When doing so, <mark>un-tick the <code class="hljs inline no-lang">Copy the main branch only</code> option</mark>.<br>
@@ -553,7 +553,7 @@ After forking, go to the fork and ensure all three branches are in there.</p> <p
 
     </div>
     </div>
-    </button></div></pre></cv-tab-body></cv-tab> <cv-tab tab-id="sourcetree-windows|sourcetree-mac"><cv-tab-header><span><span aria-hidden="true" class="fab fa-bitbucket"></span> Sourcetree</span></cv-tab-header> <cv-tab-body><p>Perform the above steps (each step was covered in a previous lesson).</p></cv-tab-body></cv-tab></cv-tabgroup> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></cv-toggle></div> <div></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-seamless" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="" data-v-4484e25a></div><!----></div></div> <cv-toggle toggle-id="lesson-intros"><div style="background-color:#e6fff2;border-bottom-left-radius:15px;border-bottom-right-radius:15px;" class="d-print-none p-3 border-bottom border-5 border-success"><p><strong>At this point</strong>: <span>You should now be able to work with branches in a remote repo, and keep them synchronised with branches in the local repo.</span></p> <p><strong>What&#39;s next</strong>: <span><a href="/lessons/trail/workingWithPrs/">Tour 9: Working with Pull Requests</a></span></p></div></cv-toggle></div> <div></div></div></div></div></div></div></p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"><nav id="mb-page-nav" class="nav nav-pills flex-column my-0 small no-flex-wrap" data-v-6b1b63d2><!--[--><a class="nav-link py-1" href="#t8l1-pushing-branches-to-a-remote">T8L1. Pushing Branches to a Remote‎</a> <a class="nav-link py-1" href="#t8l2-pulling-branches-from-a-remote">T8L2. Pulling Branches from a Remote‎</a> <a class="nav-link py-1" href="#t8l3-deleting-branches-from-a-remote">T8L3. Deleting Branches from a Remote‎</a> <a class="nav-link py-1" href="#t8l4-renaming-branches-in-a-remote">T8L4. Renaming Branches in a Remote‎</a><!--]--><!--v-if--></nav></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.1.0</a>, generated on Sun, 11 Jan 2026, 19:26:58 GMT+8]</small></div></footer><!--]--></div>
+    </button></div></pre></cv-tab-body></cv-tab> <cv-tab tab-id="sourcetree-windows|sourcetree-mac"><cv-tab-header><span><span aria-hidden="true" class="fab fa-bitbucket"></span> Sourcetree</span></cv-tab-header> <cv-tab-body><p>Perform the above steps (each step was covered in a previous lesson).</p></cv-tab-body></cv-tab></cv-tabgroup> <p><span style="position:relative;right:12px;background-color:rgba(255, 0, 0, 0.2);border-radius:0 0.7em 0.7em 0;" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small><strong><span aria-hidden="true" class="far fa-square-check"></span> done!</strong></small></span></p><!--]--></div><!-- dismiss button on the right, not shown if there is a header --><!----></div></div></div></div></cv-toggle></div> <div></div></div></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-seamless" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down opened" aria-hidden="true"></span></button></div></div><hr style="" data-v-4484e25a></div><!----></div></div> <cv-toggle toggle-id="lesson-intros"><div style="background-color:#e6fff2;border-bottom-left-radius:15px;border-bottom-right-radius:15px;" class="d-print-none p-3 border-bottom border-5 border-success"><p><strong>At this point</strong>: <span>You should now be able to work with branches in a remote repo, and keep them synchronised with branches in the local repo.</span></p> <p><strong>What&#39;s next</strong>: <span><a href="/lessons/trail/workingWithPrs/">Tour 9: Working with Pull Requests</a></span></p></div></cv-toggle></div> <div></div></div></div></div></div></div></p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"><nav id="mb-page-nav" class="nav nav-pills flex-column my-0 small no-flex-wrap" data-v-6b1b63d2><!--[--><a class="nav-link py-1" href="#t8l1-pushing-branches-to-a-remote">T8L1. Pushing Branches to a Remote‎</a> <a class="nav-link py-1" href="#t8l2-pulling-branches-from-a-remote">T8L2. Pulling Branches from a Remote‎</a> <a class="nav-link py-1" href="#t8l3-deleting-branches-from-a-remote">T8L3. Deleting Branches from a Remote‎</a> <a class="nav-link py-1" href="#t8l4-renaming-branches-in-a-remote">T8L4. Renaming Branches in a Remote‎</a><!--]--><!--v-if--></nav></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.1.0</a>, generated on Sun, 11 Jan 2026, 20:03:51 GMT+8]</small></div></footer><!--]--></div>
 </body><script src="/markbind/js/bootstrap-utility.min.js"></script>
 <script src="/markbind/js/polyfill.min.js"></script>
 <script src="/markbind/js/vue.global.prod.min.js"></script>
