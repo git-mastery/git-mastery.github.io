@@ -74,7 +74,7 @@ git commit -am "Update fruits list"
 ```
 <box type="info" seamless>
 
-**`-am` is a shorthand for `-a -m`**. The `-a` option stages any changes to tracked files, and `-m` is for specifying the commit message. <span class="d-print-none"> See {{ ask_chatgpt("here", "I'm new to Git. Explain what the `git commit -am \"Update fruits list\"` commad does. Elaborate how combining of options work in general.") }} for a longer explanation.</span>
+**`-am` is a shorthand for `-a -m`**. The `-a` option stages any changes to tracked files, and `-m` is for specifying the commit message. <span class="d-print-none"> See {{ ask_chatgpt("here", "I'm new to Git. Explain what the `git commit -am \"Update fruits list\"` command does. Elaborate how combining of options work in general.") }} for a longer explanation.</span>
 </box>
 
 {{ show_steps_tabs('commit-changes') }}

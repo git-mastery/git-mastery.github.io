@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, os_tabs_marker, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_prep, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, ask_chatgpt, bold_number, callout, exercises, hp_number, label, show_commit, os_tabs_marker, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_prep, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 
@@ -250,6 +250,7 @@ gitmastery --help
 cd ../my-projects  # navigate to a different folder
 gitmastery --help
 ```
+{{ ask_chatgpt("Explanation of `cd ../my-projects` command", "I'm new to using the bash terminal. Explain to me how the  `cd ../my-projects` command works. Also explain the `..` notation used in this command.") }}
 
 <box type="info" seamless>
 
@@ -263,6 +264,7 @@ mkdir gitmastery-home
 cd gitmastery-home
 gitmastery setup
 ```
+{{ ask_chatgpt("Explanation of `mkdir gitmastery-home` command", "I'm new to using the bash terminal. Explain to me how the `mkdir gitmastery-home` command works.") }}
 
 The `gitmastery setup` command will perform the following tasks:
 * Checks if Git is installed. {{ numbers_abcd }}
@@ -289,17 +291,17 @@ Command|Run from ...|What it does|
 -------|---|--------|
 `gitmastery --help`|%%anywhere%%|Prints a brief message on how to use the app.|
 `gitmastery <command> --help`|%%anywhere%%|Prints a brief explanation of the `<command>`.<br>e.g., `gitmastery download --help`|
-`gitmastery version`|%%anywhere%%|Get the current version of the Git-Mastery app on your machine.|
-`gitmastery setup`|%%anywhere%%|Setup Git-Mastery for your local machine.|
-`gitmastery check git`|%%anywhere%%|Verify that you have setup Git for Git-Mastery.|
-`gitmastery check github`|%%anywhere%%|Verify that you have setup GitHub and GitHub CLI for Git-Mastery.|
+`gitmastery version`|%%anywhere%%|Gets the current version of the Git-Mastery app on your machine.|
+`gitmastery setup`|%%anywhere%%|Sets up Git-Mastery for your local machine.|
+`gitmastery check git`|%%anywhere%%|Verifies that you have setup Git for Git-Mastery.|
+`gitmastery check github`|%%anywhere%%|Verifies that you have setup GitHub and GitHub CLI for Git-Mastery.|
 `gitmastery download <exercise name>`|#g#git-mastery root##| Sets up the sandbox for the specified [exercise]({{ baseUrl }}/exercises-directory/index.html).|
 `gitmastery download <hands-on-practical name>`|#g#git-mastery root##|Sets up the specified hands-on practical in your computer.|
-`gitmastery verify`|#m#inside exercise##|Verify your exercise attempt. Saves the progress made.|
+`gitmastery verify`|#m#inside exercise##|Verifies your exercise attempt. Saves the progress made.|
 `gitmastery progress reset`|<span class="text-warning">exercise root</span>|Resets the progress of the current exercise.|
 `gitmastery progress show`|#g#git-mastery root##|Shows a summary of your progress of exercises.|
-`gitmastery progress sync on`|#g#git-mastery root##|Enable remote progress tracking of exercises.|
-`gitmastery progress sync off`|#g#git-mastery root##|Disable remote progress tracking of exercises.|
+`gitmastery progress sync on`|#g#git-mastery root##|Enables remote progress tracking of exercises.|
+`gitmastery progress sync off`|#g#git-mastery root##|Disables remote progress tracking of exercises.|
 </box>
 
 Explanation of 'Run from ...' options:

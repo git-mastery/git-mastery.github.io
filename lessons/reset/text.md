@@ -66,7 +66,7 @@ iii) Last, you did a 'bad' change in `shapes.txt`, but didn't stage it yet.
 
 The following commands can be used to set up the scenario.
 ```bash
-makdir things
+mkdir things
 cd things
 git init -b main
 
@@ -208,7 +208,7 @@ To protect the integrity of the remote, Git will reject attempts to push a diver
 
 {{ hp_number(hop_scenario) }} You have a local repo that is linked to a remote repo on the GitHub. You have pushed all local commits to the remote repo (i.e., the two are in sync).
 
-{{ hp_number(hop_target) }} You wish the rewrite the last commit in the local repo and update the remote repo to match the local repo.
+{{ hp_number(hop_target) }} You wish to rewrite the last commit in the local repo and update the remote repo to match the local repo.
 
 {{ hp_number(hop_preparation) }}
 

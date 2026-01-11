@@ -12,7 +12,7 @@ We've packaged our Git (and GitHub) lessons as a series of 'tours'. Each tour co
 
 {% macro tour(desc) %}<span style="border-top-left-radius: 5px; border-top-right-radius: 5px; margin-left: -10px;" class="bg-success text-light p-1"><md>:fas-map-marker-alt: {{ desc }}</md></span>{% endmacro %}
 
-{% macro lesson(desc) %}<span class="badge bg-success text-light "><md>{{ desc }}</md></span>{% endmacro %}
+{% macro lesson(desc) %}<span class="badge bg-success text-light"><md>{{ desc }}</md></span>{% endmacro %}
 
 {% macro usage(desc) %}<span class="badge bg-warning text-dark rounded-pill">Usage: {{ desc }}</span>{% endmacro %}
 
