@@ -1,5 +1,5 @@
 <navbar placement="top" type="dark">
-<a slot="brand" href="{{ baseUrl }}" title="Git-Mastery Home" class="navbar-brand"><md>****Git-Mastery****</md></a>
+<a slot="brand" href="{{ baseUrl }}/index.html" title="Git-Mastery Home" class="navbar-brand"><md>****Git-Mastery****</md></a>
   <li><a href="{{baseUrl}}/index.html" class="nav-link"><md>**Home**</md></a></li>
   <li><a href="{{baseUrl}}/lessons/index.html" class="nav-link"><md>**Lessons**</md></a></li>
   <li><a href="{{baseUrl}}/exercises-directory/index.html" class="nav-link"><md>**Exercises**</md></a></li>
