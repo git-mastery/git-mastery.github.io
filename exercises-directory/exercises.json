@@ -276,6 +276,14 @@
     },
     "identifier": "mix-messy-graph"
   },
+  "push_glossary_branch": {
+    "lesson": {
+      "path": "lessons/remoteBranchPush",
+      "title": "T8L1. Pushing Branches to a Remote"
+    },
+    "identifier": "push-glossary-branch",
+    "wip": 1
+  },
   "remote_branch_rename": {
     "lesson": {
       "path": "lessons/remoteBranchRename",
