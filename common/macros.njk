@@ -639,7 +639,7 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 <!-- ============================================================ -->
 
 {% macro show_exercise_link(exercise) -%}
-[{{ exercise.identifier }}]({{ baseUrl }}/{{ detour.lesson.path }}/exercise-{{ exercise.identifier }}.html)
+[{{ exercise.identifier }}]({{ baseUrl }}/{{ exercise.lesson.path }}/exercise-{{ exercise.identifier }}.html)
 {%- endmacro %}
 <!-- ============================================================ -->
 
