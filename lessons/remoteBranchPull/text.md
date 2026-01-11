@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can pull branches from a remote repo to a local repo.</span>
@@ -60,7 +60,7 @@ Observe how the branch `track-sales` appear under `REMOTES` → `origin` but not
 
 <pic src="images/sourcetreeCheckRemoteTrackingBranch.png" width="200" />
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
 {{ hp_number("2") }} **Create a local copy of the remote branch `origin/track-sales`**.
@@ -80,7 +80,7 @@ Locate the `track-sales` remote-tracking branch (look under `REMOTES` → `origi
 In the next dialog, choose as follows:<br>
 <pic src="images/sourcetreeBranchCheckoutDialog.png" width="500" />
 {% endset %}
-{{ show_git_tabs_from_text(cli, sourcetree) }}
+{{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 
 The above command/action does several things:
 1. Creates a new branch `track-sales`.
