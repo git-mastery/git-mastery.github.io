@@ -570,9 +570,30 @@
       "headingKeywords": {}
     },
     {
-      "src": "lessons/remoteBranchPush/exercise-push-glossary-branch.md",
+      "src": "lessons/remoteBranchDelete/exercise-glossary-branch-delete.md",
       "headings": {
-        "exercise-push-glossary-branch": "Exercise push-glossary-branch"
+        "exercise-glossary-branch-delete": "Exercise glossary-branch-delete"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "lessons/remoteBranchPull/exercise-glossary-branch-pull.md",
+      "headings": {
+        "exercise": "Exercise ``"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "lessons/remoteBranchPush/exercise-glossary-branch-push.md",
+      "headings": {
+        "exercise-glossary-branch-push": "Exercise glossary-branch-push"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "lessons/remoteBranchRename/exercise-glossary-branch-rename.md",
+      "headings": {
+        "exercise-glossary-branch-rename": "Exercise glossary-branch-rename"
       },
       "headingKeywords": {}
     },

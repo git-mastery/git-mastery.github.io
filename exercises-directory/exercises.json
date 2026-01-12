@@ -276,12 +276,36 @@
     },
     "identifier": "mix-messy-graph"
   },
-  "push_glossary_branch": {
+  "glossary_branch_push": {
     "lesson": {
       "path": "lessons/remoteBranchPush",
       "title": "T8L1. Pushing Branches to a Remote"
     },
-    "identifier": "push-glossary-branch",
+    "identifier": "glossary-branch-push",
+    "wip": 1
+  },
+  "glossary_branch_pull": {
+    "lesson": {
+      "path": "lessons/remoteBranchPull",
+      "title": "T8L2. Pulling Branches from a Remote"
+    },
+    "identifier": "glossary-branches-pull",
+    "wip": 1
+  },
+  "glossary_branch_delete": {
+    "lesson": {
+      "path": "lessons/remoteBranchDelete",
+      "title": "T8L3. Deleting Branches from a Remote"
+    },
+    "identifier": "glossary-branch-delete",
+    "wip": 1
+  },
+  "glossary_branch_rename": {
+    "lesson": {
+      "path": "lessons/remoteBranchRename",
+      "title": "T8L4. Renaming Branches in a Remote"
+    },
+    "identifier": "glossary-branch-rename",
     "wip": 1
   },
   "remote_branch_rename": {
