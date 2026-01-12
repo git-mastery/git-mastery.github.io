@@ -128,7 +128,7 @@ gitGraph BT:
     commit id: "m1"
     branch bug-fix
     checkout main
-    commit id: "[origin/main][main] m2"
+    commit id: "m2"
     checkout bug-fix
     commit id: "[origin/bug-fix][HEAD → bug-fix] b1"
     checkout main
@@ -144,7 +144,7 @@ gitGraph BT:
     commit id: "m1"
     branch bug-fix
     checkout main
-    commit id: "[HEAD → main] m2"
+    commit id: "m2"
     checkout bug-fix
     commit id: "b1"
     commit id: "[bug-fix] b2"
@@ -167,7 +167,7 @@ gitGraph BT:
     commit id: "m1"
     branch bug-fix
     checkout main
-    commit id: "[origin/main][main] m2"
+    commit id: "m2"
     checkout bug-fix
     commit id: "[HEAD → bug-fix] b1"
     commit id: "[origin/bug-fix] b2"
@@ -184,7 +184,7 @@ gitGraph BT:
     commit id: "m1"
     branch bug-fix
     checkout main
-    commit id: "[origin/main][main] m2"
+    commit id: "m2"
     checkout bug-fix
     commit id: "b1"
     commit id: "[origin/bug-fix][HEAD → bug-fix] b2"
@@ -207,7 +207,7 @@ gitGraph BT:
     commit id: "m1"
     branch bug-fix
     checkout main
-    commit id: "[origin/main][main] m2"
+    commit id: "m2"
     checkout bug-fix
     commit id: "[origin/bug-fix] b1"
     commit id: "[HEAD → bug-fix] b3"
@@ -224,14 +224,14 @@ gitGraph BT:
     commit id: "m1"
     branch bug-fix
     checkout main
-    commit id: "[origin/main][HEAD → main] m2"
+    commit id: "m2"
     checkout bug-fix
     commit id: "b1"
-    commit id: "b3"
     branch _
     checkout _
     commit id: "b2"
     checkout bug-fix
+    commit id: "b3"
     merge _ id: "[HEAD → bug-fix] merge commit"
     checkout main
 </mermaid>

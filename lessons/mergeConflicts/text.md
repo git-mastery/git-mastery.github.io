@@ -62,7 +62,7 @@ We need a repo with two branches containing conflicting changes. Given below is 
 The above can be done with the following commands:
 
 ```bash
-md nouns
+mkdir nouns
 cd nouns
 git init -b main
 
@@ -71,11 +71,11 @@ git stage colours.txt
 git commit -m "Add colours.txt"
 
 git switch -c fix1
-echo "green\nred\nwhite" >> colours.txt
+echo -e "green\nred\nwhite" >> colours.txt
 git commit -am "Add green, red, white"
 
 git switch main
-echo "black\nred\nwhite" >> colours.txt
+echo -e "black\nred\nwhite" >> colours.txt
 git commit -am "Add black, red, white"
 ```
 {% endset %}
