@@ -1,0 +1,220 @@
+2026-01-13T16:36:43.275Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2026-01-13T16:36:43.672Z - info: Site data built
+2026-01-13T16:36:43.672Z - info: Lazy website regeneration complete! Total build time: 0.4s
+2026-01-13T16:36:48.732Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/index as some of its dependencies were changed since the last visit
+2026-01-13T16:36:48.912Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:36:48.912Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:36:48.912Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:36:48.912Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:36:48.913Z - info: Site data built
+2026-01-13T16:36:48.913Z - info: Lazy website regeneration complete! Total build time: 0.181s
+2026-01-13T16:46:08.275Z - info: [00:46:08] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2026-01-13T16:46:08.276Z - info: Synchronizing opened pages list before reload
+2026-01-13T16:46:08.277Z - info: Current opened pages, from most-to-least recent:
+2026-01-13T16:46:08.277Z - info: 1. lessons/pull/index
+2026-01-13T16:46:08.277Z - info: 2. lessons/remoteBranchPush/exercise-glossary-branch-push
+2026-01-13T16:46:09.282Z - info: Rebuilding 1 pages
+2026-01-13T16:46:09.507Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:46:09.507Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:46:09.507Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:46:09.507Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:46:09.508Z - info: Site data built
+2026-01-13T16:46:09.508Z - info: Pages rebuilt
+2026-01-13T16:46:09.508Z - info: Website regeneration complete! Total build time: 0.228s
+2026-01-13T16:46:47.103Z - info: [00:46:47] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2026-01-13T16:46:47.103Z - info: Synchronizing opened pages list before reload
+2026-01-13T16:46:47.103Z - info: Current opened pages, from most-to-least recent:
+2026-01-13T16:46:47.103Z - info: 1. lessons/pull/index
+2026-01-13T16:46:47.103Z - info: 2. lessons/remoteBranchPush/exercise-glossary-branch-push
+2026-01-13T16:46:48.109Z - info: Rebuilding 1 pages
+2026-01-13T16:46:48.360Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:46:48.360Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:46:48.362Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:46:48.362Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:46:48.362Z - info: Site data built
+2026-01-13T16:46:48.362Z - info: Pages rebuilt
+2026-01-13T16:46:48.362Z - info: Website regeneration complete! Total build time: 0.256s
+2026-01-13T16:47:19.604Z - info: [00:47:19] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2026-01-13T16:47:19.606Z - info: Synchronizing opened pages list before reload
+2026-01-13T16:47:19.607Z - info: Current opened pages, from most-to-least recent:
+2026-01-13T16:47:19.607Z - info: 1. lessons/pull/index
+2026-01-13T16:47:19.607Z - info: 2. lessons/remoteBranchPush/exercise-glossary-branch-push
+2026-01-13T16:47:20.616Z - info: Rebuilding 1 pages
+2026-01-13T16:47:20.882Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:47:20.882Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:47:20.883Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:47:20.883Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:47:20.883Z - info: Site data built
+2026-01-13T16:47:20.883Z - info: Pages rebuilt
+2026-01-13T16:47:20.883Z - info: Website regeneration complete! Total build time: 0.272s
+2026-01-13T16:49:17.058Z - info: [00:49:17] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2026-01-13T16:49:17.060Z - info: Synchronizing opened pages list before reload
+2026-01-13T16:49:17.061Z - info: Current opened pages, from most-to-least recent:
+2026-01-13T16:49:17.061Z - info: 1. lessons/pull/index
+2026-01-13T16:49:17.061Z - info: 2. lessons/remoteBranchPush/exercise-glossary-branch-push
+2026-01-13T16:49:18.068Z - info: Rebuilding 1 pages
+2026-01-13T16:49:18.419Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:49:18.419Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:49:18.419Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:49:18.419Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:49:18.420Z - info: Site data built
+2026-01-13T16:49:18.420Z - info: Pages rebuilt
+2026-01-13T16:49:18.420Z - info: Website regeneration complete! Total build time: 0.353s
+2026-01-13T16:49:27.844Z - info: [00:49:27] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2026-01-13T16:49:27.844Z - info: Synchronizing opened pages list before reload
+2026-01-13T16:49:27.844Z - info: Current opened pages, from most-to-least recent:
+2026-01-13T16:49:27.844Z - info: 1. lessons/pull/index
+2026-01-13T16:49:27.844Z - info: 2. lessons/remoteBranchPush/exercise-glossary-branch-push
+2026-01-13T16:49:28.852Z - info: Rebuilding 1 pages
+2026-01-13T16:49:29.077Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:49:29.078Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:49:29.078Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:49:29.078Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:49:29.078Z - info: Site data built
+2026-01-13T16:49:29.078Z - info: Pages rebuilt
+2026-01-13T16:49:29.078Z - info: Website regeneration complete! Total build time: 0.227s
+2026-01-13T16:50:07.804Z - info: [00:50:07] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2026-01-13T16:50:07.805Z - info: Synchronizing opened pages list before reload
+2026-01-13T16:50:07.805Z - info: Current opened pages, from most-to-least recent:
+2026-01-13T16:50:07.805Z - info: 1. lessons/pull/index
+2026-01-13T16:50:07.805Z - info: 2. lessons/remoteBranchPush/exercise-glossary-branch-push
+2026-01-13T16:50:08.813Z - info: Rebuilding 1 pages
+2026-01-13T16:50:09.079Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:50:09.079Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:50:09.079Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:50:09.079Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:50:09.080Z - info: Site data built
+2026-01-13T16:50:09.080Z - info: Pages rebuilt
+2026-01-13T16:50:09.080Z - info: Website regeneration complete! Total build time: 0.272s
+2026-01-13T16:52:11.697Z - info: [00:52:11] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2026-01-13T16:52:11.698Z - info: Synchronizing opened pages list before reload
+2026-01-13T16:52:11.699Z - info: Current opened pages, from most-to-least recent:
+2026-01-13T16:52:11.699Z - info: 1. lessons/pull/index
+2026-01-13T16:52:11.699Z - info: 2. lessons/remoteBranchPush/exercise-glossary-branch-push
+2026-01-13T16:52:12.706Z - info: Rebuilding 1 pages
+2026-01-13T16:52:13.086Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:52:13.087Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:52:13.087Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:52:13.087Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:52:13.087Z - info: Site data built
+2026-01-13T16:52:13.087Z - info: Pages rebuilt
+2026-01-13T16:52:13.087Z - info: Website regeneration complete! Total build time: 0.383s
+2026-01-13T16:55:21.673Z - info: [00:55:21] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2026-01-13T16:55:21.679Z - info: Synchronizing opened pages list before reload
+2026-01-13T16:55:21.686Z - info: Current opened pages, from most-to-least recent:
+2026-01-13T16:55:21.696Z - info: 1. lessons/pull/index
+2026-01-13T16:55:21.696Z - info: 2. lessons/remoteBranchPush/exercise-glossary-branch-push
+2026-01-13T16:55:22.711Z - info: Rebuilding 1 pages
+2026-01-13T16:55:22.945Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:55:22.945Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:55:22.945Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:55:22.945Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:55:22.946Z - info: Site data built
+2026-01-13T16:55:22.946Z - info: Pages rebuilt
+2026-01-13T16:55:22.946Z - info: Website regeneration complete! Total build time: 0.238s
+2026-01-13T16:56:16.890Z - info: [00:56:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2026-01-13T16:56:16.893Z - info: Synchronizing opened pages list before reload
+2026-01-13T16:56:16.895Z - info: Current opened pages, from most-to-least recent:
+2026-01-13T16:56:16.895Z - info: 1. lessons/pull/index
+2026-01-13T16:56:16.895Z - info: 2. lessons/remoteBranchPush/exercise-glossary-branch-push
+2026-01-13T16:56:17.913Z - info: Rebuilding 1 pages
+2026-01-13T16:56:18.132Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:56:18.132Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:56:18.132Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:56:18.132Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:56:18.133Z - info: Site data built
+2026-01-13T16:56:18.133Z - info: Pages rebuilt
+2026-01-13T16:56:18.133Z - info: Website regeneration complete! Total build time: 0.222s
+2026-01-13T16:58:18.944Z - info: [00:58:18] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2026-01-13T16:58:18.945Z - info: Synchronizing opened pages list before reload
+2026-01-13T16:58:18.945Z - info: Current opened pages, from most-to-least recent:
+2026-01-13T16:58:18.945Z - info: 1. lessons/pull/index
+2026-01-13T16:58:18.945Z - info: 2. lessons/remoteBranchPush/exercise-glossary-branch-push
+2026-01-13T16:58:19.948Z - info: Rebuilding 1 pages
+2026-01-13T16:58:20.183Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:58:20.183Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:58:20.183Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:58:20.183Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:58:20.184Z - info: Site data built
+2026-01-13T16:58:20.184Z - info: Pages rebuilt
+2026-01-13T16:58:20.184Z - info: Website regeneration complete! Total build time: 0.237s
+2026-01-13T16:59:03.436Z - info: [00:59:03] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2026-01-13T16:59:03.436Z - info: Synchronizing opened pages list before reload
+2026-01-13T16:59:03.437Z - info: Current opened pages, from most-to-least recent:
+2026-01-13T16:59:03.437Z - info: 1. lessons/pull/index
+2026-01-13T16:59:03.437Z - info: 2. lessons/remoteBranchPush/exercise-glossary-branch-push
+2026-01-13T16:59:04.443Z - info: Rebuilding 1 pages
+2026-01-13T16:59:04.669Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:59:04.669Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T16:59:04.669Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:59:04.669Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T16:59:04.670Z - info: Site data built
+2026-01-13T16:59:04.670Z - info: Pages rebuilt
+2026-01-13T16:59:04.670Z - info: Website regeneration complete! Total build time: 0.23s
+2026-01-13T17:01:12.852Z - info: [01:01:12] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2026-01-13T17:01:12.853Z - info: Synchronizing opened pages list before reload
+2026-01-13T17:01:12.853Z - info: Current opened pages, from most-to-least recent:
+2026-01-13T17:01:12.853Z - info: 1. lessons/pull/index
+2026-01-13T17:01:12.853Z - info: 2. lessons/remoteBranchPush/exercise-glossary-branch-push
+2026-01-13T17:01:13.858Z - info: Rebuilding 1 pages
+2026-01-13T17:01:14.071Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T17:01:14.071Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-13T17:01:14.071Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T17:01:14.071Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-13T17:01:14.072Z - info: Site data built
+2026-01-13T17:01:14.072Z - info: Pages rebuilt
+2026-01-13T17:01:14.072Z - info: Website regeneration complete! Total build time: 0.215s
+2026-01-13T17:01:23.046Z - info: Website generation started at 01:01:22
+2026-01-13T17:01:23.170Z - info: Building assets...
