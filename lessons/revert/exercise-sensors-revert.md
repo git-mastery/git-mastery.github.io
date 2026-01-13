@@ -2,17 +2,17 @@
 
 <div id="scenario" class="d-none">
 
-The background is same as the scenario in exercise {{ show_exercise_link(exercises.sensors_diff) }}, repeated below for ease of reference:
+**The background** is same as the scenario in exercise {{ show_exercise_link(exercises.sensors_diff) }}, repeated below for ease of reference:
 
->A system is using Git to record data received daily from for sensors, each monitoring one of directions east, west, north, south. Each sensor provides 20 integer values, which are stored in a csv file (e.g., values from the sensor monitoring the east direction are recorded as `east.csv`). Data for each day is recorded as one commit.
+><include src="../diff/exercise-sensors-diff.md#scenario" />
 
-Now, you have found that the last few commits have some problems. You wish to **reverse those commits, without changing any of the current commits** so that problematic commits are preserved in history for future reference.
+**Now**, you have found that the last few commits have some problems. You wish to **reverse those commits, without changing any of the current commits** so that problematic commits are preserved in history for future reference.
 
 </div>
 
 <div id="task" class="d-none">
 
-To Git's _revert_ feature to revers the problematic commits, as follows:
+Use Git's _revert_ feature to reverse the problematic commits, as follows:
 
 1. Revert the commit containing data for Jan 14th. Keep the default commit message.
 1. Do the same for Jan 13th.

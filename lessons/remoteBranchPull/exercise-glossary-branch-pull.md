@@ -4,11 +4,11 @@
 <div id="scenario" class="d-none">
 
 
-The background is same as the scenario in exercise {{ m.show_exercise_link(exercises.push_glossary_branch) }}, repeated below for ease of reference:
+**The background** is same as the scenario in exercise {{ m.show_exercise_link(exercises.push_glossary_branch) }}, repeated below for ease of reference:
 
-><include src="../remoteBranchPush/exercise-push-glossary-branch.md#scenario" />
+><include src="../remoteBranchPush/exercise-glossary-branch-push.md#scenario" />
 
-Now, you notice that,
+**Now**, you notice that,
 * the `ABC` branch on the remote `origin` has a new commit that you don't have locally.
 * the `DEF` branch on the remote has a new commit that you don't have locally.<br>
   Meanwhile, the local `DEF` branch has a commit that doesn't exist in the remote `origin`.
@@ -23,4 +23,4 @@ Now, you notice that,
 
 </div>
 
-{{ m.show_exercise(m.exercises.pull_glossary_branches, is_panel=0) }}
+{{ m.show_exercise(m.exercises.glossary_branch_push, is_panel=0) }}
