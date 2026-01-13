@@ -38,7 +38,7 @@
   "intrasiteLinkValidation": {
     "enabled": true
   },
-  "enableSearch": true,
+  "enableSearch": false,
   "titlePrefix": "Git-Mastery",
   "plugins": ["customviews", "mermaid", "filterTags", "algolia", "codeBlockCopyButtons", "codeBlockWrapButtons", "dataTable"],
   "pluginsContext": {
@@ -47,6 +47,14 @@
     },
     "mermaid": {
       "address": "https://unpkg.com/mermaid@11.7.0/dist/mermaid.esm.min.mjs"
+    },
+    "algolia": {
+      "apiKey": "772d7386c7a785f7a60fec5a096311ef",
+      "appId": "3DU4XTBX4T",
+      "indexName": "nus-tic2002-2020a",
+      "searchParameters": {
+        "facetFilters": [["site:git-mastery.org"], ["tags:se-book-adapted"]]
+      }
     }
   },
   "deploy": {

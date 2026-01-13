@@ -11,7 +11,7 @@
   <li><a href="https://github.com/git-mastery" class="nav-link"><md>:fab-github:</md></a></li>
   <li slot="right" class="nav-link">
     <form class="navbar-form">
-      <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right ></searchbar>
+      <searchbar placeholder="Search" algolia menu-align-right></searchbar>
     </form>
   </li>
 </navbar>
