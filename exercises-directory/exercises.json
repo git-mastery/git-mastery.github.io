@@ -289,7 +289,7 @@
       "path": "lessons/remoteBranchPull",
       "title": "T8L2. Pulling Branches from a Remote"
     },
-    "identifier": "glossary-branches-pull",
+    "identifier": "glossary-branch-pull",
     "wip": 1
   },
   "glossary_branch_delete": {
