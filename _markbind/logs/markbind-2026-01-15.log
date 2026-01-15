@@ -69,3 +69,584 @@
 2026-01-14T16:18:58.415Z - info: Website regeneration complete! Total build time: 0.132s
 2026-01-14T16:19:22.039Z - info: Website generation started at 00:19:21
 2026-01-14T16:19:22.208Z - info: Building assets...
+2026-01-14T16:19:22.511Z - info: Assets built
+2026-01-14T16:19:22.511Z - info: Generating pages...
+2026-01-14T16:19:30.168Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/exercise-under-control.md'
+2026-01-14T16:19:30.168Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/exercise-under-control.md'
+2026-01-14T16:19:30.168Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/exercise-sensors-checkout.md'
+2026-01-14T16:19:30.168Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/exercise-sensors-checkout.md'
+2026-01-14T16:19:30.168Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/exercise-sensors-reset.md'
+2026-01-14T16:19:30.168Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/exercise-sensors-reset.md'
+2026-01-14T16:19:30.168Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/exercise-sensors-revert.md'
+2026-01-14T16:19:30.168Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/exercise-sensors-revert.md'
+2026-01-14T16:19:30.169Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2026-01-14T16:19:30.169Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2026-01-14T16:19:30.169Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/detour-undoRepoInit-fragment.md'
+2026-01-14T16:19:30.169Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/detour-undoRepoInit-fragment.md'
+2026-01-14T16:19:30.169Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2026-01-14T16:19:30.169Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2026-01-14T16:19:30.169Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2026-01-14T16:19:30.169Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2026-01-14T16:19:30.170Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2026-01-14T16:19:30.170Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2026-01-14T16:19:30.170Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2026-01-14T16:19:30.170Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2026-01-14T16:19:30.170Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2026-01-14T16:19:30.170Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2026-01-14T16:19:30.170Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2026-01-14T16:19:30.170Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2026-01-14T16:19:30.170Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2026-01-14T16:19:30.170Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/text.md'
+2026-01-14T16:19:30.170Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/text.md'
+2026-01-14T16:19:30.170Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-14T16:19:30.170Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-14T16:19:30.170Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2026-01-14T16:19:30.170Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2026-01-14T16:19:30.170Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md'
+2026-01-14T16:19:30.170Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md'
+2026-01-14T16:19:30.171Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/text.md'
+2026-01-14T16:19:30.171Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/text.md'
+2026-01-14T16:19:30.171Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-14T16:19:30.171Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-14T16:19:30.171Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-14T16:19:30.171Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-14T16:19:30.171Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md'
+2026-01-14T16:19:30.171Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md'
+2026-01-14T16:19:30.171Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md'
+2026-01-14T16:19:30.171Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md'
+2026-01-14T16:19:30.171Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/text.md'
+2026-01-14T16:19:30.171Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/text.md'
+2026-01-14T16:19:30.171Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md'
+2026-01-14T16:19:30.171Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md'
+2026-01-14T16:19:30.171Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-14T16:19:30.171Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-14T16:19:30.171Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-14T16:19:30.172Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/text.md'
+2026-01-14T16:19:30.172Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/text.md'
+2026-01-14T16:19:30.172Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/text.md'
+2026-01-14T16:19:30.172Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/text.md'
+2026-01-14T16:19:30.172Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md'
+2026-01-14T16:19:30.172Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md'
+2026-01-14T16:19:30.172Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-undoMerge-fragment.md'
+2026-01-14T16:19:30.172Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-undoMerge-fragment.md'
+2026-01-14T16:19:30.172Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-compareBranches-fragment.md'
+2026-01-14T16:19:30.172Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-compareBranches-fragment.md'
+2026-01-14T16:19:30.172Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-squashMerge-fragment.md'
+2026-01-14T16:19:30.172Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-squashMerge-fragment.md'
+2026-01-14T16:19:30.172Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md'
+2026-01-14T16:19:30.172Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md'
+2026-01-14T16:19:30.172Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/text.md'
+2026-01-14T16:19:30.172Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/text.md'
+2026-01-14T16:19:30.172Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/text.md'
+2026-01-14T16:19:30.172Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/text.md'
+2026-01-14T16:19:30.173Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-update.md'
+2026-01-14T16:19:30.173Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-update.md'
+2026-01-14T16:19:30.173Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-push.md'
+2026-01-14T16:19:30.173Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-push.md'
+2026-01-14T16:19:30.173Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-add.md'
+2026-01-14T16:19:30.173Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-add.md'
+2026-01-14T16:19:30.173Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/exercise-staging-intervention.md'
+2026-01-14T16:19:30.173Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/exercise-staging-intervention.md'
+2026-01-14T16:19:30.173Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/exercise-stage-fright.md'
+2026-01-14T16:19:30.173Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/exercise-stage-fright.md'
+2026-01-14T16:19:30.173Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/exercise-view-commits.md'
+2026-01-14T16:19:30.173Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/exercise-view-commits.md'
+2026-01-14T16:19:30.173Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/exercise-link-me.md'
+2026-01-14T16:19:30.173Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/exercise-link-me.md'
+2026-01-14T16:19:30.173Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/exercise-remote-branch-rename.md'
+2026-01-14T16:19:30.173Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/exercise-remote-branch-rename.md'
+2026-01-14T16:19:30.173Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/exercise-glossary-branch-rename.md'
+2026-01-14T16:19:30.173Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/exercise-glossary-branch-rename.md'
+2026-01-14T16:19:30.173Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPush/exercise-glossary-branch-push.md'
+2026-01-14T16:19:30.173Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPush/exercise-glossary-branch-push.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPull/exercise-glossary-branch-pull.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPull/exercise-glossary-branch-pull.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/exercise-glossary-branch-delete.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/exercise-glossary-branch-delete.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/exercise-push-over.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/exercise-push-over.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/exercise-fetch-and-pull.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/exercise-fetch-and-pull.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/exercise-conflict-mediator.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/exercise-conflict-mediator.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-squash.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-squash.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-ff-undo.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-ff-undo.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-forward.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-forward.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-bender.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-bender.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/exercise-log-and-order.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/exercise-log-and-order.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/exercise-undo-init.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/exercise-undo-init.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/exercise-ignoring-somethings.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/exercise-ignoring-somethings.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/exercise-fork-repo.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/exercise-fork-repo.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/exercise-sensors-diff.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/exercise-sensors-diff.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/exercise-remote-control.md'
+2026-01-14T16:19:30.174Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/exercise-remote-control.md'
+2026-01-14T16:19:30.175Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/exercise-grocery-shopping.md'
+2026-01-14T16:19:30.175Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/exercise-grocery-shopping.md'
+2026-01-14T16:19:30.175Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/exercise-clone-repo.md'
+2026-01-14T16:19:30.175Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/exercise-clone-repo.md'
+2026-01-14T16:19:30.175Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/exercise-branch-rename.md'
+2026-01-14T16:19:30.175Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/exercise-branch-rename.md'
+2026-01-14T16:19:30.175Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-mix-messy-graph.md'
+2026-01-14T16:19:30.175Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-mix-messy-graph.md'
+2026-01-14T16:19:30.175Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-mix-messy-docs.md'
+2026-01-14T16:19:30.175Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-mix-messy-docs.md'
+2026-01-14T16:19:30.175Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-branch-delete.md'
+2026-01-14T16:19:30.175Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-branch-delete.md'
+2026-01-14T16:19:30.175Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-side-track.md'
+2026-01-14T16:19:30.175Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-side-track.md'
+2026-01-14T16:19:30.175Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-branch-previous.md'
+2026-01-14T16:19:30.175Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-branch-previous.md'
+2026-01-14T16:19:30.175Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-branch-compare.md'
+2026-01-14T16:19:30.175Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-branch-compare.md'
+2026-01-14T16:19:30.176Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/branch/images/listRemoteBranches.png' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranches/sourcetree_4.md'
+2026-01-14T16:19:30.176Z - info: Pages built
+2026-01-14T16:19:30.247Z - info: Site data built
+2026-01-14T16:19:30.247Z - info: Website generation complete! Total build time: 8.418s
+2026-01-14T16:19:30.247Z - info: Build success!
+2026-01-14T16:19:43.298Z - info: The website has been deployed at: git-mastery.org
+2026-01-14T16:24:55.495Z - info: Website generation (lazy) started at 00:24:55
+2026-01-14T16:24:55.646Z - info: Building assets...
+2026-01-14T16:24:55.952Z - info: Assets built
+2026-01-14T16:24:55.952Z - info: Generating landing page...
+2026-01-14T16:24:56.044Z - info: Landing page built, other pages will be built as you navigate to them!
+2026-01-14T16:24:56.121Z - info: Site data built
+2026-01-14T16:24:56.121Z - info: Website generation (lazy) complete! Total build time: 0.828s
+2026-01-14T16:24:56.130Z - info: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-01-14T16:24:56.130Z - info: Press CTRL+C to stop ...
+2026-01-14T16:25:04.959Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPull/exercise-glossary-branch-pull as some of its dependencies were changed since the last visit
+2026-01-14T16:25:05.052Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPull/exercise-glossary-branch-pull.md'
+2026-01-14T16:25:05.052Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPull/exercise-glossary-branch-pull.md'
+2026-01-14T16:25:05.052Z - info: Site data built
+2026-01-14T16:25:05.052Z - info: Lazy website regeneration complete! Total build time: 0.095s
+2026-01-14T16:25:18.463Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/exercise-glossary-branch-delete as some of its dependencies were changed since the last visit
+2026-01-14T16:25:18.545Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/exercise-glossary-branch-delete.md'
+2026-01-14T16:25:18.545Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/exercise-glossary-branch-delete.md'
+2026-01-14T16:25:18.545Z - info: Site data built
+2026-01-14T16:25:18.545Z - info: Lazy website regeneration complete! Total build time: 0.083s
+2026-01-15T14:27:34.234Z - info: Website generation (lazy) started at 22:27:34
+2026-01-15T14:27:34.433Z - info: Building assets...
+2026-01-15T14:27:34.720Z - info: Assets built
+2026-01-15T14:27:34.720Z - info: Generating landing page...
+2026-01-15T14:27:34.812Z - info: Landing page built, other pages will be built as you navigate to them!
+2026-01-15T14:27:34.887Z - info: Site data built
+2026-01-15T14:27:34.887Z - info: Website generation (lazy) complete! Total build time: 0.835s
+2026-01-15T14:27:34.898Z - info: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-01-15T14:27:34.898Z - info: Press CTRL+C to stop ...
+2026-01-15T14:28:48.497Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2026-01-15T14:28:48.894Z - info: Site data built
+2026-01-15T14:28:48.894Z - info: Lazy website regeneration complete! Total build time: 0.398s
+2026-01-15T14:28:52.502Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/usingRevisionHistory/index as some of its dependencies were changed since the last visit
+2026-01-15T14:28:53.028Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md'
+2026-01-15T14:28:53.028Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md'
+2026-01-15T14:28:53.028Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md'
+2026-01-15T14:28:53.028Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md'
+2026-01-15T14:28:53.029Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/text.md'
+2026-01-15T14:28:53.029Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/text.md'
+2026-01-15T14:28:53.029Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md'
+2026-01-15T14:28:53.029Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md'
+2026-01-15T14:28:53.029Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:28:53.029Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:28:53.029Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:28:53.029Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/text.md'
+2026-01-15T14:28:53.029Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/text.md'
+2026-01-15T14:28:53.030Z - info: Site data built
+2026-01-15T14:28:53.030Z - info: Lazy website regeneration complete! Total build time: 0.529s
+2026-01-15T14:34:10.491Z - info: [22:34:10] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/common/aliases-fragment.md
+2026-01-15T14:34:10.496Z - info: Synchronizing opened pages list before reload
+2026-01-15T14:34:10.498Z - info: Current opened pages, from most-to-least recent:
+2026-01-15T14:34:10.498Z - info: 1. lessons/trail/usingRevisionHistory/index
+2026-01-15T14:34:11.510Z - info: Rebuilding 1 pages
+2026-01-15T14:34:12.100Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md'
+2026-01-15T14:34:12.100Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md'
+2026-01-15T14:34:12.100Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md'
+2026-01-15T14:34:12.100Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md'
+2026-01-15T14:34:12.100Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/text.md'
+2026-01-15T14:34:12.100Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/text.md'
+2026-01-15T14:34:12.100Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md'
+2026-01-15T14:34:12.100Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md'
+2026-01-15T14:34:12.100Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:34:12.101Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:34:12.101Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:34:12.101Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/text.md'
+2026-01-15T14:34:12.101Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/text.md'
+2026-01-15T14:34:12.101Z - info: Site data built
+2026-01-15T14:34:12.101Z - info: Pages rebuilt
+2026-01-15T14:34:12.101Z - info: Website regeneration complete! Total build time: 0.597s
+2026-01-15T14:34:53.519Z - info: [22:34:53] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/common/aliases-fragment.md
+2026-01-15T14:34:53.522Z - info: Synchronizing opened pages list before reload
+2026-01-15T14:34:53.526Z - info: Current opened pages, from most-to-least recent:
+2026-01-15T14:34:53.526Z - info: 1. lessons/trail/usingRevisionHistory/index
+2026-01-15T14:34:54.536Z - info: Rebuilding 1 pages
+2026-01-15T14:34:55.124Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md'
+2026-01-15T14:34:55.124Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md'
+2026-01-15T14:34:55.124Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md'
+2026-01-15T14:34:55.124Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md'
+2026-01-15T14:34:55.124Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/text.md'
+2026-01-15T14:34:55.124Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/text.md'
+2026-01-15T14:34:55.125Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md'
+2026-01-15T14:34:55.125Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md'
+2026-01-15T14:34:55.125Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:34:55.125Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:34:55.125Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:34:55.125Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/text.md'
+2026-01-15T14:34:55.125Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/text.md'
+2026-01-15T14:34:55.125Z - info: Site data built
+2026-01-15T14:34:55.125Z - info: Pages rebuilt
+2026-01-15T14:34:55.125Z - info: Website regeneration complete! Total build time: 0.591s
+2026-01-15T14:35:44.362Z - info: [22:35:44] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/common/aliases-fragment.md
+2026-01-15T14:35:44.364Z - info: Synchronizing opened pages list before reload
+2026-01-15T14:35:44.366Z - info: Current opened pages, from most-to-least recent:
+2026-01-15T14:35:44.366Z - info: 1. lessons/trail/usingRevisionHistory/index
+2026-01-15T14:35:45.389Z - info: Rebuilding 1 pages
+2026-01-15T14:35:45.965Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md'
+2026-01-15T14:35:45.965Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md'
+2026-01-15T14:35:45.965Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md'
+2026-01-15T14:35:45.965Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md'
+2026-01-15T14:35:45.965Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/text.md'
+2026-01-15T14:35:45.965Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/text.md'
+2026-01-15T14:35:45.966Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md'
+2026-01-15T14:35:45.966Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md'
+2026-01-15T14:35:45.966Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:35:45.966Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:35:45.966Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:35:45.966Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/text.md'
+2026-01-15T14:35:45.966Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/text.md'
+2026-01-15T14:35:45.966Z - info: Site data built
+2026-01-15T14:35:45.966Z - info: Pages rebuilt
+2026-01-15T14:35:45.966Z - info: Website regeneration complete! Total build time: 0.578s
+2026-01-15T14:35:59.810Z - info: [22:35:59] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/common/aliases-fragment.md
+2026-01-15T14:35:59.810Z - info: Synchronizing opened pages list before reload
+2026-01-15T14:35:59.810Z - info: Current opened pages, from most-to-least recent:
+2026-01-15T14:35:59.811Z - info: 1. lessons/trail/usingRevisionHistory/index
+2026-01-15T14:36:00.816Z - info: Rebuilding 1 pages
+2026-01-15T14:36:01.417Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md'
+2026-01-15T14:36:01.417Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md'
+2026-01-15T14:36:01.417Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md'
+2026-01-15T14:36:01.417Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md'
+2026-01-15T14:36:01.418Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/text.md'
+2026-01-15T14:36:01.418Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/text.md'
+2026-01-15T14:36:01.418Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md'
+2026-01-15T14:36:01.418Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md'
+2026-01-15T14:36:01.418Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:36:01.418Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:36:01.418Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:36:01.418Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/text.md'
+2026-01-15T14:36:01.418Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/text.md'
+2026-01-15T14:36:01.418Z - info: Site data built
+2026-01-15T14:36:01.418Z - info: Pages rebuilt
+2026-01-15T14:36:01.418Z - info: Website regeneration complete! Total build time: 0.605s
+2026-01-15T14:36:20.905Z - info: [22:36:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/common/aliases-fragment.md
+2026-01-15T14:36:20.906Z - info: Synchronizing opened pages list before reload
+2026-01-15T14:36:20.906Z - info: Current opened pages, from most-to-least recent:
+2026-01-15T14:36:20.906Z - info: 1. lessons/trail/usingRevisionHistory/index
+2026-01-15T14:36:21.914Z - info: Rebuilding 1 pages
+2026-01-15T14:36:22.491Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md'
+2026-01-15T14:36:22.491Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md'
+2026-01-15T14:36:22.491Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md'
+2026-01-15T14:36:22.491Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md'
+2026-01-15T14:36:22.491Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/text.md'
+2026-01-15T14:36:22.491Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/text.md'
+2026-01-15T14:36:22.491Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md'
+2026-01-15T14:36:22.491Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md'
+2026-01-15T14:36:22.491Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:36:22.491Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:36:22.491Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:36:22.492Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/text.md'
+2026-01-15T14:36:22.492Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/text.md'
+2026-01-15T14:36:22.492Z - info: Site data built
+2026-01-15T14:36:22.492Z - info: Pages rebuilt
+2026-01-15T14:36:22.492Z - info: Website regeneration complete! Total build time: 0.58s
+2026-01-15T14:37:22.316Z - info: [22:37:22] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/common/aliases-fragment.md
+2026-01-15T14:37:22.317Z - info: Synchronizing opened pages list before reload
+2026-01-15T14:37:22.317Z - info: Current opened pages, from most-to-least recent:
+2026-01-15T14:37:22.317Z - info: 1. lessons/trail/usingRevisionHistory/index
+2026-01-15T14:37:23.324Z - info: Rebuilding 1 pages
+2026-01-15T14:37:23.918Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md'
+2026-01-15T14:37:23.918Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md'
+2026-01-15T14:37:23.918Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md'
+2026-01-15T14:37:23.918Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md'
+2026-01-15T14:37:23.919Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/text.md'
+2026-01-15T14:37:23.919Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/text.md'
+2026-01-15T14:37:23.919Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md'
+2026-01-15T14:37:23.919Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md'
+2026-01-15T14:37:23.919Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:37:23.919Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:37:23.919Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-15T14:37:23.919Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/text.md'
+2026-01-15T14:37:23.919Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/text.md'
+2026-01-15T14:37:23.920Z - info: Site data built
+2026-01-15T14:37:23.920Z - info: Pages rebuilt
+2026-01-15T14:37:23.920Z - info: Website regeneration complete! Total build time: 0.597s
+2026-01-15T14:49:48.758Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/index as some of its dependencies were changed since the last visit
+2026-01-15T14:49:48.938Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwMywicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJHaXQtTWFzdGVyeSBBcHA6IENvbW1hbmRzIENvbW1hbiIsImgiOjExNDAxNDgyMn1d' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md'
+2026-01-15T14:49:48.938Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=W3sidCI6IkRJViIsImkiOjIwNSwicCI6ImNvbnRlbnQtd3JhcHBlciIsInMiOiJVcGRhdGluZyB0aGUgR2l0LU1hc3RlcnkgQXBwIEFzICIsImgiOi01ODUzNDE1NzF9XQ%3D%3D' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md'
+2026-01-15T14:49:48.938Z - info: Site data built
+2026-01-15T14:49:48.938Z - info: Lazy website regeneration complete! Total build time: 0.181s
+2026-01-15T14:50:56.614Z - info: [22:50:56] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/steps-checkout-commits-fragment.md
+2026-01-15T14:50:56.623Z - info: Synchronizing opened pages list before reload
+2026-01-15T14:50:56.627Z - info: Current opened pages, from most-to-least recent:
+2026-01-15T14:50:56.630Z - info: 1. lessons/show/index
+2026-01-15T14:50:57.657Z - info: No pages needed to be rebuilt
+2026-01-15T14:53:30.770Z - info: [22:53:30] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md
+2026-01-15T14:53:30.771Z - info: Synchronizing opened pages list before reload
+2026-01-15T14:53:30.771Z - info: Current opened pages, from most-to-least recent:
+2026-01-15T14:53:30.771Z - info: 1. lessons/show/index
+2026-01-15T14:53:30.773Z - info: [22:53:30] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/steps-checkout-commits-fragment.md
+2026-01-15T14:53:30.773Z - info: Synchronizing opened pages list before reload
+2026-01-15T14:53:30.773Z - info: Current opened pages, from most-to-least recent:
+2026-01-15T14:53:30.773Z - info: 1. lessons/show/index
+2026-01-15T14:53:31.775Z - info: No pages needed to be rebuilt
+2026-01-15T14:54:28.352Z - info: [22:54:28] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/detour-undoRecentCommits-fragment.md
+2026-01-15T14:54:28.352Z - info: Synchronizing opened pages list before reload
+2026-01-15T14:54:28.353Z - info: Current opened pages, from most-to-least recent:
+2026-01-15T14:54:28.353Z - info: 1. lessons/show/index
+2026-01-15T14:54:29.367Z - info: No pages needed to be rebuilt
+2026-01-15T14:55:39.436Z - info: Website generation started at 22:55:39
+2026-01-15T14:55:39.568Z - info: Building assets...
