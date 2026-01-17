@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_steps_tabs, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, ask_chatgpt, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_steps_tabs, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can compare different points of history</span>
@@ -193,11 +193,13 @@ echo "Education: Cornell" >> andy/history.txt
 
 Add the `-- path/to/file` to a previous diff command to narrow the output to a specific file. Some examples:
 
-```bash
+```bash{highlight-lines="1[' -- '],2[' -- '],3[' -- ']"}
 git diff -- andy/history.txt          # unstaged changes to andy/history.txt
 git diff --staged -- list.txt         # staged changes to list.txt
 git diff HEAD~2..HEAD -- list.txt     # changes to list.txt between commits
 ```
+{{ icon_info }} The ` -- ` tells Git that what follows it should be interpreted as a file or a file path, not a branch/commit/ref/tag.
+{{ ask_chatgpt("More about the ` -- ` in Git commands", "I'm new to Git. I have not learned about advanced concepts such as branching yet. Explain the use of ` -- ` in a Git command such as `git diff -- andy/history.txt`.") }}
 {% endset %}
 {% set sourcetree %}
 

@@ -177,6 +177,13 @@ Our Git lessons show how to perform Git operations in Git CLI, and in Sourcetree
 
 * Download the `gitmastery.exe` file from [the latest release](https://github.com/git-mastery/app/releases/latest).<br>
   Put it in a suitable location (ensure the file name remains `gitmastery.exe`).{{ numbers_abcd }}
+  <box type="warning" seamless>
+
+  **Do not run the `gitmastery.exe` file directly!**. If you do, all it does is to flash the terminal briefly and disappear.<br>
+   Reason: Git-Mastery is a <tooltip content="Command Line Interface">CLI</tooltip> app that you activate by issuing a command via a terminal, not running the executable directly (e.g., by double-clicking the file).
+  {{ ask_chatgpt("More on how to use CLI apps on Windows", "Guidance for answering: Give an answer with moderate level of details, and ask if if I would like a more detailed answer.\nBackground: I'm a Windows user new to CLI apps. I've been asked to use an app named gitmastery (that comes as an executable `gitmastery.exe`, and supports commands like `gitmastery version`). As the app is a companion for Git, the preferred terminal is Git Bash.\nQuestion: Explain how I should use a CLI app as opposed to apps I use simply by double-clicking an exe file.") }}
+  </box>
+
 * Add the folder containing the `gitmastery.exe` to your Windows System Variable `PATH`, by following [this guide](https://www.wikihow.com/Change-the-PATH-Environment-Variable-on-Windows).<br>
   E.g. If the file location is `C:\Users\Jane\Tools\gitmastery.exe`, you should add `C:\Users\Jane\Tools` to your `PATH`.
 * Close and reopen the Git Bash terminal (for the updated `PATH` to take effect).
@@ -243,7 +250,7 @@ install -D -m 0755 gitmastery-3.3.0-linux-arm64 /usr/bin/gitmastery
 
 {{ os_tabs_marker('end') }}
 
-**2. To verify the installation**, run the `gitmastery --help` command from a couple of different folder locations. An example given below (IMPORTANT: change the `cd` command to match your folders):
+**2. To verify the installation**, open a terminal, and run the `gitmastery --help` command from a couple of different folder locations. An example given below (IMPORTANT: change the `cd` command to match your folders):
 
 ```bash{.no-line-numbers highlight-lines="2['../my-projects']"}
 gitmastery --help

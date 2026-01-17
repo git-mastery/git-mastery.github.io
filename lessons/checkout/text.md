@@ -13,6 +13,8 @@ Suppose you added a new feature to a software product, and while testing it, you
 
 **To view the working directory at a specific point in history, you can {{ show_git_term("check out") }} a commit** created at that point.
 
+<div id="detached-head-explanation">
+
 **When you check out a commit, Git:**
 
 1. **Updates your working directory to match the snapshot in that commit**, overwriting current files as needed.
@@ -28,7 +30,7 @@ Suppose you added a new feature to a software product, and while testing it, you
 {% set b %}<small>%%[check out commit `C2`...]%%</small> {% endset %}
 {% set c %}
 {{ show_commit('C3', desc=show_ref('main')) }}
-{{ show_commit('C2', desc=show_head() + " <small>#r#detached head!##</small>") }}
+{{ show_commit('C2', desc=show_head() + " <small>#r#detached HEAD!##</small>") }}
 {{ show_commit('C1', edge='') }}
 <p/>
 
@@ -42,19 +44,20 @@ Suppose you added a new feature to a software product, and while testing it, you
 
 {% set a %}
 {{ show_commit('C3', desc=show_ref('main')) }}
-{{ show_commit('C2', desc=show_head() + " <small>#r#detached head!##</small>") }}
+{{ show_commit('C2', desc=show_head() + " <small>#r#detached HEAD!##</small>") }}
 {{ show_commit('C1', edge='') }}
 <p/>
 {% endset %}
 {% set b %}<small>%%[check out `main`...]%%</small> {% endset %}
 {% set c %}
-{{ show_commit('C3', desc=show_ref('main') + show_head() + " <small>%%head re-attached!%%</small>") }}
+{{ show_commit('C3', desc=show_ref('main') + show_head() + " <small>%%HEAD re-attached!%%</small>") }}
 {{ show_commit('C2') }}
 {{ show_commit('C1', edge='') }}
 <p/>
 {% endset %}
 {{ show_transformation_columns(a, b, c) }}
 
+</div>
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical('Checking out some commits')  %}

@@ -23,7 +23,7 @@ ec49b17 Add fruits.txt
 ```
 {% endcall %}
 
-{{ m.hp_number ('2') }} **Use the `checkout <commit-identifier>` command to check out a commit** other than the one currently pointed by `HEAD`. You can use any of the following methods:
+{{ m.hp_number ('2') }} **Use the `checkout <commit-identifier>` command to check out a commit** other than the one currently pointed to by `HEAD`. You can use any of the following methods:
 
 * `git checkout v1.0`: checks out the commit tagged `v1.0`
 * `git checkout 0023cdd`: checks out the commit with the hash `0023cdd`
@@ -37,7 +37,7 @@ git checkout HEAD~2
 Note: switching to 'HEAD~2'.
 
 You are in 'detached HEAD' state.
-# rest of the warning about the detached head ...
+# rest of the warning about the detached HEAD ...
 
 HEAD is now at 2ef8852 Update fruits list
 ```

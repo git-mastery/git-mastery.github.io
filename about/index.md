@@ -22,7 +22,7 @@ Git-Mastery is an open-source software project based in the [School of Computing
 
 ## Bug reports, suggestions
 
-* Please post in [issue tracker](https://github.com/git-mastery/issues).
+* Please post in [issue tracker](https://github.com/git-mastery/git-mastery/issues).
 
 
 ## Contributions

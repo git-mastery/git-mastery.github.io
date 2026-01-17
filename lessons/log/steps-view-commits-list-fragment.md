@@ -4,7 +4,7 @@
 Navigate into the repo folder and run the `git log` command to see the commit history.
 
 ```bash{.no-line-numbers}
-cd hp-list-commands/things
+cd hp-list-commits/things
 git log
 ```
 {% call show_output() %}

@@ -331,7 +331,7 @@ In the next dialog, choose as follows:<br>
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Sync your repos with the upstream repo")  %}
 
-{{ hp_number (hop_scenario) }} You have forked and cloned a remote repo. Since then, new commits have been added to the original remote repo.
+{{ hp_number (hop_scenario) }} You have forked and cloned a remote repo. Since then, new commits have been added to the original remote repo that you forked from.
 
 
 {% set a %}
@@ -345,7 +345,7 @@ gitGraph BT:
     commit id: "[HEAD → main] add loan to Chang"
 </mermaid>
 
-<small>->[R: the original remote repo]<-</small>
+<small>->[`upstream`: the original remote repo<br> that you forked]<-</small>
 {% endset %}
 {% set b %}
 <mermaid>
@@ -356,8 +356,8 @@ gitGraph BT:
     commit id: "[HEAD → main] add assets.txt"
 </mermaid>
 
-<small>->[F: your fork (remote), <br>
-**2 commits behind** the remote]<-</small>
+<small>->[`origin`: your fork (remote), <br>
+**2 commits behind** `upstream`]<-</small>
 {% endset %}
 {% set c %}
 <mermaid>
@@ -368,7 +368,7 @@ gitGraph BT:
     commit id: "[HEAD → main][origin/main] add assets.txt"
 </mermaid>
 
-<small>->[C: your clone (local), also <br>
+<small>->[your clone (local), also <br>
 **2 commits behind**]<-</small>
 {% endset %}
 
@@ -381,9 +381,14 @@ gitGraph BT:
 
 {{ show_hop_prep('hp-sync-upstream') }}
 
-{{ hp_number ('1') }} **Confirm your local repo is behind** by two commits. For example, you can examine the remote-tracking branches for this.
+{{ hp_number ('1') }} **Confirm your local repo is behind** by two commits. Here are two alternative ways to do that:
+
+a) Go to the `upstream` repo at https://github.com/git-mastery/samplerepo-finances-2, and navigate to the page that lists commits of the repo. Compare that list of commits to the list of commits in your local copy.<br>
+OR<br>
+b) Do a `fetch` and examine the revision graph locally, as shown below.
 
 ```bash
+git fetch upstream
 git log --oneline --decorate --graph --all
 ```
 {% call show_output() %}

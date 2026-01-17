@@ -1,6 +1,7 @@
 {% import "common/macros.njk" as m with context %}
 
-<!--
+<!-- Setting up the sample repo:
+
 mkdir funny-glossary
 cd funny-glossary
 git init -b main
@@ -62,13 +63,13 @@ sleep 1
 git switch DEF
 echo -e "documentation: Evidence that someone once cared." > e.txt
 git add e.txt
-git commit -m "Add 'exception'"
+git commit -m "Add 'documentation'"
 
 -->
 
 <div id="scenario" class="d-none">
 
-Your `funny-glossary` repo is a collection of funny definitions of computing terms. Currently, you have divided the work into several parallel branches (e.g., terms starting with letters `A, B, C` are in the branch `ABC`), in the hope of recruiting a few friends to work on each branch. The branches are to be merged into the `main` branch later, to produce the full version of the glossary.
+`funny-glossary` is a repo used for collecting funny definitions of computing terms. Currently, the work divided into several parallel branches based on the starting letter of the terms -- for example, terms starting with letters `A, B, C` are in the branch `ABC` -- in the hope of recruiting a few more people to work on each branch. The branches are to be merged into the `main` branch later, to produce the full version of this 'funny glossary'.
 
 </div>
 

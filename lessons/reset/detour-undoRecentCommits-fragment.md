@@ -8,7 +8,7 @@
 Undoing or deleting recent `n` commits is easily accomplished with Git's `reset` feature.
 
 {% set cli %}
-* **To delete recent `n` commits and discard the those changes entirely, do a `hard` reset** the commit `HEAD~n` e.g.,
+* **To delete recent `n` commits and discard those changes entirely, do a `hard` reset** the commit `HEAD~n` e.g.,
   ```bash
   git reset --hard HEAD~3
   ```

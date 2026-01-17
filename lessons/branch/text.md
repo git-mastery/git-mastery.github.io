@@ -54,7 +54,7 @@ Appearance of the revision graph (colors, positioning, orientation etc.) varies 
 {% set manual %}
 Let's create a repo named `sports`, as follows:
 ```
-md sports
+mkdir sports
 cd sports
 git init -b main
 
@@ -111,7 +111,7 @@ git checkout -b feature1
 ```
 {% call show_output() %}
 ```bash
-Switched to branch 'feature1'
+Switched to a new branch 'feature1'
 ```
 {% endcall %}
 
@@ -154,7 +154,7 @@ Note how the `feature1` is indicated as the current branch (reason: Sourcetree a
   git commit -m "Add boxing.txt"
   ```
 * Observe how commits you add while on `feature1` branch will becomes part of that branch.<br>
-  Observe how the `main` ref and the `HEAD` ref move to the new commit.
+  Observe how the `feature1` ref and the `HEAD` ref move to the new commit.
 
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
@@ -260,9 +260,14 @@ gitGraph BT:
 
 {{ hp_number('1') }} Switch to the `main` branch.
 
-{{ hp_number('2') }} Checkout the commit at which the `feature1` branch diverged from the `main` branch (e.g. `git checkout HEAD~1`). This will create a detached `HEAD`.
+{{ hp_number('2') }} Checkout the commit at which the `feature1` branch diverged from the `main` branch (e.g. `git checkout HEAD~1`). This will create
+<trigger trigger="click" for="modal:branch-detachedHead">a 'detached' `HEAD`</trigger>.
 
-{{ hp_number('3') }} Create a new branch called `feature1-alt`. The `HEAD` will now point to this new branch (i.e., no longer 'detached').
+<modal large header="What is a 'detached' `HEAD`? (from [_T4L4. Traversing to a Specific Commit_](../checkout/index.html))" id="modal:branch-detachedHead">
+  <include src="../checkout/text.md#detached-head-explanation"/>
+</modal>
+
+{{ hp_number('3') }} Create a new branch called `feature1-alt` and switch to it (e.g., `git switch -c feature1-alt`). The `HEAD` will now point to this new branch (i.e., no longer 'detached').
 
 {% call show_protip("Creating a branch based on another branch in one shot") %}
 

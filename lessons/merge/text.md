@@ -28,11 +28,11 @@ Given below is an illustration of how such a merge looks like in the revision gr
 * We have switched to the `main` branch (thus, `HEAD` is now pointing to `main` ref).
 * The `fix1` branch has been merged into the `main` branch, creating a _merge commit_ `f`. The repo is still on the `main` branch.
 
-**The branch you are merging into is called the {{ show_git_term("destination branch") }}** (other terms: _receiving_ branch, _target_ branch)<br>
+**The branch you are merging _into_ (that is, the branch you are currently in when you do the merge operation) is called the {{ show_git_term("destination branch") }}** (other terms: _receiving_ branch, _target_ branch)<br>
 **The branch you are merging is referred to as the {{ show_git_term("source branch") }}</tooltip>** (other terms: _incoming_ branch, _merge_ branch).<br>
 In the above example, `main` is the destination branch and `fix1` is the source branch.
 
-**A merge commit has two parent commits** e.g., in the above example, the merge commit `f` has both `d` and `e` as parent commits. **The parent commit on the destination branch is considered the {{ show_git_term("first parent") }} and the parent commit on the source branch is considered the {{ show_git_term("second parent") }}** e.g., in the example above, `fix1` branch is the source branch that is being merged into the destination branch `main` -- accordingly, `d` is the first parent and `e` is the second parent.
+**A merge commit has two parent commits** e.g., in the above example, the merge commit `f` has both `d` and `e` as parent commits. **The parent commit that is on the <popover content="i.e., the branch you are merging _into_ (the branch you are currently in when you do the merge operation)">destination branch</popover> is considered the {{ show_git_term("first parent") }} and the parent commit on the <popover content="i.e., the branch that you are merging">source branch</popover> is considered the {{ show_git_term("second parent") }}** e.g., in the example above, `fix1` branch is the source branch that is being merged into the destination branch `main` -- accordingly, `d` is the first parent and `e` is the second parent.
 
 
 <!-- ================== start: HANDS-ON =========================== -->
