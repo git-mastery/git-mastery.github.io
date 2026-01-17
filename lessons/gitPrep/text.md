@@ -45,12 +45,12 @@ You can also right-click it and choose `Pin to Start` or `Pin to taskbar`.
 
 
 {% call show_sidebar("Git Bash Terminal") %}
-**Git Bash is a terminal application that lets you use Git from the command line on Windows.** Since Git was originally developed for Unix-like systems (like Linux and MacOS), Windows does not come with a native shell that supports all the commands and utilities commonly used with Git.
+**Git Bash is a terminal application that lets you use Git from the command line on Windows.** Since Git was originally developed for Unix-like systems (like Linux and macOS), Windows does not come with a native shell that supports all the commands and utilities commonly used with Git.
 
 <pic src="images/gitBashWindow.png" />
 
 **Git Bash provides a Unix-like command-line environment on Windows.** It includes:
-- A Bash shell (Bash stands for *Bourne Again SHell*), which is a widely used command-line interpreter on Linux and MacOS.
+- A Bash shell (Bash stands for *Bourne Again SHell*), which is a widely used command-line interpreter on Linux and macOS.
 - Common Unix tools and commands (like `ls`, `cat`, `ssh`, etc.) that are useful when working with Git and scripting.
 
 <box type="tip" seamless>

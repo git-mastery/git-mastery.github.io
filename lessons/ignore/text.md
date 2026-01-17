@@ -86,8 +86,8 @@ node_modules/
 
 **`.gitignore` is a 'hidden' file!**{.text-info}
 
-Files with a name starting with `.` (such as `.gitignore`) are considered as hidden files by MacOS and Linux. It is very likely the Git tools used in Windows also marked the `.gitignore` file as a hidden file. Therefore, if the `.gitignore` files is not visible to you, you'll need to look for it among 'hidden' files.<br>
-How to do that in: {{ ask_chatgpt(":fab-windows: Windows", "How to show hidden files in Windows?") }} | {{ ask_chatgpt(":fab-apple: MacOS", "How to show hidden files in MacOS?") }} | {{ ask_chatgpt(":fab-linux: Linux", "How to show hidden files in Linux?") }}
+Files with a name starting with `.` (such as `.gitignore`) are considered as hidden files by macOS and Linux. It is very likely the Git tools used in Windows also marked the `.gitignore` file as a hidden file. Therefore, if the `.gitignore` files is not visible to you, you'll need to look for it among 'hidden' files.<br>
+How to do that in: {{ ask_chatgpt(":fab-windows: Windows", "How to show hidden files in Windows?") }} | {{ ask_chatgpt(":fab-apple: macOS", "How to show hidden files in macOS?") }} | {{ ask_chatgpt(":fab-linux: Linux", "How to show hidden files in Linux?") }}
 </box>
 
 {% call show_hands_on_practical('Adding files to the ignore-list')  %}

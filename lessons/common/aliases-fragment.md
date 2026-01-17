@@ -26,7 +26,7 @@ git config --global alias.lodg "log --oneline --graph --decorate"
 
 **1. Locate your shell's config file e.g., `.bashrc` or `.zshrc`** (likely to be in your `~` folder)
   </tab>
-  <tab header=":fab-apple: MacOS | :fab-linux: Linux">
+  <tab header=":fab-apple: macOS | :fab-linux: Linux">
 
 **1. Locate your shell's config file e.g., `.bashrc` or `.zshrc`** (likely to be in your `~` folder)
 

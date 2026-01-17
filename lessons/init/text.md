@@ -118,7 +118,7 @@ ls -a
 
 To see the hidden folders, you might have to [configure Windows Explorer to show hidden files](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-97fbc472-c603-9d90-91d0-1166d1d9f4b5) first.
   </tab>
-  <tab header=":fab-apple: MacOS Finder">
+  <tab header=":fab-apple: macOS Finder">
 
 Press <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>.</kbd> to get Finder to show hidden folders/files inside the currently-selected folder.
   </tab>

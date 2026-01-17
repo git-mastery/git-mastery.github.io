@@ -6,7 +6,7 @@
         { "toggleId": "detours", "label": "Detours", "default": "show"},
         { "toggleId": "exercises", "label": "Exercises", "default": "show"},
         { "toggleId": "windows-only", "label": "Windows-only text segments", "description":  "i.e., Additional information related to Windows OS only"},
-        { "toggleId": "mac-only", "label": "MacOS-only text segments", "description":  "i.e., Additional information related to MacOS only"},
+        { "toggleId": "mac-only", "label": "macOS-only text segments", "description":  "i.e., Additional information related to macOS only"},
         { "toggleId": "linux-only", "label": "Linux-only text segments", "description":  "i.e., Additional information related to Linux OS only"}
       ],
     "tabGroups": [
@@ -16,7 +16,7 @@
         "default": "windows",
         "tabs": [
           { "tabId": "windows", "label": "Windows" },
-          { "tabId": "mac", "label": "MacOS" },
+          { "tabId": "mac", "label": "macOS" },
           { "tabId": "linux", "label": "Linux" }
         ]
       },
@@ -27,7 +27,7 @@
         "tabs": [
           { "tabId": "cli", "label": "CLI" },
           { "tabId": "sourcetree-windows", "label": "Sourcetree on Windows" },
-          { "tabId": "sourcetree-mac", "label": "Sourcetree on MacOS" }
+          { "tabId": "sourcetree-mac", "label": "Sourcetree on macOS" }
         ]
       }
     ]
