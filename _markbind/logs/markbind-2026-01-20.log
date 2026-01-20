@@ -1,0 +1,392 @@
+2026-01-20T07:02:49.411Z - info: Website generation (lazy) started at 15:02:49
+2026-01-20T07:02:49.585Z - info: Building assets...
+2026-01-20T07:02:49.908Z - info: Assets built
+2026-01-20T07:02:49.909Z - info: Generating landing page...
+2026-01-20T07:02:50.012Z - info: Landing page built, other pages will be built as you navigate to them!
+2026-01-20T07:02:50.077Z - info: Site data built
+2026-01-20T07:02:50.077Z - info: Website generation (lazy) complete! Total build time: 0.856s
+2026-01-20T07:02:50.085Z - info: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-01-20T07:02:50.086Z - info: Press CTRL+C to stop ...
+2026-01-20T07:03:09.096Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2026-01-20T07:03:09.491Z - info: Site data built
+2026-01-20T07:03:09.491Z - info: Lazy website regeneration complete! Total build time: 0.396s
+2026-01-20T07:03:31.319Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/index as some of its dependencies were changed since the last visit
+2026-01-20T07:03:31.426Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/text.md'
+2026-01-20T07:03:31.426Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/text.md'
+2026-01-20T07:03:31.426Z - info: Site data built
+2026-01-20T07:03:31.426Z - info: Lazy website regeneration complete! Total build time: 0.107s
+2026-01-20T07:03:36.652Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/index as some of its dependencies were changed since the last visit
+2026-01-20T07:03:36.750Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:03:36.750Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:03:36.750Z - info: Site data built
+2026-01-20T07:03:36.750Z - info: Lazy website regeneration complete! Total build time: 0.098s
+2026-01-20T07:04:26.889Z - info: [15:04:26] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:04:26.902Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:04:26.909Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:04:26.910Z - info: 1. lessons/clone/index
+2026-01-20T07:04:27.928Z - info: Rebuilding 1 pages
+2026-01-20T07:04:28.049Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:04:28.049Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:04:28.050Z - info: Site data built
+2026-01-20T07:04:28.050Z - info: Pages rebuilt
+2026-01-20T07:04:28.050Z - info: Website regeneration complete! Total build time: 0.124s
+2026-01-20T07:08:39.195Z - info: [15:08:39] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:08:39.196Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:08:39.197Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:08:39.197Z - info: 1. lessons/clone/index
+2026-01-20T07:08:40.202Z - info: Rebuilding 1 pages
+2026-01-20T07:08:40.297Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:08:40.297Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:08:40.298Z - info: Site data built
+2026-01-20T07:08:40.298Z - info: Pages rebuilt
+2026-01-20T07:08:40.298Z - info: Website regeneration complete! Total build time: 0.097s
+2026-01-20T07:08:47.119Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/index as some of its dependencies were changed since the last visit
+2026-01-20T07:08:47.266Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-20T07:08:47.266Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-20T07:08:47.266Z - info: Site data built
+2026-01-20T07:08:47.266Z - info: Lazy website regeneration complete! Total build time: 0.148s
+2026-01-20T07:12:44.658Z - info: [15:12:44] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:12:44.659Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:12:44.660Z - info: No pages are currently opened
+2026-01-20T07:12:45.668Z - info: No pages needed to be rebuilt
+2026-01-20T07:12:51.584Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/index as some of its dependencies were changed since the last visit
+2026-01-20T07:12:51.729Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:12:51.729Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:12:51.730Z - info: Site data built
+2026-01-20T07:12:51.731Z - info: Lazy website regeneration complete! Total build time: 0.146s
+2026-01-20T07:20:02.470Z - info: [15:20:02] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:20:02.471Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:20:02.472Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:20:02.472Z - info: 1. lessons/clone/index
+2026-01-20T07:20:03.476Z - info: Rebuilding 1 pages
+2026-01-20T07:20:03.565Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:20:03.565Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:20:03.566Z - info: Site data built
+2026-01-20T07:20:03.566Z - info: Pages rebuilt
+2026-01-20T07:20:03.566Z - info: Website regeneration complete! Total build time: 0.091s
+2026-01-20T07:20:25.944Z - info: [15:20:25] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:20:25.946Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:20:25.947Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:20:25.948Z - info: 1. lessons/clone/index
+2026-01-20T07:20:26.956Z - info: Rebuilding 1 pages
+2026-01-20T07:20:27.074Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:20:27.074Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:20:27.075Z - info: Site data built
+2026-01-20T07:20:27.075Z - info: Pages rebuilt
+2026-01-20T07:20:27.075Z - info: Website regeneration complete! Total build time: 0.122s
+2026-01-20T07:23:01.897Z - info: [15:23:01] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:23:01.900Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:23:01.902Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:23:01.902Z - info: 1. lessons/clone/index
+2026-01-20T07:23:02.911Z - info: Rebuilding 1 pages
+2026-01-20T07:23:03.016Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:23:03.016Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:23:03.016Z - info: Site data built
+2026-01-20T07:23:03.016Z - info: Pages rebuilt
+2026-01-20T07:23:03.016Z - info: Website regeneration complete! Total build time: 0.107s
+2026-01-20T07:23:43.560Z - info: [15:23:43] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:23:43.562Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:23:43.563Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:23:43.563Z - info: 1. lessons/clone/index
+2026-01-20T07:23:44.574Z - info: Rebuilding 1 pages
+2026-01-20T07:23:44.695Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:23:44.695Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:23:44.696Z - info: Site data built
+2026-01-20T07:23:44.696Z - info: Pages rebuilt
+2026-01-20T07:23:44.696Z - info: Website regeneration complete! Total build time: 0.124s
+2026-01-20T07:27:16.981Z - info: [15:27:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:27:16.989Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:27:16.992Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:27:16.993Z - info: 1. lessons/clone/index
+2026-01-20T07:27:18.003Z - info: Rebuilding 1 pages
+2026-01-20T07:27:18.114Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:27:18.114Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:27:18.115Z - info: Site data built
+2026-01-20T07:27:18.115Z - info: Pages rebuilt
+2026-01-20T07:27:18.115Z - info: Website regeneration complete! Total build time: 0.114s
+2026-01-20T07:29:12.504Z - info: [15:29:12] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:29:12.507Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:29:12.508Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:29:12.508Z - info: 1. lessons/clone/index
+2026-01-20T07:29:13.520Z - info: Rebuilding 1 pages
+2026-01-20T07:29:13.622Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:29:13.622Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:29:13.623Z - info: Site data built
+2026-01-20T07:29:13.623Z - info: Pages rebuilt
+2026-01-20T07:29:13.623Z - info: Website regeneration complete! Total build time: 0.106s
+2026-01-20T07:29:37.321Z - info: [15:29:37] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:29:37.322Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:29:37.323Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:29:37.323Z - info: 1. lessons/clone/index
+2026-01-20T07:29:38.329Z - info: Rebuilding 1 pages
+2026-01-20T07:29:38.435Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:29:38.435Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:29:38.435Z - info: Site data built
+2026-01-20T07:29:38.436Z - info: Pages rebuilt
+2026-01-20T07:29:38.436Z - info: Website regeneration complete! Total build time: 0.109s
+2026-01-20T07:30:38.045Z - info: [15:30:38] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:30:38.046Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:30:38.047Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:30:38.048Z - info: 1. lessons/clone/index
+2026-01-20T07:30:39.054Z - info: Rebuilding 1 pages
+2026-01-20T07:30:39.150Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:30:39.150Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:30:39.151Z - info: Site data built
+2026-01-20T07:30:39.151Z - info: Pages rebuilt
+2026-01-20T07:30:39.151Z - info: Website regeneration complete! Total build time: 0.1s
+2026-01-20T07:31:00.239Z - info: [15:31:00] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:31:00.241Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:31:00.242Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:31:00.243Z - info: 1. lessons/clone/index
+2026-01-20T07:31:01.249Z - info: Rebuilding 1 pages
+2026-01-20T07:31:01.350Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:31:01.350Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:31:01.351Z - info: Site data built
+2026-01-20T07:31:01.351Z - info: Pages rebuilt
+2026-01-20T07:31:01.351Z - info: Website regeneration complete! Total build time: 0.105s
+2026-01-20T07:31:29.806Z - info: [15:31:29] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:31:29.809Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:31:29.810Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:31:29.810Z - info: 1. lessons/clone/index
+2026-01-20T07:31:30.818Z - info: Rebuilding 1 pages
+2026-01-20T07:31:30.911Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:31:30.911Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:31:30.912Z - info: Site data built
+2026-01-20T07:31:30.912Z - info: Pages rebuilt
+2026-01-20T07:31:30.912Z - info: Website regeneration complete! Total build time: 0.096s
+2026-01-20T07:31:39.587Z - info: [15:31:39] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:31:39.587Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:31:39.588Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:31:39.588Z - info: 1. lessons/clone/index
+2026-01-20T07:31:40.603Z - info: Rebuilding 1 pages
+2026-01-20T07:31:40.694Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:31:40.694Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:31:40.695Z - info: Site data built
+2026-01-20T07:31:40.695Z - info: Pages rebuilt
+2026-01-20T07:31:40.695Z - info: Website regeneration complete! Total build time: 0.096s
+2026-01-20T07:32:01.494Z - info: [15:32:01] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:32:01.495Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:32:01.496Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:32:01.496Z - info: 1. lessons/clone/index
+2026-01-20T07:32:02.502Z - info: Rebuilding 1 pages
+2026-01-20T07:32:02.603Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:32:02.603Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:32:02.604Z - info: Site data built
+2026-01-20T07:32:02.604Z - info: Pages rebuilt
+2026-01-20T07:32:02.604Z - info: Website regeneration complete! Total build time: 0.105s
+2026-01-20T07:32:24.892Z - info: [15:32:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:32:24.895Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:32:24.897Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:32:24.897Z - info: 1. lessons/clone/index
+2026-01-20T07:32:25.905Z - info: Rebuilding 1 pages
+2026-01-20T07:32:26.016Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:32:26.016Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:32:26.017Z - info: Site data built
+2026-01-20T07:32:26.017Z - info: Pages rebuilt
+2026-01-20T07:32:26.017Z - info: Website regeneration complete! Total build time: 0.114s
+2026-01-20T07:33:02.918Z - info: [15:33:02] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:33:02.919Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:33:02.920Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:33:02.921Z - info: 1. lessons/clone/index
+2026-01-20T07:33:03.928Z - info: Rebuilding 1 pages
+2026-01-20T07:33:04.020Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:33:04.020Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:33:04.020Z - info: Site data built
+2026-01-20T07:33:04.020Z - info: Pages rebuilt
+2026-01-20T07:33:04.021Z - info: Website regeneration complete! Total build time: 0.095s
+2026-01-20T07:33:32.796Z - info: [15:33:32] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:33:32.802Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:33:32.803Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:33:32.804Z - info: 1. lessons/clone/index
+2026-01-20T07:33:33.815Z - info: Rebuilding 1 pages
+2026-01-20T07:33:33.903Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:33:33.903Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:33:33.904Z - info: Site data built
+2026-01-20T07:33:33.904Z - info: Pages rebuilt
+2026-01-20T07:33:33.904Z - info: Website regeneration complete! Total build time: 0.09s
+2026-01-20T07:33:44.491Z - info: [15:33:44] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:33:44.492Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:33:44.493Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:33:44.493Z - info: 1. lessons/clone/index
+2026-01-20T07:33:45.499Z - info: Rebuilding 1 pages
+2026-01-20T07:33:45.600Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:33:45.600Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:33:45.600Z - info: Site data built
+2026-01-20T07:33:45.600Z - info: Pages rebuilt
+2026-01-20T07:33:45.600Z - info: Website regeneration complete! Total build time: 0.103s
+2026-01-20T07:34:00.923Z - info: [15:34:00] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:34:00.924Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:34:00.926Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:34:00.926Z - info: 1. lessons/clone/index
+2026-01-20T07:34:01.937Z - info: Rebuilding 1 pages
+2026-01-20T07:34:02.032Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:34:02.032Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:34:02.033Z - info: Site data built
+2026-01-20T07:34:02.033Z - info: Pages rebuilt
+2026-01-20T07:34:02.033Z - info: Website regeneration complete! Total build time: 0.105s
+2026-01-20T07:34:12.426Z - info: [15:34:12] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:34:12.427Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:34:12.427Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:34:12.427Z - info: 1. lessons/clone/index
+2026-01-20T07:34:13.430Z - info: Rebuilding 1 pages
+2026-01-20T07:34:13.517Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:34:13.517Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:34:13.518Z - info: Site data built
+2026-01-20T07:34:13.518Z - info: Pages rebuilt
+2026-01-20T07:34:13.518Z - info: Website regeneration complete! Total build time: 0.09s
+2026-01-20T07:34:24.600Z - info: [15:34:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:34:24.600Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:34:24.601Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:34:24.601Z - info: 1. lessons/clone/index
+2026-01-20T07:34:25.606Z - info: Rebuilding 1 pages
+2026-01-20T07:34:25.701Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:34:25.702Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:34:25.703Z - info: Site data built
+2026-01-20T07:34:25.703Z - info: Pages rebuilt
+2026-01-20T07:34:25.703Z - info: Website regeneration complete! Total build time: 0.099s
+2026-01-20T07:35:17.844Z - info: [15:35:17] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:35:17.845Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:35:17.846Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:35:17.846Z - info: 1. lessons/clone/index
+2026-01-20T07:35:18.853Z - info: Rebuilding 1 pages
+2026-01-20T07:35:18.959Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:35:18.960Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:35:18.961Z - info: Site data built
+2026-01-20T07:35:18.961Z - info: Pages rebuilt
+2026-01-20T07:35:18.961Z - info: Website regeneration complete! Total build time: 0.109s
+2026-01-20T07:36:26.918Z - info: [15:36:26] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:36:26.921Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:36:26.922Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:36:26.923Z - info: 1. lessons/clone/index
+2026-01-20T07:36:27.934Z - info: Rebuilding 1 pages
+2026-01-20T07:36:28.060Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:36:28.060Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:36:28.062Z - info: Site data built
+2026-01-20T07:36:28.063Z - info: Pages rebuilt
+2026-01-20T07:36:28.063Z - info: Website regeneration complete! Total build time: 0.13s
+2026-01-20T07:40:10.827Z - info: [15:40:10] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:40:10.829Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:40:10.829Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:40:10.830Z - info: 1. lessons/clone/index
+2026-01-20T07:40:11.848Z - info: Rebuilding 1 pages
+2026-01-20T07:40:11.954Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:40:11.954Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:40:11.955Z - info: Site data built
+2026-01-20T07:40:11.955Z - info: Pages rebuilt
+2026-01-20T07:40:11.955Z - info: Website regeneration complete! Total build time: 0.115s
+2026-01-20T07:45:18.807Z - info: [15:45:18] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:45:18.809Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:45:18.810Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:45:18.810Z - info: 1. lessons/clone/index
+2026-01-20T07:45:19.818Z - info: Rebuilding 1 pages
+2026-01-20T07:45:19.919Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:45:19.919Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:45:19.921Z - info: Site data built
+2026-01-20T07:45:19.921Z - info: Pages rebuilt
+2026-01-20T07:45:19.921Z - info: Website regeneration complete! Total build time: 0.106s
+2026-01-20T07:47:12.200Z - info: [15:47:12] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T07:47:12.202Z - info: Synchronizing opened pages list before reload
+2026-01-20T07:47:12.202Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T07:47:12.203Z - info: 1. lessons/clone/index
+2026-01-20T07:47:13.213Z - info: Rebuilding 1 pages
+2026-01-20T07:47:13.304Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:47:13.304Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T07:47:13.305Z - info: Site data built
+2026-01-20T07:47:13.305Z - info: Pages rebuilt
+2026-01-20T07:47:13.305Z - info: Website regeneration complete! Total build time: 0.098s
+2026-01-20T08:34:55.210Z - info: [16:34:55] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/images/repoNaming.png
+2026-01-20T08:34:55.218Z - info: Synchronizing opened pages list before reload
+2026-01-20T08:34:55.219Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T08:34:55.219Z - info: 1. lessons/clone/index
+2026-01-20T08:34:56.288Z - info: Assets built
+2026-01-20T08:35:54.478Z - info: [16:35:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/images/repoNaming.png
+2026-01-20T08:35:54.480Z - info: Synchronizing opened pages list before reload
+2026-01-20T08:35:54.480Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T08:35:54.480Z - info: 1. lessons/clone/index
+2026-01-20T08:35:55.495Z - info: Assets built
+2026-01-20T08:36:37.624Z - info: [16:36:37] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T08:36:37.625Z - info: Synchronizing opened pages list before reload
+2026-01-20T08:36:37.626Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T08:36:37.626Z - info: 1. lessons/clone/index
+2026-01-20T08:36:38.642Z - info: Rebuilding 1 pages
+2026-01-20T08:36:38.741Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T08:36:38.741Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T08:36:38.742Z - info: Site data built
+2026-01-20T08:36:38.742Z - info: Pages rebuilt
+2026-01-20T08:36:38.742Z - info: Website regeneration complete! Total build time: 0.114s
+2026-01-20T08:36:49.619Z - info: [16:36:49] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-01-20T08:36:49.622Z - info: Synchronizing opened pages list before reload
+2026-01-20T08:36:49.623Z - info: Current opened pages, from most-to-least recent:
+2026-01-20T08:36:49.623Z - info: 1. lessons/clone/index
+2026-01-20T08:36:50.630Z - info: Rebuilding 1 pages
+2026-01-20T08:36:50.742Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T08:36:50.742Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-20T08:36:50.742Z - info: Site data built
+2026-01-20T08:36:50.742Z - info: Pages rebuilt
+2026-01-20T08:36:50.742Z - info: Website regeneration complete! Total build time: 0.114s
+2026-01-20T08:38:09.140Z - info: Website generation started at 16:38:08
+2026-01-20T08:38:09.263Z - info: Building assets...
