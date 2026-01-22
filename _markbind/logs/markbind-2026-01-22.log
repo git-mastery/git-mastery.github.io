@@ -1,2 +1,287 @@
 2026-01-22T08:35:48.174Z - info: Website generation started at 16:35:47
 2026-01-22T08:35:48.351Z - info: Building assets...
+2026-01-22T08:35:48.638Z - info: Assets built
+2026-01-22T08:35:48.638Z - info: Generating pages...
+2026-01-22T08:35:55.647Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/exercise-under-control.md'
+2026-01-22T08:35:55.648Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/exercise-under-control.md'
+2026-01-22T08:35:55.648Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/exercise-sensors-checkout.md'
+2026-01-22T08:35:55.648Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/exercise-sensors-checkout.md'
+2026-01-22T08:35:55.648Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/exercise-sensors-reset.md'
+2026-01-22T08:35:55.648Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/exercise-sensors-reset.md'
+2026-01-22T08:35:55.648Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/exercise-sensors-revert.md'
+2026-01-22T08:35:55.648Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/exercise-sensors-revert.md'
+2026-01-22T08:35:55.648Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2026-01-22T08:35:55.648Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md'
+2026-01-22T08:35:55.649Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/detour-undoRepoInit-fragment.md'
+2026-01-22T08:35:55.649Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/detour-undoRepoInit-fragment.md'
+2026-01-22T08:35:55.649Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2026-01-22T08:35:55.649Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2026-01-22T08:35:55.649Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2026-01-22T08:35:55.649Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2026-01-22T08:35:55.649Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/detour-unstagingChanges-fragment.md'
+2026-01-22T08:35:55.649Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2026-01-22T08:35:55.649Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2026-01-22T08:35:55.649Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2026-01-22T08:35:55.649Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2026-01-22T08:35:55.649Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2026-01-22T08:35:55.649Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2026-01-22T08:35:55.649Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2026-01-22T08:35:55.649Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md'
+2026-01-22T08:35:55.650Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/text.md'
+2026-01-22T08:35:55.650Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/text.md'
+2026-01-22T08:35:55.650Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-22T08:35:55.650Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md'
+2026-01-22T08:35:55.650Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2026-01-22T08:35:55.650Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md'
+2026-01-22T08:35:55.650Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md'
+2026-01-22T08:35:55.650Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md'
+2026-01-22T08:35:55.650Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/text.md'
+2026-01-22T08:35:55.650Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/text.md'
+2026-01-22T08:35:55.650Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-22T08:35:55.650Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md'
+2026-01-22T08:35:55.650Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-22T08:35:55.650Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md'
+2026-01-22T08:35:55.650Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md'
+2026-01-22T08:35:55.650Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md'
+2026-01-22T08:35:55.650Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md'
+2026-01-22T08:35:55.651Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md'
+2026-01-22T08:35:55.651Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/text.md'
+2026-01-22T08:35:55.651Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/text.md'
+2026-01-22T08:35:55.651Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md'
+2026-01-22T08:35:55.651Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md'
+2026-01-22T08:35:55.651Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-22T08:35:55.651Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-22T08:35:55.651Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-01-22T08:35:55.651Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/text.md'
+2026-01-22T08:35:55.651Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/text.md'
+2026-01-22T08:35:55.651Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/text.md'
+2026-01-22T08:35:55.651Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/text.md'
+2026-01-22T08:35:55.651Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md'
+2026-01-22T08:35:55.651Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md'
+2026-01-22T08:35:55.651Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-undoMerge-fragment.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-undoMerge-fragment.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-compareBranches-fragment.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-compareBranches-fragment.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-squashMerge-fragment.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-squashMerge-fragment.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/text.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/text.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/text.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/text.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-update.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-update.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-push.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-push.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-add.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-add.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/exercise-staging-intervention.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/exercise-staging-intervention.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/exercise-stage-fright.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/exercise-stage-fright.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/exercise-view-commits.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/exercise-view-commits.md'
+2026-01-22T08:35:55.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/exercise-link-me.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/exercise-link-me.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/exercise-remote-branch-rename.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/exercise-remote-branch-rename.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/exercise-glossary-branch-rename.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/exercise-glossary-branch-rename.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPush/exercise-glossary-branch-push.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPush/exercise-glossary-branch-push.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPull/exercise-glossary-branch-pull.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPull/exercise-glossary-branch-pull.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/exercise-glossary-branch-delete.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/exercise-glossary-branch-delete.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/exercise-push-over.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/exercise-push-over.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/exercise-fetch-and-pull.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/exercise-fetch-and-pull.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/exercise-conflict-mediator.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/exercise-conflict-mediator.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-squash.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-squash.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-ff-undo.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-ff-undo.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-forward.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-forward.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-bender.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-bender.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/exercise-log-and-order.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/exercise-log-and-order.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/exercise-undo-init.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/exercise-undo-init.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/exercise-ignoring-somethings.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/exercise-ignoring-somethings.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/exercise-fork-repo.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/exercise-fork-repo.md'
+2026-01-22T08:35:55.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/exercise-sensors-diff.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/exercise-sensors-diff.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/exercise-remote-control.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/exercise-remote-control.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/exercise-grocery-shopping.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/exercise-grocery-shopping.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/exercise-clone-repo.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/exercise-clone-repo.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/exercise-branch-rename.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/exercise-branch-rename.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-mix-messy-graph.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-mix-messy-graph.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-mix-messy-docs.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-mix-messy-docs.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-branch-delete.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-branch-delete.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-side-track.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-side-track.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-branch-previous.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-branch-previous.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-branch-compare.md'
+2026-01-22T08:35:55.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-branch-compare.md'
+2026-01-22T08:35:55.655Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/branch/images/listRemoteBranches.png' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranches/sourcetree_4.md'
+2026-01-22T08:35:55.655Z - info: Pages built
+2026-01-22T08:35:55.723Z - info: Site data built
+2026-01-22T08:35:55.723Z - info: Website generation complete! Total build time: 7.738s
+2026-01-22T08:35:55.723Z - info: Build success!
+2026-01-22T08:36:04.181Z - info: The website has been deployed at: git-mastery.org
