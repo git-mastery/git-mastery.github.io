@@ -1,0 +1,138 @@
+2026-01-23T16:59:57.854Z - info: Website generation (lazy) started at 00:59:57
+2026-01-23T16:59:58.049Z - info: Building assets...
+2026-01-23T16:59:58.323Z - info: Assets built
+2026-01-23T16:59:58.324Z - info: Generating landing page...
+2026-01-23T16:59:58.410Z - info: Landing page built, other pages will be built as you navigate to them!
+2026-01-23T16:59:58.478Z - info: Site data built
+2026-01-23T16:59:58.478Z - info: Website generation (lazy) complete! Total build time: 0.811s
+2026-01-23T16:59:58.484Z - info: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-01-23T16:59:58.484Z - info: Press CTRL+C to stop ...
+2026-01-23T17:00:03.361Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/exercises-directory/index as some of its dependencies were changed since the last visit
+2026-01-23T17:00:03.927Z - info: Site data built
+2026-01-23T17:00:03.928Z - info: Lazy website regeneration complete! Total build time: 0.567s
+2026-01-23T17:00:13.105Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo as some of its dependencies were changed since the last visit
+2026-01-23T17:00:13.162Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-23T17:00:13.162Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-23T17:00:13.162Z - info: Site data built
+2026-01-23T17:00:13.162Z - info: Lazy website regeneration complete! Total build time: 0.057s
+2026-01-23T17:02:45.583Z - info: [01:02:45] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md
+2026-01-23T17:02:45.585Z - info: Synchronizing opened pages list before reload
+2026-01-23T17:02:45.586Z - info: Current opened pages, from most-to-least recent:
+2026-01-23T17:02:45.586Z - info: 1. lessons/merge/exercise-merge-undo
+2026-01-23T17:02:45.586Z - info: 2. exercises-directory/index
+2026-01-23T17:02:46.599Z - info: Rebuilding 2 pages
+2026-01-23T17:02:46.992Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-23T17:02:46.992Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-23T17:02:46.993Z - info: Site data built
+2026-01-23T17:02:46.993Z - info: Pages rebuilt
+2026-01-23T17:02:46.993Z - info: Website regeneration complete! Total build time: 0.396s
+2026-01-23T17:07:50.984Z - info: [01:07:50] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md
+2026-01-23T17:07:50.990Z - info: Synchronizing opened pages list before reload
+2026-01-23T17:07:50.991Z - info: Current opened pages, from most-to-least recent:
+2026-01-23T17:07:50.991Z - info: 1. lessons/merge/exercise-merge-undo
+2026-01-23T17:07:50.991Z - info: 2. exercises-directory/index
+2026-01-23T17:07:51.997Z - info: Rebuilding 2 pages
+2026-01-23T17:07:52.374Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-23T17:07:52.375Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-23T17:07:52.375Z - info: Site data built
+2026-01-23T17:07:52.375Z - info: Pages rebuilt
+2026-01-23T17:07:52.375Z - info: Website regeneration complete! Total build time: 0.38s
+2026-01-23T17:08:19.603Z - info: [01:08:19] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md
+2026-01-23T17:08:19.603Z - info: Synchronizing opened pages list before reload
+2026-01-23T17:08:19.603Z - info: Current opened pages, from most-to-least recent:
+2026-01-23T17:08:19.604Z - info: 1. lessons/merge/exercise-merge-undo
+2026-01-23T17:08:19.604Z - info: 2. exercises-directory/index
+2026-01-23T17:08:20.609Z - info: Rebuilding 2 pages
+2026-01-23T17:08:20.954Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-23T17:08:20.954Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-23T17:08:20.954Z - info: Site data built
+2026-01-23T17:08:20.955Z - info: Pages rebuilt
+2026-01-23T17:08:20.955Z - info: Website regeneration complete! Total build time: 0.348s
+2026-01-23T17:09:33.171Z - info: [01:09:33] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md
+2026-01-23T17:09:33.172Z - info: Synchronizing opened pages list before reload
+2026-01-23T17:09:33.172Z - info: Current opened pages, from most-to-least recent:
+2026-01-23T17:09:33.173Z - info: 1. lessons/merge/exercise-merge-undo
+2026-01-23T17:09:33.173Z - info: 2. exercises-directory/index
+2026-01-23T17:09:34.179Z - info: Rebuilding 2 pages
+2026-01-23T17:09:34.537Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-23T17:09:34.537Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-23T17:09:34.538Z - info: Site data built
+2026-01-23T17:09:34.538Z - info: Pages rebuilt
+2026-01-23T17:09:34.538Z - info: Website regeneration complete! Total build time: 0.362s
+2026-01-23T17:11:11.546Z - info: [01:11:11] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md
+2026-01-23T17:11:11.548Z - info: Synchronizing opened pages list before reload
+2026-01-23T17:11:11.555Z - info: Current opened pages, from most-to-least recent:
+2026-01-23T17:11:11.555Z - info: 1. lessons/merge/exercise-merge-undo
+2026-01-23T17:11:11.555Z - info: 2. exercises-directory/index
+2026-01-23T17:11:12.558Z - info: Rebuilding 2 pages
+2026-01-23T17:11:12.918Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-23T17:11:12.919Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-23T17:11:12.920Z - info: Site data built
+2026-01-23T17:11:12.920Z - info: Pages rebuilt
+2026-01-23T17:11:12.920Z - info: Website regeneration complete! Total build time: 0.363s
+2026-01-23T17:11:50.017Z - info: [01:11:50] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md
+2026-01-23T17:11:50.017Z - info: Synchronizing opened pages list before reload
+2026-01-23T17:11:50.018Z - info: Current opened pages, from most-to-least recent:
+2026-01-23T17:11:50.018Z - info: 1. lessons/merge/exercise-merge-undo
+2026-01-23T17:11:50.018Z - info: 2. exercises-directory/index
+2026-01-23T17:11:51.025Z - info: Rebuilding 2 pages
+2026-01-23T17:11:51.399Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-23T17:11:51.399Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-23T17:11:51.400Z - info: Site data built
+2026-01-23T17:11:51.400Z - info: Pages rebuilt
+2026-01-23T17:11:51.400Z - info: Website regeneration complete! Total build time: 0.378s
+2026-01-23T17:12:24.554Z - info: [01:12:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md
+2026-01-23T17:12:24.554Z - info: Synchronizing opened pages list before reload
+2026-01-23T17:12:24.556Z - info: Current opened pages, from most-to-least recent:
+2026-01-23T17:12:24.556Z - info: 1. lessons/merge/exercise-merge-undo
+2026-01-23T17:12:24.556Z - info: 2. exercises-directory/index
+2026-01-23T17:12:25.560Z - info: Rebuilding 2 pages
+2026-01-23T17:12:25.913Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-23T17:12:25.913Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-23T17:12:25.914Z - info: Site data built
+2026-01-23T17:12:25.914Z - info: Pages rebuilt
+2026-01-23T17:12:25.914Z - info: Website regeneration complete! Total build time: 0.356s
+2026-01-23T17:12:50.701Z - info: [01:12:50] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md
+2026-01-23T17:12:50.702Z - info: Synchronizing opened pages list before reload
+2026-01-23T17:12:50.702Z - info: Current opened pages, from most-to-least recent:
+2026-01-23T17:12:50.702Z - info: 1. lessons/merge/exercise-merge-undo
+2026-01-23T17:12:50.703Z - info: 2. exercises-directory/index
+2026-01-23T17:12:51.705Z - info: Rebuilding 2 pages
+2026-01-23T17:12:52.052Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-23T17:12:52.053Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-23T17:12:52.053Z - info: Site data built
+2026-01-23T17:12:52.053Z - info: Pages rebuilt
+2026-01-23T17:12:52.053Z - info: Website regeneration complete! Total build time: 0.349s
+2026-01-23T17:13:01.405Z - info: [01:13:01] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md
+2026-01-23T17:13:01.406Z - info: Synchronizing opened pages list before reload
+2026-01-23T17:13:01.406Z - info: Current opened pages, from most-to-least recent:
+2026-01-23T17:13:01.406Z - info: 1. lessons/merge/exercise-merge-undo
+2026-01-23T17:13:01.406Z - info: 2. exercises-directory/index
+2026-01-23T17:13:02.408Z - info: Rebuilding 2 pages
+2026-01-23T17:13:02.761Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-23T17:13:02.761Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md'
+2026-01-23T17:13:02.762Z - info: Site data built
+2026-01-23T17:13:02.762Z - info: Pages rebuilt
+2026-01-23T17:13:02.762Z - info: Website regeneration complete! Total build time: 0.355s
+2026-01-23T17:17:01.489Z - info: Website generation started at 01:17:01
+2026-01-23T17:17:01.618Z - info: Building assets...
