@@ -4,7 +4,7 @@
 
 You are writing the outline for a story, in `story.txt`. You have written the first few steps of the storyline.
 
-**Curren revision graph:**
+**Current revision graph:**
 <mermaid>
 
 gitGraph BT:

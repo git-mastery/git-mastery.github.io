@@ -80,11 +80,14 @@ If you check out a commit that comes before the commit in which you added a cert
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
-**If there are uncommitted changes in the working directory, Git proceeds with a checkout _only_ if it can preserve those changes**.
-* Example 1: There is a new file in the working directory that is not committed yet.<br>
-  → Git will proceed with the checkout and will keep the uncommitted file as well.
-* Example 2: There is an uncommitted change to a file that conflicts with the version of that file in the commit you wish to check out.<br>
-  → Git will abort the checkout, and the repo will remain in the current commit.
+**If there are uncommitted changes in the working directory or staging area, Git proceeds with a checkout only if doing so would not overwrite or remove those changes.** Here are some examples to illustrate this behavior:
+* Example 1: There is a new uncommitted file in the working directory.<br>
+  → If the new file is untracked: Git proceeds with the checkout and keeps the file, provided the target commit does not contain a tracked file at the same path.<br>
+  → If the new file is staged: Git proceeds with the checkout only if the checkout would not overwrite or remove the staged version of the file.
+* Example 2: There is an uncommitted change to a file that would be overwritten by the version in the commit you want to check out.<br>
+  → Git aborts the checkout.
+
+If the above examples are a bit too abstract for you to grasp at this point, the important thing to remember is that **Git aims to prevent your uncommitted changes from being irrecoverably lost due to a checkout operation**.
 
 **The Git {{ show_git_term("stash") }} feature temporarily sets aside uncommitted changes** you’ve made (in your working directory and staging area), without committing them. This is useful when you’re in the middle of some work, but need to switch to another state (e.g., checkout a previous commit), and your current changes are not yet ready to be committed or discarded. You can later reapply the stashed changes when you’re ready to resume that work.
 </div>

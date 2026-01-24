@@ -11,9 +11,29 @@ The next step is to **create a local copy of the remote repo, by _cloning_ the r
 
 **You can {{ show_git_term("clone") }} a repository to create a full copy of it on your computer.** This copy includes the entire revision history, branches, and files of the original, so it behaves just like the original repository. For example, you can clone a repository from a hosting service like GitHub to your computer, giving you a complete local version to work with.
 
-**Cloning a repo automatically creates a remote named {{ show_git_term("origin") }}** which points to the repo you cloned from.
+**Cloning a repo automatically creates a remote named `origin`** which points to the repo you cloned from.
 
-**The repo you cloned from is often referred to as the {{ show_git_term("upstream") }} repo.**
+<box type="info" icon=":fab-git-alt:" icon-size="2x" seamless>
+
+**Conventions:**{.text-info}
+
+When configuring remotes for a Git repository, the following naming conventions are commonly used:
+
+* **`origin`: The repository that you _cloned_ from** is usually given the remote name `origin`.
+Git sets this remote name automatically when you clone a repository (but you can change it to something else).
+* **`upstream`: In fork-based workflows, the repository you _forked_ from** is often added as a second remote named `upstream`. This name is not created by Git automatically; it is a convention chosen by developers. Some use more specific name for this, for example, `team-repo`.
+
+Separately from remote _names_, the term {{ show_git_term("'upstream'") }} is also used informally to describe the direction of duplication between repositories. When one repository is created by duplicating another (for example, by forking or cloning), the original repository is said to be _upstream_ of the duplicate.
+
+Example:
+* If you fork R1 to create R2, then _R1 is upstream of R2_.
+* If you then clone R2 to create R3, both _R1 and R2 are upstream of R3_.
+
+<pic src="images/repoNaming.png" width="500" />
+
+</box>
+
+
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Cloning a remote repo")  %}

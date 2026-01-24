@@ -21,7 +21,7 @@ The background is same as the scenario in exercise {{ m.show_exercise_link(exerc
    Pull the new commit in the remote's `ABC` branch to your local copy of that branch.
 1. the `DEF` branch on the remote has a new commit that you don't have locally. Meanwhile, the local `DEF` branch has a commit that doesn't exist in the remote `origin`.<br>
    Pull the new commits in the remote's `DEF` branch to your local copy of that branch.<br>
-   Note: Because the local copy and the remote copy have diverged, this pull should result it an additional merge commit.
+   Note: Because the local copy and the remote copy have diverged, this pull should result in an additional merge commit.
 </div>
 
 {{ m.show_exercise(m.exercises.glossary_branch_pull, is_panel=0) }}

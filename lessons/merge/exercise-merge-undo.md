@@ -7,7 +7,9 @@ You are keeping notes on the characters of a play that you are writing. In the m
 <mermaid>
 
 gitGraph BT:
+    commit id: "Set initial state"
     commit id: "Add Rick"
+    commit id: "Add Morty"
     branch daughter
     branch son-in-law
     checkout daughter
@@ -15,9 +17,9 @@ gitGraph BT:
     checkout son-in-law
     commit id: "[son-in-law] Add Jerry"
     checkout main
-    commit id: "Add Morty"
-    merge daughter id: "Merge daughter"
-    merge son-in-law id: "[HEAD → main] Merge son-in-law"
+    commit id: "Mention Morty is grandson"
+    merge daughter id: "Introduce Beth"
+    merge son-in-law id: "[HEAD → main] Introduce Jerry"
 </mermaid>
 
 However, now you realise this is premature, and wish to undo that change.
@@ -30,7 +32,9 @@ Undo the merging of branches `son-in-law` and `daughter`. The result should be a
 <mermaid>
 
 gitGraph BT:
+    commit id: "Set initial state"
     commit id: "Add Rick"
+    commit id: "Add Morty"
     branch daughter
     branch son-in-law
     checkout daughter
@@ -38,7 +42,7 @@ gitGraph BT:
     checkout son-in-law
     commit id: "[son-in-law] Add Jerry"
     checkout main
-    commit id: "[HEAD → main] Add Morty"
+    commit id: "[HEAD → main] Mention Morty is grandson"
 </mermaid>
 
 </div>

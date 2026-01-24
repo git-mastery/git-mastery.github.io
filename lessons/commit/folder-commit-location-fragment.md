@@ -17,7 +17,7 @@
 </div>
 <div id="staging">
 
-%%[empty, if all staged changes were committed]%%
+%%[if this is right after the commit was created, no _changes_ will appear here, i.e., the **staging area matches the snapshot in the commit**]%%
 </div>
 <div id="working">
 

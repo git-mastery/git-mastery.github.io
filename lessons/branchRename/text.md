@@ -77,7 +77,7 @@ sleep 1
 git merge --no-ff -m "Merge branch textbooks" textbooks
 ```
 
-{{ icon_info }} The `sleep 1` in line 17 adds delay to ensure the next commit has a different timestamp the one before.<br>
+{{ icon_info }} The `sleep 1` in line 17 adds a delay to ensure the next commit has a different timestamp the one before.<br>
 Reason: Commit timestamps are rounded to the nearest second. If multiple commits have the same timestamp, the shape of `git log` output (which orders commits based on commit timestamp) can be slightly different from what we expect, which can be confusing.
 {% endset %}
 

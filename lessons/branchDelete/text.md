@@ -115,7 +115,7 @@ gitGraph BT:
     merge textbooks id: "[HEAD → main] mc1"
 </mermaid>
 
-The work in the `textbook` branch has been completed, and the branch has been merged -- there is no need to keep that branch anymore.<br>
+The work in the `textbooks` branch has been completed, and the branch has been merged -- there is no need to keep that branch anymore.<br>
 The work in the `fantasy` branch is no longer needed. Hence, there is no need for the branch either.
 
 {{ hp_number(hop_target) }} Delete the `textbooks` (merged) and `fantasy` branches (unmerged).
@@ -149,7 +149,7 @@ git merge --no-ff -m "Merge branch textbooks" textbooks
 
 {{ show_hop_prep('hp-branch-delete', manual_info=manual) }}
 
-{{ hp_number("1") }} **Delete the (the merged) `textbooks` branch.**
+{{ hp_number("1") }} **Delete the (merged) `textbooks` branch.**
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 Use the `git branch -d <branch>` command to delete a local branch 'safely' -- this command will fail if the branch has unmerged changes. In this case, it will succeed as the branch has no unmerged commits.
 

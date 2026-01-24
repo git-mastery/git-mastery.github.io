@@ -61,9 +61,8 @@ git commit -m "Add 'refactoring'"
 sleep 1
 
 git switch DEF
-echo -e "documentation: Evidence that someone once cared." > e.txt
-git add e.txt
-git commit -m "Add 'documentation'"
+echo -e "documentation: Evidence that someone once cared." >> d.txt
+git commit -am "Add 'documentation'"
 
 -->
 

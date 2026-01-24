@@ -35,11 +35,14 @@ Resetting is different from the _checkout_ feature:
 {% endset %}
 {{ show_transformation_columns(a, b, c) }}
 
-**There are three types of resets: soft, mixed, hard.** All three move the branch pointer to a new commit, but they vary based on what happens to the staging area and the working directory.
+**There are three types of resets: soft, mixed, hard.** All three move the branch pointer (and `HEAD`) to a new commit, but they vary based on what happens to the staging area and the working directory.
 
-* {{ show_git_term("soft reset") }}: Moves the cumulative changes from the discarded commits into the staging area, waiting to be committed again. Any staged and unstaged changes that existed before the reset will remain untouched.
-* {{ show_git_term("mixed reset") }}: Cumulative changes from the discarded commits, and any existing staged changes, are moved into the working directory.
-* {{ show_git_term("hard reset") }}: All staged and unstaged changes are discarded. Both the working directory and the staging area are aligned with the target commit (as if no changes were done after that commit).
+* {{ show_git_term("soft reset") }}: Moves the cumulative changes from the discarded commits into the staging area. Any staged and unstaged changes that existed before the reset will remain unchanged.<br>
+  → _It is as if you did all the changes in the discarded commits and staged them, but never committed them._
+* {{ show_git_term("mixed reset") }}: Cumulative changes from the discarded commits, and any existing staged changes, are moved into the working directory. After the reset, no changes are staged.<br>
+  → _It is as if you did all the changes in the discarded commits, but never staged or committed them._
+* {{ show_git_term("hard reset") }}: All staged and unstaged changes are discarded. Both the working directory and the staging area are aligned with the target commit.<br>
+  → _It is as if no changes were done after the target commit._
 
 
 <!-- ================== start: HANDS-ON =========================== -->

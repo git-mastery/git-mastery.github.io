@@ -30,8 +30,9 @@ gitGraph BT:
 <div id="task" class="d-none">
 
 1. Create a new branch `development`, starting from the commit tagged `v1.0`
-2. Merge the `feature-search` branch onto the `development` branch, without using fast-forwarding (i.e., create a merge commit). Delete the `feature-search` branch.
-3. Similarly, merge the `feature-delete` branch onto the `development` branch. Resolve any merge conflicts -- in the `features.md`, the delete feature should appear after the search feature (see below). Delete the `feature-delete` branch.
+2. Merge the `feature-search` branch onto the `development` branch, without using fast-forwarding (i.e., create a merge commit). Use the default commit message (i.e., `Merge branch 'feature-search' into development`).<br>
+   Delete the `feature-search` branch.
+3. Similarly, merge the `feature-delete` branch onto the `development` branch. Resolve any merge conflicts -- in the `features.md`, the delete feature should appear after the search feature (see below). Keep the default commit message. Delete the `feature-delete` branch.
    ```markdown { heading="features.md" }
    # Features
 

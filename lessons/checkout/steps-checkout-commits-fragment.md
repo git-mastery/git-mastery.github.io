@@ -63,24 +63,28 @@ ec49b17 Add fruits.txt
 But note how the output does not show commits you added _after_ the checked-out commit.
 {% endcall %}
 
-<box type="info" seamless>
+You can use the following command to verify that the missing commits still exist in the repo.
 
-**The `--all` switch tells `git log` to show commits from _all_ refs**, not just those reachable from the current `HEAD`. This includes commits from other branches, tags, and remotes.
-</box>
-
-```bash{.no-line-numbers highlight-lines="1['--all']@yellow"}
-git log --oneline --decorate --all
+```bash{.no-line-numbers highlight-lines="1['--all']@yellow,1['--date-order']@yellow"}
+git log --oneline --decorate --all --date-order
 ```
 {% call m.show_output() %}
 ```bash{.no-line-numbers highlight-lines="1,2,['--all']@yellow"}
-6304a59 (main) shapes.txt: Add some shapes
-8ca5cc6 (tag: 0.9) Add colours.txt, shapes.txt
-9f68246 (tag: 1.0) colours.txt: Add some colours
-2ef8852 (HEAD) Update fruits list
-542668f Add elderberries and figs into fruits.txt
-ec49b17 Add fruits.txt
+2a6daee (main) shapes.txt: Add some shapes
+b9a03c0 (tag: 1.0) colours.txt: Add some colours
+b57ad18 (HEAD) Update fruits list
+aff416b (tag: 0.9) Add colours.txt, shapes.txt
+8998bfb Add elderberries and figs into fruits.txt
+9d3b329 Add fruits.txt
 ```
 {% endcall %}
+<box type="info" seamless>
+
+**The `--all` switch tells `git log` to show commits from _all_ refs**, not just those reachable from the current `HEAD`. This includes commits from other branches, tags, and remotes.
+
+**The `--date-order` switch tells `git log` to order commits primarily by commit date, but never show a child commit before its parent.** This way, the output stays chronologically and topologically sensible
+_even when multiple commits have identical timestamps_ (a situation that can happen when commits are generated programmatically by a tool/script e.g., Git-Mastery).
+</box>
 
 {{ m.hp_number ('4') }} **Go back to the latest commit** by checking out the `main` branch again.
 

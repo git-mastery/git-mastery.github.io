@@ -264,14 +264,25 @@ gitmastery --help
 The current version of #r#the app takes about 3-5 seconds to respond to a command##. This is because the app comes with a bundled Python runtime (so that users don't need to install Python first) which needs to load first before the command can be executed.
 </box>
 
-**3. Trigger the initial setup** by running the `gitmastery setup` command in a suitable folder (the app will create files/folders inside this folder).
+**3. In a terminal, navigate to a suitable folder** that you wish Git-Mastery to place the files and folders it creates.
 
+<box type="important" seamless>
+
+**Do not use a folder controlled by OneDrive, Dropbox, GDrive, etc. for this!**{.text-danger} Git, and by extension Git-Mastery, can run into problems if Git repositories are placed inside folders controlled by file sync software such as OneDrive, Dropbox, GDrive, etc. {{ ask_chatgpt(":thinking: Why?", "Why creating Git repos inside folders controlled by file sync software such as OneDrive is not advisable?") }}
+</box>
+
+Example:
 ```bash{.no-line-numbers}
 mkdir gitmastery-home
 cd gitmastery-home
-gitmastery setup
 ```
 {{ ask_chatgpt("Explanation of `mkdir gitmastery-home` command", "I'm new to using the bash terminal. Explain to me how the `mkdir gitmastery-home` command works.") }}
+
+**4. Trigger the initial setup** by running the `gitmastery setup` command in that terminal.
+
+```bash{.no-line-numbers}
+gitmastery setup
+```
 
 The `gitmastery setup` command will perform the following tasks:
 * Checks if Git is installed. {{ numbers_abcd }}

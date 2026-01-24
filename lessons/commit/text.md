@@ -9,13 +9,16 @@
 After staging, you can now proceed to **save the snapshot, aka creating a _commit_**.
 {% endcall %}
 
-**Saving a snapshot is called {{ show_git_term('committing') }} and a saved snapshot is called a {{ show_git_term('commit') }}.**
+**Saving a snapshot of a repository is called {{ show_git_term('committing') }}, and the saved snapshot itself is called a {{ show_git_term('commit') }}.**
 
-**A Git commit is a full snapshot of your working directory based on the files you have staged**, more precisely, a record of the exact state of all files in the staging area (aka _index_) at that moment -- even the files that have not changed since the last commit. This is in contrast to the intuitive expectation that only the <tooltip content="i.e., the changes made since the last commit">delta</tooltip> is stored in a commit. Consequently, a Git commit has all the information it needs to recreate the snapshot of the working directory at the time the commit was created.<br>
-**A commit also includes metadata** such as the author, date, and an optional {{ show_git_term('commit message') }} describing the change.
+**Git constructs a commit based on the staging area.** When you examine the staging area using a CLI command or a Git GUI, you are typically shown only a list of staged _changes_. This presentation can give the misleading impression that the staging area is merely a record of changes you have selected to include in the commit. In reality, the staging area which Git internally calls **the _index_, is a complete record of the exact version of every tracked file that would be written into the next commit**, not just a record of staged changes. This behaviour aligns more closely with the name "index" than the name "staging area".
+
+**A Git commit is therefore a full snapshot of all tracked files.** More precisely, a record of the exact state of all files in the staging area at that moment -- even the files that have not changed since the previous commit. This contrasts with to the intuitive expectation that only the <tooltip content="i.e., the changes made since the last commit">delta</tooltip> is stored in a commit. Consequently, a Git commit has all the information it needs to recreate the snapshot of the tracked files in working directory at that point in time. In addition to the file contents, **a commit also stores metadata such as the author, date, and an optional {{ show_git_term('commit message') }} describing the change**.
 
 {{ show_folder_contents('folder-commit-location-fragment.md', has_metadata=1, width=380) }}
 <p/>
+
+ Following from this, **the state of the staging area is not "empty" right after a commit. Rather, it is empty of _changes_**. It still contains a record of all tracked files, reflecting exactly the versions that were written into the previous commit.
 
 <box type="important" light>
 
