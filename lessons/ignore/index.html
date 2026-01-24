@@ -284,7 +284,7 @@
 
     </div>
     </div>
-    </button></div></pre></li></ul></li> <li><p>Directories:</p> <ul><li>Add a trailing <code class="hljs inline no-lang">/</code> to match directories.<pre><code class="hljs bash"><span>logs/         <span class="hljs-comment"># Ignores the logs directory</span>
+    </button></div></pre></li></ul></li> <li><p>Directories:</p> <ul><li><p>Add a trailing <code class="hljs inline no-lang">/</code> to match directories only.</p> <pre><code class="hljs bash"><span>logs/          <span class="hljs-comment"># Ignores the logs directory (and everything under it)</span>
 </span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
     <div class="tooltip-container">
     <span class="tooltiptext">Copy</span>
@@ -326,7 +326,7 @@
 
     </div>
     </div>
-    </button></div></pre></li> <li>Patterns without <code class="hljs inline no-lang">/</code> match files/folders recursively.<pre><code class="hljs bash"><span>*.bak         <span class="hljs-comment"># Ignores all .bak files anywhere</span>
+    </button></div></pre></li> <li><p>Patterns without <code class="hljs inline no-lang">/</code> are not anchored and are matched at any directory level.</p> <pre><code class="hljs bash"><span>*.bak          <span class="hljs-comment"># Ignores all .bak files anywhere in the repository</span>
 </span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
     <div class="tooltip-container">
     <span class="tooltiptext">Copy</span>
@@ -368,7 +368,7 @@
 
     </div>
     </div>
-    </button></div></pre></li> <li>Patterns with <code class="hljs inline no-lang">/</code> are relative to the <code class="hljs inline no-lang">.gitignore</code> location.<pre><code class="hljs bash"><span>/secret.txt   <span class="hljs-comment"># Only ignores secret.txt in the root directory</span>
+    </button></div></pre></li> <li><p>Patterns starting with <code class="hljs inline no-lang">/</code> are relative to the location of the <code class="hljs inline no-lang">.gitignore</code> file.</p> <pre><code class="hljs bash"><span>/secret.txt    <span class="hljs-comment"># Only ignores secret.txt in the repository root</span>
 </span></code><div class="function-btn-container"><button onclick="copyCodeBlock(this)" class="function-btn d-print-none">
     <div class="tooltip-container">
     <span class="tooltiptext">Copy</span>
@@ -806,7 +806,7 @@ Also take note of other options available e.g., <code class="hljs inline no-lang
 
     </div>
     </div>
-    </button></div></pre></li> <li><strong>Add it to the <code class="hljs inline no-lang">.gitignore</code></strong> file, as usual.</li></ol> <p>The above steps will remove the file from the staging area but will not delete it from the working directory. If this file was included in previous commits, the next commit will show it as &#39;deleted&#39; (because is no longer visible to Git).</p></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><div class="peek-read-more glyphicon glyphicon-chevron-down" data-v-4484e25a></div></div></div></cv-toggle></div></div></div></div></div></div></p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.1.0</a>, generated on Sat, 24 Jan 2026, 14:21:56 GMT+8]</small></div></footer><!--]--></div>
+    </button></div></pre></li> <li><strong>Add it to the <code class="hljs inline no-lang">.gitignore</code></strong> file, as usual.</li></ol> <p>The above steps will remove the file from the staging area but will not delete it from the working directory. If this file was included in previous commits, the next commit will show it as &#39;deleted&#39; (because is no longer visible to Git).</p></div><!--]--><!--]--><!----><div class="bottom-button-wrapper" data-v-4484e25a><button type="button" class="collapse-button btn btn-outline-secondary" style="" data-v-4484e25a><span class="collapse-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span></button></div></div><hr style="display:none;" data-v-4484e25a></div><div class="peek-read-more glyphicon glyphicon-chevron-down" data-v-4484e25a></div></div></div></cv-toggle></div></div></div></div></div></div></p></div> <nav id="page-nav" class="fixed-header-padding" data-v-6b1b63d2><!--[--><div class="nav-component slim-scroll"></div><!--]--><!--v-if--></nav></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 6.1.0</a>, generated on Sat, 24 Jan 2026, 15:00:17 GMT+8]</small></div></footer><!--]--></div>
 </body><script src="/markbind/js/bootstrap-utility.min.js"></script>
 <script src="/markbind/js/polyfill.min.js"></script>
 <script src="/markbind/js/vue.global.prod.min.js"></script>
