@@ -173,8 +173,8 @@
   },
   "branch_compare": {
     "lesson": {
-      "path": "lessons/branch",
-      "title": "T6L1. Creating Branches"
+      "path": "lessons/merge",
+      "title": "T6L2. Merging Branches"
     },
     "detour": {
       "lesson": {
