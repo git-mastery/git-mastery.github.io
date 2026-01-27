@@ -1,0 +1,109 @@
+2026-01-27T07:50:48.384Z - info: Website generation (lazy) started at 15:50:48
+2026-01-27T07:50:48.664Z - info: Building assets...
+2026-01-27T07:50:49.005Z - info: Assets built
+2026-01-27T07:50:49.005Z - info: Generating landing page...
+2026-01-27T07:50:49.127Z - info: Landing page built, other pages will be built as you navigate to them!
+2026-01-27T07:50:49.197Z - info: Site data built
+2026-01-27T07:50:49.197Z - info: Website generation (lazy) complete! Total build time: 1.073s
+2026-01-27T07:50:49.205Z - info: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-01-27T07:50:49.205Z - info: Press CTRL+C to stop ...
+2026-01-27T07:50:58.957Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2026-01-27T07:50:59.423Z - info: Site data built
+2026-01-27T07:50:59.423Z - info: Lazy website regeneration complete! Total build time: 0.468s
+2026-01-27T07:51:04.324Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/index as some of its dependencies were changed since the last visit
+2026-01-27T07:51:04.527Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md'
+2026-01-27T07:51:04.527Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md'
+2026-01-27T07:51:04.527Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-undoMerge-fragment.md'
+2026-01-27T07:51:04.527Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-undoMerge-fragment.md'
+2026-01-27T07:51:04.527Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-compareBranches-fragment.md'
+2026-01-27T07:51:04.527Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-compareBranches-fragment.md'
+2026-01-27T07:51:04.527Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-squashMerge-fragment.md'
+2026-01-27T07:51:04.527Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-squashMerge-fragment.md'
+2026-01-27T07:51:04.528Z - info: Site data built
+2026-01-27T07:51:04.528Z - info: Lazy website regeneration complete! Total build time: 0.204s
+2026-01-27T07:56:09.273Z - info: [15:56:09] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md
+2026-01-27T07:56:09.277Z - info: Synchronizing opened pages list before reload
+2026-01-27T07:56:09.279Z - info: Current opened pages, from most-to-least recent:
+2026-01-27T07:56:09.280Z - info: 1. lessons/merge/index
+2026-01-27T07:56:10.296Z - info: Rebuilding 1 pages
+2026-01-27T07:56:10.538Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md'
+2026-01-27T07:56:10.538Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md'
+2026-01-27T07:56:10.538Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-undoMerge-fragment.md'
+2026-01-27T07:56:10.539Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-undoMerge-fragment.md'
+2026-01-27T07:56:10.539Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-compareBranches-fragment.md'
+2026-01-27T07:56:10.539Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-compareBranches-fragment.md'
+2026-01-27T07:56:10.539Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-squashMerge-fragment.md'
+2026-01-27T07:56:10.539Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-squashMerge-fragment.md'
+2026-01-27T07:56:10.539Z - info: Site data built
+2026-01-27T07:56:10.539Z - info: Pages rebuilt
+2026-01-27T07:56:10.539Z - info: Website regeneration complete! Total build time: 0.252s
+2026-01-27T07:56:49.466Z - info: [15:56:49] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md
+2026-01-27T07:56:49.470Z - info: Synchronizing opened pages list before reload
+2026-01-27T07:56:49.471Z - info: Current opened pages, from most-to-least recent:
+2026-01-27T07:56:49.473Z - info: 1. lessons/merge/index
+2026-01-27T07:56:50.481Z - info: Rebuilding 1 pages
+2026-01-27T07:56:50.720Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md'
+2026-01-27T07:56:50.720Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md'
+2026-01-27T07:56:50.720Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-undoMerge-fragment.md'
+2026-01-27T07:56:50.721Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-undoMerge-fragment.md'
+2026-01-27T07:56:50.721Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-compareBranches-fragment.md'
+2026-01-27T07:56:50.721Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-compareBranches-fragment.md'
+2026-01-27T07:56:50.721Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-squashMerge-fragment.md'
+2026-01-27T07:56:50.721Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-squashMerge-fragment.md'
+2026-01-27T07:56:50.721Z - info: Site data built
+2026-01-27T07:56:50.721Z - info: Pages rebuilt
+2026-01-27T07:56:50.721Z - info: Website regeneration complete! Total build time: 0.243s
+2026-01-27T07:57:31.805Z - info: [15:57:31] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md
+2026-01-27T07:57:31.819Z - info: Synchronizing opened pages list before reload
+2026-01-27T07:57:31.821Z - info: Current opened pages, from most-to-least recent:
+2026-01-27T07:57:31.821Z - info: 1. lessons/merge/index
+2026-01-27T07:57:31.901Z - info: [15:57:31] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md
+2026-01-27T07:57:31.907Z - info: Synchronizing opened pages list before reload
+2026-01-27T07:57:31.908Z - info: Current opened pages, from most-to-least recent:
+2026-01-27T07:57:31.909Z - info: 1. lessons/merge/index
+2026-01-27T07:57:32.841Z - info: Rebuilding 1 pages
+2026-01-27T07:57:33.067Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md'
+2026-01-27T07:57:33.067Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md'
+2026-01-27T07:57:33.067Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-undoMerge-fragment.md'
+2026-01-27T07:57:33.067Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-undoMerge-fragment.md'
+2026-01-27T07:57:33.067Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-compareBranches-fragment.md'
+2026-01-27T07:57:33.067Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-compareBranches-fragment.md'
+2026-01-27T07:57:33.067Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-focus=app-commands' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-squashMerge-fragment.md'
+2026-01-27T07:57:33.067Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/companion-app/index.html?cv-highlight=updating-app' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/detour-squashMerge-fragment.md'
+2026-01-27T07:57:33.068Z - info: Site data built
+2026-01-27T07:57:33.068Z - info: Pages rebuilt
+2026-01-27T07:57:33.068Z - info: Website regeneration complete! Total build time: 0.232s
+2026-01-27T07:58:00.171Z - info: Website generation started at 15:57:59
+2026-01-27T07:58:00.334Z - info: Building assets...
