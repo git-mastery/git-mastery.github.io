@@ -3,7 +3,7 @@
   <li><a href="{{baseUrl}}/index.html" class="nav-link"><md>**Home**</md></a></li>
   <li><a href="{{baseUrl}}/lessons/index.html" class="nav-link"><md>**Lessons**</md></a></li>
   <li><a href="{{baseUrl}}/exercises-directory/index.html" class="nav-link"><md>**Exercises**</md></a></li>
-  <li><a href="https://git-mastery.github.io/progress-dashboard/" class="nav-link"><md>**Progress**</md></a></li>
+  <li><a href="https://git-mastery.github.io/progress-dashboard/#/dashboard/[[username]]" class="nav-link cv-bind"><md>**Progress**</md></a></li>
   <li><a href="{{baseUrl}}/companion-app/index.html" class="nav-link"><md>**App**</md></a></li>
   <li><a href="https://git-mastery.github.io/developers/" class="nav-link"><md>**Dev Docs**</md></a></li>
   <li><a href="{{baseUrl}}/faq/index.html" class="nav-link"><md>**FAQ**</md></a></li>
