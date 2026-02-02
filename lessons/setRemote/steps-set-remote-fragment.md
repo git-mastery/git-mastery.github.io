@@ -14,6 +14,11 @@ https://github.com/<owner>/<remote-repo>.git  # using HTTPS
 git@github.com:<owner>/<remote-repo>.git  # using SSH
 ```
 
+<box seamless>
+
+<cv-placeholder-input name="username" label="Note: Your GitHub username (used in the commands given below) -- you may change it if you wish:"></cv-placeholder-input>
+</box>
+
 The full command:
 ```bash{highlight-lines="1['[[username: JohnDoe]]'],1['gitmastery-things'],2['[[username: JohnDoe]]'],2['gitmastery-things']"}
 git remote add origin https://github.com/[[username: JohnDoe]]/gitmastery-things.git  # using HTTPS
