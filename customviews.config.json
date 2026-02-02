@@ -32,6 +32,7 @@
       }
     ]
   },
+  "storageKey": "git-mastery",
   "baseUrl": "/",
   "settings": {
     "panel": {
