@@ -11,7 +11,8 @@
 
 **Git {{ show_git_term("branches") }} let you develop multiple versions of your work in parallel — effectively creating {{ show_git_term("diverged") }} timelines of your repository’s history.** For example, one team member can create a new branch to experiment with a change, while the rest of the team continues working on another branch. Branches can have meaningful names, such as `main`, `release`, or `draft`.
 
-**A Git branch is simply a ref (a named label) that points to a commit and automatically moves forward as you add new commits to that branch.** As you’ve seen before, the `HEAD` ref indicates which branch you’re currently working on, by pointing to the corresponding branch ref.<br>
+**A Git branch is simply a ref (a named label) that points to a commit and automatically moves forward as you add new commits to that branch.** As you’ve seen before, the `HEAD` ref indicates which branch you’re currently working on, by pointing to the corresponding branch ref.
+
 **When you add a commit, it goes into the branch you are currently on**, and the branch ref moves to the new commit, effectively making the `HEAD` ref point to the new commit as well (via the branch ref).
 
 **Git creates a branch named `master` by default** (Git can be configured to use a different name e.g., `main`<span class="d-print-none"> -- which is the more common choice these days, and is the default used by Git-Mastery</span>).

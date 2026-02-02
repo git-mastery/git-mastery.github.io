@@ -50,17 +50,19 @@ Git allows you to **specify which files should be omitted from revision control*
     ```
 
 * Directories:
-  * Add a trailing `/` to match directories.
+  * Add a trailing `/` to match directories only.
     ```bash
-    logs/         # Ignores the logs directory
+    logs/          # Ignores the logs directory (and everything under it)
     ```
-  * Patterns without `/` match files/folders recursively.
+
+  * Patterns without `/` are not anchored and are matched at any directory level.
     ```bash
-    *.bak         # Ignores all .bak files anywhere
+    *.bak          # Ignores all .bak files anywhere in the repository
     ```
-  * Patterns with `/` are relative to the `.gitignore` location.
+
+  * Patterns starting with `/` are relative to the location of the `.gitignore` file.
     ```bash
-    /secret.txt   # Only ignores secret.txt in the root directory
+    /secret.txt    # Only ignores secret.txt in the repository root
     ```
 
 * Negation: Use `!` at the start of a line to not ignore something.

@@ -9,14 +9,14 @@
 To propose a contribution to a GitHub project, you can create a pull request.
 {% endcall %}
 
-**A {{ show_git_term("pull request") }} ({{ show_git_term("PR") }} for short) is a mechanism for contributing code to a remote repo** i.e., "I'm _requesting_ you to _pull_ my proposed changes to your repo". It's feature provided by RCS platforms such as GitHub. For this to work, the two repos must have a shared history. The most common case is sending PRs from a fork to its <tooltip content="_upstream_ repo is a repo you forked from">upstream</tooltip> repo.
+**A {{ show_git_term("pull request") }} ({{ show_git_term("PR") }} for short) is a mechanism for contributing code to a remote repo** i.e., "I'm _requesting_ you to _pull_ my proposed changes to your repo". It's a feature provided by RCS platforms such as GitHub. For this to work, the two repos must have a shared history. The most common case is sending PRs from a fork to its <tooltip content="_upstream_ repo is a repo you forked from">upstream</tooltip> repo.
 
-Suppose you want to propose some changes to a GitHub repo (e.g., [samplerepo-pr-practice](https://github.com/se-edu/samplerepo-pr-practice)) as a pull request (PR).
+Suppose you want to propose some changes to a GitHub repo (e.g., [samplerepo-pr-practice](https://github.com/git-mastery/samplerepo-pr-practice)) as a pull request (PR).
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("<md>Create a PR from the `main` branch</md>")  %}
 
-{{ hp_number("preparation") }} [samplerepo-pr-practice](https://github.com/se-edu/samplerepo-pr-practice) is an unmonitored repo that we have created for you to practice working with PRs.
+{{ hp_number("preparation") }} [samplerepo-pr-practice](https://github.com/git-mastery/samplerepo-pr-practice) is an unmonitored repo that we have created for you to practice working with PRs.
 
 * **Fork** that repo onto your GitHub account.{{ numbers_roman }}
 * **Clone** it onto your computer.
@@ -32,7 +32,7 @@ Suppose you want to propose some changes to a GitHub repo (e.g., [samplerepo-pr-
 {{ hp_number("2") }} **Click on the** <span class="tab">%%:octicon-git-pull-request:%% Pull requests</span> **tab** followed by the {{ button_green("New pull request") }} **button**. This will bring you to the `Compare changes` page.
 
 {{ hp_number("3") }} **Specify the target repo and the branch that should receive your PR**, using the `base repository` and `base` dropdowns. e.g.,<br>
-   {{ dropdown("base repository: **se-edu/samplerepo-pr-practice**") }} {{ dropdown("base: **main**") }}<br>
+   {{ dropdown("base repository: **git-mastery/samplerepo-pr-practice**") }} {{ dropdown("base: **main**") }}<br>
 
 <box type="info" seamless>
 

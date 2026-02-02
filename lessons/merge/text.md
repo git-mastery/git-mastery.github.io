@@ -46,7 +46,7 @@ In the above example, `main` is the destination branch and `fix1` is the source 
 
 {{ hp_number(hop_preparation) }}
 
-{{ show_hop_prep('hp-merge-commit', continue_info="You can continue with the `sports` repo from earlier, which should look like the following. Note that we are ignoring the `feature1-alt` branch, for simplicity.") }}
+{{ show_hop_prep('hp-merge-commit', continue_info="You can continue with the `sports` repo from earlier, which should look like the revision graph in the _Scenario_ above. Note that we are ignoring the `feature1-alt` branch, for simplicity.") }}
 
 {{ hp_number ('1') }} **Switch back to the `feature1` branch.**
 

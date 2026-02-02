@@ -59,7 +59,7 @@ You can use the `git clone <repository-url> [directory-name]` command to clone a
 
 ```bash{.no-line-numbers}
 git clone https://github.com/git-mastery/samplerepo-things.git  # if using HTTPS
-git clone git@github.com:se-edu/samplerepo-things.git  # if using SSH
+git clone git@github.com:git-mastery/samplerepo-things.git  # if using SSH
 
 git clone https://github.com/foo/bar.git my-bar-copy  # also specifies a dir to use
 ```

@@ -42,7 +42,7 @@ The main drawback of this workflow is the extra overhead of sending everything t
 
 * [**Add team members**](https://help.github.com/enterprise/2.0/admin/guides/user-management/adding-or-inviting-people-to-teams/) to the `developers` team.
 
-* **Fork** [se-edu/samplerepo-workflow-practice](https://github.com/se-edu/samplerepo-workflow-practice) to your team org. We'll refer to this as the _team repo_.
+* **Fork** [git-mastery/samplerepo-workflow-practice](https://github.com/git-mastery/samplerepo-workflow-practice) to your team org. We'll refer to this as the _team repo_.
 
 * **[Add the forked repo](https://help.github.com/articles/managing-team-access-to-an-organization-repository/) to the `developers` team.** Give write access.
 

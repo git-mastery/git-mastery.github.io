@@ -353,8 +353,8 @@ brew upgrade gitmastery
   <tab header="Debian/Ubuntu">
 
 ```bash
+sudo apt-get update
 sudo apt-get install --only-upgrade gitmastery
-
 ```
 
   </tab>
@@ -362,7 +362,6 @@ sudo apt-get install --only-upgrade gitmastery
 
 ```bash
 sudo pacman -S gitmastery-bin
-
 ```
   </tab>
 </tabs> <!-- linux versions -->

@@ -17,7 +17,7 @@ Another way to contribute to a GitHub project is by giving your inputs via a pul
 
 {{ hp_number("Preparation") }} If you do not have access to a PR that you can review, you can create one for yourself as follows:
 
-* Create a branch in a repo that you have forked and cloned (e.g., [samplerepo-pr-practice](https://github.com/se-edu/samplerepo-pr-practice)). {{ numbers_roman }}
+* Create a branch in a repo that you have forked and cloned (e.g., [samplerepo-pr-practice](https://github.com/git-mastery/samplerepo-pr-practice)). {{ numbers_roman }}
 * Do some changes in the branch.
 * Push the branch to the remote repo.
 * Create a PR within your fork, from the new branch to the `main` branch.
