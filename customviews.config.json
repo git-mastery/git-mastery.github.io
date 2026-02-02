@@ -17,10 +17,11 @@
         "groupId": "os",
         "label": "OS that you normally use Git on:",
         "default": "windows",
+        "placeholderId": "os",
         "tabs": [
-          { "tabId": "windows", "label": "Windows" },
-          { "tabId": "mac", "label": "macOS" },
-          { "tabId": "linux", "label": "Linux" }
+          { "tabId": "windows", "label": "Windows", "placeholderValue": "Windows" },
+          { "tabId": "mac", "label": "macOS", "placeholderValue":  "macOS" },
+          { "tabId": "linux", "label": "Linux", "placeholderValue":  "Linux" }
         ]
       },
       {
