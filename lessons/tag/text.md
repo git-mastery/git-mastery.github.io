@@ -171,7 +171,7 @@ The same dialog used to add a tag can be used to delete and even move a tag. Not
 
 <box type="info" seamless>
 
-You can go to your remote on GitHub link `https://github.com/{USER}/{REPO}/tags` (e.g., `https://github.com/johndoe/samplerepo-preferences/tags`) to verify the tag is present there.
+You can go to your remote on GitHub link `https://github.com/{USER}/{REPO}/tags` (e.g., `https://github.com/[[username: JohnDoe]]/samplerepo-preferences/tags`) to verify the tag is present there.
 
 <pic src="images/githubListTags.png" width="300" />
 

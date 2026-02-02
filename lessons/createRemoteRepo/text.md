@@ -31,7 +31,7 @@ If you enable any of the three `Add _____` options shown above, GitHub will not 
 </box>
 
 {{ hp_number ('3') }} **Note the URL of the repo.** It will be of the form<br> `https://github.com/{your_user_name}/{repo_name}.git`.<br>
-   e.g., `https://github.com/johndoe/gitmastery-things.git` (note the `.git` at the end)<br>
+   e.g., `https://github.com/[[username: JohnDoe]]/gitmastery-things.git` (note the `.git` at the end)<br>
    <pic eager src="images/newRepoUrl.png" width="600" />
 {% endcall %}
 
