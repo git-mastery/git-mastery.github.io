@@ -7,7 +7,7 @@
 1. Take note of the repo name provided by Git-Mastery app (in its response).
 1. Create a new public GitHub repository using the repo name given.
 1. Provide the URL of that remote (without the `.git` at the end) when prompted<br>
- e.g., `https://github.com/johndoe/gitmastery-johndoe-remote-control`
+ e.g., `https://github.com/[[username: JohnDoe]]/gitmastery-[[username: JohnDoe]]-remote-control`
 
 </div>
 

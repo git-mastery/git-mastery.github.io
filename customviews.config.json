@@ -1,5 +1,8 @@
 {
   "config": {
+  "placeholders": [
+       { "name": "username", "settingsLabel": "Your GitHub Username", "settingsHint": "e.g., JohnDoe" }
+    ],
     "toggles": [
         { "toggleId": "lesson-intros", "label": "Section intros/outros", "default": "show", "description":  "i.e., Green panels at the start/end of a lesson/tour"},
         { "toggleId": "hands-on-practicals", "label": "Hands-on practicals", "default": "show"},

@@ -43,7 +43,7 @@ Locate the remote branch under `REMOTES` → `origin`, right-click on the branch
 {{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
-{{ hp_number("3") }} **Verify that the branch was deleted** from the remote, by going to the fork on GitHub and checking the branches page `https://github.com/{YOUR_USERNAME}/samplerepo-books/branches`<br> e.g., `https://github.com/johndoe/samplerepo-books/branches`.
+{{ hp_number("3") }} **Verify that the branch was deleted** from the remote, by going to the fork on GitHub and checking the branches page `https://github.com/{YOUR_USERNAME}/samplerepo-books/branches`<br> e.g., `https://github.com/[[username: JohnDoe]]/samplerepo-books/branches`.
 
 **Also verify that the local copy has not been deleted**.
 

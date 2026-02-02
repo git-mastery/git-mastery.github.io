@@ -15,9 +15,9 @@ git@github.com:<owner>/<remote-repo>.git  # using SSH
 ```
 
 The full command:
-```bash{highlight-lines="1['JohnDoe'],1['gitmastery-things'],2['JohnDoe'],2['gitmastery-things']"}
-git remote add origin https://github.com/JohnDoe/gitmastery-things.git  # using HTTPS
-git remote add origin git@github.com:JohnDoe/gitmastery-things.git  # using SSH
+```bash{highlight-lines="1['[[username: JohnDoe]]'],1['gitmastery-things'],2['[[username: JohnDoe]]'],2['gitmastery-things']"}
+git remote add origin https://github.com/[[username: JohnDoe]]/gitmastery-things.git  # using HTTPS
+git remote add origin git@github.com:[[username: JohnDoe]]/gitmastery-things.git  # using SSH
 ```
 <div id="tip-find-url-of-repo">
 
@@ -36,8 +36,8 @@ git remote -v
 ```
 {% call m.show_output() %}
 ```{.no-line-numbers  highlight-lines="1['origin'],1['fetch'],2['origin'],2['push']"}
-origin  https://github.com/johndoe/gitmastery-things.git (fetch)
-origin  https://github.com/johndoe/gitmastery-things.git (push)
+origin  https://github.com/[[username: JohnDoe]]/gitmastery-things.git (fetch)
+origin  https://github.com/[[username: JohnDoe]]/gitmastery-things.git (push)
 ```
 {% endcall %}
 
@@ -64,9 +64,9 @@ origin  https://github.com/johndoe/gitmastery-things.git (push)
   git@github.com:<owner>/<repo>.git  # using SSH
   ```
   e.g.,
-  ```bash{highlight-lines="1['JohnDoe'],1['things'],2['JohnDoe'],2['things']"}
-  https://github.com/JohnDoe/things.git  # using HTTPS
-  git@github.com:JohnDoe/things.git  # using SSH
+  ```bash{highlight-lines="1['[[username: JohnDoe]]'],1['things'],2['[[username: JohnDoe]]'],2['things']"}
+  https://github.com/[[username: JohnDoe]]/things.git  # using HTTPS
+  git@github.com:[[username: JohnDoe]]/things.git  # using SSH
   ```
 
 <include src="steps-set-remote-fragment.md#tip-find-url-of-repo" />
