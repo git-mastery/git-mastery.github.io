@@ -418,7 +418,7 @@
 <cv-tabgroup group-id="git-ui">
 {% if has_cli %}
 <cv-tab tab-id="cli">
-<cv-tab-header><md><span class="bg-secondary text-light ps-1 pe-1 pb-1 small rounded-1"> >_ </span>&nbsp;CLI</md></cv-tab-header>
+<cv-tab-header><md>:bi-terminal-fill:&nbsp;CLI</md></cv-tab-header>
 <cv-tab-body>
 
   {% if cli %}{{ cli }}{% else %}<include src="./steps-{{ filename_suffix }}-fragment.md#cli" />{% endif %}
@@ -813,5 +813,5 @@ Click [here]({{ tour_page }}) to see the full tour page.
 {% endmacro %}
 <!-- ============================================================ -->
 
-{% macro ask_chatgpt(visible_text, prompt) %}<span class="badge bg-light rounded-pill text-dark fw-normal d-print-none"><a href="https://chatgpt.com/?q={{ (prompt if prompt else visible_text) | urlencode }}" target="_blank">{{ visible_text }}</a> %%:fas-up-right-from-square:%%</span>{% endmacro %}
+{% macro ask_chatgpt(visible_text, prompt) %}<span class="badge bg-light rounded-pill text-dark fw-normal d-print-none"><a href="https://chatgpt.com/?q={{ (prompt if prompt else visible_text) | urlencode }}" target="_blank">{{ visible_text }}</a> %%:bi-openai:%%</span>{% endmacro %}
 <!-- ============================================================ -->
