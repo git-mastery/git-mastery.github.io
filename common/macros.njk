@@ -813,5 +813,5 @@ Click [here]({{ tour_page }}) to see the full tour page.
 {% endmacro %}
 <!-- ============================================================ -->
 
-{% macro ask_chatgpt(visible_text, prompt) %}<span class="badge bg-light rounded-pill text-dark fw-normal d-print-none"><a href="https://chatgpt.com/?q={{ (prompt if prompt else visible_text) | urlencode }}" target="_blank">{{ visible_text }}</a> %%:fas-up-right-from-square:%%</span>{% endmacro %}
+{% macro ask_chatgpt(visible_text, prompt) %}<span class="badge bg-light rounded-pill text-dark fw-normal d-print-none"><a href="https://chatgpt.com/?q={{ (prompt if prompt else visible_text) | urlencode }}" target="_blank">{{ visible_text }}</a> %%:bi-openai:%%</span>{% endmacro %}
 <!-- ============================================================ -->
