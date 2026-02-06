@@ -418,7 +418,7 @@
 <cv-tabgroup group-id="git-ui">
 {% if has_cli %}
 <cv-tab tab-id="cli">
-<cv-tab-header><md><span class="bg-secondary text-light ps-1 pe-1 pb-1 small rounded-1"> >_ </span>&nbsp;CLI</md></cv-tab-header>
+<cv-tab-header><md>:bi-terminal-fill:&nbsp;CLI</md></cv-tab-header>
 <cv-tab-body>
 
   {% if cli %}{{ cli }}{% else %}<include src="./steps-{{ filename_suffix }}-fragment.md#cli" />{% endif %}
@@ -503,7 +503,7 @@
 {% macro show_gm_footer() %}
 <div class="bg-light">
 
-  -><small>[Git-Mastery **commands list**]({{ baseUrl }}/companion-app/index.html?cv-focus=app-commands)
+  -><small>[Git-Mastery **commands list**]({{ baseUrl }}/companion-app/index.html?cv-show=app-commands)
   | [Report Git-Mastery **bugs**](https://github.com/git-mastery/git-mastery/issues)
   | [How to **update** Git-Mastery]({{ baseUrl }}/companion-app/index.html?cv-highlight=updating-app) </small><-
 </div>
