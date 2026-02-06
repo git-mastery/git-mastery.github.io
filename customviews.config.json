@@ -1,5 +1,8 @@
 {
   "config": {
+  "placeholders": [
+       { "name": "username", "settingsLabel": "Your GitHub Username", "settingsHint": "e.g., JohnDoe" }
+    ],
     "toggles": [
         { "toggleId": "lesson-intros", "label": "Section intros/outros", "default": "show", "description":  "i.e., Green panels at the start/end of a lesson/tour"},
         { "toggleId": "hands-on-practicals", "label": "Hands-on practicals", "default": "show"},
@@ -14,10 +17,11 @@
         "groupId": "os",
         "label": "OS that you normally use Git on:",
         "default": "windows",
+        "placeholderId": "os",
         "tabs": [
-          { "tabId": "windows", "label": "Windows" },
-          { "tabId": "mac", "label": "macOS" },
-          { "tabId": "linux", "label": "Linux" }
+          { "tabId": "windows", "label": "Windows", "placeholderValue": "Windows" },
+          { "tabId": "mac", "label": "macOS", "placeholderValue":  "macOS" },
+          { "tabId": "linux", "label": "Linux", "placeholderValue":  "Linux" }
         ]
       },
       {
@@ -32,6 +36,7 @@
       }
     ]
   },
+  "storageKey": "git-mastery",
   "baseUrl": "/",
   "settings": {
     "panel": {
