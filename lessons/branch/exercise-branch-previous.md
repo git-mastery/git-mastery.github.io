@@ -8,6 +8,7 @@ You are writing the outline for a story, in `story.txt`. You have written the fi
 <mermaid>
 
 gitGraph BT:
+  commit id: "Set initial state"
   commit id: "Describe night"
   commit id: "Describe location"
   commit id: "Mention noise"
@@ -30,6 +31,7 @@ You are not very happy with the way the story is progressing, and wish to explor
 <mermaid>
 
 gitGraph BT:
+  commit id: "Set initial state"
   commit id: "Describe night"
   commit id: "Describe location"
   branch visitor-line
