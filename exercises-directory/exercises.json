@@ -281,32 +281,28 @@
       "path": "lessons/remoteBranchPush",
       "title": "T8L1. Pushing Branches to a Remote"
     },
-    "identifier": "glossary-branch-push",
-    "wip": 1
+    "identifier": "glossary-branch-push"
   },
   "glossary_branch_pull": {
     "lesson": {
       "path": "lessons/remoteBranchPull",
       "title": "T8L2. Pulling Branches from a Remote"
     },
-    "identifier": "glossary-branch-pull",
-    "wip": 1
+    "identifier": "glossary-branch-pull"
   },
   "glossary_branch_delete": {
     "lesson": {
       "path": "lessons/remoteBranchDelete",
       "title": "T8L3. Deleting Branches from a Remote"
     },
-    "identifier": "glossary-branch-delete",
-    "wip": 1
+    "identifier": "glossary-branch-delete"
   },
   "glossary_branch_rename": {
     "lesson": {
       "path": "lessons/remoteBranchRename",
       "title": "T8L4. Renaming Branches in a Remote"
     },
-    "identifier": "glossary-branch-rename",
-    "wip": 1
+    "identifier": "glossary-branch-rename"
   },
   "remote_branch_rename": {
     "lesson": {
