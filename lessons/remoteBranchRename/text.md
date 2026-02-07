@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_lesson_link, show_output, show_ref, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can rename a branch in a remote repo.</span>
@@ -19,7 +19,13 @@ While Git cannot rename a remote branch in place, **[GitHub allows you to rename
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Rename branches in a remote")  %}
 
-{{ hp_number(hop_preparation) }} You can use the fork and the clone of the [samplerepo-books](https://github.com/git-mastery/samplerepo-books) that you created in {{ show_lesson_link(trail.remoteBranches.lessons.remoteBranchDelete) }}.
+{{ hp_number(hop_preparation) }}
+
+{% set manual %} %}
+You can use the fork and the clone of the [samplerepo-books](https://github.com/git-mastery/samplerepo-books) that you created in {{ show_lesson_link(trail.remoteBranches.lessons.remoteBranchDelete) }}.
+{% endset %}
+
+{{ show_hop_prep('hp-remote-branch-rename', manual_info=manual) }}
 
 {{ hp_number(hop_target) }} **Rename the branch `fantasy`** in the remote (i.e., your fork) to `fantasy-books`.
 
@@ -67,4 +73,5 @@ Perform the above steps (each step was covered in a previous lesson).
 </div>
 
 <div id="extras">
+{{ show_exercise(exercises.glossary_branch_rename) }}
 </div>

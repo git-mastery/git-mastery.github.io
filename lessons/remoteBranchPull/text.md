@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_steps_tabs, show_tag, show_multiple_columns, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_lesson_link, show_output, show_ref, show_steps_tabs, show_tag, show_multiple_columns, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can pull branches from a remote repo to a local repo.</span>
@@ -26,7 +26,13 @@ Sometimes we need to create a local copy of a branch from a remote repository, m
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Work with a branch that existed in the remote")  %}
 
-{{ hp_number(hop_preparation) }} **Use the same [samplerepo-company](https://github.com/git-mastery/samplerepo-company) repo** you used in {{ show_lesson_link(trail.remoteBranches.lessons.remoteBranchPush) }}. Fork and clone it if you haven't done that already.
+{{ hp_number(hop_preparation) }}
+
+{% set manual %}
+**Use the same [samplerepo-company](https://github.com/git-mastery/samplerepo-company) repo** you used in {{ show_lesson_link(trail.remoteBranches.lessons.remoteBranchPush) }}. Fork and clone it if you haven't done that already.
+{% endset %}
+
+{{ show_hop_prep('hp-remote-branch-pull', manual_info=manual) }}
 
 {{ hp_number("1") }} **Verify that the remote-tracking branch `origin/track-sales` exists in the local repo, but there is no local copy of it.**
 
@@ -244,4 +250,5 @@ gitGraph BT:
 </div>
 
 <div id="extras">
+{{ show_exercise(exercises.glossary_branch_pull) }}
 </div>

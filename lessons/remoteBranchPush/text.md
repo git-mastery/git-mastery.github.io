@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_output, show_ref, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can push a local branch to a remote, and keep it updated.</span>
@@ -73,10 +73,18 @@ git commit -am "Add Michael to employees.txt"
 -->
 
 
-{{ hp_number(hop_preparation) }} **Fork the [samplerepo-company](https://github.com/git-mastery/samplerepo-company)** to your GitHub account. When doing so, ==un-tick the <code>Copy the main branch only</code> option==.<br>
+{{ hp_number(hop_preparation) }}
+
+{% set manual %}
+**Fork the [samplerepo-company](https://github.com/git-mastery/samplerepo-company)** to your GitHub account. When doing so, ==un-tick the <code>Copy the main branch only</code> option==.<br>
 After forking, go to the fork and ensure both branches (`main`, and `track-sales`) are in there.
 
-**Clone the fork** to your computer. It should look something like this:
+**Clone the fork** to your computer.
+{% endset %}
+
+{{ show_hop_prep('hp-remote-branch-push', manual_info=manual) }}
+
+Now, the repo should look something like this:
 
 <mermaid>
 gitGraph BT:
@@ -146,4 +154,5 @@ git push origin -u hiring
 
 </div>
 <div id="extras">
+{{ show_exercise(exercises.glossary_branch_push) }}
 </div>

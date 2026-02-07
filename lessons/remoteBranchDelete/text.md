@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_lesson_link, show_output, show_ref, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can delete a branch in a remote repo.</span>
@@ -14,10 +14,17 @@ Often, you'll need to **delete a branch in a remote repo** after it has served i
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Delete (and restore) branches in a remote")  %}
 
-{{ hp_number(hop_preparation) }} **Fork the [samplerepo-books](https://github.com/git-mastery/samplerepo-books)** to your GitHub account. When doing so, ==un-tick the `Copy the main branch only` option==.<br>
+{{ hp_number(hop_preparation) }}
+
+{% set manual %}
+
+**Fork the [samplerepo-books](https://github.com/git-mastery/samplerepo-books)** to your GitHub account. When doing so, ==un-tick the `Copy the main branch only` option==.<br>
 After forking, go to the fork and ensure all three branches are in there.
 
 **Clone the fork** to your computer.
+{% endset %}
+
+{{ show_hop_prep('hp-remote-branch-delete', manual_info=manual) }}
 
 {{ hp_number("1") }} **Create a local copy of the `fantasy` branch** in your clone.
 
@@ -61,4 +68,5 @@ In the above steps, we first created a local copy of the branch before deleting 
 
 </div>
 <div id="extras">
+{{ show_exercise(exercises.glossary_branch_delete) }}
 </div>
