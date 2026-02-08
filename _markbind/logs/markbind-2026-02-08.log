@@ -1,0 +1,86 @@
+2026-02-08T10:02:50.805Z - info: Website generation (lazy) started at 18:02:50
+2026-02-08T10:02:51.029Z - info: Building assets...
+2026-02-08T10:02:51.107Z - info: Assets built
+2026-02-08T10:02:51.108Z - info: Generating landing page...
+2026-02-08T10:02:51.204Z - info: Landing page built, other pages will be built as you navigate to them!
+2026-02-08T10:02:51.286Z - info: Site data built
+2026-02-08T10:02:51.286Z - info: Website generation (lazy) complete! Total build time: 0.574s
+2026-02-08T10:02:51.298Z - info: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-02-08T10:02:51.298Z - info: Press CTRL+C to stop ...
+2026-02-08T10:03:18.381Z - info: [18:03:18] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/text.md
+2026-02-08T10:03:18.388Z - info: Synchronizing opened pages list before reload
+2026-02-08T10:03:18.391Z - info: Current opened pages, from most-to-least recent:
+2026-02-08T10:03:18.392Z - info: 1. index
+2026-02-08T10:03:19.397Z - info: Assets built
+2026-02-08T10:03:20.999Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2026-02-08T10:03:21.378Z - info: Site data built
+2026-02-08T10:03:21.378Z - info: Lazy website regeneration complete! Total build time: 0.38s
+2026-02-08T10:03:26.144Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/index as some of its dependencies were changed since the last visit
+2026-02-08T10:03:26.244Z - info: Site data built
+2026-02-08T10:03:26.244Z - info: Lazy website regeneration complete! Total build time: 0.1s
+2026-02-08T10:04:34.719Z - info: [18:04:34] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/text.md
+2026-02-08T10:04:34.720Z - info: Synchronizing opened pages list before reload
+2026-02-08T10:04:34.720Z - info: Current opened pages, from most-to-least recent:
+2026-02-08T10:04:34.721Z - info: 1. lessons/remoteBranchDelete/index
+2026-02-08T10:04:35.725Z - info: Rebuilding 1 pages
+2026-02-08T10:04:35.837Z - info: Site data built
+2026-02-08T10:04:35.837Z - info: Pages rebuilt
+2026-02-08T10:04:35.837Z - info: Website regeneration complete! Total build time: 0.114s
+2026-02-08T10:05:05.912Z - info: [18:05:05] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/text.md
+2026-02-08T10:05:05.915Z - info: Synchronizing opened pages list before reload
+2026-02-08T10:05:05.916Z - info: Current opened pages, from most-to-least recent:
+2026-02-08T10:05:05.916Z - info: 1. lessons/remoteBranchDelete/index
+2026-02-08T10:05:06.921Z - info: Rebuilding 1 pages
+2026-02-08T10:05:07.012Z - info: Site data built
+2026-02-08T10:05:07.012Z - info: Pages rebuilt
+2026-02-08T10:05:07.013Z - info: Website regeneration complete! Total build time: 0.094s
+2026-02-08T10:07:31.062Z - info: [18:07:31] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/text.md
+2026-02-08T10:07:31.067Z - info: Synchronizing opened pages list before reload
+2026-02-08T10:07:31.068Z - info: Current opened pages, from most-to-least recent:
+2026-02-08T10:07:31.069Z - info: 1. lessons/remoteBranchDelete/index
+2026-02-08T10:07:32.073Z - info: Rebuilding 1 pages
+2026-02-08T10:07:32.173Z - info: Site data built
+2026-02-08T10:07:32.173Z - info: Pages rebuilt
+2026-02-08T10:07:32.173Z - info: Website regeneration complete! Total build time: 0.102s
+2026-02-08T10:09:28.965Z - info: [18:09:28] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/text.md
+2026-02-08T10:09:28.970Z - info: Synchronizing opened pages list before reload
+2026-02-08T10:09:28.974Z - info: Current opened pages, from most-to-least recent:
+2026-02-08T10:09:28.974Z - info: 1. lessons/remoteBranchDelete/index
+2026-02-08T10:09:29.979Z - info: Rebuilding 1 pages
+2026-02-08T10:09:30.090Z - info: Site data built
+2026-02-08T10:09:30.090Z - info: Pages rebuilt
+2026-02-08T10:09:30.090Z - info: Website regeneration complete! Total build time: 0.112s
+2026-02-08T10:09:49.747Z - info: [18:09:49] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/text.md
+2026-02-08T10:09:49.750Z - info: Synchronizing opened pages list before reload
+2026-02-08T10:09:49.751Z - info: Current opened pages, from most-to-least recent:
+2026-02-08T10:09:49.752Z - info: 1. lessons/remoteBranchDelete/index
+2026-02-08T10:09:50.758Z - info: Rebuilding 1 pages
+2026-02-08T10:09:50.872Z - info: Site data built
+2026-02-08T10:09:50.872Z - info: Pages rebuilt
+2026-02-08T10:09:50.872Z - info: Website regeneration complete! Total build time: 0.118s
+2026-02-08T10:11:04.623Z - info: [18:11:04] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/text.md
+2026-02-08T10:11:04.641Z - info: Synchronizing opened pages list before reload
+2026-02-08T10:11:04.646Z - info: Current opened pages, from most-to-least recent:
+2026-02-08T10:11:04.647Z - info: 1. lessons/remoteBranchDelete/index
+2026-02-08T10:11:05.655Z - info: Rebuilding 1 pages
+2026-02-08T10:11:05.763Z - info: Site data built
+2026-02-08T10:11:05.763Z - info: Pages rebuilt
+2026-02-08T10:11:05.763Z - info: Website regeneration complete! Total build time: 0.112s
+2026-02-08T10:11:55.293Z - info: [18:11:55] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/text.md
+2026-02-08T10:11:55.295Z - info: Synchronizing opened pages list before reload
+2026-02-08T10:11:55.296Z - info: Current opened pages, from most-to-least recent:
+2026-02-08T10:11:55.296Z - info: 1. lessons/remoteBranchDelete/index
+2026-02-08T10:11:56.300Z - info: Rebuilding 1 pages
+2026-02-08T10:11:56.394Z - info: Site data built
+2026-02-08T10:11:56.394Z - info: Pages rebuilt
+2026-02-08T10:11:56.394Z - info: Website regeneration complete! Total build time: 0.097s
+2026-02-08T10:12:14.558Z - info: [18:12:14] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/text.md
+2026-02-08T10:12:14.561Z - info: Synchronizing opened pages list before reload
+2026-02-08T10:12:14.562Z - info: Current opened pages, from most-to-least recent:
+2026-02-08T10:12:14.563Z - info: 1. lessons/remoteBranchDelete/index
+2026-02-08T10:12:15.569Z - info: Rebuilding 1 pages
+2026-02-08T10:12:15.669Z - info: Site data built
+2026-02-08T10:12:15.669Z - info: Pages rebuilt
+2026-02-08T10:12:15.669Z - info: Website regeneration complete! Total build time: 0.103s
+2026-02-08T10:13:28.383Z - info: Website generation started at 18:13:28
+2026-02-08T10:13:28.474Z - info: Building assets...
