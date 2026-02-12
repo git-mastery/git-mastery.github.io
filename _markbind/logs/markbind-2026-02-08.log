@@ -84,3 +84,24 @@
 2026-02-08T10:12:15.669Z - info: Website regeneration complete! Total build time: 0.103s
 2026-02-08T10:13:28.383Z - info: Website generation started at 18:13:28
 2026-02-08T10:13:28.474Z - info: Building assets...
+2026-02-08T10:13:28.549Z - info: Assets built
+2026-02-08T10:13:28.549Z - info: Generating pages...
+2026-02-08T10:13:38.219Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/commit#stagingFileDeletions' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md'
+2026-02-08T10:13:38.219Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2026-02-08T10:13:38.220Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#resetUncommitedChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2026-02-08T10:13:38.220Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/reset#undoRecentCommits' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2026-02-08T10:13:38.220Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/stage#unstagingChanges' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md'
+2026-02-08T10:13:38.221Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /lessons/interactiveRebase#updateLastCommit' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md'
+2026-02-08T10:13:38.223Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/branch/images/listRemoteBranches.png' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranches/sourcetree_4.md'
+2026-02-08T10:13:38.224Z - info: Pages built
+2026-02-08T10:13:38.404Z - info: Site data built
+2026-02-08T10:13:38.404Z - info: Website generation complete! Total build time: 10.092s
+2026-02-08T10:13:38.404Z - info: Build success!
+2026-02-08T10:13:46.787Z - info: The website has been deployed at: git-mastery.org
