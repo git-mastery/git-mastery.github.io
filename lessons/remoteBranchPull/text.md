@@ -71,6 +71,14 @@ Observe how the branch `track-sales` appear under `REMOTES` → `origin` but not
 
 {{ hp_number("2") }} **Create a local copy of the remote branch `origin/track-sales`**.
 
+{% set switch_command_explanation %}
+1. Creates a new branch `track-sales`.
+1. Sets the new branch to track the remote branch `origin/track-sales`, which means,<br>
+   a) the local branch `track-sales` knows that it is associated with `origin/track-sales`, and as a result,<br>
+   b) pulling and pushing of this branch can be done without specifying the remote branch.
+1. Switches to the newly-created branch, making it the current branch.
+{% endset %}
+
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
 You can use the `git switch -c <branch> <remote-branch>` command for this e.g.,
@@ -78,6 +86,19 @@ You can use the `git switch -c <branch> <remote-branch>` command for this e.g.,
 ```bash{.no-line-numbers}
 git switch -c track-sales origin/track-sales
 ```
+The above command does several things:
+
+{{ switch_command_explanation }}
+
+<box type="tip" seamless>
+
+The shorter command `git switch track-sales` achieves the same result as `git switch -c track-sales origin/track-sales`, provided,<br>
+a) you have already run `git fetch`, and<br>
+b) a remote branch `origin/track-sales` exists, and<br>
+c) you don’t already have a local branch named `track-sales`.
+
+</box>
+
 {% endset %}
 {% set sourcetree %}
 Locate the `track-sales` remote-tracking branch (look under `REMOTES` → `origin`), right-click, and choose `Checkout...`.<br>
@@ -85,14 +106,16 @@ Locate the `track-sales` remote-tracking branch (look under `REMOTES` → `origi
 
 In the next dialog, choose as follows:<br>
 <pic src="images/sourcetreeBranchCheckoutDialog.png" width="500" />
+
+The above action does several things:
+
+{{ switch_command_explanation }}
+
 {% endset %}
 {{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
-
-The above command/action does several things:
-1. Creates a new branch `track-sales`.
-1. Sets the new branch to track the remote branch `origin/track-sales`, which means the local branch ref `track-sales` will also move to where the `origin/track-sales` is.
-1. Switch to the newly-created branch i.e., makes it the current branch.
 <!-- ------ end: Git Tabs -------------------------------->
+
+
 
 {{ hp_number("3") }} **Add a commit to the `track-sales` branch and push to the remote**, to verify that the local branch is tracking the remote branch.
 

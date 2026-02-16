@@ -21,7 +21,7 @@ While Git cannot rename a remote branch in place, **[GitHub allows you to rename
 
 {{ hp_number(hop_preparation) }}
 
-{% set manual %} %}
+{% set manual %}
 You can use the fork and the clone of the [samplerepo-books](https://github.com/git-mastery/samplerepo-books) that you created in {{ show_lesson_link(trail.remoteBranches.lessons.remoteBranchDelete) }}.
 {% endset %}
 

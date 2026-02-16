@@ -18,7 +18,7 @@ Often, you'll need to **delete a branch in a remote repo** after it has served i
 
 {% set manual %}
 
-**Fork the [samplerepo-books](https://github.com/git-mastery/samplerepo-books)** to your GitHub account. When doing so, ==un-tick the `Copy the main branch only` option==.<br>
+**Fork the [samplerepo-books](https://github.com/git-mastery/samplerepo-books)** to your GitHub account as `gitmastery-samplerepo-books`. When doing so, ==un-tick the `Copy the main branch only` option==.<br>
 After forking, go to the fork and ensure all three branches are in there.
 
 **Clone the fork** to your computer.
@@ -50,7 +50,7 @@ Locate the remote branch under `REMOTES` → `origin`, right-click on the branch
 {{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
-{{ hp_number("3") }} **Verify that the branch was deleted** from the remote, by going to the fork on GitHub and checking the branches page `https://github.com/{YOUR_USERNAME}/samplerepo-books/branches`<br> e.g., `https://github.com/[[username: JohnDoe]]/samplerepo-books/branches`.
+{{ hp_number("3") }} **Verify that the branch was deleted** from the remote, by going to the fork on GitHub and checking the branches page `https://github.com/{YOUR_USERNAME}/gitmastery-samplerepo-books/branches`<br> e.g., (if your username is <cv-placeholder-input name="username" layout="inline" appearance="" width="auto-grow" hint="JohnDoe"></cv-placeholder-input>) `https://github.com/[[username: JohnDoe]]/gitmastery-samplerepo-books/branches`.
 
 **Also verify that the local copy has not been deleted**.
 
