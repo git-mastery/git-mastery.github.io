@@ -277,7 +277,7 @@ git merge --no-ff add-swimming
 Here are two other relevant options for the `git merge` command:
 
 * `--ff-only`: Merge goes ahead only if a fast-forward merge is possible.
-* `--ff`: Explicitly specify a fast-forward merge is preferred, but allows creating a merge commit if a fast-forward merge is not possible. In fact, this is Git's the default behaviour even if you don't use this option. So, the option is not useful unless the relevant default merge behaviour has been changed previously.
+* `--ff`: Explicitly specify a fast-forward merge is preferred, but allows creating a merge commit if a fast-forward merge is not possible. In fact, this is Git's default behaviour even if you don't use this option. So, the option is not useful unless the relevant default merge behaviour has been changed previously.
 {% endset %}
 {% set sourcetree_windows %}
 Tick the box shown below when you merge a branch:
