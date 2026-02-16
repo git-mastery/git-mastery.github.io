@@ -515,17 +515,18 @@
 {% set detour = detours[detour_name] %}
 {% set title = detour_title if detour_title else detour.title %}
 {% set path = detour_path if detour_path else (baseUrl + "/" + detour.lesson.path + "/detour-" + detour_name + "-fragment.md") %}
-<a id="{{ detour_name }}"/>
+<div id="{{ detour_name }}">
 <cv-toggle toggle-id="detours"><panel class="d-print-none" header="{{ icon_detour }} DETOUR: **{{ title }}**" type="warning" peek>
 
 <include src="{{ path }}" />
 </panel></cv-toggle>
+</div>
 {% endmacro %}
 <!-- ============================================================ -->
 
 {% macro show_detour_link(detour_name) -%}
 {% set detour = detours[detour_name] %}
-the tour _{{ detour.title }}_ given in the lesson [_{{ detour.lesson.title }}_]({{ baseUrl }}/{{ detour.lesson.path }}#{{ detour_name }})
+the tour _{{ detour.title }}_ given in the lesson [_{{ detour.lesson.title }}_]({{ baseUrl }}/{{ detour.lesson.path }}/index.html?cv-highlight={{ detour_name }})
 {%- endmacro %}
 <!-- ============================================================ -->
 
