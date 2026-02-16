@@ -322,3 +322,22 @@
 2026-02-16T12:26:19.208Z - info: Website regeneration complete! Total build time: 7.425s
 2026-02-16T12:27:22.565Z - info: Website generation started at 20:27:22
 2026-02-16T12:27:22.669Z - info: Building assets...
+2026-02-16T12:27:22.749Z - info: Assets built
+2026-02-16T12:27:22.750Z - info: Generating pages...
+2026-02-16T12:27:31.825Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/branch/images/listRemoteBranches.png' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranches/sourcetree_4.md'
+2026-02-16T12:27:31.825Z - info: Pages built
+2026-02-16T12:27:31.900Z - info: Site data built
+2026-02-16T12:27:31.901Z - info: Website generation complete! Total build time: 9.442s
+2026-02-16T12:27:31.901Z - info: Build success!
+2026-02-16T12:27:39.883Z - info: The website has been deployed at: git-mastery.org
+2026-02-16T12:33:10.108Z - info: Website generation started at 20:33:09
+2026-02-16T12:33:10.221Z - info: Building assets...
+2026-02-16T12:33:10.292Z - info: Assets built
+2026-02-16T12:33:10.293Z - info: Generating pages...
+2026-02-16T12:33:17.867Z - info: Pages built
+2026-02-16T12:33:17.940Z - info: Site data built
+2026-02-16T12:33:17.940Z - info: Website generation complete! Total build time: 7.946s
+2026-02-16T12:33:17.940Z - info: Build success!
+2026-02-16T12:33:23.442Z - info: Website generation started at 20:33:23
+2026-02-16T12:33:23.535Z - info: Building assets...
