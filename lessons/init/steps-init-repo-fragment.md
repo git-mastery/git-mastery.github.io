@@ -23,5 +23,9 @@ Click `File` → `Clone/New…` → Click on `+ Create` button on the top menu b
 </div>
 <div id="sourcetree-mac"><!-- ---------------------------------------------------- -->
 
- `New...` → `Create Local Repository` (or `Create New Repository`)  → Click `...` button to select the folder location for the repository → click the `Create` button.{icon="fab-apple"}
+ 1. `File` → `New...` to open the dialog for creating a new repo.
+ 1. In that dialog, click on the `New...` dropdown and choose `Create Local Repository` (or `Create New Repository`).<br>
+    <pic src="images/sourcetreeRepoCreationDialog.png" />
+ 1. Click `...` button to select the folder location for the repository. After selecting the folder location, click the `Create` button.<br>
+    <pic src="images/sourcetreeChooseFolder.png" />
 </div>

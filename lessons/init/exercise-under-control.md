@@ -10,7 +10,7 @@ When you download a Git-Mastery exercise, the output will tell you which directo
 <p/>
 </box>
 
-**Put the folder `under-control/control-me` under Git's control** (i.e., initialise a repository in the `control-me` folder).
+**Initialise the `control-me` folder as a repository**. Be careful not to initialise the parent folder `under-control` as a repo by mistake.
 
 </div>
 
