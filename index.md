@@ -1,5 +1,6 @@
 <frontmatter>
 title: "Git-Mastery: Home"
+layout: no-side-columns.md
 </frontmatter>
 {% from 'common/macros.njk' import thumbnail with context %}
 
