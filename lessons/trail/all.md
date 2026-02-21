@@ -7,7 +7,7 @@ pageNav: 4
 
 <span id="title">&nbsp;</span>
 
-<body id="body">
+<div id="body">
 
 # Revision Control (Using Git & GitHub)
 
@@ -21,4 +21,4 @@ Git-Mastery lessons are divided into several 'tours', each aiming to cover the k
 <p/>
 {% endfor %}
 
-</body>
+</div>
