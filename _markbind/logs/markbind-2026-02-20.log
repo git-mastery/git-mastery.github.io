@@ -1,0 +1,47 @@
+2026-02-20T08:33:52.849Z - info: Website generation (lazy) started at 16:33:52
+2026-02-20T08:33:53.064Z - info: Building assets...
+2026-02-20T08:33:53.140Z - info: Assets built
+2026-02-20T08:33:53.141Z - info: Generating landing page...
+2026-02-20T08:33:53.245Z - info: Landing page built, other pages will be built as you navigate to them!
+2026-02-20T08:33:53.322Z - info: Site data built
+2026-02-20T08:33:53.323Z - info: Website generation (lazy) complete! Total build time: 0.595s
+2026-02-20T08:33:53.336Z - info: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-02-20T08:33:53.336Z - info: Press CTRL+C to stop ...
+2026-02-20T08:33:58.288Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2026-02-20T08:33:58.724Z - info: Site data built
+2026-02-20T08:33:58.724Z - info: Lazy website regeneration complete! Total build time: 0.437s
+2026-02-20T08:34:01.184Z - info: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/all as some of its dependencies were changed since the last visit
+2026-02-20T08:34:04.558Z - info: Site data built
+2026-02-20T08:34:04.558Z - info: Lazy website regeneration complete! Total build time: 3.375s
+2026-02-20T08:34:53.175Z - info: [16:34:53] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/all.md
+2026-02-20T08:34:53.184Z - info: Synchronizing opened pages list before reload
+2026-02-20T08:34:53.188Z - info: Current opened pages, from most-to-least recent:
+2026-02-20T08:34:53.188Z - info: 1. lessons/trail/all
+2026-02-20T08:34:54.268Z - info: Rebuilding 1 pages
+2026-02-20T08:34:57.465Z - info: Site data built
+2026-02-20T08:34:57.466Z - info: Pages rebuilt
+2026-02-20T08:34:57.466Z - info: Website regeneration complete! Total build time: 3.272s
+2026-02-20T08:35:25.019Z - info: [16:35:25] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/all.md
+2026-02-20T08:35:25.022Z - info: Synchronizing opened pages list before reload
+2026-02-20T08:35:25.024Z - info: Current opened pages, from most-to-least recent:
+2026-02-20T08:35:25.024Z - info: 1. lessons/trail/all
+2026-02-20T08:35:26.031Z - info: Rebuilding 1 pages
+2026-02-20T08:35:29.043Z - info: Site data built
+2026-02-20T08:35:29.043Z - info: Pages rebuilt
+2026-02-20T08:35:29.043Z - info: Website regeneration complete! Total build time: 3.014s
+2026-02-20T08:38:55.569Z - info: [16:38:55] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-02-20T08:38:55.572Z - info: Synchronizing opened pages list before reload
+2026-02-20T08:38:55.576Z - info: Current opened pages, from most-to-least recent:
+2026-02-20T08:38:55.576Z - info: 1. lessons/trail/all
+2026-02-20T08:38:56.678Z - info: Rebuilding 1 pages
+2026-02-20T08:38:59.953Z - info: Site data built
+2026-02-20T08:38:59.954Z - info: Pages rebuilt
+2026-02-20T08:38:59.954Z - info: Website regeneration complete! Total build time: 3.291s
+2026-02-20T08:39:17.624Z - info: [16:39:17] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-02-20T08:39:17.626Z - info: Synchronizing opened pages list before reload
+2026-02-20T08:39:17.627Z - info: Current opened pages, from most-to-least recent:
+2026-02-20T08:39:17.627Z - info: 1. lessons/trail/all
+2026-02-20T08:39:18.736Z - info: Rebuilding 1 pages
+2026-02-20T08:39:25.286Z - info: Site data built
+2026-02-20T08:39:25.286Z - info: Pages rebuilt
+2026-02-20T08:39:25.286Z - info: Website regeneration complete! Total build time: 6.551s
