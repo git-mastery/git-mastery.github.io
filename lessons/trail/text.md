@@ -10,9 +10,9 @@
 
 We've packaged our Git (and GitHub) lessons as a series of 'tours'. Each tour consists of a series of lessons and covers the Git knowledge required for a specific usage.
 
-{% macro tour(desc) %}<span style="border-top-left-radius: 5px; border-top-right-radius: 5px; margin-left: -10px;" class="bg-success text-light p-1"><md>:fas-map-marker-alt: {{ desc }}</md></span>{% endmacro %}
+{% macro tour(desc) %}<span style="border-top-left-radius: 5px; border-top-right-radius: 5px; margin-left: -10px;" class="bg-success text-light p-1">:fas-map-marker-alt: {{ desc }}</span>{% endmacro %}
 
-{% macro lesson(desc) %}<span class="badge bg-success text-light"><md>{{ desc }}</md></span>{% endmacro %}
+{% macro lesson(desc) %}<span class="badge bg-success text-light">{{ desc }}</span>{% endmacro %}
 
 {% macro usage(desc) %}<span class="badge bg-warning text-dark rounded-pill">Usage: {{ desc }}</span>{% endmacro %}
 
