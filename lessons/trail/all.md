@@ -1,5 +1,6 @@
 <frontmatter>
 title: "Lessons: All in one page"
+pageNav: 4
 </frontmatter>
 
 {% from "common/macros.njk" import trail with context %}
