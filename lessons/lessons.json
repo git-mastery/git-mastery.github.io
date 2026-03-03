@@ -1,0 +1,231 @@
+
+{
+  "recordingFolderHistory": {
+    "folder": "recordingFolderHistory",
+    "title": "Tour 1: Recording the History of a Folder",
+    "lessons": {
+      "intro": {
+        "path": "lessons/intro",
+        "title": "T1L1. Introduction to Revision Control"
+      },
+      "gitPrep": {
+        "path": "lessons/gitPrep",
+        "title": "T1L2. Preparing to Use Git"
+      },
+      "init": {
+        "path": "lessons/init",
+        "title": "T1L3. Putting a Folder Under Git's Control"
+      },
+      "stage": {
+        "path": "lessons/stage",
+        "title": "T1L4. Specifying What to Include in a Snapshot"
+      },
+      "commit": {
+        "path": "lessons/commit",
+        "title": "T1L5. Saving a Snapshot"
+      },
+      "log": {
+        "path": "lessons/log",
+        "title": "T1L6. Examining the Revision History"
+      }
+    }
+  },
+  "backingUpOnCloud": {
+    "folder": "backingUpOnCloud",
+    "title": "Tour 2: Backing up a Repo on the Cloud",
+    "lessons": {
+      "remoteRepos": {
+        "path": "lessons/remoteRepos",
+        "title": "T2L1. Remote Repositories"
+      },
+      "githubPrep": {
+        "path": "lessons/githubPrep",
+        "title": "T2L2. Preparing to use GitHub"
+      },
+      "createRemoteRepo": {
+        "path": "lessons/createRemoteRepo",
+        "title": "T2L3. Creating a Repo on GitHub"
+      },
+      "setRemote": {
+        "path": "lessons/setRemote",
+        "title": "T2L4. Linking a Local Repo With a Remote Repo"
+      },
+      "push": {
+        "path": "lessons/push",
+        "title": "T2L5. Updating the Remote Repo"
+      },
+      "ignore": {
+        "path": "lessons/ignore",
+        "title": "T2L6. Omitting Files from Revision Control"
+      }
+    }
+  },
+  "workingWithRemotes": {
+    "folder": "workingWithRemotes",
+    "title": "Tour 3: Working Off a Remote Repo",
+    "lessons": {
+      "fork": {
+        "path": "lessons/fork",
+        "title": "T3L1. Duplicating a Remote Repo on the Cloud"
+      },
+      "clone": {
+        "path": "lessons/clone",
+        "title": "T3L2. Creating a Local Copy of a Repo"
+      },
+      "pull": {
+        "path": "lessons/pull",
+        "title": "T3L3. Downloading Data Into a Local Repo"
+      }
+    }
+  },
+  "usingRevisionHistory": {
+    "folder": "usingRevisionHistory",
+    "title": "Tour 4: Using the Revision History of a Repo",
+    "lessons": {
+      "show": {
+        "path": "lessons/show",
+        "title": "T4L1. Examining a Commit"
+      },
+      "tag": {
+        "path": "lessons/tag",
+        "title": "T4L2. Tagging Commits"
+      },
+      "diff": {
+        "path": "lessons/diff",
+        "title": "T4L3. Comparing Points of History"
+      },
+      "checkout": {
+        "path": "lessons/checkout",
+        "title": "T4L4. Traversing to a Specific Commit"
+      },
+      "reset": {
+        "path": "lessons/reset",
+        "title": "T4L5. Rewriting History to Start Over"
+      },
+      "revert": {
+        "path": "lessons/revert",
+        "title": "T4L6. Reverting a Specific Commit"
+      }
+    }
+  },
+  "fineTuningHistory": {
+    "folder": "fineTuningHistory",
+    "title": "Tour 5: Fine-Tuning the Revision History",
+    "lessons": {
+      "selectiveStage": {
+        "path": "lessons/selectiveStage",
+        "title": "T5L1. Controlling What Goes Into a Commit"
+      },
+      "commitMessage": {
+        "path": "lessons/commitMessage",
+        "title": "T5L2. Writing Good Commit Messages"
+      },
+      "interactiveRebase": {
+        "path": "lessons/interactiveRebase",
+        "title": "T5L3. Reorganising Commits"
+      }
+    }
+  },
+  "branchingLocally": {
+    "folder": "branchingLocally",
+    "title": "Tour 6: Branching Locally",
+    "lessons": {
+      "branch": {
+        "path": "lessons/branch",
+        "title": "T6L1. Creating Branches"
+      },
+      "merge": {
+        "path": "lessons/merge",
+        "title": "T6L2. Merging Branches"
+      },
+      "mergeConflicts": {
+        "path": "lessons/mergeConflicts",
+        "title": "T6L3. Resolving Merge Conflicts"
+      },
+      "branchRename": {
+        "path": "lessons/branchRename",
+        "title": "T6L4. Renaming Branches"
+      },
+      "branchDelete": {
+        "path": "lessons/branchDelete",
+        "title": "T6L5. Deleting Branches"
+      }
+    }
+  },
+  "syncingBranches": {
+    "folder": "syncingBranches",
+    "title": "Tour 7: Keeping Branches in Sync",
+    "lessons": {
+      "syncByMerge": {
+        "path": "lessons/syncByMerge",
+        "title": "T7L1. Merging to Sync Branches"
+      },
+      "syncByRebase": {
+        "path": "lessons/syncByRebase",
+        "title": "T7L2. Rebasing to Sync Branches"
+      },
+      "cherryPick": {
+        "path": "lessons/cherryPick",
+        "title": "T7L3. Copying Specific Commits"
+      }
+    }
+  },
+  "remoteBranches": {
+    "folder": "remoteBranches",
+    "title": "Tour 8: Working with Remote Branches",
+    "lessons": {
+      "remoteBranchPush": {
+        "path": "lessons/remoteBranchPush",
+        "title": "T8L1. Pushing Branches to a Remote"
+      },
+      "remoteBranchPull": {
+        "path": "lessons/remoteBranchPull",
+        "title": "T8L2. Pulling Branches from a Remote"
+      },
+      "remoteBranchDelete": {
+        "path": "lessons/remoteBranchDelete",
+        "title": "T8L3. Deleting Branches from a Remote"
+      },
+      "remoteBranchRename": {
+        "path": "lessons/remoteBranchRename",
+        "title": "T8L4. Renaming Branches in a Remote"
+      }
+    }
+  },
+  "workingWithPrs": {
+    "folder": "workingWithPrs",
+    "title": "Tour 9: Working with Pull Requests",
+    "lessons": {
+      "prsCreate": {
+        "path": "lessons/prsCreate",
+        "title": "T9L1. Creating Pull Requests"
+      },
+      "prsReview": {
+        "path": "lessons/prsReview",
+        "title": "T9L2. Reviewing Pull Requests"
+      },
+      "prsMerge": {
+        "path": "lessons/prsMerge",
+        "title": "T9L3. Merging Pull Requests"
+      }
+    }
+  },
+  "managingProjects": {
+    "folder": "managingProjects",
+    "title": "Tour 10: Managing Git-Based Projects",
+    "lessons": {
+      "workflows": {
+        "path": "lessons/workflows",
+        "title": "T10L1. Git Workflows"
+      },
+      "forkingWorkflow": {
+        "path": "lessons/forkingWorkflow",
+        "title": "T10L2. Forking Workflow (with Branching)"
+      },
+      "otherPmFeatures": {
+        "path": "lessons/otherPmFeatures",
+        "title": "T10L3. Other Project Management Features"
+      }
+    }
+  }
+}
