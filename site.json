@@ -21,6 +21,11 @@
       "src": "exercises-directory/exercises.md",
       "fileExtension": ".json",
       "searchable": "no"
+    },
+    {
+      "src": "lessons/lessons.md",
+      "fileExtension": ".json",
+      "searchable": "no"
     }
   ],
   "pagesExclude": ["**/*-fragment.md"],
