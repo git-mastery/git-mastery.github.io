@@ -606,10 +606,13 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 {% endif %}
 {% if exercise.wip %}<div class="bg-danger text-white mt-2 mb-2"><md>->This exercise is currently under development/testing, not yet released to users.<-</md></div>{% endif %}
 {% if has_download %}
+<div id="ex-download-info-{{ identifier }}" >
+
 **++To download++** the exercise:
 
 * Navigate inside the `gitmastery-exercises` folder.{{ numbers_roman }}
 * Run `gitmastery download {{ identifier }}` command.
+</div>
 {% else %}
 **#r#No download##** required for this exercise.
 {% endif %}
