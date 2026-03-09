@@ -8,7 +8,7 @@ You are writing user documentation for a product. You have already written docum
 
 gitGraph BT:
   commit id: "Add features.md"
-  commit id: "Mention feature for creating books" tag: "v10"
+  commit id: "Mention feature for creating books" tag: "v1.0"
   branch feature-search
   branch feature-delete
   branch list
@@ -60,7 +60,7 @@ The resulting revision graph should be as follows:
 
 gitGraph BT:
   commit id: "Add features.md"
-  commit id: "Mention feature for creating books" tag: "v10"
+  commit id: "Mention feature for creating books" tag: "v1.0"
   commit id: "Fix phrasing of heading"
   commit id: "Add the search feature"
   commit id: "Add the delete feature"
