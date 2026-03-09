@@ -7,9 +7,9 @@
 
 Here are two ways to compare two branches:
 
-* **Double-dot notation** `git diff branchA..branchB`: Changes based on commits in `branchB` but not in `branchA`. This is the one used more commonly.
-* **Triple-dot notation** `git diff branchA...branchB`: This shows changes in all the commits that are reachable by either of two references but not by both of them.<br>
-  i.e., commits unique to `branchA` or `branchB`.
+* **Double-dot notation** `git diff branchA..branchB` shows the difference between the latest snapshots of the two branches (i.e., the state of `branchA` vs the state of `branchB`). This is the notation used more commonly.
+* **Triple-dot notation** `git diff branchA...branchB` shows the changes introduced in `branchB` since it diverged from `branchA`. Internally, Git finds the *merge base* of the two branches and compares that
+  commit with the tip of `branchB`.
 
 {% call m.show_resources() %}
 
