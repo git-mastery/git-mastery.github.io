@@ -39,6 +39,7 @@
   "storageKey": "git-mastery",
   "baseUrl": "/",
   "settings": {
+    "enabled": true,
     "panel": {
       "title": "Customise your view of the Git-Mastery site",
       "description": "Customise how different content sections shown (e.g., show/hide some sections)"
