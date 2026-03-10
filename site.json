@@ -45,7 +45,7 @@
   },
   "enableSearch": false,
   "titlePrefix": "Git-Mastery",
-  "plugins": ["customviews", "mermaid", "filterTags", "algolia", "codeBlockCopyButtons", "codeBlockWrapButtons", "dataTable"],
+  "plugins": ["custardui", "mermaid", "filterTags", "algolia", "codeBlockCopyButtons", "codeBlockWrapButtons", "dataTable"],
   "pluginsContext": {
     "filterTags" : {
       "tags": ["git-mastery"]
