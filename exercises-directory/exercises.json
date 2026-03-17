@@ -311,5 +311,13 @@
     },
     "identifier": "remote-branch-rename",
     "wip": 1
+  },
+  "create_pr_from_main": {
+    "lesson": {
+      "path": "lessons/prsCreate",
+      "title": "T9L1. Creating Pull Requests"
+    },
+    "identifier": "create-pr-from-main",
+    "wip": 1
   }
 }
