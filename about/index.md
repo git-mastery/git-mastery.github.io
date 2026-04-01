@@ -42,6 +42,9 @@ Git-Mastery is an open-source software project based in the [School of Computing
 * **Developers:**
   * Jovan Ng Chengen ([@jovnc](https://github.com/jovnc)) %%-- since Dec 2025%%
   * Vikram Goyal ([@VikramGoyal23](https://github.com/VikramGoyal23)) %%-- since Dec 2025%%
+  * Desmond Wong Hui Sheng ([@desmondwong1215](https://github.com/desmondwong1215)) %%-- since Jan 2026%%
+  * Loh Jia Xin ([@jiaxinnns](https://github.com/jiaxinnns)) %%-- since Jan 2026%%
+  * San Muyun ([@SAN-MUYUN](https://github.com/SAN-MUYUN)) %%-- since Jan 2026%%
 * **Contributors:** to be added soon ...
 
 
