@@ -1,0 +1,53 @@
+2026-04-07T07:36:28.309Z - [32minfo[39m: Website generation (lazy) started at 15:36:28
+2026-04-07T07:36:28.484Z - [32minfo[39m: Building assets...
+2026-04-07T07:36:28.558Z - [32minfo[39m: Assets built
+2026-04-07T07:36:28.559Z - [32minfo[39m: Generating landing page...
+2026-04-07T07:36:28.634Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-04-07T07:36:28.651Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-04-07T07:36:28.725Z - [32minfo[39m: Site data built
+2026-04-07T07:36:28.726Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 0.517s
+2026-04-07T07:36:28.738Z - [32minfo[39m: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-04-07T07:36:28.738Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-04-07T07:36:45.284Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2026-04-07T07:36:45.666Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index.md
+2026-04-07T07:36:45.683Z - [32minfo[39m: Site data built
+2026-04-07T07:36:45.683Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.4s
+2026-04-07T07:36:50.722Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/index as some of its dependencies were changed since the last visit
+2026-04-07T07:36:50.881Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/index.md
+2026-04-07T07:36:50.903Z - [32minfo[39m: Site data built
+2026-04-07T07:36:50.903Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.181s
+2026-04-07T07:37:03.315Z - [32minfo[39m: [15:37:03] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/text.md
+2026-04-07T07:37:03.317Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-04-07T07:37:03.319Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-04-07T07:37:03.319Z - [32minfo[39m: 1. lessons/branch/index
+2026-04-07T07:37:04.351Z - [32minfo[39m: Rebuilding 1 pages
+2026-04-07T07:37:04.536Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/index.md
+2026-04-07T07:37:04.555Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/branch/9JpNY-XAseg' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/text.md'
+2026-04-07T07:37:04.555Z - [32minfo[39m: Site data built
+2026-04-07T07:37:04.555Z - [32minfo[39m: Pages rebuilt
+2026-04-07T07:37:04.555Z - [32minfo[39m: Website regeneration complete! Total build time: 0.213s
+2026-04-07T07:37:11.136Z - [32minfo[39m: [15:37:11] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/text.md
+2026-04-07T07:37:11.139Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-04-07T07:37:11.144Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-04-07T07:37:11.144Z - [32minfo[39m: 1. lessons/branch/index
+2026-04-07T07:37:12.151Z - [32minfo[39m: Rebuilding 1 pages
+2026-04-07T07:37:12.300Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/index.md
+2026-04-07T07:37:12.321Z - [32minfo[39m: Site data built
+2026-04-07T07:37:12.321Z - [32minfo[39m: Pages rebuilt
+2026-04-07T07:37:12.321Z - [32minfo[39m: Website regeneration complete! Total build time: 0.173s
+2026-04-07T07:37:37.528Z - [32minfo[39m: [15:37:37] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/text.md
+2026-04-07T07:37:37.529Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-04-07T07:37:37.529Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-04-07T07:37:37.532Z - [32minfo[39m: 1. lessons/branch/index
+2026-04-07T07:37:38.535Z - [32minfo[39m: Rebuilding 1 pages
+2026-04-07T07:37:38.703Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/index.md
+2026-04-07T07:37:38.719Z - [32minfo[39m: Site data built
+2026-04-07T07:37:38.719Z - [32minfo[39m: Pages rebuilt
+2026-04-07T07:37:38.719Z - [32minfo[39m: Website regeneration complete! Total build time: 0.185s
+2026-04-07T07:45:16.481Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/index as some of its dependencies were changed since the last visit
+2026-04-07T07:45:16.686Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/index.md
+2026-04-07T07:45:16.708Z - [32minfo[39m: Site data built
+2026-04-07T07:45:16.708Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.228s
+2026-04-07T07:46:38.515Z - [32minfo[39m: Website generation started at 15:46:38
+2026-04-07T07:46:38.612Z - [32minfo[39m: Building assets...
