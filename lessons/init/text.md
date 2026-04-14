@@ -2,7 +2,7 @@
 
 <span id="outcomes">{{ icon_outcome }} Can create a local Git repo</span>
 
-<span id="title">{{ trail.recordingFolderHistory.lessons.init.title }}</span>
+<span id="title">{{ trail.recordingFolderHistory.lessons.init.title }} <cv-label name="recordingFolderHistory.init"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

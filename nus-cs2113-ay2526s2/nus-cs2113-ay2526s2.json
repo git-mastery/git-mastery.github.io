@@ -1,0 +1,27 @@
+{
+  "id": "nus-cs2113-ay2526s2",
+  "name": "CS2113",
+  "theme": {
+    "cssVariables": {
+      "--cv-primary": "#003d7c",
+      "--cv-primary-hover": "#002d5c"
+    }
+  },
+  "preset": {
+    "toggles": {
+    },
+    "placeholders": {
+      "course": "CS2113",
+      "username": "nusUser"
+    },
+    "labels": {
+      "recordingFolderHistory.intro": {"value": "Week 1", "color": "m" },
+      "recordingFolderHistory.gitPrep": {"value": "Week 1", "color": "m" },
+      "recordingFolderHistory.init": {"value": "Week 1", "color": "m" },
+      "recordingFolderHistory.stage": {"value": "Week 2", "color": "b" },
+      "recordingFolderHistory.commit": {"value": "Week 2", "color": "b" },
+      "recordingFolderHistory.log": {"value": "Week 3", "color": "r" }
+    }
+  }
+}
+

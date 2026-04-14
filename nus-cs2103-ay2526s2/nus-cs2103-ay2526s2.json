@@ -1,0 +1,27 @@
+{
+  "id": "nus-cs2103-ay2526s2",
+  "name": "CS2103/T",
+  "theme": {
+    "cssVariables": {
+      "--cv-primary": "#003d7c",
+      "--cv-primary-hover": "#002d5c"
+    }
+  },
+  "preset": {
+    "toggles": {
+    },
+    "placeholders": {
+      "course": "CS2103/T",
+      "username": "nusUser"
+    },
+    "labels": {
+      "recordingFolderHistory.intro": {"value": "Compulsory", "color": "r" },
+      "recordingFolderHistory.gitPrep": {"value": "Compulsory", "color": "r" },
+      "recordingFolderHistory.init": {"value": "Compulsory", "color": "r" },
+      "recordingFolderHistory.stage": {"value": "Recommended", "color": "b" },
+      "recordingFolderHistory.commit": {"value": "Recommended", "color": "b" },
+      "recordingFolderHistory.log": {"value": "Optional", "color": "g" }
+    }
+  }
+}
+

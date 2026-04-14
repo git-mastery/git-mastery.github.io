@@ -14,7 +14,7 @@
 * {{ tour.title }}
   * [Tour Home]({{baseUrl}}/lessons/trail/{{ tour.folder }}/)
   {% for lesson_id, lesson in tour.lessons %}
-  * [{{ lesson.title}}]({{baseUrl}}/{{ lesson.path }}/)
+  * [{{ lesson.title}} <cv-label name="{{ tour_id }}.{{ lesson_id }}"/>]({{baseUrl}}/{{ lesson.path }}/)
   {% endfor %}
 {% endfor %}
 * [**All lessons in one page**]({{baseUrl}}/lessons/trail/all.html)

@@ -2,7 +2,7 @@
 
 
 <span id="outcomes">{{ icon_outcome }} Can stage files</span>
-<span id="title">{{ trail.recordingFolderHistory.lessons.stage.title }}</span>
+<span id="title">{{ trail.recordingFolderHistory.lessons.stage.title }} <cv-label name="recordingFolderHistory.stage"/></span>
 
 <div id="body">
 

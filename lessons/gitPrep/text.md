@@ -4,7 +4,7 @@
 
 <span id="outcomes">{{ icon_outcome }} Can prepare the computer to use Git locally</span>
 
-<span id="title">{{ trail.recordingFolderHistory.lessons.gitPrep.title }}</span>
+<span id="title">{{ trail.recordingFolderHistory.lessons.gitPrep.title }} <cv-label name="recordingFolderHistory.gitPrep"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

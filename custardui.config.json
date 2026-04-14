@@ -1,6 +1,7 @@
 {
   "config": {
   "placeholders": [
+       { "name": "course", "siteManaged": true},
        { "name": "username", "settingsLabel": "Your GitHub Username", "settingsHint": "e.g., JohnDoe" }
     ],
     "toggles": [
@@ -34,6 +35,14 @@
           { "tabId": "sourcetree-mac", "label": "Sourcetree on macOS" }
         ]
       }
+    ],
+    "labels": [
+      { "name": "recordingFolderHistory.intro" },
+      { "name": "recordingFolderHistory.gitPrep" },
+      { "name": "recordingFolderHistory.init" },
+      { "name": "recordingFolderHistory.stage" },
+      { "name": "recordingFolderHistory.commit" },
+      { "name": "recordingFolderHistory.log" }
     ]
   },
   "storageKey": "git-mastery",

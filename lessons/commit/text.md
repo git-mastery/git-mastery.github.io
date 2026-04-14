@@ -2,7 +2,7 @@
 
 <span id="outcomes">{{ icon_outcome }} can commit using git</span>
 
-<span id="title">{{ trail.recordingFolderHistory.lessons.commit.title }}</span>
+<span id="title">{{ trail.recordingFolderHistory.lessons.commit.title }} <cv-label name="recordingFolderHistory.commit"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

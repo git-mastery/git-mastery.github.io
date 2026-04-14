@@ -226,6 +226,11 @@ h2 {
     z-index: 1;
 }
 
+.badge-xs {
+  font-size: 0.65rem;
+  padding: 0.2em 0.4em;
+}
+
 /* Hide site navigation when printing */
 @media print {
     #site-nav {
