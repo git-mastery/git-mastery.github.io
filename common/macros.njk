@@ -634,12 +634,17 @@ popup-url="{{ file | replace(".md", ".html") }}">{% else %}
 
 ---{.dashed .border-danger}
 {% if has_verify %}
+<div id="ex-verify-info-{{ identifier }}">
+
 **++To verify++** your work:
 
 * Navigate to anywhere inside the `gitmastery-exercises/{{ identifier }}` folder %%(or any sub-folder of it)%%. {{ numbers_roman }}
 * Run the `gitmastery verify` command.
 
 <small>%%**To reset the exercise** and start over, navigate to the `gitmastery-exercises/{{ identifier }}` folder and run the `gitmastery progress reset` command.%%</small>
+
+</div>
+{% else %}
 {% endif %}
 {{ show_gm_footer() if has_footer else ""}}
 {% if is_panel %}</panel>{% endif %}

@@ -17,7 +17,7 @@ Git-Mastery is an open-source software project based in the [School of Computing
 
 ## License
 
-* This project is free and open-source, and is available under the MIT licence.
+* This project is free and open-source, and is available under the MIT license.
 
 
 ## Bug reports, suggestions
@@ -45,7 +45,7 @@ Git-Mastery is an open-source software project based in the [School of Computing
   * Desmond Wong Hui Sheng ([@desmondwong1215](https://github.com/desmondwong1215)) %%-- since Jan 2026%%
   * Loh Jia Xin ([@jiaxinnns](https://github.com/jiaxinnns)) %%-- since Jan 2026%%
   * San Muyun ([@SAN-MUYUN](https://github.com/SAN-MUYUN)) %%-- since Jan 2026%%
-* **Contributors:** to be added soon ...
+* **Contributors** are listed [here](https://github.com/git-mastery/app?tab=readme-ov-file#contributors).
 
 
 </div>

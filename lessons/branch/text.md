@@ -9,6 +9,10 @@
 **To work in parallel timelines, you can use Git _branches_.**
 {% endcall %}
 
+@[youtube](PGY56U64e3E)
+
+<p/>
+
 **Git {{ show_git_term("branches") }} let you develop multiple versions of your work in parallel — effectively creating {{ show_git_term("diverged") }} timelines of your repository’s history.** For example, one team member can create a new branch to experiment with a change, while the rest of the team continues working on another branch. Branches can have meaningful names, such as `main`, `release`, or `draft`.
 
 **A Git branch is simply a ref (a named label) that points to a commit and automatically moves forward as you add new commits to that branch.** As you’ve seen before, the `HEAD` ref indicates which branch you’re currently working on, by pointing to the corresponding branch ref.
