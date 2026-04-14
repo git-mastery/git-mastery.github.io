@@ -1,0 +1,132 @@
+2026-04-14T18:13:14.581Z - [32minfo[39m: Website generation (lazy) started at 02:13:14
+2026-04-14T18:13:14.791Z - [32minfo[39m: Building assets...
+2026-04-14T18:13:14.869Z - [32minfo[39m: Assets built
+2026-04-14T18:13:14.870Z - [32minfo[39m: Generating landing page...
+2026-04-14T18:13:14.939Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-04-14T18:13:14.956Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-04-14T18:13:15.031Z - [32minfo[39m: Site data built
+2026-04-14T18:13:15.031Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 0.549s
+2026-04-14T18:13:15.042Z - [32minfo[39m: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-04-14T18:13:15.042Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-04-14T18:17:14.150Z - [32minfo[39m: Website generation (lazy) started at 02:17:14
+2026-04-14T18:17:14.241Z - [32minfo[39m: Building assets...
+2026-04-14T18:17:14.316Z - [32minfo[39m: Assets built
+2026-04-14T18:17:14.317Z - [32minfo[39m: Generating landing page...
+2026-04-14T18:17:14.389Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-04-14T18:17:14.407Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-04-14T18:17:14.477Z - [32minfo[39m: Site data built
+2026-04-14T18:17:14.477Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 0.408s
+2026-04-14T18:17:14.487Z - [32minfo[39m: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-04-14T18:17:14.487Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-04-14T18:17:30.661Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2026-04-14T18:17:31.063Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index.md
+2026-04-14T18:17:31.082Z - [32minfo[39m: Site data built
+2026-04-14T18:17:31.082Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.421s
+2026-04-14T18:26:54.134Z - [32minfo[39m: [02:26:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/custardui.config.json
+2026-04-14T18:26:54.138Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-04-14T18:26:54.141Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-04-14T18:26:54.142Z - [32minfo[39m: 1. lessons/index
+2026-04-14T18:26:55.153Z - [32minfo[39m: Assets built
+2026-04-14T18:34:48.885Z - [32minfo[39m: [02:34:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/custardui.config.json
+2026-04-14T18:34:48.888Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-04-14T18:34:48.889Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-04-14T18:34:48.889Z - [32minfo[39m: 1. lessons/index
+2026-04-14T18:34:48.889Z - [32minfo[39m: 2. index
+2026-04-14T18:34:49.896Z - [32minfo[39m: Assets built
+2026-04-14T18:35:55.068Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteRepos/index as some of its dependencies were changed since the last visit
+2026-04-14T18:35:55.162Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteRepos/index.md
+2026-04-14T18:35:55.182Z - [32minfo[39m: Site data built
+2026-04-14T18:35:55.182Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.115s
+2026-04-14T18:39:34.657Z - [32minfo[39m: [02:39:34] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/nus-cs2103-ay2526s2/nus-cs2103-ay2526s2.json
+2026-04-14T18:39:34.663Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-04-14T18:39:34.668Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-04-14T18:39:34.668Z - [32minfo[39m: 1. lessons/index
+2026-04-14T18:39:35.677Z - [32minfo[39m: Assets built
+2026-04-14T18:41:28.844Z - [32minfo[39m: [02:41:28] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/custardui.config.json
+2026-04-14T18:41:28.845Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-04-14T18:41:28.846Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-04-14T18:41:28.846Z - [32minfo[39m: 1. lessons/index
+2026-04-14T18:41:29.857Z - [32minfo[39m: Assets built
+2026-04-14T18:42:40.785Z - [32minfo[39m: [02:42:40] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/nus-cs2103-ay2526s2/nus-cs2113-ay2526s2.json
+2026-04-14T18:42:40.787Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-04-14T18:42:40.788Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-04-14T18:42:40.789Z - [32minfo[39m: 1. lessons/index
+2026-04-14T18:42:41.886Z - [32minfo[39m: Assets built
+2026-04-14T18:44:20.938Z - [32minfo[39m: [02:44:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/nus-cs2103-ay2526s2/nus-cs2113-ay2526s2.json
+2026-04-14T18:44:20.939Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-04-14T18:44:20.941Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-04-14T18:44:20.941Z - [32minfo[39m: 1. lessons/index
+2026-04-14T18:44:21.945Z - [32minfo[39m: Assets built
+2026-04-14T18:44:53.115Z - [32minfo[39m: Website generation (lazy) started at 02:44:53
+2026-04-14T18:44:53.200Z - [32minfo[39m: Building assets...
+2026-04-14T18:44:53.275Z - [32minfo[39m: Assets built
+2026-04-14T18:44:53.276Z - [32minfo[39m: Generating landing page...
+2026-04-14T18:44:53.347Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-04-14T18:44:53.366Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-04-14T18:44:53.437Z - [32minfo[39m: Site data built
+2026-04-14T18:44:53.437Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 0.386s
+2026-04-14T18:44:53.447Z - [32minfo[39m: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-04-14T18:44:53.447Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-04-14T18:48:03.845Z - [32minfo[39m: [02:48:03] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/nus-cs2103-ay2526s2/nus-cs2113-ay2526s2.json
+2026-04-14T18:48:03.846Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-04-14T18:48:03.847Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-04-14T18:48:03.847Z - [32minfo[39m: 1. index
+2026-04-14T18:48:03.915Z - [32minfo[39m: [02:48:03] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/nus-cs2113-ay2526s2/nus-cs2113-ay2526s2.json
+2026-04-14T18:48:03.915Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-04-14T18:48:03.915Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-04-14T18:48:03.915Z - [32minfo[39m: 1. index
+2026-04-14T18:48:04.920Z - [34mdebug[39m: Assets removed
+2026-04-14T18:48:04.958Z - [32minfo[39m: Assets built
+2026-04-14T18:52:21.127Z - [32minfo[39m: [02:52:21] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/nus-cs2103-ay2526s2/nus-cs2103-ay2526s2.json
+2026-04-14T18:52:21.128Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-04-14T18:52:21.129Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-04-14T18:52:21.129Z - [32minfo[39m: 1. index
+2026-04-14T18:52:21.191Z - [32minfo[39m: [02:52:21] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/nus-cs2113-ay2526s2/nus-cs2113-ay2526s2.json
+2026-04-14T18:52:21.192Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-04-14T18:52:21.192Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-04-14T18:52:21.192Z - [32minfo[39m: 1. index
+2026-04-14T18:52:21.217Z - [32minfo[39m: [02:52:21] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/navbar.md
+2026-04-14T18:52:21.218Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-04-14T18:52:21.218Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-04-14T18:52:21.219Z - [32minfo[39m: 1. index
+2026-04-14T18:52:22.155Z - [32minfo[39m: Assets built
+2026-04-14T18:52:22.277Z - [32minfo[39m: Rebuilding 1 pages
+2026-04-14T18:52:22.335Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-04-14T18:52:22.343Z - [32minfo[39m: Site data built
+2026-04-14T18:52:22.343Z - [32minfo[39m: Pages rebuilt
+2026-04-14T18:52:22.343Z - [32minfo[39m: Website regeneration complete! Total build time: 0.077s
+2026-04-14T18:52:56.033Z - [32minfo[39m: [02:52:56] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/navbar.md
+2026-04-14T18:52:56.035Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-04-14T18:52:56.038Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-04-14T18:52:56.039Z - [32minfo[39m: 1. index
+2026-04-14T18:52:57.061Z - [32minfo[39m: Rebuilding 1 pages
+2026-04-14T18:52:57.113Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-04-14T18:52:57.123Z - [32minfo[39m: Site data built
+2026-04-14T18:52:57.124Z - [32minfo[39m: Pages rebuilt
+2026-04-14T18:52:57.124Z - [32minfo[39m: Website regeneration complete! Total build time: 0.063s
+2026-04-14T18:53:22.779Z - [32minfo[39m: [02:53:22] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/nus-cs2103-ay2526s2/nus-cs2103-ay2526s2.json
+2026-04-14T18:53:22.783Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-04-14T18:53:22.784Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-04-14T18:53:22.784Z - [32minfo[39m: 1. index
+2026-04-14T18:53:22.784Z - [32minfo[39m: [02:53:22] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/nus-cs2113-ay2526s2/nus-cs2113-ay2526s2.json
+2026-04-14T18:53:22.785Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-04-14T18:53:22.785Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-04-14T18:53:22.785Z - [32minfo[39m: 1. index
+2026-04-14T18:53:23.798Z - [32minfo[39m: Assets built
+2026-04-14T18:54:15.599Z - [32minfo[39m: [02:54:15] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/plugins/custardui.js
+2026-04-14T18:54:15.601Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-04-14T18:54:15.602Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-04-14T18:54:15.603Z - [32minfo[39m: 1. index
+2026-04-14T18:54:16.609Z - [32minfo[39m: Assets built
+2026-04-14T18:54:50.625Z - [32minfo[39m: Website generation (lazy) started at 02:54:50
+2026-04-14T18:54:50.709Z - [32minfo[39m: Building assets...
+2026-04-14T18:54:50.787Z - [32minfo[39m: Assets built
+2026-04-14T18:54:50.787Z - [32minfo[39m: Generating landing page...
+2026-04-14T18:54:50.856Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-04-14T18:54:50.876Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-04-14T18:54:50.948Z - [32minfo[39m: Site data built
+2026-04-14T18:54:50.949Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 0.39s
+2026-04-14T18:54:50.959Z - [32minfo[39m: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-04-14T18:54:50.959Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-04-14T18:57:47.324Z - [32minfo[39m: Website generation started at 02:57:47
+2026-04-14T18:57:47.395Z - [32minfo[39m: Building assets...
