@@ -21,7 +21,7 @@ Now you wish to contribute repo [gm-languages](https://github.com/git-mastery/gm
    echo -e "1905, by James Gosling" >> Java.txt
    git add Java.txt
    git commit -m "Add Java.txt"
-   git push origin master
+   git push origin main
    ```
 1. Create a PR from your fork to the upstream repo [gm-languages](https://github.com/git-mastery/gm-languages). You may use any suitable PR title and a description.
 1. Change the year in `Java.txt` from `1905` (which is incorrect) to `1995` (the correct year Java was created). Update the PR to reflect this correction.
