@@ -4,7 +4,8 @@
 
 <span id="outcomes">{{ icon_outcome }} Can link a local repo with a remote repo</span>
 
-<span id="title">{{ trail.backingUpOnCloud.lessons.setRemote.title }}</span>
+{% set lesson_data = trail.backingUpOnCloud.lessons.setRemote %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

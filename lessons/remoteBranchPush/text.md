@@ -2,7 +2,8 @@
 
 <span id="prereqs"></span>
 <span id="outcomes">Can push a local branch to a remote, and keep it updated.</span>
-<span id="title">{{ trail.remoteBranches.lessons.remoteBranchPush.title }}</span>
+{% set lesson_data = trail.remoteBranches.lessons.remoteBranchPush %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

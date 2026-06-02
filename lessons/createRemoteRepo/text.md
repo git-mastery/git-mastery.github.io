@@ -4,7 +4,8 @@
 
 <span id="outcomes">{{ icon_outcome }} Can create a remote repo on GitHub</span>
 
-<span id="title">{{ trail.backingUpOnCloud.lessons.createRemoteRepo.title }}</span>
+{% set lesson_data = trail.backingUpOnCloud.lessons.createRemoteRepo %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

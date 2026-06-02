@@ -3,7 +3,8 @@
 
 <span id="prereqs"></span>
 <span id="outcomes">...</span>
-<span id="title">{{ trail.workingWithRemotes.lessons.pull.title }}</span>
+{% set lesson_data = trail.workingWithRemotes.lessons.pull %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

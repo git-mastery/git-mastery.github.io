@@ -2,7 +2,8 @@
 
 <span id="prereqs"></span>
 <span id="outcomes">Can examine the changes in a commit.</span>
-<span id="title">{{ trail.usingRevisionHistory.lessons.show.title }}</span>
+{% set lesson_data = trail.usingRevisionHistory.lessons.show %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

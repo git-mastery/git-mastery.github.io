@@ -2,7 +2,8 @@
 
 <span id="prereqs"></span>
 <span id="outcomes">{{ icon_outcome }} Can set Git to ignore files</span>
-<span id="title">{{ trail.backingUpOnCloud.lessons.ignore.title }}</span>
+{% set lesson_data = trail.backingUpOnCloud.lessons.ignore %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

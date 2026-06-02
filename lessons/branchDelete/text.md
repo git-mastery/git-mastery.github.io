@@ -2,7 +2,8 @@
 
 <span id="prereqs"></span>
 <span id="outcomes">Can delete a branch in a local repository.</span>
-<span id="title">{{ trail.branchingLocally.lessons.branchDelete.title }}</span>
+{% set lesson_data = trail.branchingLocally.lessons.branchDelete %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

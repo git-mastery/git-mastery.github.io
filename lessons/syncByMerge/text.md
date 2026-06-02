@@ -2,7 +2,8 @@
 
 <span id="prereqs"></span>
 <span id="outcomes">Can use merging to sync branches.</span>
-<span id="title">{{ trail.syncingBranches.lessons.syncByMerge.title }}</span>
+{% set lesson_data = trail.syncingBranches.lessons.syncByMerge %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

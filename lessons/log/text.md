@@ -2,7 +2,8 @@
 
 <span id="prereqs"></span>
 <span id="outcomes">Able to view the revision graph, and changes included in each commit.</span>
-<span id="title">{{ trail.recordingFolderHistory.lessons.log.title }} <cv-label name="recordingFolderHistory.log"/></span>
+{% set lesson_data = trail.recordingFolderHistory.lessons.log %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

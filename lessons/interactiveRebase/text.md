@@ -2,7 +2,8 @@
 
 <span id="prereqs"></span>
 <span id="outcomes">Can use interactive rebase.</span>
-<span id="title">{{ trail.fineTuningHistory.lessons.interactiveRebase.title }}</span>
+{% set lesson_data = trail.fineTuningHistory.lessons.interactiveRebase %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

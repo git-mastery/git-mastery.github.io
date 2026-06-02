@@ -2,7 +2,8 @@
 
 <span id="prereqs"></span>
 <span id="outcomes">Able to check out a commit.</span>
-<span id="title">{{ trail.usingRevisionHistory.lessons.checkout.title }}</span>
+{% set lesson_data = trail.usingRevisionHistory.lessons.checkout %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

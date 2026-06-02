@@ -2,7 +2,8 @@
 
 <span id="prereqs"></span>
 <span id="outcomes">{{ icon_outcome }} Is aware of other project management features in GitHub.</span>
-<span id="title">{{ trail.managingProjects.lessons.otherPmFeatures.title }}</span>
+{% set lesson_data = trail.managingProjects.lessons.otherPmFeatures %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

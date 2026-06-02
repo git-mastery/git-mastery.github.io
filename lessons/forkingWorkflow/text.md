@@ -2,7 +2,8 @@
 
 <span id="prereqs"></span>
 <span id="outcomes">{{ icon_outcome }} Can use a branch-based forking workflow</span>
-<span id="title">{{ trail.managingProjects.lessons.forkingWorkflow.title }}</span>
+{% set lesson_data = trail.managingProjects.lessons.forkingWorkflow %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

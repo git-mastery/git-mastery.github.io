@@ -3,7 +3,8 @@
 
 <span id="prereqs"></span>
 <span id="outcomes">Able to write full Git commit messages.</span>
-<span id="title">{{ trail.fineTuningHistory.lessons.commitMessage.title }}</span>
+{% set lesson_data = trail.fineTuningHistory.lessons.commitMessage %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

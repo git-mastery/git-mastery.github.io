@@ -2,7 +2,8 @@
 
 <span id="prereqs"></span>
 <span id="outcomes">Able to tag a commit.</span>
-<span id="title">{{ trail.usingRevisionHistory.lessons.tag.title }}</span>
+{% set lesson_data = trail.usingRevisionHistory.lessons.tag %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

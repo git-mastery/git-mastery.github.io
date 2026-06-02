@@ -2,7 +2,8 @@
 
 <span id="prereqs"></span>
 <span id="outcomes">Can reset Git history.</span>
-<span id="title">{{ trail.usingRevisionHistory.lessons.reset.title }}</span>
+{% set lesson_data = trail.usingRevisionHistory.lessons.reset %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

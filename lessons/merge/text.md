@@ -2,7 +2,8 @@
 
 <span id="prereqs"></span>
 <span id="outcomes">Can merge branches in a local repo.</span>
-<span id="title">{{ trail.branchingLocally.lessons.merge.title }}</span>
+{% set lesson_data = trail.branchingLocally.lessons.merge %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

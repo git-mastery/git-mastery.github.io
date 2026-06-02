@@ -2,7 +2,8 @@
 
 <span id="prereqs"></span>
 <span id="outcomes">Can control what changes goes into a commit.</span>
-<span id="title">{{ trail.fineTuningHistory.lessons.selectiveStage.title }}</span>
+{% set lesson_data = trail.fineTuningHistory.lessons.selectiveStage %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

@@ -2,7 +2,8 @@
 
 <span id="prereqs"></span>
 <span id="outcomes">Can create PRs on GitHub</span>
-<span id="title">{{ trail.workingWithPrs.lessons.prsCreate.title }}</span>
+{% set lesson_data = trail.workingWithPrs.lessons.prsCreate %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

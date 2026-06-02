@@ -2,7 +2,8 @@
 
 <span id="prereqs"></span>
 <span id="outcomes">Understands the role of revision control.</span>
-<span id="title">{{ trail.recordingFolderHistory.lessons.intro.title }} <cv-label name="recordingFolderHistory.intro"/> </span>
+{% set lesson_data = trail.recordingFolderHistory.lessons.intro %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}

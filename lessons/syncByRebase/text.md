@@ -2,7 +2,8 @@
 
 <span id="prereqs"></span>
 <span id="outcomes">Can rebase a branch.</span>
-<span id="title">{{ trail.syncingBranches.lessons.syncByRebase.title }}</span>
+{% set lesson_data = trail.syncingBranches.lessons.syncByRebase %}
+<span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}
