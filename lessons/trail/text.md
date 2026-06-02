@@ -35,7 +35,7 @@ We've packaged our Git (and GitHub) lessons as a series of 'tours'. Each tour co
 
 ## Tours
 
-{% for tour_id, tour in trail %}
+{% for tour_name, tour in trail %}
 {{ show_tour_overview(tour) }}
 {% endfor %}
 

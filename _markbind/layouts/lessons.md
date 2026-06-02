@@ -10,11 +10,11 @@
 
 {% macro show_site_nav(trail) %}
 * [**Lessons Home**]({{baseUrl}}/lessons/)
-{% for tour_id, tour in trail %}
+{% for tour_name, tour in trail %}
 * {{ tour.title }}
   * [Tour Home]({{baseUrl}}/lessons/trail/{{ tour.folder }}/)
-  {% for lesson_id, lesson in tour.lessons %}
-  * [{{ lesson.title}} <cv-label name="{{ tour_id }}.{{ lesson_id }}"/>]({{baseUrl}}/{{ lesson.path }}/)
+  {% for lesson_name, lesson in tour.lessons %}
+  * [{{ lesson.title}} <cv-label name="{{ tour_name }}.{{ lesson_name }}"/>]({{baseUrl}}/{{ lesson.path }}/)
   {% endfor %}
 {% endfor %}
 * [**All lessons in one page**]({{baseUrl}}/lessons/trail/all.html)
