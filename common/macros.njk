@@ -210,10 +210,6 @@
 {% endmacro %}
 <!-- ============================================================ -->
 
-{% macro button_green(text) %}<span class="btn btn-success ps-1 pe-1 pb-0 pt-0">{{ text }}</span>{% endmacro %}
-{% macro button_light(text) %}<span class="btn btn-light ps-1 pe-1 pb-0 pt-0 border">{{ text }}</span>{% endmacro %}
-<!-- ============================================================ -->
-
 {% macro show_tour_title(text) %}<div class="text-white bg-success p-1" style="border-top-left-radius: 15px; border-top-right-radius: 15px;"><span class="h2"><span class="text-light"><md>:fas-map-marker-alt:</md></span> {{ text }}</span></div>{% endmacro %}
 <!-- ============================================================ -->
 
@@ -386,27 +382,6 @@
 <cv-tab-body>
 
 {{ sourcetree }}
-</cv-tab-body>
-</cv-tab>
-</cv-tabgroup>
-{% if indent_level %}</div>{% endif %}
-{%- endmacro %}
-<!-- ============================================================ -->
-
-{% macro show_git_tabs(filename_suffix='', indent_level='') -%}
-<!-- to be removed -->
-{% if indent_level %}<div class="indented-level{{ indent_level }}">{% endif %}
-<cv-tabgroup group-id="git-ui">
-<cv-tab tab-id="cli">
-<cv-tab-header><md>:fas-terminal: CLI</md></cv-tab-header>
-<cv-tab-body>
-    <include src="./cli{{ filename_suffix }}.md" />
-</cv-tab-body>
-</cv-tab>
-<cv-tab tab-id="sourcetree-windows|sourcetree-mac" class="d-print-none">
-<cv-tab-header><md>:fab-bitbucket: Sourcetree</md></cv-tab-header>
-<cv-tab-body>
-    <include src="./sourcetree{{ filename_suffix }}.md" />
 </cv-tab-body>
 </cv-tab>
 </cv-tabgroup>
