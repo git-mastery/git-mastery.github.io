@@ -2,7 +2,7 @@
 
 <div id="scenario" class="d-none">
 
-**The background** is same as the scenario in exercise {{ show_exercise_link(exercises.sensors_diff) }}, repeated below for ease of reference:
+**The background** is the same as the scenario in exercise {{ show_exercise_link(exercises.sensors_diff) }}, repeated below for ease of reference:
 
 ><include src="../diff/exercise-sensors-diff.md#scenario" />
 
