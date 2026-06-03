@@ -56,7 +56,7 @@ Explanation: When you create `C4`, the current branch `main` moves to `C4`, and 
 
 {% endcall %}
 
-**The push command can be used repeatedly to send further updates to another repo** e.g., to update the remote with commits you created since you pushed the first time.
+**You can use the push command repeatedly to send further updates to another repo** e.g., to update the remote with commits you created since you pushed the first time.
 
 {% call show_hands_on_practical('Pushing to send further updates to a repo')  %}
 
