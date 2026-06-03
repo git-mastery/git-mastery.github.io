@@ -14,7 +14,7 @@ Most work done in **branches eventually gets _merged_** together.
 
 When you merge, Git looks at the two branches and figures out how their histories have diverged since their {{ show_git_term("merge base") }} (i.e., the most recent common ancestor commit of two branches). It then applies the changes from the other branch onto your current branch, creating a new commit. **The new commit created when merging is called a {{ show_git_term("merge commit") }} — it records the result of combining both sets of changes.**
 
-Given below is an illustration of how such a merge looks like in the revision graph:
+Given below is an illustration of what such a merge looks like in the revision graph:
 
 <annotate src="{{ baseUrl }}/lessons/merge/images/mergeWithCommit.png" width="600">
 <a-point x="2%" y="10%" label="[1]" opacity="0"/>
