@@ -145,7 +145,7 @@ git tag v1.0 HEAD~1
 {% endset %}
 {% set sourcetree %}
 
-The same dialog used to add a tag can be used to delete and even move a tag. Note that the 'moving' here translates to deleting and re-adding behind the scene.
+The same dialog used to add a tag can be used to delete and even move a tag. Note that 'moving' here means deleting and re-adding the tag behind the scenes.
 
 <pic src="images/sourcetreeMoveTag.png" width="500" />
 {% endset %}
