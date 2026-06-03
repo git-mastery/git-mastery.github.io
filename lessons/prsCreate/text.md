@@ -58,7 +58,7 @@ Normally, the default value shown in the dropdown is what you want but in case y
    Add a paragraph to the README.md to explain ...
    Also add a heading ...
    ```
-* If you want to indicate that the PR you are about to create is 'still work in progress, not yet ready', click on the dropdown arrow in the {{ button_green(" Create pull request :octicon-triangle-down:") }} button and choose `Create draft pull request` option.
+* If you want to indicate that the PR you are about to create is 'still work in progress, not yet ready', click on the dropdown arrow in the {{ button_green(" Create pull request :octicon-triangle-down:") }} button and choose the `Create draft pull request` option.
 * Click the {{ button_green(" Create pull request :octicon-triangle-down:") }} button to create the PR.
 * Go to the receiving repo to verify that your PR appears there in the `Pull requests` tab.
 </span>
