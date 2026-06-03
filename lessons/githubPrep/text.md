@@ -2,7 +2,7 @@
 
 <span id="prereqs"></span>
 
-<span id="outcomes">{{ icon_outcome }} Can the computer to work with a GitHub account</span>
+<span id="outcomes">{{ icon_outcome }} Can prepare the computer to work with a GitHub account</span>
 
 {% set lesson_data = trail.backingUpOnCloud.lessons.githubPrep %}
 <span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
