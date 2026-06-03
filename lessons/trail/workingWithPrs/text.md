@@ -20,6 +20,6 @@ pageNav: 4
 <div id="extras">
 </div>
 
-<span class="d-none" id="achievements">Now you can contribute to a GitHub project by creating reviewing, and even merging PRs in a GitHub repository.</span>
+<span class="d-none" id="achievements">Now you can contribute to a GitHub project by creating, reviewing, and even merging PRs in a GitHub repository.</span>
 
 <span id="next">{{ show_tour_link(trail.managingProjects) }}</span>
