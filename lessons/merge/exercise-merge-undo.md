@@ -22,7 +22,7 @@ gitGraph BT:
     merge son-in-law id: "[HEAD → main] Introduce Jerry"
 </mermaid>
 
-However, now you realise this is premature, and wish to undo that change.
+However, now you realize this is premature, and wish to undo that change.
 </div>
 
 <div id="task" class="d-none">

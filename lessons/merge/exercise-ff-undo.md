@@ -28,7 +28,7 @@ gitGraph BT:
     commit id: "[HEAD → main][others] Add Tammy"
 </mermaid>
 
-However, now you realise this is premature, and wish to undo that change.
+However, now you realize this is premature, and wish to undo that change.
 </div>
 
 <div id="task" class="d-none">
