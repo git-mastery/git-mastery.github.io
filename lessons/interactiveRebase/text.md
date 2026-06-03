@@ -116,7 +116,7 @@ reword 8ab6941 C4: Addddd Howard.txt
 
 {% endset %}
 {% set sourcetree %}
-**To go to the interactive rebase mode**, right-click the parent commit of the earliest commit you want to reorganise (in this case, it is `C1: Add Penny.txt`) and choose `Rebase children of <SHA> interactively...`<br>
+**To go to the interactive rebase mode**, right-click the parent commit of the earliest commit you want to reorganize (in this case, it is `C1: Add Penny.txt`) and choose `Rebase children of <SHA> interactively...`<br>
 <pic src="images/sourcetreeRightClickToRebase.png" width="500" />
 
 {{ hp_number("2") }} **To indicate what action you want to perform on each commit**, select the commit in the list and click on the button for the action you want to do on it:<br>
