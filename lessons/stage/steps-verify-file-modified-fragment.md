@@ -24,7 +24,7 @@ modified:   fruits.txt
 ```
 {% endcall %}
 
-Note how `fruits.txt` now appears twice, once as `new file: ...` (representing the  version of the file we staged earlier, which had only three lines) and once as `modified: ...` (representing the latest version of the file which now has a fourth line).
+Note how `fruits.txt` now appears twice, once as `new file: ...` (representing the version of the file we staged earlier, which had only three lines) and once as `modified: ...` (representing the latest version of the file which now has a fourth line).
 </div>
 <div id="sourcetree"><!-- ---------------------------------------------------- -->
 
