@@ -43,7 +43,7 @@ Our Git lessons are divided into [tours](lessons/), each **teaching a specific u
 {{ heading(":fas-dumbbell:", "Authentic exercises to practice Git") }}
 <div class="indented-level3">
 
-We provide hands-on practicals to practice Git concepts as you learn them, and **exercises that reflect authentic Git usage** to self-test  knowledge. Students do the exercise **in their own computer**, using their own choice of Git tools. Our companion app **sets up specific Git usage scenarios in a scaffolded sandbox** so that the student can go straight to practicing the concept at hand, without needing the setup the scaffolding themselves.
+We provide hands-on practicals to practice Git concepts as you learn them, and **exercises that reflect authentic Git usage** to self-test  knowledge. Students do the exercise **in their own computer**, using their own choice of Git tools. Our companion app **sets up specific Git usage scenarios in a scaffolded sandbox** so that the student can go straight to practicing the concept at hand, without needing to set up the scaffolding themselves.
 </div>
 
 
