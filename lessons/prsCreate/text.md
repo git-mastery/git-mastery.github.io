@@ -70,7 +70,7 @@ Normally, the default value shown in the dropdown is what you want but in case y
 * If they don't like it at all, they can simply close the PR too i.e., they reject your proposed change.
 * In most cases, they will add comments to the PR to suggest further changes. When that happens, GitHub will notify you.
 
-**You can update the PR along the way too.** Suppose PR reviewers suggested a certain improvement to your proposed code. To update your PR as per the suggestion, you can simply modify the code in your local repo, commit the updated code to the same branch as before, and push to your fork as you did earlier. The PR will auto-update accordingly.
+**You can update the PR while it is under review.** Suppose PR reviewers suggested a certain improvement to your proposed code. To update your PR based on the suggestion, modify the code in your local repo, commit the updated code to the same branch as before, and push to your fork as you did earlier. The PR will auto-update accordingly.
 
 **Sending PRs using the `main` branch is less common** than sending PRs using separate branches. For example, suppose you wanted to propose two bug fixes that are not related to each other. In that case, it is more appropriate to send two separate PRs so that each fix can be reviewed, refined, and merged independently. But if you send PRs using the `main` branch only, both fixes (and any other change you do in the `main` branch) will appear in the PRs you create from it.
 
