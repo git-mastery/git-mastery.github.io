@@ -26,7 +26,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 <box type="important" seamless>
 
-**Git commands targeting specific repo should be run inside the repo folder.**{.text-danger} For example, to check the status of the `things` repo, you need to navigate to the `things` folder in your terminal before you run the `git status` command.<br>
+**Git commands targeting a specific repo should be run inside the repo folder.**{.text-danger} For example, to check the status of the `things` repo, you need to navigate to the `things` folder in your terminal before you run the `git status` command.<br>
 Remember this for future Git commands too.
 </box>
 
