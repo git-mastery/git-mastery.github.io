@@ -323,7 +323,7 @@ In the next dialog, choose as follows:<br>
 {{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
-{{ hp_number ('2') }} **Verify the outcome** is same as the fetch + merge steps you did in the previous hands-on practical.
+{{ hp_number ('2') }} **Verify the outcome** is the same as the fetch + merge steps you did in the previous hands-on practical.
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
