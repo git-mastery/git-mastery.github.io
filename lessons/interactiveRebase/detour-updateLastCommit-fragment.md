@@ -29,7 +29,7 @@ This will populate the text box with the previous commit message. Amend it as yo
 
 **++Updating changes in the commit++**
 
-While there are multiple ways to do this, one method that will work universally is to do a 'soft reset' of the last commit, update the staging area as you wish, and commit again.
+One reliable method is to do a 'soft reset' of the last commit, update the staging area as you wish, and commit again.
 
 <box type="warning" seamless>
 
