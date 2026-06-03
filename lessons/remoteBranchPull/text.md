@@ -63,7 +63,7 @@ Note how there is no `track-sales` in the list of branches (i.e., no local branc
 
 {% endset %}
 {% set sourcetree %}
-Observe how the branch `track-sales` appear under `REMOTES` → `origin` but not under `BRANCHES`.
+Observe how the branch `track-sales` appears under `REMOTES` → `origin` but not under `BRANCHES`.
 
 <pic src="images/sourcetreeCheckRemoteTrackingBranch.png" width="200" />
 {% endset %}
