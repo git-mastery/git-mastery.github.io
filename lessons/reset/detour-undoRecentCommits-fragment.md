@@ -12,7 +12,7 @@ Undoing or deleting recent `n` commits is easily accomplished with Git's `reset`
   ```bash
   git reset --hard HEAD~3
   ```
-* **To undo recent `n` commits, but keep changes staged, do a `soft` reset** the commit `HEAD~n` e.g.,
+* **To undo recent `n` commits, but keep changes staged, do a `soft` reset** to the commit `HEAD~n` e.g.,
   ```bash
   git reset --soft HEAD~3
   ```
