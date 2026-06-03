@@ -15,7 +15,7 @@ The background is the same as the scenario in exercise {{ m.show_exercise_link(m
 
 1. You notice that there is a branch `STU` in `origin` that your local repo is aware of, but it doesn't have a local copy of it.
    Create a local copy of the `STU` branch.
-1. You notice there is a new branch `VWX` in `origin` that you local repo is not aware of.<br>
+1. You notice there is a new branch `VWX` in `origin` that your local repo is not aware of.<br>
    Create a local copy of the `VWX` branch.
 1. You notice that the `ABC` branch on the remote `origin` has a new commit that you don't have locally.<br>
    Pull the new commit in the remote's `ABC` branch to your local copy of that branch.
