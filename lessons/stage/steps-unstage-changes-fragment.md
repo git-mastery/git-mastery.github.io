@@ -38,6 +38,6 @@
 </div>
 <div id="sourcetree"><!-- ---------------------------------------------------- -->
 
-To unstage a file, locate the file among the `staged files` section, click the `...` in front the file, and choose `Unstage file`:<br>
+To unstage a file, locate the file among the `staged files` section, click the `...` in front of the file, and choose `Unstage file`:<br>
 <pic src="images/sourcetreeUnstageFile.png"/>
 </div><!-- ------------------------------------------------------------------- -->
