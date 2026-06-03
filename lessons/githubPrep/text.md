@@ -85,7 +85,7 @@ Set up your computer's GitHub authentication, as described in the se-edu guide [
 {{ os_tabs_marker('windows') }}
 
 **1. Download and run the installer** from the [GitHub CLI releases page](https://github.com/cli/cli/releases). This is the file named as `GitHub CLI {version} windows {chip variant} installer`.<br>
-Follow the steps of the installation process, as directed by installer.
+Follow the steps of the installation process, as directed by the installer.
 
 {{ os_tabs_marker('mac') }}
 
