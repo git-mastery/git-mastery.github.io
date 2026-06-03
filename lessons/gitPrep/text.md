@@ -241,7 +241,7 @@ Alternatively, you can build the `PKGBUILD` yourself following the [instructions
 
 If you are using a Linux distribution that is not yet supported by Git-Mastery, please download the right binary for your architecture from [the latest release.](https://github.com/git-mastery/app/releases/latest)
 
-Install it to `/usr/bin` to access the binary, the following using version `3.3.0` as an example.
+Install it to `/usr/bin` to access the binary. The following example uses version `3.3.0`.
 
 ```bash
 install -D -m 0755 gitmastery-3.3.0-linux-arm64 /usr/bin/gitmastery
