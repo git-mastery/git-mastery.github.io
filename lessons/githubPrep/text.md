@@ -45,7 +45,7 @@ A {{ show_git_term("Personal Access Token (PAT)") }} is essentially a long, rand
 **Git supports two main protocols for communicating with GitHub: {{ ask_chatgpt("HTTPS and SSH", "Give a brief explanation of HTTP and SSH. Context: I'm a Git beginner choosing the protocol for communicating with GitHub.") }}.**
 
 * **With HTTPS, you connect over the web** and authenticate using your GitHub username and a Personal Access Token.
-* **With SSH, you connect using a cryptographic key pair** you generate on your machine. Once you add your public key to your GitHub account, GitHub recognises your machine and lets you authenticate without typing anything further.
+* **With SSH, you connect using a cryptographic key pair** you generate on your machine. Once you add your public key to your GitHub account, GitHub recognizes your machine and lets you authenticate without typing anything further.
 
 {% call show_prep("Set up authentication with GitHub", "setup-authentication") %}
 
