@@ -67,7 +67,7 @@ Don't panic. The error message is expected. It confirms that the folder currentl
 
 {% endcall %}
 
-**Initialising a repo results in two things:**
+**Initializing a repo results in two things:**
 
 * **First, Git now recognises this folder as a Git repository**, which means it can now help you track the version history of files inside this folder. {{ bold_number("a)") }}
 
