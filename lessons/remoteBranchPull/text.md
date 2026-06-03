@@ -226,7 +226,7 @@ gitGraph BT:
 {{ show_transformation_columns(a, b, c) }}
 <!-- ------ end: transformation columns -------------------------------->
 
-**If both the local branch and the remote-tracking branch have new commits that the other does not, Git will try to combine the two diverged histories when you do a pull.** By default, this is done by creating a merge commit, although this behaviour can be changed (for example, to use rebasing instead).
+**If both the local branch and the remote-tracking branch have new commits that the other does not, Git will try to combine the two diverged histories when you do a pull.** By default, this is done by creating a merge commit, although this behavior can be changed (for example, to use rebasing instead).
 
 In the example below, the local branch `bug-fix` has a new commit `b3` while its remote tracking branch has a new commit `b2`. After pulling, Git has combined the two diverged branches with a merged commit.
 
