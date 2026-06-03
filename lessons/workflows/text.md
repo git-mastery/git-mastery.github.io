@@ -15,7 +15,7 @@ There are different Git-based workflows a project can use to manage code changes
 
 **Workflows can be understood more easily by looking at two key dimensions** that describe how they operate:
 
-* **Collaboration model:** who is allowed to push to the main repository? {{ bold_number("['D1:', 'D2:']")}}
+* **Collaboration model:** Who is allowed to push to the main repository? {{ bold_number("['D1:', 'D2:']")}}
   * At one end of this dimension is **the {{ show_git_term('centralised model') }}, in which all team members push to a single shared repository**. The coordination is largely social: developers agree on rules about when and how to push. {{ bold_number("['D1a:', 'D1b:', 'D2a:', 'D2b:']") }}
   * At the other end is **the {{ show_git_term('forking model') }}, in which each contributor works in their own fork and proposes changes back to the original repository using pull requests.** The maintainers of the upstream repository decide what gets merged. This model is common in open-source projects and large organisations because it scales well and provides strong control over what enters the main codebase.
 * **Integration strategy:** when and how often changes are merged into the main line of development?
