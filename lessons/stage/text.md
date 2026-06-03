@@ -12,7 +12,7 @@
 To save a snapshot, **you start by specifying what to include in it, also called _staging_**.
 {% endcall %}
 
-**Git considers new files that you add to the working directory as {{ show_git_term("'untracked'") }}** i.e., Git is aware of them, but they are not yet under Git's control. The same applies to files that existed in the working folder at the time you initialised the repo.
+**Git considers new files that you add to the working directory as {{ show_git_term("'untracked'") }}** i.e., Git is aware of them, but they are not yet under Git's control. The same applies to files that existed in the working folder at the time you initialized the repo.
 
 **A Git repo has an internal space called the {{ show_git_term('staging area') }} which it uses to build the next snapshot**. Another name for the staging area is the {{ show_git_term('index') }}.
 
