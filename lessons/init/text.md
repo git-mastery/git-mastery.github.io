@@ -69,7 +69,7 @@ Don't panic. The error message is expected. It confirms that the folder currentl
 
 **Initializing a repo results in two things:**
 
-* **First, Git now recognises this folder as a Git repository**, which means it can now help you track the version history of files inside this folder. {{ bold_number("a)") }}
+* **First, Git now recognizes this folder as a Git repository**, which means it can now help you track the version history of files inside this folder. {{ bold_number("a)") }}
 
 {% call show_hands_on_practical('Verifying a folder is a Git repo') %}
 
