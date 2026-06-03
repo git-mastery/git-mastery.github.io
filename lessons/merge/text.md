@@ -218,7 +218,7 @@ gitGraph BT:
 {% set continue_info %}
 To continue with the same `sports` repo we used above, **create a new branch called `add-swimming`, and add some commits to it** as follows:<br>
 Switch to the main branch, create a new branch, switch to the new branch, add a file named `swimming.txt`, stage it, and commit it.<br>
-Do some changes to `swimming.txt`, and commit those changes.
+Make some changes to `swimming.txt`, and commit those changes.
 
 Here are the equivalent commands:
 ```bash
