@@ -40,7 +40,7 @@ mkdir things
 
 <box type="warning" seamless id="no-mixing-git-with-file-sync-software">
 
-**Avoid putting Git repos inside cloud-synced (e.g., OneDrive, Dropbox) folders.** Reason: Multiple tools trying to detect/sync changes in the same folder can cause conflicts and unexpected behaviors.<br> If you want to access project files from multiple computers, use Git to do that (rather than cloud syncing tools).
+**Avoid putting Git repos inside cloud-synced (e.g., OneDrive, Dropbox) folders.** Multiple tools trying to detect/sync changes in the same folder can cause conflicts and unexpected behaviors.<br> If you want to access project files from multiple computers, use Git instead of cloud syncing tools.
 </box>
 
 {{ hp_number(1) }} **Then, `cd` into it.** For example,
