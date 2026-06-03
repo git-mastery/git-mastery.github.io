@@ -24,7 +24,7 @@ The first step of backing up a local repo on GitHub: **create an empty repositor
 
 {{ hp_number ('2') }} **In the next screen, provide `gitmastery-things` as the name for your repo**. Refer to the screenshot below on some guidance on how to provide the required information.<br>
    <pic eager src="images/fillNewRepoInfo.png" width="650" /><br>
-   **Click {{ button_green("Create repository") }} button** to create the new repository.
+   **Click the {{ button_green("Create repository") }} button** to create the new repository.
 
 <box type="warning" seamless>
 
