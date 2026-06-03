@@ -4,7 +4,7 @@
 <div id="scenario" class="d-none">
 
 
-**The background** is same as the scenario in exercise {{ m.show_exercise_link(m.exercises.glossary_branch_push) }}, repeated below for ease of reference:
+**The background** is the same as the scenario in exercise {{ m.show_exercise_link(m.exercises.glossary_branch_push) }}, repeated below for ease of reference:
 
 ><include src="../remoteBranchPush/exercise-glossary-branch-push.md#scenario" />
 
