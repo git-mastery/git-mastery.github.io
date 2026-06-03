@@ -10,7 +10,7 @@
 When the revision history gets 'messy', **Git has a way to 'tidy up' the recent commits.**
 {% endcall %}
 
-**Git has a powerful tool called {{ show_git_term("interactive rebasing") }} which lets you review and reorganise your recent commits.** With it, you can reword commit messages, change their order, delete commits, combine several commits into one (squash), or split a commit into smaller pieces. This feature is useful for tidying up a commit history that has become messy — for example, when some commits are out of order, poorly described, or include changes that would be clearer if split up or combined.
+**Git has a powerful tool called {{ show_git_term("interactive rebasing") }} which lets you review and reorganize your recent commits.** With it, you can reword commit messages, change their order, delete commits, combine several commits into one (squash), or split a commit into smaller pieces. This feature is useful for tidying up a commit history that has become messy — for example, when some commits are out of order, poorly described, or include changes that would be clearer if split up or combined.
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Tidy-up commits")  %}
