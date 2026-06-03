@@ -14,7 +14,7 @@
 
 <div id="task" class="d-none">
 
-Rename the `STU` branch as `S-to-Z`, in the local repo and in the the remote repo.
+Rename the `STU` branch as `S-to-Z`, in the local repo and in the remote repo.
 
 </div>
 
