@@ -109,7 +109,7 @@ echo "no shapes added yet" >> shapes.txt
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
-**The `git diff` command shows unstaged changes** in the working directory (tracked files only). The output of the `diff` command, is a diff view (introduced in [this lesson](../show/index.html)).
+**The `git diff` command shows unstaged changes** in the working directory (tracked files only). The output of the `diff` command is a diff view (introduced in [this lesson](../show/index.html)).
 
 ```bash{.no-line-numbers}
 git diff
