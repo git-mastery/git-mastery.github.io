@@ -28,7 +28,7 @@ The first step of backing up a local repo on GitHub: **create an empty repositor
 
 <box type="warning" seamless>
 
-If you enable any of the three `Add _____` options shown above, GitHub will not only create a repo, but will also initialise it with some initial content. That is not what we want here. To create an empty remote repo, keep those options disabled.
+If you enable any of the three `Add _____` options shown above, GitHub will not only create a repo, but will also initialize it with some initial content. That is not what we want here. To create an empty remote repo, keep those options disabled.
 </box>
 
 {{ hp_number ('3') }} **Note the URL of the repo.** It will be of the form<br> `https://github.com/{your_user_name}/{repo_name}.git`.<br>
