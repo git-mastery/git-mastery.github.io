@@ -22,7 +22,7 @@ To use GitHub, **you need to sign up for an account, and configure related tools
 * **A {{ show_git_term("GitHub user account") }} represents an individual user.** It is created when you sign up for GitHub and includes a username, profile page, and personal settings. With a user account, you can create your own repositories, contribute to others’ projects, and manage collaboration settings for any repositories you own.
 * **A {{ show_git_term("GitHub organization") }} ({{ show_git_term("org") }} for short) is a shared account used by a group** such as a team, company, or open-source project. Organizations can own repositories and manage access to them through teams, roles, and permissions. Organizations are especially useful when managing repositories with shared ownership or when working at scale.
 
-**Every GitHub user must have a user account**, even if they primarily work within an organisation.
+**Every GitHub user must have a user account**, even if they primarily work within an organization.
 
 {% call show_prep("Create a GitHub account", "create-github-account") %}
 **Create a personal GitHub account** as described in [GitHub Docs → Creating an account on GitHub](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github), if you don't have one yet.
