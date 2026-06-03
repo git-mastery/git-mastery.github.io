@@ -2,7 +2,6 @@
 {
   "under_control": {
     "lesson": {
-      "path": "lessons/init",
       "title": "T1L3. Putting a Folder Under Git's Control",
       "tour_name": "recordingFolderHistory",
       "lesson_name": "init"
@@ -11,14 +10,12 @@
   },
   "undo_init": {
     "lesson": {
-      "path": "lessons/init",
       "title": "T1L3. Putting a Folder Under Git's Control",
       "tour_name": "recordingFolderHistory",
       "lesson_name": "init"
     },
     "detour": {
       "lesson": {
-        "path": "lessons/init",
         "title": "T1L3. Putting a Folder Under Git's Control",
         "tour_name": "recordingFolderHistory",
         "lesson_name": "init"
@@ -29,7 +26,6 @@
   },
   "stage_fright": {
     "lesson": {
-      "path": "lessons/stage",
       "title": "T1L4. Specifying What to Include in a Snapshot",
       "tour_name": "recordingFolderHistory",
       "lesson_name": "stage"
@@ -39,7 +35,6 @@
   "staging_intervention": {
     "detour": {
       "lesson": {
-        "path": "lessons/stage",
         "title": "T1L4. Specifying What to Include in a Snapshot",
         "tour_name": "recordingFolderHistory",
         "lesson_name": "stage"
@@ -50,7 +45,6 @@
   },
   "grocery_shopping": {
     "lesson": {
-      "path": "lessons/commit",
       "title": "T1L5. Saving a Snapshot",
       "tour_name": "recordingFolderHistory",
       "lesson_name": "commit"
@@ -59,7 +53,6 @@
   },
   "log_and_order": {
     "lesson": {
-      "path": "lessons/log",
       "title": "T1L6. Examining the Revision History",
       "tour_name": "recordingFolderHistory",
       "lesson_name": "log"
@@ -68,7 +61,6 @@
   },
   "remote_control": {
     "lesson": {
-      "path": "lessons/createRemoteRepo",
       "title": "T2L3. Creating a Repo on GitHub",
       "tour_name": "backingUpOnCloud",
       "lesson_name": "createRemoteRepo"
@@ -77,7 +69,6 @@
   },
   "link_me": {
     "lesson": {
-      "path": "lessons/setRemote",
       "title": "T2L4. Linking a Local Repo With a Remote Repo",
       "tour_name": "backingUpOnCloud",
       "lesson_name": "setRemote"
@@ -86,7 +77,6 @@
   },
   "push_over": {
     "lesson": {
-      "path": "lessons/push",
       "title": "T2L5. Updating the Remote Repo",
       "tour_name": "backingUpOnCloud",
       "lesson_name": "push"
@@ -95,7 +85,6 @@
   },
   "ignoring_somethings": {
     "lesson": {
-      "path": "lessons/ignore",
       "title": "T2L6. Omitting Files from Revision Control",
       "tour_name": "backingUpOnCloud",
       "lesson_name": "ignore"
@@ -104,7 +93,6 @@
   },
   "fork_repo": {
     "lesson": {
-      "path": "lessons/fork",
       "title": "T3L1. Duplicating a Remote Repo on the Cloud",
       "tour_name": "workingWithRemotes",
       "lesson_name": "fork"
@@ -113,7 +101,6 @@
   },
   "clone_repo": {
     "lesson": {
-      "path": "lessons/clone",
       "title": "T3L2. Creating a Local Copy of a Repo",
       "tour_name": "workingWithRemotes",
       "lesson_name": "clone"
@@ -122,7 +109,6 @@
   },
   "fetch_and_pull": {
     "lesson": {
-      "path": "lessons/pull",
       "title": "T3L3. Downloading Data Into a Local Repo",
       "tour_name": "workingWithRemotes",
       "lesson_name": "pull"
@@ -131,7 +117,6 @@
   },
   "view_commits": {
     "lesson": {
-      "path": "lessons/show",
       "title": "T4L1. Examining a Commit",
       "tour_name": "usingRevisionHistory",
       "lesson_name": "show"
@@ -140,7 +125,6 @@
   },
   "tags_add": {
     "lesson": {
-      "path": "lessons/tag",
       "title": "T4L2. Tagging Commits",
       "tour_name": "usingRevisionHistory",
       "lesson_name": "tag"
@@ -149,7 +133,6 @@
   },
   "tags_update": {
     "lesson": {
-      "path": "lessons/tag",
       "title": "T4L2. Tagging Commits",
       "tour_name": "usingRevisionHistory",
       "lesson_name": "tag"
@@ -158,7 +141,6 @@
   },
   "tags_push": {
     "lesson": {
-      "path": "lessons/tag",
       "title": "T4L2. Tagging Commits",
       "tour_name": "usingRevisionHistory",
       "lesson_name": "tag"
@@ -167,7 +149,6 @@
   },
   "sensors_diff": {
     "lesson": {
-      "path": "lessons/diff",
       "title": "T4L3. Comparing Points of History",
       "tour_name": "usingRevisionHistory",
       "lesson_name": "diff"
@@ -176,7 +157,6 @@
   },
   "sensors_checkout": {
     "lesson": {
-      "path": "lessons/checkout",
       "title": "T4L4. Traversing to a Specific Commit",
       "tour_name": "usingRevisionHistory",
       "lesson_name": "checkout"
@@ -185,7 +165,6 @@
   },
   "sensors_reset": {
     "lesson": {
-      "path": "lessons/reset",
       "title": "T4L5. Rewriting History to Start Over",
       "tour_name": "usingRevisionHistory",
       "lesson_name": "reset"
@@ -194,7 +173,6 @@
   },
   "sensors_revert": {
     "lesson": {
-      "path": "lessons/revert",
       "title": "T4L6. Reverting a Specific Commit",
       "tour_name": "usingRevisionHistory",
       "lesson_name": "revert"
@@ -203,7 +181,6 @@
   },
   "side_track": {
     "lesson": {
-      "path": "lessons/branch",
       "title": "T6L1. Creating Branches",
       "tour_name": "branchingLocally",
       "lesson_name": "branch"
@@ -212,7 +189,6 @@
   },
   "branch_previous": {
     "lesson": {
-      "path": "lessons/branch",
       "title": "T6L1. Creating Branches",
       "tour_name": "branchingLocally",
       "lesson_name": "branch"
@@ -221,14 +197,12 @@
   },
   "branch_compare": {
     "lesson": {
-      "path": "lessons/merge",
       "title": "T6L2. Merging Branches",
       "tour_name": "branchingLocally",
       "lesson_name": "merge"
     },
     "detour": {
       "lesson": {
-        "path": "lessons/merge",
         "title": "T6L2. Merging Branches",
         "tour_name": "branchingLocally",
         "lesson_name": "merge"
@@ -239,7 +213,6 @@
   },
   "branch_bender": {
     "lesson": {
-      "path": "lessons/merge",
       "title": "T6L2. Merging Branches",
       "tour_name": "branchingLocally",
       "lesson_name": "merge"
@@ -248,7 +221,6 @@
   },
   "branch_forward": {
     "lesson": {
-      "path": "lessons/merge",
       "title": "T6L2. Merging Branches",
       "tour_name": "branchingLocally",
       "lesson_name": "merge"
@@ -257,14 +229,12 @@
   },
   "merge_undo": {
     "lesson": {
-      "path": "lessons/merge",
       "title": "T6L2. Merging Branches",
       "tour_name": "branchingLocally",
       "lesson_name": "merge"
     },
     "detour": {
       "lesson": {
-        "path": "lessons/merge",
         "title": "T6L2. Merging Branches",
         "tour_name": "branchingLocally",
         "lesson_name": "merge"
@@ -275,14 +245,12 @@
   },
   "ff_undo": {
     "lesson": {
-      "path": "lessons/merge",
       "title": "T6L2. Merging Branches",
       "tour_name": "branchingLocally",
       "lesson_name": "merge"
     },
     "detour": {
       "lesson": {
-        "path": "lessons/merge",
         "title": "T6L2. Merging Branches",
         "tour_name": "branchingLocally",
         "lesson_name": "merge"
@@ -293,14 +261,12 @@
   },
   "merge_squash": {
     "lesson": {
-      "path": "lessons/merge",
       "title": "T6L2. Merging Branches",
       "tour_name": "branchingLocally",
       "lesson_name": "merge"
     },
     "detour": {
       "lesson": {
-        "path": "lessons/merge",
         "title": "T6L2. Merging Branches",
         "tour_name": "branchingLocally",
         "lesson_name": "merge"
@@ -311,7 +277,6 @@
   },
   "conflict_mediator": {
     "lesson": {
-      "path": "lessons/mergeConflicts",
       "title": "T6L3. Resolving Merge Conflicts",
       "tour_name": "branchingLocally",
       "lesson_name": "mergeConflicts"
@@ -320,7 +285,6 @@
   },
   "branch_rename": {
     "lesson": {
-      "path": "lessons/branchRename",
       "title": "T6L4. Renaming Branches",
       "tour_name": "branchingLocally",
       "lesson_name": "branchRename"
@@ -329,7 +293,6 @@
   },
   "branch_delete": {
     "lesson": {
-      "path": "lessons/branchDelete",
       "title": "T6L5. Deleting Branches",
       "tour_name": "branchingLocally",
       "lesson_name": "branchDelete"
@@ -338,7 +301,6 @@
   },
   "mix_messy_docs": {
     "lesson": {
-      "path": "lessons/branchDelete",
       "title": "T6L5. Deleting Branches",
       "tour_name": "branchingLocally",
       "lesson_name": "branchDelete"
@@ -347,7 +309,6 @@
   },
   "mix_messy_graph": {
     "lesson": {
-      "path": "lessons/branchDelete",
       "title": "T6L5. Deleting Branches",
       "tour_name": "branchingLocally",
       "lesson_name": "branchDelete"
@@ -356,7 +317,6 @@
   },
   "glossary_branch_push": {
     "lesson": {
-      "path": "lessons/remoteBranchPush",
       "title": "T8L1. Pushing Branches to a Remote",
       "tour_name": "remoteBranches",
       "lesson_name": "remoteBranchPush"
@@ -365,7 +325,6 @@
   },
   "glossary_branch_pull": {
     "lesson": {
-      "path": "lessons/remoteBranchPull",
       "title": "T8L2. Pulling Branches from a Remote",
       "tour_name": "remoteBranches",
       "lesson_name": "remoteBranchPull"
@@ -374,7 +333,6 @@
   },
   "glossary_branch_delete": {
     "lesson": {
-      "path": "lessons/remoteBranchDelete",
       "title": "T8L3. Deleting Branches from a Remote",
       "tour_name": "remoteBranches",
       "lesson_name": "remoteBranchDelete"
@@ -383,7 +341,6 @@
   },
   "glossary_branch_rename": {
     "lesson": {
-      "path": "lessons/remoteBranchRename",
       "title": "T8L4. Renaming Branches in a Remote",
       "tour_name": "remoteBranches",
       "lesson_name": "remoteBranchRename"
@@ -392,7 +349,6 @@
   },
   "remote_branch_rename": {
     "lesson": {
-      "path": "lessons/remoteBranchRename",
       "title": "T8L4. Renaming Branches in a Remote",
       "tour_name": "remoteBranches",
       "lesson_name": "remoteBranchRename"
@@ -402,7 +358,6 @@
   },
   "create_pr_from_main": {
     "lesson": {
-      "path": "lessons/prsCreate",
       "title": "T9L1. Creating Pull Requests",
       "tour_name": "workingWithPrs",
       "lesson_name": "prsCreate"
