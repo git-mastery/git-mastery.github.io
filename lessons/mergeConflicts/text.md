@@ -18,7 +18,7 @@ When merging branches, **you need to guide Git on how to resolve conflicting cha
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Resolve a merge conflict")  %}
 
-{{ hp_number(hop_scenario) }} In the `nouns` repo (revision graph shown below), both the `main` and the `fix1` branches are modifying the same file at the same location. The main branch is inserting `black` in the same place the `fix1` is inserting `green`.
+{{ hp_number(hop_scenario) }} In the `nouns` repo (revision graph shown below), both the `main` and the `fix1` branches are modifying the same file at the same location. The main branch is inserting `black` in the same place the `fix1` branch is inserting `green`.
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
