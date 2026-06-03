@@ -6,7 +6,7 @@
 
 ><include src="../diff/exercise-sensors-diff.md#scenario" />
 
-**Now**, you have found that the **last few commits have some problems**, might need some manual fixes.
+**Now**, you have found that the **last few commits have some problems** and might need some manual fixes.
 </div>
 
 <div id="task" class="d-none">
