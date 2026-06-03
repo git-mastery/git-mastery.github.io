@@ -336,7 +336,7 @@ Explanation of 'Run from ...' options:
 
 ##### **Updating the Git-Mastery App**{.text-info}
 
-As the Git-Mastery app is under active development, it is likely to get updated frequently. When you run a `gitmastery <command>`, the output will warn you if there is a new version, in which case you should update the app immediately, by following the instructions in that message.
+As the Git-Mastery app is under active development, it is likely to get updated frequently. When you run a `gitmastery <command>`, the output will warn you if there is a new version; update the app immediately by following the instructions in that message.
 
 {{ os_tabs_marker('windows') }}
 
