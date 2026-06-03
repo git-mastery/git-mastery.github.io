@@ -136,7 +136,7 @@ You can use uppercase letters too, but many teams avoid them for consistency.
 * `release/2.0` — for prepping a release
 * `experiment/ai-chatbot` — for “just trying stuff”
 
-Although forward-slash (`/`) in the prefix doesn't mean folders, some tools treat it kind of like a path so you can group related branches when you run git branch. Shown below is an example of how Sourcetree groups branches with the same prefix.
+Although forward-slash (`/`) in the prefix doesn't mean folders, some tools treat it like a path so you can group related branches when you run git branch. The example below shows how Sourcetree groups branches with the same prefix.
 
 <pic src="images/sourcetreeGroupedBranches.png" />
 {% endcall %}
