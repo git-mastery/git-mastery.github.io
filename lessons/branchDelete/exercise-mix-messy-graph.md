@@ -28,7 +28,7 @@ gitGraph BT:
   merge feature-search id: "Merge search feature"
 </mermaid>
 
-At this point, you realise this way of merging can result in a complicated revision graph. Instead, you wish to merge these changes in a way that results in a simple linear revision graph.
+At this point, you realize this way of merging can result in a complicated revision graph. Instead, you wish to merge these changes in a way that results in a simple linear revision graph.
 </div>
 
 <div id="task" class="d-none">
