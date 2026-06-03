@@ -147,7 +147,7 @@ main
 
 **<tooltip content="Graphical User Interface">GUI</tooltip> clients for Git also exist,** such as Sourcetree, GitKraken, and the built-in Git support in editors like Intellij IDEA and VS Code. These tools provide a more visual way to perform some Git operations.
 
-**If you're new to Git, it's best to learn the CLI first.** The CLI is universal, always available (even on servers), and helps you build a solid understanding of Git’s concepts. You can use GUI clients as a supplement — for example, to visualise complex history structures.
+**If you're new to Git, it's best to learn the CLI first.** The CLI is universal, always available (even on servers), and helps you build a solid understanding of Git’s concepts. You can use GUI clients as a supplement — for example, to visualize complex history structures.
 
 **Mastering the CLI gives you confidence and flexibility, while GUI tools can serve as helpful companions.**
 
