@@ -59,7 +59,7 @@ Note how the rebasing changed the base of the `feature` branch from `m1` to `m2`
 
 Also note how the first commit in the feature branch, previously shown as `f1`, is now shown as `f1a` after the rebase. Although both commits contain the same changes, other details -- such as the parent commit -- are different, making them two distinct Git objects with different SHA values. Similarly, `f2` and `f2a` are also different. Thus, the history of the entire `feature` branch has changed after the rebase.
 
-**Because rebasing rewrites the commit history of your branch,** you should avoid rebasing branches that you’ve already published, and are potentially used by others -- rewriting published history can cause confusion and conflicts for those using the previous version of the commits.
+**Because rebasing rewrites the commit history of your branch,** you should avoid rebasing branches that you’ve already published and that others might be using -- rewriting published history can cause confusion and conflicts for those using the previous version of the commits.
 
 </div>
 
