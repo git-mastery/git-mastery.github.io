@@ -72,7 +72,7 @@ Another way to contribute to a GitHub project is by giving input via a pull requ
    ```
    {{ icon_tip }} `LGTM` is often used in such overall comments, to indicate `Looks good to me` (or `Looks good to merge`).<br>
    `nit` (as in _nit-picking_) is another such term, used to indicate minor flaws e.g., `LGTM. Just a few nits to fix.`.
-* Choose `Approve`, `Comment`, or `Request changes` option as appropriate and click on the {{ button_green("Submit review") }} button.
+* Choose the `Approve`, `Comment`, or `Request changes` option as appropriate and click on the {{ button_green("Submit review") }} button.
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 </div>
