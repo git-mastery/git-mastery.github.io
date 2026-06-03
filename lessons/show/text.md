@@ -57,7 +57,7 @@ index 0000000..55c8449
 @@ -0,0 +1 @@
 +a file for colours
  ```
- A Git diff can consist of multiple {{ show_git_term("file diffs") }}, one for each changed file. Each file diff can contain one or more {{ show_git_term("hunk") }} i.e., a localised group of changes within the file — including lines added, removed, or left unchanged (included for context).
+ A Git diff can consist of multiple {{ show_git_term("file diffs") }}, one for each changed file. Each file diff can contain one or more {{ show_git_term("hunk") }} i.e., a localized group of changes within the file — including lines added, removed, or left unchanged (included for context).
 
 <div class="d-print-none">
 
