@@ -16,7 +16,7 @@ If you have appropriate level of access to a GitHub repo, you can merge pull req
 {% call show_hands_on_practical("Merge a PR")  %}
 {{ hp_number("Preparation") }} If you would like to try merging a PR yourself, you can create a dummy PR in the following manner.
 * Create a branch in a repo that you have forked and cloned (e.g., [samplerepo-pr-practice](https://github.com/git-mastery/samplerepo-pr-practice)). {{ numbers_roman }}
-* Do some changes in the branch.
+* Make some changes in the branch.
 * Push the branch to the remote repo.
 * Create a PR within your fork, from the new branch to the `main` branch.
 
