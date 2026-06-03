@@ -2,7 +2,7 @@
 
 <div id="preview">
 
- **Git allows you to amend the most recent commit.** This is useful when you realize there’s something you’d like to change — e.g., fix a typo in the commit message, or to exclude some unintended change from the commit.
+ **Git allows you to amend the most recent commit.** This is useful when you realize there’s something you’d like to change — e.g., fix a typo in the commit message, or exclude an unintended change from the commit.
 </div>
 
 **++Updating the commit message++**
