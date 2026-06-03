@@ -18,7 +18,7 @@ The third step of backing up a local repo on GitHub: **push a copy of the local 
 * **To push, you need to have <tooltip content="permission to update contents on the remote">write-access</tooltip> to the remote repo**.
 * **Pushing is performed one branch at a time**; you must specify which branch you want to push.
 
-**You can configure Git to {{ show_git_term("track") }} a pairing between a local branch and a remote branch**, so in future you can push from the same local branch to the corresponding remote branch without needing to specify them again. For example, you can set your local `main` branch to _track_ the `main` branch on the remote repo `origin` i.e., local `main` branch will track the <tooltip content="'upstream' is commonly used to refer to the remote repo connected to a local repo">upstream</tooltip> branch `origin/main`.
+**You can configure Git to {{ show_git_term("track") }} a pairing between a local branch and a remote branch**, so later you can push from the same local branch to the corresponding remote branch without specifying them again. For example, you can set your local `main` branch to _track_ the `main` branch on the remote repo `origin` i.e., local `main` branch will track the <tooltip content="'upstream' is commonly used to refer to the remote repo connected to a local repo">upstream</tooltip> branch `origin/main`.
 
 {{ show_commit('C3', desc=show_ref('main') + show_head() + show_ref('origin/main')) }}
 {{ show_commit('C2') }}
