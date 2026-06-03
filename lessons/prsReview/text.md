@@ -65,7 +65,7 @@ Another way to contribute to a GitHub project is by giving input via a pull requ
 * When there are no more comments to add, click on the {{ button_green("Review changes :octicon-triangle-down:") }} button (on the top right of the diff page). {{ sub_numbers('5') }}
 * Type in an overall comment about the PR, if any. e.g.,
    ```{.no-line-numbers}
-   Overall, I found your code easy to read for the most part except a few places
+   Overall, I found your code easy to read for the most part, except in a few places
    where the nesting was too deep. I noted a few minor coding standard violations
    too. Some of the classes are getting quite long. Consider splitting into
    smaller classes if that makes sense.
