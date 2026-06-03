@@ -74,7 +74,7 @@ Normally, the default value shown in the dropdown is what you want but in case y
 
 **Sending PRs using the `main` branch is less common** than sending PRs using separate branches. For example, suppose you wanted to propose two bug fixes that are not related to each other. In that case, it is more appropriate to send two separate PRs so that each fix can be reviewed, refined, and merged independently. But if you send PRs using the `main` branch only, both fixes (and any other change you do in the `main` branch) will appear in the PRs you create from it.
 
-**It is possible to create PRs within the same repo too** e.g., you can create a PR from branch `feature-x` to the `main` branch, within the same repo. Doing so will allow the code to be reviewed by other developers (using PR review mechanism) before it is merged.
+**You can also create PRs within the same repo** e.g., from branch `feature-x` to the `main` branch. Doing so allows other developers to review the code before it is merged.
 
 </div>
 
