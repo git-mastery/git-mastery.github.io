@@ -64,7 +64,7 @@ Our companion **app keeps track of the student's progress** through the exercise
 {{ heading(":fas-hand-holding-heart:", "Free forever. No limits.") }}
 <div class="indented-level3">
 
-Git-Mastery is entirely free. There is **no account signup**. There is **no limits on usage**.<br>
+Git-Mastery is entirely free. There is **no account signup**. There are **no limits on usage**.<br>
 Students can use it on their own, or as directed by their instructors.<br>
 Instructors can use it for their classes. No limits on class count or class size.
 </div>
