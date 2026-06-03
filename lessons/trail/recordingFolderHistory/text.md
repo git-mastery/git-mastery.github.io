@@ -20,6 +20,6 @@ pageNav: 4
 <div id="extras">
 </div>
 
-<span class="d-none" id="achievements">You should now be able to initialise a Git repository in a folder and commit snapshots of its files at times of your choice. So far, you did not learn how to actually make use of those snapshots (other than to show a list of them) -- we will do that in later tours.</span>
+<span class="d-none" id="achievements">You should now be able to initialize a Git repository in a folder and commit snapshots of its files at times of your choice. So far, you did not learn how to actually make use of those snapshots (other than to show a list of them) -- we will do that in later tours.</span>
 
 <span id="next">{{ show_tour_link(trail.backingUpOnCloud) }}</span>
