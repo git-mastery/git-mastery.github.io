@@ -7,7 +7,7 @@
 
 <div id="body">
 {% call show_lesson_intro() %}
-Another way to contribute to a GitHub project is by giving your inputs via a pull request review.
+Another way to contribute to a GitHub project is by giving input via a pull request review.
 {% endcall %}
 
 
