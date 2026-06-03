@@ -43,7 +43,7 @@ gitGraph
 
 **The Git data model consists of two types of entities: {{ show_git_term("objects") }} and {{ show_git_term("refs") }}** (short for _references_). In this lesson, you will encounter examples of both.
 
-**A Git {{ show_git_term("revision graph") }} is a visualisation of a repo's revision history**, consisting of one or more branches. First, let us learn to work with simpler revision graphs consisting of one branch, such as the one given below.
+**A Git {{ show_git_term("revision graph") }} is a visualization of a repo's revision history**, consisting of one or more branches. First, let us learn to work with simpler revision graphs consisting of one branch, such as the one given below.
 
 {{ show_commit('C3') }}
 {{ show_commit('C2') }}
