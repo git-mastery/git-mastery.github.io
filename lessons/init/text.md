@@ -7,7 +7,7 @@
 
 <div id="body">
 {% call show_lesson_intro() %}
-To be able to save snapshots of a folder using Git, **you must first put the folder under Git's control by initialising a Git _repository_** in that folder.
+To be able to save snapshots of a folder using Git, **you must first put the folder under Git's control by initializing a Git _repository_** in that folder.
 {% endcall %}
 
 **Normally, we use Git to manage a revision history of a specific folder**, which gives us the ability to revision-control any file in that folder and its subfolders.

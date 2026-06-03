@@ -67,3 +67,5 @@
 **Do not rewrite student-facing explanations only for stylistic preference.** Preserve correct existing pedagogy and improve only where clarity, accuracy, consistency, or maintainability genuinely benefits.
 
 **When adding new Git or GitHub guidance, prefer current, generally applicable behavior.** If a detail depends on a tool version, operating system, or UI client, state the scope clearly.
+
+**When suggesting a commit message subject (while doing a grammar/phrasing/html/browser scan), avoid using ambiguous repeated filenames as the subject prefix.** In particular, `text.md:` is rarely useful because many lessons have a `text.md`; use the parent folder name instead, such as `log: Change spelling realise -> realize` for a change in `lessons/logs/text.md`.
