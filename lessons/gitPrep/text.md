@@ -62,7 +62,7 @@ You can also right-click it and choose `Pin to Start` or `Pin to taskbar`.
 
 <box type="important" seamless icon=":fab-windows:">
 
-**On Windows**, you might need to close and open the terminal again for it to recognise changes done elsewhere in the computer (e.g., newly-installed software, changes to system variables, etc.).
+**On Windows**, you might need to close and open the terminal again for it to recognize changes done elsewhere in the computer (e.g., newly-installed software, changes to system variables, etc.).
 </box>
 
 {{ os_tabs_marker('mac') }}
