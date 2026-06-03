@@ -11,7 +11,7 @@ A branch-based forking workflow is common in open-source projects and other larg
 {% endcall %}
 
 
-**In a branch-based forking workflow, the official code lives in a designated 'main' repo, while each developer works in their _own fork_ (hence, the name) and submits pull requests from _separate branches_** (either long-lived branches or short term branches) back to the main repo. That is, it is a combination of the forking model and the feature-branch strategy. Not only this workflow is common for OSS projects and other large-team projects, it provides a good foundation for learning Git workflows %%(because other workflows are simpler than this, once you learn this workflow, it is easy to move to other workflows)%%.
+**In a branch-based forking workflow, the official code lives in a designated 'main' repo, while each developer works in their _own fork_ (hence, the name) and submits pull requests from _separate branches_** (either long-lived branches or short-term branches) back to the main repo. That is, it is a combination of the forking model and the feature-branch strategy. Not only is this workflow common for OSS projects and other large-team projects, it provides a good foundation for learning Git workflows %%(because other workflows are simpler than this, once you learn this workflow, it is easy to move to other workflows)%%.
 
 <pic src="{{baseUrl}}/lessons/forkingWorkflow/images/diagram.png" height="330" />
 <p/>
