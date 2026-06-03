@@ -7,7 +7,7 @@
 
 <div id="body">
 {% call show_lesson_intro() %}
-It is useful to be able to **visualise the commits timeline, aka the _revision graph_.**
+It is useful to be able to **visualize the commit timeline, aka the _revision graph_.**
 
 {% endcall %}
 
