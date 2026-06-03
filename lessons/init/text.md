@@ -61,7 +61,7 @@ fatal: not a git repository (or any of the parent directories): .git
 {% endcall %}
 Don't panic. The error message is expected. It confirms that the folder currently does not have a Git repo.
 
-{{ hp_number(3) }} **Now, initialise a repository** in that folder.
+{{ hp_number(3) }} **Now, initialize a repository** in that folder.
 
 {{ show_steps_tabs(filename_suffix='init-repo', is_os_specific=1) }}
 
