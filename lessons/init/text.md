@@ -22,7 +22,7 @@ You can follow the hands-on practical below to learn how to initialize a repo in
 {{ label('secondary', icon_hands_on + ' HANDS-ON') }} panels contain hands-on activities you can do as you learn Git. If you are new to Git, ==we strongly recommend that you do them yourself== (even if they appear straightforward), as hands-on usage will help you internalise the concepts and operations better.
 {% endcall %}
 
-{% call show_hands_on_practical("Initialise a git repo in a folder") %}
+{% call show_hands_on_practical("Initialize a Git repo in a folder") %}
 
 {{ hp_number(hop_preparation) }} **Choose a folder** to put under Git's control. The folder may or may not contain any files. For this practical, let us create a folder named `things` for this purpose.
 
