@@ -26,7 +26,7 @@ Click the `Push` button on the buttons ribbon at the top.
   </a-point>
 </annotate>
 
-In the next dialog, ensure the settings are as follows, ensure the `Track` option is selected, and click the `Push` button on the dialog.
+In the next dialog, ensure the settings are as follows, select the `Track` option, and click the `Push` button on the dialog.
 
 <annotate src="{{baseUrl}}/lessons/push/images/sourcetreePushToEmptyRemote.png" width="500" alt="push to empty remote">
 <a-point x="90%" y="40%" content="Look within this box">
