@@ -8,7 +8,7 @@
 
 ><include src="../remoteBranchPush/exercise-glossary-branch-push.md#scenario" />
 
-**Now**, you realise there aren't many terms that you can add in the `VWX`. You decide it is not worth to have that as a separate branch.
+**Now**, you realize there aren't many terms that you can add in the `VWX` branch. You decide it is not worth having that as a separate branch.
 
 
 </div>
