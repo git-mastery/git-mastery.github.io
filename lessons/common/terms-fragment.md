@@ -1,7 +1,7 @@
 <span id="oss-term">Open-Source Software (OSS)</span>
 <div id="oss-definition">
 
-An **open-source software (OSS)** is software  whose source code is made publicly available, allowing anyone to view, use, modify, or share it—depending on the terms of its license. This is different from **closed-source** software, where the source code is kept private and is not accessible to the public.
+**Open-source software (OSS)** is software whose source code is made publicly available, allowing anyone to view, use, modify, or share it—depending on the terms of its license. This is different from **closed-source** software, where the source code is kept private and is not accessible to the public.
 </div>
 <!-- ================================================== -->
 <span id="repo-term">repository</span>
