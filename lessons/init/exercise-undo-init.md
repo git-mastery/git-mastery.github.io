@@ -3,7 +3,7 @@
 
 <div id="scenario" class="d-none">
 
-You initialised a git repository in the `my-notes` folder by mistake.
+You initialized a Git repository in the `my-notes` folder by mistake.
 </div>
 
 <div id="task" class="d-none">
