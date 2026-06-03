@@ -22,7 +22,7 @@ When configuring remotes for a Git repository, the following naming conventions 
 
 * **`origin`: The repository that you _cloned_ from** is usually given the remote name `origin`.
 Git sets this remote name automatically when you clone a repository (but you can change it to something else).
-* **`upstream`: In fork-based workflows, the repository you _forked_ from** is often added as a second remote named `upstream`. This name is not created by Git automatically; it is a convention chosen by developers. Some use more specific name for this, for example, `team-repo`.
+* **`upstream`: In fork-based workflows, the repository you _forked_ from** is often added as a second remote named `upstream`. This name is not created by Git automatically; it is a convention chosen by developers. Some use a more specific name for this, for example, `team-repo`.
 
 Separately from remote _names_, the term {{ show_git_term("'upstream'") }} is also used informally to describe the direction of duplication between repositories. When one repository is created by duplicating another (for example, by forking or cloning), the original repository is said to be _upstream_ of the duplicate.
 
