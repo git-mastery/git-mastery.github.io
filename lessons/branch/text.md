@@ -112,7 +112,7 @@ In the example on the left, the `HEAD` ref has moved to point to the `fix1` bran
 {% endcall %}
 
 {% call show_two_column_row("images/createBranchCommitAdded.png") %}
-Now, a new commit `d1` has been added, which went onto the `fix1` branch. The `fix1` ref has moved to the new commit, and the `HEAD` ref also point to the new commit via the `fix1` branch ref. The `main` branch ref, however, remains where it is.
+Now, a new commit `d1` has been added, which went onto the `fix1` branch. The `fix1` ref has moved to the new commit, and the `HEAD` ref also points to the new commit via the `fix1` branch ref. The `main` branch ref, however, remains where it is.
 {% endcall %}
 
 <box type="warning" seamless>
