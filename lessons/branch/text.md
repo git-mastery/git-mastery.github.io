@@ -48,7 +48,7 @@ Consequently, **a Git branch is simply a reference ({{ show_git_term("ref") }} f
 
 {% endcall %}
 
-**_All_ commits reacheable from the branch ref are considered as part of the branch.** Reachability here is based on the 'parent' link each commit has. In the example below, commits `c`, `b`, `a` are on the branch `main` because they are reachable by starting from the ref `main` and traversing the parent links (shown as arrowns in the diagram). Similarly, commits `f1`, `e1`, `d1`, `c`, `b`, `a` are on the branch `fix1`, and so on.
+**_All_ commits reachable from the branch ref are considered as part of the branch.** Reachability here is based on the 'parent' link each commit has. In the example below, commits `c`, `b`, `a` are on the branch `main` because they are reachable by starting from the ref `main` and traversing the parent links (shown as arrowns in the diagram). Similarly, commits `f1`, `e1`, `d1`, `c`, `b`, `a` are on the branch `fix1`, and so on.
 
 <img style="{{ img_style }}" src="images/reachableCommitsInABranch.png" width="600"/>
 <p/>
