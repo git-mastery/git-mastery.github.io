@@ -226,7 +226,7 @@ Note how the `feature1` is indicated as the current branch (reason: Sourcetree a
   git stage boxing.txt
   git commit -m "Add boxing.txt"
   ```
-* Observe how commits you add while on `feature1` branch will becomes part of that branch.<br>
+* Observe how commits you add while on the `feature1` branch will become part of that branch.<br>
   Observe how the `feature1` ref and the `HEAD` ref move to the new commit.
 
 
