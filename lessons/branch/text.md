@@ -34,7 +34,7 @@ Instead, **in such situations, it is useful if we have a way to maintain multipl
 
 {% call show_two_column_row("images/divergedTimelines.png") %}
 
-**Git revision graphs are implemented as <tooltip content="i.e., Directed Acyclic Graphs">DAGs</tooltip> which means they are already able to maintain such multiple parallel timelines.** For example, Git can maintain two more timelines that {{ show_git_term("diverge") }} from the main timeline (at commit `c`), and let us use each of them to experiment with one of the two bug fixes. This way, you can switch between the timelines to compare the two fixes, and eventually choose which one to keep in the main codebase.
+**Git revision graphs are implemented as <tooltip content="i.e., Directed Acyclic Graphs">DAGs</tooltip>, which means they are already able to maintain such multiple parallel timelines.** For example, Git can maintain two more timelines that {{ show_git_term("diverge") }} from the main timeline (at commit `c`), and let us use each of them to experiment with one of the two bug fixes. This way, you can switch between the timelines to compare the two fixes, and eventually choose which one to keep in the main codebase.
 {% endcall %}
 
 {% call show_two_column_row("images/namedTimelines.png") %}
