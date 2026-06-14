@@ -100,7 +100,7 @@ The first commit of a repo doesn't have a parent commit.
 Next, let us look at how more branches can be added, beyond the initial branch created by Git.
 
 {% call show_two_column_row("images/createBranchOnlyRef.png") %}
-**When you add a new branch, Git adds a branch ref pointing a commit** -- unless you specify another commit, the new branch ref will point to the commit at the tip of the currently active branch.
+**When you add a new branch, Git adds a branch ref pointing to a commit** -- unless you specify another commit, the new branch ref will point to the commit at the tip of the currently active branch.
 
 In the example on the left, the newly-created `fix1` branch ref is pointing to the same commit as the `main` branch ref.
 {% endcall %}
