@@ -70,3 +70,5 @@
 
 <variable id="numbers_abcd">\{texts="['a)', 'b)', 'c)', 'd)', 'e)', 'f)', 'g)', 'h)']"\}</variable>
 <variable id="numbers_roman">\{texts="['i.', 'ii.', 'iii.', 'iv.', 'v.', 'vi.', 'vii.']"\}</variable>
+
+<variable id="img_style">display: block; margin: 0 auto; border: 1px solid #ddd; border-radius: 4px;</variable>

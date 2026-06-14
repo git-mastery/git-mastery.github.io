@@ -1,11 +1,13 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_protip, show_ref, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_protip, show_ref, show_steps_tabs, show_tag, show_transformation_columns, show_two_column_row, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Able to work in parallel Git branches, in the local repo.</span>
 {% set lesson_data = trail.branchingLocally.lessons.branch %}
 <span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
-<div id="body">
+<div class="row align-items-start g-3">
+  <div class="col-md-8">
+    <div id="body">
 {% call show_lesson_intro() %}
 **To work in parallel timelines, you can use Git _branches_.**
 {% endcall %}
@@ -14,39 +16,104 @@
 
 <p/>
 
-**Git {{ show_git_term("branches") }} let you develop multiple versions of your work in parallel — effectively creating {{ show_git_term("diverged") }} timelines of your repository’s history.** For example, one team member can create a new branch to experiment with a change, while the rest of the team continues working on another branch. Branches can have meaningful names, such as `main`, `release`, or `draft`.
+**Often, we need to make multiple parallel changes to files in a repository** without one change affecting the others.
 
-**A Git branch is simply a ref (a named label) that points to a commit and automatically moves forward as you add new commits to that branch.** As you’ve seen before, the `HEAD` ref indicates which branch you’re currently working on, by pointing to the corresponding branch ref.
+{% call show_two_column_row("images/commitsHasABug.png") %}
+**One such situation is when you want to experiment with multiple alternative fixes to a bug in parallel.**
 
-**When you add a commit, it goes into the branch you are currently on**, and the branch ref moves to the new commit, effectively making the `HEAD` ref point to the new commit as well (via the branch ref).
+For example, suppose you realized your code has a bug after creating a few commits, as shown in the illustration on the left. Now, you wish to experiment with alternative ways to fix the bug.
+{% endcall %}
 
-**Git creates a branch named `master` by default** (Git can be configured to use a different name e.g., `main`<span class="d-print-none"> -- which is the more common choice these days, and is the default used by Git-Mastery</span>).
+{% call show_two_column_row("images/fixesMixed.png") %}
+If you do that by simply creating more commits, the two fixes will be mixed together and can even interfere with each other. Furthermore, bug fixes you are still experimenting with are now mixed with your main code.
 
-Given below is an illustration of how branch refs move as branches evolve. Refer to the text below it for explanations of each stage.
+One way to avoid this to copy-paste the repository to two other folders and use them to experiment with the two bug fixes. However, this is not ideal as you will have three separate repositories to manage, and you will have to manually copy-paste changes between when you eventually choos which fix to use.
 
-<annotate src="{{ baseUrl }}/lessons/branch/images/branchesAsLabels1.png" width="750">
-<a-point x="2%" y="47%" label="[1]" opacity="0"/>
-<a-point x="35%" y="25%" label="[2]" opacity="0"/>
-<a-point x="65%" y="10%" label="[3]" opacity="0"/>
-<a-point x="90%" y="80%" label="[4]" opacity="0"/>
-</annotate>
+Instead, **in such situations, it is useful if we have a way to maintain multiple parallel timelines in the same repository**.
+{% endcall %}
+
+{% call show_two_column_row("images/divergedTimelines.png") %}
+
+**Git revision graphs are implemented as <tooltip content="i.e., Directed Acyclic Graphs">DAGs</tooltip> which means they are already able to maintain such multiple parallel timelines.** For example, Git can maintain two more timelines that {{ show_git_term("diverge") }} from the main timeline (at commit `c`), and let us use each of them to experiment with one of the two bug fixes. This way, you can switch between the timelines to compare the two fixes, and eventually choose which one to keep in the main codebase.
+{% endcall %}
+
+{% call show_two_column_row("images/namedTimelines.png") %}
+
+**_Branches_ is the Git feature that allows us to manage those diverged timelines in a practical way.** For one thing, the Git _branches_ feature lets us assign a name to the latest commit in a timeline -- making that timeline easy to refer to.
+
+Therefore, **a {{ show_git_term("branch") }} is a timeline that has been given a name.**
+Consequently, **a Git branch is simply a reference ({{ show_git_term("ref") }} for short) -- a label that points to the latest commit of that timeline.** In the example on the left, there are three branches: `main`, `fix1`, and `fix2`.
+
+**The latest commit that branch ref points to is called the {{ show_git_term("tip") }} of the branch.** For example, `c` is the tip of the `main` branch while `f1` is the tip of the `fix1` branch.
+
+{% endcall %}
+
+**_All_ commits reacheable from the branch ref are considered as part of the branch.** Reachability here is based on the 'parent' link each commit has. In the example below, commits `c`, `b`, `a` are on the branch `main` because they are reachable by starting from the ref `main` and traversing the parent links (shown as arrowns in the diagram). Similarly, commits `f1`, `e1`, `d1`, `c`, `b`, `a` are on the branch `fix1`, and so on.
+
+<img style="{{ img_style }}" src="images/reachableCommitsInABranch.png" width="600"/>
 <p/>
 
-* There is only one branch (i.e., `main`) and there is only one commit on it. The `HEAD` ref is pointing to the `main` branch (as we are currently on that branch). {texts="['[1]', '[2]', '[3]', '[4]']"}
-* A new commit has been added. The `main` has moved to the new commit. `HEAD` continues to be attached to the `main` ref, thus pointing to the new commit as well.
-* A new branch `fix1` has been added. The repo has switched to the new branch too (hence, the `HEAD` ref is now attached to the `fix1` branch).
-* A new commit (`c`) has been added. The current branch ref `fix1` has moved to the new commit. `HEAD` is also pointing to the new commit, as it remains attached to the `fix1` branch ref.
+{% call show_two_column_row("images/headRef.png") %}
 
-<annotate src="{{ baseUrl }}/lessons/branch/images/branchesAsLabels2.png" width="700">
-<a-point x="15%" y="10%" label="[5]" opacity="0"/>
-<a-point x="50%" y="5%" label="[6]" opacity="0"/>
-<a-point x="70%" y="5%" label="[7]" opacity="0"/>
-</annotate>
+**The {{ show_git_term("HEAD") }} is a special ref whose job is to point to the branch ref of the branch you are currently on**, also called the {{ show_git_term("current branch") }} or the {{ show_git_term("active branch") }}. In the example on the left, `fix1` is the active branch.
 
-* The repo has switched back to the `main` branch. Hence, the `HEAD` is now pointing to the `main` branch ref, and via that, to commit `b` that is at the <tooltip content="latest commit of that branch">tip</tooltip> of that branch.<br>
-  As a result, the repo's working directory now reflects the code at commit `b` (not `c`).{texts="['[5]', '[6]', '[7]']"}
-* A new commit (`d`) has been added. The `main` and the `HEAD` refs now point to that commit.
-* The repo has switched back to the `fix1` branch and added a new commit `e` to it. The branch ref `fix1` (together with `HEAD`) are now pointing to the new commit `e` while the branch ref `main` still points to `d`.
+**Git automatically makes the working directory reflect only the commits in the current branch.** This allows us to work on one timeline in isolation without being affected by changes in others.
+
+{% endcall %}
+
+In the example below, observe how the file in the working directory changes as we change the active branch.
+
+<img style="{{ img_style }}" src="images/workingDirectlyReflectsActiveBranch.png" width="750"/>
+<p/>
+
+Next, let us look at how branches behave as you add commits.
+
+{% call show_two_column_row("images/atInitNoCommit.png") %}
+Right after you initialize a repo, Git already has a `HEAD` ref, pointing to a branch ref. **`master` is the default name Git uses for that initial branch**, although you can configure Git to use a different name as the default. **`main` is the more common choice these days** <span class="d-print-none">(and is the default used by Git-Mastery</span>). Let's use that here as well.
+
+**At the start, you already have a branch but without any commits** on it.
+{% endcall %}
+
+{% call show_two_column_row("images/atInitOneCommit.png") %}
+The moment you create the first commit, the `main` branch ref immediately points to it, and that commit becomes the tip of the main branch.
+
+<box type="info" seamless>
+
+The first commit of a repo doesn't have a parent commit.
+</box>
+{% endcall %}
+
+{% call show_two_column_row("images/atInitDecideParent.png") %}
+**When you add a new commit, two things happen:**
+
+1. **First, the new commit uses the commit `HEAD` points to, as its parent.** In this example, the new commit will use the commit `a` as its parent.
+{% endcall %}
+
+{% call show_two_column_row("images/atInitRefMovesForward.png") %}
+
+2. **Second, the branch ref that `HEAD` points to moves to the new commit.** In this example, the `main` branch ref will move to the new commit `b`.<br>
+  The `HEAD` continues to point to the same branch ref, which means the `main` branch is still the _active_ branch.
+{% endcall %}
+
+**That is, new commits go into the branch you are currently on, and the branch ref automatically moves to the new commit**, effectively making the `HEAD` ref point to the new commit as well (via the branch ref).
+
+Next, let us look at how more branches can be added, beyond the initial branch created by Git.
+
+{% call show_two_column_row("images/createBranchOnlyRef.png") %}
+**When you add a new branch, Git adds a branch ref pointing a commit** -- unless you specify another commit, the new branch ref will point to the commit at the tip of the currently active branch.
+
+In the example on the left, the newly-created `fix1` branch ref is pointing to the same commit as the `main` branch ref.
+{% endcall %}
+
+{% call show_two_column_row("images/createBranchMadeActive.png") %}
+**If you intend your subsequent commits to go into the new branch, you need to make it the active branch** by {{ show_git_term("switching") }} to it. Then, the `HEAD` ref will point to the new branch ref, making it the active branch.
+
+In the example on the left, the `HEAD` ref has moved to point to the `fix1` branch ref, making `fix1` the active branch.
+{% endcall %}
+
+{% call show_two_column_row("images/createBranchCommitAdded.png") %}
+Now, a new commit `d1` has been added, which went onto the `fix1` branch. The `fix1` ref has moved to the new commit, and the `HEAD` ref also point to the new commit via the `fix1` branch ref. The `main` branch ref, however, remains where it is.
+{% endcall %}
 
 <box type="warning" seamless>
 
