@@ -39,7 +39,7 @@ Instead, **in such situations, it is useful if we have a way to maintain multipl
 
 {% call show_two_column_row("images/namedTimelines.png") %}
 
-**_Branches_ is the Git feature that allows us to manage those diverged timelines in a practical way.** For one thing, the Git _branches_ feature lets us assign a name to the latest commit in a timeline -- making that timeline easy to refer to.
+**_Branches_ are the Git feature that allows us to manage those diverged timelines in a practical way.** For one thing, the Git _branches_ feature lets us assign a name to the latest commit in a timeline -- making that timeline easy to refer to.
 
 Therefore, **a {{ show_git_term("branch") }} is a timeline that has been given a name.**
 Consequently, **a Git branch is simply a reference ({{ show_git_term("ref") }} for short) -- a label that points to the latest commit of that timeline.** In the example on the left, there are three branches: `main`, `fix1`, and `fix2`.
