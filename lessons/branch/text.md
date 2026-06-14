@@ -117,7 +117,7 @@ Now, a new commit `d1` has been added, which went onto the `fix1` branch. The `f
 
 <box type="warning" seamless>
 
-Appearance of the revision graph (colors, positioning, orientation etc.) varies based on the Git client you use, and might not match the exact diagrams given above.
+The appearance of the revision graph (colors, positioning, orientation, etc.) varies based on the Git client you use, and might not match the exact diagrams given above.
 </box>
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Work on parallel branches")  %}
