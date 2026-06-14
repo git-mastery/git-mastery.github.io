@@ -27,7 +27,7 @@ For example, suppose you realized your code has a bug after creating a few commi
 {% call show_two_column_row("images/fixesMixed.png") %}
 If you do that by simply creating more commits, the two fixes will be mixed together and can even interfere with each other. Furthermore, bug fixes you are still experimenting with are now mixed with your main code.
 
-One way to avoid this to copy-paste the repository to two other folders and use them to experiment with the two bug fixes. However, this is not ideal as you will have three separate repositories to manage, and you will have to manually copy-paste changes between when you eventually choos which fix to use.
+One way to avoid this is to copy-paste the repository to two other folders and use them to experiment with the two bug fixes. However, this is not ideal as you will have three separate repositories to manage, and you will have to manually copy-paste changes between when you eventually choos which fix to use.
 
 Instead, **in such situations, it is useful if we have a way to maintain multiple parallel timelines in the same repository**.
 {% endcall %}
