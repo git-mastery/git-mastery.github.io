@@ -241,7 +241,7 @@ As before, you can use the `git log --oneline --decorate` command for this.
 {{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
-* Add some more texts to `boxing.txt`, stage the changes, and commit it. This commit too will be added to the `feature1` branch.{texts="['3.3']"}
+* Add some more text to `boxing.txt`, stage the changes, and commit it. This commit too will be added to the `feature1` branch.{texts="['3.3']"}
   ```bash
   echo -e "Mike Tyson" >> boxing.txt
   git commit -am "Add Tyson to boxing.txt"
