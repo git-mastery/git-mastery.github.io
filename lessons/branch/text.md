@@ -246,8 +246,8 @@ Note that `feature1` is now the current branch. Sourcetree switches automaticall
 As before, you can use the `git log --oneline --decorate` command for this.
 {% endset %}
 {% set sourcetree %}
-* :fab-windows: Sourcetree sometimes represents the local repo's `HEAD` ref as :fas-dot-circle:, as shown below
-  <pic eager src="images/sourcetree_HEAD_dot.png" />.
+* :fab-windows: Sourcetree sometimes represents the local repo's `HEAD` ref as :fas-dot-circle:, as shown below:
+  <pic eager src="images/sourcetree_HEAD_dot.png" />
 * :fab-apple: The `HEAD` ref is not shown in the UI if it is already pointing at the active branch.
 {% endset %}
 {{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
