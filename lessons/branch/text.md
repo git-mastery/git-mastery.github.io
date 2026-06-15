@@ -12,7 +12,7 @@
 **To work in parallel timelines, you can use Git _branches_.**
 {% endcall %}
 
-@[youtube](PGY56U64e3E)
+@[youtube](9Kg-meMYAtg)
 
 <p/>
 
@@ -41,8 +41,7 @@ Instead, **in such situations, it is useful if we have a way to maintain multipl
 
 **_Branches_ are the Git feature that allows us to manage those diverged timelines in a practical way.** For one thing, the Git _branches_ feature lets us assign a name to the latest commit in a timeline -- making that timeline easy to refer to.
 
-Therefore, **a {{ show_git_term("branch") }} is a timeline that has been given a name.**
-Consequently, **a Git branch is simply a reference ({{ show_git_term("ref") }} for short) -- a label that points to the latest commit of that timeline.** In the example on the left, there are three branches: `main`, `fix1`, and `fix2`.
+Therefore, **a {{ show_git_term("branch") }} is conceptually a _named timeline_ of commits, implemented as a label/reference ({{ show_git_term("ref") }} for short) that points to the latest commit in that timeline.** In the example on the left, there are three branches: `main`, `fix1`, and `fix2`.
 
 **The latest commit that branch ref points to is called the {{ show_git_term("tip") }} of the branch.** For example, `c` is the tip of the `main` branch while `f1` is the tip of the `fix1` branch.
 
@@ -50,21 +49,31 @@ Consequently, **a Git branch is simply a reference ({{ show_git_term("ref") }} f
 
 **_All_ commits reachable from the branch ref are considered as part of the branch.** Reachability here is based on the 'parent' link each commit has. In the example below, commits `c`, `b`, `a` are on the branch `main` because they are reachable by starting from the ref `main` and traversing the parent links (shown as arrows in the diagram). Similarly, commits `f1`, `e1`, `d1`, `c`, `b`, `a` are on the branch `fix1`, and so on.
 
-<img style="{{ img_style }}" src="images/reachableCommitsInABranch.png" width="600"/>
+<img style="{{ img_style_no_border }}" src="images/reachableCommitsInABranch.png" width="600"/>
 <p/>
 
 {% call show_two_column_row("images/headRef.png") %}
 
 **The {{ show_git_term("HEAD") }} is a special ref whose job is to point to the branch ref of the branch you are currently on**, also called the {{ show_git_term("current branch") }} or the {{ show_git_term("active branch") }}. In the example on the left, `fix1` is the active branch.
 
-**Git automatically makes the working directory reflect only the commits in the current branch.** This allows us to work on one timeline in isolation without being affected by changes in others.
+**Git automatically makes the working directory reflect the commit at the tip of the branch**. As a result, the working directory will not be polluted with changes that happened only in other diverged branches. This allows us to work on one timeline in isolation without being affected by changes in others.
+
+Caveat: When switching branches, uncommitted changes may be carried across, conflict, or block the switch. More on this later.
 
 {% endcall %}
+<p/>
 
 In the example below, observe how the file in the working directory changes as we change the active branch.
 
-<img style="{{ img_style }}" src="images/workingDirectlyReflectsActiveBranch.png" width="750"/>
+<img style="{{ img_style_no_border }}" src="images/workingDirectlyReflectsActiveBranch.png" width="750"/>
 <p/>
+
+<box type="info" seamless>
+
+**Clarification on the 'start' of a branch**{.text-info}
+
+**We often refer to the point at which a branch diverges from another branch as the 'start' of the branch. However, technically, a branch doesn't have a start point** -- it is just a ref that points to a commit. The commits reachable from that ref are considered as part of the branch, and the branch can be said to have started at any of those commits.
+</box>
 
 Next, let us look at how branches behave as you add commits.
 
@@ -260,12 +269,6 @@ Double-click the `main` branch.
 <pic eager src="{{baseUrl}}/lessons/branch/images/sourcetreeMasterBranchSelected.png" height="150" />
 <p/>
 
-<box type="info" header="Revisiting `main` vs `origin/main`" seamless>
-
-In the screenshot above, you see a `main` ref and a `origin/main` ref for the same commit. The former identifies the <tooltip content="i.e., the most recent commit on the branch">tip</tooltip> of the local `main` branch while the latter identifies the tip of the `main` branch at the remote repo named `origin`. The fact that both refs point to the same commit means the local `main` branch and its remote counterpart are <tooltip content="neither one has commits the other one doesn't">in sync</tooltip> with each other.
-Similarly, `origin/HEAD` ref appearing against the same commit indicates that <tooltip content="`HEAD` ref indicates the currently checked-out branch's latest commit">the `HEAD` ref</tooltip> of the remote repo is pointing to this commit as well.
-
-</box>
 {% endset %}
 {{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
@@ -327,14 +330,14 @@ gitGraph BT:
 
 **Avoid this rookie mistake!**{.text-danger}
 
-==Always remember to switch back to the `main` branch before creating a new branch.== If not, your new branch will be created on top of the current branch.
+Before creating a branch, make sure you are at the commit where you intend the new branch to start. If not, your branch can get created at a different place than you intended.
 </box>
 
 
 {{ hp_number('1') }} Switch to the `main` branch.
 
 {{ hp_number('2') }} Checkout the commit at which the `feature1` branch diverged from the `main` branch (e.g. `git checkout HEAD~1`). This will create
-<trigger trigger="click" for="modal:branch-detachedHead">a 'detached' `HEAD`</trigger>.
+<trigger trigger="click" for="modal:branch-detachedHead">a 'detached' `HEAD`</trigger>. Now you are at the commit that you want the new branch to diverge from.
 
 <modal large header="What is a 'detached' `HEAD`? (from [_T4L4. Traversing to a Specific Commit_](../checkout/index.html))" id="modal:branch-detachedHead">
   <include src="../checkout/text.md#detached-head-explanation"/>
@@ -342,17 +345,21 @@ gitGraph BT:
 
 {{ hp_number('3') }} Create a new branch called `feature1-alt` and switch to it (e.g., `git switch -c feature1-alt`). The `HEAD` will now point to this new branch (i.e., no longer 'detached').
 
-{% call show_protip("Creating a branch based on another branch in one shot") %}
+{% call show_protip("Moving and creating a branch in one shot") %}
 
-Suppose you are currently on branch `b2` and you want to create a new branch `b3` that starts from `b1`. Normally, you can do that in two steps:
+Suppose you are currently on branch `feature1` and you want to create a new branch `feature2` that starts from `main` and switch to it. Normally, you can do that in two steps:
 
 ```bash
-git switch b1     # switch to the intended base branch first
-git switch -c b3  # create the new branch and switch to it
+git switch main     # switch to the intended base branch first
+git switch -c feature2  # create the new branch and switch to it
 ```
-This can be done in one shot using the `git switch -c <new-branch> <base-branch>` command:
+This can be done in one shot using the `git switch -c <new-branch> <start-point>` command:
+```bash
+git switch -c feature2 main
 ```
-git switch -c b3 b1
+Similarly, the following will create the new branch to start from one commit behind the tip of the `main` branch:
+```bash
+git switch -c feature2 main~1
 ```
 {% endcall %}
 

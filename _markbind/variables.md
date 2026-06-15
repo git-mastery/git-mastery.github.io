@@ -60,15 +60,8 @@
 <variable id="bad"><span style="color: red"><md>**:fas-thumbs-down: Bad**</md></span></variable>
 <variable id="good"><span style="color: green"><md>**:fas-thumbs-up: Good**</md></span></variable>
 
-<variable id="different"><span style="opacity: 0.5"> <span class="badge rounded-pill bg-danger"><md>:fas-not-equal:</md></span></span></variable>
-<variable id="oracle"><small><span style="opacity: 0.5"><span class="badge bg-secondary">-- Java Tutorial</span></span></small></variable>
-<variable id="similar"><span style="opacity: 0.5"> <span class="badge rounded-pill bg-success"><md>:fas-equals:</md></span></span></variable>
-
-<variable id="java_version">9</variable>
-<variable id="java_api">https://docs.oracle.com/javase/{{ java_version }}/docs/api</variable>
-<variable id="java_tutorial">https://docs.oracle.com/javase/tutorial</variable>
-
 <variable id="numbers_abcd">\{texts="['a)', 'b)', 'c)', 'd)', 'e)', 'f)', 'g)', 'h)']"\}</variable>
 <variable id="numbers_roman">\{texts="['i.', 'ii.', 'iii.', 'iv.', 'v.', 'vi.', 'vii.']"\}</variable>
 
-<variable id="img_style">display: block; margin: 0 auto; border: 1px solid #ddd; border-radius: 4px;</variable>
+<variable id="img_style_no_border">display: block; margin: 0 auto;</variable>
+<variable id="img_style">{{ img_style_no_border}} border: 1px solid #ddd; border-radius: 4px;</variable>

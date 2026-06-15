@@ -1,0 +1,4 @@
+interface:
+  display_name: "Concepts Review"
+  short_description: "Review Git-Mastery lesson concepts"
+  default_prompt: "Use $concepts-review to review this Git-Mastery page for concept accuracy, audience fit, and sequencing issues."

@@ -35,7 +35,7 @@ gitGraph BT:
     commit id: "[HEAD → main] ..."
     branch bug-fix
     commit id: "Fix greet.py"
-    commit id: "[feature] Fix calculator.py"
+    commit id: "[bug-fix] Fix calculator.py"
     checkout main
 </mermaid>
 

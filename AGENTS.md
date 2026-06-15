@@ -58,6 +58,10 @@
 
 **Check both authored source and rendered behavior when changing dynamic content.** For CustardUI-related changes, verify that relevant toggles, placeholders, tab groups, labels, and annotated sections still behave correctly.
 
+**When inspecting rendered MarkBind pages, expect source components to be transformed.** Generated pages may no longer contain literal `<panel>` tags or source IDs exactly as written. For exercise panels, detours, and lesson sections, use stable rendered anchors such as headings (`#exercise-...`), visible card headers, `cv-toggle` wrappers, or text from the authored source to locate the generated element.
+
+**Prefer targeted rendered-page checks over broad page extraction.** For local lesson reviews, inspect authored source first, then use focused DOM queries, screenshots, and clicks on specific rendered headings or controls. MarkBind/CustardUI pages can have large fixed navigation and transformed component trees, so full-page text dumps and generic accessibility snapshots can waste time.
+
 **Use intrasite link validation results seriously.** `site.json` enables intrasite link validation, so broken local links should be fixed rather than ignored.
 
 ## Change Discipline
