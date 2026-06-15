@@ -52,6 +52,15 @@ Therefore, **a {{ show_git_term("branch") }} is conceptually a _named timeline_ 
 <img style="{{ img_style_no_border }}" src="images/reachableCommitsInABranch.png" width="600"/>
 <p/>
 
+<box type="info" seamless>
+
+**Clarification on the 'start' of a branch**{.text-info}
+
+**We often refer to the point at which a branch diverges from another branch as the 'start' of the branch. However, technically, a branch doesn't have a start point** As all commits reachable from a branch ref are considered as part of the branch, technically, the branch can be said to have started at any of those commits.
+
+In the examples given above, the commit `c` could be referred to as the start of branches `fix1` and `fix2` although commits `a` and `b` are also in those branches.
+</box>
+
 {% call show_two_column_row("images/headRef.png") %}
 
 **The {{ show_git_term("HEAD") }} is a special ref whose job is to point to the branch ref of the branch you are currently on**, also called the {{ show_git_term("current branch") }} or the {{ show_git_term("active branch") }}. In the example on the left, `fix1` is the active branch.
@@ -68,12 +77,6 @@ In the example below, observe how the file in the working directory changes as w
 <img style="{{ img_style_no_border }}" src="images/workingDirectlyReflectsActiveBranch.png" width="750"/>
 <p/>
 
-<box type="info" seamless>
-
-**Clarification on the 'start' of a branch**{.text-info}
-
-**We often refer to the point at which a branch diverges from another branch as the 'start' of the branch. However, technically, a branch doesn't have a start point** -- it is just a ref that points to a commit. The commits reachable from that ref are considered as part of the branch, and the branch can be said to have started at any of those commits.
-</box>
 
 Next, let us look at how branches behave as you add commits.
 
