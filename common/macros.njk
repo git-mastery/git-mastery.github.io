@@ -445,6 +445,19 @@
 {% endmacro %}
 <!-- ============================================================ -->
 
+{% macro show_two_column_row(image_path, width="300") %}
+<div class="row align-items-start g-3 mt-1">
+  <div class="col-auto">
+    <img src="{{ image_path }}" class="img-fluid d-block" style="{{ img_style }}" width="{{ width }}" />
+  </div>
+  <div class="col-md">
+
+{{ caller() }}
+  </div>
+</div>
+{% endmacro %}
+<!-- ============================================================ -->
+
 {%- macro hp_number(text) %}<span style="position: relative; right: 12px; background-color: rgba(255, 0, 0, 0.2); border-radius: 0 0.7em 0.7em 0" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small>**{{ text }}**</small></span>{% endmacro -%}
 <!-- ============================================================ -->
 
