@@ -43,7 +43,7 @@ Instead, **we need a way to maintain multiple parallel timelines in the same rep
 
 Therefore, **a {{ show_git_term("branch") }} is conceptually a _named timeline_ of commits, implemented as a label/reference ({{ show_git_term("ref") }} for short) that points to the latest commit in that timeline.** In the example on the left, there are three branches: `main`, `fix1`, and `fix2`.
 
-**The latest commit that branch ref points to is called the {{ show_git_term("tip") }} of the branch.** For example, `c` is the tip of the `main` branch while `f1` is the tip of the `fix1` branch.
+**The latest commit that a branch ref points to is called the {{ show_git_term("tip") }} of the branch.** For example, `c` is the tip of the `main` branch while `f1` is the tip of the `fix1` branch.
 
 {% endcall %}
 
