@@ -2,7 +2,7 @@
 
 <div id="scenario" class="d-none">
 
-You are writing the outline for a story, in `story.txt`. You have written the first few steps of the storyline.
+You are writing a story outline in `story.txt` and have written the first few storyline steps.
 
 **Current revision graph:**
 <mermaid>
@@ -15,15 +15,15 @@ gitGraph BT:
 </mermaid>
 
 
-You are not very happy with the way the story is progressing, and wish to explore a few alternative storylines starting from a previous step.
+You are unhappy with the story and want to explore alternative storylines from a previous step.
 </div>
 
 <div id="task" class="d-none">
 
-1. Start a new branch named `visitor-line`, starting from the third commit (i.e., commit `Describe location`).
+1. Start a new branch named `visitor-line` from the third commit (`Describe location`).
 1. Add the line `I heard someone knocking at the door.` to the `story.txt`.
 1. Commit the change. You may use any suitable commit message.
-1. Start a new branch named `sleep-line`, starting from the same starting point as before.
+1. Start a new branch named `sleep-line` from the same commit as before.
 1. Add the line `I fell asleep on the couch.` to the `story.txt`.
 1. Commit the change. You may use any suitable commit message.
 

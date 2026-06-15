@@ -2,9 +2,9 @@
 
 <div id="task" class="d-none">
 
-While you are working on a small Python project in the `branch-me` repo, you discovered two bugs. You wish to fix them in a separate branch named `bug-fix`, as two separate commits.
+While working on a small Python project in `branch-me`, you discover two bugs. Fix them in a separate branch named `bug-fix`, using two commits.
 
-The steps to follow are given below:
+Follow these steps:
 
 <box type="info" seamless>
 
@@ -13,13 +13,13 @@ This repo uses `main` (not `master`) as the default branch.
 
 1. **Create a branch** named `bug-fix`.<br>
    **Switch to that branch**.
-1. **Update the `greet.py`** file so that the `greet` function uses the `name` variable in the output, as follows:
+1. **Update `greet.py`** so the `greet` function uses `name` in the output:
    ```diff
    -    print("Hi Alice")
    +    print(f"Hi {name}")
    ```
    **Commit the changes.**
-1. **Update the `calculator.py` file** such that the `add` function returns the sum of two numbers, as follows:
+1. **Update `calculator.py`** so `add` returns the sum of two numbers:
    ```diff
     def add(a, b):
    -    return a - b
@@ -28,7 +28,7 @@ This repo uses `main` (not `master`) as the default branch.
    **Commit the changes.**
 1. **Switch back to the `main` branch.**
 
-The final result should be something like this:
+Your final graph should look like this:
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}

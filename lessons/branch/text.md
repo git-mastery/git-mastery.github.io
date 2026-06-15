@@ -21,25 +21,25 @@
 {% call show_two_column_row("images/commitsHasABug.png") %}
 **One such situation is when you want to experiment with multiple alternative fixes to a bug in parallel.**
 
-For example, suppose you realized your code has a bug after creating a few commits, as shown in the illustration on the left. Now, you wish to experiment with alternative ways to fix the bug.
+For example, suppose you notice a bug after a few commits, as shown on the left, and want to try alternative fixes.
 {% endcall %}
 
 {% call show_two_column_row("images/fixesMixed.png") %}
-If you do that by simply creating more commits, the two fixes will be mixed together and can even interfere with each other. Furthermore, bug fixes you are still experimenting with are now mixed with your main code.
+If you simply create more commits, the two fixes can mix together, interfere with each other, and get tangled with your main code.
 
-One way to avoid this is to copy-paste the repository to two other folders and use them to experiment with the two bug fixes. However, this is not ideal as you will have three separate repositories to manage, and you will have to manually copy-paste changes between them when you eventually choose which fix to use.
+You could copy the repository into two folders and try one fix in each. But then you would have three repositories to manage and would need to copy changes manually when choosing a fix.
 
-Instead, **in such situations, it is useful if we have a way to maintain multiple parallel timelines in the same repository**.
+Instead, **we need a way to maintain multiple parallel timelines in the same repository**.
 {% endcall %}
 
 {% call show_two_column_row("images/divergedTimelines.png") %}
 
-**Git revision graphs are implemented as <tooltip content="i.e., Directed Acyclic Graphs">DAGs</tooltip>, which means they are already able to maintain such multiple parallel timelines.** For example, Git can maintain two more timelines that {{ show_git_term("diverge") }} from the main timeline (at commit `c`), and let us use each of them to experiment with one of the two bug fixes. This way, you can switch between the timelines to compare the two fixes, and eventually choose which one to keep in the main codebase.
+**Because Git revision graphs are implemented as <tooltip content="i.e., Directed Acyclic Graphs">DAGs</tooltip>, they can already maintain multiple parallel timelines.** For example, Git can maintain two timelines that {{ show_git_term("diverge") }} from the main timeline at commit `c`, one for each bug fix. You can then switch between them, compare the fixes, and choose which one to keep.
 {% endcall %}
 
 {% call show_two_column_row("images/namedTimelines.png") %}
 
-**_Branches_ are the Git feature that allows us to manage those diverged timelines in a practical way.** For one thing, the Git _branches_ feature lets us assign a name to the latest commit in a timeline -- making that timeline easy to refer to.
+**_Branches_ let us manage diverged timelines in a practical way.** A branch name points to the latest commit in a timeline, making that timeline easy to refer to.
 
 Therefore, **a {{ show_git_term("branch") }} is conceptually a _named timeline_ of commits, implemented as a label/reference ({{ show_git_term("ref") }} for short) that points to the latest commit in that timeline.** In the example on the left, there are three branches: `main`, `fix1`, and `fix2`.
 
@@ -47,7 +47,7 @@ Therefore, **a {{ show_git_term("branch") }} is conceptually a _named timeline_ 
 
 {% endcall %}
 
-**_All_ commits reachable from the branch ref are considered as part of the branch.** Reachability here is based on the 'parent' link each commit has. In the example below, commits `c`, `b`, `a` are on the branch `main` because they are reachable by starting from the ref `main` and traversing the parent links (shown as arrows in the diagram). Similarly, commits `f1`, `e1`, `d1`, `c`, `b`, `a` are on the branch `fix1`, and so on.
+**_All_ commits reachable from the branch ref are considered part of the branch.** Reachability follows each commit's 'parent' link. In the example below, commits `c`, `b`, and `a` are on `main` because Git can start from the ref `main` and traverse to those commits through parent links. Similarly, commits `f1`, `e1`, `d1`, `c`, `b`, and `a` are on `fix1`.
 
 <img style="{{ img_style_no_border }}" src="images/reachableCommitsInABranch.png" width="600"/>
 <p/>
@@ -56,16 +56,16 @@ Therefore, **a {{ show_git_term("branch") }} is conceptually a _named timeline_ 
 
 **Clarification on the 'start' of a branch**{.text-info}
 
-**We often refer to the point at which a branch diverges from another branch as the 'start' of the branch. However, technically, a branch doesn't have a start point** As all commits reachable from a branch ref are considered as part of the branch, technically, the branch can be said to have started at any of those commits.
+**We often call the point where a branch diverges from another branch the 'start' of the branch. However, technically, a branch doesn't have a start point.** Since all commits reachable from a branch ref are part of the branch, the branch could be said to start at any of those commits.
 
-In the examples given above, the commit `c` could be referred to as the start of branches `fix1` and `fix2` although commits `a` and `b` are also in those branches.
+In the examples above, commit `c` could be called the start of branches `fix1` and `fix2`, although commits `a` and `b` are also in those branches.
 </box>
 
 {% call show_two_column_row("images/headRef.png") %}
 
-**The {{ show_git_term("HEAD") }} is a special ref whose job is to point to the branch ref of the branch you are currently on**, also called the {{ show_git_term("current branch") }} or the {{ show_git_term("active branch") }}. In the example on the left, `fix1` is the active branch.
+**The {{ show_git_term("HEAD") }} is a special ref that points to the branch ref of the branch you are currently on**, also called the {{ show_git_term("current branch") }} or the {{ show_git_term("active branch") }}. In the example on the left, `fix1` is the active branch.
 
-**Git automatically makes the working directory reflect the commit at the tip of the branch**. As a result, the working directory will not be polluted with changes that happened only in other diverged branches. This allows us to work on one timeline in isolation without being affected by changes in others.
+**Git automatically updates the working directory to match the branch tip.** As a result, changes made only in other diverged branches do not pollute it. This lets you work on one timeline in isolation.
 
 Caveat: When switching branches, uncommitted changes may be carried across, conflict, or block the switch. More on this later.
 
@@ -81,13 +81,13 @@ In the example below, observe how the file in the working directory changes as w
 Next, let us look at how branches behave as you add commits.
 
 {% call show_two_column_row("images/atInitNoCommit.png") %}
-Right after you initialize a repo, Git already has a `HEAD` ref, pointing to a branch ref. **`master` is the default name Git uses for that initial branch**, although you can configure Git to use a different name as the default. **`main` is the more common choice these days** <span class="d-print-none">(and is the default used by Git-Mastery</span>). Let's use that here as well.
+After you initialize a repo, Git already has a `HEAD` ref pointing to a branch ref. **`master` is Git's default name for that initial branch**, although you can configure another default. **`main` is more common these days** <span class="d-print-none">(and is the default used by Git-Mastery</span>), so we will use it here.
 
 **At the start, you already have a branch but without any commits** on it.
 {% endcall %}
 
 {% call show_two_column_row("images/atInitOneCommit.png") %}
-The moment you create the first commit, the `main` branch ref immediately points to it, and that commit becomes the tip of the main branch.
+When you create the first commit, the `main` branch ref points to it, making that commit the tip of `main`.
 
 <box type="info" seamless>
 
@@ -98,7 +98,7 @@ The first commit of a repo doesn't have a parent commit.
 {% call show_two_column_row("images/atInitDecideParent.png") %}
 **When you add a new commit, two things happen:**
 
-1. **First, the new commit uses the commit `HEAD` points to, as its parent.** In this example, the new commit will use the commit `a` as its parent.
+1. **First, the new commit uses the commit `HEAD` points to as its parent.** Here, the new commit uses commit `a` as its parent.
 {% endcall %}
 
 {% call show_two_column_row("images/atInitRefMovesForward.png") %}
@@ -107,29 +107,29 @@ The first commit of a repo doesn't have a parent commit.
   The `HEAD` continues to point to the same branch ref, which means the `main` branch is still the _active_ branch.
 {% endcall %}
 
-**That is, new commits go into the branch you are currently on, and the branch ref automatically moves to the new commit**, effectively making the `HEAD` ref point to the new commit as well (via the branch ref).
+**New commits go into the branch you are currently on, and the branch ref moves to the new commit**, so `HEAD` too points to the new commit through that branch ref.
 
-Next, let us look at how more branches can be added, beyond the initial branch created by Git.
+Next, let's add branches beyond Git's initial branch.
 
 {% call show_two_column_row("images/createBranchOnlyRef.png") %}
-**When you add a new branch, Git adds a branch ref pointing to a commit** -- unless you specify another commit, the new branch ref will point to the commit at the tip of the currently active branch.
+**When you add a new branch, Git adds a branch ref pointing to a commit.** Unless you specify another commit, it points to the tip of the current branch.
 
-In the example on the left, the newly-created `fix1` branch ref is pointing to the same commit as the `main` branch ref.
+In the example on the left, the new `fix1` branch ref points to the same commit as `main`.
 {% endcall %}
 
 {% call show_two_column_row("images/createBranchMadeActive.png") %}
-**If you intend your subsequent commits to go into the new branch, you need to make it the active branch** by {{ show_git_term("switching") }} to it. Then, the `HEAD` ref will point to the new branch ref, making it the active branch.
+**If you want subsequent commits to go into the new branch, make it active** by {{ show_git_term("switching") }} to it. Then, `HEAD` points to the new branch ref.
 
-In the example on the left, the `HEAD` ref has moved to point to the `fix1` branch ref, making `fix1` the active branch.
+In the example on the left, `HEAD` now points to `fix1`, making `fix1` active.
 {% endcall %}
 
 {% call show_two_column_row("images/createBranchCommitAdded.png") %}
-Now, a new commit `d1` has been added, which went onto the `fix1` branch. The `fix1` ref has moved to the new commit, and the `HEAD` ref also points to the new commit via the `fix1` branch ref. The `main` branch ref, however, remains where it is.
+Now, a new commit `d1` has been added to `fix1`. The `fix1` ref has moved to the new commit, and `HEAD` points to it via the `fix1` branch ref. The `main` branch ref remains where it is.
 {% endcall %}
 
 <box type="warning" seamless>
 
-The appearance of the revision graph (colors, positioning, orientation, etc.) varies based on the Git client you use, and might not match the exact diagrams given above.
+Revision graphs vary by Git client, so your graph's colors, positions, and orientation might not match these diagrams exactly.
 </box>
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Work on parallel branches")  %}
@@ -137,7 +137,7 @@ The appearance of the revision graph (colors, positioning, orientation, etc.) va
 {{ hp_number(hop_preparation) }}
 
 {% set manual %}
-Let's create a repo named `sports`, as follows:
+Create a repo named `sports`:
 ```
 mkdir sports
 cd sports
@@ -182,14 +182,14 @@ On branch main
 {{ hp_number ('2') }} **Start a branch named `feature1` and switch to the new branch.**
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
-You can use the `branch` command to create a new branch and the `checkout` command to switch to a specific branch.
+Use `git branch` to create a branch and `git checkout` to switch to it.
 
 ```bash{highlight-lines="1['branch'],2['checkout']"}
 git branch feature1
 git checkout feature1
 ```
 
-One-step shortcut to create a branch and switch to it at the same time:
+Shortcut to create and switch in one step:
 
 ```bash{highlight-lines="1['checkout -b']"}
 git checkout -b feature1
@@ -202,7 +202,7 @@ Switched to a new branch 'feature1'
 
 <box type="info" header="The new `switch` command" seamless>
 
-Git recently introduced a [`switch` command](https://git-scm.com/docs/git-switch) that you can use instead of the `checkout` command given above.
+You can use the more modern alternative [`git switch`](https://git-scm.com/docs/git-switch) instead of `git checkout`.
 
 To create a new branch and switch to it:
 ```bash{highlight-lines="2['switch']"}
@@ -222,7 +222,7 @@ Click on the `Branch` button on the main menu. In the next dialog, enter the bra
 <pic eager src="{{baseUrl}}/lessons/branch/images/sourcetreeCreateBranch.png" height="150" />
 <p/>
 
-Note how the `feature1` is indicated as the current branch (reason: Sourcetree automatically switches to the new branch when you create a new branch, if the `Checkout New Branch` was selected in the previous dialog).
+Note that `feature1` is now the current branch. Sourcetree switches automatically when `Checkout New Branch` was selected in the dialog.
 
 <pic eager src="{{baseUrl}}/lessons/branch/images/sourcetreeFeature1BranchActive.png" height="150" />
 <p/>
@@ -238,22 +238,22 @@ Note how the `feature1` is indicated as the current branch (reason: Sourcetree a
   git stage boxing.txt
   git commit -m "Add boxing.txt"
   ```
-* Observe how commits you add while on the `feature1` branch will become part of that branch.<br>
-  Observe how the `feature1` ref and the `HEAD` ref move to the new commit.
+* Observe how commits you add while on `feature1` become part of that branch.<br>
+  Observe how the `feature1` ref and `HEAD` ref move to the new commit.
 
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 As before, you can use the `git log --oneline --decorate` command for this.
 {% endset %}
 {% set sourcetree %}
-* :fab-windows: At times, the `HEAD` ref of the local repo is represented as :fas-dot-circle: in Sourcetree, as illustrated in the screenshot below
+* :fab-windows: Sourcetree sometimes represents the local repo's `HEAD` ref as :fas-dot-circle:, as shown below
   <pic eager src="images/sourcetree_HEAD_dot.png" />.
 * :fab-apple: The `HEAD` ref is not shown in the UI if it is already pointing at the active branch.
 {% endset %}
 {{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
-* Add some more text to `boxing.txt`, stage the changes, and commit it. This commit too will be added to the `feature1` branch.{texts="['3.3']"}
+* Add more text to `boxing.txt`, stage the changes, and commit it. This commit is also added to `feature1`.{texts="['3.3']"}
   ```bash
   echo -e "Mike Tyson" >> boxing.txt
   git commit -am "Add Tyson to boxing.txt"
@@ -297,11 +297,11 @@ gitGraph BT:
 </mermaid>
 </div>
 
-{{ hp_number ('6') }} **Switch between the two branches and see how the working directory changes accordingly.** That is, now you have two parallel timelines that you can freely switch between.
+{{ hp_number ('6') }} **Switch between the two branches and see how the working directory changes.** You now have two parallel timelines that you can freely switch between.
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
-**You can also start a branch from an earlier commit**, instead of the latest commit in the current branch. For that, simply check out the commit you wish to start from.
+**You can also start a branch from an earlier commit**, not only from the latest commit in the current branch. Check out the commit you want the new branch to start from.
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Start a branch from an earlier commit")  %}
@@ -309,9 +309,9 @@ gitGraph BT:
 {{ hp_number(hop_preparation) }}
 {{ show_hop_prep('hp-early-branch', is_continue=1, sandbox_info="the `sports` repo") }}
 
-{{ hp_number(hop_scenario) }} Suppose we want to create a branch containing an alternative version of the content we added in the `feature1` branch.
+{{ hp_number(hop_scenario) }} Suppose we want a branch with an alternative version of the `feature1` content.
 
-{{ hp_number(hop_target)}} Create a new branch that starts from the same commit the `feature1` branch started from, as shown below:
+{{ hp_number(hop_target)}} Create a new branch from the commit where `feature1` started, as shown below:
 
 <mermaid>
 gitGraph BT:
@@ -333,30 +333,30 @@ gitGraph BT:
 
 **Avoid this rookie mistake!**{.text-danger}
 
-Before creating a branch, make sure you are at the commit where you intend the new branch to start. If not, your branch can get created at a different place than you intended.
+Before creating a branch, make sure you are at the commit where the new branch should start, as that is where Git will create the new branch by default.
 </box>
 
 
 {{ hp_number('1') }} Switch to the `main` branch.
 
-{{ hp_number('2') }} Checkout the commit at which the `feature1` branch diverged from the `main` branch (e.g. `git checkout HEAD~1`). This will create
-<trigger trigger="click" for="modal:branch-detachedHead">a 'detached' `HEAD`</trigger>. Now you are at the commit that you want the new branch to diverge from.
+{{ hp_number('2') }} Check out the commit where `feature1` diverged from `main` (e.g., `git checkout HEAD~1`). This creates
+<trigger trigger="click" for="modal:branch-detachedHead">a 'detached' `HEAD`</trigger>. You are now at the commit where the new branch should diverge.
 
 <modal large header="What is a 'detached' `HEAD`? (from [_T4L4. Traversing to a Specific Commit_](../checkout/index.html))" id="modal:branch-detachedHead">
   <include src="../checkout/text.md#detached-head-explanation"/>
 </modal>
 
-{{ hp_number('3') }} Create a new branch called `feature1-alt` and switch to it (e.g., `git switch -c feature1-alt`). The `HEAD` will now point to this new branch (i.e., no longer 'detached').
+{{ hp_number('3') }} Create a new branch `feature1-alt` and switch to it (e.g., `git switch -c feature1-alt`). `HEAD` now points to this new branch and is no longer 'detached'.
 
 {% call show_protip("Moving and creating a branch in one shot") %}
 
-Suppose you are currently on branch `feature1` and you want to create a new branch `feature2` that starts from `main` and switch to it. Normally, you can do that in two steps:
+Suppose you are on `feature1` and want to create `feature2` from `main`, then switch to it. Normally, that takes two steps:
 
 ```bash
 git switch main     # switch to the intended base branch first
 git switch -c feature2  # create the new branch and switch to it
 ```
-This can be done in one shot using the `git switch -c <new-branch> <start-point>` command:
+Use `git switch -c <new-branch> <start-point>` to do both in one step:
 ```bash
 git switch -c feature2 main
 ```
