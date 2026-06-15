@@ -232,7 +232,7 @@ Note that `feature1` is now the current branch. Sourcetree switches automaticall
 
 {{ hp_number ('3') }} **Create some commits in the new branch, as follows.**
 
-* Add a file named `boxing.txt`, stage it, commit it.{texts="['3.1', '3.2', '3.3', '3.4']"}
+* Add a file named `boxing.txt`, stage it, and commit it.{texts="['3.1', '3.2', '3.3', '3.4']"}
   ```bash
   echo -e "Muhammad Ali" > boxing.txt
   git stage boxing.txt
