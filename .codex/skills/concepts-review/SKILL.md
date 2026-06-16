@@ -61,6 +61,16 @@ Evaluate suitability for university CS students learning Git by doing:
 * Flag explanations that are too terse to act on, too advanced for the lesson point, or overly simplified in a way that will cause wrong habits.
 * Check that exercises have observable success criteria and enough context to self-test.
 
+### Learning Depth and Fine Print
+
+Balance accuracy with novice cognitive load:
+
+* Do not require the main explanation to cover every edge case, exception, alternate term, or internal mechanism when a simpler version is accurate enough for the current lesson goal.
+* Flag simplifications only when they are materially false, likely to create a bad habit, or likely to make a later lesson harder to reconcile.
+* Prefer moving nonessential caveats into a skippable `fine print` popover when the detail is accurate and useful but not needed for the main learning path. In lesson source that imports the macro, suggest `{{ show_fine_print("...") }}`; otherwise suggest the local MarkBind popover pattern.
+* Do not hide prerequisites, required warnings, success criteria, or steps needed to complete an exercise inside `fine print`.
+* Treat `fine print` as a good fit for version/tool caveats, rare Git behaviors, alternate terminology, and short previews of future concepts.
+
 ### Sequence Awareness
 
 Use the lesson sequence reference to determine what the learner has already met. Flag:
@@ -71,6 +81,8 @@ Use the lesson sequence reference to determine what the learner has already met.
 * A detour or optional panel that introduces advanced material without clear scoping.
 
 Do not flag every future-word mention automatically. It is acceptable to name a future concept when the page gives enough immediate meaning for the current task or explicitly marks it as optional/future knowledge.
+
+Minimize forward references in the main path. When future concepts must be mentioned, prefer a brief local meaning plus "you will learn this later" framing, or move the extra detail into `fine print`, a detour, or another clearly optional element.
 
 ## Report Format
 
@@ -90,6 +102,7 @@ Sequence notes:
 * Current lesson position: <tour/lesson or unknown>
 * Assumed prior concepts: <short list>
 * Future concepts used: <short list, or "None that need action">
+* Fine-print candidates: <short list, or "None">
 
 Coverage:
 * Source reviewed: <files/fragments>

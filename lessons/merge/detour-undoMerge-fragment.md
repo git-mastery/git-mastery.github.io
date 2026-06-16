@@ -18,5 +18,10 @@ If you want to undo that merge,
 1. Ensure you are in the `feature1` branch (because that's the destination branch).
 1. Reset the `feature1` branch to the commit that was the tip of the `feature1` branch just before you merged the `main` branch to it.
 
+<box type="warning" seamless>
+
+Use this reset-based undo only for local/unshared merges; **if the merge has been pushed/shared, prefer [reverting](../revert)** (to avoid 'rewriting' history that has already been shared with others).
+</box>
+
 {{ m.show_exercise(m.exercises.merge_undo) }}
 {{ m.show_exercise(m.exercises.ff_undo) }}
