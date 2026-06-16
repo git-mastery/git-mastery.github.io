@@ -21,7 +21,7 @@ To create well-crafted commits, you need to know **how to control which precise 
 
 * **No more than one change per commit**: Avoid lumping unrelated changes into one commit, as this makes the history harder to understand, review, or revert %%(if each commit contains one standalone change, to reverse that change can be done by deleting or reverting that specific commit entirely, without affecting any other changes)%%.
 * **Make the commit standalone**: Don’t split a single logical change across multiple commits unnecessarily, as this can clutter the history and make it harder to follow the evolution of an idea or feature.
-* **Small enough to review easily, but large enough to stand on its own**: For example, fixing the same typo in five files can be one commit — splitting it into five separate commits is excessive. Conversely, implementing a big feature may be too much for one commit — instead, break it down into a series of commits, each containing a meaningful yet standalone step towards the final goal.
+* **Small enough to review easily, but large enough to stand on its own**: For example, fixing the same typo in five files can be one commit — splitting it into five separate commits is excessive. Conversely, implementing a big feature may be too much for one commit — instead, break it down into a series of commits, each containing a meaningful yet standalone step toward the final goal.
 {% endcall %}
 
 

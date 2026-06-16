@@ -2,7 +2,7 @@
 
 <div id="scenario" class="d-none">
 
-You have a branch `improve-loadding` that you have pushed to a remote repository, before you realised the branch name has a typo.
+You have a branch `improve-loadding` that you have pushed to a remote repository, before you realized the branch name has a typo.
 
 </div>
 

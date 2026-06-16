@@ -19,7 +19,7 @@ The first step of backing up a local repo on GitHub: **create an empty repositor
 
 {{ hp_number (hop_target) }} **Create an empty repo named `gitmastery-things` in your GitHub account.**
 
-{{ hp_number ('1') }} **Login to your GitHub account and choose to create a new repo.** <br>
+{{ hp_number ('1') }} **Log in to your GitHub account and choose to create a new repo.** <br>
    <pic eager src="images/createNewRemoteRepo.png" width="250" />
 
 {{ hp_number ('2') }} **In the next screen, provide `gitmastery-things` as the name for your repo**. Refer to the screenshot below on some guidance on how to provide the required information.<br>

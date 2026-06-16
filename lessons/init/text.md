@@ -19,7 +19,7 @@ To be able to save snapshots of a folder using Git, **you must first put the fol
 You can follow the hands-on practical below to learn how to initialize a repo in a folder.
 
 {% call callout(toggle_id="hands-on-practicals") %}
-{{ label('secondary', icon_hands_on + ' HANDS-ON') }} panels contain hands-on activities you can do as you learn Git. If you are new to Git, ==we strongly recommend that you do them yourself== (even if they appear straightforward), as hands-on usage will help you internalise the concepts and operations better.
+{{ label('secondary', icon_hands_on + ' HANDS-ON') }} panels contain hands-on activities you can do as you learn Git. If you are new to Git, ==we strongly recommend that you do them yourself== (even if they appear straightforward), as hands-on usage will help you internalize the concepts and operations better.
 {% endcall %}
 
 {% call show_hands_on_practical("Initialize a Git repo in a folder") %}

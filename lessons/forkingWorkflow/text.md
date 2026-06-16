@@ -74,7 +74,7 @@ The main drawback of this workflow is the extra overhead of sending everything t
      (1) First, pull from the upstream repo -- this will update your clone with the latest code from the upstream repo.<br>
      If there are any unmerged branches in your local repo, you can update them too e.g., you can merge the new `main` branch to each of them.<br>
      (2) Then, push the updated branches to your fork. This will also update any PRs from your fork to the upstream repo.
-   * Some alternatives mechanisms to achieve the same can be found in [this GitHub help page](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork).<br>
+   * Some alternative mechanisms to achieve the same can be found in [this GitHub help page](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork).<br>
      If you are new to Git, we recommend that you use the two-step mechanism above instead, so you get a clearer view of what is happening behind the scenes.
 
 

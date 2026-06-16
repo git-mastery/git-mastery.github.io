@@ -80,7 +80,7 @@ You can write your full commit message in the textbox you have been using to wri
 
 <div class="d-print-none">
 
-You can use the following command to set the Git's default text editor:
+You can use the following command to set Git's default text editor:
 
 ```bash
 git config --global core.editor "<editor command>"

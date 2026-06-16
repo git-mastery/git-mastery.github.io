@@ -49,7 +49,7 @@ Resetting is different from the _checkout_ feature:
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Resetting to past commits")  %}
 
-{{ hp_number(hop_scenario) }} Imagine the following scenario. After working with the `things` repo for a while, you realised that you made the following mistakes.<br>
+{{ hp_number(hop_scenario) }} Imagine the following scenario. After working with the `things` repo for a while, you realized that you made the following mistakes.<br>
 i) First, you added four 'bad' commits (i.e., commits that shouldn't have been created) -- shown as `B1` to `B4` in the revision graph given below.
 
 {{ show_commit('B4', style="dark", desc=show_ref('main') + show_head(), msg='Add incorrect.txt') }}
@@ -276,7 +276,7 @@ git push -f origin main
 
 <box type="tip" seamless>
 
-**A safer alternative to `--force` is `--force-with-lease`** which overwrites the remote branch only if it hasn’t changed since you last fetched it (i.e., only if remote doesn't have recent changes that you are unaware of):
+**A safer alternative to `--force` is `--force-with-lease`** which overwrites the remote branch only if it hasn’t changed since you last fetched it (i.e., only if the remote doesn't have recent changes that you are unaware of):
 ```bash
 git push --force-with-lease origin main
 ```

@@ -13,11 +13,11 @@ A Git _repository_ (short name: _repo_) is a database that tracks files and thei
 <span id="stage-term">staging</span>
 <div id="stage-definition">
 
-In Git, _staging_ is how you indicate which changes to be included in the next snapshot (i.e., the next _commit_).
+In Git, _staging_ is how you indicate which changes should be included in the next snapshot (i.e., the next _commit_).
 </div>
 <!-- ================================================== -->
 <span id="tip-term">branch tip</span>
 <div id="tip-definition">
 
-The most recent commit in the branch i.e., the commit at which the branch ref is pointing
+The most recent commit in the branch, i.e., the commit at which the branch ref is pointing.
 </div>

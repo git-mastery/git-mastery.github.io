@@ -11,7 +11,7 @@
 
 {% endcall %}
 
-**{{ show_git_term("Cherry-picking") }} is another way to synchronise branches, by applying specific commits from one branch onto another.**
+**{{ show_git_term("Cherry-picking") }} is another way to synchronize branches, by applying specific commits from one branch onto another.**
 
 Unlike merging or rebasing — which bring over all changes since the branches diverged — cherry-picking lets you choose individual commits and apply just those, one at a time, to your current branch. This is useful when you want to bring over a bug fix or a small feature from another branch without merging the entire branch history.
 

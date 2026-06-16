@@ -7,10 +7,10 @@
 
 <div id="body">
 {% call show_lesson_intro() %}
-**_Rebasing_ is another way to synchronise** one branch with another.
+**_Rebasing_ is another way to synchronize** one branch with another.
 {% endcall %}
 
-**{{ show_git_term("Rebasing") }} is another way to synchronise one branch with another, while keeping the history cleaner and more linear.** Instead of creating a merge commit to combine the branches, rebasing moves the entire sequence of commits from your branch and "replays" them on top of another branch. This effectively **moves the base of your branch to the tip of the other branch** (i.e., it 're-bases' it — hence the name), as if you had started your work from there in the first place.
+**{{ show_git_term("Rebasing") }} is another way to synchronize one branch with another, while keeping the history cleaner and more linear.** Instead of creating a merge commit to combine the branches, rebasing moves the entire sequence of commits from your branch and "replays" them on top of another branch. This effectively **moves the base of your branch to the tip of the other branch** (i.e., it 're-bases' it — hence the name), as if you had started your work from there in the first place.
 
 Rebasing is especially useful when you want to update your branch with the latest changes from a main branch, but you prefer an uncluttered history with fewer merge commits.
 

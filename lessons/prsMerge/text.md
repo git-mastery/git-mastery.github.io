@@ -7,7 +7,7 @@
 
 <div id="body">
 {% call show_lesson_intro() %}
-If you have appropriate level of access to a GitHub repo, you can merge pull requests.
+If you have an appropriate level of access to a GitHub repo, you can merge pull requests.
 {% endcall %}
 
 **A project member with sufficient access to the remote repo can merge a PR**, incorporating proposed changes into the main codebase. {{ show_git_term("Merging a PR") }} is similar to performing a Git merge in a local repo, except that it occurs in the remote repository.
@@ -31,7 +31,7 @@ If you have appropriate level of access to a GitHub repo, you can merge pull req
 * **Problem: The PR code is out-of-date**, indicated by the message **%%This branch is out-of-date with the base branch%%**. That means the repo's `main` branch has been updated since the PR code was last updated.
   * If the PR author has allowed you to update the PR and you have sufficient permissions, GitHub will allow you to update the PR simply by clicking the {{ button_light("Update branch") }} on the right side of the 'out-of-date' error message.
     If that option is not available, post a message in the PR requesting the PR author to update the PR.
-* **Problem: There are merge conflicts**, indicated by the message **%%This branch has conflicts that must be resolved%%**. That means the repo's `main` branch has been updated since the PR code was last updated, in a way that the PR code conflicts with the current `main` branch. Those <trigger trigger="click" for="modal:managePRs-mergeConflics">conflicts must be resolved</trigger>  before the PR can be merged.
+* **Problem: There are merge conflicts**, indicated by the message **%%This branch has conflicts that must be resolved%%**. That means the repo's `main` branch has been updated since the PR code was last updated, in a way that the PR code conflicts with the current `main` branch. Those <trigger trigger="click" for="modal:managePRs-mergeConflics">conflicts must be resolved</trigger> before the PR can be merged.
   * If the conflicts are simple, GitHub might allow you to resolve them using the Web interface.
   * If that option is not available, post a message in the PR requesting the PR author to update the PR.
 
@@ -44,7 +44,7 @@ If you have appropriate level of access to a GitHub repo, you can merge pull req
 * You can choose between three merging options by clicking on the down-arrow in the {{ button_green("Merge pull request :octicon-triangle-down:") }} button. If you are new to Git and GitHub, the `Create merge commit` option is recommended.
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
-**After a PR is merged, you need to sync other related repos.** Merging a PR simply merges the code in the upstream remote repository in which it was merged. The PR author (and other members of the repo) needs to pull the merged code from the upstream repo to their local repos and push the new code to their respective forks to sync the fork with the upstream repo.
+**After a PR is merged, you need to sync other related repos.** Merging a PR simply merges the code in the upstream remote repository in which it was merged. The PR author (and other members of the repo) need to pull the merged code from the upstream repo to their local repos and push the new code to their respective forks to sync the fork with the upstream repo.
 
 </div>
 
