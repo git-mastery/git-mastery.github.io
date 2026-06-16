@@ -18,7 +18,7 @@ pageNav: 6
 
 ## Installation and Setup
 
-**If you are following Git-Mastery lessons in the given sequence** you will be introduced to Git-Mastery at appropriate points in the lesson path. You don't need to set it up in advance.
+**If you are following Git-Mastery lessons in sequence** you will be introduced to Git-Mastery at appropriate points in the lesson path. You don't need to set it up in advance.
 
 **If you are following lessons out of sequence, or if you are doing the exercises only,** follow the instructions below to set up the Git-Mastery app (and other required tools) on your computer in order.
 

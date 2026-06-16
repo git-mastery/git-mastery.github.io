@@ -7,7 +7,7 @@
 
 <div id="body">
 {% call show_lesson_intro() %}
-**_Rebasing_ is another way to synchronize** one branch with another.
+**_Rebasing_ is another way to sync** one branch with another.
 {% endcall %}
 
 **{{ show_git_term("Rebasing") }} is another way to synchronize one branch with another, while keeping the history cleaner and more linear.** Instead of creating a merge commit to combine the branches, rebasing moves the entire sequence of commits from your branch and "replays" them on top of another branch. This effectively **moves the base of your branch to the tip of the other branch** (i.e., it 're-bases' it — hence the name), as if you had started your work from there in the first place.
@@ -28,7 +28,7 @@ gitGraph
     commit id: "[HEAD → feature] f2"
 </mermaid>
 
-If we merge the `main` branch to the `feature` branch as given below, `m2` becomes visible to the `feature` branch. However, it creates a merge commit.
+If we merge the `main` branch to the `feature` branch as shown below, `m2` becomes visible to the `feature` branch. However, it creates a merge commit.
 <mermaid>
 gitGraph
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
@@ -55,7 +55,7 @@ gitGraph
     commit id: "[HEAD → feature] f2a"
 </mermaid>
 
-Note how the rebasing changed the base of the `feature` branch from `m1` to `m2`. As a result, changes done in `m2` are now visible to the `feature` branch. But there is no merge commit, and the revision graph is simpler.
+Note how the rebasing changed the base of the `feature` branch from `m1` to `m2`. As a result, changes from `m2` are now visible to the `feature` branch. But there is no merge commit, and the revision graph is simpler.
 
 Also note how the first commit in the feature branch, previously shown as `f1`, is now shown as `f1a` after the rebase. Although both commits contain the same changes, other details -- such as the parent commit -- are different, making them two distinct Git objects with different SHA values. Similarly, `f2` and `f2a` are also different. Thus, the history of the entire `feature` branch has changed after the rebase.
 

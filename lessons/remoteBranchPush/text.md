@@ -12,7 +12,7 @@
 
 **Pushing a copy of local branches to the corresponding remote repo makes those branches available remotely.**
 
-In a previous lesson, we saw how to push the default branch to a remote repository and have Git set up tracking between the local and remote branches using a remote-tracking reference. **Pushing any other local branch to a remote works the same way as pushing the default branch — you simply specify the target branch instead of the default branch.** Pushing any new commits in any local branch to a corresponding remote branch is done similarly as well.
+In a previous lesson, we saw how to push the default branch to a remote repository and have Git set up tracking between the local and remote branches using a remote-tracking reference. **Pushing any other local branch to a remote works the same way as pushing the default branch — you simply specify the target branch instead of the default branch.** After that, you can push new commits from that local branch to the corresponding remote branch in the same way.
 
 {% set a %} <!-- ------ start: transformation columns --------------->
 <mermaid>

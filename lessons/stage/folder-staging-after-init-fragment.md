@@ -9,7 +9,7 @@
 </div>
 <div id="a-text">
 
-(a) State of the repo, just after initialisation, and creating two files. Both are untracked.
+(a) State of the repo, just after initialization and creating two files. Both are untracked.
 </div>
 
 

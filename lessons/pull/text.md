@@ -252,7 +252,7 @@ The final result should be something like the below (same as the repo state befo
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
 
-**{{ show_git_term("Pull") }} is a shortcut that combines fetch and merge** — it fetches the latest changes from the remote and immediately merges them into your current branch. In practice, Git users typically use the pull instead of the fetch-then-merge.
+**{{ show_git_term("Pull") }} is a shortcut that combines fetch and merge** — it fetches the latest changes from the remote and immediately merges them into your current branch. In practice, Git users typically pull instead of fetching and merging separately.
 
 <box type="info" seamless>
 
@@ -413,7 +413,7 @@ git push origin main
 ```
 <box type="info" seamless>
 
-The method given above is the more 'standard' method of synchronising a fork with the upstream repo. In addition, platforms such as GitHub can provide other ways (example: GitHub's [Sync fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) feature).
+The method above is the more standard way to synchronize a fork with the upstream repo. In addition, platforms such as GitHub can provide other ways (example: GitHub's [Sync fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) feature).
 </box>
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
@@ -440,7 +440,7 @@ _The decentralized RCS approach_
 
 <box type="important" light>
 
-Given its use of multiple copies of a repository, **Git is considered a _distributed_ revision control software**, as opposed to a _centralised_ revision control software that keep only a single repository.
+Given its use of multiple copies of a repository, **Git is considered a _distributed_ revision control software**, as opposed to a _centralized_ revision control system that keeps only a single repository.
 </box>
 
 </div>

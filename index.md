@@ -37,7 +37,7 @@ A free resource **for students and teachers**.<br>
 {{ heading(":fas-route:", "Outcome-driven lesson paths") }}
 <div class="indented-level3">
 
-Our Git lessons are divided into [tours](lessons/), each **teaching a specific usage of Git, not simply learning different Git commands** %%e.g., how to keep track of the history of a folder, while keeping a backup of it on the cloud.%%
+Our Git lessons are divided into [tours](lessons/), each **teaching a specific Git use case, not just a list of Git commands** %%e.g., how to keep track of the history of a folder, while keeping a backup of it on the cloud.%%
 </div>
 
 {{ heading(":fas-dumbbell:", "Authentic exercises to practice Git") }}

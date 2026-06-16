@@ -7,7 +7,7 @@
 
 <div id="body">
 {% call show_lesson_intro() %}
-Git can add a new commit to **reverse the changes done in a specific past commit**, called _reverting_ a commit.
+Git can add a new commit to **reverse the changes made in a specific past commit**, called _reverting_ a commit.
 {% endcall %}
 **When a past commit introduced a bug or an unwanted change, but you do not want to modify that commit** — because rewriting history can cause problems if others have already based work on it — **you can instead {{ show_git_term("revert") }} that commit.**
 
@@ -111,7 +111,7 @@ git log --oneline --decorate
 
 <box type="warning" seamless>
 
-**A revert can result in a {{ show_git_term("conflict") }}**, if the new changes done to reverse the previous commit conflict with the changes done in other more recent commits. Then, you need to resolve the conflict before the revert operation can proceed. <span class="d-print-none">Conflict resolution is covered in a later topic.</span>
+**A revert can result in a {{ show_git_term("conflict") }}** if the new changes that reverse the previous commit conflict with later changes. Then, you need to resolve the conflict before the revert operation can proceed. <span class="d-print-none">Conflict resolution is covered in a later topic.</span>
 </box>
 </div>
 

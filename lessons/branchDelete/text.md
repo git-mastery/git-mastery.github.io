@@ -43,7 +43,7 @@ gitGraph BT:
 
 In the above example, the only impact of the deletion is the loss of the branch ref `bug-fix`. All commits remain reachable (via the `main` branch), and there is no other impact on the revision history.
 
-In fact, some prefer to delete the branch soon after merging it, to reduce branch references cluttering up the revision history.
+In fact, some prefer to delete the branch soon after merging it, to reduce clutter from branch references in the revision history.
 
 ****When you delete a branch that has not been merged,**** **the loss of the branch ref can render some commits unreachable** (unless you know their commit IDs or they are reachable through other refs), putting them at risk of being lost eventually.
 
@@ -181,7 +181,7 @@ In the next dialog, click `OK`:<br>
 {{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
-Observe that all commits remain. The only missing thing is the `textbook` ref.
+Observe that all commits remain. The only thing missing is the `textbook` ref.
 
 {{ hp_number("2") }} **Make a copy of the `SHA` of the tip of the (unmerged) `fantasy` branch.**
 
@@ -236,7 +236,7 @@ Observe how the branch ref `fantasy` is gone, together with any unmerged commits
 
 e.g., `git show 32b34fb` (use the `SHA` you copied earlier)
 
-Observe how the commit still exists and still is reachable using the commit ID, although it is not reachable by other means, and not visible in the revision graph.
+Observe how the commit still exists and is still reachable using the commit ID, although it is not reachable by other means, and not visible in the revision graph.
 <!-- ------ end: Git Tabs -------------------------------->
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->

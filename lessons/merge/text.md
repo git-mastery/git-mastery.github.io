@@ -14,7 +14,7 @@ Most work done in **branches eventually gets _merged_** together.
 
 When you merge, Git looks at the two branches and figures out how their histories have diverged since their {{ show_git_term("merge base") }} (i.e., the most recent common ancestor commit of two branches). It then applies the changes from the other branch onto your current branch, which normally creates a new commit {{ show_fine_print("In certain situations, Git does something called a _fast-forward_ merge, which doesn't create a new commit. You'll learn about fast-forward merges later.") }}. **The new commit created when merging is called a {{ show_git_term("merge commit") }} — it records the result of combining both sets of changes.**
 
-Given below is an illustration of what such a merge looks like in the revision graph:
+The diagram below illustrates what such a merge looks like in the revision graph:
 
 <annotate src="{{ baseUrl }}/lessons/merge/images/mergeWithCommit.png" width="600">
 <a-point x="2%" y="10%" label="[1]" opacity="0"/>
@@ -99,7 +99,7 @@ The revision graph should look like this now (colors and line alignment might va
 <!-- ------ end: Git Tabs -------------------------------->
 
 Observe how the changes you made in the `main` branch (i.e., the imaginary bug fix in `m3`) are now available even when you are in the `feature1` branch.<br>
-If you run a `git show HEAD` now, the output should include changes done in  commits `m3`, `f1`, and `f2`.
+If you run a `git show HEAD` now, the output should include changes made in commits `m3`, `f1`, and `f2`.
 
 {{ hp_number ('3') }} **Add another commit to the `feature1` branch**, in which you do some further changes to the `boxing.txt`.
 ```bash
@@ -265,7 +265,7 @@ gitGraph BT:
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
-**It is possible to force Git to create a merge commit even if fast forwarding is possible.** This is useful if you prefer the revision graph to visually show when each branch was merged to the main timeline.
+**You can force Git to create a merge commit even if fast forwarding is possible.** This is useful if you prefer the revision graph to visually show when each branch was merged to the main timeline.
 
 <div class="d-print-none">
 
@@ -396,7 +396,7 @@ gitGraph BT:
 
 <div class="d-print-none">
 
-The mechanics of doing a squash merge is covered in a separate detour.
+The mechanics of a squash merge are covered in a separate detour.
 </div>
 
 </div>

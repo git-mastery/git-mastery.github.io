@@ -10,7 +10,7 @@
 Git can tell you **the net effect of changes between two points of history**.
 {% endcall %}
 
-**Git's {{ show_git_term("diff") }} feature can show you what changed between two points** in the revision history. Given below are some use cases.
+**Git's {{ show_git_term("diff") }} feature can show you what changed between two points** in the revision history. Here are some use cases.
 
 **++Usage 1: Comparing two commits at different points of the revision graph++**<br>
 Example use case: Suppose you’re trying to improve the performance of a piece of software by experimenting with different code tweaks. You commit after each change (as you should). After several commits, you now want to review the overall effect of all those changes on the code.
@@ -67,7 +67,7 @@ a file for colours
 -blue
 # rest of the diff ...
 ```
-As you can see, the `diff` is _directional_ i.e., `diff <commit1> <commit2>` shows what changes you need to do to go from the `<commit1>` to `<commit2>`. If you swap `<commit1>` and `<commit2>`, the output will change accordingly e.g., lines previously shown as 'added' will now be shown as 'deleted'.
+As you can see, the `diff` is _directional_ i.e., `diff <commit1> <commit2>` shows what changes are needed to get from `<commit1>` to `<commit2>`. If you swap `<commit1>` and `<commit2>`, the output will change accordingly e.g., lines previously shown as 'added' will now be shown as 'deleted'.
 {% endcall %}
 
 {% endset %}
@@ -154,12 +154,12 @@ Example use case: Similar to other use cases but when you are interested in a sp
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Examining changes to a specific file")  %}
 
-{{ hp_number(hop_target) }} **Examine the changes done to a file between two different points in the version history** (including the working directory).
+{{ hp_number(hop_target) }} **Examine the changes made to a file between two different points in the version history** (including the working directory).
 
 {{ hp_number(hop_preparation) }}
 
 {% set manual %}
-Use the following bash commands for set up the sandbox repo:
+Use the following Bash commands to set up the sandbox repo:
 ```bash
 mkdir employees
 cd employees

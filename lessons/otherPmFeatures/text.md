@@ -10,9 +10,9 @@
 GitHub provides many other features useful for managing a project.
 {% endcall %}
 
-Given below are some GitHub features that can be useful in managing projects hosted on GitHub.
+Here are some GitHub features that can help manage projects hosted on GitHub.
 
-* **Issue tracker** for task-tracking: GitHub Issues is a lightweight task and bug tracker built into each repository, letting you create, assign, and discuss work in a structured way. Noteworthy features include labels for categorisation, assignees, issue templates and issue forms for consistent reporting, checklists, cross-references, mentions, and linking issues to pull requests, milestones, and projects.<br>
+* **Issue tracker** for task-tracking: GitHub Issues is a lightweight task and bug tracker built into each repository, letting you create, assign, and discuss work in a structured way. Noteworthy features include labels for categorization, assignees, issue templates and issue forms for consistent reporting, checklists, cross-references, mentions, and linking issues to pull requests, milestones, and projects.<br>
   <small>Official docs: https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues</small>
 
 * **Projects** for kanban-style task tracking: Building on top of the issue tracker, GitHub Projects provide flexible planning and tracking with tables/boards, custom fields, filters, and views, integrating issues and pull requests into a single workspace. Notable features include automation rules, insights, iterations, saved views, item fields (status, priority, estimates), and tight links to issues/PRs for end-to-end tracking.<br>

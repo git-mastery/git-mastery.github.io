@@ -10,7 +10,7 @@
 Often, you'll need to **delete a branch in a remote repo** after it has served its purpose.
 {% endcall %}
 
-**To delete a branch in a remote repository, you simply tell Git to remove the reference to that branch from the remote.** This does not delete the branch from your local repository — it only removes it from the remote, so others won’t see it anymore. This is useful for cleaning up clutter in the remote repo e.g., delete old or merged branches that are no longer needed on the remote.
+**To delete a branch in a remote repository, you simply tell Git to remove the reference to that branch from the remote.** This does not delete the branch from your local repository — it only removes it from the remote, so others won’t see it anymore. This is useful for cleaning up old or merged branches that are no longer needed on the remote.
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Delete (and restore) branches in a remote")  %}
@@ -35,7 +35,7 @@ Follow instructions in {{ show_lesson_link(trail.remoteBranches.lessons.remoteBr
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
-You can use the `git push <remote> --delete <branch>` command to delete a branch in a remote. This is like pushing changes in a branch to a remote, except we request the branch to be deleted instead, by adding the `--delete` switch.
+You can use the `git push <remote> --delete <branch>` command to delete a branch in a remote. This is similar to pushing changes in a branch to a remote, except the `--delete` switch tells Git to delete the branch instead.
 ```bash{.no-line-numbers}
 git push origin --delete fantasy
 ```

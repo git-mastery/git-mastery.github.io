@@ -14,7 +14,7 @@ If you have an appropriate level of access to a GitHub repo, you can merge pull 
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Merge a PR")  %}
-{{ hp_number("Preparation") }} If you would like to try merging a PR yourself, you can create a dummy PR in the following manner.
+{{ hp_number("Preparation") }} If you would like to try merging a PR yourself, you can create a dummy PR using these steps.
 * Create a branch in a repo that you have forked and cloned (e.g., [samplerepo-pr-practice](https://github.com/git-mastery/samplerepo-pr-practice)). {{ numbers_roman }}
 * Make some changes in the branch.
 * Push the branch to the remote repo.
@@ -44,7 +44,7 @@ If you have an appropriate level of access to a GitHub repo, you can merge pull 
 * You can choose between three merging options by clicking on the down-arrow in the {{ button_green("Merge pull request :octicon-triangle-down:") }} button. If you are new to Git and GitHub, the `Create merge commit` option is recommended.
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
-**After a PR is merged, you need to sync other related repos.** Merging a PR simply merges the code in the upstream remote repository in which it was merged. The PR author (and other members of the repo) need to pull the merged code from the upstream repo to their local repos and push the new code to their respective forks to sync the fork with the upstream repo.
+**After a PR is merged, you need to sync other related repos.** Merging a PR updates only the upstream remote repository where it was merged. The PR author (and other repo members) need to pull the merged code from the upstream repo to their local repos, then push it to their forks to sync those forks with the upstream repo.
 
 </div>
 

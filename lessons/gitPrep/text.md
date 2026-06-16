@@ -23,7 +23,7 @@ Before you start learning Git, **you need to install some tools** on your comput
 **Run the installer** and make sure to **select the option to install Git Bash** when prompted.
 
 <box type="info" seamless>
-<panel type="seamless" header="Screenshots given below provide some guidance on the dialogs you might encounter when installing Git. In other cases, go with the default option." peek>
+<panel type="seamless" header="The screenshots below provide some guidance on the dialogs you might encounter when installing Git. In other cases, go with the default option." peek>
 <pic src="images/selectGitBash.png" /><br>
 <pic src="images/chooseTextEditor.png" /><br>
 <pic src="images/chooseCheckoutStyle.png" /><br>
@@ -62,7 +62,7 @@ You can also right-click it and choose `Pin to Start` or `Pin to taskbar`.
 
 <box type="important" seamless icon=":fab-windows:">
 
-**On Windows**, you might need to close and open the terminal again for it to recognize changes done elsewhere in the computer (e.g., newly-installed software, changes to system variables, etc.).
+**On Windows**, you might need to close and open the terminal again for it to recognize changes made elsewhere on the computer (e.g., newly-installed software, changes to system variables, etc.).
 </box>
 
 {{ os_tabs_marker('mac') }}
@@ -155,7 +155,7 @@ main
 **Optionally, you can install a Git GUI client.**
 e.g., Sourcetree ([installation instructions](https://se-education.org/guides/tutorials/sourcetree.html)).
 
-Our Git lessons show how to perform Git operations in Git CLI, and in Sourcetree -- the latter just to illustrate how Git GUIs work. It is perfectly fine for you to learn the CLI only.
+Our Git lessons show how to perform Git operations using Git CLI and Sourcetree; Sourcetree is included only to illustrate how Git GUIs work. It is perfectly fine for you to learn the CLI only.
 
 <pic src="images/sourcetreeUi.png" /><br>
 <sub>%%[image credit: https://www.sourcetreeapp.com]%%</sub>
@@ -191,7 +191,7 @@ Our Git lessons show how to perform Git operations in Git CLI, and in Sourcetree
 
 <panel header="**++:far-face-surprise: :fas-virus-covid: Windows Defender says gitmastery.exe is a virus?++**{.badge .bg-warning .text-dark}" icon=":fas-face-surprise:"  peek>
 
-**In some cases, Windows Defender virus scanner can incorrectly block gitmastery.exe** as a virus. The Git-Mastery team is currently working on getting the app white-listed. In the meantime, it is safe to override the warning/blockade, either by choosing `Run anyway` option (if given) or using the following steps.
+**In some cases, Windows Defender virus scanner can incorrectly block gitmastery.exe** as a virus. The Git-Mastery team is currently working on getting the app allowlisted. In the meantime, it is safe to override the warning or block, either by choosing the `Run anyway` option (if given) or using the following steps.
 
 1. Open `Windows Security` → `Virus & threat protection`.
 1. Click `Protection history`.
@@ -251,7 +251,7 @@ install -D -m 0755 gitmastery-3.3.0-linux-arm64 /usr/bin/gitmastery
 
 {{ os_tabs_marker('end') }}
 
-**2. To verify the installation**, open a terminal, and run the `gitmastery --help` command from a couple of different folder locations. An example given below (IMPORTANT: change the `cd` command to match your folders):
+**2. To verify the installation**, open a terminal, and run the `gitmastery --help` command from a couple of different folder locations. Here is an example (IMPORTANT: change the `cd` command to match your folders):
 
 ```bash{.no-line-numbers highlight-lines="2['../my-projects']"}
 gitmastery --help
@@ -304,7 +304,7 @@ Notes:
 ##### **Git-Mastery App: Commands**{.text-info}
 
 {% set run_at_root %}<small>{{ icon_info }} This command needs to be run **in the Git-Mastery's _exercises directory_** (default name: `gitmastery-exercises`).</small>{% endset %}
-{% set run_in_exercise %}<small>{{ icon_info }} This command needs to be run **inside the folder containing the exercise** in concern.</small>{% endset %}
+{% set run_in_exercise %}<small>{{ icon_info }} This command needs to be run **inside the folder containing the relevant exercise**.</small>{% endset %}
 
 Command|Run from ...|What it does|
 -------|---|--------|

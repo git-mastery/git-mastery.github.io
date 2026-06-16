@@ -45,7 +45,7 @@ You can replace the `add` with `stage` (e.g., `git stage fruits.txt`) and the re
 
 <box type="info" seamless icon=":fab-windows:">
 
-Windows users: When using the `echo` command to write to text files from Git Bash, you might see a warning `LF will be replaced by CRLF the next time Git touches it` when Git interacts with such a file. This warning is caused by the way line endings are handled differently by Git and Windows. You can simply ignore it, or suppress it in future by running the following command:
+Windows users: When using the `echo` command to write to text files from Git Bash, you might see a warning `LF will be replaced by CRLF the next time Git touches it` when Git interacts with such a file. This warning is caused by the way line endings are handled differently by Git and Windows. You can ignore it, or suppress it in the future by running the following command:
 ```bash
 git config --global core.safecrlf false
 ```

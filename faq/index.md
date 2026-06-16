@@ -14,7 +14,7 @@ pageNav: 4
 
 <div class="lead">
 
-Given below are some frequently asked questions about Git-Mastery.
+Here are some frequently asked questions about Git-Mastery.
 
 </div>
 
