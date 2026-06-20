@@ -7,18 +7,18 @@
 
 <div id="body">
 {% call show_lesson_intro() %}
-When merging branches, **you need to guide Git on how to resolve conflicting changes** in different branches.
+When merging branches, **you need to tell Git how to resolve conflicting changes** in different branches.
 {% endcall %}
 
 **A {{ show_git_term("conflict") }} occurs when Git cannot automatically reconcile different changes made to the same part of a file.**
 
-**A {{ show_git_term("merge conflict") }} is a type of conflict that happens when Git can't automatically combine changes from two branches** because the same parts of a file were modified differently in each branch. When this happens, **Git pauses the merge and marks the conflicting sections in the affected files so you can resolve them yourself.** Once you've reviewed and resolved the conflicts, you can tell Git to proceed with the merge.
+**A {{ show_git_term("merge conflict") }} happens when Git can't automatically combine branches** because both branches changed the same part of a file in different ways. When this happens, **Git pauses the merge and marks the conflicting sections in the affected files so you can resolve them yourself.** Once you've resolved the conflicts, you can tell Git to continue the merge.
 
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Resolve a merge conflict")  %}
 
-{{ hp_number(hop_scenario) }} In the `nouns` repo (revision graph shown below), both the `main` and the `fix1` branches are modifying the same file at the same location. The main branch is inserting `black` in the same place the `fix1` branch is inserting `green`.
+{{ hp_number(hop_scenario) }} In the `nouns` repo (revision graph shown below), both `main` and `fix1` modify the same location in the same file. `main` inserts `black` where `fix1` inserts `green`.
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
@@ -51,16 +51,16 @@ white
 {% endset %}
 {{ show_multiple_columns([a, '|', b]) }}
 
-{{ hp_number(hop_target) }} Merge the two branches while reconciling the conflicting changes in the two branches.
+{{ hp_number(hop_target) }} Merge the two branches and reconcile their conflicting changes.
 
 {{ hp_number(hop_preparation) }}
 {% set manual %}
-We need a repo with two branches containing conflicting changes. Here is how you can create such a scenario:
+Create a repo with two branches containing conflicting changes, as follows:
 1. **Create a repo named `nouns`** with one commit.
-1. **Start a branch named `fix1` in the repo. Create a commit** that adds a line with some text to one of the files.
-1. **Switch back to the `main` branch. Create a commit with a conflicting change**; that is, it adds a line with some different text in the exact location the previous line was added.
+1. **Start a branch named `fix1` in the repo. Create a commit** that adds a line of text to one of the files.
+1. **Switch back to `main`. Create a commit with a conflicting change** that adds different text in that exact location.
 
-The above can be done with the following commands:
+You can do this with the following commands:
 
 ```bash
 mkdir nouns
@@ -83,7 +83,7 @@ git commit -am "Add black, red, white"
 
 {{ show_hop_prep('hp-merge-conflicts', manual_info=manual) }}
 
-{{ hp_number("1") }} **Try to merge the `fix1` branch into the `main` branch.** Git will pause midway through the merge and report a merge conflict. If you open the conflicted file `colours.txt`, you will see something like this:
+{{ hp_number("1") }} **Try to merge the `fix1` branch into the `main` branch.** Git will pause the merge and report a merge conflict. If you open the conflicted file `colours.txt`, you will see something like this:
 
 ``` {.line-numbers highlight-lines="2,4,6" heading="colours.txt"}
 blue
@@ -98,7 +98,7 @@ white
 
 {{ hp_number("2") }} **Observe how the conflicted part is marked** between a line starting with `<<<<<<< ` and a line starting with `>>>>>>>`, separated by another line starting with `=======`.
 
-Highlighted in ==yellow== in the box below is the conflicting part that comes from the `main` branch (note the `HEAD` label in line 2, which indicates this conflicting change is in the currently active branch, which is the `main` branch):
+The ==yellow== highlight below shows the conflicting part from `main`. The `HEAD` label on line 2 means this conflicting change comes from the currently active branch, `main`:
 
 ```txt {.line-numbers highlight-lines="2,3@yellow,4"}
 blue
@@ -121,7 +121,7 @@ green
 red
 ```
 
-{{ hp_number("3") }} **Resolve the conflict by editing the file**. Let us assume you want to keep both lines in the merged version. You can modify the file to be like this (i.e., remove the lines with conflict markers while keeping both lines `black` and `green`):
+{{ hp_number("3") }} **Resolve the conflict by editing the file**. Assume you want the merged version to keep both lines. Remove the conflict-marker lines and keep `black` and `green`:
 
 ```txt {.line-numbers highlight-lines="2-3"}
 blue
@@ -133,14 +133,14 @@ white
 **General steps for resolving a conflict:**
 
 1. Remove conflict markers (e.g., `<<<<<<< HEAD`)
-1. Edit the remaining text any way you see fit (e.g., keep/edit/delete one or both; you can even insert new text).
+1. Edit the remaining text as needed (e.g., keep, edit, or delete one or both lines; you can also insert new text).
 
-**If there are multiple conflicts** (in multiple files, or in different locations within the same file), resolve them in a similar fashion.
+**If there are multiple conflicts** (in multiple files or different locations within the same file), resolve them the same way.
 
 {{ hp_number("4") }} **Stage the changes.**
 
 {{ hp_number("5") }} Complete the merge by doing one of the following:
-* **Option 1: Commit** the staged changes (as you would do normally).
+* **Option 1: Commit** the staged changes (as you normally would).
 * **Option 2: Ask Git to resume the merge** using the command `git merge --continue`.
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->

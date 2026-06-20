@@ -2,12 +2,12 @@
 
 <div id="scenario" class="d-none">
 
-The given repo `conflict` has an unmerged branch `josh` and a merged branch `john`.
+The `conflict` repo has a branch named `josh` that has not been merged and a branch named `john` that has already been merged.
 </div>
 
 <div id="task" class="d-none">
 
-**Merge branch `josh` into `main`.** This will result in a merge conflict in the `script.py` file.<br>
+**Merge `josh` into `main`.** This creates a merge conflict in `script.py`.<br>
 **Resolve the merge conflict** and **complete the merge**.<br>
 The intended outcome is `print('Hello Everyone and World!')`.
 </div>

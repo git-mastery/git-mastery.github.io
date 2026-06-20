@@ -2,7 +2,7 @@
 
 <div id="scenario" class="d-none">
 
-In the `rename-this` repo, you have been working on the login feature for your application on the branch `login`. On second thoughts, you now wish you had named it `feature/login`, to indicate the category of work done in the branch.
+In the `rename-this` repo, you have been working on the login feature for your application on the `login` branch. You later decide that `feature/login` would have been a better name because it shows the category of work on that branch.
 <mermaid>
 gitGraph BT:
     commit id: "m1"

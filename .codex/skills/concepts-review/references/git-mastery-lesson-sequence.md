@@ -22,7 +22,7 @@ Detours and exercises inherit the sequence position of their parent lesson. Deto
 | T2L2 | `githubPrep`: Preparing to use GitHub | GitHub account/setup; authentication as needed by the course; GitHub UI orientation. |
 | T2L3 | `createRemoteRepo`: Creating a Repo on GitHub | Creating an empty GitHub repository; repository visibility and initial remote repo state. |
 | T2L4 | `setRemote`: Linking a Local Repo With a Remote Repo | Remotes; remote names such as `origin`; remote URLs; linking an existing local repo to a remote. |
-| T2L5 | `push`: Updating the Remote Repo | Push; uploading local commits to a remote; local branch ahead of remote; first and subsequent pushes; pushing to multiple remotes as an optional detour. |
+| T2L5 | `push`: Updating the Remote Repo | Push; uploading local commits to a remote; local branch ahead of remote; remote-tracking branches introduced through `origin/main`; first and subsequent pushes; pushing to multiple remotes as an optional detour. |
 | T2L6 | `ignore`: Omitting Files from Revision Control | `.gitignore`; ignored versus tracked files; ignore patterns; limitations for already-tracked files. |
 | T3L1 | `fork`: Duplicating a Remote Repo on the Cloud | Forking on GitHub; copy of a remote repository under another account; fork relationship at a beginner level. |
 | T3L2 | `clone`: Creating a Local Copy of a Repo | Clone; local copy from remote; `origin` created by clone; local working copy from cloud-hosted project. |
@@ -41,11 +41,12 @@ Detours and exercises inherit the sequence position of their parent lesson. Deto
 | T6L3 | `mergeConflicts`: Resolving Merge Conflicts | Conflict causes; conflict markers; resolving and committing a merge conflict. |
 | T6L4 | `branchRename`: Renaming Branches | Local branch rename and related practical consequences. |
 | T6L5 | `branchDelete`: Deleting Branches | Deleting local branches; safe deletion after merge; risks of deleting unmerged work. |
+| T6L6 | `worktrees`: Working on Multiple Branches with Worktrees | Git worktrees; multiple working directories for one local repository; linked worktrees with separate working directories, staging areas, and `HEAD`s; shared history and branch refs; cleanup of linked worktrees. |
 | T7L1 | `syncByMerge`: Merging to Sync Branches | Keeping branches updated by merging from another branch; integration tradeoffs. |
 | T7L2 | `syncByRebase`: Rebasing to Sync Branches | Rebase for synchronization; replaying commits; linear history; when not to rebase shared work. |
 | T7L3 | `cherryPick`: Copying Specific Commits | Cherry-pick; copying selected commits across branches; duplicate-change implications. |
-| T8L1 | `remoteBranchPush`: Pushing Branches to a Remote | Publishing local branches; upstream/tracking setup; remote branch creation. |
-| T8L2 | `remoteBranchPull`: Pulling Branches from a Remote | Fetching/pulling remote branches; local branch from remote branch; tracking branch workflows. |
+| T8L1 | `remoteBranchPush`: Pushing Branches to a Remote | Publishing local branches; upstream/tracking setup; remote branch creation; remote-tracking branches further elaborated for non-default branches. |
+| T8L2 | `remoteBranchPull`: Pulling Branches from a Remote | Fetching/pulling remote branches; remote-tracking branches as read-only references; local branch from remote branch; tracking branch workflows. |
 | T8L3 | `remoteBranchDelete`: Deleting Branches from a Remote | Deleting remote branches; pruning/remote-tracking cleanup at course depth. |
 | T8L4 | `remoteBranchRename`: Renaming Branches in a Remote | Remote branch rename workflow as create-new/delete-old; updating collaborators. |
 | T9L1 | `prsCreate`: Creating Pull Requests | Pull requests; source/target branch; PR from main or other branches; resolving PR conflicts as optional. |

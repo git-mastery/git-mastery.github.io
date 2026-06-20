@@ -1,13 +1,13 @@
 ---
 name: concepts-review
-description: Review Git-Mastery website pages, lessons, detours, and exercises for conceptual correctness, Git/GitHub accuracy, target-audience suitability, explanation gaps, contradictions, confusing phrasing, and whether concepts are introduced in an order consistent with the site's lesson sequence. Use when Codex is asked to perform a Concepts Review, review the contents of this Git-Mastery site, or assess a page's explanations rather than only grammar/style.
+description: Review Git-Mastery website pages, lessons, detours, and exercises for conceptual correctness, Git/GitHub accuracy, target-audience suitability, missing in-scope concepts, explanation gaps, contradictions, confusing phrasing, and whether concepts are introduced in an order consistent with the site's lesson sequence. Use when Codex is asked to perform a Concepts Review, review the contents of this Git-Mastery site, or assess a page's explanations rather than only grammar/style.
 ---
 
 # Concepts Review
 
 ## Purpose
 
-Use this skill to review Git-Mastery content as instructional material. Focus on whether the page teaches Git and GitHub accurately, at the right depth for university CS students, and in a sequence that matches the rest of the site.
+Use this skill to review Git-Mastery content as instructional material. Focus on whether the page teaches Git and GitHub accurately, covers the Git/GitHub concepts that belong in its lesson scope, uses the right depth for university CS students, and follows a sequence that matches the rest of the site.
 
 ## Required Context
 
@@ -27,6 +27,7 @@ Trust `common/macros.njk` as the canonical lesson order. Do not infer order from
 1. Inspect authored source first. For lesson pages, read `index.md`, `text.md`, and any included `steps-*`, `detour-*`, common fragments, exercises, or macros that materially affect the reviewed content.
 1. Inspect the rendered page when the user provides a URL, asks about rendered behavior, or the content depends on MarkBind/CustardUI expansion. Expand collapsed panels, peek panels, tabs, accordions, popovers, and highlighted sections that contain instructional prose; wait for lazy content before judging it.
 1. Locate the page in the lesson sequence. Read the immediate previous and next lesson summaries or source when the page's prerequisites or future references are unclear.
+1. Determine the expected conceptual scope from the lesson title, neighboring lessons, stated learning outcomes, exercises, detours, and commands or workflows used on the page. Report concepts that are within that scope but missing or too implicit, even when the existing text is technically correct.
 1. Review with the lenses below, then print the result for the user.
 
 ## Rendered MarkBind Inspection Notes
@@ -65,6 +66,8 @@ Evaluate suitability for university CS students learning Git by doing:
 
 Balance accuracy with novice cognitive load:
 
+* Flag missing concepts when they fall within the lesson's natural scope and their absence would leave students unable to explain, predict, or safely perform the workflow being taught.
+* Treat a concept as in scope when it is required by the page's title, stated goal, exercise success criteria, core command sequence, diagram, or immediate position in the lesson sequence.
 * Do not require the main explanation to cover every edge case, exception, alternate term, or internal mechanism when a simpler version is accurate enough for the current lesson goal.
 * Flag simplifications only when they are materially false, likely to create a bad habit, or likely to make a later lesson harder to reconcile.
 * Prefer moving nonessential caveats into a skippable `fine print` popover when the detail is accurate and useful but not needed for the main learning path. In lesson source that imports the macro, suggest `{{ show_fine_print("...") }}`; otherwise suggest the local MarkBind popover pattern.
@@ -101,6 +104,7 @@ Findings:
 Sequence notes:
 * Current lesson position: <tour/lesson or unknown>
 * Assumed prior concepts: <short list>
+* Missing in-scope concepts: <short list, or "None that need action">
 * Future concepts used: <short list, or "None that need action">
 * Fine-print candidates: <short list, or "None">
 
@@ -109,4 +113,4 @@ Coverage:
 * Rendered behavior reviewed: <yes/no, and panels/tabs expanded if applicable>
 ```
 
-Use `P1` for materially inaccurate Git/GitHub explanations or serious learner-blocking contradictions, `P2` for confusing gaps, weak sequencing, or likely misconception risks, and `P3` for smaller improvements. If there are no findings, say so clearly and still include sequence notes and coverage.
+Use `P1` for materially inaccurate Git/GitHub explanations, serious learner-blocking contradictions, or missing core concepts that prevent students from completing the lesson's main workflow. Use `P2` for confusing gaps, missing in-scope concepts that risk shallow or wrong understanding, weak sequencing, or likely misconception risks. Use `P3` for smaller improvements. If there are no findings, say so clearly and still include sequence notes and coverage.

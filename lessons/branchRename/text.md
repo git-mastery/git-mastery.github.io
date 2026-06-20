@@ -10,12 +10,12 @@
 **Branches can be renamed**, for example, to fix a mistake in the branch name.
 {% endcall %}
 
-**Local branches can be renamed easily.** Renaming a branch simply changes the branch reference (i.e., the name used to identify the branch) — it is just a cosmetic change.
+**Local branches can be renamed easily.** Renaming a branch changes the branch reference (i.e., the name used to identify the branch). This is a cosmetic change: the commits, file contents, and merge relationships stay the same; only the name pointing to the branch tip changes.
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Rename local branches")  %}
 
-{{ hp_number(hop_target) }} You wish to rename `fantasy` (not yet merged) and `textbooks` (merged), as shown below:
+{{ hp_number(hop_target) }} You want to rename `fantasy` (not yet merged) and `textbooks` (merged), as shown below:
 
 {% set a %}<!-- ------ start: transformation columns --------------->
 <mermaid>
@@ -55,7 +55,7 @@ gitGraph BT:
 {{ hp_number(hop_preparation) }}
 
 {% set manual %}
-To create the repo `samplerepo-books` used for this hands-on practical, run the following commands in your terminal.
+To create the repo `samplerepo-books` used in this hands-on practical, run the following commands in your terminal.
 
 ```bash{.line-numbers}
 mkdir samplerepo-books
@@ -78,8 +78,8 @@ sleep 1
 git merge --no-ff -m "Merge branch textbooks" textbooks
 ```
 
-{{ icon_info }} The `sleep 1` in line 17 adds a delay to ensure the next commit has a different timestamp the one before.<br>
-Reason: Commit timestamps are rounded to the nearest second. If multiple commits have the same timestamp, the shape of `git log` output (which orders commits based on commit timestamp) can be slightly different from what we expect, which can be confusing.
+{{ icon_info }} The `sleep 1` in line 17 adds a delay so the next commit has a different timestamp from the previous one.<br>
+Reason: Commit timestamps are rounded to the nearest second. If multiple commits have the same timestamp, `git log` output can look slightly different from what we expect because `git log` orders commits by commit timestamp.
 {% endset %}
 
 
@@ -108,15 +108,15 @@ git log --oneline --decorate --graph --all  # verify the changes
 |/
 * 7f28f0e Add horror.txt
 ```
-{{ icon_info }} Note these additional switches to the `log` command:
+{{ icon_info }} Note these additional switches to the `git log` command:
 * `--all`: Shows all branches, not just the current branch.
-* `--graph`: Shows a graph-like visualization (notice how `*` is used to indicate a commit, and branches are indicated using vertical lines).
+* `--graph`: Shows a graph-like visualization. `*` indicates a commit, and vertical lines indicate branches.
 {% endcall %}
 
 {% endset %}
 {% set sourcetree %}
 
-Right-click on the branch name and choose `Rename...`. Provide the new branch name in the next dialog.<br>
+Right-click the branch name and choose `Rename...`. Provide the new branch name in the next dialog.<br>
 
 <pic src="images/sourcetreeRightClickToRename.png" width="400" />
 {% endset %}
@@ -127,16 +127,16 @@ Right-click on the branch name and choose `Rename...`. Provide the new branch na
 {% call show_sidebar("Branch naming conventions") %}
 
 **Branch names can contain lowercase letters, numbers, `/`, dashes (`-`), underscores (`_`), and dots (`.`)**.
-You can use uppercase letters too, but many teams avoid them for consistency.
+You can also use uppercase letters, but many teams avoid them for consistency.
 
-**A common branch naming convention is to prefix it with `<category>/`.** Some examples:
+**A common branch naming convention is to prefix branch names with `<category>/`.** Some examples:
 * `feature/login-form` — for new features (`origin/feature/login-form` could be the matching remote-tracking branch)
 * `bugfix/profile-photo` — for fixing bugs
 * `hotfix/payment-crash` — for urgent production fixes
-* `release/2.0` — for prepping a release
+* `release/2.0` — for preparing a release
 * `experiment/ai-chatbot` — for “just trying stuff”
 
-Although forward-slash (`/`) in the prefix doesn't mean folders, some tools treat it like a path so you can group related branches when you run git branch. The example below shows how Sourcetree groups branches with the same prefix.
+Although a forward slash (`/`) in the prefix doesn't create folders in Git, some tools treat it like a path, which lets you group related branches when you run `git branch`. The example below shows how Sourcetree groups branches with the same prefix.
 
 <pic src="images/sourcetreeGroupedBranches.png" />
 {% endcall %}
