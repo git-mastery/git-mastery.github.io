@@ -66,6 +66,7 @@
       { "name": "branchingLocally.mergeConflicts" },
       { "name": "branchingLocally.branchRename" },
       { "name": "branchingLocally.branchDelete" },
+      { "name": "branchingLocally.worktrees" },
       { "name": "syncingBranches.syncByMerge" },
       { "name": "syncingBranches.syncByRebase" },
       { "name": "syncingBranches.cherryPick" },

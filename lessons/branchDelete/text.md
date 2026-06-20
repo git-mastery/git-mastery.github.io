@@ -248,7 +248,7 @@ Observe how the commit still exists and is still reachable using the commit ID, 
 <p/>
 <hr>
 
-As this is the last lesson for this tour, this is a good time to attempt exercises that combine knowledge from multiple lessons in this tour:
+This is a good time to attempt exercises that combine knowledge from multiple branch-management lessons in this tour:
 
 {{ show_exercise(exercises.mix_messy_docs) }}
 {{ show_exercise(exercises.mix_messy_graph) }}

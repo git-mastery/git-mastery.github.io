@@ -12,7 +12,7 @@ pageNav: 4
 
 <span class="d-none" id="motivation">At times, you need to do multiple parallel changes to files %%(e.g., to try two alternative implementations of the same feature)%%.</span>
 
-<span class="d-none" id="achievements">Now you can create, maintain, and merge multiple parallel branches in a local repo. This tour covered only the basic use of Git branches. More advanced usage will be covered in other tours.</span>
+<span class="d-none" id="achievements">Now you can create, maintain, and merge multiple parallel branches in a local repo, and use worktrees to work with multiple branches in separate folders. This tour covered only the basic use of Git branches. More advanced usage will be covered in other tours.</span>
 
 <span id="next">{{ show_tour_link(trail.syncingBranches) }}</span>
 
