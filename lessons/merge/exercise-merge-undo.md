@@ -2,7 +2,7 @@
 
 <div id="scenario" class="d-none">
 
-You are keeping notes on the characters of a play that you are writing. In the main storyline (in the `main` branch), you introduced two characters, Rick and Morty. You had two other characters in two separate branches `daughter` and `son-in-law`. Just now, you introduced these two characters to the main story line by merging the two branches to the `main` branch.
+You are keeping notes on the characters of a play that you are writing. In the main storyline (in the `main` branch), you introduced two characters, Rick and Morty. You had two other characters in two separate branches `daughter` and `son-in-law`. Just now, you introduced these two characters to the main storyline by merging the two branches to the `main` branch.
 
 <mermaid>
 

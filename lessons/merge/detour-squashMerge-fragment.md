@@ -1,6 +1,6 @@
 {% import "common/macros.njk" as m with context %}
 
-To do a squash merge, you can use the `--squash` switch. It will prepare the squashed commit (i.e., a regular commit containing the squashed changes) but will stop short of actually finalizing the commit.
+To do a squash merge, use the `--squash` switch. It prepares the squashed commit (i.e., a regular commit containing the squashed changes) but stops short of finalizing the commit.
 
 ```bash
 git merge --squash feature-1

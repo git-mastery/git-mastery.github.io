@@ -33,7 +33,7 @@ However, now you realize this is premature and want to undo that change.
 
 <div id="task" class="d-none">
 
-Undo the merging of branch `others`.
+Undo the merge of branch `others`.
 
 The result should be as follows:
 

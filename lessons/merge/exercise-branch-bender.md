@@ -4,7 +4,7 @@
 
 Do the following operations in the given `webapp` repo, in the given order:
 
-1. Merge `feature/login` onto the `main` branch, ==while ensuring a merge commit is created== (i.e., no fast-forwarding).
+1. Merge `feature/login` onto the `main` branch, ==while creating a merge commit== (i.e., no fast-forwarding).
 1. Merge `feature/dashboard` onto the `main` branch.
 1. Merge `feature/payments` onto the `main` branch.
 

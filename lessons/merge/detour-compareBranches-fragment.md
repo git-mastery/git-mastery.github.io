@@ -2,7 +2,7 @@
 
 <div id="preview">
 
-**Comparing branches in Git is useful when you want to understand how two lines of development differ — for example, before merging a branch**, you might want to review what changes it introduces to the main branch.
+**Comparing branches in Git helps you understand how two lines of development differ — for example, before merging a branch**, you might want to review what changes it introduces to the main branch.
 </div>
 
 Here are two ways to compare two branches:
