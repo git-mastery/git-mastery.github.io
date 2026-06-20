@@ -7,7 +7,7 @@
 
 <div id="body">
 {% call show_lesson_intro() %}
-Most work done in **branches eventually gets _merged_** together.
+Most work done as **branches eventually gets _merged_** together.
 {% endcall %}
 
 @[youtube](PseJ2qfuCuI)
@@ -38,14 +38,14 @@ It then applies the changes from the other branch onto your current branch, whic
 
 <pic src="images/directionIntoMain.png" width="300" />
 
-Changes done in `d1` and `e1` are available on `main` but changes done in `d` are not available on `fix1`.
+Changes made in `d1` and `e1` are available on `main` but changes made in `d` are not available on `fix1`.
 {% endset %}
 {% set b %}
 ->[merging `main` into `fix1`]<-
 
 <pic src="images/directionIntoFix1.png" width="300" />
 
-Changes done in `d` are available on `fix1` but changes done in `d1` and `e1` are not available on `main`.
+Changes made in `d` are available on `fix1` but changes made in `d1` and `e1` are not available on `main`.
 {% endset %}
 {{ show_multiple_columns([a, '|', b]) }}
 
@@ -78,7 +78,7 @@ gitGraph BT:
     checkout feature1
 </mermaid>
 
-{{ hp_number ('2') }} **Merge the `main` branch to the `feature1` branch**, giving an end-result like the following {{ show_fine_print("If both branches changed the same part of a file differently, Git may pause the merge and ask you to resolve a _conflict_. The next lesson covers that case; this lesson uses branches Git can merge automatically.") }}. Also note how Git has created a _merge commit_ (shown as `mc1` in the diagram below).
+{{ hp_number ('2') }} **Merge the `main` branch into the `feature1` branch**, producing the following result {{ show_fine_print("If both branches changed the same part of a file differently, Git may pause the merge and ask you to resolve a _conflict_. The next lesson covers that case; this lesson uses branches Git can merge automatically.") }}. Also note how Git has created a _merge commit_ (shown as `mc1` in the diagram below).
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
@@ -113,7 +113,7 @@ The revision graph should look like this now (colors and line alignment might va
 <!-- ------ end: Git Tabs -------------------------------->
 
 Observe how the changes you made in the `main` branch (i.e., the imaginary bug fix in `m3`) are now available even when you are in the `feature1` branch.<br>
-If you run a `git diff HEAD^1 HEAD`{{ ask_chatgpt("Explaination of the command", "Explain the `git diff HEAD^1 HEAD command` command, when the HEAD is pointing to a merge commit that merges the `main` branch into the `feature1` branch. This is not a fast-forward merge.") }} now, the output should show the new changes from the `main` branch `m3` being introduced to the branch `feature1`, which is essentially the changes done in commit `m3`.
+If you run a `git diff HEAD^1 HEAD`{{ ask_chatgpt("Explanation of the command", "Explain the `git diff HEAD^1 HEAD` command, when the HEAD points to a merge commit that merges the `main` branch into the `feature1` branch. This is not a fast-forward merge.") }} now, the output should show the new changes from the `main` branch being introduced to the branch `feature1` (in this case, essentially the changes done in commit `m3`, as that is the only new commit in `main`).
 
 {{ hp_number ('3') }} **Add another commit to the `feature1` branch**, in which you do some further changes to the `boxing.txt`.
 ```bash
@@ -144,7 +144,7 @@ gitGraph BT:
     commit id: "[HEAD → main] m4"
 </mermaid>
 
-{{ hp_number ('4') }} **Merge `feature1` to the main branch**, giving an end-result like this:
+{{ hp_number ('4') }} **Merge `feature1` into the `main` branch**, producing this result:
 
 <mermaid>
 gitGraph BT:
@@ -178,7 +178,7 @@ Right-click on the `feature1` branch and choose `Merge...`. The resulting revisi
 {{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
-Now, any changes you made in `feature1` branch are available in the main branch.
+Now, any changes you made in the `feature1` branch are available in the `main` branch.
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
 {% call show_two_column_row("images/ffBefore.png") %}
@@ -268,7 +268,7 @@ gitGraph BT:
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
-**You can force Git to create a merge commit even if fast forwarding is possible.** This is useful if you prefer the revision graph to visually show when each branch was merged to the main timeline.
+**You can force Git to create a merge commit even if fast forwarding is possible.** This helps if you prefer the revision graph to visually show when each branch was merged to the main timeline.
 
 <div class="d-print-none">
 
@@ -281,7 +281,7 @@ git merge --no-ff add-swimming
 Here are two other relevant options for the `git merge` command:
 
 * `--ff-only`: Merge goes ahead only if a fast-forward merge is possible.
-* `--ff`: Explicitly specify a fast-forward merge is preferred, but allows creating a merge commit if a fast-forward merge is not possible. In fact, this is Git's default behavior even if you don't use this option. So, the option is not useful unless the relevant default merge behavior has been changed previously.
+* `--ff`: Explicitly specifies that a fast-forward merge is preferred, but allows a merge commit if a fast-forward merge is not possible. This is Git's default behavior, so the option is useful only if the default merge behavior has been changed.
 {% endset %}
 {% set sourcetree_windows %}
 Tick the box shown below when you merge a branch:
@@ -329,7 +329,7 @@ To permanently prevent fast-forwarding:
 {% endset %}
 {{ show_multiple_columns([a, '|', b]) }}
 
-In the example above, the branch `fix1` has been squash merged onto the `main` branch, creating a single 'squashed' commit `e` that combines all the commits in the `fix1` branch. Note how **the 'squashed' commit is a regular commit with one parent, not a merge commit with two parents**.
+In the example above, `fix1` has been squash-merged into `main`, creating a single 'squashed' commit `e` that combines all commits from `fix1`. Note how **the 'squashed' commit is a regular commit with one parent, not a merge commit with two parents**.
 
 <!-- ------ end: transformation columns -------------------------------->
 
@@ -373,7 +373,7 @@ gitGraph BT:
     commit id: "[HEAD → main] s1 (same as f1+f2)"
 </mermaid>
 
-<small>->[If using a squash merge, and after<br>deleting the source branch thereafter]<-</small>
+<small>->[If using a squash merge, after<br>deleting the source branch]<-</small>
 {% endset %}
 {{ show_multiple_columns([a, '|', b, '|', c]) }}
 <!-- ------ end: transformation columns -------------------------------->

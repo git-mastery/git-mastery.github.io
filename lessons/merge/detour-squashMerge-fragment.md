@@ -12,6 +12,6 @@ Automatic merge went well; stopped before committing as requested
 ```
 {% endcall %}
 
- At that point, you can go ahead and make the commit yourself, with the commit message you want.
+ At that point, make the commit yourself with the commit message you want.
 
 {{ m.show_exercise(m.exercises.merge_squash) }}

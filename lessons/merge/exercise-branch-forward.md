@@ -10,7 +10,7 @@ You are writing the outline for a story. You now have two parallel storylines in
 
 Merge only the branch(es) that can be fast-forwarded. Use fast-forward merging.
 
-Tip: Ensure you have switched to the destination branch before initiating the merge.
+Tip: Switch to the destination branch before starting the merge.
 
 </div>
 

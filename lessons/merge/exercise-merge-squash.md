@@ -2,7 +2,7 @@
 
 <div id="scenario" class="d-none">
 
-You are keeping notes on the cast of a sitcom you've started watching. Initially, you kept main cast and supporting cast on two separate branches.
+You are keeping notes on the cast of a sitcom you've started watching. Initially, you kept the main cast and supporting cast on two separate branches.
 
 <mermaid>
 
@@ -17,7 +17,7 @@ gitGraph BT:
   commit id: "Add Ross"
 </mermaid>
 
-Now you wish to keep everything in the `main` branch.
+Now you want to keep everything in the `main` branch.
 </div>
 
 <div id="task" class="d-none">

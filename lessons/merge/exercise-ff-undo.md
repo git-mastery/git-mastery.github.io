@@ -2,7 +2,7 @@
 
 <div id="scenario" class="d-none">
 
-You are keeping notes on the characters of a play that you are writing. In the main story line (which is in the `main` branch), you introduced two characters, Rick and Morty. You added a few other characters in a separate branch `others`.
+You are keeping notes on the characters of a play that you are writing. In the main storyline (in the `main` branch), you introduced two characters, Rick and Morty. You added a few other characters in a separate branch `others`.
 
 <mermaid>
 
@@ -28,7 +28,7 @@ gitGraph BT:
     commit id: "[HEAD → main][others] Add Tammy"
 </mermaid>
 
-However, now you realize this is premature, and wish to undo that change.
+However, now you realize this is premature and want to undo that change.
 </div>
 
 <div id="task" class="d-none">
