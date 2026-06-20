@@ -7,7 +7,7 @@
 
 <div id="body">
 {% call show_lesson_intro() %}
-Most work done as **branches eventually gets _merged_** together.
+Most work done on **branches eventually gets _merged_** together.
 {% endcall %}
 
 @[youtube](PseJ2qfuCuI)
@@ -25,7 +25,7 @@ In our example, `main` is the destination branch and `fix1` is the source branch
 {% call show_two_column_row("images/normalAfterMerge.png") %}
 When you merge, Git compares how the two branches have diverged since their {{ show_git_term("merge base") }} (the most recent common ancestor commit). In the example on the left, commit `c` is their merge base.
 
-Git then applies the changes from the other branch onto your current branch. This normally creates a new commit {{ show_fine_print("In certain situations, Git does something called a _fast-forward_ merge, which doesn't create a new commit. You'll learn about fast-forward merges later.") }} in the destination branch. **This new commit is called a {{ show_git_term("merge commit") }} — it records the combining the changes in the source branch into the destination branch.**
+Git then applies the changes from the other branch onto your current branch. This normally creates a new commit {{ show_fine_print("In certain situations, Git does something called a _fast-forward_ merge, which doesn't create a new commit. You'll learn about fast-forward merges later.") }} in the destination branch. **This new commit is called a {{ show_git_term("merge commit") }} — it records the combination of changes from the source branch into the destination branch.**
 {% endcall %}
 
 <p/>
@@ -113,7 +113,7 @@ The revision graph should now look like this (colors and line alignment might va
 <!-- ------ end: Git Tabs -------------------------------->
 
 Observe that the changes from `main` (the imaginary bug fix in `m3`) are now available in `feature1`.<br>
-If you run `git diff HEAD^1 HEAD`{{ ask_chatgpt("Explanation of the command", "Explain the `git diff HEAD^1 HEAD` command, when the HEAD points to a merge commit that merges the `main` branch into the `feature1` branch. This is not a fast-forward merge.") }}, the output should show the changes from `main` introduced to `feature1` (in this case, the changes from commit `m3`, as that is the only new commit in `main`).
+If you run `git diff HEAD^1 HEAD`{{ ask_chatgpt("Explanation of the command", "Explain the `git diff HEAD^1 HEAD` command, when the HEAD points to a merge commit that merges the `main` branch into the `feature1` branch. This is not a fast-forward merge.") }}, the output should show the changes from `main` introduced into `feature1` (in this case, the changes from commit `m3`, as that is the only new commit in `main`).
 
 {{ hp_number ('3') }} **Add another commit to the `feature1` branch** by making further changes to `boxing.txt`.
 ```bash
@@ -281,7 +281,7 @@ git merge --no-ff add-swimming
 Here are two other relevant options for the `git merge` command:
 
 * `--ff-only`: Merge only if a fast-forward merge is possible.
-* `--ff`: Explicitly specifies that a fast-forward merge is preferred, but allows a merge commit if a fast-forward merge is not possible. This is Git's default behavior, so the option is useful only if the default merge behavior has been changed.
+* `--ff`: Prefer a fast-forward merge, but allow a merge commit if fast-forwarding is not possible. This is Git's default behavior, so the option is useful only if the default has been changed.
 {% endset %}
 {% set sourcetree_windows %}
 Tick the box shown below when you merge a branch:
@@ -315,7 +315,7 @@ To permanently prevent fast-forwarding:
 <!-- ------ end: Git Tabs -------------------------------->
 </div>
 
-**A {{ show_git_term("squash merge") }} takes all the changes from the source branch and combines them into a single commit on the destination branch.** It is especially useful when the source branch has many small or experimental commits that would otherwise clutter history.
+**A {{ show_git_term("squash merge") }} takes all the changes from the source branch and combines them into a single commit on the destination branch.** It is useful when the commits in the source branch are likely to clutter history (e.g., commits containing many experimental changes).
 
 {% set a %} <!-- ------ start: columns --------------->
 ->[_before_ squash-merging `fix1` into `main`]<-
@@ -329,11 +329,11 @@ To permanently prevent fast-forwarding:
 {% endset %}
 {{ show_multiple_columns([a, '|', b]) }}
 
-In the example above, `fix1` has been squash-merged into `main`, creating a single 'squashed' commit `e` from all commits in `fix1`. **The 'squashed' commit is a regular commit with one parent, not a merge commit with two parents**.
+In the example above, `fix1` has been squash-merged into `main`, creating a single 'squashed' commit `e` from the commits in `fix1`. **The 'squashed' commit is a regular commit with one parent, not a merge commit with two parents**.
 
 <!-- ------ end: transformation columns -------------------------------->
 
-**After a squash merge, you typically delete the source branch**, so its individual commits are no longer part of the destination branch’s main history. The history stays linear because one commit on the destination branch replaces the source branch's work. A squash merge commit is just a normal commit, without a 'parent' reference to the source branch.
+**After a squash merge, you typically delete the source branch**, so its individual commits no longer appear in the destination branch's main history. The history stays linear because one destination-branch commit replaces the source branch's work. A squash merge commit is a normal commit, without a parent link to the source branch.
 
 Here's a comparison of the three types of merging we covered: regular merging with a merge commit, fast-forward merging, and squash merging.
 

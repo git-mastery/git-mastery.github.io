@@ -5,7 +5,7 @@
 
 ----{.dashed .border-warning}
 
-{{ icon_example }} In the example below, you merged `main` to `feature1`.
+{{ icon_example }} In the example below, you merged `main` into `feature1`.
 
 <annotate src="{{baseUrl}}/lessons/merge/images/sourcetreeAfterMeringMaster.png" width="500" >
 {{ m.annotation_label(21, 15, "#r# **merge commit**##") }}
