@@ -1,7 +1,7 @@
 {% import "common/macros.njk" as m with context %}
 
 1. Ensure you are in the <popover content="If you merged branch `foo` onto branch `bar`, branch `bar` is the _destination branch_">destination branch of the merge</popover>.
-1. Do a hard reset of that branch to the commit that would be the tip of that branch had you not done the offending merge i.e., rewind that branch to the state it was in before the merge.
+1. Do a hard reset of that branch to the commit that would be the tip of that branch had you not done the offending merge, i.e., rewind that branch to the state it was in before the merge.
 
 ----{.dashed .border-warning}
 

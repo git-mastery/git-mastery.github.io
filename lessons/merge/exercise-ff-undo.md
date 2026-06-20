@@ -12,7 +12,7 @@ gitGraph BT:
     branch others
     commit id: "Add Birdperson"
     commit id: "Add Cyborg to birdperson.txt"
-    commit id: "[HEAD → other] Add Tammy"
+    commit id: "[HEAD → others] Add Tammy"
 </mermaid>
 
 
@@ -45,7 +45,7 @@ gitGraph BT:
     branch others
     commit id: "Add Birdperson"
     commit id: "Add Cyborg to birdperson.txt"
-    commit id: "[other] Add Tammy"
+    commit id: "[others] Add Tammy"
 </mermaid>
 
 </div>
