@@ -2,14 +2,13 @@
 
 <div id="preview">
 
-**Comparing branches in Git shows how two lines of development differ — for example, before merging a branch**, you might want to review what changes it introduces to the main branch.
+**Comparing branches in Git shows how two lines of development differ. For example, before merging a branch**, you might want to review the changes it introduces to the main branch.
 </div>
 
 Two common ways to compare branches:
 
-* **Double-dot notation** `git diff branchA..branchB` shows the difference between the latest snapshots of the two branches (i.e., the state of `branchA` vs the state of `branchB`). This is the more common notation.
-* **Triple-dot notation** `git diff branchA...branchB` shows the changes introduced in `branchB` since it diverged from `branchA`. Internally, Git finds the *merge base* of the two branches and compares that
-  commit with the tip of `branchB`.
+* **Double-dot notation** `git diff branchA..branchB` compares the latest snapshots of the two branches (`branchA` vs `branchB`). This is the more common notation.
+* **Triple-dot notation** `git diff branchA...branchB` shows the changes introduced in `branchB` since it diverged from `branchA`. Git compares the two branches' *merge base* with the tip of `branchB`.
 
 {% call m.show_resources() %}
 

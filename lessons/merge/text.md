@@ -25,7 +25,7 @@ In our example, `main` is the destination branch and `fix1` is the source branch
 {% call show_two_column_row("images/normalAfterMerge.png") %}
 When you merge, Git compares how the two branches have diverged since their {{ show_git_term("merge base") }} (the most recent common ancestor commit). In the example on the left, commit `c` is their merge base.
 
-Git then applies the changes from the other branch onto your current branch. This normally creates a new commit {{ show_fine_print("In certain situations, Git does something called a _fast-forward_ merge, which doesn't create a new commit. You'll learn about fast-forward merges later.") }} in the destination branch. **This new commit is called a {{ show_git_term("merge commit") }} — it records the combination of changes from the source branch into the destination branch.**
+Git then applies the source branch's changes to your current branch. Normally, this creates a new commit in the destination branch {{ show_fine_print("In certain situations, Git does something called a _fast-forward_ merge, which doesn't create a new commit. You'll learn about fast-forward merges later.") }}. **That {{ show_git_term("merge commit") }} records the combination of changes from the source branch into the destination branch.**
 {% endcall %}
 
 <p/>
@@ -57,7 +57,7 @@ Changes made in `d` are available on `fix1`, but changes made in `d1` and `e1` a
 
 <include src="../branch/text.md#sports-repo-before-merging" />
 
-{{ hp_number(hop_target) }} To practice branch merging, let's merge each branch into the other.
+{{ hp_number(hop_target) }} Merge each branch into the other.
 
 {{ hp_number(hop_preparation) }}
 
@@ -113,9 +113,9 @@ The revision graph should now look like this (colors and line alignment might va
 <!-- ------ end: Git Tabs -------------------------------->
 
 Observe that the changes from `main` (the imaginary bug fix in `m3`) are now available in `feature1`.<br>
-If you run `git diff HEAD^1 HEAD`{{ ask_chatgpt("Explanation of the command", "Explain the `git diff HEAD^1 HEAD` command, when the HEAD points to a merge commit that merges the `main` branch into the `feature1` branch. This is not a fast-forward merge.") }}, the output should show the changes from `main` introduced into `feature1` (in this case, the changes from commit `m3`, as that is the only new commit in `main`).
+If you run `git diff HEAD^1 HEAD`{{ ask_chatgpt("Explanation of the command", "Explain the `git diff HEAD^1 HEAD` command, when the HEAD points to a merge commit that merges the `main` branch into the `feature1` branch. This is not a fast-forward merge.") }}, the output should show the changes from `main` introduced into `feature1` (here, commit `m3`, the only new commit in `main`).
 
-{{ hp_number ('3') }} **Add another commit to the `feature1` branch** by making further changes to `boxing.txt`.
+{{ hp_number ('3') }} **Add another commit to the `feature1` branch** by changing `boxing.txt`.
 ```bash
 echo -e "Manny Pacquiao" >> boxing.txt
 git commit -am "Add Manny to boxing.txt"
@@ -182,7 +182,7 @@ Now, any changes you made in the `feature1` branch are available in the `main` b
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
 {% call show_two_column_row("images/ffBefore.png") %}
-**When the destination branch hasn't diverged** -- meaning it hasn't had any new commits since the merge base commit -- there is a shorter way to bring the changes from the source branch into the destination branch.
+**When the destination branch hasn't diverged** -- meaning it has no new commits since the merge base commit -- there is a shorter way to bring in the source branch's changes.
 
 In the example on the left, the `main` branch has not changed since the merge base commit (i.e., `c`).
 {% endcall %}
@@ -196,7 +196,7 @@ The example on the left shows how the `main` branch ref is moved during a fast-f
 {% call show_two_column_row("images/ffAfter.png") %}
 After the fast-forward merge, the revision graph looks as if all changes were made directly on `main`. Git no longer records where `fix1` previously diverged from `main`.
 
-**One downside of a fast-forward merge is that the resulting revision graph does not show when the branch was merged** (as there is no merge commit). This can make it harder to understand the history of the project.
+**One downside of a fast-forward merge is that the revision graph does not show when the branch was merged** (as there is no merge commit). This can make the project history harder to understand.
 {% endcall %}
 
 
@@ -219,7 +219,7 @@ gitGraph BT:
 
 {{ hp_number(hop_preparation) }}
 {% set continue_info %}
-To continue with the same `sports` repo, **create a new branch called `add-swimming`, and add some commits to it**:<br>
+To continue with the same `sports` repo, **create a branch called `add-swimming` and add some commits to it**:<br>
 Switch to `main`, create and switch to the new branch, add `swimming.txt`, stage it, and commit it.<br>
 Then change `swimming.txt` and commit those changes.
 
@@ -268,7 +268,7 @@ gitGraph BT:
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
-**You can force Git to create a merge commit even if fast forwarding is possible.** This helps if you want the revision graph to show when each branch was merged into the main timeline.
+**You can force Git to create a merge commit even if fast-forwarding is possible.** This helps the revision graph show when each branch was merged into the main timeline.
 
 <div class="d-print-none">
 
@@ -284,7 +284,7 @@ Here are two other relevant options for the `git merge` command:
 * `--ff`: Prefer a fast-forward merge, but allow a merge commit if fast-forwarding is not possible. This is Git's default behavior, so the option is useful only if the default has been changed.
 {% endset %}
 {% set sourcetree_windows %}
-Tick the box shown below when you merge a branch:
+Select the box shown below when you merge a branch:
 
 <pic eager src="{{baseUrl}}/lessons/merge/images/sourcetreeMergeBranchDialog.png" height="150" />
 <p/>
@@ -308,14 +308,14 @@ To permanently prevent fast-forwarding:
 
 1. Go to Sourcetree `Settings`.
 1. Navigate to the `Git` section.
-1. Tick the box `Do not fast-forward when merging, always create commit`.
+1. Select the box `Do not fast-forward when merging, always create commit`.
 
 {% endset %}
 {{ show_steps_tabs(cli=cli, sourcetree_windows=sourcetree_windows, sourcetree_mac=sourcetree_mac) }}
 <!-- ------ end: Git Tabs -------------------------------->
 </div>
 
-**A {{ show_git_term("squash merge") }} takes all the changes from the source branch and combines them into a single commit on the destination branch.** It is useful when the commits in the source branch are likely to clutter history (e.g., commits containing many experimental changes).
+**A {{ show_git_term("squash merge") }} combines all changes from the source branch into a single commit on the destination branch.** It is useful when the source branch's commits would clutter history (e.g., many experimental commits).
 
 {% set a %} <!-- ------ start: columns --------------->
 ->[_before_ squash-merging `fix1` into `main`]<-
@@ -333,7 +333,7 @@ In the example above, `fix1` has been squash-merged into `main`, creating a sing
 
 <!-- ------ end: transformation columns -------------------------------->
 
-**After a squash merge, you typically delete the source branch**, so its individual commits no longer appear in the destination branch's main history. The history stays linear because one destination-branch commit replaces the source branch's work. A squash merge commit is a normal commit, without a parent link to the source branch.
+**After a squash merge, you typically delete the source branch**, so its individual commits no longer appear in the destination branch's main history. The history stays linear because one regular commit replaces the source branch's work, with no second-parent link to that branch.
 
 Here's a comparison of the three types of merging we covered: regular merging with a merge commit, fast-forward merging, and squash merging.
 
@@ -382,7 +382,7 @@ gitGraph BT:
 
 <div class="d-print-none">
 
-A separate detour covers the mechanics of a squash merge.
+The detour below covers the mechanics of a squash merge.
 </div>
 
 </div>
