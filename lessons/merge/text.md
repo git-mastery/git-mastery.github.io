@@ -17,20 +17,20 @@ Most work done as **branches eventually gets _merged_** together.
 **{{ show_git_term("Merging") }} combines the changes from one branch into another**, bringing their diverged timelines back together.
 
 {% call show_two_column_row("images/normalBeforeMerge.png") %}
-**The branch you are merging _into_ (that is, the branch you are currently in when you do the merge operation) is called the {{ show_git_term("destination branch") }}** (other terms: _receiving_ branch, _target_ branch).<br>
- **The branch you are merging is referred to as the {{ show_git_term("source branch") }}</tooltip>** (other terms: _incoming_ branch, _merge_ branch).<br>
+**The branch you are merging _into_ (the branch you are currently on) is called the {{ show_git_term("destination branch") }}** (other terms: _receiving_ branch, _target_ branch).<br>
+ **The branch you are merging is the {{ show_git_term("source branch") }}</tooltip>** (other terms: _incoming_ branch, _merge_ branch).<br>
 In our example, `main` is the destination branch and `fix1` is the source branch.
 {% endcall %}
 
 {% call show_two_column_row("images/normalAfterMerge.png") %}
-When you merge, Git looks at the two branches and figures out how their histories have diverged since their {{ show_git_term("merge base") }} (i.e., the most recent common ancestor commit of two branches). In the example on the left, commit `c` is their merge base.
+When you merge, Git compares how the two branches have diverged since their {{ show_git_term("merge base") }} (the most recent common ancestor commit). In the example on the left, commit `c` is their merge base.
 
-Git then applies the changes from the other branch onto your current branch. This normally creates a new commit {{ show_fine_print("In certain situations, Git does something called a _fast-forward_ merge, which doesn't create a new commit. You'll learn about fast-forward merges later.") }} in the destination branch. **The new commit created when merging is called a {{ show_git_term("merge commit") }} — it records the result of combining both sets of changes.**
+Git then applies the changes from the other branch onto your current branch. This normally creates a new commit {{ show_fine_print("In certain situations, Git does something called a _fast-forward_ merge, which doesn't create a new commit. You'll learn about fast-forward merges later.") }} in the destination branch. **This new commit is called a {{ show_git_term("merge commit") }} — it records the combining the changes in the source branch into the destination branch.**
 {% endcall %}
 
 <p/>
 
-**A typical two-branch merge commit has two parent commits.** {{ show_fine_print("Git also supports merge commits with more than two parents, resulting from a type of merge called 'octopus merge'") }} In the example above, the merge commit `f` has both `d` and `e` as parent commits. **The parent commit that is on the <popover content="i.e., the branch you are merging _into_ (the branch you are currently in when you do the merge operation)">destination branch</popover> is considered the {{ show_git_term("first parent") }} and the parent commit on the <popover content="i.e., the branch that you are merging">source branch</popover> is considered the {{ show_git_term("second parent") }}** e.g., in the example above, `fix1` branch is the source branch that is being merged into the destination branch `main` -- accordingly, `d` is the first parent and `e` is the second parent.
+**A typical two-branch merge commit has two parent commits.** {{ show_fine_print("Git also supports merge commits with more than two parents, resulting from a type of merge called 'octopus merge'") }} In the example above, merge commit `f` has both `d` and `e` as parents. **The parent commit on the <popover content="i.e., the branch you are merging _into_ (the branch you are currently in when you do the merge operation)">destination branch</popover> is the {{ show_git_term("first parent") }}, and the parent commit on the <popover content="i.e., the branch that you are merging">source branch</popover> is the {{ show_git_term("second parent") }}**. In our example, when `fix1` is merged into `main`, `d` is the first parent and `e` is the second parent.
 
 **Merging is directional.** Merging `fix1` into `main` is not the same as merging `main` into `fix1`, as illustrated below.
 {% set a %} <!-- ------ start: columns --------------->
@@ -38,14 +38,14 @@ Git then applies the changes from the other branch onto your current branch. Thi
 
 <pic src="images/directionIntoMain.png" width="300" />
 
-Changes made in `d1` and `e1` are available on `main` but changes made in `d` are not available on `fix1`.
+Changes made in `d1` and `e1` are available on `main`, but changes made in `d` are not available on `fix1`.
 {% endset %}
 {% set b %}
 ->[merging `main` into `fix1`]<-
 
 <pic src="images/directionIntoFix1.png" width="300" />
 
-Changes made in `d` are available on `fix1` but changes made in `d1` and `e1` are not available on `main`.
+Changes made in `d` are available on `fix1`, but changes made in `d1` and `e1` are not available on `main`.
 {% endset %}
 {{ show_multiple_columns([a, '|', b]) }}
 
@@ -78,7 +78,7 @@ gitGraph BT:
     checkout feature1
 </mermaid>
 
-{{ hp_number ('2') }} **Merge the `main` branch into the `feature1` branch**, producing the following result {{ show_fine_print("If both branches changed the same part of a file differently, Git may pause the merge and ask you to resolve a _conflict_. The next lesson covers that case; this lesson uses branches Git can merge automatically.") }}. Also note how Git has created a _merge commit_ (shown as `mc1` in the diagram below).
+{{ hp_number ('2') }} **Merge the `main` branch into the `feature1` branch**, producing this result {{ show_fine_print("If both branches changed the same part of a file differently, Git may pause the merge and ask you to resolve a _conflict_. The next lesson covers that case; this lesson uses branches Git can merge automatically.") }}. Git has created a _merge commit_, shown as `mc1` below.
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
@@ -104,7 +104,7 @@ Right-click on the `main` branch and choose `merge main into the current branch`
 <pic src="{{baseUrl}}/lessons/merge/images/sourcetreeChooseToMergeMaster.png" width="500" /><br>
 _If_ a confirmation dialog pops up, choose as follows:<br>
 <pic src="{{baseUrl}}/lessons/merge/images/sourcetreeMergeConfirmationDialog.png" width="500" /><br>
-The revision graph should look like this now (colors and line alignment might vary but the graph structure should be the same):<br>
+The revision graph should now look like this (colors and line alignment might vary):<br>
 <pic src="{{baseUrl}}/lessons/merge/images/sourcetreeAfterMeringMaster.png" width="500" />
 <p/>
 {% endset %}
@@ -112,8 +112,8 @@ The revision graph should look like this now (colors and line alignment might va
 
 <!-- ------ end: Git Tabs -------------------------------->
 
-Observe how the changes you made in the `main` branch (i.e., the imaginary bug fix in `m3`) are now available even when you are in the `feature1` branch.<br>
-If you run a `git diff HEAD^1 HEAD`{{ ask_chatgpt("Explanation of the command", "Explain the `git diff HEAD^1 HEAD` command, when the HEAD points to a merge commit that merges the `main` branch into the `feature1` branch. This is not a fast-forward merge.") }} now, the output should show the new changes from the `main` branch being introduced to `feature1` (in this case, essentially the changes made in commit `m3`, as that is the only new commit in `main`).
+Observe that the changes from `main` (the imaginary bug fix in `m3`) are now available in `feature1`.<br>
+If you run `git diff HEAD^1 HEAD`{{ ask_chatgpt("Explanation of the command", "Explain the `git diff HEAD^1 HEAD` command, when the HEAD points to a merge commit that merges the `main` branch into the `feature1` branch. This is not a fast-forward merge.") }}, the output should show the changes from `main` introduced to `feature1` (in this case, the changes from commit `m3`, as that is the only new commit in `main`).
 
 {{ hp_number ('3') }} **Add another commit to the `feature1` branch** by making further changes to `boxing.txt`.
 ```bash
@@ -188,13 +188,13 @@ In the example on the left, the `main` branch has not changed since the merge ba
 {% endcall %}
 
 {% call show_two_column_row("images/ffDuring.png") %}
-In such cases, **merging can be done by simply moving the destination branch pointer forward to include all the new commits in the source branch**. This is **called a {{ show_git_term("fast-forward merge") }}** because Git simply "fast-forwards" the branch ref to the tip of the other branch.
+In such cases, **Git can merge by moving the destination branch pointer forward to include the new commits in the source branch**. This is **called a {{ show_git_term("fast-forward merge") }}** because Git "fast-forwards" the branch ref to the tip of the other branch.
 
 The example on the left shows how the `main` branch ref is moved during a fast-forward merge of the `fix1` branch into the `main` branch.
 {% endcall %}
 
 {% call show_two_column_row("images/ffAfter.png") %}
-After the fast-forward merge, the revision graph now looks like this, as if all the changes had been made directly on the `main` branch, without any branching at all. Git no longer knows at which commit the `fix1` branch previously diverged from the `main` branch.
+After the fast-forward merge, the revision graph looks as if all changes were made directly on `main`. Git no longer records where `fix1` previously diverged from `main`.
 
 **One downside of a fast-forward merge is that the resulting revision graph does not show when the branch was merged** (as there is no merge commit). This can make it harder to understand the history of the project.
 {% endcall %}
@@ -219,11 +219,11 @@ gitGraph BT:
 
 {{ hp_number(hop_preparation) }}
 {% set continue_info %}
-To continue with the same `sports` repo we used above, **create a new branch called `add-swimming`, and add some commits to it** as follows:<br>
-Switch to the main branch, create a new branch, switch to the new branch, add a file named `swimming.txt`, stage it, and commit it.<br>
-Make some changes to `swimming.txt`, and commit those changes.
+To continue with the same `sports` repo, **create a new branch called `add-swimming`, and add some commits to it**:<br>
+Switch to `main`, create and switch to the new branch, add `swimming.txt`, stage it, and commit it.<br>
+Then change `swimming.txt` and commit those changes.
 
-Here are the equivalent commands:
+Equivalent commands:
 ```bash
 git switch main
 git switch -c add-swimming
@@ -255,7 +255,7 @@ gitGraph BT:
     commit id: "add-swimming] a2"
 </mermaid>
 
-{{ hp_number ('2') }} **Merge the `add-swimming` branch onto the `main` branch.** Observe that there is no merge commit. The `main` branch ref (and the `HEAD` ref along with it) moved to the tip of the `add-swimming` branch (i.e., `a2`) and both branches now point to `a2`.
+{{ hp_number ('2') }} **Merge the `add-swimming` branch into the `main` branch.** Observe that there is no merge commit. The `main` branch ref (and `HEAD`) moved to the tip of `add-swimming` (`a2`), so both branches now point to `a2`.
 
 <mermaid>
 gitGraph BT:
@@ -329,11 +329,11 @@ To permanently prevent fast-forwarding:
 {% endset %}
 {{ show_multiple_columns([a, '|', b]) }}
 
-In the example above, `fix1` has been squash-merged into `main`, creating a single 'squashed' commit `e` that combines all commits from `fix1`. Note how **the 'squashed' commit is a regular commit with one parent, not a merge commit with two parents**.
+In the example above, `fix1` has been squash-merged into `main`, creating a single 'squashed' commit `e` from all commits in `fix1`. **The 'squashed' commit is a regular commit with one parent, not a merge commit with two parents**.
 
 <!-- ------ end: transformation columns -------------------------------->
 
-**After a squash merge, you typically delete the source branch**, so its individual commits are no longer part of the destination branch’s main history. That history stays linear because the source branch's work is replaced by one commit on the destination branch. As a result, a squash merge commit is just a normal commit, and does not have a 'parent' reference to the source branch.
+**After a squash merge, you typically delete the source branch**, so its individual commits are no longer part of the destination branch’s main history. The history stays linear because one commit on the destination branch replaces the source branch's work. A squash merge commit is just a normal commit, without a 'parent' reference to the source branch.
 
 Here's a comparison of the three types of merging we covered: regular merging with a merge commit, fast-forward merging, and squash merging.
 

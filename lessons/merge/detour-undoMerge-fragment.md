@@ -16,7 +16,7 @@
 If you want to undo that merge,
 
 1. Ensure you are in the `feature1` branch (because that's the destination branch).
-1. Reset the `feature1` branch to the commit that was the tip of the `feature1` branch just before you merged the `main` branch to it.
+1. Reset `feature1` to the commit that was its tip just before you merged `main` into it.
 
 <box type="warning" seamless>
 

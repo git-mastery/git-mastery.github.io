@@ -1,6 +1,6 @@
 {% import "common/macros.njk" as m with context %}
 
-To do a squash merge, use the `--squash` switch. It prepares the squashed commit (i.e., a regular commit containing the squashed changes) but stops short of finalizing the commit.
+To do a squash merge, use the `--squash` switch. It prepares a regular commit containing the squashed changes, but stops before finalizing it.
 
 ```bash
 git merge --squash feature-1
@@ -12,6 +12,6 @@ Automatic merge went well; stopped before committing as requested
 ```
 {% endcall %}
 
- At that point, make the commit yourself with the commit message you want.
+Then make the commit yourself with your chosen commit message.
 
 {{ m.show_exercise(m.exercises.merge_squash) }}

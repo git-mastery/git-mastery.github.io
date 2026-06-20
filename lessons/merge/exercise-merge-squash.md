@@ -22,7 +22,7 @@ Now you want to keep everything in the `main` branch.
 
 <div id="task" class="d-none">
 
-Squash-merge the `supporting` branch onto the `main` branch. You may use any suitable commit message. The result should be as follows:
+Squash-merge the `supporting` branch into `main`. Use any suitable commit message. The result should look like this:
 
 <mermaid>
 

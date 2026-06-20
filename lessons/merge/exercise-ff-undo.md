@@ -16,7 +16,7 @@ gitGraph BT:
 </mermaid>
 
 
-Just now, you did a fast-forward merge of the `others` branch to the `main` branch.
+You just fast-forward merged the `others` branch into `main`.
 
 <mermaid>
 
@@ -28,7 +28,7 @@ gitGraph BT:
     commit id: "[HEAD → main][others] Add Tammy"
 </mermaid>
 
-However, now you realize this is premature and want to undo that change.
+You realize this was premature and want to undo it.
 </div>
 
 <div id="task" class="d-none">

@@ -2,7 +2,7 @@
 
 <div id="scenario" class="d-none">
 
-You are keeping notes on the characters of a play that you are writing. In the main storyline (in the `main` branch), you introduced two characters, Rick and Morty. You had two other characters in two separate branches `daughter` and `son-in-law`. Just now, you introduced these two characters to the main storyline by merging the two branches to the `main` branch.
+You are keeping notes on characters in a play. In the main storyline (the `main` branch), you introduced Rick and Morty. You kept two other characters in separate branches, `daughter` and `son-in-law`, then merged those branches into `main`.
 
 <mermaid>
 
@@ -22,12 +22,12 @@ gitGraph BT:
     merge son-in-law id: "[HEAD → main] Introduce Jerry"
 </mermaid>
 
-However, now you realize this is premature and want to undo that change.
+You realize this was premature and want to undo it.
 </div>
 
 <div id="task" class="d-none">
 
-Undo the merging of branches `son-in-law` and `daughter`. The result should be as follows:
+Undo the merges of branches `son-in-law` and `daughter`. The result should look like this:
 
 <mermaid>
 
