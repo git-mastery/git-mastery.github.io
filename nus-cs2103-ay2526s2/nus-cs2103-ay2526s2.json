@@ -44,7 +44,7 @@
       "branchingLocally.mergeConflicts": {"value": "Compulsory", "color": "r" },
       "branchingLocally.branchRename": {"value": "Compulsory", "color": "r" },
       "branchingLocally.branchDelete": {"value": "Compulsory", "color": "r" },
-      "branchingLocally.worktrees": {"value": "Compulsory", "color": "r" },
+      "branchingLocally.worktrees": {"value": "Recommended", "color": "b" },
       "syncingBranches.syncByMerge": {"value": "Compulsory", "color": "r" },
       "syncingBranches.syncByRebase": {"value": "Compulsory", "color": "r" },
       "syncingBranches.cherryPick": {"value": "Compulsory", "color": "r" },

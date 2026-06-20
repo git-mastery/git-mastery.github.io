@@ -55,10 +55,10 @@ white
 
 {{ hp_number(hop_preparation) }}
 {% set manual %}
-We need a repo with two branches containing conflicting changes. Given below is how you can create such a scenario:
+We need a repo with two branches containing conflicting changes. Here is how you can create such a scenario:
 1. **Create a repo named `nouns`** with one commit.
 1. **Start a branch named `fix1` in the repo. Create a commit** that adds a line with some text to one of the files.
-1. **Switch back to `main` branch. Create a commit with a conflicting change** i.e., it adds a line with some different text in the exact location the previous line was added.
+1. **Switch back to the `main` branch. Create a commit with a conflicting change**; that is, it adds a line with some different text in the exact location the previous line was added.
 
 The above can be done with the following commands:
 
@@ -83,41 +83,41 @@ git commit -am "Add black, red, white"
 
 {{ show_hop_prep('hp-merge-conflicts', manual_info=manual) }}
 
-{{ hp_number("1") }} **Try to merge the `fix1` branch onto the `main` branch.** Git will pause mid-way during the merge and report a merge conflict. If you open the conflicted file `colours.txt`, you will see something like this:
+{{ hp_number("1") }} **Try to merge the `fix1` branch into the `main` branch.** Git will pause midway through the merge and report a merge conflict. If you open the conflicted file `colours.txt`, you will see something like this:
 
 ``` {.line-numbers highlight-lines="2,4,6" heading="colours.txt"}
 blue
-<<<<<< HEAD
+<<<<<<< HEAD
 black
 =======
 green
->>>>>> fix1
+>>>>>>> fix1
 red
 white
 ```
 
-{{ hp_number("2") }} **Observe how the conflicted part is marked** between a line starting with `<<<<<< ` and a line starting with `>>>>>>`, separated by another line starting with `=======`.
+{{ hp_number("2") }} **Observe how the conflicted part is marked** between a line starting with `<<<<<<< ` and a line starting with `>>>>>>>`, separated by another line starting with `=======`.
 
-Highlighted in ==yellow== in the box below is the conflicting part that is coming from the `main` branch (note the `HEAD` label in line 2, which indicates this conflicting change is in the currently active branch, which is the `main` branch):
+Highlighted in ==yellow== in the box below is the conflicting part that comes from the `main` branch (note the `HEAD` label in line 2, which indicates this conflicting change is in the currently active branch, which is the `main` branch):
 
 ```txt {.line-numbers highlight-lines="2,3@yellow,4"}
 blue
-<<<<<< HEAD
+<<<<<<< HEAD
 black
 =======
 green
->>>>>> fix1
+>>>>>>> fix1
 red
 ```
-Similarly, this is the conflicting part that is coming from the `fix1` branch:
+Similarly, this is the conflicting part that comes from the `fix1` branch:
 
 ```txt {.line-numbers highlight-lines="4,5@yellow,6"}
 blue
-<<<<<< HEAD
+<<<<<<< HEAD
 black
 =======
 green
->>>>>> fix1
+>>>>>>> fix1
 red
 ```
 
@@ -130,9 +130,9 @@ green
 red
 white
 ```
-**Steps for resolving a conflict**, in general:
+**General steps for resolving a conflict:**
 
-1. Remove conflict markers (e.g., `<<<<<< HEAD`)
+1. Remove conflict markers (e.g., `<<<<<<< HEAD`)
 1. Edit the remaining text any way you see fit (e.g., keep/edit/delete one or both; you can even insert new text).
 
 **If there are multiple conflicts** (in multiple files, or in different locations within the same file), resolve them in a similar fashion.

@@ -555,7 +555,7 @@ That aspect is covered in {{ show_detour_link(detour_name) }}.
 <panel header="{{ 'Option 1: ' if has_multiple_options else '' }}**Create a fresh sandbox** using the Git-Mastery app" peek>
 
 * Navigate inside the `gitmastery-exercises` folder.{{ numbers_roman }}
-* Run `gitmastery download {{ identifier }}` command.
+* Run the `gitmastery download {{ identifier }}` command.
 
 The sandbox will be set up inside the `gitmastery-exercises/{{ identifier }}` folder.
 {{ show_gm_footer() }}
@@ -613,7 +613,7 @@ popup-url="{{ file | replace(".md", ".html") }}">
 **++To download++** the exercise:
 
 * Navigate inside the `gitmastery-exercises` folder.{{ numbers_roman }}
-* Run `gitmastery download {{ identifier }}` command.
+* Run the `gitmastery download {{ identifier }}` command.
 </div>
 {% else %}
 **#r#No download##** required for this exercise.
@@ -639,7 +639,7 @@ popup-url="{{ file | replace(".md", ".html") }}">
 
 **++To verify++** your work:
 
-* Navigate to anywhere inside the `gitmastery-exercises/{{ identifier }}` folder %%(or any sub-folder of it)%%. {{ numbers_roman }}
+* Navigate anywhere inside the `gitmastery-exercises/{{ identifier }}` folder %%(or any subfolder of it)%%. {{ numbers_roman }}
 * Run the `gitmastery verify` command.
 
 <small>%%**To reset the exercise** and start over, navigate to the `gitmastery-exercises/{{ identifier }}` folder and run the `gitmastery progress reset` command.%%</small>
