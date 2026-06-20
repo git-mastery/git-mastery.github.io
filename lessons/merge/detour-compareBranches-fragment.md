@@ -2,7 +2,7 @@
 
 <div id="preview">
 
-**Comparing branches in Git shows how two lines of development differ. For example, before merging a branch**, you might want to review the changes it introduces to the main branch.
+**Comparing branches in Git shows how two lines of development differ. For example, before merging a branch**, review the changes it would introduce to the main branch.
 </div>
 
 Two common ways to compare branches:
