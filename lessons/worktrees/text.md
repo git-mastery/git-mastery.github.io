@@ -11,54 +11,58 @@
 **Git worktrees let one local repository have multiple working directories at the same time.**
 {% endcall %}
 
-**At times, you need to have more than one branch checked out simultaneously.** For example, while tests are running on your feature branch, you might need to quickly fix an urgent bug in another branch. Switching branches alters files in the project directory on which the running tests might depend on. Another modern use case is coordinating multiple AI agents to work on different tasks in parallel, each contained within its own branch.
+**At times, you need to have more than one branch checked out simultaneously.** For example, while tests are running on your feature branch, you might need to quickly fix an urgent bug in another branch. Switching branches alters files in the project directory that the running tests might depend on. Another modern use case is coordinating multiple AI agents to work on different tasks in parallel, with each agent working on its own branch.
 
-**Git's {{ show_git_term("worktree") }} feature supports creating additional working directories attached to the same local repository.** This lets you keep one branch open in one directory and another branch open in another directory. Unlike the alternatives of copy-pasting the repo or cloning it, worktrees are lightweight and share the same underlying repository data, which means keeping them in sync is much easier.
+**Git's {{ show_git_term("worktree") }} feature lets you create additional working directories attached to the same local repository.** This lets you keep different branches active in separate directories. Unlike copying the repo or cloning it again, worktrees are lightweight and share the same underlying repository data, which makes it easier to bring changes from one worktree to another.
 
 {% call show_sidebar("Working Directory vs Working Tree vs Worktree") %}
 
-* **A {{ show_git_term("working directory") }} is the folder on your computer where your repo files reside.** This is a filesystem idea: it is the directory you see in your editor, terminal, or file explorer. In a regular Git repository, the hidden `.git` directory is stored inside the top-level working directory and contains Git’s repository metadata {{ show_fine_print("in some setups .git may be a file that points elsewhere")}} .
+* **A {{ show_git_term("working directory") }} is the folder on your computer that contains your repo files.** This is a filesystem idea: it is the directory you see in your editor, terminal, or file explorer. In a regular Git repository, the hidden `.git` directory is stored inside the top-level working directory and contains Git’s repository metadata {{ show_fine_print("in some setups, `.git` may be a file that points elsewhere")}}.
 * **A {{ show_git_term("working tree") }} is Git’s view of the checked-out project files in the working directory, excluding Git’s own metadata.** When Git reports modified, deleted, or untracked files, it is inspecting the working tree and comparing it with the staging area and `HEAD`.
-* **A {{ show_git_term("worktree") }} is an additional working directory linked to the same Git repository.** You can think of it as a working directory managed by Git's worktree feature.
+* **A {{ show_git_term("worktree") }} is a working directory managed by Git's worktree feature.**
 
-**The terms overlap, but they emphasize different perspectives**: filesystem location, Git’s model of checked-out files, and Git’s feature for managing the other two.
+**The terms overlap, but they emphasize different perspectives**: filesystem location, Git’s model of checked-out files, and Git’s feature for managing linked working directories.
 
-**The three terms are often used interchangeably** though, and the context usually makes it clear which one is meant.
+**The three terms are often used interchangeably**, though, and the context usually makes it clear which one is meant.
 {% endcall %}
 
 **Normally, a local repository starts with one worktree checked out in one working directory.** When you switch branches, Git updates the files in that working directory so that they match the branch you switched to.
 
-**A linked worktree is an additional checkout connected to the same local repository with its own working directory, staging area, and current `HEAD`** while sharing the same underlying repository data. Implications:
+**A linked worktree is an additional checkout that is connected to the same local repository and has its own working directory, staging area, and current `HEAD`**, while sharing the same underlying repository data. Implications:
 
 1. **Each worktree can be on a different branch**, because each has its own `HEAD`.
 1. **Changes made in one worktree do not appear as uncommitted changes in other worktrees**, because each worktree has its own checked-out files.
-1. **Commits and branch merges in one worktree are immediately visible in the other worktrees** without the need to fetch/pull, because they share the same repository data.
+1. **Commits and branch refs updated in one worktree are immediately visible in commands such as `git log --all` from other worktrees**, but each worktree’s checked-out files remain separate.
 
-**Git generally keeps one branch checked out in only one worktree at a time.** This prevents two worktrees from trying to move the same branch ref independently. In practice, you usually give each active worktree its own branch, or use a worktree temporarily to inspect a specific point in history.
+**Git generally allows a branch to be checked out in only one worktree at a time.** This prevents two worktrees from trying to move the same branch ref independently. In practice, you usually give each active worktree its own branch, or use a worktree temporarily to inspect a specific point in history.
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Work with multiple worktrees")  %}
 
 {{ hp_number(hop_preparation) }}
 
-**Create a small disposable repo so you can try worktrees without affecting one of your real projects.** Run the following commands in a terminal:
+**Create a `study-notes` repo** as follows:
 
 ```bash{.no-line-numbers}
-mkdir worktree-demo
-cd worktree-demo
+mkdir study-notes
+cd study-notes
 git init -b main
-echo "Project notes" > README.md
+echo -e "# Study Notes" > README.md
 git add README.md
 git commit -m "Add README"
 ```
 
-{{ hp_number("1") }} **Add a linked worktree for a hotfix branch.**
+{{ hp_number("1") }} **Add a linked worktree for a `science` branch.** The `git worktree add -b <branch> <path>` command creates a new branch and checks it out in a new directory.
 
 ```bash{.no-line-numbers}
-git worktree add ../worktree-demo-hotfix -b hotfix/readme
+git worktree add -b science ../study-notes-science
 ```
+In this case, Git creates the `science` branch in the `../study-notes-science` directory.
 
-The `git worktree add <path> -b <branch>` command creates a new branch and checks it out in a new directory. In this case, Git creates the `hotfix/readme` branch in the `../worktree-demo-hotfix` directory.
+<box type="tip" seamless>
+
+ A worktree can be located anywhere in the filesystem. One common convention is to create it in the same parent directory as the original working directory and name it `<project name>-<branch name>`, as shown above.
+</box>
 
 {{ hp_number("2") }} **List the worktrees attached to the repo.**
 
@@ -68,137 +72,125 @@ git worktree list
 
 {% call show_output() %}
 ```bash{.no-line-numbers}
-/.../worktree-demo         7947b49 [main]
-/.../worktree-demo-hotfix  7947b49 [hotfix/readme]
+/.../study-notes            7947b49 [main]
+/.../study-notes-science    7947b49 [science]
 ```
 {% endcall %}
 
-The exact paths and commit hashes will differ on your computer, but the output should show two worktrees: the original worktree and the linked hotfix worktree.
+The output should show two worktrees: the original worktree and the linked science worktree.
 
-{{ hp_number("3") }} **Do work in the hotfix worktree.**
+{{ hp_number("3.1") }} **Switch to the new worktree.** To switch to a worktree, navigate to the directory where it is located.
 
 ```bash{.no-line-numbers}
-cd ../worktree-demo-hotfix
-echo "Hotfix note" >> README.md
-git add README.md
-git commit -m "Clarify README"
+cd ../study-notes-science
+```
+{{ hp_number("3.2") }} **Do some work in the new worktree.**
+
+```bash{.no-line-numbers}
+echo "# Science Notes" > science.md
+git add science.md
+git commit -m "Add science.md"
+echo "Revise for science test" >> science.md
 git status --short
 ```
 
-`git status --short` should print nothing, because the hotfix worktree is clean after the commit.
+These commands should create a new commit and leave some uncommitted changes in this worktree.
 
-{{ hp_number("4") }} **Switch to the original worktree by changing directories, then do separate work there.**
+{{ hp_number("4.1") }} **Switch back to the original worktree. Check the state.**
 
 ```bash{.no-line-numbers}
-cd ../worktree-demo
-git switch -c feature/notes
-echo "Feature note" > notes.txt
-git add notes.txt
-git commit -m "Add feature notes"
-echo "Draft from the original worktree" >> notes.txt
+cd ../study-notes
+git log --oneline --decorate --graph --all
 git status --short
 ```
-
 {% call show_output() %}
 ```bash{.no-line-numbers}
- M notes.txt
+ * 54a709f (science) Add science.md
+ * 1587164 (HEAD -> main) Add README
 ```
 {% endcall %}
 
-**Switching between worktrees is just switching between folders.** The original worktree now has an uncommitted change in `notes.txt`.
+The empty `git status --short` output shows that the uncommitted changes in the science worktree do not appear in the original worktree. The new commit you added in the science worktree appears in the `git log` output because the commit history is shared between worktrees.
 
-{{ hp_number("5") }} **Switch back to the hotfix worktree and check that its working tree is still clean.**
+{{ hp_number("4.2") }} **Do some work in the original worktree.**
 
 ```bash{.no-line-numbers}
-cd ../worktree-demo-hotfix
+echo -e "This is for keeping study notes" >> README.md
+git commit -am "Add more info to README"
+```
+
+{{ hp_number("5") }} **Switch back to the science worktree. Check the state.**
+
+```bash{.no-line-numbers}
+cd ../study-notes-science
 git status --short
 git log --oneline --decorate --graph --all
 ```
 
-`git status --short` should still print nothing in the hotfix worktree. The commit history, however, is shared, so `git log --all` can show commits from both branches.
+Observe that the uncommitted changes you made earlier are still there. You can also see the new commit you made in the original worktree. This shows that the revision history is visible across linked worktrees.
 
-{{ hp_number("6") }} **Remove a clean linked worktree.**
+{{ hp_number("6") }} **Switch back to the original worktree. Attempt to remove the science worktree.**
 
 ```bash{.no-line-numbers}
-cd ../worktree-demo
-git worktree remove ../worktree-demo-hotfix
-git worktree list
+cd ../study-notes
+git worktree remove ../study-notes-science
+```
+{% call show_output() %}
+```bash{.no-line-numbers}
+fatal: '../study-notes-science' contains modified or untracked files, use --force to delete it
+```
+{% endcall %}
+
+Git refuses to remove the science worktree because it has uncommitted changes. This protects unsaved work from accidental deletion.
+
+{{ hp_number("7") }} **Go back to the science worktree. Commit the changes. Try to switch to `main`.**
+
+```bash{.no-line-numbers}
+cd ../study-notes-science
+git commit -am "Add more info to science.md"
 ```
 
-**Removing a clean worktree deletes that working directory, but it does not delete the branch that was checked out there.** The `hotfix/readme` branch and its commit are still part of the repository. If you no longer need the branch either, you can delete it separately:
+While you are in the science worktree, first try to switch to `main` so that you can merge the `science` branch into it.
 
 ```bash{.no-line-numbers}
-git branch -d hotfix/readme
-```
-
-If Git says the branch is not fully merged, decide whether the commits are still useful. To discard the branch anyway, use `git branch -D hotfix/readme`.
-
-In this practical, `git branch -d hotfix/readme` will likely be refused because the hotfix commit has not been merged into your current branch. That is Git protecting an unmerged branch from accidental deletion.
-
-{{ hp_number("7") }} **Try to remove a worktree that has uncommitted changes.**
-
-```bash{.no-line-numbers}
-git worktree add ../worktree-demo-scratch -b scratch/experiment main
-cd ../worktree-demo-scratch
-echo "Scratch idea" > scratch.txt
-cd ../worktree-demo
-git worktree remove ../worktree-demo-scratch
+git switch main
 ```
 
 {% call show_output() %}
 ```bash{.no-line-numbers}
-fatal: '../worktree-demo-scratch' contains modified or untracked files, use --force to delete it
+fatal: 'main' is already used by worktree at '..../study-notes'
 ```
 {% endcall %}
 
-**Git refuses to remove a worktree when doing so would discard uncommitted work.** If you really want to throw away that worktree's uncommitted changes, force the removal:
+**Git refuses to switch to `main` because it is already checked out in the original worktree.**
+
+
+{{ hp_number("8") }} **Go back to the original worktree. Merge the `science` branch from there.**
 
 ```bash{.no-line-numbers}
-git worktree remove --force ../worktree-demo-scratch
+cd ../study-notes
+git merge science
 ```
 
-{{ hp_number("8") }} **Try the same idea with a worktree that has an unresolved merge conflict.**
+The merge should now succeed. Although the `science` branch was created in the science worktree, it can still be merged from another worktree.
 
-First, create a linked worktree and deliberately produce a conflict inside it:
+{{ hp_number("9") }} **Now you can remove the science worktree.**
 
 ```bash{.no-line-numbers}
-git worktree add ../worktree-demo-conflict -b conflict/demo main
-cd ../worktree-demo-conflict
-echo "Conflict side A" > conflict.txt
-git add conflict.txt
-git commit -m "Add conflict side A"
-git switch -c conflict/other main
-echo "Conflict side B" > conflict.txt
-git add conflict.txt
-git commit -m "Add conflict side B"
-git switch conflict/demo
-git merge conflict/other
+git worktree remove ../study-notes-science
 ```
 
-The merge should stop with a conflict in `conflict.txt`. Now try to remove that conflicted worktree from the original worktree:
-
-```bash{.no-line-numbers}
-cd ../worktree-demo
-git worktree remove ../worktree-demo-conflict
-```
-
-{% call show_output() %}
-```bash{.no-line-numbers}
-fatal: '../worktree-demo-conflict' contains modified or untracked files, use --force to delete it
-```
-{% endcall %}
-
-**An unresolved merge conflict also makes the worktree unsafe to remove normally.** Resolve or abort the merge if you want to keep the work. If this is only a throwaway practice worktree, force the removal:
-
-```bash{.no-line-numbers}
-git worktree remove --force ../worktree-demo-conflict
-```
-
-{{ hp_number(":far-square-check: check") }} **Run `git worktree list` one last time.** You should see only the original `worktree-demo` worktree.
+Run `git worktree list` one last time. You should see only the original `study-notes` worktree.
 
 ```bash{.no-line-numbers}
 git worktree list
 ```
+Observe that the `science` branch is still there (e.g., run `git branch --list`) even though the worktree we created for it has been removed. You can delete the branch separately (e.g., run `git branch -d science`) if you wish.
+
+<box type="info" seamless>
+
+If you delete a linked worktree folder manually instead of using `git worktree remove`, Git may keep a stale entry until you run `git worktree prune`.
+</box>
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
