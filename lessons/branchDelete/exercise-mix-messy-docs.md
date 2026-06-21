@@ -2,7 +2,7 @@
 
 <div id="scenario" class="d-none">
 
-You are writing user documentation for a product. You have already written documentation for a few new features, each in a separate branch. You wish to accumulate this work in a separate branch called `development` until the next product release.
+You are writing user documentation for a product. You have already written documentation for a few new features, each in a separate branch. You want to collect this work in a separate branch called `development` until the next product release.
 
 <mermaid>
 
@@ -29,7 +29,7 @@ gitGraph BT:
 
 <div id="task" class="d-none">
 
-1. Create a new branch `development`, starting from the commit tagged `v1.0`
+1. Create a new branch `development` from the commit tagged `v1.0`.
 2. Merge the `feature-search` branch onto the `development` branch, without using fast-forwarding (i.e., create a merge commit). Use the default commit message (i.e., `Merge branch 'feature-search' into development`).<br>
    Delete the `feature-search` branch.
 3. Similarly, merge the `feature-delete` branch onto the `development` branch. Resolve any merge conflicts -- in the `features.md`, the delete feature should appear after the search feature (see below). Keep the default commit message. Delete the `feature-delete` branch.
@@ -49,7 +49,7 @@ gitGraph BT:
 
    Allows deleting books.
    ```
-5. The `list` branch is not yet ready to be merged but rename it as `feature-list`, to be consistent with the naming convention you have been following in this repo.
+4. The `list` branch is not yet ready to be merged, but rename it to `feature-list` to match the naming convention you have been following in this repo.
 
 **Expected final result:**
 

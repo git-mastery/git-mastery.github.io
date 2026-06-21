@@ -2,7 +2,7 @@
 
 <div id="scenario" class="d-none">
 
-In the `delete-my-branches` repo, you were trying out two alternative optimisation approaches in two parallel branches `optimization-approach-1` and `optimization-approach-2`, to decide which one is better.
+In the `delete-my-branches` repo, you were trying out two alternative optimization approaches in two parallel branches, `optimization-approach-1` and `optimization-approach-2`, to decide which approach is better.
 
 You decided that the approach in the branch `optimization-approach-1` is better and merged it. As the work has already been merged, you can now delete that branch to reduce clutter.
 

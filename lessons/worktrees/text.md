@@ -10,9 +10,15 @@
 **Git worktrees let one local repository have multiple working directories at the same time.**
 {% endcall %}
 
-Suppose you are halfway through a feature, and you want to ask an agentic coding tool to try a risky refactoring on another branch. Or perhaps you need to review a teammate's branch while your own branch still has unfinished changes. **A worktree gives the other branch its own working directory, so the extra task does not disturb the files you are already editing.**
+Suppose you are halfway through a feature, and you want to ask an agentic coding tool to try a risky refactoring on another branch. Or perhaps you need to review a teammate's branch while your own branch still has unfinished changes. You could create a temporary commit or stash your current changes before switching branches. **A worktree gives the other branch its own working directory instead, so the extra task does not disturb the files you are already editing.**
 
-In earlier lessons, we have often used the term _working directory_ to mean the project directory containing the files you edit. Git also uses the related term _working tree_ for the checked-out files associated with a repository. **In this lesson, we will use _working directory_ for the directory on your computer, and _worktree_ for Git's checkout context for that directory.**
+{% call show_sidebar("Working directory vs working tree") %}
+**A working directory is the folder on your computer where you open and edit project files.** It is a filesystem idea: the ordinary directory you see in Finder, File Explorer, your editor, or the terminal. In a normal Git repository, the hidden `.git` directory is stored inside the top-level working directory as Git's administrative data.
+
+**A working tree is Git's view of the checked-out project files in that directory, excluding the administrative data in `.git`.** It is the set of files Git compares with the staging area and the latest commit when it reports modified, deleted, or untracked files.
+
+**In this lesson, _worktree_ means a Git checkout context managed by `git worktree`.** Each worktree has its own working directory, working tree, staging area, and current `HEAD`, while still sharing most of the underlying repository metadata.
+{% endcall %}
 
 Normally, **a local repository starts with one main worktree checked out in one working directory.** When you switch branches, Git updates the files in that working directory so that they match the branch you switched to. That is usually enough, but it can be inconvenient when your current files contain unfinished work.
 

@@ -28,12 +28,12 @@ gitGraph BT:
   merge feature-search id: "Merge search feature"
 </mermaid>
 
-At this point, you realize this way of merging can result in a complicated revision graph. Instead, you wish to merge these changes in a way that results in a simple linear revision graph.
+At this point, you realize this merge strategy can result in a complicated revision graph. Instead, you want to merge these changes into a simple linear revision graph.
 </div>
 
 <div id="task" class="d-none">
 
-1. Undo the merging of `feature-search`.
+1. Undo the merge of `feature-search`.
 2. Squash-merge the `feature-search` branch onto the `main` branch with the commit message `Add the search feature`. Delete the `feature-search` branch.
 3. Similarly, squash-merge and delete the `feature-delete` branch with the commit message `Add the delete feature`, while resolving any merge conflicts -- in the `features.md`, the delete feature should appear after the search feature (expected content given below):
 
