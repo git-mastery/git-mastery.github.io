@@ -1,7 +1,7 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_fine_print, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
-<span id="outcomes">Able to view the revision graph, and changes included in each commit.</span>
+<span id="outcomes">Able to view the commit list and a simple revision graph.</span>
 {% set lesson_data = trail.recordingFolderHistory.lessons.log %}
 <span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
@@ -12,7 +12,7 @@ It is useful to be able to **visualize the commit timeline, aka the _revision gr
 {% endcall %}
 
 **Git commits form a timeline**, as each corresponds to a point in time when you asked Git to take a snapshot of your working directory. Each commit links to at least one previous commit, forming a structure that we can traverse.<br>
-**A timeline of commits is called a {{ show_git_term('branch') }}**. By default, Git names the initial branch `master` -- though many now use `main` instead. You'll learn more about branches in future lessons. For now, just be aware that the commits you create in a new repo will be on a branch called `main` (or `master`) by default.
+**A timeline of commits can have a name. Such a named timeline is called a {{ show_git_term('branch') }}** {{ show_fine_print("A Git branch is implemented as a movable label that points to a commit.") }}. By default, Git names the initial branch `master` -- though many now use `main` instead. You'll learn more about branches in future lessons. For now, just be aware that the commits you create in a new repo will be on a branch called `main` (or `master`) by default.
 
 <mermaid>
 gitGraph
@@ -23,7 +23,7 @@ gitGraph
     commit id: "..."
 </mermaid>
 
-**Git can show you the list of commits** in the Git history.
+**Git can show you the list of commits** in a repo's history.
 
 {% call show_hands_on_practical("Viewing the list of commits") %}
 
@@ -60,18 +60,18 @@ gitGraph
 
 <box type="important" class="d-print-none" seamless>
 
-Given every commit has a unique hash, the #r#commit hash values you see in our examples will be different from the hash values of your own commits##, for example, when following our hands-on practicals.
+Because every commit has a unique hash, the #r#commit hash values you see in our examples will be different from the hash values of your own commits##, for example, when following our hands-on practicals.
 </box>
 
 
-**Edges in the revision graph represent links between a commit and its parent commit(s).** In some revision graph visualisations, you might see arrows (instead of lines) showing how each commit points to its parent commit.
+**Edges in the revision graph represent links between a commit and its parent commit(s).** In some revision graph visualizations, you might see arrows (instead of lines) showing how each commit points to its parent commit.
 
 {{ show_commit('C3', edge="↓") }}
 {{ show_commit('C2', edge="↓") }}
 {{ show_commit('C1', edge='') }}
 <p/>
 
-**Git uses refs to name and keep track of various points in a repository’s history.** These refs are essentially 'named-pointers' that can serve as bookmarks to reach a certain point in the revision graph using the ref name.
+**Git uses refs to name and keep track of various points in a repository’s history.** These refs are essentially named pointers that can serve as bookmarks to reach a certain point in the revision graph using the ref name.
 
 {{ show_commit('C3', desc=show_ref('main') + show_head()) }}
 {{ show_commit('C2') }}
@@ -80,7 +80,7 @@ Given every commit has a unique hash, the #r#commit hash values you see in our e
 
 In the revision graph above, there are two refs {{ show_ref('main') }} and &nbsp;{{ show_head()}}.
 
-* {{ show_ref('main') }} is a branch ref. **A {{ show_git_term("branch ref") }} points to the latest commit on a branch**. In this visualization, the commit shown alongside the ref is the one it points to i.e., `C3`.<br>
+* {{ show_ref('main') }} is a branch ref. **A {{ show_git_term("branch ref") }} points to the latest commit on a branch**. In this visualization, the commit shown alongside the ref is the one it points to, i.e., `C3`.<br>
   **When you create a new commit, the branch ref of the <tooltip content="the currently active branch">current</tooltip> branch moves to the new commit.**<br>
   You'll be learning more about Git branches in a later lesson.
 * **{{ show_head()}} is a special ref that typically points to the current branch and moves along with that branch ref.** In this example, it is pointing to the `main` branch.<br>

@@ -35,6 +35,8 @@ Trust `common/macros.njk` as the canonical lesson order. Do not infer order from
 For Git-Mastery lesson pages, source markup is often transformed by MarkBind and CustardUI before it reaches the browser. Use these shortcuts to avoid unnecessary rendered-page trial and error:
 
 * Inspect source first, then use the rendered page only to confirm the learner-facing expansion, selected tabs, visible panels, and dynamic behavior.
+* Treat `<tooltip content="EXPLANATION">KEYWORDS</tooltip>` as reader-facing instructional prose: `KEYWORDS` appears in the rendered text with a dotted underline, and `EXPLANATION` appears on hover as additional information for that text.
+* Treat MarkBind `popover` elements similarly to `tooltip` elements. Review both the visible trigger text and the hidden explanatory content when judging conceptual accuracy, sequencing, and audience fit.
 * Do not expect literal source tags such as `<panel>` to remain in the browser DOM. Panels and exercises are often rendered as `cv-toggle` wrappers and Bootstrap-like card structures.
 * Exercise panels usually have stable rendered headings such as `#exercise-side-track` or `#exercise-branch-previous`. Click the heading or its nearby card header to expand the panel, then read the scoped generated container.
 * Source IDs used by MarkBind modal or trigger syntax might not be attached as raw DOM IDs before interaction. If a modal is sourced from an included fragment, read the included source and verify that the trigger text appears in the rendered page.

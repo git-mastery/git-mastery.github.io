@@ -42,7 +42,7 @@ On branch main
 nothing to commit, working tree clean
 ```
 {% endcall %}
-{{ icon_info }} Note how the output says `nothing to commit` which means the staging area is now empty.
+{{ icon_info }} Note how the output says `nothing to commit`, which means there are no staged changes to commit.
 </div>
 <div id="sourcetree"><!-- ---------------------------------------------------- -->
 
@@ -62,7 +62,7 @@ nothing to commit, working tree clean
 </a-point>
 </annotate>
 
-{{ hp_number('3') }} Enter a commit message (e.g. `add fruits.txt`) into the text box.
+{{ hp_number('3') }} Enter a commit message (e.g., `add fruits.txt`) into the text box.
 
 <annotate src="{{baseUrl}}/lessons/commit/images/sourcetreeCommitSteps.png" width="600">
 <a-point x="24%" y="70%">

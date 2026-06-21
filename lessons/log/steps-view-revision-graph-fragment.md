@@ -35,7 +35,7 @@ Given below is the visual representation of the same revision graph. As you can 
 
 {% endcall %}
 
-{{ hp_number('2') }} **Use the `--oneline` flag to get a more concise view.** Note how the commit SHA has been truncated to first seven characters (first seven characters of a commit SHA is enough for Git to identify a commit).
+{{ hp_number('2') }} **Use the `--oneline` flag to get a more concise view.** Note how the commit SHA has been truncated to the first seven characters (the first seven characters of a commit SHA are enough for Git to identify a commit).
 
 ```bash{.no-line-numbers}
 git log --oneline
@@ -65,7 +65,7 @@ git log --oneline --graph
 </div>
 <div id="sourcetree"><!-- ---------------------------------------------------- -->
 
-Click the `History` to see the revision graph.
+Click `History` to see the revision graph.
 
 * In some versions of Sourcetree, the `HEAD` ref may not be shown -- it is implied that the `HEAD` ref is pointing to the same commit the currently active branch ref is pointing.
 

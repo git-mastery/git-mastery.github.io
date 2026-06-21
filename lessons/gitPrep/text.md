@@ -36,10 +36,10 @@ Before you start learning Git, **you need to install some tools** on your comput
 
 <box type="warning" seamless>
 
-When running Git commands, we recommend Windows users to **use the Git Bash terminal** that comes with Git. To open Git Bash terminal, hit the <kbd>:fab-windows:</kbd> key and type `git-bash`.
+When running Git commands, we recommend that Windows users **use the Git Bash terminal** that comes with Git. To open the Git Bash terminal, hit the <kbd>:fab-windows:</kbd> key and type `git-bash`.
 
-{{ icon_tip }} It may be possible that the installation didn't add a shortcut to the Start Menu.
-You can navigate to the directory where `git-bash.exe` is (most likely `C:\Program Files\Git\git-bash.exe`), double click `git-bash.exe` to open Git Bash.<br>
+{{ icon_tip }} The installation might not have added a shortcut to the Start Menu.
+You can navigate to the directory where `git-bash.exe` is (most likely `C:\Program Files\Git\git-bash.exe`), double-click `git-bash.exe` to open Git Bash.<br>
 You can also right-click it and choose `Pin to Start` or `Pin to taskbar`.
 </box>
 </cv-toggle>
@@ -56,7 +56,7 @@ You can also right-click it and choose `Pin to Start` or `Pin to taskbar`.
 
 <box type="tip" seamless>
 
-**When copy-pasting text onto a Git Bash terminal**, you will not be able to use the familiar <kbd>Ctrl</kbd>+<kbd>V</kbd> key combo to paste. Instead, use <kbd>Shift</kbd>+<kbd>Insert</kbd>, or, right-click on the terminal and use the `Paste` menu option.
+**When pasting text into a Git Bash terminal**, you will not be able to use the familiar <kbd>Ctrl</kbd>+<kbd>V</kbd> key combo to paste. Instead, use <kbd>Shift</kbd>+<kbd>Insert</kbd>, or, right-click on the terminal and use the `Paste` menu option.
 </box>
 {% endcall %} <!-- show_sidebar -->
 
@@ -67,7 +67,7 @@ You can also right-click it and choose `Pin to Start` or `Pin to taskbar`.
 
 {{ os_tabs_marker('mac') }}
 
-**Install [homebrew](https://brew.sh/)** if you don't already have it, and then, **run `brew install git`**
+**Install [Homebrew](https://brew.sh/)** if you don't already have it, and then **run `brew install git`**.
 
 {{ os_tabs_marker('linux') }}
 
@@ -78,7 +78,7 @@ You can also right-click it and choose `Pin to Start` or `Pin to taskbar`.
 
 {{ os_tabs_marker('end') }}
 
-**Verify Git is installed**, by running the following command in a terminal.
+**Verify Git is installed** by running the following command in a terminal.
 ```bash{.no-line-numbers}
 git --version
 ```
@@ -94,7 +94,7 @@ The output should display the version number.
 
 ##### Configuring `user.name` and `user.email`
 
-**Git needs to know _who you are_ to record changes properly.** When you save a snapshot of your work in Git, it records your name and email as the author of that change. This ensures everyone working on the project can see who made which changes. **Accordingly, you should set the config settings `user.name` and `user.email` before you start Git for revision control.**
+**Git needs to know _who you are_ to record changes properly.** When you save a snapshot of your work in Git, it records your name and email as the author of that change. This ensures everyone working on the project can see who made which changes. **Accordingly, you should set the config settings `user.name` and `user.email` before you start using Git for revision control.**
 
 {% call show_prep("Set `user.name` and `user.email`", "set-user") %}
 
@@ -118,11 +118,11 @@ git config --global user.email
 
 ##### Configuring `init.defaultBranch`
 
-**Git has a property named `init.defaultBranch` that specifies a _branch_ name** that it uses for a couple of things (you'll learn more about Git branches in later lessons). Git uses the default value `master` for this but these days it is more common to use `main` instead. Git-Mastery uses `main` too. To make your Git behavior match our lessons better, you should set this property to `main`, as described in the panel below:
+**Git has a property named `init.defaultBranch` that specifies a _branch_ name** that it uses for a couple of things (you'll learn more about Git branches in later lessons). Git uses `master` as the default value, but `main` is more common now. Git-Mastery uses `main` too. To make your Git behavior match our lessons better, you should set this property to `main`, as described in the panel below:
 
 {% call show_prep("Set `init.defaultBranch` to `main`", "set-default-branch") %}
 
-**To set `init.defaultBranch` config property to `main`**, run the following command in your terminal window:
+**To set the `init.defaultBranch` config property to `main`**, run the following command in your terminal window:
 ```bash{.no-line-numbers}
 git config --global init.defaultBranch main
 ```
@@ -145,15 +145,14 @@ main
 ##### Interacting with Git: CLI vs GUI
 **Git is fundamentally a command-line tool.** You primarily interact with it through its <tooltip content="Command-Line Interface">CLI</tooltip> by typing commands. This gives you full control over its features and helps you understand what’s really happening under the hood.
 
-**<tooltip content="Graphical User Interface">GUI</tooltip> clients for Git also exist,** such as Sourcetree, GitKraken, and the built-in Git support in editors like Intellij IDEA and VS Code. These tools provide a more visual way to perform some Git operations.
+**<tooltip content="Graphical User Interface">GUI</tooltip> clients for Git also exist,** such as Sourcetree, GitKraken, and the built-in Git support in editors like IntelliJ IDEA and VS Code. These tools provide a more visual way to perform some Git operations.
 
 **If you're new to Git, it's best to learn the CLI first.** The CLI is universal, always available (even on servers), and helps you build a solid understanding of Git’s concepts. You can use GUI clients as a supplement — for example, to visualize complex history structures.
 
 **Mastering the CLI gives you confidence and flexibility, while GUI tools can serve as helpful companions.**
 
 {% call show_prep("[Optional] Install a GUI client", "install-gui") %}
-**Optionally, you can install a Git GUI client.**
-e.g., Sourcetree ([installation instructions](https://se-education.org/guides/tutorials/sourcetree.html)).
+**Optionally, you can install a Git GUI client,** such as Sourcetree ([installation instructions](https://se-education.org/guides/tutorials/sourcetree.html)).
 
 Our Git lessons show how to perform Git operations using Git CLI and Sourcetree; Sourcetree is included only to illustrate how Git GUIs work. It is perfectly fine for you to learn the CLI only.
 
@@ -180,12 +179,12 @@ Our Git lessons show how to perform Git operations using Git CLI and Sourcetree;
   Put it in a suitable location (ensure the file name remains `gitmastery.exe`).{{ numbers_abcd }}
   <box type="warning" seamless>
 
-  **Do not run the `gitmastery.exe` file directly!**. If you do, all it does is to flash the terminal briefly and disappear.<br>
+  **Do not run the `gitmastery.exe` file directly!** If you do, it will only flash a terminal briefly and disappear.<br>
    Reason: Git-Mastery is a <tooltip content="Command Line Interface">CLI</tooltip> app that you activate by issuing a command via a terminal, not running the executable directly (e.g., by double-clicking the file).
   {{ ask_chatgpt("More on how to use CLI apps on Windows", "Guidance for answering: Give an answer with moderate level of details, and ask if if I would like a more detailed answer.\nBackground: I'm a Windows user new to CLI apps. I've been asked to use an app named gitmastery (that comes as an executable `gitmastery.exe`, and supports commands like `gitmastery version`). As the app is a companion for Git, the preferred terminal is Git Bash.\nQuestion: Explain how I should use a CLI app as opposed to apps I use simply by double-clicking an exe file.") }}
   </box>
 
-* Add the folder containing the `gitmastery.exe` to your Windows System Variable `PATH`, by following [this guide](https://www.wikihow.com/Change-the-PATH-Environment-Variable-on-Windows).<br>
+* Add the folder containing `gitmastery.exe` to your Windows `PATH` system variable by following [this guide](https://www.wikihow.com/Change-the-PATH-Environment-Variable-on-Windows).<br>
   E.g. If the file location is `C:\Users\Jane\Tools\gitmastery.exe`, you should add `C:\Users\Jane\Tools` to your `PATH`.
 * Close and reopen the Git Bash terminal (for the updated `PATH` to take effect).
 
@@ -228,7 +227,7 @@ sudo apt-get install gitmastery
   </tab>
   <tab header="Arch">
 
-Use an [AUR helper](https://wiki.archlinux.org/title/AUR_helpers) to install `gitmastery-bin`. For example using [yay](https://github.com/Jguer/yay):
+Use an [AUR helper](https://wiki.archlinux.org/title/AUR_helpers) to install `gitmastery-bin`. For example, use [yay](https://github.com/Jguer/yay):
 
 ```bash
 yay -S gitmastery-bin
@@ -239,7 +238,7 @@ Alternatively, you can build the `PKGBUILD` yourself following the [instructions
   </tab>
   <tab header="Others">
 
-If you are using a Linux distribution that is not yet supported by Git-Mastery, please download the right binary for your architecture from [the latest release.](https://github.com/git-mastery/app/releases/latest)
+If you are using a Linux distribution that is not yet supported by Git-Mastery, please download the correct binary for your architecture from [the latest release](https://github.com/git-mastery/app/releases/latest).
 
 Install it to `/usr/bin` to access the binary. The following example uses version `3.3.0`.
 
@@ -251,7 +250,7 @@ install -D -m 0755 gitmastery-3.3.0-linux-arm64 /usr/bin/gitmastery
 
 {{ os_tabs_marker('end') }}
 
-**2. To verify the installation**, open a terminal, and run the `gitmastery --help` command from a couple of different folder locations. Here is an example (IMPORTANT: change the `cd` command to match your folders):
+**2. To verify the installation**, open a terminal, and run the `gitmastery --help` command from two different folders. Here is an example (IMPORTANT: change the `cd` command to match your folders):
 
 ```bash{.no-line-numbers highlight-lines="2['../my-projects']"}
 gitmastery --help
@@ -296,7 +295,7 @@ The `gitmastery setup` command will perform the following tasks:
 
 Notes:
 * If the command failed due to checks (a) or (b) failing, you can rectify the problem and run the command again.
-* If you wish to check the Git set up again at a later time, you can run the `gitmastery check git` command.
+* If you wish to check the Git setup again at a later time, you can run the `gitmastery check git` command.
 
 --- {.dotted .border-dark}
 <div id="app-commands">
@@ -312,22 +311,22 @@ Command|Run from ...|What it does|
 `gitmastery <command> --help`|%%anywhere%%|Prints a brief explanation of the `<command>`.<br>e.g., `gitmastery download --help`|
 `gitmastery version`|%%anywhere%%|Gets the current version of the Git-Mastery app on your machine.|
 `gitmastery setup`|%%anywhere%%|Sets up Git-Mastery for your local machine.|
-`gitmastery check git`|%%anywhere%%|Verifies that you have setup Git for Git-Mastery.|
-`gitmastery check github`|%%anywhere%%|Verifies that you have setup GitHub and GitHub CLI for Git-Mastery.|
+`gitmastery check git`|%%anywhere%%|Verifies that you have set up Git for Git-Mastery.|
+`gitmastery check github`|%%anywhere%%|Verifies that you have set up GitHub and GitHub CLI for Git-Mastery.|
 `gitmastery download <exercise name>`|#g#git-mastery root##| Sets up the sandbox for the specified [exercise]({{ baseUrl }}/exercises-directory/index.html).|
-`gitmastery download <hands-on-practical name>`|#g#git-mastery root##|Sets up the specified hands-on practical in your computer.|
+`gitmastery download <hands-on-practical name>`|#g#git-mastery root##|Sets up the specified hands-on practical on your computer.|
 `gitmastery verify`|#m#inside exercise##|Verifies your exercise attempt. Saves the progress made.|
 `gitmastery progress reset`|<span class="text-warning">exercise root</span>|Resets the progress of the current exercise.|
-`gitmastery progress show`|#g#git-mastery root##|Shows a summary of your progress of exercises.|
+`gitmastery progress show`|#g#git-mastery root##|Shows a summary of your exercise progress.|
 `gitmastery progress sync on`|#g#git-mastery root##|Enables remote progress tracking of exercises.|
 `gitmastery progress sync off`|#g#git-mastery root##|Disables remote progress tracking of exercises.|
 </box>
 
 Explanation of 'Run from ...' options:
 
-* **#g#git-mastery root##**: Run the command from the directory where Git-Mastery exercises are located, aka _exercises directory_ (default name of folder: `gitmastery-exercises`).
+* **#g#git-mastery root##**: Run the command from the directory where Git-Mastery exercises are located, aka the _exercises directory_ (default folder name: `gitmastery-exercises`).
 * **<span class="text-warning">exercise root</span>**: Run the command in the sandbox folder containing the exercise.
-* **#m#inside exercise##**: Run the command from the sandbox folder containing the exercise, or any sub folder of it.
+* **#m#inside exercise##**: Run the command from the sandbox folder containing the exercise, or any subfolder of it.
 </div>
 
 --- {.dotted .border-dark}

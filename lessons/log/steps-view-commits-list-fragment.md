@@ -27,7 +27,7 @@ Use the <kbd>Q</kbd> key to exit the output screen of the `git log` command.
 </div>
 <div id="sourcetree"><!-- ---------------------------------------------------- -->
 
-Expand the `BRANCHES` menu and click on the `main` to view the history graph, which contains only one node at the moment, representing the commit you just added. For now, ignore the label `main` attached to the commit.
+Expand the `BRANCHES` menu and click `main` to view the history graph, which contains only one node at the moment, representing the commit you just added. For now, ignore the label `main` attached to the commit.
 
 <pic eager src="{{baseUrl}}/lessons/log/images/sourcetree_5.png" height="180" />
 <p/>

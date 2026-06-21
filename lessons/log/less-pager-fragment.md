@@ -43,11 +43,11 @@ Date:   Sat ...
 | `N`          | Repeat the last search (backward)
 | `h`          | Show help screen with all `less` commands
 
-**If you’d rather see the output directly**, without using a pager, you can add the `--no-pager` flag to the command e.g.,
+**If you’d rather see the output directly**, without using a pager, you can add the `--no-pager` flag to the command, for example:
 ```bash
 git --no-pager log
 ```
-It is possible to ask Git to not use less at all, use a different pager, or fine-tune how less is used. For example, **you can reduce Git's use of the pager** (recommended), using the following command:
+It is possible to ask Git not to use `less` at all, use a different pager, or fine-tune how `less` is used. For example, **you can reduce Git's use of the pager** (recommended), using the following command:
 ```bash
 git config --global core.pager "less -FRX"
 ```
@@ -55,7 +55,7 @@ git config --global core.pager "less -FRX"
 Explanation: `-FRX` is a shorthand for combining the following three flags.
 
 * `-F` : Quits if the output fits on one screen (don’t show pager unnecessarily)
-* `-R` : Shows raw control characters (for coloured Git output)
+* `-R` : Shows raw control characters (for colored Git output)
 * `-X` : Keeps content visible after quitting the pager (so output stays on the terminal)
 
 {% endcall %}

@@ -14,12 +14,12 @@
   ```
   **In fact, `git reset` is an alternative way of unstaging files**, and it works regardless of whether you have any commits.
 
-  **Wait. Then why does `git restore --staged` exists at all**, given it is more verbose and doesn't even work in some special cases?<br>
-  Answer: It is still considered the "modern" way of unstaging files (it was introduced more recently), because it is more intuitive and purpose-specific -- whereas the `git reset` serves multiple purposes and, if used incorrectly, can cause unintended consequences.
+  **Wait. Then why does `git restore --staged` exist at all**, given that it is more verbose and does not work in some special cases?<br>
+  Answer: It is still considered the "modern" way of unstaging files (it was introduced more recently), because it is more intuitive and purpose-specific -- whereas `git reset` serves multiple purposes and, if used incorrectly, can cause unintended consequences.
   </box>
   <box type="tip" seamless>
 
-  The `restore` command can accept multiple files/paths as input, which means you can use the <trigger trigger="click" for="modal:unstaging-protipMultipleFilesNotation">notation for specifying multiple files</trigger>. For example, to unstage all changes you've staged, you can use the `git restore --staged .`
+  The `restore` command can accept multiple files/paths as input, which means you can use the <trigger trigger="click" for="modal:unstaging-protipMultipleFilesNotation">notation for specifying multiple files</trigger>. For example, to unstage all changes you've staged, you can use `git restore --staged .`.
   </box>
 * **To unstage a file deletion** (staged using `git rm`), use the same command as above. It will unstage the deletion and restore the file in the staging area.<br>
   **If you also deleted the file from your working directory**, you may need to recover it separately with `git restore <file-name(s)>`

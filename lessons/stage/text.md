@@ -20,7 +20,7 @@ To save a snapshot, **you start by specifying what to include in it, also called
 
 {{ show_git_term_tip('stage', 'stage') }}
 
-In the example below, you can see how staging files change the status of the repo as you go from (a) to (c).
+In the example below, you can see how staging files changes the status of the repo as you go from (a) to (c).
 
 {{ show_folder_columns('folder-staging-after-init-fragment.md') }}
 
@@ -39,7 +39,7 @@ In the example below, you can see how staging files change the status of the rep
 Here is an easy way to do that with a single terminal command.
 <cv-toggle toggle-id="windows-only">
 
-**:fab-windows: Windows users: Use the git-bash terminal**{.text-info} to run the commands given in these lessons. Some of them might not work in other terminals such as the PowerShell.
+**:fab-windows: Windows users: Use the Git Bash terminal**{.text-info} to run the commands given in these lessons. Some of them might not work in other terminals such as PowerShell.
 </cv-toggle>
 
 ```bash {.no-line-numbers }
@@ -126,7 +126,7 @@ dragon fruits
 </div>
 
 **Git does not track empty folders**. It tracks only folders that contain tracked files.<br>
-<span class="d-print-none">You can test this by adding an empty subfolder inside the `things` folder (e.g., `things/more-things`) and checking if it shows up as 'untracked' (it will not). If you add a file to that folder (e.g., `things/more-things/food.txt`) and then staged that file (e.g., `git add more-things/food.txt`), the folder will now be included in the next snapshot.</span>
+<span class="d-print-none">You can test this by adding an empty subfolder inside the `things` folder (e.g., `things/more-things`) and checking if it shows up as 'untracked' (it will not). If you add a file to that folder (e.g., `things/more-things/food.txt`) and then stage that file (e.g., `git add more-things/food.txt`), the folder will now be included in the next snapshot.</span>
 
 <include src="../common/protip-multiple-files-notation-fragment.md" />
 

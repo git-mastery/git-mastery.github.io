@@ -17,5 +17,5 @@ git stage data/list.txt  # same as: git add data/list.txt
 
 <div id="sourcetree"><!-- ---------------------------------------------------- -->
 
-Staging a file deletion is done similar to staging other changes.
+Staging a file deletion is done similarly to staging other changes.
 </div><!-- ------------------------------------------------------------------- -->

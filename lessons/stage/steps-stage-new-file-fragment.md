@@ -87,7 +87,7 @@ Changes to be committed:
 
 <box type="tip" seamless>
 
-If the newly-added file does not show up in Sourcetree UI, refresh the UI (:fab-windows:: <kbd>F5</kbd><br> | :fab-apple: <kbd>⌥</kbd>+<kbd>R</kbd>)
+If the newly added file does not show up in the Sourcetree UI, refresh the UI (:fab-windows:: <kbd>F5</kbd><br> | :fab-apple: <kbd>⌥</kbd>+<kbd>R</kbd>)
 </box>
 
 <box type="warning" seamless>
@@ -105,7 +105,7 @@ In other cases, you may need to adapt if the given screenshots/instructions are 
 {{ show_steps_tabs('stage-file', has_cli=0) }}
 
 
-{{ hp_number('2.3') }} **Note how the file is staged now** i.e., `fruits.txt` appears in the `Staged files` panel now.
+{{ hp_number('2.3') }} **Note how the file is now staged** i.e., `fruits.txt` appears in the `Staged files` panel.
 
 <pic eager src="{{baseUrl}}/lessons/stage/images/sourcetreeWinNewFileStaged.png" height="180" />
 <p/>
