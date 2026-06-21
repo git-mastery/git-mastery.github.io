@@ -51,7 +51,7 @@
     lessons: {
       selectiveStage: {title: "T5L1. Controlling What Goes Into a Commit", tour_name: "fineTuningHistory", lesson_name: "selectiveStage"},
       commitMessage: {title: "T5L2. Writing Good Commit Messages", tour_name: "fineTuningHistory", lesson_name: "commitMessage"},
-      interactiveRebase: {title: "T5L3. Reorganising Commits", tour_name: "fineTuningHistory", lesson_name: "interactiveRebase"}
+      interactiveRebase: {title: "T5L3. Reorganizing Commits", tour_name: "fineTuningHistory", lesson_name: "interactiveRebase"}
     }
   },
   branchingLocally: {
@@ -62,7 +62,8 @@
       merge: {title: "T6L2. Merging Branches", tour_name: "branchingLocally", lesson_name: "merge"},
       mergeConflicts: {title: "T6L3. Resolving Merge Conflicts", tour_name: "branchingLocally", lesson_name: "mergeConflicts"},
       branchRename: {title: "T6L4. Renaming Branches", tour_name: "branchingLocally", lesson_name: "branchRename"},
-      branchDelete: {title: "T6L5. Deleting Branches", tour_name: "branchingLocally", lesson_name: "branchDelete"}
+      branchDelete: {title: "T6L5. Deleting Branches", tour_name: "branchingLocally", lesson_name: "branchDelete"},
+      worktrees: {title: "T6L6. Working on Multiple Branches with Worktrees", tour_name: "branchingLocally", lesson_name: "worktrees"}
     }
   },
   syncingBranches: {
@@ -105,7 +106,7 @@
 } %}
 
 {% set detours = {
-  undoRepoInit: {lesson: trail.recordingFolderHistory.lessons.init, title: "Undoing a Repo Initialisation"},
+  undoRepoInit: {lesson: trail.recordingFolderHistory.lessons.init, title: "Undoing a Repo Initialization"},
   unstagingChanges: {lesson: trail.recordingFolderHistory.lessons.stage, title: "Unstaging Changes"},
   stagingFileDeletions: {lesson: trail.recordingFolderHistory.lessons.commit, title: "Staging File Deletions"},
   pushToMultipleRepos: {lesson: trail.backingUpOnCloud.lessons.push, title: "Pushing to Multiple Repos"},
@@ -554,7 +555,7 @@ That aspect is covered in {{ show_detour_link(detour_name) }}.
 <panel header="{{ 'Option 1: ' if has_multiple_options else '' }}**Create a fresh sandbox** using the Git-Mastery app" peek>
 
 * Navigate inside the `gitmastery-exercises` folder.{{ numbers_roman }}
-* Run `gitmastery download {{ identifier }}` command.
+* Run the `gitmastery download {{ identifier }}` command.
 
 The sandbox will be set up inside the `gitmastery-exercises/{{ identifier }}` folder.
 {{ show_gm_footer() }}
@@ -612,7 +613,7 @@ popup-url="{{ file | replace(".md", ".html") }}">
 **++To download++** the exercise:
 
 * Navigate inside the `gitmastery-exercises` folder.{{ numbers_roman }}
-* Run `gitmastery download {{ identifier }}` command.
+* Run the `gitmastery download {{ identifier }}` command.
 </div>
 {% else %}
 **#r#No download##** required for this exercise.
@@ -638,7 +639,7 @@ popup-url="{{ file | replace(".md", ".html") }}">
 
 **++To verify++** your work:
 
-* Navigate to anywhere inside the `gitmastery-exercises/{{ identifier }}` folder %%(or any sub-folder of it)%%. {{ numbers_roman }}
+* Navigate anywhere inside the `gitmastery-exercises/{{ identifier }}` folder %%(or any subfolder of it)%%. {{ numbers_roman }}
 * Run the `gitmastery verify` command.
 
 <small>%%**To reset the exercise** and start over, navigate to the `gitmastery-exercises/{{ identifier }}` folder and run the `gitmastery progress reset` command.%%</small>

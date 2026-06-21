@@ -144,7 +144,7 @@
         "lesson_name": "commitMessage"
       },
       "interactiveRebase": {
-        "title": "T5L3. Reorganising Commits",
+        "title": "T5L3. Reorganizing Commits",
         "tour_name": "fineTuningHistory",
         "lesson_name": "interactiveRebase"
       }
@@ -178,6 +178,11 @@
         "title": "T6L5. Deleting Branches",
         "tour_name": "branchingLocally",
         "lesson_name": "branchDelete"
+      },
+      "worktrees": {
+        "title": "T6L6. Working on Multiple Branches with Worktrees",
+        "tour_name": "branchingLocally",
+        "lesson_name": "worktrees"
       }
     }
   },
