@@ -9,23 +9,23 @@
 
 <div id="body">
 {% call show_lesson_intro() %}
-The third step of backing up a local repo on GitHub: **push a copy of the local repo to the remote repo**.
+The third step of backing up a local repo on GitHub: **push local commits to a branch in the remote repo**.
 
 {% endcall %}
 
-**You can {{ show_git_term('push') }} content of one repository to another**, usually from your local repo to a remote repo. Pushing transfers recorded Git history (such as past commits), but it does not transfer unstaged changes or untracked files.
+**You can {{ show_git_term('push') }} recorded Git history from one repository to another**, usually from your local repo to a remote repo. Pushing sends commits and updates a branch in the remote repo, but it does not transfer unstaged changes or untracked files.
 
 * **To push, you need to have <tooltip content="permission to update contents on the remote">write-access</tooltip> to the remote repo**.
 * **Pushing is performed one branch at a time**; you must specify which branch you want to push.
 
-**You can configure Git to {{ show_git_term("track") }} a pairing between a local branch and a remote branch**, so later you can push from the same local branch to the corresponding remote branch without specifying them again. For example, you can set your local `main` branch to _track_ the `main` branch on the remote repo `origin` i.e., local `main` branch will track the <tooltip content="'upstream' is commonly used to refer to the remote repo connected to a local repo">upstream</tooltip> branch `origin/main`.
+**You can configure Git to remember which remote branch a local branch should push to by default**, so later you can push from the same local branch without specifying the destination again. For example, you can set your local `main` branch to use the `main` branch on the remote repo `origin` as its corresponding branch. In the revision graph below, **the ref {{ show_ref('origin/main') }} is a {{ show_git_term("remote-tracking branch") }} that represents Git's latest known state of a corresponding branch in a remote repository**. More precisely, a remote-tracking branch records the state of the corresponding remote branch _at the time Git last updated that information_, such as after a successful push.
 
 {{ show_commit('C3', desc=show_ref('main') + show_head() + show_ref('origin/main')) }}
 {{ show_commit('C2') }}
 {{ show_commit('C1', edge='') }}
 <p/>
 
-In the revision graph above, you see a new type of ref ({{ show_ref('origin/main') }}). This is a {{ show_git_term("remote-tracking branch") }} **ref that represents the state of a corresponding branch in a remote repository** (if you previously set up the branch to 'track' a remote branch). {{ show_fine_print("More precisely, the state of the corresponding branch _at the time Git last updated that information_.") }} In this example, the `main` branch in the remote `origin` is also at the commit `C3` (which means you have not created new commits after you pushed to the remote).
+ In this example, the `main` branch in the remote `origin` is also at the commit `C3` (which means you have not created new commits after you pushed to the remote).
 
 If you now create a new commit `C4`, the state of the revision graph will be as follows:
 
@@ -39,7 +39,7 @@ Explanation: When you create `C4`, the current branch `main` moves to `C4`, and 
 
 {% call show_hands_on_practical('Pushing a local repo to an empty remote repo')  %}
 
-{{ hp_number(hop_target) }} Upload (i.e., push) the revision history from a local repo to a remote repo.
+{{ hp_number(hop_target) }} Upload (i.e., push) the commits from a local branch to a branch in a remote repo.
 
 {{ hp_number(hop_preparation) }}
 
@@ -49,6 +49,8 @@ Explanation: When you create `C4`, the current branch `main` moves to `C4`, and 
 {{ hp_number("1") }} **Push the `main` branch** to the remote. **Also instruct Git to track this branch pair**.
 
 {{ show_steps_tabs('push-to-empty-remote') }}
+
+Note: Because the remote repo is empty, this push creates the `main` branch on the remote and uploads the commits to it. You can go to the repo page on GitHub to see the commits and the branch.
 
 {{ hp_number("2") }} **Observe the remote-tracking branch** `origin/main` is now pointing at the same commit as the `main` branch.
 
@@ -86,8 +88,6 @@ git commit -am "Update fruits list"
 
 {% endcall %}
 
-
-**Note that you can push between two repos only if those repos have a shared history** among them (i.e., one should have been created by copying the other).
 
 <box type="info" seamless>
 

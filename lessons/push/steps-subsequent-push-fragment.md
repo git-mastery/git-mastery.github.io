@@ -6,9 +6,9 @@ To push the newer commit(s) in the current branch `main` to the remote `origin`,
 
 * `git push origin main`
 * `git push origin`<br>
-  → Git will assume you are pushing the current branch (e.g., `main`) even if you don't specify it.
+  → With the usual Git configuration used in this course, Git will push the current branch (e.g., `main`) to the branch it tracks on `origin`.
 * `git push`<br>
-  → Git will assume you are pushing the current branch (e.g., `main`). Due to tracking you've set up earlier, Git will assume that you want to push it to the matching branch on `origin`.
+  → Due to the tracking you set up earlier, Git will push the current branch (e.g., `main`) to its upstream branch on `origin`.
 
 After pushing, the revision graph should look something like the following (note how both local and remote-tracking branch refs are pointing to the same commit again).
 

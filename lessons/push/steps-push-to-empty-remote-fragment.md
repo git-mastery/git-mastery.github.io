@@ -4,16 +4,16 @@
 
 Navigate inside the `things` folder.
 
-Use the `git push -u <remote-repo-name> <local-branch-name>` to push the commits to a remote repository.
+Use `git push -u <remote-repo-name> <local-branch-name>` to push the commits in a local branch to a remote repository.
 ```bash{.no-line-numbers}
 git push -u origin main
 ```
 Explanation:
 
-* `push`: the Git sub-command that pushes the current local repo content to a remote repo
+* `push`: the Git sub-command that sends local commits to a remote repo
 * `origin`: name of the remote
 * `main`: branch to push
-* `-u` (or `--set-upstream`): the flag that tells Git to track that this local `main` is tracking `origin/main` branch
+* `-u` (or `--set-upstream`): the flag that sets `origin/main` as the upstream branch of the local `main` branch. The _upstream_ branch is Git's remembered default remote-tracking branch for this local branch; here, `main` will use `origin/main` as the upstream branch.
 
 </div>
 <div id="sourcetree"><!-- ---------------------------------------------------- -->
