@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, ask_chatgpt, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, ask_chatgpt, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_folder_columns, show_fine_print, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 
@@ -25,7 +25,7 @@ The third step of backing up a local repo on GitHub: **push a copy of the local 
 {{ show_commit('C1', edge='') }}
 <p/>
 
-In the revision graph above, you see a new type of ref ({{ show_ref('origin/main') }}). This is a {{ show_git_term("remote-tracking branch") }} **ref that represents the state of a corresponding branch in a remote repository** (if you previously set up the branch to 'track' a remote branch). In this example, the `main` branch in the remote `origin` is also at the commit `C3` (which means you have not created new commits after you pushed to the remote).
+In the revision graph above, you see a new type of ref ({{ show_ref('origin/main') }}). This is a {{ show_git_term("remote-tracking branch") }} **ref that represents the state of a corresponding branch in a remote repository** (if you previously set up the branch to 'track' a remote branch). {{ show_fine_print("More precisely, the state of the corresponding branch _at the time Git last updated that information_.") }} In this example, the `main` branch in the remote `origin` is also at the commit `C3` (which means you have not created new commits after you pushed to the remote).
 
 If you now create a new commit `C4`, the state of the revision graph will be as follows:
 
@@ -80,7 +80,7 @@ git commit -am "Update fruits list"
 
 {{ show_steps_tabs('commit-changes') }}
 
-{{ hp_number ('2') }} **Push** the new commits to your fork on GitHub.
+{{ hp_number ('2') }} **Push** the new commits to your remote repo on GitHub.
 
 {{ show_steps_tabs('subsequent-push') }}
 
@@ -88,6 +88,13 @@ git commit -am "Update fruits list"
 
 
 **Note that you can push between two repos only if those repos have a shared history** among them (i.e., one should have been created by copying the other).
+
+<box type="info" seamless>
+
+**Can one push from any repo to any other repo?**{.text-info}
+
+When updating an existing branch on a remote, **Git normally expects your local changes to build on the remote repo's current history**. That is, you cannot normally push if the two repos are completely unrelated to each other.  In this tour, the remote repo is empty, so the first push from a local repo goes through just fine.
+</box>
 
 </div>
 

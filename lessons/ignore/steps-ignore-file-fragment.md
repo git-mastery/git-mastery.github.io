@@ -41,7 +41,7 @@ temp.txt
 
 Right-click on any of the `.tmp` files you added, and choose `Ignore...` as you did previously. This time, choose the option `Ignore files with this extension`.
 
-Note how `.temp` files are no longer shown as unstaged files, and the `.gitignore` file has been updated as given below:
+Note how `.tmp` files are no longer shown as unstaged files, and the `.gitignore` file has been updated as given below:
 ```{heading=".gitignore" highlight-lines="2"}
 temp.txt
 *.tmp
