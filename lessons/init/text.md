@@ -12,7 +12,7 @@ To be able to save snapshots of a folder using Git, **you must first put the fol
 
 **Normally, we use Git to manage a revision history of a specific folder**, which gives us the ability to revision-control any file in that folder and its subfolders.
 
-**To put a folder under the control of Git, we _initialize_ a {{ show_git_term('repository', 'repo', 'init')}} (short name: {{ show_git_term('repo') }})** in that folder. This lets us initialize repos in different folders and revision-control different clusters of files independently of each other %%e.g., files belonging to different projects%%.
+**To put a folder under the control of Git, we _initialize_ a {{ show_git_term('repository', 'repo', 'init')}} (short name: {{ show_git_term('repo') }})** in that folder. This lets us create repos in different folders and revision-control different clusters of files independently of each other, %%e.g., files belonging to different projects%%.
 
 {{ show_git_term_tip('repo', 'init') }}
 
@@ -26,10 +26,10 @@ You can follow the hands-on practical below to learn how to initialize a repo in
 
 {{ hp_number(hop_preparation) }} **Choose a folder** to put under Git's control. The folder may or may not contain any files. For this practical, let us create a folder named `things` for this purpose.
 
-You can use the Git-Mastery app to <tooltip content="setting up the needed folders, files, repos needed for the practical">create the _sandbox_</tooltip> for doing this practical, or create the sandbox manually. Instructions for both options are given below.
+You can use the Git-Mastery app to <tooltip content="setting up the folders, files, and repos needed for the practical">create the _sandbox_</tooltip> for this practical, or create the sandbox manually. The instructions below cover both options.
 
 {% set manual_info %} <!-- ------ start: show_hop_prep --------------->
-Assuming you have a folder named `git-practicals` that you wish to use for doing Git hands-on practicals in, you can run the following commands.
+Assuming you have a folder named `git-practicals` for doing Git hands-on practicals, you can run the following commands.
 ```bash
 cd git-practicals
 mkdir things
@@ -40,7 +40,7 @@ mkdir things
 
 <box type="warning" seamless id="no-mixing-git-with-file-sync-software">
 
-**Avoid putting Git repos inside cloud-synced (e.g., OneDrive, Dropbox) folders.** Multiple tools trying to detect/sync changes in the same folder can cause conflicts and unexpected behaviors.<br> If you want to access project files from multiple computers, use Git instead of cloud syncing tools.
+**Avoid putting Git repos inside cloud-synced (e.g., OneDrive, Dropbox) folders.** Multiple tools trying to detect/sync changes in the same folder can cause conflicts and unexpected behavior.<br> If you want to access project files from multiple computers, use Git instead of cloud syncing tools.
 </box>
 
 {{ hp_number(1) }} **Then, `cd` into it.** For example,

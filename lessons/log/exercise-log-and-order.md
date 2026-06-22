@@ -2,7 +2,7 @@
 
 <div id="scenario" class="d-none">
 
-You are given a repo `crime-spree` (apparently, containing details of some crimes).
+You are given a repo named `crime-spree` (apparently, containing details of some crimes).
 </div>
 
 <div id="task" class="d-none">

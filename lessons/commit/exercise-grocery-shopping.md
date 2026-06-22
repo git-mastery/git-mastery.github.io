@@ -2,7 +2,7 @@
 
 <div id="task" class="d-none">
 
-In the `shopping-list` repo given, there is a `shopping-list.txt`.
+The given `shopping-list` repo contains a `shopping-list.txt` file.
 
 1. Edit it (using any text editor) to remove at least one item from the shopping list and add at least one new item to the shopping list.
 1. Stage the change and commit it.

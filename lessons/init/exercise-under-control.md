@@ -4,7 +4,7 @@
 
 <box type="info" seamless>
 
-When you download a Git-Mastery exercise, the output will tell you which directory you need to `cd` into, for you to start the exercise:
+When you download a Git-Mastery exercise, the output will tell you which directory to `cd` into to start the exercise:
 
 <pic src="images/gitmasteryDownloadOutput.png" />
 <p/>

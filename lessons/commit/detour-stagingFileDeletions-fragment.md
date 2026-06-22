@@ -5,7 +5,7 @@
 When you delete a tracked file from your working directory, Git doesn’t automatically assume you want that change to be part of your next commit. **To tell Git you intend to record a file deletion in the repository’s history, you need to stage the deletion explicitly.**
 </div>
 
-When you stage a deleted file, **you’re adding the _removal_ of the file to the staging area**, just like you’d stage a modified or newly-created file. After staging, the next commit will reflect that the file was removed from the project.
+When you stage a deleted file, **you’re adding the file’s _removal_ to the staging area**, just like you’d stage a modified or newly created file. After staging, the next commit will reflect that the file was removed from the project.
 
 Note that staging a file deletion matters only if there is at least one commit in the repository. Before any commits are made, there is no file history, so deletions have no effect on the repository.
 

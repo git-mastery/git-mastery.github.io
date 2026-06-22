@@ -27,7 +27,7 @@ Date:   Sat ...
 {{ show_transformation_columns(a, b, c) }}
 <!-- ------ end: transformation columns -------------------------------->
 
-**By default, Git uses a pager called [less](https://en.wikipedia.org/wiki/Less_(Unix))**. Given below are some useful commands you can use inside the less pager.
+**By default, Git uses a pager called [less](https://en.wikipedia.org/wiki/Less_(Unix))**. Below are some useful commands for the less pager.
 
 | Command      | Description
 |--------------|--------------
@@ -47,7 +47,7 @@ Date:   Sat ...
 ```bash
 git --no-pager log
 ```
-It is possible to ask Git not to use `less` at all, use a different pager, or fine-tune how `less` is used. For example, **you can reduce Git's use of the pager** (recommended), using the following command:
+You can ask Git not to use `less` at all, to use a different pager, or to fine-tune how `less` is used. For example, **you can reduce Git's use of the pager** (recommended) by using the following command:
 ```bash
 git config --global core.pager "less -FRX"
 ```

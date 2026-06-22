@@ -39,7 +39,7 @@ git add fruits.txt
 
 <box type="tip" seamless>
 
-You can replace the `add` with `stage` (e.g., `git stage fruits.txt`) and the result is the same (they are synonyms).
+You can replace `add` with `stage` (e.g., `git stage fruits.txt`) and the result is the same (they are synonyms).
 </box>
 <cv-toggle toggle-id="windows-only">
 
@@ -54,7 +54,7 @@ git config --global core.safecrlf false
 </cv-toggle>
 </div>
 
-{{ hp_number(2.3) }} **Check the status again.** You can see the file is no longer 'untracked'.
+{{ hp_number(2.3) }} **Check the status again.** You should see that the file is no longer 'untracked'.
 <div class="indented-level1">
 
 ```bash{.no-line-numbers}
@@ -75,7 +75,7 @@ Changes to be committed:
 ```
 {% endcall %}
 
-{{ icon_info }} As before, don't worry if you don't understand the content of the output (we'll unpack it in a later lesson). The point to note is that the file is no longer listed as 'untracked'.
+{{ icon_info }} As before, don't worry if you don't understand the output yet (we'll unpack it in a later lesson). The key point is that the file is no longer listed as 'untracked'.
 </div>
 </div>
 <div id="sourcetree"><!-- ---------------------------------------------------- -->
@@ -87,14 +87,14 @@ Changes to be committed:
 
 <box type="tip" seamless>
 
-If the newly added file does not show up in the Sourcetree UI, refresh the UI (:fab-windows:: <kbd>F5</kbd><br> | :fab-apple: <kbd>⌥</kbd>+<kbd>R</kbd>)
+If the newly added file does not appear in the Sourcetree UI, refresh the UI (:fab-windows:: <kbd>F5</kbd><br> | :fab-apple: <kbd>⌥</kbd>+<kbd>R</kbd>)
 </box>
 
 <box type="warning" seamless>
 
 **Sourcetree screenshots/instructions: :fab-windows: vs :fab-apple:**
 
-Note that Sourcetree UI can vary slightly between Windows and Mac versions. Some of the screenshots given in our lessons are from the Windows version while some are from the Mac version.
+Note that the Sourcetree UI can vary slightly between Windows and macOS versions. Some screenshots in our lessons are from the Windows version while others are from the macOS version.
 
 In some cases, we have specified how they differ.<br>
 In other cases, you may need to adapt if the given screenshots/instructions are slightly different from what you are seeing in your Sourcetree.
@@ -105,14 +105,14 @@ In other cases, you may need to adapt if the given screenshots/instructions are 
 {{ show_steps_tabs('stage-file', has_cli=0) }}
 
 
-{{ hp_number('2.3') }} **Note how the file is now staged** i.e., `fruits.txt` appears in the `Staged files` panel.
+{{ hp_number('2.3') }} **Note how the file is now staged**, i.e., `fruits.txt` appears in the `Staged files` panel.
 
 <pic eager src="{{baseUrl}}/lessons/stage/images/sourcetreeWinNewFileStaged.png" height="180" />
 <p/>
 
 <box type="info" seamless>
 
-**If Sourcetree shows a `\ No newline at the end of the file` message** below the staged lines (i.e., below the `cherries` line in the above screenshot), that is because you did not hit <kbd>enter</kbd> after entering the last line of the file (hence, Git is not sure if that line is complete). To rectify, move the cursor to the end of the last line in that file and hit <kbd>enter</kbd> (like you are adding a blank line below it). This new change will now appear as an 'unstaged' change. Stage it as well.
+**If Sourcetree shows a `\ No newline at the end of the file` message** below the staged lines (i.e., below the `cherries` line in the above screenshot), that is because you did not hit <kbd>enter</kbd> after entering the last line of the file, so Git is not sure if that line is complete. To fix this, move the cursor to the end of the last line in that file and hit <kbd>enter</kbd>, as if you were adding a blank line below it. This new change will now appear as an 'unstaged' change. Stage it as well.
 </box>
 </div><!-- ------------------------------------------------------------------- -->
 

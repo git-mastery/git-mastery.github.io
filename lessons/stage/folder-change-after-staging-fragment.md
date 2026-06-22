@@ -29,7 +29,7 @@ Bob
 ```
 </div>
 <div id="b-text">
-(b) State after adding a line to the file. Git indicates it as 'modified' because it now differs from the version in the staged area.
+(b) State after adding a line to the file. Git indicates it as 'modified' because it now differs from the version in the staging area.
 </div>
 
 <div id="c-staging">

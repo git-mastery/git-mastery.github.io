@@ -14,7 +14,7 @@ Before you start learning Git, **you need to install some tools** on your comput
 
 ##### Installing Git
 
-**Git is a free and open source software used for revision control.** To use Git, you need to install Git on your computer.
+**Git is free and open-source software used for revision control.** To use Git, you need to install Git on your computer.
 
 {% call show_prep("Install Git", "install-git") %}
 {{ os_tabs_marker('windows') }}
@@ -56,7 +56,7 @@ You can also right-click it and choose `Pin to Start` or `Pin to taskbar`.
 
 <box type="tip" seamless>
 
-**When pasting text into a Git Bash terminal**, you will not be able to use the familiar <kbd>Ctrl</kbd>+<kbd>V</kbd> key combo to paste. Instead, use <kbd>Shift</kbd>+<kbd>Insert</kbd>, or, right-click on the terminal and use the `Paste` menu option.
+**When pasting text into a Git Bash terminal**, you will not be able to use the familiar <kbd>Ctrl</kbd>+<kbd>V</kbd> key combo to paste. Instead, use <kbd>Shift</kbd>+<kbd>Insert</kbd>, or right-click on the terminal and use the `Paste` menu option.
 </box>
 {% endcall %} <!-- show_sidebar -->
 
@@ -73,7 +73,7 @@ You can also right-click it and choose `Pin to Start` or `Pin to taskbar`.
 
 **Use your Linux distribution's package manager to install Git.** Examples:
 
-* Debian/Ubuntu, run `sudo apt-get update` and then `sudo apt-get install git`.
+* Debian/Ubuntu: run `sudo apt-get update` and then `sudo apt-get install git`.
 * Fedora: run `sudo dnf update` and then `sudo dnf install git`.
 
 {{ os_tabs_marker('end') }}
@@ -109,7 +109,7 @@ git config --global user.name "John Doe"
 git config --global user.email "john.doe@example.com"
 ```
 
-**To check if they are set as intended**, you can use the following two commands:
+**To check whether they are set as intended**, you can use the following two commands:
 ```bash{.no-line-numbers}
 git config --global user.name
 git config --global user.email
@@ -118,7 +118,7 @@ git config --global user.email
 
 ##### Configuring `init.defaultBranch`
 
-**Git has a property named `init.defaultBranch` that specifies a _branch_ name** that it uses for a couple of things (you'll learn more about Git branches in later lessons). Git uses `master` as the default value, but `main` is more common now. Git-Mastery uses `main` too. To make your Git behavior match our lessons better, you should set this property to `main`, as described in the panel below:
+**Git has a config property named `init.defaultBranch` that specifies the default _branch_ name for new repositories** (you'll learn more about Git branches in later lessons). Git uses `master` as the default value, but `main` is more common now. Git-Mastery uses `main` too. To make Git behave more consistently with our lessons, you should set this property to `main`, as described in the panel below:
 
 {% call show_prep("Set `init.defaultBranch` to `main`", "set-default-branch") %}
 
@@ -143,7 +143,7 @@ main
 
 
 ##### Interacting with Git: CLI vs GUI
-**Git is fundamentally a command-line tool.** You primarily interact with it through its <tooltip content="Command-Line Interface">CLI</tooltip> by typing commands. This gives you full control over its features and helps you understand what’s really happening under the hood.
+**Git is fundamentally a command-line tool.** You primarily interact with it by typing commands in its <tooltip content="Command-Line Interface">CLI</tooltip>. This gives you full control over its features and helps you understand what’s really happening under the hood.
 
 **<tooltip content="Graphical User Interface">GUI</tooltip> clients for Git also exist,** such as Sourcetree, GitKraken, and the built-in Git support in editors like IntelliJ IDEA and VS Code. These tools provide a more visual way to perform some Git operations.
 
@@ -165,7 +165,7 @@ Our Git lessons show how to perform Git operations using Git CLI and Sourcetree;
 
 ##### Installing the Git-Mastery App
 
-**In these lessons, we will be using a companion app called Git-Mastery** that we have developed to help Git learners. In particular, it provides exercises that you can do to self-test your Git knowledge, and also verifies if your solution is correct.
+**In these lessons, we will use Git-Mastery, a companion app we developed to help Git learners.** In particular, it provides exercises that let you self-test your Git knowledge, and it verifies whether your solution is correct.
 
 **If you are new to Git, we ==strongly recommend that you install and use the Git-Mastery app==.**
 
@@ -180,17 +180,17 @@ Our Git lessons show how to perform Git operations using Git CLI and Sourcetree;
   <box type="warning" seamless>
 
   **Do not run the `gitmastery.exe` file directly!** If you do, it will only flash a terminal briefly and disappear.<br>
-   Reason: Git-Mastery is a <tooltip content="Command Line Interface">CLI</tooltip> app that you activate by issuing a command via a terminal, not running the executable directly (e.g., by double-clicking the file).
+   Reason: Git-Mastery is an <tooltip content="Command Line Interface">CLI</tooltip> app that you activate by issuing a command via a terminal, not running the executable directly (e.g., by double-clicking the file).
   {{ ask_chatgpt("More on how to use CLI apps on Windows", "Guidance for answering: Give an answer with moderate level of details, and ask if if I would like a more detailed answer.\nBackground: I'm a Windows user new to CLI apps. I've been asked to use an app named gitmastery (that comes as an executable `gitmastery.exe`, and supports commands like `gitmastery version`). As the app is a companion for Git, the preferred terminal is Git Bash.\nQuestion: Explain how I should use a CLI app as opposed to apps I use simply by double-clicking an exe file.") }}
   </box>
 
 * Add the folder containing `gitmastery.exe` to your Windows `PATH` system variable by following [this guide](https://www.wikihow.com/Change-the-PATH-Environment-Variable-on-Windows).<br>
-  E.g. If the file location is `C:\Users\Jane\Tools\gitmastery.exe`, you should add `C:\Users\Jane\Tools` to your `PATH`.
+  E.g., if the file location is `C:\Users\Jane\Tools\gitmastery.exe`, you should add `C:\Users\Jane\Tools` to your `PATH`.
 * Close and reopen the Git Bash terminal (for the updated `PATH` to take effect).
 
 <panel header="**++:far-face-surprise: :fas-virus-covid: Windows Defender says gitmastery.exe is a virus?++**{.badge .bg-warning .text-dark}" icon=":fas-face-surprise:"  peek>
 
-**In some cases, Windows Defender virus scanner can incorrectly block gitmastery.exe** as a virus. The Git-Mastery team is currently working on getting the app allowlisted. In the meantime, it is safe to override the warning or block, either by choosing the `Run anyway` option (if given) or using the following steps.
+**In some cases, Windows Defender can incorrectly flag `gitmastery.exe`** as a virus. The Git-Mastery team is working on getting the app allowlisted. In the meantime, it is safe to override the warning or block by choosing the `Run anyway` option (if given) or using the following steps.
 
 1. Open `Windows Security` → `Virus & threat protection`.
 1. Click `Protection history`.
@@ -261,10 +261,10 @@ gitmastery --help
 
 <box type="info" seamless>
 
-The current version of #r#the app takes about 3-5 seconds to respond to a command## because it comes with a bundled Python runtime (so users don't need to install Python first) that must load before the command can be executed.
+The current version of #r#the app takes about 3 to 5 seconds to respond to a command## because it comes with a bundled Python runtime (so users don't need to install Python first) that must load before the command can be executed.
 </box>
 
-**3. In a terminal, navigate to a suitable folder** that you wish Git-Mastery to place the files and folders it creates.
+**3. In a terminal, navigate to a suitable folder** where you want Git-Mastery to place the files and folders it creates.
 
 <box type="important" seamless>
 
@@ -285,17 +285,17 @@ gitmastery setup
 ```
 
 The `gitmastery setup` command will perform the following tasks:
-* Checks if Git is installed. {{ numbers_abcd }}
-* Checks if `user.name` and `user.email` are set.
-* Prompts you to specify a name for the **git-mastery** {{ show_git_term("exercises directory") }} (sometimes called the {{ show_git_term("git-mastery root") }} directory).
+* Check if Git is installed. {{ numbers_abcd }}
+* Check if `user.name` and `user.email` are set.
+* Prompt you to specify a name for the **git-mastery** {{ show_git_term("exercises directory") }} (sometimes called the {{ show_git_term("git-mastery root") }} directory).
   * Recommended: accept the default (i.e., `gitmastery-exercises`) by pressing <kbd>Enter</kbd>.
   * If you choose to specify a different name for that folder, remember to use that name instead whenever our instructions refer to the `gitmastery-exercises` folder.
   * Caution: do not rename or move this folder later, as doing so can affect the app's functionality.
-* Sets up a mechanism to locally track the progress of your exercises.
+* Set up a mechanism to locally track the progress of your exercises.
 
 Notes:
-* If the command failed due to checks (a) or (b) failing, you can rectify the problem and run the command again.
-* If you wish to check the Git setup again at a later time, you can run the `gitmastery check git` command.
+* If the command fails because check (a) or (b) failed, you can fix the problem and run the command again.
+* If you want to check the Git setup again later, run the `gitmastery check git` command.
 
 --- {.dotted .border-dark}
 <div id="app-commands">
@@ -335,7 +335,7 @@ Explanation of 'Run from ...' options:
 
 ##### **Updating the Git-Mastery App**{.text-info}
 
-As the Git-Mastery app is under active development, it is likely to get updated frequently. When you run a `gitmastery <command>`, the output will warn you if there is a new version; update the app immediately by following the instructions in that message.
+Because the Git-Mastery app is under active development, it is likely to get updated frequently. When you run a `gitmastery <command>`, the output will warn you if there is a new version; update the app immediately by following the instructions in that message.
 
 {{ os_tabs_marker('windows') }}
 

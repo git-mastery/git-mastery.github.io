@@ -21,7 +21,7 @@ Here are some common ways to write them, shown with examples using the `git add 
   git add .  # stages all files in current directory and its subdirectories
   ```
 
-* **Specific directory, to indicate 'this directory and its subdirectories':**
+* **Specify a directory to indicate 'this directory and its subdirectories':**
   ```bash{highlight-lines="1['path/to/dir']"}
   git add path/to/dir  # stages all files in path/to/dir and its subdirectories
   ```

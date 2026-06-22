@@ -19,10 +19,10 @@
   </box>
   <box type="tip" seamless>
 
-  The `restore` command can accept multiple files/paths as input, which means you can use the <trigger trigger="click" for="modal:unstaging-protipMultipleFilesNotation">notation for specifying multiple files</trigger>. For example, to unstage all changes you've staged, you can use `git restore --staged .`.
+  The `restore` command can accept multiple files or paths as input, which means you can use the <trigger trigger="click" for="modal:unstaging-protipMultipleFilesNotation">notation for specifying multiple files</trigger>. For example, to unstage all changes you've staged, you can use `git restore --staged .`.
   </box>
 * **To unstage a file deletion** (staged using `git rm`), use the same command as above. It will unstage the deletion and restore the file in the staging area.<br>
-  **If you also deleted the file from your working directory**, you may need to recover it separately with `git restore <file-name(s)>`
+  **If you also deleted the file from your working directory**, you may need to recover it separately with `git restore <file-name(s)>`.
   ```bash{highlight-lines="1['restore']"}
   git restore data/list.txt data/plan.txt
   ```
@@ -38,6 +38,6 @@
 </div>
 <div id="sourcetree"><!-- ---------------------------------------------------- -->
 
-To unstage a file, locate the file among the `staged files` section, click the `...` in front of the file, and choose `Unstage file`:<br>
+To unstage a file, locate the file in the `staged files` section, click the `...` in front of the file, and choose `Unstage file`:<br>
 <pic src="images/sourcetreeUnstageFile.png"/>
 </div><!-- ------------------------------------------------------------------- -->

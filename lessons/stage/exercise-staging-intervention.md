@@ -2,7 +2,7 @@
 
 <div id="task" class="d-none">
 
-In the repo `intervention` given, unstage the following files: `adam.txt`, `josh.txt`, `mary.txt`.
+In the given `intervention` repo, unstage the following files: `adam.txt`, `josh.txt`, `mary.txt`.
 Keep other files staged.
 </div>
 

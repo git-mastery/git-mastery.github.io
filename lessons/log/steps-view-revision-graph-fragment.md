@@ -26,7 +26,7 @@ Date:   Fri ...
 
     Add fruits.txt
 ```
-Given below is the visual representation of the same revision graph. As you can see, the `log` output shows the refs slightly differently, but it is not hard to see what they mean.
+Below is the visual representation of the same revision graph. As you can see, the `log` output shows the refs slightly differently, but you can still match them to the same refs.
 
 {{ show_commit('C3', desc=show_ref('main') + show_head(), msg='Add colours.txt, shapes.txt') }}
 {{ show_commit('C2', msg='Insert figs into fruits.txt') }}
@@ -60,14 +60,14 @@ git log --oneline --graph
 * d5f91de Add fruits.txt
 ```
 {% endcall %}
-{{ icon_info }} The `--graph` option is more useful when examining a more complicated revision graph consisting of multiple parallel branches (branches will be covered in a later lesson).
+{{ icon_info }} The `--graph` option is more useful when examining a revision graph with multiple parallel branches (branches will be covered in a later lesson).
 
 </div>
 <div id="sourcetree"><!-- ---------------------------------------------------- -->
 
 Click `History` to see the revision graph.
 
-* In some versions of Sourcetree, the `HEAD` ref may not be shown -- it is implied that the `HEAD` ref is pointing to the same commit the currently active branch ref is pointing.
+* In some versions of Sourcetree, the `HEAD` ref may not be shown -- it is implied that the `HEAD` ref points to the same commit as the current branch ref.
 
 <pic eager src="images/sourcetreeShowSimpleGraph.png" width="600" />
 <p/>

@@ -14,7 +14,7 @@ Use the `git log --oneline --graph` to see the revision graph.
 
 Click `History` to see the revision graph.
 
-* In some versions of Sourcetree, the `HEAD` ref may not be shown -- it is implied that the `HEAD` ref is pointing to the same commit the currently active branch ref is pointing.
+* In some versions of Sourcetree, the `HEAD` ref may not be shown -- it is implied that the `HEAD` ref points to the same commit as the current branch ref.
 * If the remote-tracking branch ref (e.g., `origin/main`) is not showing up, you may need to enable the `Show Remote Branches` option.
 
 <pic eager src="images/sourcetreeShowSimpleGraph.png" width="600" />

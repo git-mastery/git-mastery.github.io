@@ -12,7 +12,7 @@
 To save a snapshot, **you start by specifying what to include in it, also called _staging_**.
 {% endcall %}
 
-**Git considers new files that you add to the working directory as {{ show_git_term("'untracked'") }}** i.e., Git is aware of them, but they are not yet under Git's control. The same applies to files that existed in the working folder at the time you initialized the repo.
+**Git treats new files that you add to the working directory as {{ show_git_term("'untracked'") }}**, i.e., Git is aware of them, but they are not yet under Git's control. The same applies to files that existed in the working folder at the time you initialized the repo.
 
 **A Git repo has an internal space called the {{ show_git_term('staging area') }} which it uses to build the next snapshot**. Another name for the staging area is the {{ show_git_term('index') }}.
 
@@ -70,7 +70,7 @@ cat fruits.txt
 {% endcall %}
 
 
-**If you modify a staged file, it goes into the {{ show_git_term("'modified'") }} state** i.e., the file contains modifications that are not present in the copy that is waiting (in the staging area) to be included in the next snapshot. If you wish to include these new changes in the next snapshot, you need to stage the file again, which will overwrite the copy of the file that was previously in the staging area.<br>
+**If you modify a staged file, it goes into the {{ show_git_term("'modified'") }} state**, i.e., the file contains changes that are not present in the staged copy waiting to be included in the next snapshot. If you wish to include these new changes in the next snapshot, you need to stage the file again, which will overwrite the copy of the file that was previously in the staging area.<br>
 The example below shows how the status of a file changes when it is modified _after_ it was staged.
 
 {{ show_folder_columns('folder-change-after-staging-fragment.md') }}
@@ -112,21 +112,21 @@ dragon fruits
 
 {{ hp_number('2') }} **Stage the file again**, the same way you added/staged it earlier.
 
-{{ hp_number('3') }} **Verify that Git no longer sees it as 'modified'**, similar to step 1.
+{{ hp_number('3') }} **Verify that Git no longer sees it as 'modified'**, as in step 1.
 
 {% endcall %} <!-- end: HOP -->
 
 **Staging applies regardless of whether a file is currently tracked.**
  * Staging an untracked file will both begin tracking the file and include it in the next snapshot.
- * **Staging an already tracked file will simply mark its current changes for inclusion in the next commit.**
+ * **Staging an already tracked file marks its current changes for inclusion in the next commit.**
 
 <div class="d-print-none">
 
-**Git also supports fine-grained selective staging** i.e., staging only specific changes within a file while leaving other changes to the same file unstaged. This will be covered in a later lesson.
+**Git also supports fine-grained selective staging**, i.e., staging only specific changes within a file while leaving other changes to the same file unstaged. This will be covered in a later lesson.
 </div>
 
 **Git does not track empty folders**. It tracks only folders that contain tracked files.<br>
-<span class="d-print-none">You can test this by adding an empty subfolder inside the `things` folder (e.g., `things/more-things`) and checking if it shows up as 'untracked' (it will not). If you add a file to that folder (e.g., `things/more-things/food.txt`) and then stage that file (e.g., `git add more-things/food.txt`), the folder will now be included in the next snapshot.</span>
+<span class="d-print-none">You can test this by adding an empty subfolder inside the `things` folder (e.g., `things/more-things`) and checking if it shows up as 'untracked' (it will not). If you add a file to that folder (e.g., `things/more-things/food.txt`) and then stage that file (e.g., `git add more-things/food.txt`), the file and its path will now be included in the next snapshot.</span>
 
 <include src="../common/protip-multiple-files-notation-fragment.md" />
 

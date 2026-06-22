@@ -17,9 +17,9 @@ git log  # check commits list
 ```
 <box type="tip" seamless>
 
-**You can copy-paste a list of commands** (such as commands given above), including any comments, to the terminal. After that, hit <kbd>enter</kbd> to run them in sequence.
+**You can copy-paste a list of commands** (such as the commands above), including any comments, to the terminal. After that, hit <kbd>enter</kbd> to run them in sequence.
 
-**zsh users**: If the terminal errors out due to comments starting with `#`, you may need to [enable _interactive comments_ feature](https://www.bartbusschots.ie/s/2019/06/13/bash-to-zsh-allowing-comments-in-interactive-shells/) in your terminal (e.g., add the line `setopt INTERACTIVE_COMMENTS` to your `~/.zshrc`).
+**zsh users**: If the terminal reports an error because of comments starting with `#`, you may need to [enable the _interactive comments_ feature](https://www.bartbusschots.ie/s/2019/06/13/bash-to-zsh-allowing-comments-in-interactive-shells/) in your terminal (e.g., add the line `setopt INTERACTIVE_COMMENTS` to your `~/.zshrc`).
 </box>
 
 

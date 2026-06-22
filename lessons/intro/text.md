@@ -11,7 +11,7 @@ Before learning about Git, let us first **understand what _revision control_** i
 {% endcall %}
 
 
-Given below is a general introduction to revision control, adapted from <trigger trigger="click" for="modal:rcsWhat-bryanMercurialGuide">bryan-mercurial-guide</trigger>:
+Below is a general introduction to revision control, adapted from <trigger trigger="click" for="modal:rcsWhat-bryanMercurialGuide">bryan-mercurial-guide</trigger>:
 <box seamless>
 
 {{ show_git_term('Revision control') }} **is the process of managing multiple versions of a piece of information.** In its simplest form, this is something that many people do by hand: every time you modify a file, save it under a new name that contains a number, each one higher than the number of the preceding version.
@@ -21,11 +21,11 @@ Manually managing multiple versions of even a single file is an error-prone task
 There are a number of reasons why you or your team might want to use an automated revision control tool for a project.
 
 * **It will track the history and evolution of your project**, so you don't have to. For every change, you'll have a log of who made it; why they made it; when they made it; and what the change was.
-* **It makes it easier for you to collaborate** when you're working with other people. For example, when people more or less simultaneously make potentially incompatible changes, the software will help you to identify and resolve those conflicts.
+* **It makes it easier for you to collaborate** when you're working with other people. For example, when people make potentially incompatible changes around the same time, the software helps you identify and resolve those conflicts.
 * **It can help you to recover from mistakes**. If you make a change that later turns out to be an error, you can revert to an earlier version of one or more files. In fact, a good revision control tool will even help you to efficiently figure out exactly when a problem was introduced.
-* **It will help you to work simultaneously on, and manage the drift between, multiple versions of your project.**
+* **It helps you work on multiple versions of your project at the same time, and manage the drift between them.**
 
-Most of these reasons are equally valid, at least in theory, whether you're working on a project by yourself, or with a hundred other people.
+Most of these reasons are equally valid, at least in theory, whether you're working on a project by yourself or with a hundred other people.
 </box>
 
 <modal large header="Reference » Mercurial: The Definitive Guide" id="modal:rcsWhat-bryanMercurialGuide">
@@ -34,7 +34,7 @@ Most of these reasons are equally valid, at least in theory, whether you're work
 </modal>
 
 **A {{ show_git_term('revision') }} is the state of a piece of information at a specific point in time, resulting from changes made to it**, e.g., if you modify the code and save the file, you have a new _revision_ (or a new _version_) of that file. %%Some seem to use this term interchangeably with _version_ while others seem to distinguish the two -- here, let us treat them as the same, for simplicity.%%<br>
-{{ show_git_term('Revision Control Software (RCS)') }} **is the software tool that automates the process of Revision Control**, i.e., managing revisions of software <popover content="any files or outputs related to the development of software, such as source files, build scripts, config files, etc.">artifacts</popover>. %%RCS tools are also known as _Version Control Software (VCS)_, and by a few other names.%%
+{{ show_git_term('Revision Control Software (RCS)') }} **is the software tool that automates revision control**, i.e., managing revisions of software <popover content="any files or outputs related to the development of software, such as source files, build scripts, config files, etc.">artifacts</popover>. %%RCS tools are also known as _Version Control Software (VCS)_, and by a few other names.%%
 
 **++[:fab-git-alt: Git](https://git-scm.com/)++ is the most widely used RCS today.** Other RCS tools include Mercurial, Subversion (SVN), Perforce, CVS (Concurrent Versions System), Bazaar, TFS (Team Foundation Server), and Clearcase.
 

@@ -1,7 +1,7 @@
 {% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 <div id="cli"><!-- ------------------------------------------------------------------- -->
 
-{{ hp_number('1') }} **First, let us do a sanity check** using the `git status` command, to confirm there are staged files.
+{{ hp_number('1') }} **First, do a sanity check** using the `git status` command to confirm there are staged files.
 
 ```bash{.no-line-numbers}
 git status

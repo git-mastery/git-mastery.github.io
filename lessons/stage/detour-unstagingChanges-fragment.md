@@ -2,7 +2,7 @@
 
 <!-- Note: This detour should come after the lesson on committing, because the commands for unstaging doesn't work if there are no commits  -->
 
- **You can unstage a staged file, which simply removes it from the staging area but keeps the changes in your working directory.** This is useful if you later realize that you don’t actually want to include a staged file in the next commit — perhaps you staged it by mistake, or you want to include that change in a later commit.
+ **Unstaging a staged file removes it from the staging area but keeps the changes in your working directory.** This is useful if you later realize that you don’t actually want to include a staged file in the next commit, perhaps because you staged it by mistake or want to include that change in a later commit.
 
 {{ show_steps_tabs('unstage-changes') }}
 <!-- ------ end: Git Tabs -------------------------------->

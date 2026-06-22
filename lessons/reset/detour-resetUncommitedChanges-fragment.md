@@ -11,7 +11,7 @@
 
 The command `git reset` (without specifying a commit) defaults to `git reset HEAD`.
 * `git reset`: moves any staged changes to working directory (i.e., unstage).
-* `git reset --hard`: get rid of any staged and unstaged changes.
+* `git reset --hard`: gets rid of any staged and unstaged changes.
 
 {% endset %}
 {% set sourcetree %}

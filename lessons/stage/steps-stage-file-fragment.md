@@ -6,7 +6,7 @@ Select `fruits.txt` and click the `Stage Selected` button.<br>
 </div>
 <div id="sourcetree-mac"><!-- ---------------------------------------------------- -->
 
-Staging can be done using tick boxes or the `...` menu in front of the file.<br>
+Staging can be done using checkboxes or the `...` menu in front of the file.<br>
 <pic eager src="{{baseUrl}}/lessons/stage/images/sourcetreeMacStageFile.png" />
 <p/>
 </div><!-- ------------------------------------------------------------------- -->
