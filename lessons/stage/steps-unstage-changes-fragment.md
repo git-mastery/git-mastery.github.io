@@ -14,7 +14,7 @@
   ```
   **In fact, `git reset` is an alternative way of unstaging files**, and it works regardless of whether you have any commits.
 
-  **Wait. Then why does `git restore --staged` exist at all**, given that it is more verbose and does not work in some special cases?<br>
+  **Wait. Then why does `git restore --staged` exist at all**, if it is longer and fails in some special cases?<br>
   Answer: It is still considered the "modern" way of unstaging files (it was introduced more recently), because it is more intuitive and purpose-specific -- whereas `git reset` serves multiple purposes and, if used incorrectly, can cause unintended consequences.
   </box>
   <box type="tip" seamless>

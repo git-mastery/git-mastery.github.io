@@ -60,7 +60,7 @@ gitGraph
 
 <box type="important" class="d-print-none" seamless>
 
-Because every commit has a unique hash, the #r#commit hash values you see in our examples will be different from the hash values of your own commits##, for example, when following our hands-on practicals.
+Because every commit has a unique hash, the #r#commit hash values in our examples will differ from your own commit hash values## when you follow our hands-on practicals.
 </box>
 
 
@@ -84,7 +84,7 @@ In the revision graph above, there are two refs {{ show_ref('main') }} and &nbsp
   **When you create a new commit, the branch ref of the <tooltip content="the currently active branch">current</tooltip> branch moves to the new commit.**<br>
   You'll be learning more about Git branches in a later lesson.
 * **{{ show_head()}} is a special ref that typically points to the current branch and moves along with that branch ref.** In this example, it is pointing to the `main` branch.<br>
-  In certain cases, the `HEAD` may point directly to a specific commit instead of a branch. This situation is called a 'detached `HEAD`', which will be covered in a later lesson.
+  In certain cases, the `HEAD` may point directly to a specific commit instead of a branch. This situation is called a 'detached `HEAD`'; a later lesson covers it.
 
 
 {% call show_hands_on_practical('View the revision graph')  %}

@@ -112,7 +112,7 @@ In other cases, you may need to adapt if the given screenshots/instructions are 
 
 <box type="info" seamless>
 
-**If Sourcetree shows a `\ No newline at the end of the file` message** below the staged lines (i.e., below the `cherries` line in the above screenshot), that is because you did not hit <kbd>enter</kbd> after entering the last line of the file, so Git is not sure if that line is complete. To fix this, move the cursor to the end of the last line in that file and hit <kbd>enter</kbd>, as if you were adding a blank line below it. This new change will now appear as an 'unstaged' change. Stage it as well.
+**If Sourcetree shows a `\ No newline at the end of the file` message** below the staged lines (i.e., below the `cherries` line in the above screenshot), it means you did not press <kbd>enter</kbd> after entering the last line of the file, so Git is not sure if that line is complete. To fix this, move the cursor to the end of the last line in that file and press <kbd>enter</kbd>, as if you were adding a blank line below it. This new change will now appear as an 'unstaged' change. Stage it as well.
 </box>
 </div><!-- ------------------------------------------------------------------- -->
 

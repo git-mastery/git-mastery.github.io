@@ -47,12 +47,12 @@ Date:   Sat ...
 ```bash
 git --no-pager log
 ```
-You can ask Git not to use `less` at all, to use a different pager, or to fine-tune how `less` is used. For example, **you can reduce Git's use of the pager** (recommended) by using the following command:
+You can also configure Git not to use `less`, to use a different pager, or to fine-tune how `less` behaves. For example, **you can reduce Git's use of the pager** (recommended) by using the following command:
 ```bash
 git config --global core.pager "less -FRX"
 ```
 
-Explanation: `-FRX` is a shorthand for combining the following three flags.
+Explanation: `-FRX` is shorthand for combining the following three flags.
 
 * `-F` : Quits if the output fits on one screen (don’t show pager unnecessarily)
 * `-R` : Shows raw control characters (for colored Git output)

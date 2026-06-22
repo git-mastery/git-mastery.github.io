@@ -137,7 +137,7 @@ main
 ```
 {% endcall %}
 
-{{ icon_info }} If you wish to set this property back to `master` at a later time, simply use the command `git config --global init.defaultBranch master`.
+{{ icon_info }} If you want to set this property back to `master` later, use `git config --global init.defaultBranch master`.
 
 {% endcall %} <!-- show_prep -->
 

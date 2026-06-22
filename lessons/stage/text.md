@@ -14,7 +14,7 @@ To save a snapshot, **you start by specifying what to include in it, also called
 
 **Git treats new files that you add to the working directory as {{ show_git_term("'untracked'") }}**, i.e., Git is aware of them, but they are not yet under Git's control. The same applies to files that existed in the working folder at the time you initialized the repo.
 
-**A Git repo has an internal space called the {{ show_git_term('staging area') }} which it uses to build the next snapshot**. Another name for the staging area is the {{ show_git_term('index') }}.
+**A Git repo has an internal space called the {{ show_git_term('staging area') }}, which it uses to build the next snapshot**. Another name for the staging area is the {{ show_git_term('index') }}.
 
 **We can {{ show_git_term('stage', 'stage', 'stage') }} an untracked file** to tell Git that we want its current version to be included in the next snapshot (in Git terminology, such a snapshot is called a {{ show_git_term("commit") }}). Once you stage an untracked file, it becomes {{ show_git_term("'tracked'") }} (i.e., under Git's control). A staged file can be {{ show_git_term("unstaged") }} to indicate that we no longer want it to be included in the next snapshot.
 
@@ -122,7 +122,7 @@ dragon fruits
 
 <div class="d-print-none">
 
-**Git also supports fine-grained selective staging**, i.e., staging only specific changes within a file while leaving other changes to the same file unstaged. This will be covered in a later lesson.
+**Git also supports fine-grained selective staging**, i.e., staging only specific changes within a file while leaving other changes to the same file unstaged. A later lesson covers this.
 </div>
 
 **Git does not track empty folders**. It tracks only folders that contain tracked files.<br>

@@ -18,7 +18,7 @@ Below is a general introduction to revision control, adapted from <trigger trigg
 
 Manually managing multiple versions of even a single file is an error-prone task, though, so software tools to help automate this process have long been available. The earliest automated revision control tools were intended to help a single user to manage revisions of a single file. Over the past few decades, the scope of revision control tools has expanded greatly; they now manage multiple files, and help multiple people to work together. The best modern revision control tools have no problem coping with thousands of people working together on projects that consist of hundreds of thousands of files.
 
-There are a number of reasons why you or your team might want to use an automated revision control tool for a project.
+There are several reasons why you or your team might want to use an automated revision control tool for a project.
 
 * **It will track the history and evolution of your project**, so you don't have to. For every change, you'll have a log of who made it; why they made it; when they made it; and what the change was.
 * **It makes it easier for you to collaborate** when you're working with other people. For example, when people make potentially incompatible changes around the same time, the software helps you identify and resolve those conflicts.
