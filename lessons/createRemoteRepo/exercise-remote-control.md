@@ -2,12 +2,12 @@
 
 <div id="task" class="d-none">
 
-1. As per the usual practice, `cd` into the `remote-control` folder.
-1. Run `gitmastery verify` command.<br>
-1. Take note of the repo name provided by Git-Mastery app (in its response).
+1. As usual, `cd` into the `remote-control` folder.
+1. Run the `gitmastery verify` command.
+1. Take note of the repo name provided by the Git-Mastery app (in its response).
 1. Create a new public GitHub repository using the repo name given.
-1. Provide the URL of that remote (without the `.git` at the end) when prompted<br>
- e.g., `https://github.com/[[username: JohnDoe]]/gitmastery-[[username: JohnDoe]]-remote-control`
+1. Provide the URL of that remote (without the `.git` at the end) when prompted.<br>
+   For example, `https://github.com/[[username: JohnDoe]]/gitmastery-[[username: JohnDoe]]-remote-control`
 
 </div>
 

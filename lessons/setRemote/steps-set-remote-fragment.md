@@ -4,7 +4,7 @@
 
 {{ m.hp_number ('1') }} **In a terminal, navigate to the folder containing the local repo** `things`.
 
-{{ m.hp_number ('2') }} **List the current list of remotes** using the `git remote -v` command (`-v` stands for 'verbose'), for a sanity check. No output is expected if there are no remotes yet.
+{{ m.hp_number ('2') }} **List the current remotes** using the `git remote -v` command (`-v` stands for 'verbose'), for a sanity check. No output is expected if there are no remotes yet.
 
 {{ m.hp_number ('3') }} **Add a new remote repo** using the `git remote add <remote-name> <remote-url>` command.<br>
 
@@ -19,7 +19,7 @@ git@github.com:<owner>/<remote-repo>.git  # using SSH
 Your GitHub username : <cv-placeholder-input name="username" appearance="underline" layout="inline"></cv-placeholder-input><br>
 %%<small>Note: Type your GitHub username in the blank above so that we can customize sample commands to fit you.</small>%%</box>
 
-The full command:
+The full commands:
 ```bash{highlight-lines="1['[[username: JohnDoe]]'],1['gitmastery-things'],2['[[username: JohnDoe]]'],2['gitmastery-things']"}
 git remote add origin https://github.com/[[username: JohnDoe]]/gitmastery-things.git  # using HTTPS
 git remote add origin git@github.com:[[username: JohnDoe]]/gitmastery-things.git  # using SSH
@@ -46,7 +46,7 @@ origin  https://github.com/[[username: JohnDoe]]/gitmastery-things.git (push)
 ```
 {% endcall %}
 
-{{ icon_info }} The same remote will be listed twice, to indicate that the remote supports two operations (`fetch` and `push`). You can ignore that for now. The important thing is the remote you added is being listed.
+{{ icon_info }} The same remote will be listed twice, to indicate that the remote supports two operations (`fetch` and `push`). You can ignore that for now. The important thing is that the remote you added is listed.
 
 </div>
 <div id="sourcetree"><!-- ---------------------------------------------------- -->
@@ -62,7 +62,7 @@ origin  https://github.com/[[username: JohnDoe]]/gitmastery-things.git (push)
 
 <pic eager src="images/fillRemoteInfoForSourceTree.png" width="450" />
 
-* `Remote name`: the name you want to assign to the remote repo i.e., `origin`
+* `Remote name`: the name you want to assign to the remote repo, for example, `origin`
 * `URL/path`: the URL of your remote repo<br>
   ```bash{highlight-lines="1['<owner>'],1['<repo>'],2['<owner>'],2['<repo>']"}
   https://github.com/<owner>/<repo>.git  # using HTTPS

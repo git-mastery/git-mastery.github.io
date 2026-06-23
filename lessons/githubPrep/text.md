@@ -9,15 +9,15 @@
 
 <div id="body">
 {% call show_lesson_intro() %}
-To use GitHub, **you need to sign up for an account, and configure related tools/settings** first.
+To use GitHub, **you need to sign up for an account and configure related tools and settings** first.
 {% endcall %}
 
-**GitHub is a web-based service that hosts Git repositories and adds collaboration features** on top of Git. Two other similar platforms are GitLab and Bitbucket. While you use Git to manage version control locally, you can use such a platform to access additional features such as shared access to repositories, issue tracking, code reviews, and permission controls. They are widely used in software development projects, for both {{ show_git_term("open-source software (OSS)", "oss", "githubPrep") }} and {{ show_git_term("closed-source software") }} projects.
+**GitHub is a web-based service that hosts Git repositories and adds collaboration features** on top of Git. Two other similar platforms are GitLab and Bitbucket. While you use Git to manage version control locally, you can use such a platform to access additional features such as shared access to repositories, issue tracking, code reviews, and permission controls. These platforms are widely used in software development for both {{ show_git_term("open-source software (OSS)", "oss", "githubPrep") }} and {{ show_git_term("closed-source software") }} projects.
 
 {{ show_git_term_tip('oss', 'githubPrep') }}
 
 
-**On GitHub, a Git repo can be put in one of two spaces:**
+**On GitHub, a Git repo can belong to one of two account spaces:**
 
 * **A {{ show_git_term("GitHub user account") }} represents an individual user.** It is created when you sign up for GitHub and includes a username, profile page, and personal settings. With a user account, you can create your own repositories, contribute to others’ projects, and manage collaboration settings for any repositories you own.
 * **A {{ show_git_term("GitHub organization") }} ({{ show_git_term("org") }} for short) is a shared account used by a group** such as a team, company, or open-source project. Organizations can own repositories and manage access to them through teams, roles, and permissions. Organizations are especially useful when managing repositories with shared ownership or when working at scale.
@@ -29,13 +29,13 @@ To use GitHub, **you need to sign up for an account, and configure related tools
 
 <box type="tip" seamless>
 
-**Choose a sensible GitHub username** as you are likely to use it for years to come in professional contexts e.g., in job applications.
+**Choose a sensible GitHub username** as you are likely to use it for years to come in professional contexts, e.g., in job applications.
 </box>
 
 **[Optional, but recommended] Set up your GitHub profile**, as explained in [GitHub Docs → Setting up your profile](https://docs.github.com/en/get-started/start-your-journey/setting-up-your-profile).
 {% endcall %}<!-- show_prep GitHub account -->
 
-**Before you can interact with GitHub from your local Git client, you need to set up authentication.**  In the past, you could simply enter your GitHub username and password, but GitHub no longer accepts passwords for Git operations. Instead, you’ll use a more secure method — such as a Personal Access Token (PAT) or SSH keys — to prove your identity.
+**Before you can interact with GitHub from your local Git client, you need to set up authentication.** In the past, you could simply enter your GitHub username and password, but GitHub no longer accepts passwords for Git operations. Instead, you’ll use a more secure method, such as a Personal Access Token (PAT) or SSH keys, to prove your identity.
 
 <box type="info" seamless>
 
@@ -54,7 +54,7 @@ Set up your computer's GitHub authentication, as described in the se-edu guide [
 {% endcall %}<!-- show_prep GitHub authentication -->
 
 
-**GitHub associates a commit to a user based on the email address in the commit metadata.** When you push a commit, GitHub checks if the email matches a verified email on a GitHub account. If it does, the commit is shown as authored by that user. If the email doesn’t match any account, the commit is still accepted but won’t be linked to any profile.
+**GitHub associates a commit with a user based on the email address in the commit metadata.** When you push a commit, GitHub checks if the email matches a verified email on a GitHub account. If it does, the commit is shown as authored by that user. If the email doesn’t match any account, the commit is still accepted but won’t be linked to any profile.
 
 **GitHub provides a no-reply email** (e.g., `12345678+username@users.noreply.github.com`) that you can use as your Git `user.email` to hide your real email while still associating commits with your GitHub account.
 
@@ -65,7 +65,7 @@ Set up your computer's GitHub authentication, as described in the se-edu guide [
 1. **Find your no-reply email provided by GitHub:**  Navigate to the email settings of your GitHub account and select the option to `Keep my email address private`. The no-reply address will then be displayed, typically in the format `ID+USERNAME@users.noreply.github.com`.<br>
    <pic src="images/seeNoReplyEmail.png"/>
 
-1. **Update your `user.email`** with that email address e.g.,
+1. **Update your `user.email`** with that email address, e.g.,
    ```bash{.no-line-numbers}
    git config --global user.email "12345678+username@users.noreply.github.com"
    ```
@@ -73,12 +73,12 @@ Set up your computer's GitHub authentication, as described in the se-edu guide [
 
 **GitHub offers its own clients to make working with GitHub more convenient.**
 
-* **The {{ show_git_term("GitHub Desktop") }} app provides a GUI for performing most GitHub operations** from your desktop, without needing to visit the GitHub web UI.<span class="d-print-none"><br>Git-Mastery lessons do not use the GitHub Desktop -- so, there is no need for you to install it.</span>
+* **The {{ show_git_term("GitHub Desktop") }} app provides a GUI for performing most GitHub operations** from your desktop, without needing to visit the GitHub web UI.<span class="d-print-none"><br>Git-Mastery lessons do not use GitHub Desktop, so there is no need for you to install it.</span>
 * **The {{ show_git_term("GitHub CLI (`gh`)") }} brings GitHub-specific commands to your terminal**, letting you perform most GitHub operations through your terminal.
 
 <div class="d-print-none" tags="git-mastery">
 
-**If you are using Git-Mastery exercises (strongly recommended), you need to install and configure GitHub CLI** because it is needed by Git-Mastery exercises involving GitHub.
+**If you are using Git-Mastery exercises (strongly recommended), install and configure GitHub CLI** because some Git-Mastery exercises involving GitHub require it.
 
 {% call show_prep("Set up GitHub CLI", "setup-github-cli") %}
 
@@ -138,8 +138,8 @@ gitmastery progress sync on
 
 **What happens when you switch on the Git-Mastery 'progress sync' feature?**
 
-* Your Git-Mastery exercises progress will be backed up to your GitHub account. If you wipe out your local progress data by mistake, the remote copy will still be preserved.
-* Git-Mastery will create a repo in your GitHub account, to back up your progress data. This repo will be publicly visible.
+* Your progress in Git-Mastery exercises will be backed up to your GitHub account. If you wipe out your local progress data by mistake, the remote copy will still be preserved.
+* Git-Mastery will create a repo in your GitHub account to back up your progress data. This repo will be publicly visible.
 
 </box>
 {% endcall %}<!-- show_prep GitHub CLI -->

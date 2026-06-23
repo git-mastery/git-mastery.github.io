@@ -10,7 +10,7 @@ pageNav: 4
 
 <span class="d-none" id="destination">To back up a Git repository on a cloud-based Git service such as GitHub.</span>
 
-<span class="d-none" id="motivation">One (of several) benefits of maintaining a copy of a repo on a cloud server: it acts as a safety net %%(e.g., against the folder becoming inaccessible due to a hardware fault)%%.</span>
+<span class="d-none" id="motivation">One benefit of maintaining a copy of a repo on a cloud server is that it acts as a safety net %%(e.g., against the folder becoming inaccessible due to a hardware fault)%%.</span>
 
 
 <div id="body">
@@ -21,6 +21,6 @@ pageNav: 4
 <div id="extras">
 </div>
 
-<span class="d-none" id="achievements">You should now be able to create a copy of your repo on GitHub, and keep it updated as you add more commits to your local repo. If something goes wrong with your local repo (e.g., disk crash), you can now recover the repo using the remote repo (this tour did not cover how exactly you can do that -- it will be covered in a future tour).</span>
+<span class="d-none" id="achievements">You should now be able to create a copy of your repo on GitHub and keep it updated as you add more commits to your local repo. If something goes wrong with your local repo (e.g., disk crash), you can now recover the repo using the remote repo. This tour did not cover the exact recovery steps; they will be covered in a future tour.</span>
 
 <span id="next">{{ show_tour_link(trail.workingWithRemotes) }}</span>

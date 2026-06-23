@@ -14,7 +14,7 @@ temp.txt
 {% endcall %} <!-- show_output -->
 
 
-Observe how `temp.txt` is no longer detected as 'untracked' by running the `git status` command (but now it will detect the `.gitignore` file as 'untracked'.
+Observe how `temp.txt` is no longer detected as 'untracked' by running the `git status` command (but now it will detect the `.gitignore` file as 'untracked').
 
 Update the `.gitignore` file as follows:
 
@@ -28,12 +28,12 @@ Observe how `.tmp` files are no longer detected as 'untracked' by running the `g
 </div>
 <div id="sourcetree"><!-- ---------------------------------------------------- -->
 
-The file should be currently listed under `Unstaged files`. Right-click it and choose `Ignore...`. Choose `Ignore exact filename(s)` and click `OK`.<br>
-Also take note of other options available e.g., `Ignore all files with this extension` etc. They may be useful in future.
+The file should currently be listed under `Unstaged files`. Right-click it and choose `Ignore...`. Choose `Ignore exact filename(s)` and click `OK`.<br>
+Also note the other options available, e.g., `Ignore all files with this extension`. They may be useful in future.
 
 <pic src="images/sourcetreeIgnoreFileDialog.png" />
 
-Note how the `temp.text` is no longer listed under `Unstaged files`. Observe that a file named `.gitignore` has been created in the working directory root and has the following line in it. This new file is now listed under `Unstaged files`.
+Note how `temp.txt` is no longer listed under `Unstaged files`. Observe that a file named `.gitignore` has been created in the working directory root and has the following line in it. This new file is now listed under `Unstaged files`.
 
 ```{heading=".gitignore"}
 temp.txt

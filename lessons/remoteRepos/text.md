@@ -13,7 +13,7 @@ To back up your Git repo on the cloud, **you’ll need to use a _remote reposito
 
 {% endcall %}
 
-**A repo you have on your computer is called a {{ show_git_term('local repo') }}. A {{ show_git_term('remote repo') }} is a repo hosted on a remote computer** and allows remote access. Some use cases for remote repositories:
+**A repo you have on your computer is called a {{ show_git_term('local repo') }}. A {{ show_git_term('remote repo') }} is a repo hosted on a remote computer** so other computers can access it. Some use cases for remote repositories:
 
 * as a backup of your local repo { texts="['a)', 'b)', 'c)']" }
 * as an intermediary repo to work on the same files from multiple computers

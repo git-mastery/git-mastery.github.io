@@ -18,7 +18,7 @@ Explanation:
 </div>
 <div id="sourcetree"><!-- ---------------------------------------------------- -->
 
-Click the `Push` button on the buttons ribbon at the top.
+Click the `Push` button on the toolbar at the top.
 
 <annotate src="{{baseUrl}}/lessons/images/sourcetreeTopMenu.png" width="400" alt="Sourcetree top menu">
   <a-point x="34%" y="5%" content="Look within this box">

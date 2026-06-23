@@ -15,7 +15,7 @@ The third step of backing up a local repo on GitHub: **push local commits to a b
 
 **You can {{ show_git_term('push') }} recorded Git history from one repository to another**, usually from your local repo to a remote repo. Pushing sends commits and updates a branch in the remote repo, but it does not transfer unstaged changes or untracked files.
 
-* **To push, you need to have <tooltip content="permission to update contents on the remote">write-access</tooltip> to the remote repo**.
+* **To push, you need to have <tooltip content="permission to update contents on the remote">write access</tooltip> to the remote repo**.
 * **Pushing is performed one branch at a time**; you must specify which branch you want to push.
 
 **You can configure Git to remember which remote branch a local branch should push to by default**, so later you can push from the same local branch without specifying the destination again. For example, you can set your local `main` branch to use the `main` branch on the remote repo `origin` as its corresponding branch. In the revision graph below, **the ref {{ show_ref('origin/main') }} is a {{ show_git_term("remote-tracking branch") }} that represents Git's latest known state of a corresponding branch in a remote repository**. More precisely, a remote-tracking branch records the state of the corresponding remote branch _at the time Git last updated that information_, such as after a successful push.
@@ -58,7 +58,7 @@ Note: Because the remote repo is empty, this push creates the `main` branch on t
 
 {% endcall %}
 
-**You can use the push command repeatedly to send further updates to another repo** e.g., to update the remote with commits you created since you pushed the first time.
+**You can use the push command repeatedly to send further updates to the remote repo**, e.g., to update the remote with commits you created since you pushed the first time.
 
 {% call show_hands_on_practical('Pushing to send further updates to a repo')  %}
 
@@ -77,7 +77,7 @@ git commit -am "Update fruits list"
 ```
 <box type="info" seamless>
 
-**`-am` is a shorthand for `-a -m`**. The `-a` option stages any changes to tracked files, and `-m` is for specifying the commit message. <span class="d-print-none"> See {{ ask_chatgpt("here", "I'm new to Git. Explain what the `git commit -am \"Update fruits list\"` command does. Elaborate how combining of options work in general.") }} for a longer explanation.</span>
+**`-am` is shorthand for `-a -m`**. The `-a` option stages any changes to tracked files, and `-m` is for specifying the commit message. <span class="d-print-none"> See {{ ask_chatgpt("here", "I'm new to Git. Explain what the `git commit -am \"Update fruits list\"` command does. Elaborate how combining of options work in general.") }} for a longer explanation.</span>
 </box>
 
 {{ show_steps_tabs('commit-changes') }}
@@ -93,7 +93,7 @@ git commit -am "Update fruits list"
 
 **Can one push from any repo to any other repo?**{.text-info}
 
-When updating an existing branch on a remote, **Git normally expects your local changes to build on the remote repo's current history**. That is, you cannot normally push if the two repos are completely unrelated to each other.  In this tour, the remote repo is empty, so the first push from a local repo goes through just fine.
+When updating an existing branch on a remote, **Git normally expects your local changes to build on the remote repo's current history**. That is, you cannot normally push if the two repos are completely unrelated to each other. In this tour, the remote repo is empty, so the first push from a local repo goes through just fine.
 </box>
 
 </div>

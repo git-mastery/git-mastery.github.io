@@ -2,7 +2,7 @@
 
 <div id="cli"><!-- ------------------------------------------------------------------- -->
 
-Use the `git log --oneline --graph` to see the revision graph.
+Use `git log --oneline --graph` to see the revision graph.
 ```bash {highlight-lines="1['origin/main']@#e6fff2"}
 * f761ea6 (HEAD -> main, origin/main) Add colours.txt, shapes.txt
 * 2bedace Insert figs into fruits.txt

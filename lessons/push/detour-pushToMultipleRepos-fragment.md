@@ -3,7 +3,7 @@
 
 **You can push to any number of repos**, as long as the target repos and your repo have a shared history.
 1. <trigger trigger="click" for="modal:push-addRemoteForNormalPushing">Add the GitHub repo URL as a remote</trigger> while giving a suitable name (e.g., `upstream`, `central`, `production`, `backup` ...), if you haven't done so already.
-1. Push to the target repo -- remember to select the correct target repo when you do.
+1. Push to the target repo, remembering to select the correct target repo when you push.
 
 <modal large header="Git & GitHub → Push →" id="modal:push-addRemoteForNormalPushing">
   <include src="../setRemote/text.md#body"/>

@@ -10,16 +10,16 @@
 Git allows you to **specify which files should be omitted from revision control**.
 {% endcall %}
 
-**You can specify which files Git should {{ show_git_term("ignore") }} from revision control**. While you can always omit files from revision control simply by not staging them, having an 'ignore-list' is more convenient, especially if there are files inside the working folder that are not suitable for revision control %%(e.g., temporary log files)%% or files you want to prevent from accidentally including in a commit %%(files containing confidential information)%%.
+**You can specify which files Git should {{ show_git_term("ignore") }} when deciding what to track**. While you can always omit files from revision control simply by not staging them, an 'ignore-list' is more convenient, especially when the working folder contains files that are not suitable for revision control %%(e.g., temporary log files)%% or files you want to avoid accidentally committing %%(e.g., files containing confidential information)%%.
 
 **A repo-specific ignore-list of files can be specified in a `.gitignore` file**, stored in the root of the repo folder.
 
-**The `.gitignore` file itself can be either revision controlled or ignored.**
+**The `.gitignore` file itself can either be tracked by Git or ignored.**
 
-* To version control it (the more common choice – which allows you to track how the `.gitignore` file changes over time), simply commit it as you would commit any other file.
+* To keep it under version control (the more common choice, which allows you to track how the `.gitignore` file changes over time), simply commit it as you would commit any other file.
 * To ignore it, simply add its name to the `.gitignore` file itself.
 
-**The `.gitignore` file supports file patterns** e.g., adding `temp/*.tmp` to the `.gitignore` file prevents Git from tracking any `.tmp` files in the `temp` directory.
+**The `.gitignore` file supports file patterns**; e.g., adding `temp/*.tmp` to the `.gitignore` file prevents Git from tracking any `.tmp` files in the `temp` directory.
 
 {% call show_sidebar("`.gitignore` File Syntax", non_printable=1) %}
 
@@ -28,7 +28,7 @@ Git allows you to **specify which files should be omitted from revision control*
   ```bash
    # This is a comment
    ```
-* Write the name or pattern of files/directories to ignore.
+* Write the name or pattern for each file/directory to ignore.
   ```bash
   log.txt          # Ignores a file named log.txt
   ```
@@ -66,7 +66,7 @@ Git allows you to **specify which files should be omitted from revision control*
     /secret.txt    # Only ignores secret.txt in the repository root
     ```
 
-* Negation: Use `!` at the start of a line to not ignore something.
+* Negation: Use `!` at the start of a line to stop ignoring something.
   ```bash
   *.log           # Ignores all .log files
   !important.log  # Except important.log
@@ -89,7 +89,7 @@ node_modules/
 
 **`.gitignore` is a 'hidden' file!**{.text-info}
 
-Files with a name starting with `.` (such as `.gitignore`) are considered hidden files by macOS and Linux. It is very likely that Git tools used in Windows also mark the `.gitignore` file as a hidden file. Therefore, if the `.gitignore` file is not visible to you, you'll need to look for it among 'hidden' files.<br>
+Files with a name starting with `.` (such as `.gitignore`) are considered hidden files by macOS and Linux. Git tools on Windows are also likely to mark the `.gitignore` file as a hidden file. Therefore, if the `.gitignore` file is not visible to you, you'll need to look for it among 'hidden' files.<br>
 How to do that in: {{ ask_chatgpt(":fab-windows: Windows", "How to show hidden files in Windows?") }} | {{ ask_chatgpt(":fab-apple: macOS", "How to show hidden files in macOS?") }} | {{ ask_chatgpt(":fab-linux: Linux", "How to show hidden files in Linux?") }}
 </box>
 
@@ -101,10 +101,10 @@ How to do that in: {{ ask_chatgpt(":fab-windows: Windows", "How to show hidden f
 **Create a `temp.txt` file and a few `.tmp` files in a repo**. These are presumably files we do not want to include in our revision history. For example, as follows:
 
 ```bash
-echo “good stuff” > keep.txt
-echo “temp stuff” > temp.txt
-echo “more temp stuff” > file1.tmp
-echo “even more temp stuff” > file2.tmp
+echo "good stuff" > keep.txt
+echo "temp stuff" > temp.txt
+echo "more temp stuff" > file1.tmp
+echo "even more temp stuff" > file2.tmp
 ```
 {% endset %}
 {{ hp_number(hop_preparation) }}
@@ -121,12 +121,12 @@ echo “even more temp stuff” > file2.tmp
 
 **Files recommended to be omitted from version control**
 
-* **Binary files** _generated_ when building your project %%e.g., `*.class`, `*.jar`, `*.exe`%%<br> Reasons:
-  1. no need to version control these files as they can be generated again from the source code
+* **Binary files** _generated_ when building your project, %%e.g., `*.class`, `*.jar`, `*.exe`%%<br> Reasons:
+  1. There is no need to version control these files, as they can be generated again from the source code.
   1. Revision control systems are optimized for tracking text-based files, not binary files.
 * **Temporary files** %%e.g., log files generated while testing the product%%
-* **Local files** i.e., files specific to your own computer %%e.g., local settings of your IDE (`.idea/`)%%
-* **Sensitive content** i.e., files containing sensitive/personal information %%e.g., credential files, personal identification data%% (especially if there is a possibility of those files getting leaked via the revision control system).
+* **Local files**, i.e., files specific to your own computer %%e.g., local settings of your IDE (`.idea/`)%%
+* **Sensitive content**, i.e., files containing sensitive or personal information %%e.g., credential files, personal identification data%% (especially if there is a risk of those files leaking through the revision control system).
 
 </div>
 
