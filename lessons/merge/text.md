@@ -18,7 +18,7 @@ Most work done on **branches eventually gets _merged_** together.
 
 {% call show_two_column_row("images/normalBeforeMerge.png") %}
 **The branch you are merging _into_ (the branch you are currently on) is called the {{ show_git_term("destination branch") }}** (other terms: _receiving_ branch, _target_ branch).<br>
- **The branch you are merging is the {{ show_git_term("source branch") }}</tooltip>** (other terms: _incoming_ branch, _merge_ branch).<br>
+**The branch you are merging is the {{ show_git_term("source branch") }}** (other terms: _incoming_ branch, _merge_ branch).<br>
 In our example, `main` is the destination branch and `fix1` is the source branch.
 {% endcall %}
 
@@ -333,7 +333,7 @@ In the example above, `fix1` has been squash-merged into `main`, creating a sing
 
 <!-- ------ end: transformation columns -------------------------------->
 
-**After a squash merge, you typically delete the source branch**, so its individual commits no longer appear in the destination branch's main history. The history stays linear because one regular commit replaces the source branch's work, with no second-parent link to that branch.
+**After a squash merge, you typically delete the source branch**, so its individual commits no longer appear in the destination branch's main history %%(you'll learn how to delete branches in an upcoming lesson)%%. The history stays linear because one regular commit replaces the source branch's work, with no second-parent link to that branch.
 
 Here is a comparison of the three merge types covered here: regular merging with a merge commit, fast-forward merging, and squash merging.
 
