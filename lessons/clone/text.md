@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_fine_print, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can clone a repo.</span>
@@ -10,7 +10,7 @@
 The next step is to **create a local copy of the remote repo, by _cloning_ the remote repo**.
 {% endcall %}
 
-**You can {{ show_git_term("clone") }} a repository to create a full copy of it on your computer.** This copy includes the entire revision history, branches, and files of the original, so it behaves just like the original repository. For example, you can clone a repository from a hosting service like GitHub to your computer, giving you a complete local version to work with.
+**You can {{ show_git_term("clone") }} a repository to create a local copy of it on your computer.** A normal clone downloads the repository history and checks out the default branch, giving you a working copy you can use locally. {{ show_fine_print("Cloning also records Git's latest known state of the remote branches using names such as `origin/main`, so you can inspect them and create local branches from them later.") }}
 
 **Cloning a repo automatically creates a remote named `origin`** which points to the repo you cloned from.
 

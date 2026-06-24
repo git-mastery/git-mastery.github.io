@@ -9,7 +9,7 @@ You have been given a clone of the [git-mastery/gm-shapes](https://github.com/gi
    * Bring over Alice's additional commit to your repo.
 2. Alice's friend Bob has copied Alice's repo to https://github.com/git-mastery/gm-shapes-bob, and added one more commit.
    * Add that repo as another remote named `bob-upstream`.
-   * Download the metadata about this new commit (i.e., fetch, not pull or merge) to your repo.
+   * Fetch (not pull) Bob's new commit into your repo, without merging it into `main`.
 </div>
 
 {{ show_exercise(exercises.fetch_and_pull, is_panel=0) }}

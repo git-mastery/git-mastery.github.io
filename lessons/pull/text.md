@@ -234,7 +234,7 @@ fd96227 Add loans.txt
 {% endcall %}
 {% endset %}
 {% set sourcetree %}
-To merge the fetched changes, right-click on the latest commit on `origin/remote` branch and choose `Merge`.
+To merge the fetched changes, right-click on the latest commit on the `origin/main` branch and choose `Merge`.
 
 <pic src="images/sourcetreeRightClickToMerge.png" width="400" />
 
