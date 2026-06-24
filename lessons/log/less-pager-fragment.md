@@ -1,7 +1,7 @@
 {% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 
 {% call show_sidebar("Working with the 'less' pager") %}
-**Some Git commands — such as `git log` — may show their output through a {{ show_git_term("pager") }}.** A pager is a program that lets you view long text one screen at a time, so you don’t miss anything that scrolls off the top. For example, `git log` output will temporarily hide the current terminal content and enter a pager view that shows the output one screen at a time. When you exit the pager, the `git log` output will disappear from view, and the previous content of the terminal will reappear.
+**Some Git commands -- such as `git log` -- may show their output through a {{ show_git_term("pager") }}.** A pager is a program that lets you view long text one screen at a time, so you don't miss anything that scrolls off the top. For example, `git log` output will temporarily hide the current terminal content and enter a pager view that shows the output one screen at a time. When you exit the pager, the `git log` output will disappear from view, and the previous content of the terminal will reappear.
 
 {% set a %} <!-- ------ start: transformation columns --------------->
 ```
@@ -43,7 +43,7 @@ Date:   Sat ...
 | `N`          | Repeat the last search (backward)
 | `h`          | Show help screen with all `less` commands
 
-**If you’d rather see the output directly**, without using a pager, you can add the `--no-pager` flag to the command, for example:
+**If you'd rather see the output directly**, without using a pager, you can add the `--no-pager` flag to the command, for example:
 ```bash
 git --no-pager log
 ```
@@ -54,7 +54,7 @@ git config --global core.pager "less -FRX"
 
 Explanation: `-FRX` is shorthand for combining the following three flags.
 
-* `-F` : Quits if the output fits on one screen (don’t show pager unnecessarily)
+* `-F` : Quits if the output fits on one screen (don't show pager unnecessarily)
 * `-R` : Shows raw control characters (for colored Git output)
 * `-X` : Keeps content visible after quitting the pager (so output stays on the terminal)
 

@@ -80,7 +80,7 @@ Changes to be committed:
 </div>
 <div id="sourcetree"><!-- ---------------------------------------------------- -->
 
-{{ hp_number('2.1') }} **Note how the file is shown as ‘unstaged’.** The question mark icon indicates the file is untracked.
+{{ hp_number('2.1') }} **Note how the file is shown as 'unstaged'.** The question mark icon indicates the file is untracked.
 
 <pic eager src="{{baseUrl}}/lessons/stage/images/sourcetreeWinAddedFile.png" height="220" />
 <p/>

@@ -21,6 +21,6 @@ pageNav: 4
 <div id="extras">
 </div>
 
-<span class="d-none" id="achievements">You should now be able to create a copy of your repo on GitHub and keep it updated as you add more commits to your local repo. If something goes wrong with your local repo (e.g., disk crash), you can now recover the repo using the remote repo. This tour did not cover the exact recovery steps; they will be covered in a future tour.</span>
+<span class="d-none" id="achievements">You should now be able to create a copy of your repo on GitHub and keep it updated as you add more commits to your local repo. If something goes wrong with your local repo (e.g., a disk crash), you can now recover it from the remote repo. This tour did not cover the exact recovery steps; they will be covered in a future tour.</span>
 
 <span id="next">{{ show_tour_link(trail.workingWithRemotes) }}</span>

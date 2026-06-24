@@ -1,6 +1,6 @@
 {% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_folder_contents, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 
-<span id="outcomes">{{ icon_outcome }} can commit using git</span>
+<span id="outcomes">{{ icon_outcome }} Can commit using Git</span>
 
 {% set lesson_data = trail.recordingFolderHistory.lessons.commit %}
 <span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>

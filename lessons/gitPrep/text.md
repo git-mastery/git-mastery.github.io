@@ -39,7 +39,7 @@ Before you start learning Git, **you need to install some tools** on your comput
 When running Git commands, we recommend that Windows users **use the Git Bash terminal** that comes with Git. To open the Git Bash terminal, hit the <kbd>:fab-windows:</kbd> key and type `git-bash`.
 
 {{ icon_tip }} The installation might not have added a shortcut to the Start Menu.
-You can navigate to the directory where `git-bash.exe` is (most likely `C:\Program Files\Git\git-bash.exe`), double-click `git-bash.exe` to open Git Bash.<br>
+You can navigate to the directory where `git-bash.exe` is (most likely `C:\Program Files\Git\git-bash.exe`), and double-click `git-bash.exe` to open Git Bash.<br>
 You can also right-click it and choose `Pin to Start` or `Pin to taskbar`.
 </box>
 </cv-toggle>
@@ -62,7 +62,7 @@ You can also right-click it and choose `Pin to Start` or `Pin to taskbar`.
 
 <box type="important" seamless icon=":fab-windows:">
 
-**On Windows**, you might need to close and open the terminal again for it to recognize changes made elsewhere on the computer (e.g., newly-installed software, changes to system variables, etc.).
+**On Windows**, you might need to close and open the terminal again for it to recognize changes made elsewhere on the computer (e.g., newly installed software, changes to system variables, etc.).
 </box>
 
 {{ os_tabs_marker('mac') }}
@@ -143,11 +143,11 @@ main
 
 
 ##### Interacting with Git: CLI vs GUI
-**Git is fundamentally a command-line tool.** You primarily interact with it by typing commands in its <tooltip content="Command-Line Interface">CLI</tooltip>. This gives you full control over its features and helps you understand what’s really happening under the hood.
+**Git is fundamentally a command-line tool.** You primarily interact with it by typing commands in its <tooltip content="Command-Line Interface">CLI</tooltip>. This gives you full control over its features and helps you understand what's really happening under the hood.
 
 **<tooltip content="Graphical User Interface">GUI</tooltip> clients for Git also exist,** such as Sourcetree, GitKraken, and the built-in Git support in editors like IntelliJ IDEA and VS Code. These tools provide a more visual way to perform some Git operations.
 
-**If you're new to Git, it's best to learn the CLI first.** The CLI is universal, always available (even on servers), and helps you build a solid understanding of Git’s concepts. You can use GUI clients as a supplement — for example, to visualize complex history structures.
+**If you're new to Git, it's best to learn the CLI first.** The CLI is universal, always available (even on servers), and helps you build a solid understanding of Git's concepts. You can use GUI clients as a supplement -- for example, to visualize complex history structures.
 
 **Mastering the CLI gives you confidence and flexibility, while GUI tools can serve as helpful companions.**
 
@@ -180,8 +180,8 @@ Our Git lessons show how to perform Git operations using Git CLI and Sourcetree;
   <box type="warning" seamless>
 
   **Do not run the `gitmastery.exe` file directly!** If you do, it will only flash a terminal briefly and disappear.<br>
-   Reason: Git-Mastery is an <tooltip content="Command Line Interface">CLI</tooltip> app that you activate by issuing a command via a terminal, not running the executable directly (e.g., by double-clicking the file).
-  {{ ask_chatgpt("More on how to use CLI apps on Windows", "Guidance for answering: Give an answer with moderate level of details, and ask if if I would like a more detailed answer.\nBackground: I'm a Windows user new to CLI apps. I've been asked to use an app named gitmastery (that comes as an executable `gitmastery.exe`, and supports commands like `gitmastery version`). As the app is a companion for Git, the preferred terminal is Git Bash.\nQuestion: Explain how I should use a CLI app as opposed to apps I use simply by double-clicking an exe file.") }}
+   Reason: Git-Mastery is a <tooltip content="Command-Line Interface">CLI</tooltip> app that you activate by issuing a command via a terminal, not running the executable directly (e.g., by double-clicking the file).
+  {{ ask_chatgpt("More on how to use CLI apps on Windows", "Guidance for answering: Give an answer with moderate level of details, and ask if I would like a more detailed answer.\nBackground: I'm a Windows user new to CLI apps. I've been asked to use an app named gitmastery (that comes as an executable `gitmastery.exe`, and supports commands like `gitmastery version`). As the app is a companion for Git, the preferred terminal is Git Bash.\nQuestion: Explain how I should use a CLI app as opposed to apps I use simply by double-clicking an exe file.") }}
   </box>
 
 * Add the folder containing `gitmastery.exe` to your Windows `PATH` system variable by following [this guide](https://www.wikihow.com/Change-the-PATH-Environment-Variable-on-Windows).<br>
