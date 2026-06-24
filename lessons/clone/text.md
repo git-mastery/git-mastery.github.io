@@ -82,7 +82,7 @@ For exact steps for cloning a repo from GitHub, refer to [this GitHub document](
 {{ show_steps_tabs(cli=cli, sourcetree_windows=sourcetree_windows, sourcetree_mac=sourcetree_mac) }}
 
 
-{{ hp_number ('2') }} **Verify the clone has a remote named `origin`** pointing to the upstream repo.
+{{ hp_number ('2') }} **Verify the clone has a remote named `origin`** pointing to the repo you cloned from.
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 

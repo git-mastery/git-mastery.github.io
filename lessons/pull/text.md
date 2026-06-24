@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_lesson_link, show_multiple_columns, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_fine_print, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_lesson_link, show_multiple_columns, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 
 <span id="prereqs"></span>
@@ -252,7 +252,7 @@ The final result should be something like the below (same as the repo state befo
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
 
-**{{ show_git_term("Pull") }} is a shortcut that combines fetch and merge** — it fetches the latest changes from the remote and immediately merges them into your current branch. In practice, Git users typically pull instead of fetching and merging separately.
+**{{ show_git_term("Pull") }} is a shortcut that combines fetch and merge** — it fetches the latest changes from the remote and immediately merges them into your current branch. {{ show_fine_print("This is the default behavior of pull. It can be configured to behave in others ways too, as you will learn later.")}} In practice, Git users typically pull instead of fetching and merging separately.
 
 <box type="info" seamless>
 
