@@ -47,7 +47,7 @@ Changes made in `d1` and `e1` are available on `main`, but changes made in `d` a
 
 Changes made in `d` are available on `fix1`, but changes made in `d1` and `e1` are not available on `main`.
 {% endset %}
-{{ show_multiple_columns([a, '|', b]) }}
+{{ show_multiple_columns([a, '|', b], fill_width=true) }}
 
 
 <!-- ================== start: HANDS-ON =========================== -->
