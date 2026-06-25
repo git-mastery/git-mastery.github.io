@@ -7,21 +7,21 @@
 
 <div id="body">
 {% call show_lesson_intro() %}
-GitHub allows you to **create a remote copy of another remote repo, called _forking_**.
+GitHub allows you to **create your own remote copy of another repo through a process called _forking_**.
 {% endcall %}
 
-**A {{ show_git_term("fork") }} is a copy of a remote repository** created on the same hosting service such as GitHub, GitLab, or Bitbucket. On GitHub, you can fork a repository from another user or organization into your own space (i.e., your user account or an organization you have sufficient access to). {{ show_git_term("Forking") }} is particularly useful if you want to experiment with a repo but don't have write permissions to the original -- you can fork it (which gives you your own remote copy of the repo) and work with the forked repo without affecting the original repository.
+**A {{ show_git_term("fork") }} is a copy of a remote repository** created on the same hosting service, such as GitHub, GitLab, or Bitbucket. On GitHub, you can fork a repository owned by another user or organization into your own space, such as your account or an organization where you have the required access. {{ show_git_term("Forking") }} is useful when you want to experiment with a repo but don't have write permissions to the original; it gives you your own remote copy without affecting the original repo.
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Forking a repo on GitHub")  %}
 
 {{ hp_number(hop_preparation) }} **Create a GitHub account if you don't have one yet.**
 
-{{ hp_number('1') }}  **Go to the GitHub repo you want to fork** e.g., [samplerepo-things](https://github.com/git-mastery/samplerepo-things)
+{{ hp_number('1') }}  **Go to the GitHub repo you want to fork**, e.g., [samplerepo-things](https://github.com/git-mastery/samplerepo-things)
 
-{{ hp_number('2') }} **Click on the <pic eager src="images/fork.png" height="30" /> button** in the top-right corner. In the next step,
-  * choose to fork to your own account or to another GitHub organization that you are an admin of.
-  * ==un-tick the <code>[ ] Copy the main branch only</code> option==, so that you get copies of other branches (if any) in the repo. %%You'll learn more about branches in a later lesson.%%
+{{ hp_number('2') }} **Click the <pic eager src="images/fork.png" height="30" /> button** in the top-right corner. On the next screen:
+  * choose your own account or a GitHub organization where you are an admin.
+  * ==uncheck the <code>[ ] Copy the main branch only</code> option==, so that you get copies of other branches (if any) in the repo. %%You'll learn more about branches in a later lesson.%%
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
 

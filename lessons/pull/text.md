@@ -8,18 +8,18 @@
 
 <div id="body">
 {% call show_lesson_intro() %}
-When there are new changes in the remote, you need to **_pull_ those changes down to your local repo**.
+When there are new commits in the remote repo, you need to **_pull_ those commits down to your local repo**.
 {% endcall %}
 
-**There are two steps to bringing over changes from a remote repository into a local repository: _fetch_ and _merge_.**
+**Bringing changes from a remote repository into a local repository involves two steps: _fetch_ and _merge_.**
 
-* **{{ show_git_term("Fetch") }} is the act of downloading the latest changes from the remote repository, but without applying them to your current branch yet.** It updates metadata in your repo so that it knows what has changed in the remote repo, but your own local branch remains untouched.
-* **{{ show_git_term("Merge") }} is what you do after fetching, to actually incorporate the fetched changes into your local branch.** It combines your local branch with the changes from the corresponding branch from the remote repo.
+* **{{ show_git_term("Fetch") }} is the act of downloading the latest changes from the remote repository, but without applying them to your current branch yet.** It updates metadata in your repo so Git knows what has changed in the remote repo, but your own local branch remains untouched.
+* **{{ show_git_term("Merge") }} is the step after fetching that incorporates the fetched changes into your local branch.** It combines your local branch with the changes from the corresponding branch in the remote repo.
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Fetch and merge from a remote")  %}
 
-{{ hp_number (hop_scenario) }} You have cloned a remote repo. After you have cloned, two new commits have been added to it. `R` and `L1` in the diagram below represents this scenario.
+{{ hp_number (hop_scenario) }} You have cloned a remote repo. After you cloned it, two new commits were added to the remote. `R` and `L1` in the diagram below represent this scenario.
 
 
 {% set a %}
@@ -67,12 +67,12 @@ gitGraph BT:
 
 {{ show_multiple_columns([a, '|', b, '|', c, '|', d]) }}
 
-{{ hp_number (hop_target) }} Now, you wish to bring over those missing commits to your clone, taking it from the state `L1` to state `L2` (as given in the diagram above).
+{{ hp_number (hop_target) }} Now, you want to bring those missing commits into your clone, taking it from state `L1` to state `L2` (as shown in the diagram above).
 
 {{ hp_number (hop_preparation) }}
 
 {% set manual %}
-To create the initial state of the remote repo and the local repo (i.e., `R` and `L1` given above), you can use the following steps.
+To create the initial remote and local states (`R` and `L1` above), use these steps.
 
 1. **Clone the repo [git-mastery/samplerepo-finances](https://github.com/git-mastery/samplerepo-finances)**. It has 3 commits. Your clone now has a remote `origin` pointing to the remote repo you cloned from.
 1. **Change the remote `origin`** to point to [samplerepo-finances-2](https://github.com/git-mastery/samplerepo-finances-2.git). This remote repo is a copy of the one you cloned, but it has two extra commits.
@@ -97,7 +97,7 @@ Go to `Repository` → `Repository settings ...` to update remotes.
 
 {{ show_hop_prep('hp-fetch-merge', manual_info=manual) }}
 
-{{ hp_number ('1') }} **Verify the local repo is unaware of the extra commits** in the remote.
+{{ hp_number ('1') }} **Verify Git has not yet learned about the extra commits** in the remote.
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
@@ -115,12 +115,12 @@ nothing to commit, working tree clean
 
 {% endset %}
 {% set sourcetree %}
-The revision graph should look like the below:
+The revision graph should look like this:
 
 <pic src="images/sourcetreeStartingPoint.png" width="500" />
 <p/>
 
-If it looks like the below, it is possible that Sourcetree is auto-fetching data from the repo periodically.
+If it looks like the image below, Sourcetree may be auto-fetching data from the repo periodically.
 
 <pic src="images/sourcetreeAfterFetching.png" width="500" />
 {% endset %}
@@ -133,7 +133,7 @@ If it looks like the below, it is possible that Sourcetree is auto-fetching data
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
-Use the `git fetch <remote>` command to fetch changes from a remote. If the `<remote>` is not specified, the default remote `origin` will be used.
+Use the `git fetch <remote>` command to fetch changes from a remote. If you do not specify `<remote>`, Git uses the default remote `origin`.
 
 ```bash{.no-line-numbers}
 git fetch origin
@@ -160,11 +160,11 @@ Click on the `Fetch` button on the top menu:<br>
 
 <!-- ------ end: Git Tabs -------------------------------->
 
-{{ hp_number ('3') }} **Verify the fetch worked** i.e., the local repo is now aware of the two missing commits. Also observe how the local branch ref of the `main` branch, the staging area, and the working directory remain unchanged after the fetch.
+{{ hp_number ('3') }} **Verify the fetch worked**: the local repo is now aware of the two missing commits. Also observe that the local `main` branch ref, the staging area, and the working directory remain unchanged after the fetch.
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
-Use the `git status` command to confirm the repo now knows that it is behind the remote repo.
+Use the `git status` command to confirm the local repo now knows it is behind the remote repo.
 
 ```bash{.no-line-numbers}
 git status
@@ -182,7 +182,7 @@ nothing to commit, working tree clean
 {% endset %}
 {% set sourcetree %}
 
-Now, the revision graph should look something like the below. Note how the `origin/main` ref is now two commits ahead of the `main` ref.
+Now, the revision graph should look something like this. Note how the `origin/main` ref is now two commits ahead of the `main` ref.
 
 <pic src="images/sourcetreeAfterFetching.png" width="500" />
 {% endset %}
@@ -241,18 +241,18 @@ To merge the fetched changes, right-click on the latest commit on the `origin/ma
 In the next dialog, choose as follows:<br>
 <pic src="images/sourcetreeMergeDialog.png" width="500" />
 
-The final result should be something like the below (same as the repo state before we started this hands-on practical):<br>
+The final result should look something like this, matching state `L2` in the diagram above:<br>
 <pic src="images/sourcetreeAfterMerging.png" width="500" />
 
 {% endset %}
 {{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
-{{ icon_warning }} Note that merging the fetched changes can get complicated if there are multiple branches or the commits in the local repo conflict with commits in the remote repo. We will address them when we learn more about Git branches, in a later lesson.
+{{ icon_warning }} Note that merging fetched changes can get complicated when the repo has multiple branches, or when local commits conflict with remote commits. We will address such situations in a later lesson when we learn more about Git branches.
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
 
-**{{ show_git_term("Pull") }} is a shortcut that combines fetch and merge** — it fetches the latest changes from the remote and immediately merges them into your current branch. {{ show_fine_print("This is the default behavior of pull. It can be configured to behave in others ways too, as you will learn later.")}} In practice, Git users typically pull instead of fetching and merging separately.
+**{{ show_git_term("Pull") }} is a shortcut that combines fetch and merge**: it fetches the latest changes from the remote and immediately merges them into your current branch. {{ show_fine_print("This is the default behavior of `pull`, but you will later learn how to configure it to behave in other ways.")}} In practice, Git users usually pull instead of fetching and merging separately.
 
 <box type="info" seamless>
 
@@ -261,20 +261,20 @@ The final result should be something like the below (same as the repo state befo
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Pull from a remote")  %}
-{{ hp_number (hop_scenario) }} Same as previous hands-on practical.
+{{ hp_number (hop_scenario) }} Use the same scenario as the previous hands-on practical.
 
-{{ hp_number(hop_target) }} Same as the previous, but this time we intend to fetch and merge in one step.
+{{ hp_number(hop_target) }} Use the same target as in the previous hands-on practical, but fetch and merge in one step.
 
 {{ hp_number(hop_preparation) }}
 
 {% set manual %}
 
-Same as previous hands-on practical but use a different folder.
+Set up the same scenario as in the previous hands-on practical, but use a different local folder.
 {% endset %}
 
 {{ show_hop_prep('hp-pull-remote', manual_info=manual) }}
 
-{{ hp_number('1') }} **Pull the newer commits from the remote**, instead of a fetch-then-merge.
+{{ hp_number('1') }} **Pull the newer commits from the remote** instead of fetching and merging separately.
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
@@ -302,7 +302,7 @@ Fast-forward
 ```
 {% endcall %}
 
-The following works too. If the `<remote>` and `<branch>` are not specified, Git will pull to the current branch from the remote branch it is tracking.
+The following command also works. If you do not specify `<remote>` and `<branch>`, Git will pull into the current branch from the remote branch it tracks.
 ```bash{.no-line-numbers}
 git pull
 ```
@@ -323,11 +323,11 @@ In the next dialog, choose as follows:<br>
 {{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
-{{ hp_number ('2') }} **Verify the outcome** is the same as the fetch + merge steps you did in the previous hands-on practical.
+{{ hp_number ('2') }} **Verify that the outcome** matches the fetch + merge steps you did in the previous hands-on practical.
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
-**You can pull from any number of remote repos**, provided the repos involved have a shared history. This can be useful when the upstream repo you forked from has some new commits that you wish to bring over to your copies of the repo (i.e., your fork and your local repo).
+**You can pull from multiple remote repos**, as long as the repos have a shared history. This is useful when the upstream repo you forked from has new commits that you want to bring into your fork and local repo.
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Sync your repos with the upstream repo")  %}
@@ -376,15 +376,15 @@ gitGraph BT:
 {{ show_multiple_columns([a, '|', b, '|', c]) }}
 
 
-{{ hp_number (hop_target) }} Now, you wish to bring over new commits to your clone, and also update your fork with those commits.
+{{ hp_number (hop_target) }} Now, you want to bring the new commits into your clone and then update your fork with them.
 
 {{ hp_number (hop_preparation) }}
 
 {{ show_hop_prep('hp-sync-upstream') }}
 
-{{ hp_number ('1') }} **Confirm your local repo is behind** by two commits. Here are two alternative ways to do that:
+{{ hp_number ('1') }} **Confirm your local repo is behind `upstream`** by two commits. Here are two ways to do that:
 
-a) Go to the `upstream` repo at https://github.com/git-mastery/samplerepo-finances-2, and navigate to the page that lists commits of the repo. Compare that list of commits to the list of commits in your local copy.<br>
+a) Go to the `upstream` repo at https://github.com/git-mastery/samplerepo-finances-2, and navigate to the repo's commit list. Compare that list with the commits in your local copy.<br>
 OR<br>
 b) Do a `fetch` and examine the revision graph locally, as shown below.
 
@@ -402,7 +402,7 @@ git log --oneline --decorate --graph --all
 ```
 {% endcall %}
 
-{{ hp_number ('2') }} **Pull from the upstream repo.** If there are new commits, those will come over to your local repo. For example:
+{{ hp_number ('2') }} **Pull from the upstream repo.** Git will bring any new commits into your local repo. For example:
 ```bash{.no-line-numbers}
 git pull upstream main
 ```
@@ -413,22 +413,22 @@ git push origin main
 ```
 <box type="info" seamless>
 
-The method above is the more standard way to synchronize a fork with the upstream repo. In addition, platforms such as GitHub can provide other ways (example: GitHub's [Sync fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) feature).
+This method is the standard way to synchronize a fork with the upstream repo. Platforms such as GitHub also provide alternatives, including GitHub's [Sync fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) feature.
 </box>
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
 {% call show_sidebar("Distributed vs Centralized Revision Control", non_printable=0) %}
-**Revision control can be done in two ways: the _centralized_ way and the _distributed_ way.**
+**Revision control can follow either a _centralized_ or a _distributed_ model.**
 
-**{{ show_git_term("Centralized RCS") }} uses a single central (server-hosted) repository that is shared by the team.** Developers check out a working copy, make changes locally, and then commit directly to the central repository. Instead of having their own copy of the entire repository history, they only have a working copy of files. One advantage of this model is having a clear and single "source of truth." One big disadvantage is that the central server becomes a critical dependency: if it's down, most operations (commits and history queries beyond the local working copy) are blocked. Older RCS tools such as CVS, Subversion, and Perforce follow this model.
+**{{ show_git_term("Centralized RCS") }} uses a single central (server-hosted) repository that is shared by the team.** Developers check out a working copy, make changes locally, and then commit directly to the central repository. Developers do not have their own copy of the entire repository history; they only have a working copy of files. One advantage of this model is having one clear "source of truth." A major disadvantage is that the central server becomes a critical dependency: if it's down, most operations (commits and history queries beyond the local working copy) are blocked. Older RCS tools such as CVS, Subversion, and Perforce follow this model.
 
 <pic eager src="{{baseUrl}}/lessons/pull/images/crcsDiagram.png" width="450">
 
 _The centralized RCS approach_
 </pic>
 
-**{{ show_git_term("Distributed RCS") }} (also known as decentralized RCS) allows multiple remote and local repositories to work together.** The workflow can vary from team to team. For example, every team member can have their own remote repository in addition to a local repository. This architecture enables offline work, fast local operations, and more flexible workflows. It also supports multiple integration points (e.g., forks or alternative remotes) and uses cryptographic checksums to ensure history integrity. The trade-offs include more conceptual complexity (multiple repositories, remotes, and sync patterns) and the need for conventions to establish an authoritative integration flow. Git and Mercurial are prominent RCS tools that support the distributed approach.
+**{{ show_git_term("Distributed RCS") }} (also known as decentralized RCS) allows multiple remote and local repositories to work together.** Workflows vary by team. For example, each team member can have their own remote repository in addition to a local repository. This architecture enables offline work, fast local operations, and more flexible workflows. It also supports multiple integration points (e.g., forks or alternative remotes) and uses cryptographic checksums to ensure history integrity. The trade-offs include more conceptual complexity (multiple repositories, remotes, and sync patterns) and the need for conventions to establish an authoritative integration flow. Git and Mercurial are prominent RCS tools that support the distributed approach.
 
 <pic eager src="{{baseUrl}}/lessons/pull/images/drcsDiagram.png" width="450">
 
@@ -440,7 +440,7 @@ _The decentralized RCS approach_
 
 <box type="important" light>
 
-Given its use of multiple copies of a repository, **Git is considered a _distributed_ revision control software**, as opposed to a _centralized_ revision control system that keeps only a single repository.
+Because Git uses multiple copies of a repository, **Git is considered a _distributed_ revision control system**, as opposed to a _centralized_ revision control system that keeps only a single repository.
 </box>
 
 </div>

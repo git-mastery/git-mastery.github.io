@@ -55,7 +55,7 @@ origin  https://github.com/[[username: JohnDoe]]/gitmastery-things.git (push)
 
 {{ m.hp_number('2') }} **Open the dialog for adding a remote**, as follows:
 
-:fab-windows: Choose `Repository` → `Repository Settings` menu option.<br>
+:fab-windows: Choose the `Repository` → `Repository Settings` menu option.<br>
 :fab-apple: Choose `Repository` → `Repository Settings...` → Choose `Remotes` tab.
 
 {{ m.hp_number('3') }} **Add a new _remote_** to the repo with the following values.

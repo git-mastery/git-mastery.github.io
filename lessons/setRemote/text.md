@@ -12,7 +12,7 @@
 The second step of backing up a local repo on GitHub: **link the _local_ repo with the _remote_ repo** on GitHub.
 {% endcall %}
 
-**A Git {{ show_git_term('remote') }} is a reference to a repository hosted elsewhere**, usually on a server like GitHub, GitLab, or Bitbucket. It allows your local Git repo to communicate with another remote copy — for example, to upload locally-created commits that are missing in the remote copy.
+**A Git {{ show_git_term('remote') }} is a reference to a repository hosted elsewhere**, usually on a server like GitHub, GitLab, or Bitbucket. It allows your local Git repo to communicate with another remote copy — for example, to upload locally created commits that are missing in the remote copy.
 
 **By _adding a remote_, you are giving the local repo the details it needs to communicate with a remote repo**, such as where the repo is hosted and what name to use for the remote.
 

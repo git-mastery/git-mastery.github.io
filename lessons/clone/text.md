@@ -7,12 +7,12 @@
 
 <div id="body">
 {% call show_lesson_intro() %}
-The next step is to **create a local copy of the remote repo, by _cloning_ the remote repo**.
+The next step is to **create a local copy of the remote repo by _cloning_ it**.
 {% endcall %}
 
-**You can {{ show_git_term("clone") }} a repository to create a local copy of it on your computer.** A normal clone downloads the repository history and checks out the default branch, giving you a working copy you can use locally. {{ show_fine_print("Cloning also records Git's latest known state of the remote branches using names such as `origin/main`, so you can inspect them and create local branches from them later.") }}
+**You can {{ show_git_term("clone") }} a repository to create a local copy on your computer.** A normal clone downloads the repository history and checks out the default branch, giving you a local working copy. {{ show_fine_print("Cloning also records Git's latest known state of the remote branches using names such as `origin/main`, so you can inspect them and create local branches from them later.") }}
 
-**Cloning a repo automatically creates a remote named `origin`** which points to the repo you cloned from.
+**Cloning a repo automatically creates a remote named `origin`,** which points to the repo you cloned from.
 
 <box type="info" icon=":fab-git-alt:" icon-size="2x" seamless>
 
@@ -22,9 +22,9 @@ When configuring remotes for a Git repository, the following naming conventions 
 
 * **`origin`: The repository that you _cloned_ from** is usually given the remote name `origin`.
 Git sets this remote name automatically when you clone a repository (but you can change it to something else).
-* **`upstream`: In fork-based workflows, the repository you _forked_ from** is often added as a second remote named `upstream`. This name is not created by Git automatically; it is a convention chosen by developers. Some use a more specific name for this, for example, `team-repo`.
+* **`upstream`: In fork-based workflows, the repository you _forked_ from** is often added as a second remote named `upstream`. This name is not created by Git automatically; it is a convention chosen by developers. Some teams use a more specific name for this, such as `team-repo`.
 
-Separately from remote _names_, the term {{ show_git_term("'upstream'") }} is also used informally to describe the direction of duplication between repositories. When one repository is created by duplicating another (for example, by forking or cloning), the original repository is said to be _upstream_ of the duplicate.
+Separately from remote _names_, the term {{ show_git_term("'upstream'") }} is also used informally to describe the relationship between an original repository and its duplicates. When one repository is created by duplicating another (for example, by forking or cloning), the original repository is said to be _upstream_ of the duplicate.
 
 Example:
 * If you fork R1 to create R2, then _R1 is upstream of R2_.
@@ -43,8 +43,8 @@ Example:
 
 <box type="warning" seamless>
 
-Note that the URL of the GitHub project is different from the URL you need to clone a repo in that GitHub project.
-e.g.
+Note that the GitHub project page URL is different from the repo URL you need for cloning.
+For example:
 
 ```bash{highlight-lines="2['.git']@yellow"}
 https://github.com/git-mastery/samplerepo-things  # GitHub project URL
@@ -64,7 +64,7 @@ git clone git@github.com:git-mastery/samplerepo-things.git  # if using SSH
 
 git clone https://github.com/foo/bar.git my-bar-copy  # also specifies a dir to use
 ```
-For exact steps for cloning a repo from GitHub, refer to [this GitHub document](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository).
+For exact steps, see [this GitHub document](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository).
 
 {% endset %}
 {% set sourcetree_windows %}
@@ -90,7 +90,7 @@ Use the `git remote -v` command that you learned earlier.
 {% endset %}
 {% set sourcetree %}
 
-Choose `Repository` → `Repository Settings` menu option.
+Choose the `Repository` → `Repository Settings` menu option.
 {% endset %}
 {{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->

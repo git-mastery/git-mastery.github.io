@@ -4,10 +4,10 @@
 
 You have been given a clone of the [git-mastery/gm-shapes](https://github.com/git-mastery/gm-shapes) repo.
 
-1. Another developer Alice has created a remote copy of this repo at https://github.com/git-mastery/gm-shapes-alice which seems to have an additional commit in the `main` branch.
+1. Another developer, Alice, has created a remote copy of this repo at https://github.com/git-mastery/gm-shapes-alice that seems to have an additional commit in the `main` branch.
    * Add that repo as a remote named `alice-upstream`.
-   * Bring over Alice's additional commit to your repo.
-2. Alice's friend Bob has copied Alice's repo to https://github.com/git-mastery/gm-shapes-bob, and added one more commit.
+   * Bring Alice's additional commit into your repo.
+2. Alice's friend Bob has copied Alice's repo to https://github.com/git-mastery/gm-shapes-bob and added one more commit.
    * Add that repo as another remote named `bob-upstream`.
    * Fetch (not pull) Bob's new commit into your repo, without merging it into `main`.
 </div>
