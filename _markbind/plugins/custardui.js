@@ -1,6 +1,6 @@
 function getScripts() {
     return [
-        '<script src="https://unpkg.com/@custardui/custardui" data-base-url="/"></script>'
+        '<script src="https://unpkg.com/@custardui/custardui@v3" data-base-url="/"></script>'
     ];
 };
 
