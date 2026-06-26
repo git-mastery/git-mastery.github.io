@@ -2,7 +2,7 @@
 
 <div id="preview">
 
-**At times, you might need to get rid of uncommitted changes** so that you have a fresh start to the next commit.
+**At times, you might need to get rid of uncommitted changes** so that you have a fresh start for the next commit.
 </div>
 
 **To get rid of uncommitted changes, you can reset the repo to the last commit (i.e., `HEAD`)**:
@@ -10,7 +10,7 @@
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
 The command `git reset` (without specifying a commit) defaults to `git reset HEAD`.
-* `git reset`: moves any staged changes to working directory (i.e., unstage).
+* `git reset`: moves any staged changes to the working directory (i.e., unstages them).
 * `git reset --hard`: gets rid of any staged and unstaged changes.
 
 {% endset %}

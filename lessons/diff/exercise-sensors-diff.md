@@ -119,20 +119,20 @@ Which new values are new in north.csv on Jan 10th, compared to Jan 01st?
 
 <div id="scenario" class="d-none">
 
-A system is using Git to record data received daily from four sensors, each monitoring one of directions east, west, north, south. Each sensor provides 20 integer values, which are stored in a csv file (e.g., values from the sensor monitoring the east direction are recorded as `east.csv`). Data for each day is recorded as one commit.
+A system is using Git to record data received daily from four sensors, each monitoring one of the directions east, west, north, and south. Each sensor provides 20 integer values, which are stored in a CSV file (e.g., values from the sensor monitoring the east direction are recorded as `east.csv`). Data for each day is recorded as one commit.
 </div>
 
 <div id="task" class="d-none">
 
 Examine the revision history to answer the following questions.
 
-**Q:** Which are the new values in staged files?
+**Q:** What are the new values in staged files?
 
-**Q:** Which are the new values in modified but unstaged files?
+**Q:** What are the new values in modified but unstaged files?
 
-**Q:** Which files have changed from Jan 09th to Jan 15th?
+**Q:** Which files changed from Jan 9 to Jan 15?
 
-**Q:** Which new values are new in north.csv on Jan 10th, compared to Jan 01st?
+**Q:** Which values are new in `north.csv` on Jan 10, compared to Jan 1?
 </div>
 
 {{ show_exercise(exercises.sensors_diff, is_panel=0) }}

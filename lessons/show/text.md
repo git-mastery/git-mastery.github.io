@@ -11,26 +11,26 @@ It is useful to be able to **see what changes were included in a specific commit
 
 {% endcall %}
 
-**When you examine a commit, normally what you see is the 'changes made since the previous commit'.** This does not mean that a Git commit contains only the changes made since the previous commit. As you recall, a Git commit contains a full snapshot of the working directory. However, tools used to examine commits typically show only the changes, as that is the more informative part.
+**When you examine a commit, what you normally see is the 'changes made since the previous commit'.** This does not mean that a Git commit contains only the changes made since the previous commit. As you recall, a Git commit contains a full snapshot of the working directory. However, tools used to examine commits typically show only the changes, as that is the more informative part.
 
 **Git shows changes included in a commit by _dynamically calculating_ the difference** between the snapshots stored in the target commit and the parent commit. This is because Git commits store snapshots of the working directory, not changes themselves.
 
 **Although each commit represents a copy of the entire working directory, Git uses space efficiently in two main ways:**
 
-1. **Reuse of unchanged data:** If a file hasn’t changed since a previous commit, the commit simply points to the already stored version of that file instead of making another copy. This means only new or changed files take up extra space, while unchanged files are reused.
+1. **Reuse of unchanged data:** If a file hasn't changed since a previous commit, the commit simply points to the already stored version of that file instead of making another copy. This means only new or changed files take up extra space, while unchanged files are reused.
 1. **Compression:** Git also compresses all the files and data it stores using an algorithm (zlib). So, even the objects that are stored (whether reused or new) take up less disk space because they are saved in a compressed format.
 
-**To address a specific commit, you can use its SHA** (e.g., `e60deaeb2964bf2ebc907b7416efc890c9d4914b`). In fact, just the first few characters of the SHA are enough to uniquely address a commit (e.g., `e60deae`), provided the partial SHA is long enough to uniquely identify the commit (i.e., only one commit has that partial SHA).<br>
-**Naturally, a commit can be addressed using any ref pointing to it** too (e.g., `HEAD`, `main`).<br>
-**Another related technique is to use the `<ref>~<n>` notation** (e.g., `HEAD~1`) to address the commit that is `n` commits prior to the commit pointed by `<ref>` i.e., "start with the commit pointed by `<ref>` and go back `n` commits".<br>
-A related alternative notation is `HEAD~`, `HEAD~~`, `HEAD~~~`, ... to mean `HEAD~1`, `HEAD~2`, `HEAD~3` etc.
+**To address a specific commit, you can use its SHA** (e.g., `e60deaeb2964bf2ebc907b7416efc890c9d4914b`). In fact, the first few characters of the SHA are enough to uniquely address a commit (e.g., `e60deae`), provided the partial SHA is long enough to uniquely identify the commit (i.e., only one commit starts with that partial SHA).<br>
+**A commit can also be addressed using any ref that points to it** (e.g., `HEAD`, `main`).<br>
+**Another related technique is to use the `<ref>~<n>` notation** (e.g., `HEAD~1`) to address the commit that is `n` commits before the commit pointed to by `<ref>`, i.e., "start with the commit pointed to by `<ref>` and go back `n` commits".<br>
+A related alternative notation is `HEAD~`, `HEAD~~`, `HEAD~~~`, and so on, to mean `HEAD~1`, `HEAD~2`, `HEAD~3`, and so on.
 
 {{ show_commit('C3', desc=show_ref('main') + ' ' + show_head(), msg='This commit can be addressed as `HEAD` or `main`') }}
 {{ show_commit('C2', msg='Can be addressed as `HEAD~1` or `main~1` or `HEAD~` or `main~`') }}
 {{ show_commit('C1', msg='Can be addressed as `HEAD~2` or `main~2`', edge='') }}
 <p/>
 
-**Git uses the {{ show_git_term("diff") }} format to show file changes in a commit.** The diff format was originally developed for Unix. It was later extended with headers and metadata to show changes between file versions and commits. Here is an example diff showing the changes to a file.
+**Git uses the {{ show_git_term("diff") }} format to show file changes in a commit.** The diff format was originally developed for Unix. It was later extended with headers and metadata to show changes between file versions and commits. Here is an example diff showing changes to files.
 
 ```diff{.no-line-numbers}
 diff --git a/fruits.txt b/fruits.txt
@@ -57,11 +57,11 @@ index 0000000..55c8449
 @@ -0,0 +1 @@
 +a file for colours
  ```
- A Git diff can consist of multiple {{ show_git_term("file diffs") }}, one for each changed file. Each file diff can contain one or more {{ show_git_term("hunk") }} i.e., a localized group of changes within the file — including lines added, removed, or left unchanged (included for context).
+ A Git diff can consist of multiple {{ show_git_term("file diffs") }}, one for each changed file. Each file diff can contain one or more {{ show_git_term("hunks") }}, i.e., localized groups of changes within the file, including lines added, removed, or left unchanged (included for context).
 
 <div class="d-print-none">
 
-Given below is how the above diff is divided into its components:
+Below is how the diff is divided into its components:
 <div class="border border-info p-2">
 All changes in the commit:
 
@@ -126,21 +126,21 @@ Here is an explanation of the diff:
 | **Part of Diff**                            | **Explanation** |
 |---------------------------------------------|-----------------|
 | `diff --git a/fruits.txt b/fruits.txt`{.diff}      | The diff header, indicating that it is comparing the file `fruits.txt` between two versions: the old (`a/`) and new (`b/`). |
-| `index 7d0a594..f84d1c9 100644`{.diff}            | Shows the <popover content="just like Git uses a SHA to identify a commit, it uses SHA values to identify binary objects such as files">SHA of the _file_ (not the commit)</popover> before and after the change, and the file mode (`100` means a regular file, `644` are file permission indicators). |
+| `index 7d0a594..f84d1c9 100644`{.diff}            | Shows the <popover content="Just like Git uses a SHA to identify a commit, it uses SHA values to identify binary objects such as files.">SHA of the _file_ (not the commit)</popover> before and after the change, and the file mode (`100644` means a regular, non-executable file with standard read/write permissions). |
 | `--- a/fruits.txt`{.diff}<br>`+++ b/fruits.txt`{.diff} | Marks the old version of the file (`a/fruits.txt`) and the new version of the file (`b/fruits.txt`). |
-| `@@ -1,6 +1,6 @@`{.diff}                            | This {{ show_git_term("hunk header") }} shows that lines 1-6 (i.e., starting at line `1`, showing `6` lines) in the old file were compared with lines 1–6 in the new file. |
+| `@@ -1,6 +1,6 @@`{.diff}                            | This {{ show_git_term("hunk header") }} shows that lines 1-6 (i.e., starting at line `1`, showing `6` lines) in the old file were compared with lines 1-6 in the new file. |
 | `-apples`{.diff}<br>`+apples, apricots`{.diff}  | Removed line `apples` and added line `apples, apricots`. |
 | ` bananas`{.diff}<br>`cherries`{.diff}<br>`dragon fruits`{.diff} | Unchanged lines, shown for context.|
 | `-elderberries`{.diff}                             | Removed line: `elderberries`.|
 | ` figs`{.diff}                                     | Unchanged line, shown for context.|
-| `@@ -20,2 +20,3 @@`{.diff} | Hunk header showing that lines 20-21 in the old file were compared with lines 20–22 in the new file. |
+| `@@ -20,2 +20,3 @@`{.diff} | Hunk header showing that lines 20-21 in the old file were compared with lines 20-22 in the new file. |
 |&nbsp;&nbsp;`oranges`{.diff}<br>`+pears`{.diff}<br>&nbsp;&nbsp;`raisins`{.diff} | Unchanged line.<br>Added line: `pears`.<br>Unchanged line.|
-| `diff --git a/colours.txt b/colours.txt`{.diff} | The usual diff header, indicates that Git is comparing two versions of the file `colours.txt`{.diff}: one before and one after the change. |
-| `new file mode 100644`{.diff} | This is a new file being added. `100644`{.diff} means it’s a normal, non-executable file with standard read/write permissions. |
+| `diff --git a/colours.txt b/colours.txt`{.diff} | The usual diff header, indicating that Git is comparing two versions of the file `colours.txt`{.diff}: one before and one after the change. |
+| `new file mode 100644`{.diff} | This indicates a new file is being added. `100644`{.diff} means it is a normal, non-executable file with standard read/write permissions. |
 | `index 0000000..55c8449`{.diff} | The usual SHA hashes for the two versions of the file. ==`0000000`{.diff} indicates the file did not exist before.== |
-| `--- /dev/null`{.diff}<br>`+++ b/colours.txt`{.diff} | Refers to the "old" version of the file (==`/dev/null`{.diff} means it didn’t exist before)==, and the new version. |
-| `@@ -0,0 +1 @@`{.diff} | Hunk header, saying: “0 lines in the old file were replaced with 1 line in the new file, starting at line 1.” |
-| `+a file for colours`{.diff} | Added line|
+| `--- /dev/null`{.diff}<br>`+++ b/colours.txt`{.diff} | Refers to the "old" version of the file (==`/dev/null`{.diff} means it didn't exist before)==, and the new version. |
+| `@@ -0,0 +1 @@`{.diff} | Hunk header, which says: "0 lines in the old file were replaced with 1 line in the new file, starting at line 1." |
+| `+a file for colours`{.diff} | Added line. |
 
 Points to note:
 
@@ -209,7 +209,7 @@ To view the parent commit of the latest commit, you can use any of these command
  git show e60deae  # first few characters of the SHA
  git show e60deae.....  # run git log to find the full SHA and specify the full SHA
  ```
-To view the commit that is two commits before the latest commit, you can use `git show HEAD~2` etc.
+To view the commit that is two commits before the latest commit, you can use `git show HEAD~2`, and so on.
 
 {% endset %}
 {% set sourcetree %}

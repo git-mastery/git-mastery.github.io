@@ -3,13 +3,13 @@
 
 <div id="scenario" class="d-none">
 
-The `duty-roster` repo contains text files that track which people are assigned for duties on which days of the week.
+The `duty-roster` repo contains text files that track which people are assigned to duties on which days of the week.
 </div>
 
 <div id="task" class="d-none">
 
 1. Add a lightweight tag `first-pilot` to the first commit of the repo.
-2. Add the annotated tag `v1.0` to the commit that updates March duty roster. The tag should have the message `first full duty roster`.
+2. Add the annotated tag `v1.0` to the commit that updates the March duty roster. The tag should have the message `first full duty roster`.
 </div>
 
 {{ show_exercise(exercises.tags_add, is_panel=0) }}

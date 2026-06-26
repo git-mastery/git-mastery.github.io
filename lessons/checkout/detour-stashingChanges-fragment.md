@@ -3,7 +3,7 @@
 For basic usage, you can use the following two commands:
 
 * `git stash`: Stash staged and unstaged changes
-* `git stash pop`: Reapplies the latest stashed changes and removes it from the stash list.
+* `git stash pop`: Reapplies the latest stashed changes and removes them from the stash list.
 
 {% call show_resources() %}
 * **A more detailed explanation of stashing:** https://www.atlassian.com/git/tutorials/saving-changes/git-stash

@@ -5,12 +5,12 @@ title: "{{ tour.title }}"
 pageNav: 4
 </frontmatter>
 
-<span id="outcomes">{{ icon_outcome }} Can navigate the history of a Git repo.</span>
+<span id="outcomes">{{ icon_outcome }} Can inspect, label, compare, and visit points in a Git repo's history, and undo unwanted changes.</span>
 <span id="title">{{ tour.title }}</span>
 
-<span class="d-none" id="destination">To make use of the revision history stored by Git.</span>
+<span class="d-none" id="destination">To use the commits in a Git repo's history as reference points for understanding, navigating, and correcting the project.</span>
 
-<span class="d-none" id="motivation">Having put in effort to record the revision history of the working folder, it only makes sense that we use the revision history to our benefit. For example, to be able to answer questions such as "What did I change in this file since last Monday?"</span>
+<span class="d-none" id="motivation">After you have put effort into recording meaningful commits, the history should help you answer practical questions such as "What changed in this file?", "Which commit should I mark as a release?", "What did the project look like last week?", and "How can I undo a mistake safely?"</span>
 
 <div id="body">
 
@@ -20,7 +20,7 @@ pageNav: 4
 <div id="extras">
 </div>
 
-<span class="d-none" id="achievements">You should now be able to use a repository’s revision history to understand how the working directory evolved over time -- and use that insight to inform your work.<br>
-How useful this history is depends greatly on how well it was constructed -- for example, how frequently and meaningfully commits were made -- we’ll explore that in a later tour.</span>
+<span class="d-none" id="achievements">You should now be able to use a repository's revision history to inspect past commits, mark important commits with tags, compare versions, visit earlier snapshots, and choose between rewriting local history with reset or preserving history with revert.<br>
+How useful this history is depends greatly on how well it was constructed -- for example, how focused and well-documented the commits are. We will explore that in the next tour.</span>
 
 <span id="next">{{ show_tour_link(trail.fineTuningHistory) }}</span>

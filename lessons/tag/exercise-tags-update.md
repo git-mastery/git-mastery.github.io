@@ -3,13 +3,13 @@
 
 <div id="scenario" class="d-none">
 
-The `duty-roster` repo contains text files that track which people are assigned for duties on which days of the week. Some of the tags added earlier have been found to be incorrect.
+The `duty-roster` repo contains text files that track which people are assigned to duties on which days of the week. Some of the tags added earlier have been found to be incorrect.
 </div>
 
 <div id="task" class="d-none">
 
-1. To make tag names consistent, change `first-update` tag to `january-update`.
-2. The`april-update` tag is currently pointing to the commit that updates the duty roster for May. Move it to the correct commit.
+1. To make tag names consistent, change the `first-update` tag to `january-update`.
+2. The `april-update` tag is currently pointing to the commit that updates the duty roster for May. Move it to the correct commit.
 </div>
 
 {{ show_exercise(exercises.tags_update, is_panel=0) }}

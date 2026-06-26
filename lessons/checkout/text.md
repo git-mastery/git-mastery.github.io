@@ -7,19 +7,19 @@
 
 <div id="body">
 {% call show_lesson_intro() %}
-Another useful feature of revision control is to be able to **view the working directory as it was at a specific point in history, by _checking out_** a commit created at that point.
+Another useful revision control feature is the ability to **view the working directory as it was at a specific point in history by _checking out_** a commit created at that point.
 {% endcall %}
 
-Suppose you added a new feature to a software product, and while testing it, you noticed that another feature added two commits ago doesn’t handle a certain edge case correctly. Now you’re wondering: _did the new feature break the old one, or was it already broken?_ Can you go back to the moment you committed the old feature and test it in isolation, and come back to the present after you found the answer? With Git, you can.
+Suppose you added a new feature to a software product, and while testing it, you noticed that another feature added two commits ago doesn't handle a certain edge case correctly. Now you're wondering: _did the new feature break the old one, or was it already broken?_ Can you go back to the moment you committed the old feature and test it in isolation, and come back to the present after you find the answer? With Git, you can.
 
-**To view the working directory at a specific point in history, you can {{ show_git_term("check out") }} a commit** created at that point.
+**To view the working directory at a specific point in history, you can {{ show_git_term("check out") }} the commit** created at that point.
 
 <div id="detached-head-explanation">
 
 **When you check out a commit, Git:**
 
 1. **Updates your working directory to match the snapshot in that commit**, overwriting current files as needed.
-2. **Moves the `HEAD` ref to that commit**, marking it as the current state you’re viewing.
+2. **Moves the `HEAD` ref to that commit**, marking it as the current state you're viewing.
 
 {% set a %}
 {{ show_commit('C3', desc=show_ref('main') + show_head()) }}
@@ -38,9 +38,9 @@ Suppose you added a new feature to a software product, and while testing it, you
 {% endset %}
 {{ show_transformation_columns(a, b, c) }}
 
-**Checking out a specific commit puts you in a {{ show_git_term('"detached `HEAD`"') }} state**: i.e., the `HEAD` no longer points to a branch, but directly to a commit (see the above diagram for an example). This isn't a problem by itself, but any commits you make in this state _can_ be lost, unless certain follow-up actions are taken. It is perfectly fine to be in a detached state if you are only examining the state of the working directory at that commit.
+**Checking out a specific commit puts you in a {{ show_git_term('"detached `HEAD`"') }} state**: i.e., `HEAD` no longer points to a branch, but directly to a commit (see the above diagram for an example). This is not a problem by itself, but any commits you make in this state _can_ be lost unless you take certain follow-up actions. It is perfectly fine to be in a detached state if you are only examining the state of the working directory at that commit.
 
-**To get out of a "detached HEAD" state, you can simply check out a branch**, which "re-attaches" `HEAD` to the branch you checked out.
+**To get out of a "detached HEAD" state, you can check out a branch**, which "re-attaches" `HEAD` to the branch you checked out.
 
 
 {% set a %}
@@ -63,11 +63,11 @@ Suppose you added a new feature to a software product, and while testing it, you
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical('Checking out some commits')  %}
 
-{{ hp_number(hop_target) }} **Checkout a few commits in a local repo**, while examining the working directory to verify that it matches the state when you created the corresponding commit
+{{ hp_number(hop_target) }} **Check out a few commits in a local repo**, while examining the working directory to verify that it matches the state at the corresponding commit.
 
 {{ hp_number(hop_preparation) }}
 {% set manual %}
-**Clone a copy of the `things` repo** given [here](https://github.com/git-mastery/samplerepo-things).
+**Clone a copy of the `things` repo** available [here](https://github.com/git-mastery/samplerepo-things).
 {% endset %}
 
 {{ show_hop_prep('hp-checkout-commits', manual_info=manual) }}
@@ -76,7 +76,7 @@ Suppose you added a new feature to a software product, and while testing it, you
 
 <box type="info" seamless>
 
-If you check out a commit that comes before the commit in which you added a certain file (e.g., `temp.txt`) to the `.gitignore` file, and if the `.gitignore` file is version controlled as well, Git will now show it under ‘unstaged modifications’ because at <tooltip content="the point of time at which the currently checked out commit was created">that point</tooltip> Git hasn’t been told to ignore that file yet.
+If you check out a commit that comes before the commit in which you added a certain file (e.g., `temp.txt`) to the `.gitignore` file, and if the `.gitignore` file is version controlled as well, Git will now show it under 'unstaged modifications' because at <tooltip content="the point in time at which the currently checked out commit was created">that point</tooltip> Git hasn't been told to ignore that file yet.
 </box>
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
@@ -88,9 +88,9 @@ If you check out a commit that comes before the commit in which you added a cert
 * Example 2: There is an uncommitted change to a file that would be overwritten by the version in the commit you want to check out.<br>
   → Git aborts the checkout.
 
-If the above examples are a bit too abstract for you to grasp at this point, the important thing to remember is that **Git aims to prevent your uncommitted changes from being irrecoverably lost due to a checkout operation**.
+If these examples feel too abstract for now, the important thing to remember is that **Git aims to prevent your uncommitted changes from being irrecoverably lost due to a checkout operation**.
 
-**The Git {{ show_git_term("stash") }} feature temporarily sets aside uncommitted changes** you’ve made (in your working directory and staging area), without committing them. This is useful when you’re in the middle of some work, but need to switch to another state (e.g., checkout a previous commit), and your current changes are not yet ready to be committed or discarded. You can later reapply the stashed changes when you’re ready to resume that work.
+**The Git {{ show_git_term("stash") }} feature temporarily sets aside uncommitted changes** you've made (in your working directory and staging area), without committing them. This is useful when you're in the middle of some work, but you need to switch to another state (e.g., check out a previous commit), and your current changes are not yet ready to be committed or discarded. You can later reapply the stashed changes when you're ready to resume that work.
 </div>
 
 <div id="extras">

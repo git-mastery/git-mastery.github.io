@@ -21,7 +21,7 @@ git reset --hard HEAD~2
 {{ show_transformation_columns(a, b, c) }}
 <p/>
 
-If you now wish to move back the remote-tracking branch ref by two commits, so that the local repo 'forgets' that it previously pushed two more commits to the remote, you can do:
+If you now wish to move back the remote-tracking branch ref by two commits, so that the local repo 'forgets' that it previously pushed two more commits to the remote, you can run:
 
 ```bash{.no-line-numbers}
 git update-ref refs/remotes/origin/main HEAD
@@ -45,4 +45,4 @@ git update-ref refs/remotes/origin/main HEAD
 
 The `git update-ref refs/remotes/origin/main HEAD` command resets the remote-tracking branch ref `origin/main` to follow the current `HEAD`.
 
-**`update-ref` is an example of what is known as a Git {{ show_git_term("plumbing command") }} -- a lower-level command** used by Git internally. In contrast, day-to-day Git commands (such as `commit`, `log`, `push` etc.) are known as {{ show_git_term("porcelain commands") }} (as in, in bathrooms we see the porcelain parts but not the plumbing parts that operate below the surface to make everything work).
+**`update-ref` is an example of a Git {{ show_git_term("plumbing command") }} -- a lower-level command** used by Git internally. In contrast, day-to-day Git commands (such as `commit`, `log`, `push`, etc.) are known as {{ show_git_term("porcelain commands") }} (as in bathroom fixtures: you see the porcelain parts, not the plumbing parts that operate below the surface).

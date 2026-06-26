@@ -3,7 +3,7 @@
 
 <div id="scenario" class="d-none">
 
-The `duty-roster` repo contains text files that track which people are assigned for duties on which days of the week. This repo is backed up in a remote named `production`. Apparently, tags in the local repo are not in sync with the tags in your remote.
+The `duty-roster` repo contains text files that track which people are assigned to duties on which days of the week. This repo is backed up to a remote named `production`. Apparently, tags in the local repo are not in sync with the tags on that remote.
 </div>
 
 <div id="task" class="d-none">
@@ -11,7 +11,7 @@ The `duty-roster` repo contains text files that track which people are assigned 
 Rectify the out-of-sync tags as follows:
 
 1. Push both tags in the local repo to the remote.
-1. If any tags are present in the remote `production` but not in the local repo (i.e., likely result of you previously deleting them in the local repo but forgetting to delete them in the remote repo), delete them in the remote.
+1. If any tags are present on the remote `production` but not in the local repo (i.e., likely the result of you previously deleting them in the local repo but forgetting to delete them on the remote repo), delete them on the remote.
 </div>
 
 {{ show_exercise(exercises.tags_push, is_panel=0) }}

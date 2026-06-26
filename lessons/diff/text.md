@@ -1,19 +1,19 @@
 {% from "common/macros.njk" import trail, ask_chatgpt, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_steps_tabs, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
-<span id="outcomes">Can compare different points of history</span>
+<span id="outcomes">Can compare different points in history.</span>
 {% set lesson_data = trail.usingRevisionHistory.lessons.diff %}
 <span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}
-Git can tell you **the net effect of changes between two points of history**.
+Git can tell you **the net effect of changes between two points in history**.
 {% endcall %}
 
 **Git's {{ show_git_term("diff") }} feature can show you what changed between two points** in the revision history. Here are some use cases.
 
 **++Usage 1: Comparing two commits at different points of the revision graph++**<br>
-Example use case: Suppose you’re trying to improve the performance of a piece of software by experimenting with different code tweaks. You commit after each change (as you should). After several commits, you now want to review the overall effect of all those changes on the code.
+Example use case: Suppose you're trying to improve the performance of a piece of software by experimenting with different code tweaks. You commit after each change (as you should). After several commits, you now want to review the overall effect of those changes on the code.
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Comparing two commits")  %}
@@ -23,7 +23,7 @@ Example use case: Suppose you’re trying to improve the performance of a piece 
 {{ hp_number(hop_preparation) }}
 
 {% set manual %}
-**Clone a copy of the `things` repo** given [here](https://github.com/git-mastery/samplerepo-things).
+**Clone a copy of the `things` repo** available [here](https://github.com/git-mastery/samplerepo-things).
 {% endset %}
 {{ show_hop_prep('hp-diff-changes', manual_info=manual) }}
 
@@ -33,8 +33,8 @@ Example use case: Suppose you’re trying to improve the performance of a piece 
 
 You can use the `git diff <commit1> <commit2>` command for this.
 
-* You may use any valid way to refer to commits %%(e.g., SHA, tag, HEAD~n etc.)%%.
-* You may also use the `..` notation to specify the commit range too %%e.g., `0023cdd..fcd6199`, `HEAD~2..HEAD`%%
+* You may use any valid way to refer to commits %%(e.g., SHA, tag, or `HEAD~n`)%%.
+* You may also use the `..` notation to specify the commit range, %%e.g., `0023cdd..fcd6199`, `HEAD~2..HEAD`%%.
 
 ```bash{.no-line-numbers}
 git diff v0.9 HEAD
@@ -67,7 +67,7 @@ a file for colours
 -blue
 # rest of the diff ...
 ```
-As you can see, the `diff` is _directional_ i.e., `diff <commit1> <commit2>` shows what changes are needed to get from `<commit1>` to `<commit2>`. If you swap `<commit1>` and `<commit2>`, the output will change accordingly e.g., lines previously shown as 'added' will now be shown as 'deleted'.
+As you can see, the `diff` is _directional_, i.e., `diff <commit1> <commit2>` shows what changes are needed to get from `<commit1>` to `<commit2>`. If you swap `<commit1>` and `<commit2>`, the output will change accordingly; for example, lines previously shown as 'added' will now be shown as 'deleted'.
 {% endcall %}
 
 {% endset %}
@@ -89,7 +89,7 @@ The same method can be used to compare the current state of the working director
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
 **++Usage 2: Examining changes in the working directory++**<br>
-Example use case: To verify the next commit will include exactly what you intend it to include.
+Example use case: You want to verify that the next commit will include exactly what you intend it to include.
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Examining staged and unstaged changes")  %}
@@ -98,7 +98,7 @@ Example use case: To verify the next commit will include exactly what you intend
 
 {{ show_hop_prep('hp-diff-changes', sandbox_info="the `things` repo", is_continue=1) }}
 
-{{ hp_number("1") }} **Do some changes to the working directory. Stage some (but not all) changes.** For example, you can run the following commands.
+{{ hp_number("1") }} **Make some changes to the working directory. Stage some (but not all) changes.** For example, you can run the following commands.
 
 ```bash
 echo -e "blue\nred\ngreen" >> colours.txt
@@ -109,7 +109,7 @@ echo "no shapes added yet" >> shapes.txt
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
-**The `git diff` command shows unstaged changes** in the working directory (tracked files only). The output of the `diff` command is a diff view (introduced in [this lesson](../show/index.html)).
+**The `git diff` command shows unstaged changes** in tracked files in the working directory. The output of the `diff` command is a diff view (introduced in [this lesson](../show/index.html)).
 
 ```bash{.no-line-numbers}
 git diff
@@ -149,7 +149,7 @@ Select the two commits: Click on one commit, and <kbd>Ctrl</kbd>-Click (or <kbd>
 
 
 **++Usage 3: Examining changes to a specific file++**<br>
-Example use case: Similar to other use cases but when you are interested in a specific file only.
+Example use case: This is similar to the earlier use cases, but focuses on a specific file.
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Examining changes to a specific file")  %}
@@ -189,17 +189,17 @@ echo "Education: Cornell" >> andy/history.txt
 
 {{ show_hop_prep('hp-diff-files', manual_info=manual) }}
 
-{{ hp_number('1') }} Examine changes to a specific file, between specific points in history.
+{{ hp_number('1') }} Examine changes to a specific file between specific points in history.
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
-Add the `-- path/to/file` to a previous diff command to narrow the output to a specific file. Some examples:
+Add `-- path/to/file` to a previous diff command to narrow the output to a specific file. Some examples:
 
 ```bash{highlight-lines="1[' -- '],2[' -- '],3[' -- ']"}
 git diff -- andy/history.txt          # unstaged changes to andy/history.txt
 git diff --staged -- list.txt         # staged changes to list.txt
 git diff HEAD~2..HEAD -- list.txt     # changes to list.txt between commits
 ```
-{{ icon_info }} The ` -- ` tells Git that what follows it should be interpreted as a file or a file path, not a branch/commit/ref/tag.
+{{ icon_info }} The ` -- ` tells Git that what follows it should be interpreted as a file path, not a branch, commit, ref, or tag.
 {{ ask_chatgpt("More about the ` -- ` in Git commands", "I'm new to Git. I have not learned about advanced concepts such as branching yet. Explain the use of ` -- ` in a Git command such as `git diff -- andy/history.txt`.") }}
 {% endset %}
 {% set sourcetree %}

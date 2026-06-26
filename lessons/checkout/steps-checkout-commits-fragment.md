@@ -2,7 +2,7 @@
 
 <div id="cli"><!-- ------------------------------------------------------------------- -->
 
-{{ m.hp_number ('1') }} **Examine the revision tree**, to get your bearing first.
+{{ m.hp_number ('1') }} **Examine the revision tree**, to get your bearings first.
 ```bash{.no-line-numbers}
 git log --oneline --decorate
 ```
@@ -23,11 +23,11 @@ ec49b17 Add fruits.txt
 ```
 {% endcall %}
 
-{{ m.hp_number ('2') }} **Use the `checkout <commit-identifier>` command to check out a commit** other than the one currently pointed to by `HEAD`. You can use any of the following methods:
+{{ m.hp_number ('2') }} **Use the `git checkout <commit-identifier>` command to check out a commit** other than the one currently pointed to by `HEAD`. You can use any of the following methods:
 
 * `git checkout v1.0`: checks out the commit tagged `v1.0`
 * `git checkout 0023cdd`: checks out the commit with the hash `0023cdd`
-* `git checkout HEAD~2`: checks out the commit 2 commits behind the most recent commit.
+* `git checkout HEAD~2`: checks out the commit two commits before the most recent commit.
 
 ```bash{.no-line-numbers}
 git checkout HEAD~2
@@ -46,7 +46,7 @@ HEAD is now at 2ef8852 Update fruits list
 {{ m.hp_number ('3') }} **Verify `HEAD` and the working directory have updated** as expected.
 
 * `HEAD` should now be pointing at the target commit
-* The working directory should match the state it was in at that commit (i.e., changes done after that commit should not be in the folder).
+* The working directory should match the state it was in at that commit (i.e., changes made after that commit should not be in the folder).
 
 ```bash{.no-line-numbers}
 git log --oneline --decorate
@@ -82,8 +82,8 @@ aff416b (tag: 0.9) Add colours.txt, shapes.txt
 
 **The `--all` switch tells `git log` to show commits from _all_ refs**, not just those reachable from the current `HEAD`. This includes commits from other branches, tags, and remotes.
 
-**The `--date-order` switch tells `git log` to order commits primarily by commit date, but never show a child commit before its parent.** This way, the output stays chronologically and topologically sensible
-_even when multiple commits have identical timestamps_ (a situation that can happen when commits are generated programmatically by a tool/script e.g., Git-Mastery).
+**The `--date-order` switch tells `git log` to order commits primarily by commit date while ensuring it never shows a child commit before its parent.** This keeps the output chronologically and topologically sensible
+_even when multiple commits have identical timestamps_ (a situation that can happen when commits are generated programmatically by a tool or script, e.g., Git-Mastery).
 </box>
 
 {{ m.hp_number ('4') }} **Go back to the latest commit** by checking out the `main` branch again.
@@ -98,12 +98,12 @@ In the revision graph, double-click the commit you want to check out, or right-c
 
 <pic src="images/sourcetreeCheckoutMenu.png" width="300" />
 
-Click `OK` to the warning about ‘detached HEAD’ (similar to below).
+Click `OK` to the warning about 'detached HEAD' (similar to below).
 
 <pic src="images/sourcetreeDetachedHeadWarning.png" height="140" />
 <p/>
 
-The specified commit is now loaded onto the working folder, as indicated by the `HEAD` label.
+The specified commit is now loaded into the working folder, as indicated by the `HEAD` label.
 
 <pic src="images/sourcetreeHeadMoved.png" width="300" />
 <p/>

@@ -1,17 +1,17 @@
 {% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_steps_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
-<span id="outcomes">Can revert a commit</span>
+<span id="outcomes">Can revert a commit.</span>
 {% set lesson_data = trail.usingRevisionHistory.lessons.revert %}
 <span id="title">{{ lesson_data.title }} <cv-label name="{{ lesson_data.tour_name }}.{{ lesson_data.lesson_name }}"/></span>
 
 <div id="body">
 {% call show_lesson_intro() %}
-Git can add a new commit to **reverse the changes made in a specific past commit**, called _reverting_ a commit.
+Git can add a new commit to **reverse the changes made in a specific past commit**. This is called _reverting_ a commit.
 {% endcall %}
-**When a past commit introduced a bug or an unwanted change, but you do not want to modify that commit** — because rewriting history can cause problems if others have already based work on it — **you can instead {{ show_git_term("revert") }} that commit.**
+**When a past commit introduced a bug or an unwanted change, but you do not want to modify that commit** (because rewriting history can cause problems if others have already based work on it), **you can instead {{ show_git_term("revert") }} that commit.**
 
-**Reverting creates a new commit that cancels out the changes of the earlier one** i.e., Git computes the opposite of the changes introduced by that commit — essentially a reverse diff — and applies it as a new commit on top of the current branch. This way, the problematic changes are reversed while preserving the full history, including the "bad" commit and the "fix".
+**Reverting creates a new commit that cancels out the changes of the earlier one**, i.e., Git computes the opposite of the changes introduced by that commit (essentially a reverse diff) and applies it as a new commit on top of the current branch. This way, the problematic changes are reversed while preserving the full history, including the "bad" commit and the "fix".
 
 {% set a %}
 {{ show_commit('C3') }}
@@ -41,7 +41,7 @@ Git can add a new commit to **reverse the changes made in a specific past commit
 {{ show_commit('C1', msg='Add Neo', edge='') }}
 <p/>
 
-{{ hp_number(hop_target) }} Correct the mistake without rewriting past commits. That is, add a new commit that reverts the offending comment.
+{{ hp_number(hop_target) }} Correct the mistake without rewriting past commits. That is, add a new commit that reverts the offending commit.
 
 {{ show_commit('C4', msg='Revert "Add Neo"', desc=show_head()) }}
 {{ show_commit('C3', msg='Add Hopper') }}
@@ -82,8 +82,8 @@ git commit -m "Add Hopper"
 git revert HEAD~2
 ```
 What happens next:
-1. **Git prepares a new commit which reverses the target commit**
-1. **Git opens your default text editor containing a proposed commit message.** You can edit it, or accept the proposed text.
+1. **Git prepares a new commit that reverses the target commit**
+1. **Git opens your default text editor with a proposed commit message.** You can edit it or accept the proposed text.
 1. **Once you close the editor, Git will create the new commit.**
 
 {% endset %}
@@ -94,7 +94,7 @@ In the revision graph, right-click on the commit you want to revert, and choose 
 {{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
-{{ hp_number("2") }} **Verify the revert commit has been added** e.g.,
+{{ hp_number("2") }} **Verify the revert commit has been added**, e.g.,
 ```bash
 git log --oneline --decorate
 ```
@@ -111,7 +111,7 @@ git log --oneline --decorate
 
 <box type="warning" seamless>
 
-**A revert can result in a {{ show_git_term("conflict") }}** if the new changes that reverse the previous commit conflict with later changes. Then, you need to resolve the conflict before the revert operation can proceed. <span class="d-print-none">Conflict resolution is covered in a later topic.</span>
+**A revert can result in a {{ show_git_term("conflict") }}** if the new changes that reverse the previous commit conflict with later changes. You then need to resolve the conflict before the revert operation can proceed. <span class="d-print-none">Conflict resolution is covered in a later topic.</span>
 </box>
 </div>
 

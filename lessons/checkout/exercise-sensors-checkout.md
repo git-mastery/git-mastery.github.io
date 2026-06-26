@@ -2,7 +2,7 @@
 
 <div id="scenario" class="d-none">
 
-Same as the scenario in exercise {{ show_exercise_link(exercises.sensors_diff) }}. Repeated below for ease of reference:
+The scenario is the same as the one in exercise {{ show_exercise_link(exercises.sensors_diff) }}. It is repeated below for ease of reference:
 
 ><include src="../diff/exercise-sensors-diff.md#scenario" />
 
@@ -13,16 +13,16 @@ Same as the scenario in exercise {{ show_exercise_link(exercises.sensors_diff) }
 Traverse the revision history to answer the following questions.
 
 
-**Q1:** What's sum of values in `south.csv` on Jan 11th?
+**Q1:** What's the sum of values in `south.csv` on Jan 11?
 
 <box type="tip" seamless>
 
-You can use the bash command `awk '{s+=$1} END {print s}' south.csv` to find the sum of values in `south.csv` (and so on). Alternatively, you can open the csv file in a spreadsheet program and use a feature of that program to find the sum.
+You can use the bash command `awk '{s+=$1} END {print s}' south.csv` to find the sum of values in `south.csv` (and so on). Alternatively, you can open the CSV file in a spreadsheet program and use a feature of that program to find the sum.
 </box>
 
-**Q2:** What's sum of values in `west.csv` on Jan 09th?
+**Q2:** What's the sum of values in `west.csv` on Jan 9?
 
-**Q3:** What's sum of values in `north.csv` on Jan 05th?
+**Q3:** What's the sum of values in `north.csv` on Jan 5?
 
 </div>
 

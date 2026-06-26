@@ -10,7 +10,7 @@
 Git can also **_reset_ the revision history to a specific point** so that you can start over from that point.
 {% endcall %}
 
-Suppose you realize your last few commits have gone in the wrong direction, and you want to go back to an earlier commit and continue from there — as if the “bad” commits never happened. Git’s _reset_ feature can help you do that.
+Suppose you realize your last few commits have gone in the wrong direction, and you want to go back to an earlier commit and continue from there, as if the "bad" commits never happened. Git's _reset_ feature can help you do that.
 
 **Git {{ show_git_term("reset") }} moves the {{ show_git_term('tip', 'tip', 'reset') }} of the current branch to a specific commit**, optionally adjusting your staged and unstaged changes to match. **This effectively rewrites the branch's history** by discarding any commits that came after that point.
 
@@ -36,14 +36,14 @@ Resetting is different from the _checkout_ feature:
 {% endset %}
 {{ show_transformation_columns(a, b, c) }}
 
-**There are three types of resets: soft, mixed, hard.** All three move the branch pointer (and `HEAD`) to a new commit, but they vary based on what happens to the staging area and the working directory.
+**There are three types of resets: soft, mixed, and hard.** All three move the branch pointer (and `HEAD`) to a new commit, but they vary based on what happens to the staging area and the working directory.
 
 * {{ show_git_term("soft reset") }}: Moves the cumulative changes from the discarded commits into the staging area. Any staged and unstaged changes that existed before the reset will remain unchanged.<br>
   → _It is as if you did all the changes in the discarded commits and staged them, but never committed them._
 * {{ show_git_term("mixed reset") }}: Cumulative changes from the discarded commits, and any existing staged changes, are moved into the working directory. After the reset, no changes are staged.<br>
   → _It is as if you did all the changes in the discarded commits, but never staged or committed them._
 * {{ show_git_term("hard reset") }}: All staged and unstaged changes are discarded. Both the working directory and the staging area are aligned with the target commit.<br>
-  → _It is as if no changes were done after the target commit._
+  → _It is as if no changes were made after the target commit._
 
 
 <!-- ================== start: HANDS-ON =========================== -->
@@ -62,7 +62,7 @@ ii) Then, you did a 'bad' change in `colours.txt` and staged it.<br>
 iii) Last, you did a 'bad' change in `shapes.txt`, but didn't stage it yet.
 <p/>
 
-{{ hp_number(hop_target) }} To rewrite the history of the repo in way that gets rid of the 'bad' commits/changes listed above.
+{{ hp_number(hop_target) }} Rewrite the repo history to get rid of the 'bad' commits/changes listed above.
 
 {{ hp_number(hop_preparation) }}
 
@@ -117,11 +117,11 @@ echo "another bad shape" >> shapes.txt
 
 {{ show_hop_prep('hp-reset-commits', manual_info=manual) }}
 
-Now we have some 'bad' commits and some 'bad' changes in both the staging area and the working directory. Let's use the reset feature to get rid of all of them, but do it in three steps so that you can learn all three types of resets.
+Now we have some 'bad' commits and some 'bad' changes in both the staging area and the working directory. Let's use reset to get rid of all of them in three steps, so that you can learn all three types of resets.
 
-{{ hp_number ('1') }} **Do a _soft_ reset to `B2`** (i.e., discard last two commits). Verify,
+{{ hp_number ('1') }} **Do a _soft_ reset to `B2`** (i.e., discard the last two commits). Verify that:
 
-* the `main` branch is now pointing at `B2`, and,
+* the `main` branch is now pointing at `B2`.
 * the changes that were in the discarded commits (i.e., `B3` and `B4`) are now in the staging area.
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
@@ -142,7 +142,7 @@ git diff --staged             # check staged changes
 {% endset %}
 {% set sourcetree %}
 
-Right-click on the commit that you want to reset to, and choose `Reset <branch-name> to this commit` option.
+Right-click on the commit that you want to reset to, and choose the `Reset <branch-name> to this commit` option.
 
 <pic src="images/sourcetreeResetBranchToCommit.png" width="400" />
 
@@ -154,11 +154,11 @@ In the next dialog, choose `Soft - keep all local changes`.
 {{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
-{{ hp_number ('2') }} **Do a _mixed_ reset to commit `B1`**. Verify,
+{{ hp_number ('2') }} **Do a _mixed_ reset to commit `B1`**. Verify that:
 
 * the `main` branch is now pointing at `B1`.
 * the staging area is empty.
-* the accumulated changes from all three discarded commits (including those from the previous soft reset) are now appearing as unstaged changes in the working directory.<br>
+* the accumulated changes from all three discarded commits (including those from the previous soft reset) now appear as unstaged changes in the working directory.<br>
   Note how `incorrect.txt` appears as an 'untracked' file -- this is because unstaging a change of type 'add file' results in an untracked file.
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
@@ -179,11 +179,11 @@ Similar to the previous reset, but choose the `Mixed - keep working copy but res
 {{ show_steps_tabs(cli=cli, sourcetree=sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
-{{ hp_number ('3') }} **Do a _hard_ reset to commit `C4`**. Verify,
+{{ hp_number ('3') }} **Do a _hard_ reset to commit `C4`**. Verify that:
 
-* the `main` branch is now pointing at `C4` i.e., all 'bad' commits are gone.
+* the `main` branch is now pointing at `C4`, i.e., all 'bad' commits are gone.
 * the staging area is empty.
-* there are no unstaged changes (except for the untracked files `incorrect.txt` -- Git leaves untracked files alone, as untracked files are not meant to be under Git's control).
+* there are no unstaged changes (except for the untracked file `incorrect.txt` -- Git leaves untracked files alone, as untracked files are not meant to be under Git's control).
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
@@ -203,21 +203,21 @@ Similar to the previous reset, but choose the `Hard - discard all working copy c
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
-**Rewriting history can cause your local repo to {{ show_git_term("diverge") }} from its remote counterpart.** For example, if you discard earlier commits and create new ones in their place, and you’ve already pushed the original commits to a remote repository, your local branch history will no longer match the corresponding remote branch. Git refers to this as a diverged history.
+**Rewriting history can cause your local repo to {{ show_git_term("diverge") }} from its remote counterpart.** For example, if you discard earlier commits and create new ones in their place, and you've already pushed the original commits to a remote repository, your local branch history will no longer match the corresponding remote branch. Git refers to this as a diverged history.
 
 To protect the integrity of the remote, Git will reject attempts to push a diverged branch using a normal push. If you want **to _overwrite_ the remote history with your local version, you must perform a {{ show_git_term("force push") }}**.
 
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Force-push commits")  %}
 
-{{ hp_number(hop_scenario) }} You have a local repo that is linked to a remote repo on the GitHub. You have pushed all local commits to the remote repo (i.e., the two are in sync).
+{{ hp_number(hop_scenario) }} You have a local repo that is linked to a remote repo on GitHub. You have pushed all local commits to the remote repo (i.e., the two are in sync).
 
-{{ hp_number(hop_target) }} You wish to rewrite the last commit in the local repo and update the remote repo to match the local repo.
+{{ hp_number(hop_target) }} You want to rewrite the last commit in the local repo and update the remote repo to match the local repo.
 
 {{ hp_number(hop_preparation) }}
 
 {% set manual %}
-**Choose a local-remote repo pair under your control** e.g., the `things` repo from {{ show_tour_link(trail.backingUpOnCloud) }}.
+**Choose a local-remote repo pair under your control**, e.g., the `things` repo from {{ show_tour_link(trail.backingUpOnCloud) }}.
 {% endset %}
 
 {{ show_hop_prep('hp-force-push') }}
@@ -232,7 +232,7 @@ git add .
 git commit -m "Add drinks.txt"
 ```
 
-{{ hp_number("2") }} **Observe how the local branch is diverged**.
+{{ hp_number("2") }} **Observe how the local branch has diverged**.
 ```bash
 git log --oneline --graph --all
 ```
@@ -250,7 +250,7 @@ git log --oneline --graph --all
 {% endcall %}
 
 
-{{ hp_number("3") }} **Attempt to push to the remote.** Observe Git rejects the push.
+{{ hp_number("3") }} **Attempt to push to the remote.** Observe that Git rejects the push.
 
 ```bash
 git push origin main
@@ -276,7 +276,7 @@ git push -f origin main
 
 <box type="tip" seamless>
 
-**A safer alternative to `--force` is `--force-with-lease`** which overwrites the remote branch only if it hasn’t changed since you last fetched it (i.e., only if the remote doesn't have recent changes that you are unaware of):
+**A safer alternative to `--force` is `--force-with-lease`**, which overwrites the remote branch only if it has not changed since you last fetched it (i.e., if the remote does not have recent changes that you are unaware of):
 ```bash
 git push --force-with-lease origin main
 ```

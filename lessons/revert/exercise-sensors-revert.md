@@ -6,7 +6,7 @@
 
 ><include src="../diff/exercise-sensors-diff.md#scenario" />
 
-**Now**, you have found that the last few commits have some problems. You wish to **reverse those commits, without changing any of the current commits** so that problematic commits are preserved in history for future reference.
+**Now**, you have found that the last few commits have some problems. You want to **reverse those commits without changing any existing commits** so that problematic commits are preserved in history for future reference.
 
 </div>
 
@@ -14,8 +14,8 @@
 
 Use Git's _revert_ feature to reverse the problematic commits, as follows:
 
-1. Revert the commit containing data for Jan 14th. Keep the default commit message.
-1. Do the same for Jan 13th.
+1. Revert the commit containing data for Jan 14. Keep the default commit message.
+1. Do the same for Jan 13.
 
 </div>
 

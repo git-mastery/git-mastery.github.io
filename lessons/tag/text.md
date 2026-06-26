@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_steps_tabs, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_fine_print, show_git_term, show_git_term_tip, show_detour, show_exercise, show_steps_tabs, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Able to tag a commit.</span>
@@ -7,7 +7,7 @@
 
 <div id="body">
 {% call show_lesson_intro() %}
-When working with many commits, it helps to **tag specific commits with custom names** so they’re easier to refer to later.
+When working with many commits, it helps to **tag specific commits with custom names** so they're easier to refer to later.
 {% endcall %}
 
 **Git lets you {{ show_git_term('tag') }} commits with names, making them easy to reference later.** This is useful when you want to mark specific commits -- such as releases or key milestones (e.g., `v1.0` or `v2.1`). Using tags to refer to commits is much more convenient than using SHA hashes. In the diagram below, {{ show_tag('v1.0') }} and {{ show_tag('interim') }} are tags.
@@ -18,7 +18,7 @@ When working with many commits, it helps to **tag specific commits with custom n
 <p/>
 
 
-**A tag stays fixed to the commit.** Unlike branch refs or `HEAD`, tags do not move automatically as new commits are made. As you see below, after adding a new commit, tags stay in the previous commits while {{ show_ref('main')  + show_head() }} has moved to the new commit.
+**A tag stays fixed to the commit.** Unlike branch refs or `HEAD`, tags do not move automatically as new commits are made. As you see below, after adding a new commit, tags stay on the previous commits while {{ show_ref('main')  + show_head() }} has moved to the new commit.
 
 {{ show_commit('C4', desc=show_ref('main') + show_head(), msg='Trim the list') }}
 {{ show_commit('C3', desc=show_tag('interim'), msg='Update list') }}
@@ -28,8 +28,8 @@ When working with many commits, it helps to **tag specific commits with custom n
 
 **Git supports two kinds of tags:**
 
-1. **A {{ show_git_term("lightweight tag") }}** is just a ref that points directly to a commit, like a branch that doesn’t move.
-2. **An {{ show_git_term("annotated tag") }}** is a full Git object that stores a reference to a commit along with metadata such as the tagger’s name, date, and a message.
+1. **A {{ show_git_term("lightweight tag") }}** is just a ref that points directly to a commit, like a branch that doesn't move.
+2. **An {{ show_git_term("annotated tag") }}** is a full Git object that stores a reference to a commit along with metadata such as the tagger's name, date, and a message.
 
 **Annotated tags are generally preferred for versioning and public releases,** while lightweight tags are often used for less formal purposes, such as marking a commit for your own reference.
 
@@ -74,14 +74,14 @@ de97f08 Add cake
 ```
 {% endcall %}
 
-{{ hp_number ('3') }} **Use the tag to refer to the commit** e.g., `git show v1.0` should show the changes in the tagged commit.
+{{ hp_number ('3') }} **Use the tag to refer to the commit**, e.g., `git show v1.0` should show the changes in the tagged commit.
 
 {{ hp_number ('4') }} **Add an annotated tag to an earlier commit**. The example below adds a tag `v0.9` to the commit `HEAD~2` with the message `First beta release`. The `-a` switch tells Git this is an annotated tag.
 
 ```bash{.no-line-numbers}
 git tag -a v0.9  HEAD~2 -m "First beta release"
 ```
-{{ hp_number ('5') }} **Check the new annotated tag**. While both types of tags appear similarly in the revision graph, the `show` command on an annotated tag will show the details of the tag and the details of the commit it points to.
+{{ hp_number ('5') }} **Check the new annotated tag**. While both types of tags look similar in the revision graph, the `show` command on an annotated tag will show the tag details and the details of the commit it points to.
 ```bash{.no-line-numbers}
 git show v0.9
 ```
@@ -108,7 +108,7 @@ index a8a0a01..7d0a594 100644
 {% set sourcetree %}
 Right-click on the commit (in the graphical revision graph) you want to tag and choose `Tag…`.
 
-Specify the tag name e.g., `v1.0` and click `Add Tag`.
+Specify the tag name, e.g., `v1.0`, and click `Add Tag`.
 
 Configure tag properties in the next dialog and press `Add`. For example, you can choose whether to make it a lightweight tag or an annotated tag (default).
 
@@ -125,7 +125,7 @@ Tags will appear as labels in the revision graph, as seen below. To see the deta
 
 {% endcall %}
 
-**If you need to change what a tag points to, you must delete the old one and create a new tag with the same name.** This is because tags are designed to be fixed references to a specific commit, and there is no built-in mechanism to 'move' a tag.
+**If you need to change what a tag points to, use an explicit delete-and-recreate workflow.** This keeps the move visible: tags are designed to be fixed references to specific commits, so changing a tag should feel like replacing an old reference with a new one. {{ show_fine_print("Git can also force-update a local tag with `git tag -f`, but this lesson uses delete-and-recreate so the change is easier to reason about. If the tag has already been pushed, the remote tag must be updated separately too.") }}
 
 {% call show_hands_on_practical('Deleting/moving tags')  %}
 
@@ -133,7 +133,7 @@ Tags will appear as labels in the revision graph, as seen below. To see the deta
 
 {{ show_hop_prep('hp-move-tags', is_continue=1) }}
 
-**Move the `v1.0` tag to the commit `HEAD~1`**, by deleting it first and creating it again at the destination commit.
+**Move the local `v1.0` tag to the commit `HEAD~1`** by deleting it first and creating it again at the destination commit.
 
 {% set cli %}
 
@@ -145,7 +145,7 @@ git tag v1.0 HEAD~1
 {% endset %}
 {% set sourcetree %}
 
-The same dialog used to add a tag can be used to delete and even move a tag. Note that 'moving' here means deleting and re-adding the tag behind the scenes.
+You can use the same dialog to delete or move a tag. Note that 'moving' here means deleting and re-adding the tag behind the scenes.
 
 <pic src="images/sourcetreeMoveTag.png" width="500" />
 {% endset %}
@@ -172,11 +172,11 @@ The same dialog used to add a tag can be used to delete and even move a tag. Not
 
 <box type="info" seamless>
 
-You can go to your remote on GitHub link `https://github.com/{USER}/{REPO}/tags` (e.g., `https://github.com/[[username: JohnDoe]]/samplerepo-preferences/tags`) to verify the tag is present there.
+You can visit `https://github.com/{USER}/{REPO}/tags` (e.g., `https://github.com/[[username: JohnDoe]]/samplerepo-preferences/tags`) to verify the tag is present on GitHub.
 
 <pic src="images/githubListTags.png" width="300" />
 
-Note how GitHub assumes these tags are meant as releases, and automatically provides zip and tar.gz archives of the repo (as at that tag).
+Note how GitHub assumes these tags are meant as releases and automatically provides zip and tar.gz archives of the repo for each tag.
 </box>
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
@@ -187,13 +187,13 @@ git push origin v1.0
 ```
 <box type="tip" seamless>
 
-In addition to verifying the tag's presence via GitHub, you can also use the following command to list the tags presently in the remote.
+In addition to verifying the tag's presence via GitHub, you can also use the following command to list the tags currently on the remote.
 ```bash{.no-line-numbers}
 git ls-remote --tags origin
 ```
 </box>
 
-{{ hp_number ('2') }} **Delete a tag in the remote**, using the `git push --delete <remote> <tag-name>` command.
+{{ hp_number ('2') }} **Delete a tag from the remote**, using the `git push --delete <remote> <tag-name>` command.
 
 ```bash{.no-line-numbers}
 git push --delete origin v1.0
@@ -211,7 +211,7 @@ To push a specific tag, use the following menu:
 
 <pic src="images/sourcetreePushTag.png" width="400" />
 
-To push all tags, you can tick the `Push all tags` option when pushing commits:
+To push all tags, select the `Push all tags` option when pushing commits:
 
 <pic src="images/sourcetreePushAllTags.png" width="500" />
 {% endset %}
