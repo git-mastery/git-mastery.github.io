@@ -183,6 +183,19 @@ h2 {
     color: #980000;
 }
 
+/* Match the hands-on practical's vertical divider to the lighter red used by its
+   HANDS-ON title and step-number pills. The pills use rgba(255, 0, 0, 0.2), which
+   resolves to #ffcccc on the white page; the divider uses that color opaquely so
+   that where it overlaps the title pill the two layers don't compound into a darker
+   band. Extend the top up to touch the HANDS-ON title pill so all the decorated
+   elements read as one connected unit, and the bottom 1px to sit flush with the
+   last pill. */
+.hands-on-practical .alert-danger.vertical-divider {
+    background-color: #ffcccc;
+    margin-top: -4px;
+    margin-bottom: -1px;
+}
+
 .tab {
     background-color: #e0e0e0;
     padding: 3px;
