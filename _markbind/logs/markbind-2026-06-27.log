@@ -1,0 +1,1735 @@
+2026-06-27T05:57:40.439Z - [32minfo[39m: Website generation started at 13:57:40
+2026-06-27T05:57:40.641Z - [32minfo[39m: Building assets...
+2026-06-27T05:57:40.746Z - [32minfo[39m: Assets built
+2026-06-27T05:57:40.747Z - [32minfo[39m: Generating pages...
+2026-06-27T05:57:41.288Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/about/index.md
+2026-06-27T05:57:41.297Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/faq/index.md
+2026-06-27T05:57:41.300Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/companion-app/index.md
+2026-06-27T05:57:41.316Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/exercises-directory/index.md
+2026-06-27T05:57:44.178Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-update.md
+2026-06-27T05:57:44.181Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-push.md
+2026-06-27T05:57:44.183Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-add.md
+2026-06-27T05:57:44.190Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/all.md
+2026-06-27T05:57:44.439Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/exercise-staging-intervention.md
+2026-06-27T05:57:44.449Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/exercise-view-commits.md
+2026-06-27T05:57:44.451Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/exercise-stage-fright.md
+2026-06-27T05:57:44.462Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/exercise-link-me.md
+2026-06-27T05:57:44.488Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/exercise-sensors-revert.md
+2026-06-27T05:57:44.490Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/exercise-sensors-reset.md
+2026-06-27T05:57:44.492Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/exercise-remote-branch-rename.md
+2026-06-27T05:57:44.510Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/exercise-glossary-branch-rename.md
+2026-06-27T05:57:44.520Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPush/exercise-glossary-branch-push.md
+2026-06-27T05:57:44.521Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPull/exercise-glossary-branch-pull.md
+2026-06-27T05:57:44.530Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/exercise-glossary-branch-delete.md
+2026-06-27T05:57:44.538Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/exercise-push-over.md
+2026-06-27T05:57:44.551Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/exercise-fetch-and-pull.md
+2026-06-27T05:57:44.566Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/exercise-create-pr-from-main.md
+2026-06-27T05:57:44.576Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/exercise-conflict-mediator.md
+2026-06-27T05:57:44.583Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md
+2026-06-27T05:57:44.585Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-squash.md
+2026-06-27T05:57:44.592Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-ff-undo.md
+2026-06-27T05:57:44.608Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-compare.md
+2026-06-27T05:57:44.609Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-forward.md
+2026-06-27T05:57:44.617Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-bender.md
+2026-06-27T05:57:44.630Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/exercise-log-and-order.md
+2026-06-27T05:57:44.639Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/exercise-undo-init.md
+2026-06-27T05:57:44.641Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/exercise-under-control.md
+2026-06-27T05:57:44.648Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/exercise-ignoring-somethings.md
+2026-06-27T05:57:44.664Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/exercise-fork-repo.md
+2026-06-27T05:57:44.671Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/exercise-remote-control.md
+2026-06-27T05:57:44.673Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/exercise-sensors-diff.md
+2026-06-27T05:57:44.681Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/exercise-grocery-shopping.md
+2026-06-27T05:57:44.698Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/exercise-clone-repo.md
+2026-06-27T05:57:44.709Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/exercise-sensors-checkout.md
+2026-06-27T05:57:44.711Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/exercise-branch-rename.md
+2026-06-27T05:57:44.724Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-mix-messy-graph.md
+2026-06-27T05:57:44.745Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-mix-messy-docs.md
+2026-06-27T05:57:44.799Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-side-track.md
+2026-06-27T05:57:44.803Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-branch-delete.md
+2026-06-27T05:57:44.805Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-branch-previous.md
+2026-06-27T05:57:44.953Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/worktrees/index.md
+2026-06-27T05:57:45.485Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/index.md
+2026-06-27T05:57:45.488Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithRemotes/index.md
+2026-06-27T05:57:45.535Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/usingRevisionHistory/index.md
+2026-06-27T05:57:45.578Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/index.md
+2026-06-27T05:57:46.057Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/syncingBranches/index.md
+2026-06-27T05:57:46.104Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/remoteBranches/index.md
+2026-06-27T05:57:46.273Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-06-27T05:57:46.326Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/index.md
+2026-06-27T05:57:46.405Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/index.md
+2026-06-27T05:57:47.018Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/fineTuningHistory/index.md
+2026-06-27T05:57:47.030Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/backingUpOnCloud/index.md
+2026-06-27T05:57:47.057Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/branchingLocally/index.md
+2026-06-27T05:57:47.166Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/template/index.md
+2026-06-27T05:57:47.307Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/index.md
+2026-06-27T05:57:47.377Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByRebase/index.md
+2026-06-27T05:57:47.381Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T05:57:47.402Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByMerge/index.md
+2026-06-27T05:57:47.405Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/index.md
+2026-06-27T05:57:47.578Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/selectiveStage/index.md
+2026-06-27T05:57:47.582Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/index.md
+2026-06-27T05:57:47.591Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/index.md
+2026-06-27T05:57:47.597Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/index.md
+2026-06-27T05:57:47.694Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteRepos/index.md
+2026-06-27T05:57:47.698Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/index.md
+2026-06-27T05:57:47.702Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPush/index.md
+2026-06-27T05:57:47.729Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPull/index.md
+2026-06-27T05:57:47.894Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/index.md
+2026-06-27T05:57:47.932Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/index.md
+2026-06-27T05:57:47.943Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/index.md
+2026-06-27T05:57:47.994Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/index.md
+2026-06-27T05:57:48.112Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsMerge/index.md
+2026-06-27T05:57:48.118Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/index.md
+2026-06-27T05:57:48.128Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/otherPmFeatures/index.md
+2026-06-27T05:57:48.226Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/index.md
+2026-06-27T05:57:48.301Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/index.md
+2026-06-27T05:57:48.343Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/index.md
+2026-06-27T05:57:48.398Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/interactiveRebase/index.md
+2026-06-27T05:57:48.404Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T05:57:48.631Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-06-27T05:57:48.639Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index.md
+2026-06-27T05:57:48.645Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/githubPrep/index.md
+2026-06-27T05:57:48.651Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/index.md
+2026-06-27T05:57:48.799Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/index.md
+2026-06-27T05:57:48.811Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/index.md
+2026-06-27T05:57:48.815Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/index.md
+2026-06-27T05:57:48.818Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/index.md
+2026-06-27T05:57:48.920Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/index.md
+2026-06-27T05:57:48.926Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commitMessage/index.md
+2026-06-27T05:57:48.931Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/index.md
+2026-06-27T05:57:48.935Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T05:57:49.089Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/cherryPick/index.md
+2026-06-27T05:57:49.092Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/index.md
+2026-06-27T05:57:49.100Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/index.md
+2026-06-27T05:57:49.105Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/index.md
+2026-06-27T05:57:49.203Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-06-27T05:57:49.206Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/index.md
+2026-06-27T05:57:49.221Z - [32minfo[39m: Pages built
+2026-06-27T05:57:49.319Z - [32minfo[39m: Site data built
+2026-06-27T05:57:49.319Z - [32minfo[39m: Website generation complete! Total build time: 9.017s
+2026-06-27T05:57:49.319Z - [32minfo[39m: Build success!
+2026-06-27T06:03:04.382Z - [32minfo[39m: GitHub Actions deployment initiated. Check status at: https://github.com/git-mastery/git-mastery.github.io/actions
+2026-06-27T06:03:04.385Z - [32minfo[39m: The website will be deployed at: git-mastery.org
+2026-06-27T06:25:58.733Z - [32minfo[39m: Website generation (lazy) started at 14:25:58
+2026-06-27T06:25:58.870Z - [32minfo[39m: Building assets...
+2026-06-27T06:25:58.975Z - [32minfo[39m: Assets built
+2026-06-27T06:25:58.975Z - [32minfo[39m: Generating landing page...
+2026-06-27T06:25:59.052Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-06-27T06:25:59.077Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-06-27T06:25:59.153Z - [32minfo[39m: Site data built
+2026-06-27T06:25:59.153Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 0.575s
+2026-06-27T06:25:59.167Z - [32minfo[39m: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-06-27T06:25:59.167Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-06-27T06:26:05.738Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2026-06-27T06:26:06.111Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index.md
+2026-06-27T06:26:06.131Z - [32minfo[39m: Site data built
+2026-06-27T06:26:06.131Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.393s
+2026-06-27T06:26:34.903Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index as some of its dependencies were changed since the last visit
+2026-06-27T06:26:34.991Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T06:26:35.002Z - [32minfo[39m: Site data built
+2026-06-27T06:26:35.003Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.101s
+2026-06-27T06:27:39.391Z - [32minfo[39m: [14:27:39] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T06:27:39.392Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T06:27:39.394Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T06:27:39.394Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T06:27:40.403Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T06:27:40.468Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T06:27:40.477Z - [32minfo[39m: Site data built
+2026-06-27T06:27:40.477Z - [32minfo[39m: Pages rebuilt
+2026-06-27T06:27:40.478Z - [32minfo[39m: Website regeneration complete! Total build time: 0.078s
+2026-06-27T06:35:04.639Z - [32minfo[39m: [14:35:04] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T06:35:04.641Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T06:35:04.641Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T06:35:04.641Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T06:35:05.663Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T06:35:05.721Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T06:35:05.728Z - [32minfo[39m: Site data built
+2026-06-27T06:35:05.728Z - [32minfo[39m: Pages rebuilt
+2026-06-27T06:35:05.728Z - [32minfo[39m: Website regeneration complete! Total build time: 0.085s
+2026-06-27T06:37:13.587Z - [32minfo[39m: [14:37:13] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T06:37:13.590Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T06:37:13.591Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T06:37:13.591Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T06:37:14.615Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T06:37:14.690Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T06:37:14.700Z - [32minfo[39m: Site data built
+2026-06-27T06:37:14.700Z - [32minfo[39m: Pages rebuilt
+2026-06-27T06:37:14.700Z - [32minfo[39m: Website regeneration complete! Total build time: 0.106s
+2026-06-27T06:44:44.437Z - [32minfo[39m: [14:44:44] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T06:44:44.438Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T06:44:44.439Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T06:44:44.439Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T06:44:45.443Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T06:44:45.495Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T06:44:45.501Z - [32minfo[39m: Site data built
+2026-06-27T06:44:45.501Z - [32minfo[39m: Pages rebuilt
+2026-06-27T06:44:45.501Z - [32minfo[39m: Website regeneration complete! Total build time: 0.061s
+2026-06-27T06:45:27.576Z - [32minfo[39m: [14:45:27] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T06:45:27.578Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T06:45:27.579Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T06:45:27.579Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T06:45:28.584Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T06:45:28.637Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T06:45:28.644Z - [32minfo[39m: Site data built
+2026-06-27T06:45:28.644Z - [32minfo[39m: Pages rebuilt
+2026-06-27T06:45:28.644Z - [32minfo[39m: Website regeneration complete! Total build time: 0.062s
+2026-06-27T06:48:46.190Z - [32minfo[39m: [14:48:46] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T06:48:46.191Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T06:48:46.210Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T06:48:46.232Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T06:48:47.258Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T06:48:47.421Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T06:48:47.431Z - [32minfo[39m: Site data built
+2026-06-27T06:48:47.432Z - [32minfo[39m: Pages rebuilt
+2026-06-27T06:48:47.432Z - [32minfo[39m: Website regeneration complete! Total build time: 0.183s
+2026-06-27T06:54:10.917Z - [32minfo[39m: [14:54:10] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T06:54:10.917Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T06:54:10.918Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T06:54:10.918Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T06:54:11.927Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T06:54:11.994Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T06:54:12.001Z - [32minfo[39m: Site data built
+2026-06-27T06:54:12.001Z - [32minfo[39m: Pages rebuilt
+2026-06-27T06:54:12.001Z - [32minfo[39m: Website regeneration complete! Total build time: 0.082s
+2026-06-27T06:58:23.328Z - [32minfo[39m: [14:58:23] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T06:58:23.333Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T06:58:23.334Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T06:58:23.334Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T06:58:24.351Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T06:58:24.412Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T06:58:24.417Z - [32minfo[39m: Site data built
+2026-06-27T06:58:24.418Z - [32minfo[39m: Pages rebuilt
+2026-06-27T06:58:24.418Z - [32minfo[39m: Website regeneration complete! Total build time: 0.081s
+2026-06-27T07:01:30.292Z - [32minfo[39m: [15:01:30] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T07:01:30.319Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T07:01:30.327Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T07:01:30.327Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T07:01:31.343Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T07:01:31.401Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T07:01:31.411Z - [32minfo[39m: Site data built
+2026-06-27T07:01:31.411Z - [32minfo[39m: Pages rebuilt
+2026-06-27T07:01:31.411Z - [32minfo[39m: Website regeneration complete! Total build time: 0.071s
+2026-06-27T07:05:53.116Z - [32minfo[39m: [15:05:53] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T07:05:53.117Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T07:05:53.117Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T07:05:53.117Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T07:05:54.123Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T07:05:54.188Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T07:05:54.193Z - [32minfo[39m: Site data built
+2026-06-27T07:05:54.193Z - [32minfo[39m: Pages rebuilt
+2026-06-27T07:05:54.193Z - [32minfo[39m: Website regeneration complete! Total build time: 0.073s
+2026-06-27T07:06:18.340Z - [32minfo[39m: [15:06:18] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T07:06:18.343Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T07:06:18.344Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T07:06:18.344Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T07:06:19.348Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T07:06:19.413Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T07:06:19.421Z - [32minfo[39m: Site data built
+2026-06-27T07:06:19.421Z - [32minfo[39m: Pages rebuilt
+2026-06-27T07:06:19.421Z - [32minfo[39m: Website regeneration complete! Total build time: 0.075s
+2026-06-27T07:06:26.902Z - [32minfo[39m: [15:06:26] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T07:06:26.904Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T07:06:26.904Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T07:06:26.905Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T07:06:27.910Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T07:06:27.966Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T07:06:27.971Z - [32minfo[39m: Site data built
+2026-06-27T07:06:27.971Z - [32minfo[39m: Pages rebuilt
+2026-06-27T07:06:27.971Z - [32minfo[39m: Website regeneration complete! Total build time: 0.063s
+2026-06-27T07:09:28.415Z - [32minfo[39m: [15:09:28] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T07:09:28.416Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T07:09:28.417Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T07:09:28.417Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T07:09:29.424Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T07:09:29.494Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T07:09:29.502Z - [32minfo[39m: Site data built
+2026-06-27T07:09:29.502Z - [32minfo[39m: Pages rebuilt
+2026-06-27T07:09:29.502Z - [32minfo[39m: Website regeneration complete! Total build time: 0.081s
+2026-06-27T07:10:05.395Z - [32minfo[39m: [15:10:05] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T07:10:05.398Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T07:10:05.398Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T07:10:05.398Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T07:10:06.407Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T07:10:06.460Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T07:10:06.465Z - [32minfo[39m: Site data built
+2026-06-27T07:10:06.465Z - [32minfo[39m: Pages rebuilt
+2026-06-27T07:10:06.466Z - [32minfo[39m: Website regeneration complete! Total build time: 0.059s
+2026-06-27T07:12:08.312Z - [32minfo[39m: [15:12:08] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T07:12:08.313Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T07:12:08.314Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T07:12:08.314Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T07:12:09.318Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T07:12:09.376Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T07:12:09.383Z - [32minfo[39m: Site data built
+2026-06-27T07:12:09.383Z - [32minfo[39m: Pages rebuilt
+2026-06-27T07:12:09.383Z - [32minfo[39m: Website regeneration complete! Total build time: 0.067s
+2026-06-27T07:12:25.051Z - [32minfo[39m: [15:12:25] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T07:12:25.052Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T07:12:25.053Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T07:12:25.053Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T07:12:26.058Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T07:12:26.111Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T07:12:26.117Z - [32minfo[39m: Site data built
+2026-06-27T07:12:26.117Z - [32minfo[39m: Pages rebuilt
+2026-06-27T07:12:26.117Z - [32minfo[39m: Website regeneration complete! Total build time: 0.06s
+2026-06-27T07:12:44.303Z - [32minfo[39m: [15:12:44] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T07:12:44.304Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T07:12:44.304Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T07:12:44.304Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T07:12:45.306Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T07:12:45.372Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T07:12:45.379Z - [32minfo[39m: Site data built
+2026-06-27T07:12:45.380Z - [32minfo[39m: Pages rebuilt
+2026-06-27T07:12:45.380Z - [32minfo[39m: Website regeneration complete! Total build time: 0.075s
+2026-06-27T07:13:24.330Z - [32minfo[39m: [15:13:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T07:13:24.331Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T07:13:24.332Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T07:13:24.332Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T07:13:25.338Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T07:13:25.396Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T07:13:25.401Z - [32minfo[39m: Site data built
+2026-06-27T07:13:25.401Z - [32minfo[39m: Pages rebuilt
+2026-06-27T07:13:25.401Z - [32minfo[39m: Website regeneration complete! Total build time: 0.068s
+2026-06-27T07:14:38.844Z - [32minfo[39m: [15:14:38] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T07:14:38.845Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T07:14:38.846Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T07:14:38.847Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T07:14:39.851Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T07:14:39.899Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T07:14:39.906Z - [32minfo[39m: Site data built
+2026-06-27T07:14:39.906Z - [32minfo[39m: Pages rebuilt
+2026-06-27T07:14:39.906Z - [32minfo[39m: Website regeneration complete! Total build time: 0.057s
+2026-06-27T07:21:31.283Z - [32minfo[39m: [15:21:31] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T07:21:31.284Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T07:21:31.285Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T07:21:31.285Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T07:21:32.326Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T07:21:32.514Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T07:21:32.519Z - [32minfo[39m: Site data built
+2026-06-27T07:21:32.519Z - [32minfo[39m: Pages rebuilt
+2026-06-27T07:21:32.519Z - [32minfo[39m: Website regeneration complete! Total build time: 0.223s
+2026-06-27T07:56:51.201Z - [32minfo[39m: [15:56:51] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T07:56:51.203Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T07:56:51.204Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T07:56:51.204Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T07:56:52.232Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T07:56:52.315Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T07:56:52.324Z - [32minfo[39m: Site data built
+2026-06-27T07:56:52.324Z - [32minfo[39m: Pages rebuilt
+2026-06-27T07:56:52.324Z - [32minfo[39m: Website regeneration complete! Total build time: 0.114s
+2026-06-27T07:57:21.060Z - [32minfo[39m: [15:57:21] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T07:57:21.061Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T07:57:21.061Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T07:57:21.062Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T07:57:22.065Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T07:57:22.125Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T07:57:22.131Z - [32minfo[39m: Site data built
+2026-06-27T07:57:22.131Z - [32minfo[39m: Pages rebuilt
+2026-06-27T07:57:22.131Z - [32minfo[39m: Website regeneration complete! Total build time: 0.068s
+2026-06-27T08:01:01.385Z - [32minfo[39m: [16:01:01] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T08:01:01.389Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T08:01:01.389Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T08:01:01.390Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T08:01:02.399Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T08:01:02.467Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T08:01:02.475Z - [32minfo[39m: Site data built
+2026-06-27T08:01:02.475Z - [32minfo[39m: Pages rebuilt
+2026-06-27T08:01:02.475Z - [32minfo[39m: Website regeneration complete! Total build time: 0.081s
+2026-06-27T08:04:12.121Z - [32minfo[39m: [16:04:12] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T08:04:12.123Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T08:04:12.124Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T08:04:12.124Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T08:04:13.127Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T08:04:13.174Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T08:04:13.180Z - [32minfo[39m: Site data built
+2026-06-27T08:04:13.180Z - [32minfo[39m: Pages rebuilt
+2026-06-27T08:04:13.180Z - [32minfo[39m: Website regeneration complete! Total build time: 0.055s
+2026-06-27T08:04:24.425Z - [32minfo[39m: [16:04:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T08:04:24.430Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T08:04:24.435Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T08:04:24.436Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T08:04:25.446Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T08:04:25.500Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T08:04:25.506Z - [32minfo[39m: Site data built
+2026-06-27T08:04:25.506Z - [32minfo[39m: Pages rebuilt
+2026-06-27T08:04:25.506Z - [32minfo[39m: Website regeneration complete! Total build time: 0.063s
+2026-06-27T08:04:33.735Z - [32minfo[39m: [16:04:33] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T08:04:33.736Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T08:04:33.738Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T08:04:33.738Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T08:04:34.743Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T08:04:34.798Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T08:04:34.803Z - [32minfo[39m: Site data built
+2026-06-27T08:04:34.803Z - [32minfo[39m: Pages rebuilt
+2026-06-27T08:04:34.803Z - [32minfo[39m: Website regeneration complete! Total build time: 0.063s
+2026-06-27T08:05:04.088Z - [32minfo[39m: [16:05:04] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T08:05:04.089Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T08:05:04.090Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T08:05:04.090Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T08:05:05.100Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T08:05:05.184Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T08:05:05.191Z - [32minfo[39m: Site data built
+2026-06-27T08:05:05.191Z - [32minfo[39m: Pages rebuilt
+2026-06-27T08:05:05.191Z - [32minfo[39m: Website regeneration complete! Total build time: 0.1s
+2026-06-27T08:06:08.504Z - [32minfo[39m: Website generation started at 4:06:08 PM
+2026-06-27T08:06:08.747Z - [32minfo[39m: Building assets...
+2026-06-27T08:06:08.917Z - [32minfo[39m: Assets built
+2026-06-27T08:06:08.917Z - [32minfo[39m: Generating pages...
+2026-06-27T08:06:09.521Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/about/index.md
+2026-06-27T08:06:09.530Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/faq/index.md
+2026-06-27T08:06:09.533Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/companion-app/index.md
+2026-06-27T08:06:09.551Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/exercises-directory/index.md
+2026-06-27T08:06:12.528Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-update.md
+2026-06-27T08:06:12.537Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-push.md
+2026-06-27T08:06:12.539Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-add.md
+2026-06-27T08:06:12.542Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/all.md
+2026-06-27T08:06:12.796Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/exercise-staging-intervention.md
+2026-06-27T08:06:12.805Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/exercise-stage-fright.md
+2026-06-27T08:06:12.808Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/exercise-view-commits.md
+2026-06-27T08:06:12.809Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/exercise-link-me.md
+2026-06-27T08:06:12.843Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/exercise-sensors-revert.md
+2026-06-27T08:06:12.845Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/exercise-sensors-reset.md
+2026-06-27T08:06:12.846Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/exercise-remote-branch-rename.md
+2026-06-27T08:06:12.863Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/exercise-glossary-branch-rename.md
+2026-06-27T08:06:12.879Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPull/exercise-glossary-branch-pull.md
+2026-06-27T08:06:12.881Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPush/exercise-glossary-branch-push.md
+2026-06-27T08:06:12.883Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/exercise-glossary-branch-delete.md
+2026-06-27T08:06:12.891Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/exercise-push-over.md
+2026-06-27T08:06:12.910Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/exercise-create-pr-from-main.md
+2026-06-27T08:06:12.920Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/exercise-fetch-and-pull.md
+2026-06-27T08:06:12.923Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/exercise-conflict-mediator.md
+2026-06-27T08:06:12.931Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md
+2026-06-27T08:06:12.945Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-squash.md
+2026-06-27T08:06:12.953Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-ff-undo.md
+2026-06-27T08:06:12.956Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-forward.md
+2026-06-27T08:06:12.970Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-compare.md
+2026-06-27T08:06:12.985Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-bender.md
+2026-06-27T08:06:12.986Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/exercise-log-and-order.md
+2026-06-27T08:06:12.989Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/exercise-undo-init.md
+2026-06-27T08:06:12.997Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/exercise-under-control.md
+2026-06-27T08:06:13.004Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/exercise-ignoring-somethings.md
+2026-06-27T08:06:13.020Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/exercise-fork-repo.md
+2026-06-27T08:06:13.028Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/exercise-remote-control.md
+2026-06-27T08:06:13.029Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/exercise-sensors-diff.md
+2026-06-27T08:06:13.052Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/exercise-grocery-shopping.md
+2026-06-27T08:06:13.056Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/exercise-clone-repo.md
+2026-06-27T08:06:13.068Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/exercise-sensors-checkout.md
+2026-06-27T08:06:13.070Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/exercise-branch-rename.md
+2026-06-27T08:06:13.104Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-mix-messy-graph.md
+2026-06-27T08:06:13.107Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-branch-delete.md
+2026-06-27T08:06:13.109Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-mix-messy-docs.md
+2026-06-27T08:06:13.112Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-side-track.md
+2026-06-27T08:06:13.315Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-branch-previous.md
+2026-06-27T08:06:13.319Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/index.md
+2026-06-27T08:06:13.322Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/worktrees/index.md
+2026-06-27T08:06:13.462Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithRemotes/index.md
+2026-06-27T08:06:13.867Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/index.md
+2026-06-27T08:06:13.987Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/syncingBranches/index.md
+2026-06-27T08:06:13.992Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/usingRevisionHistory/index.md
+2026-06-27T08:06:14.410Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/remoteBranches/index.md
+2026-06-27T08:06:14.689Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-06-27T08:06:14.739Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/index.md
+2026-06-27T08:06:14.747Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/index.md
+2026-06-27T08:06:15.118Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/fineTuningHistory/index.md
+2026-06-27T08:06:15.419Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/backingUpOnCloud/index.md
+2026-06-27T08:06:15.446Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/template/index.md
+2026-06-27T08:06:15.449Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/index.md
+2026-06-27T08:06:15.460Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/branchingLocally/index.md
+2026-06-27T08:06:15.674Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T08:06:15.689Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/index.md
+2026-06-27T08:06:15.698Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByRebase/index.md
+2026-06-27T08:06:15.703Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByMerge/index.md
+2026-06-27T08:06:15.872Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/index.md
+2026-06-27T08:06:15.880Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/selectiveStage/index.md
+2026-06-27T08:06:15.884Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/index.md
+2026-06-27T08:06:15.889Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/index.md
+2026-06-27T08:06:15.996Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/index.md
+2026-06-27T08:06:16.001Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPush/index.md
+2026-06-27T08:06:16.005Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteRepos/index.md
+2026-06-27T08:06:16.008Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPull/index.md
+2026-06-27T08:06:16.233Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/index.md
+2026-06-27T08:06:16.239Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/index.md
+2026-06-27T08:06:16.252Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/index.md
+2026-06-27T08:06:16.264Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/index.md
+2026-06-27T08:06:16.421Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsMerge/index.md
+2026-06-27T08:06:16.426Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/index.md
+2026-06-27T08:06:16.437Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/otherPmFeatures/index.md
+2026-06-27T08:06:16.440Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/index.md
+2026-06-27T08:06:16.632Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/index.md
+2026-06-27T08:06:16.646Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/index.md
+2026-06-27T08:06:16.702Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T08:06:16.705Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/interactiveRebase/index.md
+2026-06-27T08:06:16.941Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-06-27T08:06:16.950Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index.md
+2026-06-27T08:06:17.017Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/githubPrep/index.md
+2026-06-27T08:06:17.024Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/index.md
+2026-06-27T08:06:17.116Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/index.md
+2026-06-27T08:06:17.128Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/index.md
+2026-06-27T08:06:17.134Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/index.md
+2026-06-27T08:06:17.152Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/index.md
+2026-06-27T08:06:17.221Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/index.md
+2026-06-27T08:06:17.252Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commitMessage/index.md
+2026-06-27T08:06:17.258Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/index.md
+2026-06-27T08:06:17.264Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T08:06:17.438Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/cherryPick/index.md
+2026-06-27T08:06:17.442Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/index.md
+2026-06-27T08:06:17.453Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/index.md
+2026-06-27T08:06:17.460Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/index.md
+2026-06-27T08:06:17.607Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/index.md
+2026-06-27T08:06:17.628Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-06-27T08:06:17.638Z - [32minfo[39m: Pages built
+2026-06-27T08:06:17.808Z - [32minfo[39m: Site data built
+2026-06-27T08:06:17.809Z - [32minfo[39m: Website generation complete! Total build time: 9.432s
+2026-06-27T08:06:17.810Z - [32minfo[39m: Build success!
+2026-06-27T08:09:01.696Z - [32minfo[39m: [16:09:01] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T08:09:01.697Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T08:09:01.698Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T08:09:01.699Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T08:09:02.704Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T08:09:02.778Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T08:09:02.791Z - [32minfo[39m: Site data built
+2026-06-27T08:09:02.792Z - [32minfo[39m: Pages rebuilt
+2026-06-27T08:09:02.792Z - [32minfo[39m: Website regeneration complete! Total build time: 0.091s
+2026-06-27T08:11:00.766Z - [32minfo[39m: [16:11:00] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T08:11:00.771Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T08:11:00.772Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T08:11:00.773Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T08:11:01.777Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T08:11:01.830Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T08:11:01.836Z - [32minfo[39m: Site data built
+2026-06-27T08:11:01.836Z - [32minfo[39m: Pages rebuilt
+2026-06-27T08:11:01.836Z - [32minfo[39m: Website regeneration complete! Total build time: 0.061s
+2026-06-27T08:11:08.636Z - [32minfo[39m: [16:11:08] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T08:11:08.638Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T08:11:08.639Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T08:11:08.639Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T08:11:09.645Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T08:11:09.721Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T08:11:09.738Z - [32minfo[39m: Site data built
+2026-06-27T08:11:09.738Z - [32minfo[39m: Pages rebuilt
+2026-06-27T08:11:09.738Z - [32minfo[39m: Website regeneration complete! Total build time: 0.096s
+2026-06-27T08:11:42.395Z - [32minfo[39m: [16:11:42] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T08:11:42.396Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T08:11:42.397Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T08:11:42.398Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T08:11:43.401Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T08:11:43.464Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T08:11:43.469Z - [32minfo[39m: Site data built
+2026-06-27T08:11:43.469Z - [32minfo[39m: Pages rebuilt
+2026-06-27T08:11:43.469Z - [32minfo[39m: Website regeneration complete! Total build time: 0.07s
+2026-06-27T08:13:10.219Z - [32minfo[39m: [16:13:10] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T08:13:10.220Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T08:13:10.221Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T08:13:10.222Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T08:13:11.228Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T08:13:11.285Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T08:13:11.292Z - [32minfo[39m: Site data built
+2026-06-27T08:13:11.292Z - [32minfo[39m: Pages rebuilt
+2026-06-27T08:13:11.292Z - [32minfo[39m: Website regeneration complete! Total build time: 0.067s
+2026-06-27T08:14:24.382Z - [32minfo[39m: [16:14:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T08:14:24.384Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T08:14:24.384Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T08:14:24.385Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T08:14:25.391Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T08:14:25.445Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T08:14:25.450Z - [32minfo[39m: Site data built
+2026-06-27T08:14:25.450Z - [32minfo[39m: Pages rebuilt
+2026-06-27T08:14:25.450Z - [32minfo[39m: Website regeneration complete! Total build time: 0.063s
+2026-06-27T08:17:58.972Z - [32minfo[39m: [16:17:58] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T08:17:58.973Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T08:17:58.975Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T08:17:58.975Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T08:17:59.983Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T08:18:00.109Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T08:18:00.122Z - [32minfo[39m: Site data built
+2026-06-27T08:18:00.122Z - [32minfo[39m: Pages rebuilt
+2026-06-27T08:18:00.122Z - [32minfo[39m: Website regeneration complete! Total build time: 0.141s
+2026-06-27T08:18:19.676Z - [32minfo[39m: [16:18:19] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T08:18:19.679Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T08:18:19.680Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T08:18:19.680Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T08:18:20.683Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T08:18:20.750Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T08:18:20.756Z - [32minfo[39m: Site data built
+2026-06-27T08:18:20.756Z - [32minfo[39m: Pages rebuilt
+2026-06-27T08:18:20.756Z - [32minfo[39m: Website regeneration complete! Total build time: 0.074s
+2026-06-27T08:18:33.093Z - [32minfo[39m: [16:18:33] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T08:18:33.094Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T08:18:33.094Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T08:18:33.095Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T08:18:34.099Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T08:18:34.144Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T08:18:34.150Z - [32minfo[39m: Site data built
+2026-06-27T08:18:34.150Z - [32minfo[39m: Pages rebuilt
+2026-06-27T08:18:34.150Z - [32minfo[39m: Website regeneration complete! Total build time: 0.052s
+2026-06-27T08:19:34.653Z - [32minfo[39m: [16:19:34] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T08:19:34.655Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T08:19:34.656Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T08:19:34.656Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T08:19:35.661Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T08:19:35.733Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T08:19:35.739Z - [32minfo[39m: Site data built
+2026-06-27T08:19:35.739Z - [32minfo[39m: Pages rebuilt
+2026-06-27T08:19:35.739Z - [32minfo[39m: Website regeneration complete! Total build time: 0.081s
+2026-06-27T08:20:06.315Z - [32minfo[39m: [16:20:06] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-06-27T08:20:06.316Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T08:20:06.316Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T08:20:06.316Z - [32minfo[39m: 1. lessons/intro/index
+2026-06-27T08:20:07.320Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T08:20:07.383Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T08:20:07.392Z - [32minfo[39m: Site data built
+2026-06-27T08:20:07.392Z - [32minfo[39m: Pages rebuilt
+2026-06-27T08:20:07.392Z - [32minfo[39m: Website regeneration complete! Total build time: 0.074s
+2026-06-27T08:21:09.618Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/index as some of its dependencies were changed since the last visit
+2026-06-27T08:21:09.789Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/index.md
+2026-06-27T08:21:09.809Z - [32minfo[39m: Site data built
+2026-06-27T08:21:09.809Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.195s
+2026-06-27T08:21:22.940Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index as some of its dependencies were changed since the last visit
+2026-06-27T08:21:23.198Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-06-27T08:21:23.223Z - [32minfo[39m: Site data built
+2026-06-27T08:21:23.224Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.286s
+2026-06-27T08:21:52.565Z - [32minfo[39m: Website generation (lazy) started at 16:21:52
+2026-06-27T08:21:52.694Z - [32minfo[39m: Building assets...
+2026-06-27T08:21:52.804Z - [32minfo[39m: Assets built
+2026-06-27T08:21:52.804Z - [32minfo[39m: Generating landing page...
+2026-06-27T08:21:52.903Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-06-27T08:21:52.921Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-06-27T08:21:53.007Z - [32minfo[39m: Site data built
+2026-06-27T08:21:53.007Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 0.584s
+2026-06-27T08:21:53.018Z - [32minfo[39m: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-06-27T08:21:53.019Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-06-27T08:21:56.727Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2026-06-27T08:21:57.122Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index.md
+2026-06-27T08:21:57.140Z - [32minfo[39m: Site data built
+2026-06-27T08:21:57.140Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.414s
+2026-06-27T08:22:02.544Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/index as some of its dependencies were changed since the last visit
+2026-06-27T08:22:02.671Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/index.md
+2026-06-27T08:22:02.696Z - [32minfo[39m: Site data built
+2026-06-27T08:22:02.696Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.152s
+2026-06-27T08:22:36.267Z - [32minfo[39m: [16:22:36] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2026-06-27T08:22:36.275Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T08:22:36.280Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T08:22:36.281Z - [32minfo[39m: 1. lessons/gitPrep/index
+2026-06-27T08:22:37.297Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T08:22:37.474Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/index.md
+2026-06-27T08:22:37.502Z - [32minfo[39m: Site data built
+2026-06-27T08:22:37.502Z - [32minfo[39m: Pages rebuilt
+2026-06-27T08:22:37.502Z - [32minfo[39m: Website regeneration complete! Total build time: 0.217s
+2026-06-27T08:48:43.909Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index as some of its dependencies were changed since the last visit
+2026-06-27T08:48:44.080Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-06-27T08:48:44.098Z - [32minfo[39m: Site data built
+2026-06-27T08:48:44.098Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.19s
+2026-06-27T08:53:17.505Z - [32minfo[39m: [16:53:17] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2026-06-27T08:53:17.509Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T08:53:17.511Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T08:53:17.511Z - [32minfo[39m: 1. lessons/init/index
+2026-06-27T08:53:18.535Z - [32minfo[39m: No pages needed to be rebuilt
+2026-06-27T08:59:56.631Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index as some of its dependencies were changed since the last visit
+2026-06-27T08:59:56.928Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T08:59:56.955Z - [32minfo[39m: Site data built
+2026-06-27T08:59:56.955Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.325s
+2026-06-27T09:01:43.591Z - [32minfo[39m: [17:01:43] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md
+2026-06-27T09:01:43.592Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T09:01:43.593Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T09:01:43.593Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T09:01:43.594Z - [32minfo[39m: [17:01:43] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2026-06-27T09:01:43.594Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T09:01:43.594Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T09:01:43.594Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T09:01:44.596Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T09:01:44.813Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T09:01:44.831Z - [32minfo[39m: Site data built
+2026-06-27T09:01:44.831Z - [32minfo[39m: Pages rebuilt
+2026-06-27T09:01:44.831Z - [32minfo[39m: Website regeneration complete! Total build time: 0.237s
+2026-06-27T09:13:58.412Z - [32minfo[39m: [17:13:58] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md
+2026-06-27T09:13:58.419Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T09:13:58.422Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T09:13:58.423Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T09:13:59.445Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T09:13:59.702Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T09:13:59.730Z - [32minfo[39m: Site data built
+2026-06-27T09:13:59.731Z - [32minfo[39m: Pages rebuilt
+2026-06-27T09:13:59.731Z - [32minfo[39m: Website regeneration complete! Total build time: 0.304s
+2026-06-27T09:34:03.760Z - [32minfo[39m: [17:34:03] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md
+2026-06-27T09:34:03.763Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T09:34:03.763Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T09:34:03.764Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T09:34:03.765Z - [32minfo[39m: [17:34:03] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/AGENTS.md
+2026-06-27T09:34:03.765Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T09:34:03.765Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T09:34:03.765Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T09:34:03.769Z - [32minfo[39m: [17:34:03] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md
+2026-06-27T09:34:03.769Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T09:34:03.769Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T09:34:03.769Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T09:34:03.802Z - [32minfo[39m: [17:34:03] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/steps-checkout-commits-fragment.md
+2026-06-27T09:34:03.802Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T09:34:03.802Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T09:34:03.802Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T09:34:04.782Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T09:34:05.008Z - [32minfo[39m: Assets built
+2026-06-27T09:34:05.011Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T09:34:05.034Z - [32minfo[39m: Site data built
+2026-06-27T09:34:05.034Z - [32minfo[39m: Pages rebuilt
+2026-06-27T09:34:05.034Z - [32minfo[39m: Website regeneration complete! Total build time: 0.265s
+2026-06-27T09:37:51.479Z - [32minfo[39m: [17:37:51] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md
+2026-06-27T09:37:51.485Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T09:37:51.487Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T09:37:51.487Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T09:37:52.524Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T09:37:52.875Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T09:37:52.903Z - [32minfo[39m: Site data built
+2026-06-27T09:37:52.903Z - [32minfo[39m: Pages rebuilt
+2026-06-27T09:37:52.903Z - [32minfo[39m: Website regeneration complete! Total build time: 0.405s
+2026-06-27T09:38:13.045Z - [32minfo[39m: [17:38:13] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md
+2026-06-27T09:38:13.046Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T09:38:13.047Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T09:38:13.047Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T09:38:14.052Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T09:38:14.243Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T09:38:14.261Z - [32minfo[39m: Site data built
+2026-06-27T09:38:14.261Z - [32minfo[39m: Pages rebuilt
+2026-06-27T09:38:14.261Z - [32minfo[39m: Website regeneration complete! Total build time: 0.212s
+2026-06-27T09:39:20.429Z - [32minfo[39m: [17:39:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md
+2026-06-27T09:39:20.430Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T09:39:20.430Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T09:39:20.432Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T09:39:21.445Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T09:39:21.710Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T09:39:21.735Z - [32minfo[39m: Site data built
+2026-06-27T09:39:21.736Z - [32minfo[39m: Pages rebuilt
+2026-06-27T09:39:21.736Z - [32minfo[39m: Website regeneration complete! Total build time: 0.294s
+2026-06-27T11:55:29.446Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index as some of its dependencies were changed since the last visit
+2026-06-27T11:55:29.680Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T11:55:29.719Z - [32minfo[39m: Site data built
+2026-06-27T11:55:29.719Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.276s
+2026-06-27T12:16:55.601Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index as some of its dependencies were changed since the last visit
+2026-06-27T12:16:56.184Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-06-27T12:16:56.238Z - [32minfo[39m: Site data built
+2026-06-27T12:16:56.238Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.638s
+2026-06-27T12:25:41.506Z - [32minfo[39m: [20:25:41] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:25:41.509Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:25:41.510Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:25:41.510Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:25:42.609Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:25:42.786Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:25:42.810Z - [32minfo[39m: Site data built
+2026-06-27T12:25:42.810Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:25:42.810Z - [32minfo[39m: Website regeneration complete! Total build time: 0.21s
+2026-06-27T12:27:01.734Z - [32minfo[39m: [20:27:01] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:27:01.735Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:27:01.735Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:27:01.736Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:27:02.812Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:27:02.979Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:27:03.003Z - [32minfo[39m: Site data built
+2026-06-27T12:27:03.003Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:27:03.003Z - [32minfo[39m: Website regeneration complete! Total build time: 0.192s
+2026-06-27T12:30:13.662Z - [32minfo[39m: [20:30:13] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:30:13.668Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:30:13.669Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:30:13.670Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:30:14.747Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:30:14.920Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:30:14.950Z - [32minfo[39m: Site data built
+2026-06-27T12:30:14.950Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:30:14.950Z - [32minfo[39m: Website regeneration complete! Total build time: 0.204s
+2026-06-27T12:31:10.188Z - [32minfo[39m: [20:31:10] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:31:10.189Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:31:10.191Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:31:10.191Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:31:11.329Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:31:11.508Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:31:11.529Z - [32minfo[39m: Site data built
+2026-06-27T12:31:11.529Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:31:11.529Z - [32minfo[39m: Website regeneration complete! Total build time: 0.201s
+2026-06-27T12:32:50.211Z - [32minfo[39m: [20:32:50] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:32:50.213Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:32:50.213Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:32:50.213Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:32:51.311Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:32:51.487Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:32:51.512Z - [32minfo[39m: Site data built
+2026-06-27T12:32:51.512Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:32:51.512Z - [32minfo[39m: Website regeneration complete! Total build time: 0.205s
+2026-06-27T12:33:25.286Z - [32minfo[39m: [20:33:25] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:33:25.287Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:33:25.287Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:33:25.288Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:33:26.368Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:33:26.522Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:33:26.542Z - [32minfo[39m: Site data built
+2026-06-27T12:33:26.542Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:33:26.542Z - [32minfo[39m: Website regeneration complete! Total build time: 0.174s
+2026-06-27T12:33:34.085Z - [32minfo[39m: [20:33:34] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:33:34.086Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:33:34.088Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:33:34.088Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:33:35.176Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:33:35.339Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:33:35.362Z - [32minfo[39m: Site data built
+2026-06-27T12:33:35.362Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:33:35.362Z - [32minfo[39m: Website regeneration complete! Total build time: 0.188s
+2026-06-27T12:34:29.598Z - [32minfo[39m: [20:34:29] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:34:29.599Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:34:29.599Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:34:29.600Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:34:30.672Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:34:30.840Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:34:30.865Z - [32minfo[39m: Site data built
+2026-06-27T12:34:30.865Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:34:30.865Z - [32minfo[39m: Website regeneration complete! Total build time: 0.193s
+2026-06-27T12:34:53.243Z - [32minfo[39m: [20:34:53] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:34:53.246Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:34:53.248Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:34:53.249Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:34:54.327Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:34:54.476Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:34:54.495Z - [32minfo[39m: Site data built
+2026-06-27T12:34:54.495Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:34:54.495Z - [32minfo[39m: Website regeneration complete! Total build time: 0.169s
+2026-06-27T12:36:36.857Z - [32minfo[39m: [20:36:36] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:36:36.858Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:36:36.859Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:36:36.859Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:36:37.962Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:36:38.136Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:36:38.166Z - [32minfo[39m: Site data built
+2026-06-27T12:36:38.166Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:36:38.166Z - [32minfo[39m: Website regeneration complete! Total build time: 0.204s
+2026-06-27T12:37:39.516Z - [32minfo[39m: [20:37:39] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:37:39.518Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:37:39.520Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:37:39.520Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:37:40.592Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:37:40.768Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:37:40.790Z - [32minfo[39m: Site data built
+2026-06-27T12:37:40.790Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:37:40.790Z - [32minfo[39m: Website regeneration complete! Total build time: 0.199s
+2026-06-27T12:39:03.974Z - [32minfo[39m: [20:39:03] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:39:03.975Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:39:03.975Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:39:03.975Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:39:05.052Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:39:05.202Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:39:05.220Z - [32minfo[39m: Site data built
+2026-06-27T12:39:05.220Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:39:05.220Z - [32minfo[39m: Website regeneration complete! Total build time: 0.169s
+2026-06-27T12:39:22.447Z - [32minfo[39m: [20:39:22] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:39:22.451Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:39:22.452Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:39:22.452Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:39:23.534Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:39:23.711Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:39:23.740Z - [32minfo[39m: Site data built
+2026-06-27T12:39:23.740Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:39:23.740Z - [32minfo[39m: Website regeneration complete! Total build time: 0.207s
+2026-06-27T12:39:58.107Z - [32minfo[39m: [20:39:58] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:39:58.107Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:39:58.108Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:39:58.108Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:39:59.190Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:39:59.359Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:39:59.384Z - [32minfo[39m: Site data built
+2026-06-27T12:39:59.384Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:39:59.384Z - [32minfo[39m: Website regeneration complete! Total build time: 0.195s
+2026-06-27T12:40:15.692Z - [32minfo[39m: [20:40:15] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:40:15.693Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:40:15.693Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:40:15.693Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:40:16.776Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:40:16.950Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:40:16.974Z - [32minfo[39m: Site data built
+2026-06-27T12:40:16.974Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:40:16.974Z - [32minfo[39m: Website regeneration complete! Total build time: 0.199s
+2026-06-27T12:40:28.161Z - [32minfo[39m: [20:40:28] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:40:28.162Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:40:28.162Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:40:28.162Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:40:29.256Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:40:29.443Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:40:29.467Z - [32minfo[39m: Site data built
+2026-06-27T12:40:29.467Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:40:29.467Z - [32minfo[39m: Website regeneration complete! Total build time: 0.212s
+2026-06-27T12:42:10.077Z - [32minfo[39m: [20:42:10] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:42:10.078Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:42:10.081Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:42:10.081Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:42:11.168Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:42:11.329Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:42:11.348Z - [32minfo[39m: Site data built
+2026-06-27T12:42:11.349Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:42:11.349Z - [32minfo[39m: Website regeneration complete! Total build time: 0.182s
+2026-06-27T12:43:09.014Z - [32minfo[39m: [20:43:09] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:43:09.018Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:43:09.019Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:43:09.020Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:43:10.112Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:43:10.295Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:43:10.325Z - [32minfo[39m: Site data built
+2026-06-27T12:43:10.325Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:43:10.325Z - [32minfo[39m: Website regeneration complete! Total build time: 0.214s
+2026-06-27T12:43:38.017Z - [32minfo[39m: [20:43:38] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:43:38.021Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:43:38.022Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:43:38.023Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:43:39.093Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:43:39.238Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:43:39.257Z - [32minfo[39m: Site data built
+2026-06-27T12:43:39.257Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:43:39.257Z - [32minfo[39m: Website regeneration complete! Total build time: 0.166s
+2026-06-27T12:49:13.749Z - [32minfo[39m: [20:49:13] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:49:13.751Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:49:13.752Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:49:13.752Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:49:14.838Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:49:15.022Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:49:15.045Z - [32minfo[39m: Site data built
+2026-06-27T12:49:15.046Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:49:15.046Z - [32minfo[39m: Website regeneration complete! Total build time: 0.209s
+2026-06-27T12:49:46.832Z - [32minfo[39m: [20:49:46] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:49:46.833Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:49:46.834Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:49:46.835Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:49:47.975Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:49:48.149Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:49:48.177Z - [32minfo[39m: Site data built
+2026-06-27T12:49:48.177Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:49:48.177Z - [32minfo[39m: Website regeneration complete! Total build time: 0.204s
+2026-06-27T12:49:58.418Z - [32minfo[39m: [20:49:58] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:49:58.419Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:49:58.420Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:49:58.420Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:49:59.497Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:49:59.647Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:49:59.666Z - [32minfo[39m: Site data built
+2026-06-27T12:49:59.666Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:49:59.666Z - [32minfo[39m: Website regeneration complete! Total build time: 0.17s
+2026-06-27T12:50:07.413Z - [32minfo[39m: [20:50:07] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:50:07.414Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:50:07.415Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:50:07.415Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:50:08.491Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:50:08.621Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:50:08.653Z - [32minfo[39m: Site data built
+2026-06-27T12:50:08.653Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:50:08.653Z - [32minfo[39m: Website regeneration complete! Total build time: 0.162s
+2026-06-27T12:50:33.535Z - [32minfo[39m: [20:50:33] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:50:33.536Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:50:33.537Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:50:33.537Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:50:34.609Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:50:34.784Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:50:34.810Z - [32minfo[39m: Site data built
+2026-06-27T12:50:34.810Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:50:34.810Z - [32minfo[39m: Website regeneration complete! Total build time: 0.201s
+2026-06-27T12:51:54.124Z - [32minfo[39m: [20:51:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:51:54.125Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:51:54.125Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:51:54.126Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:51:55.185Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:51:55.330Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:51:55.350Z - [32minfo[39m: Site data built
+2026-06-27T12:51:55.350Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:51:55.350Z - [32minfo[39m: Website regeneration complete! Total build time: 0.166s
+2026-06-27T12:52:01.583Z - [32minfo[39m: [20:52:01] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:52:01.584Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:52:01.585Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:52:01.585Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:52:02.671Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:52:02.798Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:52:02.826Z - [32minfo[39m: Site data built
+2026-06-27T12:52:02.826Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:52:02.826Z - [32minfo[39m: Website regeneration complete! Total build time: 0.156s
+2026-06-27T12:52:15.904Z - [32minfo[39m: [20:52:15] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:52:15.905Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:52:15.905Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:52:15.905Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:52:16.980Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:52:17.146Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:52:17.170Z - [32minfo[39m: Site data built
+2026-06-27T12:52:17.171Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:52:17.171Z - [32minfo[39m: Website regeneration complete! Total build time: 0.192s
+2026-06-27T12:52:32.072Z - [32minfo[39m: [20:52:32] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:52:32.077Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:52:32.077Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:52:32.078Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:52:33.145Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:52:33.284Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:52:33.314Z - [32minfo[39m: Site data built
+2026-06-27T12:52:33.314Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:52:33.314Z - [32minfo[39m: Website regeneration complete! Total build time: 0.17s
+2026-06-27T12:56:56.102Z - [32minfo[39m: [20:56:56] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:56:56.104Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:56:56.105Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:56:56.105Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:56:57.174Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:56:57.347Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:56:57.372Z - [32minfo[39m: Site data built
+2026-06-27T12:56:57.372Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:56:57.372Z - [32minfo[39m: Website regeneration complete! Total build time: 0.198s
+2026-06-27T12:57:27.756Z - [32minfo[39m: [20:57:27] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:57:27.757Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:57:27.759Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:57:27.759Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:57:28.842Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:57:29.018Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:57:29.042Z - [32minfo[39m: Site data built
+2026-06-27T12:57:29.042Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:57:29.042Z - [32minfo[39m: Website regeneration complete! Total build time: 0.201s
+2026-06-27T12:57:53.633Z - [32minfo[39m: [20:57:53] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:57:53.635Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:57:53.638Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:57:53.638Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T12:57:54.708Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:57:54.851Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T12:57:54.871Z - [32minfo[39m: Site data built
+2026-06-27T12:57:54.871Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:57:54.871Z - [32minfo[39m: Website regeneration complete! Total build time: 0.165s
+2026-06-27T12:58:47.898Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index as some of its dependencies were changed since the last visit
+2026-06-27T12:58:48.037Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T12:58:48.064Z - [32minfo[39m: Site data built
+2026-06-27T12:58:48.064Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.167s
+2026-06-27T12:59:15.261Z - [32minfo[39m: [20:59:15] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T12:59:15.262Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T12:59:15.263Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T12:59:15.263Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T12:59:16.346Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T12:59:16.433Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T12:59:16.453Z - [32minfo[39m: Site data built
+2026-06-27T12:59:16.453Z - [32minfo[39m: Pages rebuilt
+2026-06-27T12:59:16.453Z - [32minfo[39m: Website regeneration complete! Total build time: 0.111s
+2026-06-27T13:00:01.348Z - [32minfo[39m: [21:00:01] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:00:01.349Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:00:01.350Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:00:01.350Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:00:02.426Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:00:02.514Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:00:02.539Z - [32minfo[39m: Site data built
+2026-06-27T13:00:02.539Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:00:02.539Z - [32minfo[39m: Website regeneration complete! Total build time: 0.113s
+2026-06-27T13:01:05.144Z - [32minfo[39m: [21:01:05] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:01:05.145Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:01:05.148Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:01:05.148Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:01:06.234Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:01:06.325Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:01:06.347Z - [32minfo[39m: Site data built
+2026-06-27T13:01:06.347Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:01:06.347Z - [32minfo[39m: Website regeneration complete! Total build time: 0.113s
+2026-06-27T13:01:23.284Z - [32minfo[39m: [21:01:23] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:01:23.288Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:01:23.290Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:01:23.291Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:01:24.372Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:01:24.459Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:01:24.484Z - [32minfo[39m: Site data built
+2026-06-27T13:01:24.484Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:01:24.484Z - [32minfo[39m: Website regeneration complete! Total build time: 0.113s
+2026-06-27T13:01:32.427Z - [32minfo[39m: [21:01:32] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:01:32.428Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:01:32.429Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:01:32.429Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:01:33.499Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:01:33.589Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:01:33.612Z - [32minfo[39m: Site data built
+2026-06-27T13:01:33.612Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:01:33.612Z - [32minfo[39m: Website regeneration complete! Total build time: 0.114s
+2026-06-27T13:01:57.334Z - [32minfo[39m: [21:01:57] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:01:57.335Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:01:57.335Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:01:57.335Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:01:58.420Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:01:58.503Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:01:58.526Z - [32minfo[39m: Site data built
+2026-06-27T13:01:58.526Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:01:58.526Z - [32minfo[39m: Website regeneration complete! Total build time: 0.107s
+2026-06-27T13:02:12.515Z - [32minfo[39m: [21:02:12] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:02:12.519Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:02:12.520Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:02:12.520Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:02:13.612Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:02:13.697Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:02:13.716Z - [32minfo[39m: Site data built
+2026-06-27T13:02:13.716Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:02:13.716Z - [32minfo[39m: Website regeneration complete! Total build time: 0.105s
+2026-06-27T13:02:31.748Z - [32minfo[39m: [21:02:31] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:02:31.748Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:02:31.748Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:02:31.748Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:02:32.829Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:02:32.914Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:02:32.938Z - [32minfo[39m: Site data built
+2026-06-27T13:02:32.938Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:02:32.938Z - [32minfo[39m: Website regeneration complete! Total build time: 0.11s
+2026-06-27T13:02:45.433Z - [32minfo[39m: [21:02:45] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:02:45.434Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:02:45.434Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:02:45.434Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:02:46.513Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:02:46.598Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:02:46.621Z - [32minfo[39m: Site data built
+2026-06-27T13:02:46.621Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:02:46.621Z - [32minfo[39m: Website regeneration complete! Total build time: 0.109s
+2026-06-27T13:03:22.251Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index as some of its dependencies were changed since the last visit
+2026-06-27T13:03:22.487Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T13:03:22.513Z - [32minfo[39m: Site data built
+2026-06-27T13:03:22.514Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.264s
+2026-06-27T13:04:16.927Z - [32minfo[39m: [21:04:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:04:16.930Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:04:16.930Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:04:16.930Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T13:04:18.014Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:04:18.199Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T13:04:18.223Z - [32minfo[39m: Site data built
+2026-06-27T13:04:18.223Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:04:18.223Z - [32minfo[39m: Website regeneration complete! Total build time: 0.21s
+2026-06-27T13:07:45.356Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index as some of its dependencies were changed since the last visit
+2026-06-27T13:07:45.912Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-06-27T13:07:45.963Z - [32minfo[39m: Site data built
+2026-06-27T13:07:45.963Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.608s
+2026-06-27T13:09:00.971Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/branchingLocally/index as some of its dependencies were changed since the last visit
+2026-06-27T13:09:01.513Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/branchingLocally/index.md
+2026-06-27T13:09:01.563Z - [32minfo[39m: Site data built
+2026-06-27T13:09:01.563Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.593s
+2026-06-27T13:10:56.106Z - [32minfo[39m: [21:10:56] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:10:56.111Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:10:56.112Z - [32minfo[39m: No pages are currently opened
+2026-06-27T13:10:57.217Z - [32minfo[39m: No pages needed to be rebuilt
+2026-06-27T13:11:02.896Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index as some of its dependencies were changed since the last visit
+2026-06-27T13:11:03.046Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:11:03.064Z - [32minfo[39m: Site data built
+2026-06-27T13:11:03.064Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.169s
+2026-06-27T13:11:25.549Z - [32minfo[39m: [21:11:25] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:11:25.551Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:11:25.551Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:11:25.552Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:11:26.643Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:11:26.727Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:11:26.747Z - [32minfo[39m: Site data built
+2026-06-27T13:11:26.747Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:11:26.747Z - [32minfo[39m: Website regeneration complete! Total build time: 0.109s
+2026-06-27T13:13:09.310Z - [32minfo[39m: [21:13:09] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T13:13:09.311Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:13:09.311Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:13:09.312Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:13:10.320Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:13:10.470Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:13:10.492Z - [32minfo[39m: Site data built
+2026-06-27T13:13:10.492Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:13:10.492Z - [32minfo[39m: Website regeneration complete! Total build time: 0.179s
+2026-06-27T13:13:54.248Z - [32minfo[39m: [21:13:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:13:54.250Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:13:54.252Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:13:54.252Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:13:55.348Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:13:55.441Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:13:55.462Z - [32minfo[39m: Site data built
+2026-06-27T13:13:55.462Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:13:55.462Z - [32minfo[39m: Website regeneration complete! Total build time: 0.115s
+2026-06-27T13:14:12.294Z - [32minfo[39m: [21:14:12] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:14:12.294Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:14:12.295Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:14:12.295Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:14:13.371Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:14:13.462Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:14:13.486Z - [32minfo[39m: Site data built
+2026-06-27T13:14:13.486Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:14:13.486Z - [32minfo[39m: Website regeneration complete! Total build time: 0.115s
+2026-06-27T13:14:23.247Z - [32minfo[39m: [21:14:23] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:14:23.247Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:14:23.247Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:14:23.247Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:14:24.324Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:14:24.410Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:14:24.431Z - [32minfo[39m: Site data built
+2026-06-27T13:14:24.431Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:14:24.431Z - [32minfo[39m: Website regeneration complete! Total build time: 0.108s
+2026-06-27T13:16:27.316Z - [32minfo[39m: [21:16:27] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:16:27.317Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:16:27.318Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:16:27.318Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:16:28.398Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:16:28.485Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:16:28.508Z - [32minfo[39m: Site data built
+2026-06-27T13:16:28.508Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:16:28.508Z - [32minfo[39m: Website regeneration complete! Total build time: 0.11s
+2026-06-27T13:17:53.489Z - [32minfo[39m: [21:17:53] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:17:53.490Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:17:53.491Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:17:53.491Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:17:54.575Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:17:54.665Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:17:54.690Z - [32minfo[39m: Site data built
+2026-06-27T13:17:54.690Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:17:54.690Z - [32minfo[39m: Website regeneration complete! Total build time: 0.116s
+2026-06-27T13:23:13.688Z - [32minfo[39m: [21:23:13] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:23:13.693Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:23:13.694Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:23:13.694Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:23:14.780Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:23:14.873Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:23:14.901Z - [32minfo[39m: Site data built
+2026-06-27T13:23:14.901Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:23:14.901Z - [32minfo[39m: Website regeneration complete! Total build time: 0.122s
+2026-06-27T13:23:33.037Z - [32minfo[39m: [21:23:33] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:23:33.039Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:23:33.040Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:23:33.040Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:23:34.124Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:23:34.211Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:23:34.235Z - [32minfo[39m: Site data built
+2026-06-27T13:23:34.235Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:23:34.235Z - [32minfo[39m: Website regeneration complete! Total build time: 0.112s
+2026-06-27T13:24:29.074Z - [32minfo[39m: [21:24:29] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:24:29.075Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:24:29.075Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:24:29.075Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:24:30.180Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:24:30.285Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:24:30.308Z - [32minfo[39m: Site data built
+2026-06-27T13:24:30.308Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:24:30.308Z - [32minfo[39m: Website regeneration complete! Total build time: 0.128s
+2026-06-27T13:26:39.925Z - [32minfo[39m: [21:26:39] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:26:39.927Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:26:39.928Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:26:39.928Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:26:41.074Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:26:41.178Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:26:41.202Z - [32minfo[39m: Site data built
+2026-06-27T13:26:41.202Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:26:41.202Z - [32minfo[39m: Website regeneration complete! Total build time: 0.129s
+2026-06-27T13:27:00.738Z - [32minfo[39m: [21:27:00] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:27:00.740Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:27:00.740Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:27:00.741Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:27:01.841Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:27:01.941Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:27:01.962Z - [32minfo[39m: Site data built
+2026-06-27T13:27:01.962Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:27:01.962Z - [32minfo[39m: Website regeneration complete! Total build time: 0.121s
+2026-06-27T13:27:20.204Z - [32minfo[39m: [21:27:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:27:20.206Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:27:20.208Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:27:20.208Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:27:21.298Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:27:21.389Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:27:21.418Z - [32minfo[39m: Site data built
+2026-06-27T13:27:21.418Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:27:21.418Z - [32minfo[39m: Website regeneration complete! Total build time: 0.12s
+2026-06-27T13:27:45.977Z - [32minfo[39m: [21:27:45] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:27:45.978Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:27:45.979Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:27:45.979Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:27:47.067Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:27:47.151Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:27:47.175Z - [32minfo[39m: Site data built
+2026-06-27T13:27:47.175Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:27:47.175Z - [32minfo[39m: Website regeneration complete! Total build time: 0.109s
+2026-06-27T13:28:33.857Z - [32minfo[39m: [21:28:33] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:28:33.860Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:28:33.861Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:28:33.861Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:28:34.939Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:28:35.028Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:28:35.049Z - [32minfo[39m: Site data built
+2026-06-27T13:28:35.049Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:28:35.049Z - [32minfo[39m: Website regeneration complete! Total build time: 0.11s
+2026-06-27T13:29:16.146Z - [32minfo[39m: [21:29:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:29:16.147Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:29:16.148Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:29:16.148Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:29:17.233Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:29:17.323Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:29:17.349Z - [32minfo[39m: Site data built
+2026-06-27T13:29:17.349Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:29:17.349Z - [32minfo[39m: Website regeneration complete! Total build time: 0.116s
+2026-06-27T13:29:42.665Z - [32minfo[39m: [21:29:42] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:29:42.666Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:29:42.667Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:29:42.667Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:29:43.742Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:29:43.829Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:29:43.850Z - [32minfo[39m: Site data built
+2026-06-27T13:29:43.850Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:29:43.850Z - [32minfo[39m: Website regeneration complete! Total build time: 0.109s
+2026-06-27T13:29:59.055Z - [32minfo[39m: [21:29:59] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:29:59.056Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:29:59.058Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:29:59.059Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:30:00.165Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:30:00.280Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:30:00.308Z - [32minfo[39m: Site data built
+2026-06-27T13:30:00.308Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:30:00.308Z - [32minfo[39m: Website regeneration complete! Total build time: 0.144s
+2026-06-27T13:30:33.454Z - [32minfo[39m: [21:30:33] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:30:33.466Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:30:33.467Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:30:33.467Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:30:34.567Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:30:34.669Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:30:34.692Z - [32minfo[39m: Site data built
+2026-06-27T13:30:34.693Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:30:34.693Z - [32minfo[39m: Website regeneration complete! Total build time: 0.126s
+2026-06-27T13:31:05.328Z - [32minfo[39m: [21:31:05] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:31:05.329Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:31:05.330Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:31:05.330Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:31:06.424Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:31:06.514Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:31:06.539Z - [32minfo[39m: Site data built
+2026-06-27T13:31:06.539Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:31:06.539Z - [32minfo[39m: Website regeneration complete! Total build time: 0.116s
+2026-06-27T13:31:19.353Z - [32minfo[39m: [21:31:19] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:31:19.354Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:31:19.354Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:31:19.354Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:31:20.448Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:31:20.542Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:31:20.565Z - [32minfo[39m: Site data built
+2026-06-27T13:31:20.565Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:31:20.565Z - [32minfo[39m: Website regeneration complete! Total build time: 0.117s
+2026-06-27T13:31:34.782Z - [32minfo[39m: [21:31:34] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:31:34.785Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:31:34.786Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:31:34.786Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:31:35.866Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:31:35.956Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:31:35.982Z - [32minfo[39m: Site data built
+2026-06-27T13:31:35.982Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:31:35.982Z - [32minfo[39m: Website regeneration complete! Total build time: 0.116s
+2026-06-27T13:31:49.669Z - [32minfo[39m: [21:31:49] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:31:49.669Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:31:49.669Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:31:49.669Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:31:50.744Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:31:50.831Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:31:50.853Z - [32minfo[39m: Site data built
+2026-06-27T13:31:50.853Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:31:50.853Z - [32minfo[39m: Website regeneration complete! Total build time: 0.11s
+2026-06-27T13:32:16.076Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index as some of its dependencies were changed since the last visit
+2026-06-27T13:32:16.318Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T13:32:16.346Z - [32minfo[39m: Site data built
+2026-06-27T13:32:16.346Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.271s
+2026-06-27T13:32:44.166Z - [32minfo[39m: [21:32:44] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:32:44.167Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:32:44.168Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:32:44.168Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T13:32:45.238Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:32:45.389Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T13:32:45.407Z - [32minfo[39m: Site data built
+2026-06-27T13:32:45.407Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:32:45.407Z - [32minfo[39m: Website regeneration complete! Total build time: 0.169s
+2026-06-27T13:32:59.015Z - [32minfo[39m: [21:32:59] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:32:59.017Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:32:59.017Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:32:59.018Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T13:33:00.131Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:33:00.327Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T13:33:00.350Z - [32minfo[39m: Site data built
+2026-06-27T13:33:00.350Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:33:00.350Z - [32minfo[39m: Website regeneration complete! Total build time: 0.219s
+2026-06-27T13:33:15.756Z - [32minfo[39m: [21:33:15] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:33:15.757Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:33:15.757Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:33:15.758Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T13:33:16.838Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:33:16.995Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T13:33:17.015Z - [32minfo[39m: Site data built
+2026-06-27T13:33:17.015Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:33:17.015Z - [32minfo[39m: Website regeneration complete! Total build time: 0.178s
+2026-06-27T13:33:58.520Z - [32minfo[39m: [21:33:58] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-06-27T13:33:58.522Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:33:58.522Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:33:58.522Z - [32minfo[39m: 1. lessons/stage/index
+2026-06-27T13:33:59.599Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:33:59.780Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T13:33:59.807Z - [32minfo[39m: Site data built
+2026-06-27T13:33:59.807Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:33:59.807Z - [32minfo[39m: Website regeneration complete! Total build time: 0.208s
+2026-06-27T13:34:23.287Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index as some of its dependencies were changed since the last visit
+2026-06-27T13:34:23.395Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:34:23.410Z - [32minfo[39m: Site data built
+2026-06-27T13:34:23.410Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.124s
+2026-06-27T13:37:40.784Z - [32minfo[39m: [21:37:40] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T13:37:40.786Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:37:40.786Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:37:40.787Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:37:41.792Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:37:41.944Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:37:41.966Z - [32minfo[39m: Site data built
+2026-06-27T13:37:41.966Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:37:41.966Z - [32minfo[39m: Website regeneration complete! Total build time: 0.177s
+2026-06-27T13:39:28.108Z - [32minfo[39m: [21:39:28] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T13:39:28.109Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:39:28.110Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:39:28.110Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:39:29.114Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:39:29.258Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:39:29.280Z - [32minfo[39m: Site data built
+2026-06-27T13:39:29.280Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:39:29.280Z - [32minfo[39m: Website regeneration complete! Total build time: 0.168s
+2026-06-27T13:41:55.749Z - [32minfo[39m: [21:41:55] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T13:41:55.752Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:41:55.753Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:41:55.753Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:41:56.762Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:41:56.911Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:41:56.932Z - [32minfo[39m: Site data built
+2026-06-27T13:41:56.932Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:41:56.932Z - [32minfo[39m: Website regeneration complete! Total build time: 0.176s
+2026-06-27T13:52:39.889Z - [32minfo[39m: [21:52:39] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T13:52:39.892Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:52:39.893Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:52:39.893Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:52:40.908Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:52:41.100Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:52:41.121Z - [32minfo[39m: Site data built
+2026-06-27T13:52:41.121Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:52:41.121Z - [32minfo[39m: Website regeneration complete! Total build time: 0.225s
+2026-06-27T13:57:16.035Z - [32minfo[39m: [21:57:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T13:57:16.041Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:57:16.042Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:57:16.042Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:57:17.063Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:57:17.226Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:57:17.252Z - [32minfo[39m: Site data built
+2026-06-27T13:57:17.252Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:57:17.252Z - [32minfo[39m: Website regeneration complete! Total build time: 0.205s
+2026-06-27T13:57:38.722Z - [32minfo[39m: [21:57:38] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T13:57:38.725Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:57:38.726Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:57:38.726Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:57:39.732Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:57:39.884Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:57:39.911Z - [32minfo[39m: Site data built
+2026-06-27T13:57:39.911Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:57:39.911Z - [32minfo[39m: Website regeneration complete! Total build time: 0.182s
+2026-06-27T13:58:05.804Z - [32minfo[39m: [21:58:05] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T13:58:05.806Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:58:05.807Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:58:05.808Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:58:06.812Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:58:06.950Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:58:06.971Z - [32minfo[39m: Site data built
+2026-06-27T13:58:06.971Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:58:06.971Z - [32minfo[39m: Website regeneration complete! Total build time: 0.161s
+2026-06-27T13:58:39.892Z - [32minfo[39m: [21:58:39] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T13:58:39.894Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T13:58:39.894Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T13:58:39.895Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T13:58:40.898Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T13:58:41.043Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T13:58:41.067Z - [32minfo[39m: Site data built
+2026-06-27T13:58:41.067Z - [32minfo[39m: Pages rebuilt
+2026-06-27T13:58:41.067Z - [32minfo[39m: Website regeneration complete! Total build time: 0.17s
+2026-06-27T14:00:36.656Z - [32minfo[39m: [22:00:36] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T14:00:36.658Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T14:00:36.659Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T14:00:36.660Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T14:00:37.665Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T14:00:37.839Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T14:00:37.861Z - [32minfo[39m: Site data built
+2026-06-27T14:00:37.861Z - [32minfo[39m: Pages rebuilt
+2026-06-27T14:00:37.861Z - [32minfo[39m: Website regeneration complete! Total build time: 0.198s
+2026-06-27T14:00:54.181Z - [32minfo[39m: [22:00:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T14:00:54.183Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T14:00:54.184Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T14:00:54.184Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T14:00:55.190Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T14:00:55.326Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T14:00:55.350Z - [32minfo[39m: Site data built
+2026-06-27T14:00:55.350Z - [32minfo[39m: Pages rebuilt
+2026-06-27T14:00:55.350Z - [32minfo[39m: Website regeneration complete! Total build time: 0.161s
+2026-06-27T14:02:04.697Z - [32minfo[39m: [22:02:04] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T14:02:04.698Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T14:02:04.698Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T14:02:04.699Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T14:02:05.713Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T14:02:05.862Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T14:02:05.887Z - [32minfo[39m: Site data built
+2026-06-27T14:02:05.887Z - [32minfo[39m: Pages rebuilt
+2026-06-27T14:02:05.887Z - [32minfo[39m: Website regeneration complete! Total build time: 0.176s
+2026-06-27T14:05:36.340Z - [32minfo[39m: [22:05:36] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T14:05:36.342Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T14:05:36.343Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T14:05:36.343Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T14:05:37.348Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T14:05:37.491Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T14:05:37.513Z - [32minfo[39m: Site data built
+2026-06-27T14:05:37.513Z - [32minfo[39m: Pages rebuilt
+2026-06-27T14:05:37.513Z - [32minfo[39m: Website regeneration complete! Total build time: 0.167s
+2026-06-27T15:04:54.589Z - [32minfo[39m: [23:04:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T15:04:54.595Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T15:04:54.595Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T15:04:54.595Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T15:04:55.623Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T15:04:55.769Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T15:04:55.793Z - [32minfo[39m: Site data built
+2026-06-27T15:04:55.793Z - [32minfo[39m: Pages rebuilt
+2026-06-27T15:04:55.793Z - [32minfo[39m: Website regeneration complete! Total build time: 0.194s
+2026-06-27T15:05:04.703Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/index as some of its dependencies were changed since the last visit
+2026-06-27T15:05:04.841Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/index.md
+2026-06-27T15:05:04.861Z - [32minfo[39m: Site data built
+2026-06-27T15:05:04.861Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.159s
+2026-06-27T15:07:36.684Z - [32minfo[39m: [23:07:36] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T15:07:36.689Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T15:07:36.690Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T15:07:36.690Z - [32minfo[39m: 1. lessons/log/index
+2026-06-27T15:07:37.693Z - [32minfo[39m: No pages needed to be rebuilt
+2026-06-27T15:07:40.567Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index as some of its dependencies were changed since the last visit
+2026-06-27T15:07:40.720Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T15:07:40.743Z - [32minfo[39m: Site data built
+2026-06-27T15:07:40.743Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.177s
+2026-06-27T15:09:35.327Z - [32minfo[39m: [23:09:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T15:09:35.328Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T15:09:35.329Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T15:09:35.329Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T15:09:36.334Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T15:09:36.472Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T15:09:36.495Z - [32minfo[39m: Site data built
+2026-06-27T15:09:36.495Z - [32minfo[39m: Pages rebuilt
+2026-06-27T15:09:36.495Z - [32minfo[39m: Website regeneration complete! Total build time: 0.164s
+2026-06-27T15:10:03.621Z - [32minfo[39m: [23:10:03] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T15:10:03.622Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T15:10:03.623Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T15:10:03.623Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T15:10:04.627Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T15:10:04.761Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T15:10:04.784Z - [32minfo[39m: Site data built
+2026-06-27T15:10:04.784Z - [32minfo[39m: Pages rebuilt
+2026-06-27T15:10:04.784Z - [32minfo[39m: Website regeneration complete! Total build time: 0.158s
+2026-06-27T15:10:29.362Z - [32minfo[39m: [23:10:29] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T15:10:29.363Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T15:10:29.364Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T15:10:29.364Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T15:10:30.367Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T15:10:30.516Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T15:10:30.537Z - [32minfo[39m: Site data built
+2026-06-27T15:10:30.537Z - [32minfo[39m: Pages rebuilt
+2026-06-27T15:10:30.537Z - [32minfo[39m: Website regeneration complete! Total build time: 0.171s
+2026-06-27T15:10:36.265Z - [32minfo[39m: [23:10:36] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T15:10:36.268Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T15:10:36.269Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T15:10:36.270Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T15:10:37.273Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T15:10:37.378Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T15:10:37.389Z - [32minfo[39m: Site data built
+2026-06-27T15:10:37.389Z - [32minfo[39m: Pages rebuilt
+2026-06-27T15:10:37.389Z - [32minfo[39m: Website regeneration complete! Total build time: 0.118s
+2026-06-27T15:11:04.213Z - [32minfo[39m: [23:11:04] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T15:11:04.214Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T15:11:04.214Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T15:11:04.214Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T15:11:05.218Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T15:11:05.388Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T15:11:05.413Z - [32minfo[39m: Site data built
+2026-06-27T15:11:05.413Z - [32minfo[39m: Pages rebuilt
+2026-06-27T15:11:05.413Z - [32minfo[39m: Website regeneration complete! Total build time: 0.197s
+2026-06-27T15:11:44.924Z - [32minfo[39m: [23:11:44] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T15:11:44.925Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T15:11:44.925Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T15:11:44.925Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T15:11:45.931Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T15:11:46.127Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T15:11:46.151Z - [32minfo[39m: Site data built
+2026-06-27T15:11:46.151Z - [32minfo[39m: Pages rebuilt
+2026-06-27T15:11:46.151Z - [32minfo[39m: Website regeneration complete! Total build time: 0.225s
+2026-06-27T15:11:54.598Z - [32minfo[39m: [23:11:54] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T15:11:54.598Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T15:11:54.598Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T15:11:54.598Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T15:11:55.600Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T15:11:55.724Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T15:11:55.745Z - [32minfo[39m: Site data built
+2026-06-27T15:11:55.745Z - [32minfo[39m: Pages rebuilt
+2026-06-27T15:11:55.745Z - [32minfo[39m: Website regeneration complete! Total build time: 0.147s
+2026-06-27T15:13:59.019Z - [32minfo[39m: [23:13:58] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T15:13:59.024Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T15:13:59.024Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T15:13:59.025Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T15:14:00.059Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T15:14:00.205Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T15:14:00.232Z - [32minfo[39m: Site data built
+2026-06-27T15:14:00.232Z - [32minfo[39m: Pages rebuilt
+2026-06-27T15:14:00.232Z - [32minfo[39m: Website regeneration complete! Total build time: 0.198s
+2026-06-27T15:14:46.792Z - [32minfo[39m: [23:14:46] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T15:14:46.794Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T15:14:46.795Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T15:14:46.795Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T15:14:47.799Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T15:14:47.946Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T15:14:47.966Z - [32minfo[39m: Site data built
+2026-06-27T15:14:47.966Z - [32minfo[39m: Pages rebuilt
+2026-06-27T15:14:47.966Z - [32minfo[39m: Website regeneration complete! Total build time: 0.169s
+2026-06-27T15:15:50.334Z - [32minfo[39m: [23:15:50] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T15:15:50.336Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T15:15:50.337Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T15:15:50.338Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T15:15:51.344Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T15:15:51.496Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T15:15:51.521Z - [32minfo[39m: Site data built
+2026-06-27T15:15:51.521Z - [32minfo[39m: Pages rebuilt
+2026-06-27T15:15:51.521Z - [32minfo[39m: Website regeneration complete! Total build time: 0.18s
+2026-06-27T15:16:18.010Z - [32minfo[39m: [23:16:18] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T15:16:18.017Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T15:16:18.019Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T15:16:18.020Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T15:16:19.024Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T15:16:19.180Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T15:16:19.207Z - [32minfo[39m: Site data built
+2026-06-27T15:16:19.207Z - [32minfo[39m: Pages rebuilt
+2026-06-27T15:16:19.208Z - [32minfo[39m: Website regeneration complete! Total build time: 0.186s
+2026-06-27T15:16:56.295Z - [32minfo[39m: [23:16:56] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/site.json
+2026-06-27T15:16:56.296Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T15:16:56.296Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T15:16:56.296Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T15:16:58.425Z - [32minfo[39m: Pages or site config modified, updating pages...
+2026-06-27T15:16:59.492Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index as some of its dependencies were changed since the last visit
+2026-06-27T15:16:59.643Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T15:16:59.664Z - [32minfo[39m: Site data built
+2026-06-27T15:16:59.664Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.173s
+2026-06-27T15:16:59.664Z - [32minfo[39m: Site data built
+2026-06-27T15:17:29.307Z - [32minfo[39m: [23:17:29] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T15:17:29.315Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T15:17:29.317Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T15:17:29.317Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T15:17:30.322Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T15:17:30.453Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T15:17:30.475Z - [32minfo[39m: Site data built
+2026-06-27T15:17:30.475Z - [32minfo[39m: Pages rebuilt
+2026-06-27T15:17:30.475Z - [32minfo[39m: Website regeneration complete! Total build time: 0.155s
+2026-06-27T15:17:47.693Z - [32minfo[39m: [23:17:47] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T15:17:47.694Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T15:17:47.694Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T15:17:47.694Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T15:17:48.697Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T15:17:48.832Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T15:17:48.851Z - [32minfo[39m: Site data built
+2026-06-27T15:17:48.851Z - [32minfo[39m: Pages rebuilt
+2026-06-27T15:17:48.851Z - [32minfo[39m: Website regeneration complete! Total build time: 0.156s
+2026-06-27T15:18:00.731Z - [32minfo[39m: [23:18:00] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-06-27T15:18:00.734Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-27T15:18:00.734Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-27T15:18:00.734Z - [32minfo[39m: 1. lessons/commit/index
+2026-06-27T15:18:01.737Z - [32minfo[39m: Rebuilding 1 pages
+2026-06-27T15:18:01.873Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T15:18:01.896Z - [32minfo[39m: Site data built
+2026-06-27T15:18:01.896Z - [32minfo[39m: Pages rebuilt
+2026-06-27T15:18:01.896Z - [32minfo[39m: Website regeneration complete! Total build time: 0.161s
+2026-06-27T15:20:18.459Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/index as some of its dependencies were changed since the last visit
+2026-06-27T15:20:18.788Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/index.md
+2026-06-27T15:20:18.805Z - [32minfo[39m: Site data built
+2026-06-27T15:20:18.805Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.347s
+2026-06-27T15:26:47.794Z - [32minfo[39m: Website generation started at 23:26:47
+2026-06-27T15:26:47.960Z - [32minfo[39m: Building assets...
+2026-06-27T15:26:48.072Z - [32minfo[39m: Assets built
+2026-06-27T15:26:48.074Z - [32minfo[39m: Generating pages...
+2026-06-27T15:26:48.615Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/about/index.md
+2026-06-27T15:26:48.623Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/faq/index.md
+2026-06-27T15:26:48.626Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/exercises-directory/index.md
+2026-06-27T15:26:48.656Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/companion-app/index.md
+2026-06-27T15:26:52.100Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-update.md
+2026-06-27T15:26:52.110Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/all.md
+2026-06-27T15:26:52.356Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-push.md
+2026-06-27T15:26:52.365Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-add.md
+2026-06-27T15:26:52.389Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/exercise-staging-intervention.md
+2026-06-27T15:26:52.410Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/exercise-stage-fright.md
+2026-06-27T15:26:52.421Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/exercise-link-me.md
+2026-06-27T15:26:52.422Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/exercise-view-commits.md
+2026-06-27T15:26:52.449Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/exercise-sensors-revert.md
+2026-06-27T15:26:52.451Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/exercise-sensors-reset.md
+2026-06-27T15:26:52.459Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/exercise-glossary-branch-rename.md
+2026-06-27T15:26:52.462Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/exercise-remote-branch-rename.md
+2026-06-27T15:26:52.473Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPush/exercise-glossary-branch-push.md
+2026-06-27T15:26:52.490Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPull/exercise-glossary-branch-pull.md
+2026-06-27T15:26:52.492Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/exercise-glossary-branch-delete.md
+2026-06-27T15:26:52.494Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/exercise-push-over.md
+2026-06-27T15:26:52.526Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/exercise-create-pr-from-main.md
+2026-06-27T15:26:52.529Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/exercise-fetch-and-pull.md
+2026-06-27T15:26:52.531Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/exercise-conflict-mediator.md
+2026-06-27T15:26:52.532Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md
+2026-06-27T15:26:52.559Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-squash.md
+2026-06-27T15:26:52.561Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-ff-undo.md
+2026-06-27T15:26:52.562Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-forward.md
+2026-06-27T15:26:52.563Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-compare.md
+2026-06-27T15:26:52.593Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/exercise-log-and-order.md
+2026-06-27T15:26:52.594Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-bender.md
+2026-06-27T15:26:52.597Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/exercise-undo-init.md
+2026-06-27T15:26:52.598Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/exercise-under-control.md
+2026-06-27T15:26:52.626Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/exercise-ignoring-somethings.md
+2026-06-27T15:26:52.628Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/exercise-fork-repo.md
+2026-06-27T15:26:52.630Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/exercise-remote-control.md
+2026-06-27T15:26:52.632Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/exercise-sensors-diff.md
+2026-06-27T15:26:52.662Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/exercise-grocery-shopping.md
+2026-06-27T15:26:52.663Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/exercise-clone-repo.md
+2026-06-27T15:26:52.665Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/exercise-branch-rename.md
+2026-06-27T15:26:52.667Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/exercise-sensors-checkout.md
+2026-06-27T15:26:52.711Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-branch-delete.md
+2026-06-27T15:26:52.713Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-mix-messy-docs.md
+2026-06-27T15:26:52.715Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-mix-messy-graph.md
+2026-06-27T15:26:52.717Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-side-track.md
+2026-06-27T15:26:52.923Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-branch-previous.md
+2026-06-27T15:26:52.925Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/worktrees/index.md
+2026-06-27T15:26:52.933Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/index.md
+2026-06-27T15:26:52.937Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithRemotes/index.md
+2026-06-27T15:26:53.591Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/index.md
+2026-06-27T15:26:53.606Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/syncingBranches/index.md
+2026-06-27T15:26:53.610Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/remoteBranches/index.md
+2026-06-27T15:26:53.624Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/usingRevisionHistory/index.md
+2026-06-27T15:26:54.396Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/index.md
+2026-06-27T15:26:54.403Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/index.md
+2026-06-27T15:26:54.411Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-06-27T15:26:54.463Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/fineTuningHistory/index.md
+2026-06-27T15:26:55.157Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/branchingLocally/index.md
+2026-06-27T15:26:55.199Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/template/index.md
+2026-06-27T15:26:55.201Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/index.md
+2026-06-27T15:26:55.214Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/backingUpOnCloud/index.md
+2026-06-27T15:26:55.418Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-06-27T15:26:55.436Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByMerge/index.md
+2026-06-27T15:26:55.439Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByRebase/index.md
+2026-06-27T15:26:55.442Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/index.md
+2026-06-27T15:26:55.649Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/index.md
+2026-06-27T15:26:55.655Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/selectiveStage/index.md
+2026-06-27T15:26:55.660Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/index.md
+2026-06-27T15:26:55.669Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/index.md
+2026-06-27T15:26:55.783Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/index.md
+2026-06-27T15:26:55.790Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteRepos/index.md
+2026-06-27T15:26:55.793Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPush/index.md
+2026-06-27T15:26:55.889Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPull/index.md
+2026-06-27T15:26:55.988Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/index.md
+2026-06-27T15:26:56.012Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/index.md
+2026-06-27T15:26:56.023Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/index.md
+2026-06-27T15:26:56.077Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/index.md
+2026-06-27T15:26:56.153Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsMerge/index.md
+2026-06-27T15:26:56.202Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/index.md
+2026-06-27T15:26:56.305Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/otherPmFeatures/index.md
+2026-06-27T15:26:56.308Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/index.md
+2026-06-27T15:26:56.375Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/index.md
+2026-06-27T15:26:56.472Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/index.md
+2026-06-27T15:26:56.482Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-06-27T15:26:56.485Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/interactiveRebase/index.md
+2026-06-27T15:26:56.492Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-06-27T15:26:56.782Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index.md
+2026-06-27T15:26:56.791Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/index.md
+2026-06-27T15:26:56.816Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/githubPrep/index.md
+2026-06-27T15:26:56.822Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/index.md
+2026-06-27T15:26:56.907Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/index.md
+2026-06-27T15:26:56.914Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/index.md
+2026-06-27T15:26:56.936Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/index.md
+2026-06-27T15:26:56.940Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/index.md
+2026-06-27T15:26:56.999Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commitMessage/index.md
+2026-06-27T15:26:57.036Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-06-27T15:26:57.099Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/index.md
+2026-06-27T15:26:57.103Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/cherryPick/index.md
+2026-06-27T15:26:57.134Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/index.md
+2026-06-27T15:26:57.294Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/index.md
+2026-06-27T15:26:57.331Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/index.md
+2026-06-27T15:26:57.341Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/index.md
+2026-06-27T15:26:57.355Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-06-27T15:26:57.364Z - [32minfo[39m: Pages built
+2026-06-27T15:26:57.449Z - [32minfo[39m: Site data built
+2026-06-27T15:26:57.449Z - [32minfo[39m: Website generation complete! Total build time: 9.803s
+2026-06-27T15:26:57.449Z - [32minfo[39m: Build success!
+2026-06-27T15:43:09.823Z - [32minfo[39m: Website generation started at 23:43:09
+2026-06-27T15:43:09.958Z - [32minfo[39m: Building assets...
