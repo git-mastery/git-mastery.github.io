@@ -118,7 +118,7 @@ git config --global user.email
 
 ##### Configuring `init.defaultBranch`
 
-**Git has a config property named `init.defaultBranch` that specifies the default _branch_ name for new repositories** (you'll learn more about Git branches in later lessons). Git uses `master` as the default value, but `main` is more common now. Git-Mastery uses `main` too. To make Git behave more consistently with our lessons, you should set this property to `main`, as described in the panel below:
+**Git has a config property named `init.defaultBranch` that specifies the default _branch_ name for new repositories** %%(you'll learn more about Git branches in later lessons)%%. Git uses `master` as the default value, but `main` is more common now. Git-Mastery uses `main` too. To make Git behave more consistently with our lessons, you should set this property to `main`, as described in the panel below:
 
 {% call show_prep("Set `init.defaultBranch` to `main`", "set-default-branch") %}
 
@@ -285,8 +285,8 @@ gitmastery setup
 ```
 
 The `gitmastery setup` command will perform the following tasks:
-* Check if Git is installed. {{ numbers_abcd }}
-* Check if `user.name` and `user.email` are set.
+* Verify that Git is installed. {{ numbers_abcd }}
+* Verify that `user.name` and `user.email` are set.
 * Prompt you to specify a name for the **git-mastery** {{ show_git_term("exercises directory") }} (sometimes called the {{ show_git_term("git-mastery root") }} directory).
   * Recommended: accept the default (i.e., `gitmastery-exercises`) by pressing <kbd>Enter</kbd>.
   * If you choose to specify a different name for that folder, remember to use that name instead whenever our instructions refer to the `gitmastery-exercises` folder.
@@ -294,7 +294,7 @@ The `gitmastery setup` command will perform the following tasks:
 * Set up a mechanism to locally track the progress of your exercises.
 
 Notes:
-* If the command fails because check (a) or (b) failed, you can fix the problem and run the command again.
+* If the command fails because check (a) or (b) failed, fix the problem and run the command again.
 * If you want to check the Git setup again later, run the `gitmastery check git` command.
 
 --- {.dotted .border-dark}
