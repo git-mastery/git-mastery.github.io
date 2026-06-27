@@ -10,33 +10,28 @@
 Before learning about Git, let us first **understand what _revision control_** is.
 {% endcall %}
 
+{{ show_git_term('Revision control') }} **is the process of managing versions of <popover content="for example, any files or outputs related to the development of software, such as source files, build scripts, config files, etc.">artifacts</popover> as they evolve**, such as tracking the versions of a project's files. You can do this by hand: each time you make some changes, you save the project folder under a new name (e.g., `Project-Foo-v1.2 (after fixing memory leak)`). But this is tedious and error-prone, especially when multiple people work on the same project.
 
-Below is a general introduction to revision control, adapted from <trigger trigger="click" for="modal:rcsWhat-bryanMercurialGuide">bryan-mercurial-guide</trigger>:
-<box seamless>
+{{ show_git_term('Revision Control Software (RCS)') }} **automates revision control**. Modern RCS tools can handle thousands of people working together on projects consisting of thousands of files. %%RCS tools are also known as _Version Control Software (VCS)_, and by a few other names.%%
 
-{{ show_git_term('Revision control') }} **is the process of managing multiple versions of a piece of information.** In its simplest form, this is something that many people do by hand: every time you modify a file, save it under a new name that contains a number, each one higher than the number of the preceding version.
+<box type="info" seamless>
 
-Manually managing multiple versions of even a single file is an error-prone task, though, so software tools to help automate this process have long been available. The earliest automated revision control tools were intended to help a single user to manage revisions of a single file. Over the past few decades, the scope of revision control tools has expanded greatly; they now manage multiple files, and help multiple people to work together. The best modern revision control tools have no problem coping with thousands of people working together on projects that consist of hundreds of thousands of files.
+**_Revision_ vs _Version_**{.text-info}
 
-There are several reasons why you or your team might want to use an automated revision control tool for a project.
+* {{ show_git_term('Revision') }} ("How it changed"): A discrete change made to an artifact at a specific point in time. For example, an edit that fixes a typo in the file `README.md` is a _revision_ to that file.
+* {{ show_git_term('Version') }} ("What it is"): A specific state of an artifact, usually the result of one or more revisions. For example, after fixing that typo, you have a new _version_ of `README.md`.
 
-* **It will track the history and evolution of your project**, so you don't have to. For every change, you'll have a log of who made it; why they made it; when they made it; and what the change was.
-* **It makes it easier for you to collaborate** when you're working with other people. For example, when people make potentially incompatible changes around the same time, the software helps you identify and resolve those conflicts.
-* **It can help you to recover from mistakes**. If you make a change that later turns out to be an error, you can revert to an earlier version of one or more files. In fact, a good revision control tool will even help you to efficiently figure out exactly when a problem was introduced.
-* **It helps you work on multiple versions of your project at the same time, and manage the drift between them.**
-
-Most of these reasons are equally valid, at least in theory, whether you're working on a project by yourself or with a hundred other people.
+In everyday conversation, **these two terms are often used interchangeably**. We'll do the same in these lessons.
 </box>
 
-<modal large header="Reference » Mercurial: The Definitive Guide" id="modal:rcsWhat-bryanMercurialGuide">
+**A revision control tool can:**
 
-[_**Mercurial: The Definitive Guide**_](http://hgbook.red-bean.com/) by Bryan O'Sullivan retrieved on 2012/07/11
-</modal>
+* **track your project's history**, recording who made each change, when, why, and what it was.
+* **make collaboration easier**, for example by helping you spot and resolve conflicting changes made around the same time.
+* **help you recover from mistakes**, letting you revert to an earlier version and even pinpoint when a problem was introduced.
+* **let you work on multiple versions at once** and manage the drift between them.
 
-**A {{ show_git_term('revision') }} is the state of a piece of information at a specific point in time, resulting from changes made to it**, e.g., if you modify the code and save the file, you have a new _revision_ (or a new _version_) of that file. %%Some seem to use this term interchangeably with _version_ while others seem to distinguish the two -- here, let us treat them as the same, for simplicity.%%<br>
-{{ show_git_term('Revision Control Software (RCS)') }} **is the software tool that automates revision control**, i.e., managing revisions of software <popover content="any files or outputs related to the development of software, such as source files, build scripts, config files, etc.">artifacts</popover>. %%RCS tools are also known as _Version Control Software (VCS)_, and by a few other names.%%
-
-**++[:fab-git-alt: Git](https://git-scm.com/)++ is the most widely used RCS today.** Other RCS tools include Mercurial, Subversion (SVN), Perforce, CVS (Concurrent Versions System), Bazaar, TFS (Team Foundation Server), and Clearcase.
+**++[:fab-git-alt: Git](https://git-scm.com/)++ is the most widely used RCS today.** It is a free and open-source tool created by Linus Torvalds in 2005 to manage development of the Linux kernel. %%Other RCS tools include Mercurial, Subversion (SVN), Perforce, CVS (Concurrent Versions System), Bazaar, TFS (Team Foundation Server), and Clearcase.%%
 
 **++[:fab-github: GitHub](https://github.com/)++ is a web-based project hosting platform for projects using Git for revision control.** Other similar services include GitLab, BitBucket, and SourceForge.
 </div>
