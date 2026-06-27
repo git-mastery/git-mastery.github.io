@@ -252,38 +252,58 @@
 {%- endmacro %}
 <!-- ============================================================ -->
 
-{% macro show_folder_contents(filename, prefix='', has_metadata=0, width=220) -%}
+{% macro show_folder_contents(filename, prefix='', has_metadata=0, width=240) -%}
 {% set prefix_str = (prefix + '-') if prefix else '' %}
 <div class="border border-info p-0 bg-white" style="width: {{ width }}px;">
-<div class="bg-info text-white p-1"><md>{{ icon_folder }} Working Directory</md></div>
+<div class="bg-info text-white p-1"><md>{{ icon_folder }} Project Folder</md></div>
 <div class="p-2">
+  <!-- start: .git folder -->
+  <div class="border border-danger bg-light pb-0" style="width: {{ width-15 }}px;">
+  <div class="bg-danger text-light p-1"><md>{{ icon_folder }} .git Folder</md></div>
+  <div class="pt-2 p-1 bg-danger-subtle" style="width: {{ width-17 }}px; ">
 
-  <div class="border border-warning bg-light pb-0" style="width: {{ width-15 }}px;">
-  <div class="bg-warning text-dark p-1"><md>{{ icon_folder }} .git Folder</md></div>
-  <div style="width: {{ width-15 }}px; ">
-  <div class="pb-0" style="border-bottom: 1px dotted #aaa;">
-
-{% if has_metadata %}<include src="{{ filename }}#{{ prefix_str }}metadata"/>{% endif %}
-<span class="badge bg-light text-secondary mt-2">other Git metadata ...</span><br>
+  <!-- start: other metadata -->
+  <div class="bg-light rounded-1 border-0" style="margin: 0px 2px 1px 1px; padding: 1px;">
+  <small><span class="text-secondary m-1 ps-2">other Git metadata ...</span></small><br>
   </div>
-  <div class="pt-0 p-1">
+  <!-- end: other metadata -->
 
-  <span class="badge bg-warning text-dark mt-2">staging area</span><br>
+  {% if has_metadata %}
+  <!-- start: commit history -->
+  <div class="bg-success-subtle rounded-1 border-0" style="margin: 7px 2px 1px 1px; padding: 1px;">
+  <span class="badge bg-success text-light mt-1 ms-1">commit history</span><br>
+
+  <include src="{{ filename }}#{{ prefix_str }}metadata"/>
+  </div>
+  <!-- end: commit history -->
+  {% endif %}
+
+  <!-- start: staging area -->
+  <div class="bg-warning-subtle rounded-1 border-0" style="margin: 7px 2px 1px 1px; padding: 1px;">
+  <span class="badge bg-warning text-dark mt-1 ms-1">staging area</span><br>
   <div class="pt-0 pb-0 p-2">
-<small>
+  <small>
 
-<include src="{{ filename }}#{{ prefix_str }}staging"/>
-</small>
+  <include src="{{ filename }}#{{ prefix_str }}staging"/>
+  </small>
   </div>
+  </div>
+  <!-- end: staging are -->
 
   </div>
   </div>
-  </div>
-<br>
-<small>
+  <!-- end: .git folder -->
+  <!-- start: working dir -->
+  <div class="bg-info-subtle rounded-1 border-0" style="margin: 9px 2px 1px 1px; padding: 1px;">
+  <small>
+  <span class="badge bg-info text-light mt-1 ms-1">working directory</span><br>
+  <div class="pt-0 pb-0 p-2">
 
-<include src="{{ filename }}#{{ prefix_str }}working"/>
-</small>
+  <include src="{{ filename }}#{{ prefix_str }}working"/>
+  </div>
+  </small>
+  </div>
+  <!-- end: working dir -->
 </div>
 </div>
 {%- endmacro %}
@@ -292,7 +312,7 @@
 {% macro show_folder_columns(filename, prefixes = ['a', 'b', 'c']) -%}
 <div class="d-flex flex-wrap gap-3">
 {% for p in prefixes %}
-<div class="p-2 bg-light text-start"  style="max-width: 240px;">
+<div class="p-2 bg-light text-start"  style="max-width: 260px;">
 {{ show_folder_contents(filename, p) }}
 <br>
 

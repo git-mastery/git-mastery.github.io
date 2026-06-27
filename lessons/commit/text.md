@@ -19,12 +19,37 @@ After staging, **you can save the snapshot by creating a _commit_**.
 {{ show_folder_contents('folder-commit-location-fragment.md', has_metadata=1, width=380) }}
 <p/>
 
-Given this, **the staging area is not truly "empty" right after a commit; it is only empty of _changes_**. It still contains a record of all tracked files, reflecting exactly the versions that were written into the previous commit.
+Given this, **the staging area is not truly "empty" right after a commit; it is only empty of _changes_. It still contains a record of all tracked files**, reflecting exactly the versions that were written into the previous commit.
 
 <box type="important" light>
 
 A Git commit is a snapshot of _all_ tracked files, not simply a delta of _what changed since the last commit_.
 </box>
+
+This is a good time to recap the **three internal zones of a Git repo:**
+1. <span class="badge bg-info text-light">working directory</span> The folder on your computer that contains the repo files. This is your workspace for editing files.
+1. <span class="badge bg-warning text-dark">staging area</span> (aka the <span class="badge bg-warning text-dark">index</span>) The space that contains a copy of the exact versions of all tracked files (modified and unmodified) that will be written into the next commit. This resides inside the `.git` folder.
+1. <span class="badge bg-success text-light">commit history</span> Commits that have been stored in the repo, each representing a snapshot of the tracked files at a point in time. This too resides inside the `.git` folder.
+
+**Most Git operations are for transferring some information from one Git internal zone to another.** For example, staging a file copies its current version from the working directory to the staging area, and committing saves the staged versions of all tracked files from the staging area to the commit history.
+
+<mermaid>
+%%{init: {'sequence': {'mirrorActors': false}}}%%
+sequenceDiagram
+    participant WD as Working Directory
+    participant SA as Staging Area
+    participant CH@{ "type": "database" } as Commit History
+
+    rect rgb(235, 245, 255)
+    Note over WD,SA: Staging a file
+    WD->>SA: copy current version of the file
+    end
+
+    rect rgb(235, 255, 235)
+    Note over SA,CH: Committing
+    SA->>CH: save staged versions of all tracked files
+    end
+</mermaid>
 
 {% call show_hands_on_practical("Creating your first commit") %}
 

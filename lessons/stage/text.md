@@ -12,11 +12,11 @@
 To save a snapshot, **you start by specifying what to include in it, also called _staging_**.
 {% endcall %}
 
-**Git treats new files that you add to the working directory as {{ show_git_term("'untracked'") }}**, i.e., Git is aware of them, but they are not yet under Git's control. The same applies to files that existed in the working folder at the time you initialized the repo.
-
 **A Git repo has an internal space called the {{ show_git_term('staging area') }}, which it uses to build the next snapshot**. Another name for the staging area is the {{ show_git_term('index') }}.
 
-**We can {{ show_git_term('stage', 'stage', 'stage') }} an untracked file** to tell Git that we want its current version to be included in the next snapshot (in Git terminology, such a snapshot is called a {{ show_git_term("commit") }}). Once you stage an untracked file, it becomes {{ show_git_term("'tracked'") }} (i.e., under Git's control). A staged file can be {{ show_git_term("unstaged") }} to indicate that we no longer want it to be included in the next snapshot.
+**Git treats new files that you add to the working directory as {{ show_git_term("'untracked'") }}**, i.e., Git is aware of them, but they are not yet under Git's control. The same applies to files that existed in the working directory at the time you initialized the repo.
+
+**We can {{ show_git_term('stage', 'stage', 'stage') }} an untracked file** to tell Git that we want its current version to be included in the next snapshot (in Git terminology, such a snapshot is called a {{ show_git_term("commit") }}). When asked to stage a file, Git copies that file from the working directory to the staging area. Once you stage an untracked file, it becomes {{ show_git_term("'tracked'") }} (i.e., under Git's control).
 
 {{ show_git_term_tip('stage', 'stage') }}
 
@@ -117,8 +117,8 @@ dragon fruits
 {% endcall %} <!-- end: HOP -->
 
 **Staging applies regardless of whether a file is currently tracked.**
- * Staging an untracked file will both begin tracking the file and include it in the next snapshot.
- * **Staging an already tracked file marks its current changes for inclusion in the next commit.**
+ * Staging an untracked file will both begin tracking the file and include it in the next snapshot. Git _creates_ in the staging area a copy of the file in the working directory.
+ * **Staging an already tracked file marks its current changes for inclusion in the next commit.** Git _overwrites_ the version of that file in the staging area with a copy of the that file in the working directory.
 
 <div class="d-print-none">
 
@@ -129,6 +129,8 @@ dragon fruits
 <span class="d-print-none">You can test this by adding an empty subfolder inside the `things` folder (e.g., `things/more-things`) and checking if it shows up as 'untracked' (it will not). If you add a file to that folder (e.g., `things/more-things/food.txt`) and then stage that file (e.g., `git add more-things/food.txt`), the file and its path will now be included in the next snapshot.</span>
 
 <include src="../common/protip-multiple-files-notation-fragment.md" />
+
+**Staged changes can be {{ show_git_term("unstaged") }}** to indicate that we no longer want it to be included in the next snapshot.
 
 </div>
 

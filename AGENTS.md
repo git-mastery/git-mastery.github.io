@@ -52,6 +52,10 @@
 
 **Preserve existing code block, command, and inline-code conventions.** Git commands, branch names, filenames, refs, and UI labels should be easy to distinguish from prose.
 
+## Terminology to Use
+
+* Use `working directory`, not `working folder`
+
 ## Validation
 
 **Run the available MarkBind build or serve workflow after meaningful source changes.** This is especially important when changing includes, layouts, frontmatter, CustardUI configuration, links, or MarkBind component syntax.

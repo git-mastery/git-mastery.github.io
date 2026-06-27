@@ -103,7 +103,7 @@ Click `OK` to the warning about 'detached HEAD' (similar to below).
 <pic src="images/sourcetreeDetachedHeadWarning.png" height="140" />
 <p/>
 
-The specified commit is now loaded into the working folder, as indicated by the `HEAD` label.
+The specified commit is now loaded into the working directory, as indicated by the `HEAD` label.
 
 <pic src="images/sourcetreeHeadMoved.png" width="300" />
 <p/>

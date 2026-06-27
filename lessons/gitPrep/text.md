@@ -14,7 +14,7 @@ Before you start learning Git, **you need to install some tools** on your comput
 
 ##### Installing Git
 
-**Git is free and open-source software used for revision control.** To use Git, you need to install Git on your computer.
+**To use Git, you need to install Git on your computer.**
 
 {% call show_prep("Install Git", "install-git") %}
 {{ os_tabs_marker('windows') }}

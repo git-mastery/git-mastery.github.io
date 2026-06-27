@@ -10,7 +10,7 @@
 Git allows you to **specify which files should be omitted from revision control**.
 {% endcall %}
 
-**You can specify which files Git should {{ show_git_term("ignore") }} when deciding what to track**. While you can always omit files from revision control simply by not staging them, an 'ignore-list' is more convenient, especially when the working folder contains files that are not suitable for revision control %%(e.g., temporary log files)%% or files you want to avoid accidentally committing %%(e.g., files containing confidential information)%%.
+**You can specify which files Git should {{ show_git_term("ignore") }} when deciding what to track**. While you can always omit files from revision control simply by not staging them, an 'ignore-list' is more convenient, especially when the working directory contains files that are not suitable for revision control %%(e.g., temporary log files)%% or files you want to avoid accidentally committing %%(e.g., files containing confidential information)%%.
 
 **A repo-specific ignore-list of files can be specified in a `.gitignore` file**, stored in the root of the repo folder.
 
