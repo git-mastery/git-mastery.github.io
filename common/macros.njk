@@ -252,7 +252,7 @@
 {%- endmacro %}
 <!-- ============================================================ -->
 
-{% macro show_folder_contents(filename, prefix='', has_metadata=0, width=240) -%}
+{% macro show_folder_contents(filename, prefix='', has_commits=0, width=240) -%}
 {% set prefix_str = (prefix + '-') if prefix else '' %}
 <div class="border border-info p-0 bg-white" style="width: {{ width }}px;">
 <div class="bg-info text-white p-1"><md>{{ icon_folder }} Project Folder</md></div>
@@ -262,25 +262,27 @@
   <div class="bg-danger text-light p-1"><md>{{ icon_folder }} .git Folder</md></div>
   <div class="pt-2 p-1 bg-danger-subtle" style="width: {{ width-17 }}px; ">
 
+  {% if not has_commits %}
   <!-- start: other metadata -->
   <div class="bg-light rounded-1 border-0" style="margin: 0px 2px 1px 1px; padding: 1px;">
   <small><span class="text-secondary m-1 ps-2">other Git metadata ...</span></small><br>
   </div>
   <!-- end: other metadata -->
+  {% endif %}
 
-  {% if has_metadata %}
-  <!-- start: commit history -->
+  {% if has_commits %}
+  <!-- start: repository -->
   <div class="bg-success-subtle rounded-1 border-0" style="margin: 7px 2px 1px 1px; padding: 1px;">
-  <span class="badge bg-success text-light mt-1 ms-1">commit history</span><br>
-
+  <span class="badge bg-success text-light mt-1 ms-1">Repository</span><br>
   <include src="{{ filename }}#{{ prefix_str }}metadata"/>
+  <small><span class="text-secondary m-1 ps-2">[other Git metadata ...]</span></small>
   </div>
-  <!-- end: commit history -->
+  <!-- end: repository -->
   {% endif %}
 
   <!-- start: staging area -->
   <div class="bg-warning-subtle rounded-1 border-0" style="margin: 7px 2px 1px 1px; padding: 1px;">
-  <span class="badge bg-warning text-dark mt-1 ms-1">staging area</span><br>
+  <span class="badge bg-warning text-dark mt-1 ms-1">Staging area</span><br>
   <div class="pt-0 pb-0 p-2">
   <small>
 
@@ -296,7 +298,7 @@
   <!-- start: working dir -->
   <div class="bg-info-subtle rounded-1 border-0" style="margin: 9px 2px 1px 1px; padding: 1px;">
   <small>
-  <span class="badge bg-info text-light mt-1 ms-1">working directory</span><br>
+  <span class="badge bg-info text-light mt-1 ms-1">Working directory</span><br>
   <div class="pt-0 pb-0 p-2">
 
   <include src="{{ filename }}#{{ prefix_str }}working"/>
