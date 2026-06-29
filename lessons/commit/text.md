@@ -16,7 +16,7 @@ After staging, **you can save the snapshot by creating a _commit_**.
 
 **A Git commit is therefore a full snapshot of all tracked files.** More precisely, it is a record of the exact state of all files in the staging area at that moment -- even the files that have not changed since the previous commit. This contrasts with the intuitive expectation that a commit stores only the <tooltip content="i.e., the changes made since the last commit">delta</tooltip> since the previous commit. Consequently, a Git commit has all the information it needs to recreate the snapshot of the tracked files in the working directory at that point in time. In addition to the file contents, **a commit also stores metadata such as the author, date, and an optional {{ show_git_term('commit message') }} describing the change**.
 
-{{ show_folder_contents('folder-commit-location-fragment.md', has_metadata=1, width=380) }}
+{{ show_folder_contents('folder-commit-location-fragment.md', has_commits=1, width=380) }}
 <p/>
 
 Given this, **the staging area is not truly "empty" right after a commit; it is only empty of _changes_. It still contains a record of all tracked files**, reflecting exactly the versions that were written into the previous commit.
@@ -27,17 +27,18 @@ A Git commit is a snapshot of _all_ tracked files, not simply a delta of _what c
 </box>
 
 This is a good time to recap the **three internal zones of a Git repo:**
-1. <span class="badge bg-info text-light">working directory</span> The folder on your computer that contains the repo files. This is your workspace for editing files.
-1. <span class="badge bg-warning text-dark">staging area</span> (aka the <span class="badge bg-warning text-dark">index</span>) The space that contains a copy of the exact versions of all tracked files (modified and unmodified) that will be written into the next commit. This resides inside the `.git` folder.
-1. <span class="badge bg-success text-light">commit history</span> Commits that have been stored in the repo, each representing a snapshot of the tracked files at a point in time. This too resides inside the `.git` folder.
+1. <span class="badge bg-info text-light">Working directory</span> The folder on your computer that contains the repo files. This is your workspace for editing files.<br>
+   Another name for this zone is {{ show_git_term('working tree') }}.
+1. <span class="badge bg-warning text-dark">Staging area</span> (aka the <span class="badge bg-warning text-dark">index</span>) The space that contains a copy of the exact versions of all tracked files (modified and unmodified) that will be written into the next commit. This resides inside the `.git` folder.
+1. <span class="badge bg-success text-light">Repository</span> Stores the commits and other metadata related to the revision history of the project. This too resides inside the `.git` folder.
 
 **Most Git operations are for transferring some information from one Git internal zone to another.** For example, staging a file copies its current version from the working directory to the staging area, and committing saves the staged versions of all tracked files from the staging area to the commit history.
 
 <mermaid>
 %%{init: {'sequence': {'mirrorActors': false}}}%%
 sequenceDiagram
-    participant WD as Working Directory
-    participant SA as Staging Area
+    participant WD as 📁 Working Directory
+    participant SA as 📋 Staging Area
     participant CH@{ "type": "database" } as Commit History
 
     rect rgb(235, 245, 255)

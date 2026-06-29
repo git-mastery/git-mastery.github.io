@@ -5,7 +5,7 @@ title: "{{ tour.title }}"
 pageNav: 4
 </frontmatter>
 
-<span id="outcomes">{{ icon_outcome }} Can use Git to take snapshots of a folder</span>
+<span id="outcomes">{{ icon_outcome }} Can use Git to take snapshots of a folder.</span>
 <span id="title">{{ tour.title }}</span>
 
 <span class="d-none" id="destination">To use Git to systematically record the history of a folder on your own computer. Specifically, to use Git to save snapshots of the folder at chosen points in time.</span>
