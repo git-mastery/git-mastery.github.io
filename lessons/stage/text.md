@@ -136,6 +136,6 @@ dragon fruits
 
 <div id="extras">
 {{ show_exercise(exercises.stage_fright) }}
-{{ show_detour('unstagingChanges') }}
+{{ show_detour_preview('unstagingChanges') }}
 {{ show_detour_preview('stagingFileDeletions') }}
 </div>

@@ -69,6 +69,7 @@ sequenceDiagram
 <div id="extras">
 {{ show_exercise(exercises.grocery_shopping) }}
 {{ show_detour('stagingFileDeletions') }}
+{{ show_detour('unstagingChanges') }}
 {{ show_detour_preview('updateLastCommit') }}
 {{ show_detour_preview('resetUncommitedChanges') }}
 {{ show_detour_preview('undoRecentCommits') }}
