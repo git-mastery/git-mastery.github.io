@@ -302,7 +302,7 @@ Notes:
 
 ##### **Git-Mastery App: Commands**{.text-info}
 
-{% set run_at_root %}<small>{{ icon_info }} This command needs to be run **in the Git-Mastery's _exercises directory_** (default name: `gitmastery-exercises`).</small>{% endset %}
+{% set run_at_root %}<small>{{ icon_info }} This command needs to be run **in Git-Mastery's _exercises directory_** (default name: `gitmastery-exercises`).</small>{% endset %}
 {% set run_in_exercise %}<small>{{ icon_info }} This command needs to be run **inside the folder containing the relevant exercise**.</small>{% endset %}
 
 Command|Run from ...|What it does|

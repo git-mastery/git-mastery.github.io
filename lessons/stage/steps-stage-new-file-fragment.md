@@ -39,7 +39,7 @@ git add fruits.txt
 
 <box type="info" seamless>
 
-You can replace `add` with `stage` (e.g., `git stage fruits.txt`) and the result is the same (they are synonyms). Git-Mastery uses `add` usually but uses `stage` at times to remind you that both are correct.
+You can replace `add` with `stage` (e.g., `git stage fruits.txt`) and the result is the same (they are synonyms). Git-Mastery usually uses `add`, but sometimes uses `stage` to remind you that both are correct.
 </box>
 <cv-toggle toggle-id="windows-only">
 

@@ -30,7 +30,7 @@ The staging area is empty of _changes_ (i.e., nothing to commit), but it still c
 
 {{ show_folder_contents('folder-changes-after-commit-fragment.md', has_commits=1, width=380) }}
 
-The updated version of `fruits.txt` is also in the staging area. No changes to `colours.txt` in the working directory or the staging area. We can create a new commit at this point.
+The updated version of `fruits.txt` is also in the staging area. There are no changes to `colours.txt` in the working directory or the staging area. We can create a new commit at this point.
 {% endset %}
 {{ show_multiple_columns([a, '|', b], fill_width=true) }}
 <p/>
@@ -46,7 +46,7 @@ This is a good time to recap the **three internal zones of a Git repo:**
 1. <span class="badge bg-info text-light">Working directory</span> The folder on your computer that contains the repo files. This is your workspace for editing files.<br>
    Another name for this zone is {{ show_git_term('working tree') }}.
 1. <span class="badge bg-warning text-dark">Staging area</span> (aka the <span class="badge bg-warning text-dark">index</span>) The space that contains a copy of the exact versions of all tracked files (modified and unmodified) that will be written into the next commit. This resides inside the `.git` folder.
-1. <span class="badge bg-success text-light">Repository</span> Stores the commits and other metadata related to the revision history of the project. This too resides inside the `.git` folder.
+1. <span class="badge bg-success text-light">Repository</span> Stores the commits and other metadata related to the revision history of the project. This also resides inside the `.git` folder.
 
 **Most Git operations are for transferring some information from one Git internal zone to another.** For example, staging a file copies its current version from the working directory to the staging area, and committing saves the staged versions of all tracked files from the staging area to the commit history.
 

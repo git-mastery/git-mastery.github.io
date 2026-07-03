@@ -117,7 +117,7 @@ dragon fruits
 {% endcall %} <!-- end: HOP -->
 
 **Staging applies regardless of whether a file is currently tracked.**
- * Staging an untracked file will both begin tracking the file and include it in the next snapshot. Git _creates_ in the staging area a copy of the file in the working directory.
+ * Staging an untracked file will both begin tracking the file and include it in the next snapshot. Git _creates_ a copy of the file in the working directory in the staging area.
  * **Staging an already tracked file marks its current changes for inclusion in the next commit.** Git _overwrites_ the version of that file in the staging area with a copy of that file in the working directory.
 
 <div class="d-print-none">
