@@ -17,7 +17,16 @@
 </div>
 <div id="staging">
 
-%%[if this is right after the commit was created, no _changes_ will appear here, i.e., the **staging area matches the snapshot in the commit**]%%
+
+%%[no _changes_ to commit]%%
+<div class="indented-level1 small">
+<tree>
+<small>**all tracked files**</small>
+  <small>%%{{ icon_file }} fruits.txt (same as C1)%%</small>
+  <small>%%{{ icon_file }} colours.txt (same as C1)%%</small>
+</tree>
+</div>
+
 </div>
 <div id="working">
 

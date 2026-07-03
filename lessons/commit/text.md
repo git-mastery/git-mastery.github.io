@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_folder_contents, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_folder_contents, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_multiple_columns, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 
 <span id="outcomes">{{ icon_outcome }} Can commit using Git</span>
 
@@ -16,7 +16,23 @@ After staging, **you can save the snapshot by creating a _commit_**.
 
 **A Git commit is therefore a full snapshot of all tracked files.** More precisely, it is a record of the exact state of all files in the staging area at that moment -- even the files that have not changed since the previous commit. This contrasts with the intuitive expectation that a commit stores only the <tooltip content="i.e., the changes made since the last commit">delta</tooltip> since the previous commit. Consequently, a Git commit has all the information it needs to recreate the snapshot of the tracked files in the working directory at that point in time. In addition to the file contents, **a commit also stores metadata such as the author, date, and an optional {{ show_git_term('commit message') }} describing the change**.
 
-{{ show_folder_contents('folder-commit-location-fragment.md', has_commits=1, width=380) }}
+Here is an example of how the three internal zones of Git looks as a commit is followed by further changes to tracked files.
+
+{% set a %} <!-- ------ start: columns --------------->
+(a) Right after creating commit `C1`:
+
+{{ show_folder_contents('folder-right-after-commit-fragment.md', has_commits=1, width=380) }}
+
+The staging area is empty of _changes_ (i.e., nothing to commit), but it still contains a record of all tracked files. Tracked files in the last commit, staging area, and the working directory are identical.
+{% endset %}
+{% set b %}
+(b) `fruites.txt` updated and staged:
+
+{{ show_folder_contents('folder-changes-after-commit-fragment.md', has_commits=1, width=380) }}
+
+The updated version of `fruits.txt` is also in the staging area. No changes to `colours.txt` in the working directory or the staging area. We can create a new commit at this point.
+{% endset %}
+{{ show_multiple_columns([a, '|', b], fill_width=true) }}
 <p/>
 
 Given this, **the staging area is not truly "empty" right after a commit; it is only empty of _changes_. It still contains a record of all tracked files**, reflecting exactly the versions that were written into the previous commit.
