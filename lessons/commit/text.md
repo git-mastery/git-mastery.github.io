@@ -16,7 +16,7 @@ After staging, **you can save the snapshot by creating a _commit_**.
 
 **A Git commit is therefore a full snapshot of all tracked files.** More precisely, it is a record of the exact state of all files in the staging area at that moment -- even the files that have not changed since the previous commit. This contrasts with the intuitive expectation that a commit stores only the <tooltip content="i.e., the changes made since the last commit">delta</tooltip> since the previous commit. Consequently, a Git commit has all the information it needs to recreate the snapshot of the tracked files in the working directory at that point in time. In addition to the file contents, **a commit also stores metadata such as the author, date, and an optional {{ show_git_term('commit message') }} describing the change**.
 
-Here is an example of how the three internal zones of Git looks as a commit is followed by further changes to tracked files.
+Here is an example of how the three internal zones of Git look as a commit is followed by further changes to tracked files.
 
 {% set a %} <!-- ------ start: columns --------------->
 (a) Right after creating commit `C1`:
@@ -26,7 +26,7 @@ Here is an example of how the three internal zones of Git looks as a commit is f
 The staging area is empty of _changes_ (i.e., nothing to commit), but it still contains a record of all tracked files. Tracked files in the last commit, staging area, and the working directory are identical.
 {% endset %}
 {% set b %}
-(b) `fruites.txt` updated and staged:
+(b) `fruits.txt` updated and staged:
 
 {{ show_folder_contents('folder-changes-after-commit-fragment.md', has_commits=1, width=380) }}
 

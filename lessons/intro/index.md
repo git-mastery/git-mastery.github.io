@@ -1,6 +1,6 @@
 {% from "common/macros.njk" import trail with context %}
 <frontmatter>
-title: "{{ trail.recordingFolderHistory.lessons.log.title }}"
+title: "{{ trail.recordingFolderHistory.lessons.intro.title }}"
 layout: lessons.md
 </frontmatter>
 

@@ -22,7 +22,7 @@
 <div class="indented-level1 small">
 <tree>
 <small>**all tracked files**</small>
-  <small>{{ icon_file }} fruits.txt (#r#some changes done##)</small>
+  <small>{{ icon_file }} fruits.txt (#r#some changes made##)</small>
   <small>%%{{ icon_file }} colours.txt (same as C1)%%</small>
 </tree>
 </div>
@@ -30,7 +30,7 @@
 </div>
 <div id="working">
 
-├─ {{ icon_file }} fruits.txt (tracked, #r#some changes done##)<br>
+├─ {{ icon_file }} fruits.txt (tracked, #r#some changes made##)<br>
 └─ {{ icon_file }} colours.txt (tracked)
 
 </div>

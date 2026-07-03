@@ -19,7 +19,7 @@ pageNav: 4
 
 **Recommended: Watch this video!**{.text-success}
 
-Tour/lesson videos (such as the one given below) are recommended viewing, as **they help you build the right mental models about Git** before diving into nitty-gritty details given in the lessons.
+Tour/lesson videos (such as the one below) are recommended viewing, as **they help you build the right mental models about Git** before diving into detailed steps covered in the lessons.
 </box>
 
 @[youtube](cULoA9DIbVc)

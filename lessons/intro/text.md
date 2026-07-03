@@ -12,7 +12,7 @@ Before learning about Git, let us first **understand what _revision control_** i
 
 {{ show_git_term('Revision control') }} **is the process of managing versions of <popover content="for example, any files or outputs related to the development of software, such as source files, build scripts, config files, etc.">artifacts</popover> as they evolve**, such as tracking the versions of a project's files. You can do this by hand: each time you make some changes, you save the project folder under a new descriptive name (e.g., `Project-Foo-v1.2 (after fixing memory leak)`). But this is tedious and error-prone, especially when multiple people work on the same project.
 
-{{ show_git_term('Revision Control Software (RCS)') }} **automates revision control**. Modern RCS tools can handle thousands of people working together on projects consisting of thousands of files. %%RCS tools are also known as _Version Control Software (VCS)_, and by <popover content="Source Control Management (SCM), Source Control, Version Management, Version Control System, ...">a few other names</popover>.%%
+{{ show_git_term('Revision Control Software (RCS)') }} **automates revision control**. Modern RCS tools can handle large teams working together on projects with thousands of files. %%RCS tools are also known as _Version Control Software (VCS)_, and by <popover content="Source Control Management (SCM), Source Control, Version Management, Version Control System, ...">a few other names</popover>.%%
 
 <box type="info" seamless>
 
@@ -28,14 +28,14 @@ In everyday conversation, **these two terms are often used interchangeably**. We
 
 **A revision control tool can:**
 
-* **track your project's history**, recording who made each change, when, why, and what it was.
+* **track your project's history**, recording who made each change, when, why, and what changed.
 * **make collaboration easier**, for example by helping you spot and resolve conflicting changes made around the same time.
 * **help you recover from mistakes**, letting you revert to an earlier version and even pinpoint when a problem was introduced.
 * **let you work on multiple versions at once** and manage the <tooltip content="i.e., gradual divergence between two or more copies of the same codebase as they are modified independently over time">drift</tooltip> between them.
 
-**++[:fab-git-alt: Git](https://git-scm.com/)++ is the most widely used RCS today.** It is a free and open-source tool [created by Linus Torvalds in 2005 to manage development of the Linux kernel](https://www.youtube.com/watch?v=Uq41qdjJ8Xs). %%Other RCS tools include Mercurial, Subversion (SVN), Perforce, CVS (Concurrent Versions System), Bazaar, TFS (Team Foundation Server), and Clearcase.%%
+**++[:fab-git-alt: Git](https://git-scm.com/)++ is the most widely used RCS today.** It is a free and open-source tool [created by Linus Torvalds in 2005 to manage the development of the Linux kernel](https://www.youtube.com/watch?v=Uq41qdjJ8Xs). %%Other RCS tools include Mercurial, Subversion (SVN), Perforce, CVS (Concurrent Versions System), Bazaar, TFS (Team Foundation Server), and ClearCase.%%
 
-**++[:fab-github: GitHub](https://github.com/)++ is a web-based project hosting platform for projects using Git for revision control.** Other similar services include GitLab, BitBucket, and SourceForge.
+**++[:fab-github: GitHub](https://github.com/)++ is a web-based platform for hosting projects that use Git for revision control.** Other similar services include GitLab, Bitbucket, and SourceForge.
 </div>
 
 <div id="extras">

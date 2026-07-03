@@ -70,7 +70,7 @@ cat fruits.txt
 {% endcall %}
 
 
-**If you modify a staged file, it views it as {{ show_git_term("'modified'") }}**, i.e., the file contains changes that are not present in the staged copy waiting to be included in the next snapshot. If you wish to include these new changes in the next snapshot, you need to stage the file again, which will overwrite the copy of the file that was previously in the staging area.<br>
+**If you modify a staged file, Git views it as {{ show_git_term("'modified'") }}**, i.e., the file contains changes that are not present in the staged copy waiting to be included in the next snapshot. If you wish to include these new changes in the next snapshot, you need to stage the file again, which will overwrite the copy of the file that was previously in the staging area.<br>
 The example below shows how the status of a file changes when it is modified _after_ it was staged.
 
 {{ show_folder_columns('folder-change-after-staging-fragment.md') }}
@@ -118,7 +118,7 @@ dragon fruits
 
 **Staging applies regardless of whether a file is currently tracked.**
  * Staging an untracked file will both begin tracking the file and include it in the next snapshot. Git _creates_ in the staging area a copy of the file in the working directory.
- * **Staging an already tracked file marks its current changes for inclusion in the next commit.** Git _overwrites_ the version of that file in the staging area with a copy of the that file in the working directory.
+ * **Staging an already tracked file marks its current changes for inclusion in the next commit.** Git _overwrites_ the version of that file in the staging area with a copy of that file in the working directory.
 
 <div class="d-print-none">
 
@@ -130,7 +130,7 @@ dragon fruits
 
 <include src="../common/protip-multiple-files-notation-fragment.md" />
 
-**Staged changes can be {{ show_git_term("unstaged") }}** to indicate that we no longer want it to be included in the next snapshot.
+**Staged changes can be {{ show_git_term("unstaged") }}** to indicate that we no longer want them to be included in the next snapshot.
 
 </div>
 
