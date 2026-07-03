@@ -235,7 +235,9 @@
 {% if edge %}<div class="d-flex justify-content-center align-items-center text-{{ style }}" style="width: {{ size }}px; height: 18px; padding: 0; margin: -4px 0;">{{ edge }}</div>{% endif %}{% endmacro %}
 <!-- ============================================================ -->
 
-{% macro show_git_term(term, definitiona_id="", current_page="") -%}<span class="badge text-dark" style="background-color: rgba(13, 202, 240, 0.2);">{% if current_page %}<trigger for="pop:{{ current_page }}-{{ definition_id }}">{% endif %}++{{ term }}++{% if current_page %}</trigger>{% endif %}</span>{%- endmacro %}
+{% macro show_git_term(term, definition_id="", current_page="") -%}<span class="badge text-dark" style="background-color: rgba(13, 202, 240, 0.2);">{% if current_page %}<trigger for="pop:{{ current_page }}-{{ definition_id }}">{% endif %}++{{ term }}++{% if current_page %}</trigger>{% endif %}</span>{%- endmacro %}
+
+{% macro show_git_term_with_tip(term, tip) -%}<span class="badge text-dark" style="background-color: rgba(13, 202, 240, 0.2);"><popover content="{{ tip }}">++{{ term }}++</popover></span>{%- endmacro %}
 <!-- ============================================================ -->
 
 {% macro show_fine_print(details) -%}<span class="badge text-info border-light" style="font-weight: normal;"><popover content="{{ details }}">[fine print]</popover></span>{%- endmacro %}

@@ -6,6 +6,7 @@ function getScripts() {
 
 const tagConfig = {
   'cv-label': { isCustomElement: true },
+  'cv-insertion': { isCustomElement: true },
   'cv-toggle': { isCustomElement: true },
   'cv-tabgroup': { isCustomElement: true },
   'cv-tab': { isCustomElement: true },
