@@ -107,8 +107,8 @@
 
 {% set detours = {
   undoRepoInit: {lesson: trail.recordingFolderHistory.lessons.init, title: "Undoing a Repo Initialization"},
-  unstagingChanges: {lesson: trail.recordingFolderHistory.lessons.stage, title: "Unstaging Changes"},
   stagingFileDeletions: {lesson: trail.recordingFolderHistory.lessons.commit, title: "Staging File Deletions"},
+  unstagingChanges: {lesson: trail.recordingFolderHistory.lessons.commit, title: "Unstaging Changes"},
   pushToMultipleRepos: {lesson: trail.backingUpOnCloud.lessons.push, title: "Pushing to Multiple Repos"},
   managingRemotes: {lesson: trail.backingUpOnCloud.lessons.setRemote, title: "Managing Details of a Remote"},
   ignoreTrackedFiles: {lesson: trail.backingUpOnCloud.lessons.ignore, title: "Ignoring Previously-Tracked Files"},
@@ -809,7 +809,14 @@ popup-url="{{ file | replace(".md", ".html") }}">
 <!-- ============================================================ -->
 
 {% macro show_tour(tour) %}
+{% set tour_folder = baseUrl + "/lessons/trail/" + tour.folder %}
+
 {{ show_tour_intro(tour) }}
+
+<div class="d-print-none">
+
+<include src="{{ tour_folder }}/text.md#video" optional />
+</div>
 
 {% for lesson_name, lesson_data in tour.lessons %}
 {{ show_lesson(lesson_data) }}

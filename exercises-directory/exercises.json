@@ -35,9 +35,9 @@
   "staging_intervention": {
     "detour": {
       "lesson": {
-        "title": "T1L4. Specifying What to Include in a Snapshot",
+        "title": "T1L5. Saving a Snapshot",
         "tour_name": "recordingFolderHistory",
-        "lesson_name": "stage"
+        "lesson_name": "commit"
       },
       "title": "Unstaging Changes"
     },

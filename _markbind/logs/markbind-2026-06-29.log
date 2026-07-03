@@ -1,0 +1,59 @@
+2026-06-29T13:15:31.876Z - [32minfo[39m: Website generation (lazy) started at 21:15:31
+2026-06-29T13:15:32.059Z - [32minfo[39m: Building assets...
+2026-06-29T13:15:32.165Z - [32minfo[39m: Assets built
+2026-06-29T13:15:32.166Z - [32minfo[39m: Generating landing page...
+2026-06-29T13:15:32.267Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-06-29T13:15:32.287Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-06-29T13:15:32.408Z - [32minfo[39m: Site data built
+2026-06-29T13:15:32.408Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 0.702s
+2026-06-29T13:15:32.421Z - [32minfo[39m: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-06-29T13:15:32.421Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-06-29T13:16:07.171Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2026-06-29T13:16:07.570Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index.md
+2026-06-29T13:16:07.588Z - [32minfo[39m: Site data built
+2026-06-29T13:16:07.588Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.418s
+2026-06-29T13:17:28.133Z - [32minfo[39m: [21:17:28] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-06-29T13:17:28.134Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-29T13:17:28.135Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-29T13:17:28.136Z - [32minfo[39m: 1. lessons/index
+2026-06-29T13:17:29.139Z - [32minfo[39m: No pages needed to be rebuilt
+2026-06-29T13:17:37.848Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/index as some of its dependencies were changed since the last visit
+2026-06-29T13:17:37.916Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-06-29T13:17:37.923Z - [32minfo[39m: Site data built
+2026-06-29T13:17:37.923Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.076s
+2026-06-29T13:29:01.419Z - [32minfo[39m: [21:29:01] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions.md
+2026-06-29T13:29:01.423Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-29T13:29:01.427Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-29T13:29:01.428Z - [32minfo[39m: 1. index
+2026-06-29T13:29:02.530Z - [32minfo[39m: Pages or site config modified, updating pages...
+2026-06-29T13:29:03.593Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/index as some of its dependencies were changed since the last visit
+2026-06-29T13:29:03.665Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-06-29T13:29:03.671Z - [32minfo[39m: Site data built
+2026-06-29T13:29:03.671Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.078s
+2026-06-29T13:29:06.522Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions as some of its dependencies were changed since the last visit
+2026-06-29T13:29:06.558Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions.md
+2026-06-29T13:29:06.565Z - [32minfo[39m: Site data built
+2026-06-29T13:29:06.565Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.044s
+2026-06-29T13:29:21.121Z - [32minfo[39m: [21:29:21] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions.md
+2026-06-29T13:29:21.124Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-29T13:29:21.127Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-29T13:29:21.128Z - [32minfo[39m: 1. index
+2026-06-29T13:29:22.136Z - [32minfo[39m: No pages needed to be rebuilt
+2026-06-29T13:29:30.711Z - [32minfo[39m: [21:29:30] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions.md
+2026-06-29T13:29:30.712Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-29T13:29:30.713Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-29T13:29:30.714Z - [32minfo[39m: 1. index
+2026-06-29T13:29:31.721Z - [32minfo[39m: No pages needed to be rebuilt
+2026-06-29T13:29:37.673Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions as some of its dependencies were changed since the last visit
+2026-06-29T13:29:37.697Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions.md
+2026-06-29T13:29:37.703Z - [32minfo[39m: Site data built
+2026-06-29T13:29:37.703Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.031s
+2026-06-29T13:30:25.874Z - [32minfo[39m: [21:30:25] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions.md
+2026-06-29T13:30:25.876Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-06-29T13:30:25.876Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-06-29T13:30:25.876Z - [32minfo[39m: 1. index
+2026-06-29T13:30:26.885Z - [32minfo[39m: No pages needed to be rebuilt
+2026-06-29T13:30:39.435Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions as some of its dependencies were changed since the last visit
+2026-06-29T13:30:39.459Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions.md
+2026-06-29T13:30:39.465Z - [32minfo[39m: Site data built
+2026-06-29T13:30:39.465Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.03s
