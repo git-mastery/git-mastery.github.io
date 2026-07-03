@@ -30,7 +30,7 @@ Git then applies the source branch's changes to your current branch. Normally, t
 
 <p/>
 
-**A typical two-branch merge commit has two parent commits.** {{ show_fine_print("Git also supports merge commits with more than two parents, resulting from a type of merge called 'octopus merge'") }} In the example above, merge commit `f` has both `d` and `e` as parents. **The parent commit on the <popover content="i.e., the branch you are merging _into_ (the branch you are currently on when you do the merge operation)">destination branch</popover> is the {{ show_git_term("first parent") }}, and the parent commit on the <popover content="i.e., the branch that you are merging">source branch</popover> is the {{ show_git_term("second parent") }}**. In our example, when `fix1` is merged into `main`, `d` is the first parent and `e` is the second parent.
+**A typical two-branch merge commit has two parent commits.** {{ show_fine_print("Git also supports merge commits with more than two parents, resulting from a type of merge called 'octopus merge'") }} In the example above, merge commit `f` has both `d` and `e` as parents. **The parent commit on the <popover content="i.e., the branch you are merging _into_ (the branch you are currently on when you do the merge operation)">destination branch</popover> is the {{ show_git_term("first parent") }}, and the parent commit on the <popover content="i.e., the branch that you are merging">source branch</popover> is the {{ show_git_term("second parent") }}**. In our example, when `fix1` is merged into `main`, `d` is the first parent and `e1` is the second parent.
 
 **Merging is directional.** Merging `fix1` into `main` is not the same as merging `main` into `fix1`, as illustrated below.
 {% set a %} <!-- ------ start: columns --------------->
@@ -252,7 +252,7 @@ gitGraph BT:
     commit id: "[HEAD → main] mc2"
     branch add-swimming
     commit id: "a1"
-    commit id: "add-swimming] a2"
+    commit id: "[add-swimming] a2"
 </mermaid>
 
 {{ hp_number ('2') }} **Merge the `add-swimming` branch into the `main` branch.** Observe that there is no merge commit: the `main` branch ref (and `HEAD`) moved to the tip of `add-swimming` (`a2`), so both branches now point to `a2`.

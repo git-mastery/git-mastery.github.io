@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_protip, show_ref, show_steps_tabs, show_tag, show_transformation_columns, show_two_column_row, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_with_tip, show_git_term_tip, show_detour, show_exercise, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_protip, show_ref, show_steps_tabs, show_tag, show_transformation_columns, show_two_column_row, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Able to work in parallel Git branches, in the local repo.</span>
@@ -43,7 +43,7 @@ Instead, **we need a way to maintain multiple parallel timelines in the same rep
 
 Therefore, **a {{ show_git_term("branch") }} is conceptually a _named timeline_ of commits, implemented as a label/reference ({{ show_git_term("ref") }} for short) that points to the latest commit in that timeline.** In the example on the left, there are three branches: `main`, `fix1`, and `fix2`.
 
-**The latest commit that a branch ref points to is called the {{ show_git_term("tip") }} of the branch.** For example, `c` is the tip of the `main` branch while `f1` is the tip of the `fix1` branch.
+**The latest commit that a {{ show_git_term_with_tip("branch ref", "branch reference/label with the branch's name") }} points to is called the {{ show_git_term("tip") }} of the branch.** For example, `c` is the tip of the `main` branch while `f1` is the tip of the `fix1` branch.
 
 {% endcall %}
 
@@ -215,6 +215,20 @@ One-step shortcut (by using `-c` or `--create` flag):
 git switch -c feature1
 ```
 </box>
+<box type="tip" seamless>
+
+**To list the branches in the repo**{.text-success}, use the `git branch` (or the more specific `git branch --list`) command:
+```bash
+git branch
+```
+{% call show_output() %}
+```bash
+* feature1
+  main
+```
+The `*` indicates the current branch. The `main` branch is still there, but you are now on the `feature1` branch.
+{% endcall %}
+</box>
 {% endset %}
 {% set sourcetree %}
 Click on the `Branch` button on the main menu. In the next dialog, enter the branch name and click `Create Branch`.
@@ -286,6 +300,7 @@ git commit -am "Add Martina to tennis.txt"
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
+    commit id: "m0"
     commit id: "m1"
     commit id: "m2"
     branch feature1
@@ -316,6 +331,7 @@ gitGraph BT:
 <mermaid>
 gitGraph BT:
     {{ "%%{init: { 'theme': 'default', 'gitGraph': {'mainBranchName': 'main'}} }%%" }}
+    commit id: "m0"
     commit id: "m1"
     commit id: "m2"
     branch feature1

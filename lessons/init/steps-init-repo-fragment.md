@@ -20,6 +20,11 @@ Initialized empty Git repository in <path-to-repo>/things/.git/
 Click `File` → `Clone/New…`, then click the `+ Create` button on the top menu bar.<br>
   <pic eager src="{{baseUrl}}/lessons/init/images/sourcetree_1.png" height="220" /><br>
   Enter the location of the directory and click `Create`. {icon="fab-windows"}
+
+<box type="tip" seamless>
+
+**To open an existing repo in Sourcetree**, click `Fie` → `Open` and select the folder location of the repo (i.e., the folder containing the hidden `.git` folder).
+</box>
 </div>
 <div id="sourcetree-mac"><!-- ---------------------------------------------------- -->
 
@@ -28,4 +33,10 @@ Click `File` → `Clone/New…`, then click the `+ Create` button on the top men
     <pic src="images/sourcetreeRepoCreationDialog.png" />
  1. Click the `...` button to select the folder location for the repository. After selecting the folder location, click the `Create` button.<br>
     <pic src="images/sourcetreeChooseFolder.png" />
+
+<box type="tip" seamless>
+
+**To open an existing repo in Sourcetree**, click `Fie` → `Open...` and select the folder location of the repo (i.e., the folder containing the hidden `.git` folder).
+</box>
+
 </div>

@@ -2,7 +2,7 @@
 
 <div id="scenario" class="d-none">
 
-You are writing the outline for a story. You now have two parallel storylines in two branches.
+You are writing the outline for a story. You now have two parallel storylines in two branches (`with-ginny`, `with-sally`).
 
 </div>
 

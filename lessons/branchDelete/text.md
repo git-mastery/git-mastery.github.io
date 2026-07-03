@@ -45,7 +45,7 @@ In the above example, the deletion only removes the branch ref `bug-fix`. All co
 
 In fact, some prefer to delete the branch soon after merging it, to reduce clutter from branch references in the revision history.
 
-****When you delete a branch that has not been merged,**** **the loss of the branch ref can render some commits unreachable** (you may still be able to inspect or recover them for a while if you know their SHA), putting them at risk of being lost eventually.
+****When you delete a branch that has not been merged,**** **the loss of the branch ref can render some commits unreachable** (you may still be able to inspect or recover them for a while if you know their commit ID), putting them at risk of being lost eventually.
 
 {% set a %}<!-- ------ start: transformation columns --------------->
 <mermaid>
