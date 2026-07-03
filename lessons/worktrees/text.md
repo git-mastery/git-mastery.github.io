@@ -47,7 +47,7 @@
 mkdir study-notes
 cd study-notes
 git init -b main
-echo -e "# Study Notes" > README.md
+echo "# Study Notes" > README.md
 git add README.md
 git commit -m "Add README"
 ```

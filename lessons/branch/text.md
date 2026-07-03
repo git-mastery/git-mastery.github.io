@@ -234,7 +234,7 @@ Note that `feature1` is now the current branch. Sourcetree switches automaticall
 
 * Add a file named `boxing.txt`, stage it, and commit it.{texts="['3.1', '3.2', '3.3', '3.4']"}
   ```bash
-  echo -e "Muhammad Ali" > boxing.txt
+  echo "Muhammad Ali" > boxing.txt
   git stage boxing.txt
   git commit -m "Add boxing.txt"
   ```
@@ -255,7 +255,7 @@ As before, you can use the `git log --oneline --decorate` command for this.
 
 * Add more text to `boxing.txt`, stage the changes, and commit it. This commit is also added to `feature1`.{texts="['3.3']"}
   ```bash
-  echo -e "Mike Tyson" >> boxing.txt
+  echo "Mike Tyson" >> boxing.txt
   git commit -am "Add Tyson to boxing.txt"
   ```
 
@@ -279,7 +279,7 @@ Double-click the `main` branch.
 {{ hp_number ('5') }} **Add a commit to the `main` branch.** Let’s imagine it’s a bug fix.<br>
 To keep things simple for the time being, this commit should ==not involve the `boxing.txt` file that you changed in the `feature1` branch==. Of course, this is easily done, as the `boxing.txt` file you added in the `feature1` branch is not even visible when you are in the `main` branch.
 ```bash
-echo -e "Martina Navratilova" >> tennis.txt
+echo "Martina Navratilova" >> tennis.txt
 git commit -am "Add Martina to tennis.txt"
 ```
 <div id="sports-repo-before-merging">
@@ -368,7 +368,7 @@ git switch -c feature2 main~1
 
 {{ hp_number('4') }} Add a commit on the new branch. Example:
 ```bash
-echo -e "Venus Williams" >> tennis.txt
+echo "Venus Williams" >> tennis.txt
 git commit -am "Add Venus to tennis.txt"
 ```
 

@@ -809,7 +809,14 @@ popup-url="{{ file | replace(".md", ".html") }}">
 <!-- ============================================================ -->
 
 {% macro show_tour(tour) %}
+{% set tour_folder = baseUrl + "/lessons/trail/" + tour.folder %}
+
 {{ show_tour_intro(tour) }}
+
+<div class="d-print-none">
+
+<include src="{{ tour_folder }}/text.md#video" optional />
+</div>
 
 {% for lesson_name, lesson_data in tour.lessons %}
 {{ show_lesson(lesson_data) }}

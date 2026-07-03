@@ -12,6 +12,21 @@ pageNav: 4
 
 <span class="d-none" id="motivation">Recording the history of files in a folder %%(e.g., code files of a software project, case notes, files related to an article you are writing)%% can be useful when you need to refer to past versions.</span>
 
+<div id="video">
+<box>
+
+<box type="tip" seamless>
+
+**Recommended: Watch this video!**{.text-success}
+
+Tour/lesson videos (such as the one given below) are recommended viewing, as **they help you build the right mental models about Git** before diving into nitty-gritty details given in the lessons.
+</box>
+
+@[youtube](cULoA9DIbVc)
+
+</box>
+</div>
+
 <div id="body">
 
 {{ show_tour(tour) }}

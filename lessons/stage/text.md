@@ -12,11 +12,11 @@
 To save a snapshot, **you start by specifying what to include in it, also called _staging_**.
 {% endcall %}
 
-**A Git repo has an internal space called the {{ show_git_term('staging area') }}, which it uses to build the next snapshot**. Another name for the staging area is the {{ show_git_term('index') }}.
+**Git provides an internal space called the {{ show_git_term('staging area') }}, which it uses to build the next snapshot**. Another name for the staging area is the {{ show_git_term('index') }}.
 
 **Git treats new files that you add to the working directory as {{ show_git_term("'untracked'") }}**, i.e., Git is aware of them, but they are not yet under Git's control. The same applies to files that existed in the working directory at the time you initialized the repo.
 
-**We can {{ show_git_term('stage', 'stage', 'stage') }} an untracked file** to tell Git that we want its current version to be included in the next snapshot (in Git terminology, such a snapshot is called a {{ show_git_term("commit") }}). When asked to stage a file, Git copies that file from the working directory to the staging area. Once you stage an untracked file, it becomes {{ show_git_term("'tracked'") }} (i.e., under Git's control).
+**We can {{ show_git_term('stage', 'stage', 'stage') }} an untracked file** to tell Git that we want its current version to be included in the next snapshot (in Git terminology, such a snapshot is called a {{ show_git_term("commit") }}). When asked to stage a file, Git copies that file from the working directory to the staging area. Once you stage an untracked file, it becomes a {{ show_git_term("'tracked'") }} (i.e., under Git's control) file thereafter.
 
 {{ show_git_term_tip('stage', 'stage') }}
 
@@ -70,7 +70,7 @@ cat fruits.txt
 {% endcall %}
 
 
-**If you modify a staged file, it goes into the {{ show_git_term("'modified'") }} state**, i.e., the file contains changes that are not present in the staged copy waiting to be included in the next snapshot. If you wish to include these new changes in the next snapshot, you need to stage the file again, which will overwrite the copy of the file that was previously in the staging area.<br>
+**If you modify a staged file, it views it as {{ show_git_term("'modified'") }}**, i.e., the file contains changes that are not present in the staged copy waiting to be included in the next snapshot. If you wish to include these new changes in the next snapshot, you need to stage the file again, which will overwrite the copy of the file that was previously in the staging area.<br>
 The example below shows how the status of a file changes when it is modified _after_ it was staged.
 
 {{ show_folder_columns('folder-change-after-staging-fragment.md') }}

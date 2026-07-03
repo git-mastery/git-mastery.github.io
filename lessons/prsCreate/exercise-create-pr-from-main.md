@@ -18,7 +18,7 @@ Now you wish to contribute repo [gm-languages](https://github.com/git-mastery/gm
 
 1. Add a file `Java.txt` and commit it to the `main` branch, and push it to your fork, as follows:
    ```bash
-   echo -e "1905, by James Gosling" >> Java.txt
+   echo "1905, by James Gosling" >> Java.txt
    git add Java.txt
    git commit -m "Add Java.txt"
    git push origin main

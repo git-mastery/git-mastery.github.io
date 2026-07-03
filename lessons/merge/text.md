@@ -117,13 +117,13 @@ Running `git diff HEAD^1 HEAD`{{ ask_chatgpt("Explanation of the command", "Expl
 
 {{ hp_number ('3') }} **Add another commit to the `feature1` branch** by changing `boxing.txt`.
 ```bash
-echo -e "Manny Pacquiao" >> boxing.txt
+echo "Manny Pacquiao" >> boxing.txt
 git commit -am "Add Manny to boxing.txt"
 ```
 **Switch to the `main` branch and add one more commit.**
 ```bash
 git switch main
-echo -e "Lionel Messi" >> football.txt
+echo "Lionel Messi" >> football.txt
 git commit -am "Add Messi to football.txt"
 ```
 

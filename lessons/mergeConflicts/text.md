@@ -67,7 +67,7 @@ mkdir nouns
 cd nouns
 git init -b main
 
-echo -e "blue" > colours.txt
+echo "blue" > colours.txt
 git stage colours.txt
 git commit -m "Add colours.txt"
 

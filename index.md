@@ -20,6 +20,10 @@ A free resource **for students and teachers**.<br>
 </div>
 </header>
 
+<cv-insertion insertion-id="site-intro">
+<!-- for adaptations to insert an intro -->
+</cv-insertion>
+
 
 {% macro heading(icon, text) %}<h4 class="text-success">{{ thumbnail(icon) }} <span class="lead font-weight-bold text-green"><strong>{{ text }}</strong></span></h4>{% endmacro %}
 <div class="position-relative" style="padding-left:30px;">

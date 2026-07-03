@@ -26,7 +26,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 <box type="important" seamless>
 
-**Git commands targeting a specific repo should be run inside the repo folder.**{.text-danger} For example, to check the status of the `things` repo, you need to navigate to the `things` folder in your terminal before you run the `git status` command.<br>
+**Git commands targeting a specific repo should be run inside the repo folder.**{.text-danger} (we use the term _repo folder_ to loosely refer to the _folder that we initialized the repo in_). For example, to check the status of the `things` repo, you need to navigate to the `things` folder in your terminal before you run the `git status` command.<br>
 Remember this for future Git commands too.
 </box>
 
@@ -37,9 +37,9 @@ Remember this for future Git commands too.
 git add fruits.txt
 ```
 
-<box type="tip" seamless>
+<box type="info" seamless>
 
-You can replace `add` with `stage` (e.g., `git stage fruits.txt`) and the result is the same (they are synonyms).
+You can replace `add` with `stage` (e.g., `git stage fruits.txt`) and the result is the same (they are synonyms). Git-Mastery uses `add` usually but uses `stage` at times to remind you that both are correct.
 </box>
 <cv-toggle toggle-id="windows-only">
 

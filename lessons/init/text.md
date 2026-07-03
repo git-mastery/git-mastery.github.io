@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, ask_chatgpt, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="outcomes">{{ icon_outcome }} Can create a local Git repo</span>
 
@@ -43,7 +43,7 @@ mkdir things
 **Avoid putting Git repos inside cloud-synced (e.g., OneDrive, Dropbox) folders.** Multiple tools trying to detect/sync changes in the same folder can cause conflicts and unexpected behavior.<br> If you want to access project files from multiple computers, use Git instead of cloud syncing tools.
 </box>
 
-{{ hp_number(1) }} **Then, `cd` into it.** For example,
+{{ hp_number(1) }} **Then, `cd` into it.** {{ ask_chatgpt("What is `cd`?", "I'm new to using the terminal. Explain the `cd` command.") }} For example,
 
 ```bash {.no-line-numbers}
 cd hp-init-repo/things
@@ -132,7 +132,7 @@ You can even dig around inside that folder -- it is just a bunch of subfolders a
 
 **A Git-controlled folder is divided into two main parts:**
 
-1. **The repository** – stored in the hidden `.git` subfolder, which contains all the metadata and history.
+1. **The hidden `.git` subfolder**, which contains all the Git metadata related to the folder's revision history. {{ ask_chatgpt("How to see hidden folders?", "How do I see the hidden .git folders? First ask me for my OS.") }}
 2. **The {{ show_git_term('working directory') }}** – everything else in that folder, where you create and edit files.
 
 </div>
