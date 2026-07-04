@@ -18,7 +18,7 @@ Before learning about Git, let us first **understand what _revision control_** i
 
 **_Revision_ vs _Version_**{.text-info}
 
-<pic src="images/revisionsVsVersions.png" width="600" />
+<pic src="images/revisionsVsVersions.png" width="900" />
 
 * {{ show_git_term('Revision') }} ("How it changed"): A discrete change made to an artifact at a specific point in time. For example, an edit that fixes a typo in the file `README.md` is a _revision_ to that file.
 * {{ show_git_term('Version') }} ("What it is"): A specific state of an artifact, usually the result of one or more revisions. For example, after fixing that typo, you have a new _version_ of `README.md`.
