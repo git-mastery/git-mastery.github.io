@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_folder_contents, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_multiple_columns, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_folder_contents, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_multiple_columns, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_two_column_row, show_under_the_hood with context %}
 
 <span id="outcomes">{{ icon_outcome }} Can commit using Git</span>
 
@@ -47,6 +47,14 @@ This is a good time to recap the **three internal zones of a Git repo:**
    Another name for this zone is {{ show_git_term('working tree') }}.
 1. <span class="badge bg-warning text-dark">Staging area</span> (aka the <span class="badge bg-warning text-dark">index</span>) The space that contains a copy of the exact versions of all tracked files (modified and unmodified) that will be written into the next commit. This resides inside the `.git` folder.
 1. <span class="badge bg-success text-light">Repository</span> Stores the commits and other metadata related to the revision history of the project. This also resides inside the `.git` folder.
+
+<box type="info" seamless>
+
+**Which area is the 'repository', exactly?**{.text-info}
+{% call show_two_column_row("images/repoArea.png") %}
+As you saw above, the 'three-zones' mental model of a Git-controlled folder uses the term 'repository' to denote a specific area inside the `.git` folder. However, it is common to loosely refer to the `.git` folder, and sometimes even the entire project folder, as the 'repository' or the 'repo'.
+{% endcall %}
+</box>
 
 **Most Git operations are for transferring some information from one Git internal zone to another.** For example, staging a file copies its current version from the working directory to the staging area, and committing saves the staged versions of all tracked files from the staging area to the commit history.
 

@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, ask_chatgpt, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, ask_chatgpt, ask_chatgpt_for_three_os, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="outcomes">{{ icon_outcome }} Can create a local Git repo</span>
 
@@ -132,7 +132,9 @@ You can even dig around inside that folder -- it is just a bunch of subfolders a
 
 **A Git-controlled folder is divided into two main parts:**
 
-1. **The hidden `.git` subfolder**, which contains all the Git metadata related to the folder's revision history. {{ ask_chatgpt("How to see hidden folders?", "How do I see the hidden .git folders? First ask me for my OS.") }}
+1. **The hidden `.git` subfolder**, which contains all the Git metadata related to the folder's revision history.<br>
+   {{ ask_chatgpt_for_three_os("%%How to see hidden folders in:%%", "How to see hidden files/folders in my OS?") }}
+
 2. **The {{ show_git_term('working directory') }}** – everything else in that folder, where you create and edit files.
 
 </div>

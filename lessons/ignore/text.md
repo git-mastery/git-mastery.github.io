@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, ask_chatgpt, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, ask_chatgpt, ask_chatgpt_for_three_os, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">{{ icon_outcome }} Can set Git to ignore files</span>
@@ -90,7 +90,7 @@ node_modules/
 **`.gitignore` is a 'hidden' file!**{.text-info}
 
 Files with a name starting with `.` (such as `.gitignore`) are considered hidden files by macOS and Linux. Git tools on Windows are also likely to mark the `.gitignore` file as a hidden file. Therefore, if the `.gitignore` file is not visible to you, you'll need to look for it among 'hidden' files.<br>
-How to do that in: {{ ask_chatgpt(":fab-windows: Windows", "How to show hidden files in Windows?") }} | {{ ask_chatgpt(":fab-apple: macOS", "How to show hidden files in macOS?") }} | {{ ask_chatgpt(":fab-linux: Linux", "How to show hidden files in Linux?") }}
+{{ ask_chatgpt_for_three_os("How to do that in:", "How to view hidden files/folder in my OS?") }}
 </box>
 
 {% call show_hands_on_practical('Adding files to the ignore-list')  %}

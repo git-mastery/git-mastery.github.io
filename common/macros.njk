@@ -258,7 +258,7 @@
 {% set prefix_str = (prefix + '-') if prefix else '' %}
 <div class="border border-info p-0 bg-white" style="width: {{ width }}px;">
 <div class="bg-info text-white p-1"><md>{{ icon_folder }} Project Folder</md></div>
-<div class="p-2">
+<div class="p-2" style="background-color: #e7fafe;">
   <!-- start: .git folder -->
   <div class="border border-danger bg-light pb-0" style="width: {{ width-15 }}px;">
   <div class="bg-danger text-light p-1"><md>{{ icon_folder }} .git Folder</md></div>
@@ -298,7 +298,7 @@
   </div>
   <!-- end: .git folder -->
   <!-- start: working dir -->
-  <div class="bg-info-subtle rounded-1 border-0" style="margin: 9px 2px 1px 1px; padding: 1px;">
+  <div class="bg-info-subtle rounded-1 border-0" style="margin: 9px 2px 1px 1px; padding: 1px; background-color: #51d9f4;">
   <small>
   <span class="badge bg-info text-light mt-1 ms-1">Working directory</span><br>
   <div class="pt-0 pb-0 p-2">
@@ -866,4 +866,6 @@ Click [here]({{ tour_page }}) to see the full tour page.
 <!-- ============================================================ -->
 
 {% macro ask_chatgpt(visible_text, prompt) %}<span class="badge bg-light rounded-pill text-dark fw-normal d-print-none"><a href="https://chatgpt.com/?q={{ (prompt if prompt else visible_text) | urlencode }}" target="_blank">{{ visible_text }}</a> %%:bi-openai:%%</span>{% endmacro %}
+<!-- ============================================================ -->
+  {% macro ask_chatgpt_for_three_os(visible_text, prompt) %}<small>{{ visible_text }}</small> {{ ask_chatgpt(":fab-windows: Windows", prompt + " I'm using Windows") }} | {{ ask_chatgpt(":fab-apple: macOS", prompt + " I'm using macOS")  }} | {{ ask_chatgpt(":fab-linux: Linux", prompt + " I'm using Linux") }}{% endmacro %}
 <!-- ============================================================ -->
