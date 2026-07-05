@@ -36,14 +36,14 @@ Find command is case-sensitive.
 A case-insensitive find is more user-friendly because users cannot be
 expected to remember the exact case of the keywords.
 
-Let's,
+Let's:
 * update the search algorithm to use case-insensitive matching
 * add a script to migrate stress tests to the new format
 ```
 <!-- ================== start: HANDS-ON =========================== -->
 {% call show_hands_on_practical("Add a full commit message")  %}
 
-**Do some changes** to a repo you have.<br>
+**Make some changes** to a repo you have.<br>
 **Commit the changes while writing a full commit message** (i.e., subject + body).
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
@@ -58,7 +58,7 @@ Save and close the editor to create the commit.
 {% endset %}
 {% set sourcetree %}
 
-You can write your full commit message in the textbox you have been using to write commit messages already.
+You can write your full commit message in the text box you have already been using to write commit messages.
 
 <pic src="images/sourcetreeCommitDialog.png" />
 {% endset %}
@@ -68,7 +68,7 @@ You can write your full commit message in the textbox you have been using to wri
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
-**Following a style guide makes your commit messages more consistent and fit-for-purpose.** Many teams adopt established guidelines. These style guides typically contain common conventions that Git users follow when writing commit messages. For example:
+**Following a style guide makes your commit messages more consistent and useful.** Many teams adopt established guidelines. These style guides typically contain common conventions that Git users follow when writing commit messages. For example:
 * Keep the subject line (the first line) under 50–72 characters.
 * Write the subject in the imperative mood (e.g., `Fix typo in README` rather than `Fixed typo` or `Fixes typo`).
 * Leave a blank line between the subject and the body, if you include a body.
@@ -86,13 +86,13 @@ You can use the following command to set Git's default text editor:
 git config --global core.editor "<editor command>"
 ```
 
-Some examples for `<editor command>`
+Some examples of `<editor command>`:
 
 | Editor       | Command to use
 |--------------|---------------------------
 | Vim (default) | `vim`
 | Nano         | `nano`
-| VS Code      | `code --wait` e.g., `git config --global core.editor "code --wait"`<br><br><small>{{ icon_info }} For this to work, your computer should already be configured to launch VS Code using the `code` command. See [here](https://code.visualstudio.com/docs/configure/command-line#_launching-from-command-line) to find how (refer to the 'Launching from command line' section).</small>
+| VS Code      | `code --wait` e.g., `git config --global core.editor "code --wait"`<br><br><small>{{ icon_info }} For this to work, your computer should already be configured to launch VS Code using the `code` command. See the [VS Code command-line documentation](https://code.visualstudio.com/docs/configure/command-line#_launching-from-command-line) for instructions (refer to the 'Launching from command line' section).</small>
 | Sublime Text | `subl -n -w`
 | Atom         | `atom --wait`
 | Notepad++    | `notepad++.exe` (Windows only)
@@ -105,6 +105,6 @@ Some examples for `<editor command>`
 
 <div id="extras">
 {% call show_resources() %}
-* Recommended style guide for Git commit messages: **[Git Conventions @se-edu/guides ](https://se-education.org/guides/conventions/git.html)**
+* Recommended style guide for Git commit messages: **[Git Conventions @se-edu/guides](https://se-education.org/guides/conventions/git.html)**
 {% endcall %}
 </div>

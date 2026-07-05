@@ -2,7 +2,7 @@
 
 <div id="preview">
 
- **Git allows you to amend the most recent commit.** This is useful when you realize there's something you'd like to change, e.g., fix a typo in the commit message, or exclude an unintended change from the commit.
+ **Git allows you to amend the most recent commit.** This is useful when you realize you need to change something, such as fixing a typo in the commit message or excluding an unintended change from the commit.
 </div>
 
 **++Updating the commit message++**
@@ -19,19 +19,20 @@ git commit --amend -m "Fix bug that froze the GUI"
 {% endset %}
 {% set sourcetree %}
 
-Click on the `Commit` button on the top menu. In the region that you use to enter the commit message, use one of the two methods given below to go into the 'Amend last commit' mode.<br>
+Click the `Commit` button in the top menu. In the commit-message area, use one of the two methods below to enter 'Amend last commit' mode.<br>
 <pic src="images/sourcetreeAmendLastCommit.png" />
 <p/>
-This will populate the text box with the previous commit message. Amend it as you wish, and click the `Commit` button to update the commit.
+
+Sourcetree will populate the text box with the previous commit message. Edit it as needed, and click the `Commit` button to update the commit.
 {% endset %}
 {{ show_git_tabs_from_text(cli, sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
 **++Updating changes in the commit++**
 
-One reliable method is to do a 'soft reset' of the last commit, update the staging area as you wish, and commit again.
+One reliable method is to perform a 'soft reset' of the last commit, update the staging area as needed, and commit again.
 
 <box type="warning" seamless>
 
-**'Updating' a commit does not really update that commit -- it simply creates a new commit** with the new data. The original commit remains and is 'left behind' in the repo, and will be garbage-collected after a while if it is not referenced by anything else.
+**'Updating' a commit does not really update that commit; instead, it creates a new commit** with the new data. The original commit remains and is 'left behind' in the repo, and will be garbage-collected after a while if it is not referenced by anything else.
 </box>

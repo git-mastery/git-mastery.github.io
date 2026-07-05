@@ -10,12 +10,12 @@
 When the revision history gets 'messy', **Git has a way to 'tidy up' the recent commits.**
 {% endcall %}
 
-**Git has a powerful tool called {{ show_git_term("interactive rebasing") }} which lets you review and reorganize your recent commits.** With it, you can reword commit messages, change their order, delete commits, combine several commits into one (squash), or split a commit into smaller pieces. This feature is useful for tidying up a commit history that has become messy — for example, when some commits are out of order, poorly described, or include changes that would be clearer if split up or combined.
+**Git has a powerful tool called {{ show_git_term("interactive rebasing") }}, which lets you review and reorganize your recent commits.** With it, you can reword commit messages, change their order, delete commits, combine several commits into one (squash), or split a commit into smaller pieces. This feature is useful for tidying up a commit history that has become messy — for example, when some commits are out of order, poorly described, or include changes that would be clearer if split up or combined.
 
 <!-- ================== start: HANDS-ON =========================== -->
-{% call show_hands_on_practical("Tidy-up commits")  %}
+{% call show_hands_on_practical("Tidy up commits")  %}
 
-{{ hp_number(hop_preparation) }} **Run the following commands to create a sample repo** that we'll be using for this hands-on practical:
+{{ hp_number(hop_preparation) }} **Run the following commands to create a sample repo** that we'll use for this hands-on practical:
 
 ```bash
 mkdir samplerepo-sitcom
@@ -48,7 +48,7 @@ git commit -m "C4: Adddd Howard.txt"
 * `C3: Add Sheldon.txt` -- Swap this commit with the one above.
 * `C1: Add Penny.txt` -- No change required.
 
-{{ hp_number("1") }} **Start the interactive rebasing**.
+{{ hp_number("1") }} **Start the interactive rebase**.
 
 {% set cli %} <!-- ------ start: Git Tabs --------------->
 
@@ -94,7 +94,7 @@ pick 8ab6941 C4: Adddd Howard.txt
 # However, if you remove everything, the rebase will be aborted.
 #
 ```
-The command will take you to the text editor, which will present you with a wall of text similar to the above. It has two parts:
+The command opens your text editor, which shows content similar to the example above. It has two parts:
 
 1. **At the top, the list of commits and the action to take on each**, oldest commit first, with the action `pick` indicated by default (`pick` means 'use this commit in the result') for each.
 1. **At the bottom, instructions on how to edit those lines**.
@@ -105,31 +105,31 @@ The command will take you to the text editor, which will present you with a wall
 pick 60bd28d C2: Add Stuart.txt
 pick 97a8c4a C3: Add Sheldon.txt
 drop 8b9a36f X: Incorrectly update Stuart.txt
-reword 8ab6941 C4: Addddd Howard.txt
+reword 8ab6941 C4: Adddd Howard.txt
 ```
-{{ hp_number("4") }} **Once you save edits and exit the text editor, Git will perform the rebase** based on the actions you specified, from top to bottom.
+{{ hp_number("3") }} **Once you save your edits and exit the text editor, Git will perform the rebase** based on the actions you specified, from top to bottom.
 
-**At some steps, Git will pause the rebase and ask for your inputs.** In this case, it will ask you to specify the new commit message when it is processing the following line.
+**At certain points, Git will pause the rebase and ask for your input.** In this case, it will ask you to specify the new commit message when it processes the following line.
 ```bash{.no-line-numbers}
-reword 8ab6941 C4: Addddd Howard.txt
+reword 8ab6941 C4: Adddd Howard.txt
 ```
 
 {% endset %}
 {% set sourcetree %}
-**To go to the interactive rebase mode**, right-click the parent commit of the earliest commit you want to reorganize (in this case, it is `C1: Add Penny.txt`) and choose `Rebase children of <SHA> interactively...`<br>
+**To enter interactive rebase mode**, right-click the parent commit of the earliest commit you want to reorganize (in this case, it is `C1: Add Penny.txt`) and choose `Rebase children of <SHA> interactively...`<br>
 <pic src="images/sourcetreeRightClickToRebase.png" width="500" />
 
-{{ hp_number("2") }} **To indicate what action you want to perform on each commit**, select the commit in the list and click on the button for the action you want to do on it:<br>
+{{ hp_number("2") }} **To indicate which action to perform on each commit**, select the commit in the list and click the button for the action you want to apply to it:<br>
 <pic src="images/sourcetreeIndicateModifications.png" width="700" />
 
-{{ hp_number("3") }} **To execute the rebase**, after indicating the action for all commits (the dialog will look like the below), click `OK`.<br>
+{{ hp_number("3") }} **To execute the rebase**, after indicating the action for all commits (the dialog will look like the following), click `OK`.<br>
 <pic src="images/sourcetreeExecuteModifications.png" width="700" />
 
 {% endset %}
 {{ show_git_tabs_from_text(cli, sourcetree) }}
 <!-- ------ end: Git Tabs -------------------------------->
 
-**The final result** should be something like the following, 'tidied up' exactly as we wanted:
+**The final result** should look like this, with the commits 'tidied up' exactly as intended:
 ```{.no-line-numbers}
 * 727d877 C4: Add Howard.txt
 * 764fc29 C3: Add Sheldon.txt
@@ -138,9 +138,23 @@ reword 8ab6941 C4: Addddd Howard.txt
 ```
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
+{% call show_protip("Combining commits with squash") %}
+
+**Instead of dropping a commit, you can meld it into the commit right before it in the list, using `squash` (or `s`).** For example, if `X: Incorrectly update Stuart.txt` had been an unfinished part of `C2: Add Stuart.txt` rather than a mistake to discard, you could squash it into `C2` like this:
+```bash{.no-line-numbers}
+pick 60bd28d C2: Add Stuart.txt
+squash 8b9a36f X: Incorrectly update Stuart.txt
+pick 97a8c4a C3: Add Sheldon.txt
+reword 8ab6941 C4: Adddd Howard.txt
+```
+Git will then open the editor so you can combine the two commit messages. `X` will disappear as a separate commit, with its changes merged into `C2`.
+
+**Splitting a commit into smaller ones is also possible**, though it takes a few more steps: mark the commit with `edit` instead of `pick`, then when the rebase pauses on it, undo just that commit with `git reset HEAD~1` (this unstages its changes but keeps them in the working directory), and re-stage and commit the changes in smaller pieces before continuing the rebase with `git rebase --continue`.
+{% endcall %}
+
 <box type="warning" seamless>
 
-**Rebasing rewrites history.** It is not recommended to rebase commits you have already shared with others.
+**Rebasing rewrites history.** Do not rebase commits you have already shared with others.
 </box>
 
 </div>
