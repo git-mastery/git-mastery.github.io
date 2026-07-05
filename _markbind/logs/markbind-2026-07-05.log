@@ -1,0 +1,564 @@
+2026-07-05T06:32:03.709Z - [32minfo[39m: Website generation (lazy) started at 14:32:03
+2026-07-05T06:32:03.945Z - [32minfo[39m: Building assets...
+2026-07-05T06:32:04.072Z - [32minfo[39m: Assets built
+2026-07-05T06:32:04.072Z - [32minfo[39m: Generating landing page...
+2026-07-05T06:32:04.162Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-07-05T06:32:04.173Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-07-05T06:32:04.245Z - [32minfo[39m: Site data built
+2026-07-05T06:32:04.245Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 0.659s
+2026-07-05T06:32:04.258Z - [32minfo[39m: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-07-05T06:32:04.258Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-07-05T06:32:08.047Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions as some of its dependencies were changed since the last visit
+2026-07-05T06:32:08.079Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions.md
+2026-07-05T06:32:08.082Z - [32minfo[39m: Site data built
+2026-07-05T06:32:08.083Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.035s
+2026-07-05T06:32:09.335Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2026-07-05T06:32:09.670Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index.md
+2026-07-05T06:32:09.683Z - [32minfo[39m: Site data built
+2026-07-05T06:32:09.683Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.348s
+2026-07-05T06:32:16.150Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index as some of its dependencies were changed since the last visit
+2026-07-05T06:32:16.316Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T06:32:16.340Z - [32minfo[39m: Site data built
+2026-07-05T06:32:16.341Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.192s
+2026-07-05T06:34:35.851Z - [32minfo[39m: [14:34:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T06:34:35.858Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T06:34:35.860Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T06:34:35.860Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T06:34:36.942Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T06:34:37.120Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T06:34:37.144Z - [32minfo[39m: Site data built
+2026-07-05T06:34:37.144Z - [32minfo[39m: Pages rebuilt
+2026-07-05T06:34:37.144Z - [32minfo[39m: Website regeneration complete! Total build time: 0.204s
+2026-07-05T06:35:11.447Z - [32minfo[39m: [14:35:11] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T06:35:11.449Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T06:35:11.449Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T06:35:11.449Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T06:35:12.520Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T06:35:12.658Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T06:35:12.676Z - [32minfo[39m: Site data built
+2026-07-05T06:35:12.676Z - [32minfo[39m: Pages rebuilt
+2026-07-05T06:35:12.676Z - [32minfo[39m: Website regeneration complete! Total build time: 0.156s
+2026-07-05T06:35:25.556Z - [32minfo[39m: [14:35:25] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T06:35:25.557Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T06:35:25.564Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T06:35:25.564Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T06:35:26.632Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T06:35:26.726Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T06:35:26.747Z - [32minfo[39m: Site data built
+2026-07-05T06:35:26.747Z - [32minfo[39m: Pages rebuilt
+2026-07-05T06:35:26.747Z - [32minfo[39m: Website regeneration complete! Total build time: 0.117s
+2026-07-05T06:36:38.302Z - [32minfo[39m: [14:36:38] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T06:36:38.303Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T06:36:38.304Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T06:36:38.305Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T06:36:39.393Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T06:36:39.547Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T06:36:39.574Z - [32minfo[39m: Site data built
+2026-07-05T06:36:39.574Z - [32minfo[39m: Pages rebuilt
+2026-07-05T06:36:39.574Z - [32minfo[39m: Website regeneration complete! Total build time: 0.182s
+2026-07-05T06:37:20.964Z - [32minfo[39m: [14:37:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T06:37:20.967Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T06:37:20.969Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T06:37:20.970Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T06:37:22.044Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T06:37:22.174Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T06:37:22.199Z - [32minfo[39m: Site data built
+2026-07-05T06:37:22.199Z - [32minfo[39m: Pages rebuilt
+2026-07-05T06:37:22.199Z - [32minfo[39m: Website regeneration complete! Total build time: 0.156s
+2026-07-05T06:39:56.695Z - [32minfo[39m: [14:39:56] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T06:39:56.697Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T06:39:56.698Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T06:39:56.698Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T06:39:57.829Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T06:39:57.996Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T06:39:58.017Z - [32minfo[39m: Site data built
+2026-07-05T06:39:58.017Z - [32minfo[39m: Pages rebuilt
+2026-07-05T06:39:58.017Z - [32minfo[39m: Website regeneration complete! Total build time: 0.197s
+2026-07-05T06:42:56.819Z - [32minfo[39m: [14:42:56] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T06:42:56.820Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T06:42:56.821Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T06:42:56.821Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T06:42:57.890Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T06:42:58.013Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T06:42:58.029Z - [32minfo[39m: Site data built
+2026-07-05T06:42:58.029Z - [32minfo[39m: Pages rebuilt
+2026-07-05T06:42:58.029Z - [32minfo[39m: Website regeneration complete! Total build time: 0.14s
+2026-07-05T06:49:52.577Z - [32minfo[39m: [14:49:52] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T06:49:52.581Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T06:49:52.581Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T06:49:52.582Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T06:49:53.674Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T06:49:53.808Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T06:49:53.831Z - [32minfo[39m: Site data built
+2026-07-05T06:49:53.831Z - [32minfo[39m: Pages rebuilt
+2026-07-05T06:49:53.831Z - [32minfo[39m: Website regeneration complete! Total build time: 0.164s
+2026-07-05T06:52:49.330Z - [32minfo[39m: [14:52:49] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T06:52:49.334Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T06:52:49.343Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T06:52:49.344Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T06:52:50.429Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T06:52:50.567Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T06:52:50.585Z - [32minfo[39m: Site data built
+2026-07-05T06:52:50.585Z - [32minfo[39m: Pages rebuilt
+2026-07-05T06:52:50.585Z - [32minfo[39m: Website regeneration complete! Total build time: 0.169s
+2026-07-05T06:54:24.947Z - [32minfo[39m: [14:54:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T06:54:24.976Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T06:54:24.992Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T06:54:24.993Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T06:54:26.081Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T06:54:26.212Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T06:54:26.233Z - [32minfo[39m: Site data built
+2026-07-05T06:54:26.233Z - [32minfo[39m: Pages rebuilt
+2026-07-05T06:54:26.233Z - [32minfo[39m: Website regeneration complete! Total build time: 0.153s
+2026-07-05T06:55:12.703Z - [32minfo[39m: [14:55:12] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T06:55:12.706Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T06:55:12.708Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T06:55:12.708Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T06:55:13.761Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T06:55:13.879Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T06:55:13.894Z - [32minfo[39m: Site data built
+2026-07-05T06:55:13.894Z - [32minfo[39m: Pages rebuilt
+2026-07-05T06:55:13.894Z - [32minfo[39m: Website regeneration complete! Total build time: 0.133s
+2026-07-05T06:56:12.552Z - [32minfo[39m: [14:56:12] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T06:56:12.554Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T06:56:12.555Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T06:56:12.555Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T06:56:13.669Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T06:56:13.821Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T06:56:13.844Z - [32minfo[39m: Site data built
+2026-07-05T06:56:13.844Z - [32minfo[39m: Pages rebuilt
+2026-07-05T06:56:13.844Z - [32minfo[39m: Website regeneration complete! Total build time: 0.176s
+2026-07-05T06:56:28.663Z - [32minfo[39m: [14:56:28] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T06:56:28.664Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T06:56:28.666Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T06:56:28.666Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T06:56:29.746Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T06:56:29.844Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T06:56:29.866Z - [32minfo[39m: Site data built
+2026-07-05T06:56:29.866Z - [32minfo[39m: Pages rebuilt
+2026-07-05T06:56:29.866Z - [32minfo[39m: Website regeneration complete! Total build time: 0.124s
+2026-07-05T06:57:08.985Z - [32minfo[39m: [14:57:08] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T06:57:08.986Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T06:57:08.989Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T06:57:08.989Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T06:57:10.073Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T06:57:10.229Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T06:57:10.260Z - [32minfo[39m: Site data built
+2026-07-05T06:57:10.260Z - [32minfo[39m: Pages rebuilt
+2026-07-05T06:57:10.260Z - [32minfo[39m: Website regeneration complete! Total build time: 0.19s
+2026-07-05T06:57:19.090Z - [32minfo[39m: [14:57:19] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T06:57:19.092Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T06:57:19.094Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T06:57:19.094Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T06:57:20.233Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T06:57:20.333Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T06:57:20.354Z - [32minfo[39m: Site data built
+2026-07-05T06:57:20.354Z - [32minfo[39m: Pages rebuilt
+2026-07-05T06:57:20.354Z - [32minfo[39m: Website regeneration complete! Total build time: 0.123s
+2026-07-05T06:57:58.315Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index as some of its dependencies were changed since the last visit
+2026-07-05T06:57:58.515Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-07-05T06:57:58.541Z - [32minfo[39m: Site data built
+2026-07-05T06:57:58.541Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.227s
+2026-07-05T06:58:38.878Z - [32minfo[39m: [14:58:38] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T06:58:38.880Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T06:58:38.881Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T06:58:38.881Z - [32minfo[39m: 1. lessons/stage/index
+2026-07-05T06:58:39.950Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T06:58:40.080Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-07-05T06:58:40.097Z - [32minfo[39m: Site data built
+2026-07-05T06:58:40.097Z - [32minfo[39m: Pages rebuilt
+2026-07-05T06:58:40.097Z - [32minfo[39m: Website regeneration complete! Total build time: 0.147s
+2026-07-05T06:58:59.379Z - [32minfo[39m: [14:58:59] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T06:58:59.395Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T06:58:59.397Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T06:58:59.398Z - [32minfo[39m: 1. lessons/stage/index
+2026-07-05T06:59:00.485Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T06:59:00.635Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-07-05T06:59:00.654Z - [32minfo[39m: Site data built
+2026-07-05T06:59:00.654Z - [32minfo[39m: Pages rebuilt
+2026-07-05T06:59:00.654Z - [32minfo[39m: Website regeneration complete! Total build time: 0.17s
+2026-07-05T06:59:08.528Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index as some of its dependencies were changed since the last visit
+2026-07-05T06:59:08.660Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T06:59:08.680Z - [32minfo[39m: Site data built
+2026-07-05T06:59:08.680Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.153s
+2026-07-05T06:59:33.006Z - [32minfo[39m: [14:59:33] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T06:59:33.008Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T06:59:33.009Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T06:59:33.009Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T06:59:34.086Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T06:59:34.224Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T06:59:34.244Z - [32minfo[39m: Site data built
+2026-07-05T06:59:34.244Z - [32minfo[39m: Pages rebuilt
+2026-07-05T06:59:34.244Z - [32minfo[39m: Website regeneration complete! Total build time: 0.16s
+2026-07-05T07:00:28.891Z - [32minfo[39m: [15:00:28] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T07:00:28.894Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T07:00:28.894Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T07:00:28.894Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T07:00:29.958Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T07:00:30.067Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T07:00:30.089Z - [32minfo[39m: Site data built
+2026-07-05T07:00:30.089Z - [32minfo[39m: Pages rebuilt
+2026-07-05T07:00:30.089Z - [32minfo[39m: Website regeneration complete! Total build time: 0.132s
+2026-07-05T07:02:27.410Z - [32minfo[39m: [15:02:27] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T07:02:27.414Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T07:02:27.415Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T07:02:27.418Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T07:02:28.491Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T07:02:28.632Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T07:02:28.653Z - [32minfo[39m: Site data built
+2026-07-05T07:02:28.653Z - [32minfo[39m: Pages rebuilt
+2026-07-05T07:02:28.653Z - [32minfo[39m: Website regeneration complete! Total build time: 0.163s
+2026-07-05T07:04:58.302Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/backingUpOnCloud/index as some of its dependencies were changed since the last visit
+2026-07-05T07:04:58.638Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/backingUpOnCloud/index.md
+2026-07-05T07:04:58.681Z - [32minfo[39m: Site data built
+2026-07-05T07:04:58.681Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.379s
+2026-07-05T07:10:38.262Z - [32minfo[39m: [15:10:38] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T07:10:38.266Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T07:10:38.266Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T07:10:38.266Z - [32minfo[39m: 1. lessons/trail/backingUpOnCloud/index
+2026-07-05T07:10:39.381Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T07:10:39.713Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/backingUpOnCloud/index.md
+2026-07-05T07:10:39.750Z - [32minfo[39m: Site data built
+2026-07-05T07:10:39.750Z - [32minfo[39m: Pages rebuilt
+2026-07-05T07:10:39.750Z - [32minfo[39m: Website regeneration complete! Total build time: 0.377s
+2026-07-05T07:11:17.894Z - [32minfo[39m: [15:11:17] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T07:11:17.896Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T07:11:17.898Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T07:11:17.899Z - [32minfo[39m: 1. lessons/trail/backingUpOnCloud/index
+2026-07-05T07:11:18.955Z - [33mwarn[39m: Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/lessons.md)
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/lessons.md)
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/navbar.md)
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/layouts/lessons.md) [Line 870, Column 289]
+  expected variable end
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:277:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-07-05T07:13:12.378Z - [32minfo[39m: [15:13:12] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md
+2026-07-05T07:13:12.379Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T07:13:12.380Z - [32minfo[39m: No pages are currently opened
+2026-07-05T07:13:13.403Z - [32minfo[39m: No pages needed to be rebuilt
+2026-07-05T07:13:17.163Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/backingUpOnCloud/index as some of its dependencies were changed since the last visit
+2026-07-05T07:13:17.193Z - [31merror[39m: Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/backingUpOnCloud/index.md)
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/backingUpOnCloud/index.md) [Line 870, Column 289]
+  expected variable end
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:29:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-07-05T07:13:17.193Z - [33mwarn[39m: Error: Error while generating /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/backingUpOnCloud/index.md
+    at SiteGenerationManager.<anonymous> (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:609:28)
+    at Generator.throw (<anonymous>)
+    at rejected (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:5:65)
+2026-07-05T07:13:18.314Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/backingUpOnCloud/index as some of its dependencies were changed since the last visit
+2026-07-05T07:13:18.343Z - [31merror[39m: Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/backingUpOnCloud/index.md)
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/backingUpOnCloud/index.md) [Line 870, Column 289]
+  expected variable end
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:29:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-07-05T07:13:18.343Z - [33mwarn[39m: Error: Error while generating /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/backingUpOnCloud/index.md
+    at SiteGenerationManager.<anonymous> (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:609:28)
+    at Generator.throw (<anonymous>)
+    at rejected (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:5:65)
+2026-07-05T07:13:28.764Z - [32minfo[39m: Website generation (lazy) started at 15:13:28
+2026-07-05T07:13:28.868Z - [32minfo[39m: Building assets...
+2026-07-05T07:13:28.983Z - [32minfo[39m: Assets built
+2026-07-05T07:13:28.983Z - [32minfo[39m: Generating landing page...
+2026-07-05T07:13:28.997Z - [33mwarn[39m: Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md)
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md) [Line 870, Column 289]
+  expected variable end
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:61:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-07-05T07:13:29.105Z - [32minfo[39m: Site data built
+2026-07-05T07:13:29.105Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 0.383s
+2026-07-05T07:13:29.115Z - [32minfo[39m: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-07-05T07:13:29.116Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-07-05T07:14:20.943Z - [32minfo[39m: [15:14:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T07:14:20.944Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T07:14:20.944Z - [32minfo[39m: No pages are currently opened
+2026-07-05T07:14:21.949Z - [32minfo[39m: Assets built
+2026-07-05T07:14:38.029Z - [32minfo[39m: Website generation (lazy) started at 15:14:37
+2026-07-05T07:14:38.140Z - [32minfo[39m: Building assets...
+2026-07-05T07:14:38.242Z - [32minfo[39m: Assets built
+2026-07-05T07:14:38.242Z - [32minfo[39m: Generating landing page...
+2026-07-05T07:14:38.320Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-07-05T07:14:38.341Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-07-05T07:14:38.415Z - [32minfo[39m: Site data built
+2026-07-05T07:14:38.415Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 0.419s
+2026-07-05T07:14:38.425Z - [32minfo[39m: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-07-05T07:14:38.426Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-07-05T07:14:39.842Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions as some of its dependencies were changed since the last visit
+2026-07-05T07:14:39.871Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions.md
+2026-07-05T07:14:39.875Z - [32minfo[39m: Site data built
+2026-07-05T07:14:39.875Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.034s
+2026-07-05T07:14:41.908Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2026-07-05T07:14:42.253Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index.md
+2026-07-05T07:14:42.266Z - [32minfo[39m: Site data built
+2026-07-05T07:14:42.266Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.359s
+2026-07-05T07:14:47.218Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/index as some of its dependencies were changed since the last visit
+2026-07-05T07:14:47.323Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/index.md
+2026-07-05T07:14:47.337Z - [32minfo[39m: Site data built
+2026-07-05T07:14:47.337Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.12s
+2026-07-05T07:21:20.567Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index as some of its dependencies were changed since the last visit
+2026-07-05T07:21:20.736Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-07-05T07:21:20.757Z - [32minfo[39m: Site data built
+2026-07-05T07:21:20.757Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.192s
+2026-07-05T07:22:47.542Z - [32minfo[39m: [15:22:47] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md
+2026-07-05T07:22:47.544Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T07:22:47.555Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T07:22:47.556Z - [32minfo[39m: 1. lessons/init/index
+2026-07-05T07:22:48.565Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T07:22:48.721Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-07-05T07:22:48.743Z - [32minfo[39m: Site data built
+2026-07-05T07:22:48.743Z - [32minfo[39m: Pages rebuilt
+2026-07-05T07:22:48.743Z - [32minfo[39m: Website regeneration complete! Total build time: 0.182s
+2026-07-05T07:23:17.426Z - [32minfo[39m: [15:23:17] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md
+2026-07-05T07:23:17.435Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T07:23:17.451Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T07:23:17.452Z - [32minfo[39m: 1. lessons/init/index
+2026-07-05T07:23:18.460Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T07:23:18.611Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-07-05T07:23:18.630Z - [32minfo[39m: Site data built
+2026-07-05T07:23:18.630Z - [32minfo[39m: Pages rebuilt
+2026-07-05T07:23:18.630Z - [32minfo[39m: Website regeneration complete! Total build time: 0.172s
+2026-07-05T07:34:49.525Z - [32minfo[39m: [15:34:49] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md
+2026-07-05T07:34:49.529Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T07:34:49.530Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T07:34:49.530Z - [32minfo[39m: 1. lessons/init/index
+2026-07-05T07:34:50.556Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T07:34:50.750Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-07-05T07:34:50.770Z - [32minfo[39m: Site data built
+2026-07-05T07:34:50.770Z - [32minfo[39m: Pages rebuilt
+2026-07-05T07:34:50.770Z - [32minfo[39m: Website regeneration complete! Total build time: 0.231s
+2026-07-05T07:35:45.932Z - [32minfo[39m: [15:35:45] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T07:35:45.940Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T07:35:45.947Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T07:35:45.952Z - [32minfo[39m: 1. lessons/init/index
+2026-07-05T07:35:47.052Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T07:35:47.170Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-07-05T07:35:47.190Z - [32minfo[39m: Site data built
+2026-07-05T07:35:47.190Z - [32minfo[39m: Pages rebuilt
+2026-07-05T07:35:47.190Z - [32minfo[39m: Website regeneration complete! Total build time: 0.15s
+2026-07-05T07:36:08.863Z - [32minfo[39m: [15:36:08] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md
+2026-07-05T07:36:08.870Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T07:36:08.871Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T07:36:08.872Z - [32minfo[39m: 1. lessons/init/index
+2026-07-05T07:36:09.884Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T07:36:10.046Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-07-05T07:36:10.068Z - [32minfo[39m: Site data built
+2026-07-05T07:36:10.069Z - [32minfo[39m: Pages rebuilt
+2026-07-05T07:36:10.069Z - [32minfo[39m: Website regeneration complete! Total build time: 0.19s
+2026-07-05T07:37:14.489Z - [32minfo[39m: [15:37:14] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T07:37:14.491Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T07:37:14.496Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T07:37:14.497Z - [32minfo[39m: 1. lessons/init/index
+2026-07-05T07:37:15.587Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T07:37:15.694Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-07-05T07:37:15.719Z - [32minfo[39m: Site data built
+2026-07-05T07:37:15.719Z - [32minfo[39m: Pages rebuilt
+2026-07-05T07:37:15.719Z - [32minfo[39m: Website regeneration complete! Total build time: 0.132s
+2026-07-05T08:12:07.941Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index as some of its dependencies were changed since the last visit
+2026-07-05T08:12:08.140Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T08:12:08.166Z - [32minfo[39m: Site data built
+2026-07-05T08:12:08.166Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.226s
+2026-07-05T08:20:30.274Z - [32minfo[39m: [16:20:30] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/images/repoArea.png
+2026-07-05T08:20:30.276Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T08:20:30.276Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T08:20:30.276Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T08:20:31.422Z - [32minfo[39m: Assets built
+2026-07-05T08:23:49.521Z - [32minfo[39m: [16:23:49] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-07-05T08:23:49.530Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T08:23:49.530Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T08:23:49.531Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T08:23:50.551Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T08:23:50.713Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T08:23:50.734Z - [32minfo[39m: Site data built
+2026-07-05T08:23:50.734Z - [32minfo[39m: Pages rebuilt
+2026-07-05T08:23:50.734Z - [32minfo[39m: Website regeneration complete! Total build time: 0.202s
+2026-07-05T08:24:51.118Z - [32minfo[39m: [16:24:51] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-07-05T08:24:51.119Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T08:24:51.120Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T08:24:51.120Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T08:24:52.125Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T08:24:52.193Z - [31merror[39m: Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md) [Line 55, Column 4]
+  unknown block tag: endall
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:116:9)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+2026-07-05T08:24:52.194Z - [31merror[39m: Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md) [Line 55, Column 4]
+  unknown block tag: endall
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:78:13)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+    at VariableRenderer.renderFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:44:24)
+    at VariableProcessor.renderWithSiteVariables (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:125:57)
+    at VariableProcessor.renderIncludeFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:202:38)
+    at processInclude (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:166:68)
+    at NodeProcessor.processNode (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:138:28)
+2026-07-05T08:24:52.194Z - [31merror[39m: Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md) [Line 55, Column 4]
+  unknown block tag: endall
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:78:13)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+    at VariableRenderer.renderFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:44:24)
+    at VariableProcessor.renderWithSiteVariables (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:125:57)
+    at VariableProcessor.renderIncludeFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:202:38)
+    at processInclude (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:166:68)
+    at NodeProcessor.processNode (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:138:28)
+2026-07-05T08:24:52.211Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T08:24:52.225Z - [32minfo[39m: Site data built
+2026-07-05T08:24:52.225Z - [32minfo[39m: Pages rebuilt
+2026-07-05T08:24:52.225Z - [32minfo[39m: Website regeneration complete! Total build time: 0.102s
+2026-07-05T08:25:14.899Z - [32minfo[39m: [16:25:14] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-07-05T08:25:14.901Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T08:25:14.902Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T08:25:14.906Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T08:25:15.910Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T08:25:15.954Z - [31merror[39m: Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md) [Line 55, Column 4]
+  unknown block tag: endall
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:116:9)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+2026-07-05T08:25:15.955Z - [31merror[39m: Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md) [Line 55, Column 4]
+  unknown block tag: endall
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:78:13)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+    at VariableRenderer.renderFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:44:24)
+    at VariableProcessor.renderWithSiteVariables (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:125:57)
+    at VariableProcessor.renderIncludeFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:202:38)
+    at processInclude (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:166:68)
+    at NodeProcessor.processNode (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:138:28)
+2026-07-05T08:25:15.956Z - [31merror[39m: Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md) [Line 55, Column 4]
+  unknown block tag: endall
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:78:13)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+    at VariableRenderer.renderFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:44:24)
+    at VariableProcessor.renderWithSiteVariables (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:125:57)
+    at VariableProcessor.renderIncludeFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:202:38)
+    at processInclude (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:166:68)
+    at NodeProcessor.processNode (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:138:28)
+2026-07-05T08:25:15.967Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T08:25:15.973Z - [32minfo[39m: Site data built
+2026-07-05T08:25:15.973Z - [32minfo[39m: Pages rebuilt
+2026-07-05T08:25:15.973Z - [32minfo[39m: Website regeneration complete! Total build time: 0.064s
+2026-07-05T08:25:43.229Z - [32minfo[39m: [16:25:43] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-07-05T08:25:43.237Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T08:25:43.237Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T08:25:43.237Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T08:25:44.248Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T08:25:44.405Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T08:25:44.420Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/commit/images/repoArea.png' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md'
+2026-07-05T08:25:44.420Z - [32minfo[39m: Site data built
+2026-07-05T08:25:44.420Z - [32minfo[39m: Pages rebuilt
+2026-07-05T08:25:44.420Z - [32minfo[39m: Website regeneration complete! Total build time: 0.181s
+2026-07-05T08:26:39.268Z - [32minfo[39m: [16:26:39] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/images/repoArea.png
+2026-07-05T08:26:39.268Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T08:26:39.269Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T08:26:39.269Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T08:26:39.332Z - [32minfo[39m: [16:26:39] Reload for file add: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/images/repoArea.png
+2026-07-05T08:26:39.332Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T08:26:39.332Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T08:26:39.332Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T08:26:40.340Z - [34mdebug[39m: Assets removed
+2026-07-05T08:26:40.367Z - [32minfo[39m: Assets built
+2026-07-05T08:29:29.271Z - [32minfo[39m: [16:29:29] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/images/repoArea.png
+2026-07-05T08:29:29.272Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T08:29:29.272Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T08:29:29.272Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T08:29:30.281Z - [32minfo[39m: Assets built
+2026-07-05T08:31:49.745Z - [32minfo[39m: [16:31:49] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/images/repoArea.png
+2026-07-05T08:31:49.749Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T08:31:49.750Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T08:31:49.750Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T08:31:50.756Z - [32minfo[39m: Assets built
+2026-07-05T08:32:50.123Z - [32minfo[39m: [16:32:50] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-07-05T08:32:50.155Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T08:32:50.189Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T08:32:50.189Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T08:32:51.217Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T08:32:51.413Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T08:32:51.433Z - [32minfo[39m: Site data built
+2026-07-05T08:32:51.433Z - [32minfo[39m: Pages rebuilt
+2026-07-05T08:32:51.433Z - [32minfo[39m: Website regeneration complete! Total build time: 0.235s
+2026-07-05T08:33:33.986Z - [32minfo[39m: [16:33:33] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-07-05T08:33:33.995Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T08:33:34.001Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T08:33:34.002Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T08:33:35.013Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T08:33:35.177Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T08:33:35.199Z - [32minfo[39m: Site data built
+2026-07-05T08:33:35.199Z - [32minfo[39m: Pages rebuilt
+2026-07-05T08:33:35.199Z - [32minfo[39m: Website regeneration complete! Total build time: 0.187s
+2026-07-05T08:33:41.334Z - [32minfo[39m: [16:33:41] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-07-05T08:33:41.339Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T08:33:41.340Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T08:33:41.340Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T08:33:42.349Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T08:33:42.484Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T08:33:42.513Z - [32minfo[39m: Site data built
+2026-07-05T08:33:42.513Z - [32minfo[39m: Pages rebuilt
+2026-07-05T08:33:42.513Z - [32minfo[39m: Website regeneration complete! Total build time: 0.166s
+2026-07-05T08:33:59.436Z - [32minfo[39m: [16:33:59] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-07-05T08:33:59.441Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T08:33:59.448Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T08:33:59.451Z - [32minfo[39m: 1. lessons/commit/index
+2026-07-05T08:34:00.455Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T08:34:00.650Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-07-05T08:34:00.668Z - [32minfo[39m: Site data built
+2026-07-05T08:34:00.668Z - [32minfo[39m: Pages rebuilt
+2026-07-05T08:34:00.668Z - [32minfo[39m: Website regeneration complete! Total build time: 0.215s
+2026-07-05T08:36:02.951Z - [32minfo[39m: Website generation started at 16:36:02
+2026-07-05T08:36:03.044Z - [32minfo[39m: Building assets...
