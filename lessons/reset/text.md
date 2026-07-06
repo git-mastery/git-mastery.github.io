@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_steps_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_output, show_ref, show_tag, show_tour_link, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_with_tip, show_detour, show_detour_preview, show_exercise, show_steps_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_output, show_ref, show_tag, show_tour_link, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can reset Git history.</span>
@@ -12,9 +12,7 @@ Git can also **_reset_ the revision history to a specific point** so that you ca
 
 Suppose you realize your last few commits have gone in the wrong direction, and you want to go back to an earlier commit and continue from there, as if the "bad" commits never happened. Git's _reset_ feature can help you do that.
 
-**Git {{ show_git_term("reset") }} moves the {{ show_git_term('tip', 'tip', 'reset') }} of the current branch to a specific commit**, optionally adjusting your staged and unstaged changes to match. **This effectively rewrites the branch's history** by discarding any commits that came after that point.
-
-{{ show_git_term_tip('tip', 'reset') }}
+**Git {{ show_git_term("reset") }} moves the {{ show_git_term_with_tip('tip', 'latest commit of the current branch') }} of the current branch to a specific commit**, optionally adjusting your staged and unstaged changes to match. **This effectively rewrites the branch's history** by discarding any commits that came after that point.
 
 Resetting is different from the _checkout_ feature:
 

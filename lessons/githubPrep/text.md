@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, ask_chatgpt, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_prep, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, ask_chatgpt, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_git_term, show_git_term_with_tip, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_prep, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 
@@ -12,9 +12,7 @@
 To use GitHub, **you need to sign up for an account and configure related tools and settings** first.
 {% endcall %}
 
-**GitHub is a web-based service that hosts Git repositories and adds collaboration features** on top of Git. Two other similar platforms are GitLab and Bitbucket. While you use Git to manage version control locally, you can use such a platform to access additional features such as shared access to repositories, issue tracking, code reviews, and permission controls. These platforms are widely used in software development for both {{ show_git_term("open-source software (OSS)", "oss", "githubPrep") }} and {{ show_git_term("closed-source software") }} projects.
-
-{{ show_git_term_tip('oss', 'githubPrep') }}
+**GitHub is a web-based service that hosts Git repositories and adds collaboration features** on top of Git. Two other similar platforms are GitLab and Bitbucket. While you use Git to manage version control locally, you can use such a platform to access additional features such as shared access to repositories, issue tracking, code reviews, and permission controls. These platforms are widely used in software development for both {{ show_git_term_with_tip("open-source software (OSS)", term_oss) }} and {{ show_git_term("closed-source software") }} projects.
 
 
 **On GitHub, a Git repo can belong to one of two account spaces:**

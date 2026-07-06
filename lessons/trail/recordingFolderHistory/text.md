@@ -22,7 +22,7 @@ pageNav: 4
 Tour/lesson videos (such as the one below) are recommended viewing, as **they help you build the right mental models about Git** before diving into detailed steps covered in the lessons.
 </box>
 
-@[youtube](cULoA9DIbVc)
+@[youtube](MC-71B1gsqM)
 
 </box>
 </div>

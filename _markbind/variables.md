@@ -65,3 +65,7 @@
 
 <variable id="img_style_no_border">display: block; margin: 0 auto;</variable>
 <variable id="img_style">{{ img_style_no_border}} border: 1px solid #ddd; border-radius: 4px;</variable>
+
+<variable id="term_oss">**Open-source software (OSS)** is software whose source code is made publicly available, allowing anyone to view, use, modify, or share it—depending on the terms of its license. This is different from **closed-source** software, where the source code is kept private and is not accessible to the public.</variable>
+<variable id="term_repository">A Git _repository_ (short name: _repo_) is a database of the revision history of a folder.</variable>
+<variable id="term_staging">_Staging_ is how you indicate which changes should be included in the next snapshot (i.e., the next _commit_).</variable>

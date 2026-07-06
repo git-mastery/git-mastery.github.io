@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, ask_chatgpt, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, ask_chatgpt, bold_number, callout, exercises, hp_number, label, show_commit, show_folder_columns, show_git_term, show_git_term_with_tip, show_detour, show_detour_preview, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
 
 
 <span id="outcomes">{{ icon_outcome }} Can stage files</span>
@@ -16,9 +16,7 @@ To save a snapshot, **you start by specifying what to include in it, also called
 
 **Git treats new files that you add to the working directory as {{ show_git_term("'untracked'") }}**, i.e., Git is aware of them, but they are not yet under Git's control. The same applies to files that existed in the working directory at the time you initialized the repo.
 
-**We can {{ show_git_term('stage', 'stage', 'stage') }} an untracked file** to tell Git that we want its current version to be included in the next snapshot (in Git terminology, such a snapshot is called a {{ show_git_term("commit") }}). When asked to stage a file, Git copies that file from the working directory to the staging area. Once you stage an untracked file, it becomes a {{ show_git_term("'tracked'") }} (i.e., under Git's control) file thereafter.
-
-{{ show_git_term_tip('stage', 'stage') }}
+**We can {{ show_git_term('stage') }} an untracked file** to tell Git that we want its current version to be included in the next snapshot (in Git terminology, such a snapshot is called a {{ show_git_term("commit") }}). When asked to stage a file, Git copies that file from the working directory to the staging area. Once you stage an untracked file, it becomes a {{ show_git_term("'tracked'") }} (i.e., under Git's control) file thereafter.
 
 In the example below, you can see how staging files changes the status of the repo as you go from (a) to (c).
 

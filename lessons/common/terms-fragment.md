@@ -7,7 +7,7 @@
 <span id="repo-term">repository</span>
 <div id="repo-definition">
 
-A Git _repository_ (short name: _repo_) is a database that tracks files and their version history of a folder.
+A Git _repository_ (short name: _repo_) is a database of the revision history of a folder.
 </div>
 <!-- ================================================== -->
 <span id="stage-term">staging</span>

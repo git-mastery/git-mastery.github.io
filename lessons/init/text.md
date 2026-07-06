@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, ask_chatgpt, ask_chatgpt_for_three_os, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_tip, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, ask_chatgpt, ask_chatgpt_for_three_os, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_with_tip, show_git_term_tip, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="outcomes">{{ icon_outcome }} Can create a local Git repo</span>
 
@@ -12,9 +12,9 @@ To be able to save snapshots of a folder using Git, **you must first put the fol
 
 **Normally, we use Git to manage a revision history of a specific folder**, which gives us the ability to revision-control any file in that folder and its subfolders.
 
-**To put a folder under Git's control, we _initialize_ a {{ show_git_term('repository', 'repo', 'init')}} (short name: {{ show_git_term('repo') }})** in that folder. This lets us create repos in different folders and revision-control different clusters of files independently of each other, %%e.g., files belonging to different projects%%.
 
-{{ show_git_term_tip('repo', 'init') }}
+**To put a folder under Git's control, we _initialize_ a {{ show_git_term_with_tip('repository', term_repository)}} (short name: {{ show_git_term('repo') }})** in that folder. This lets us create repos in different folders and revision-control different clusters of files independently of each other, %%e.g., files belonging to different projects%%.
+
 
 You can follow the hands-on practical below to learn how to initialize a repo in a folder.
 
