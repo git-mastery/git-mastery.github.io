@@ -241,17 +241,7 @@
 <!-- ============================================================ -->
 
 {% macro show_fine_print(details) -%}<span class="badge text-info border-light" style="font-weight: normal;"><popover content="{{ details }}">[fine print]</popover></span>{%- endmacro %}
-<!-- ============================================================ -->
 
-{% macro show_git_term_tip(id, current_page) -%}
-<popover id="pop:{{ current_page }}-{{ definition_id }}" placement="top" >
-  <span slot="header" class="text-info"><md>Definition: **<include src="{{ baseUrl }}/lessons/common/terms-fragment.md#{{ id }}-term" inline trim/>**</md></span>
-  <div slot="content">
-    <include src="{{ baseUrl }}/lessons/common/terms-fragment.md#{{ id }}-definition" inline trim/>
-  </div>
-</popover>
-
-{%- endmacro %}
 <!-- ============================================================ -->
 
 {% macro show_folder_contents(filename, prefix='', has_commits=0, width=240) -%}
