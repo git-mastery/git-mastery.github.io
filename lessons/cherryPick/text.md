@@ -53,7 +53,74 @@ gitGraph
 
 Note how it makes the changes from `m3` available from that point on in the `feature` branch, with minimal changes to the revision graph. Also note that the new commit `m3a` contains the same changes as `m3`, but it will be a different Git object with a different SHA value.
 
-**Cherry-picking is another Git operation that can result in conflicts** i.e., if the changes in the cherry-picked commit conflict with the changes in the receiving branch.
+**Cherry-picking is another Git operation that can result in conflicts**, i.e., if the changes in the cherry-picked commit conflict with the changes in the receiving branch.
+
+<!-- ================== start: HANDS-ON =========================== -->
+{% call show_hands_on_practical("Cherry-pick a commit")  %}
+
+{{ hp_number(hop_preparation) }} **Run the following commands to create a sample repo** that we'll use for this hands-on practical:
+```bash
+mkdir samplerepo-sync-cherry
+cd samplerepo-sync-cherry
+git init -b main
+
+echo "v1" > app.txt
+git add .
+git commit -m "m1: initial commit"
+
+git switch -c feature
+echo "feature work" >> feature.txt
+git add .
+git commit -m "f1: start feature"
+
+git switch main
+echo "update" > update.txt
+git add .
+git commit -m "m2: update app"
+
+echo "urgent fix" > bugfix.txt
+git add .
+git commit -m "m3: urgent bug fix"
+
+echo "more" > more.txt
+git add .
+git commit -m "m4: more work"
+
+git switch feature
+echo "more feature work" >> feature.txt
+git commit -am "f2: continue feature"
+```
+
+{{ hp_number(hop_target) }} **Bring only the `m3: urgent bug fix` commit from `main` into `feature`**, without bringing `m2` or `m4`.
+
+{{ hp_number("1") }} **Find the SHA of the `m3: urgent bug fix` commit.**
+```bash{.no-line-numbers}
+git log --oneline main
+```
+{% call show_output() %}
+```bash{.no-line-numbers}
+a1b2c3d (main) m4: more work
+9f8e7d6 m3: urgent bug fix
+5c4b3a2 m2: update app
+1a2b3c4 m1: initial commit
+```
+{% endcall %}
+Note down the SHA next to `m3: urgent bug fix` (here, `9f8e7d6` -- yours will differ).
+
+{{ hp_number("2") }} **While on `feature`, cherry-pick that commit.**
+{% set cli %} <!-- ------ start: Git Tabs --------------->
+```bash{.no-line-numbers}
+git switch feature
+git cherry-pick 9f8e7d6
+```
+{% endset %}
+{% set sourcetree %}
+Switch to the `feature` branch. In the `main` branch's history, right-click on the `m3: urgent bug fix` commit and choose `Cherry Pick`.
+{% endset %}
+{{ show_git_tabs_from_text(cli, sourcetree) }}
+
+**Run `git log --oneline` on `feature`.** It now has a new commit with the same change and message as `m3`, but a different SHA -- and it does not have `m2` or `m4`.
+{% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 </div>
 <div id="extras">
 </div>

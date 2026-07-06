@@ -61,6 +61,51 @@ Also note how the first commit in the feature branch, previously shown as `f1`, 
 
 **Because rebasing rewrites the commit history of your branch,** you should avoid rebasing branches that you’ve already published and that others might be using -- rewriting published history can cause confusion and conflicts for those using the previous version of the commits.
 
+<!-- ================== start: HANDS-ON =========================== -->
+{% call show_hands_on_practical("Rebase a branch to sync it")  %}
+
+{{ hp_number(hop_preparation) }} **Run the following commands to create a sample repo** that we'll use for this hands-on practical:
+```bash
+mkdir samplerepo-sync-rebase
+cd samplerepo-sync-rebase
+git init -b main
+
+echo "v1" > app.txt
+git add .
+git commit -m "m1: initial commit"
+
+git switch -c feature
+echo "feature work" >> feature.txt
+git add .
+git commit -m "f1: start feature"
+echo "more feature work" >> feature.txt
+git commit -am "f2: continue feature"
+
+git switch main
+echo "fix" >> app.txt
+git commit -am "m2: fix a bug"
+```
+Run `git log --oneline --graph --all` to see that `feature` (with `f1` and `f2`) branched off before `m2` was added to `main`.
+
+{{ hp_number(hop_target) }} **Rebase `feature` onto `main`**, so that `m2` becomes part of `feature`'s history.
+
+{{ hp_number("1") }} **Switch to `feature`, then rebase it onto `main`.**
+{% set cli %} <!-- ------ start: Git Tabs --------------->
+```bash{.no-line-numbers}
+git switch feature
+git rebase main
+```
+{% endset %}
+{% set sourcetree %}
+Switch to the `feature` branch, then right-click on the `main` branch and choose `Rebase current changes onto main`.
+{% endset %}
+{{ show_git_tabs_from_text(cli, sourcetree) }}
+
+{{ hp_number("2") }} **Run `git log --oneline --graph --all` again.** Observe that `main` and `feature` now form a single straight line, with `f1` and `f2` replayed on top of `m2`. Their commit SHAs have changed, even though the file changes are the same.
+
+**If Git cannot automatically combine a replayed commit** -- for example, if `feature` and `main` had modified the same lines -- Git pauses the rebase partway and marks the conflict in the affected files, similar to a merge conflict. Resolve the conflict, stage the fixed files with `git add`, then run `git rebase --continue` to resume (or `git rebase --abort` to cancel and return `feature` to its pre-rebase state).
+{% endcall %}<!-- ===== end: HANDS-ON ============================ -->
+
 </div>
 
 <div id="extras">
