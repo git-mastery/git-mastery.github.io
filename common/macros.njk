@@ -241,17 +241,7 @@
 <!-- ============================================================ -->
 
 {% macro show_fine_print(details) -%}<span class="badge text-info border-light" style="font-weight: normal;"><popover content="{{ details }}">[fine print]</popover></span>{%- endmacro %}
-<!-- ============================================================ -->
 
-{% macro show_git_term_tip(id, current_page) -%}
-<popover id="pop:{{ current_page }}-{{ definition_id }}" placement="top" >
-  <span slot="header" class="text-info"><md>Definition: **<include src="{{ baseUrl }}/lessons/common/terms-fragment.md#{{ id }}-term" inline trim/>**</md></span>
-  <div slot="content">
-    <include src="{{ baseUrl }}/lessons/common/terms-fragment.md#{{ id }}-definition" inline trim/>
-  </div>
-</popover>
-
-{%- endmacro %}
 <!-- ============================================================ -->
 
 {% macro show_folder_contents(filename, prefix='', has_commits=0, width=240) -%}
@@ -275,7 +265,7 @@
   {% if has_commits %}
   <!-- start: repository -->
   <div class="bg-success-subtle rounded-1 border-0" style="margin: 7px 2px 1px 1px; padding: 1px;">
-  <span class="badge bg-success text-light mt-1 ms-1">Repository</span><br>
+  <span class="badge bg-success text-light mt-1 ms-1">Committed history</span><br>
   <include src="{{ filename }}#{{ prefix_str }}metadata"/>
   <small><span class="text-secondary m-1 ps-2">[other Git metadata ...]</span></small>
   </div>
@@ -481,10 +471,10 @@
 {% endmacro %}
 <!-- ============================================================ -->
 
-{% macro show_two_column_row(image_path, width="300") %}
+{% macro show_two_column_row(image_path, width="300", border=1) %}
 <div class="row align-items-start g-3 mt-1">
   <div class="col-auto">
-    <img src="{{ image_path }}" class="img-fluid d-block" style="{{ img_style }}" width="{{ width }}" />
+    <img src="{{ image_path }}" class="img-fluid d-block" style="{{ img_style if border else img_style_no_border }}; border={{ border }}" width="{{ width }}" />
   </div>
   <div class="col-md">
 

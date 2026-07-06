@@ -1,0 +1,823 @@
+2026-07-05T18:35:59.033Z - [32minfo[39m: Website generation (lazy) started at 02:35:58
+2026-07-05T18:35:59.287Z - [32minfo[39m: Building assets...
+2026-07-05T18:35:59.423Z - [32minfo[39m: Assets built
+2026-07-05T18:35:59.423Z - [32minfo[39m: Generating landing page...
+2026-07-05T18:35:59.541Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-07-05T18:35:59.559Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-07-05T18:35:59.653Z - [32minfo[39m: Site data built
+2026-07-05T18:35:59.653Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 0.776s
+2026-07-05T18:35:59.670Z - [32minfo[39m: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-07-05T18:35:59.670Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-07-05T18:36:03.706Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions as some of its dependencies were changed since the last visit
+2026-07-05T18:36:03.825Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions.md
+2026-07-05T18:36:03.851Z - [32minfo[39m: Site data built
+2026-07-05T18:36:03.852Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.147s
+2026-07-05T18:36:10.722Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2026-07-05T18:36:11.224Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index.md
+2026-07-05T18:36:11.247Z - [32minfo[39m: Site data built
+2026-07-05T18:36:11.247Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.526s
+2026-07-05T18:36:14.671Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index as some of its dependencies were changed since the last visit
+2026-07-05T18:36:15.918Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-07-05T18:36:16.072Z - [32minfo[39m: Site data built
+2026-07-05T18:36:16.072Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 1.401s
+2026-07-05T18:38:21.812Z - [32minfo[39m: [02:38:21] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-05T18:38:21.814Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-05T18:38:21.815Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-05T18:38:21.816Z - [32minfo[39m: 1. lessons/trail/recordingFolderHistory/index
+2026-07-05T18:38:22.899Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-05T18:38:23.421Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-07-05T18:38:23.477Z - [32minfo[39m: Site data built
+2026-07-05T18:38:23.477Z - [32minfo[39m: Pages rebuilt
+2026-07-05T18:38:23.477Z - [32minfo[39m: Website regeneration complete! Total build time: 0.579s
+2026-07-06T08:04:35.767Z - [32minfo[39m: Website generation (lazy) started at 16:04:35
+2026-07-06T08:04:36.010Z - [32minfo[39m: Building assets...
+2026-07-06T08:04:36.123Z - [32minfo[39m: Assets built
+2026-07-06T08:04:36.123Z - [32minfo[39m: Generating landing page...
+2026-07-06T08:04:36.208Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-07-06T08:04:36.223Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-07-06T08:04:36.319Z - [32minfo[39m: Site data built
+2026-07-06T08:04:36.319Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 0.674s
+2026-07-06T08:04:36.332Z - [32minfo[39m: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-07-06T08:04:36.333Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-07-06T08:04:38.590Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions as some of its dependencies were changed since the last visit
+2026-07-06T08:04:38.625Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions.md
+2026-07-06T08:04:38.630Z - [32minfo[39m: Site data built
+2026-07-06T08:04:38.630Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.041s
+2026-07-06T08:48:28.955Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2026-07-06T08:48:29.488Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index.md
+2026-07-06T08:48:29.506Z - [32minfo[39m: Site data built
+2026-07-06T08:48:29.506Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.555s
+2026-07-06T08:48:34.974Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index as some of its dependencies were changed since the last visit
+2026-07-06T08:48:35.525Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-07-06T08:48:35.584Z - [32minfo[39m: Site data built
+2026-07-06T08:48:35.584Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.611s
+2026-07-06T08:54:20.955Z - [32minfo[39m: [16:54:20] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md
+2026-07-06T08:54:20.964Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T08:54:20.966Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T08:54:20.969Z - [32minfo[39m: 1. lessons/trail/recordingFolderHistory/index
+2026-07-06T08:54:21.998Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T08:54:22.564Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-07-06T08:54:22.636Z - [32minfo[39m: Site data built
+2026-07-06T08:54:22.636Z - [32minfo[39m: Pages rebuilt
+2026-07-06T08:54:22.636Z - [32minfo[39m: Website regeneration complete! Total build time: 0.662s
+2026-07-06T08:55:00.501Z - [32minfo[39m: [16:55:00] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md
+2026-07-06T08:55:00.503Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T08:55:00.503Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T08:55:00.504Z - [32minfo[39m: 1. lessons/trail/recordingFolderHistory/index
+2026-07-06T08:55:01.527Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T08:55:02.125Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-07-06T08:55:02.182Z - [32minfo[39m: Site data built
+2026-07-06T08:55:02.183Z - [32minfo[39m: Pages rebuilt
+2026-07-06T08:55:02.183Z - [32minfo[39m: Website regeneration complete! Total build time: 0.676s
+2026-07-06T08:57:59.790Z - [32minfo[39m: [16:57:59] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md
+2026-07-06T08:57:59.793Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T08:57:59.793Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T08:57:59.793Z - [32minfo[39m: 1. lessons/trail/recordingFolderHistory/index
+2026-07-06T08:58:00.797Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T08:58:01.377Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-07-06T08:58:01.433Z - [32minfo[39m: Site data built
+2026-07-06T08:58:01.434Z - [32minfo[39m: Pages rebuilt
+2026-07-06T08:58:01.434Z - [32minfo[39m: Website regeneration complete! Total build time: 0.639s
+2026-07-06T08:58:38.384Z - [32minfo[39m: [16:58:38] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md
+2026-07-06T08:58:38.386Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T08:58:38.387Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T08:58:38.387Z - [32minfo[39m: 1. lessons/trail/recordingFolderHistory/index
+2026-07-06T08:58:39.392Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T08:58:39.980Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-07-06T08:58:40.034Z - [32minfo[39m: Site data built
+2026-07-06T08:58:40.034Z - [32minfo[39m: Pages rebuilt
+2026-07-06T08:58:40.034Z - [32minfo[39m: Website regeneration complete! Total build time: 0.644s
+2026-07-06T08:58:56.939Z - [32minfo[39m: [16:58:56] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md
+2026-07-06T08:58:56.940Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T08:58:56.941Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T08:58:56.941Z - [32minfo[39m: 1. lessons/trail/recordingFolderHistory/index
+2026-07-06T08:58:57.948Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T08:58:58.533Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-07-06T08:58:58.596Z - [32minfo[39m: Site data built
+2026-07-06T08:58:58.596Z - [32minfo[39m: Pages rebuilt
+2026-07-06T08:58:58.596Z - [32minfo[39m: Website regeneration complete! Total build time: 0.653s
+2026-07-06T08:59:35.515Z - [32minfo[39m: [16:59:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md
+2026-07-06T08:59:35.518Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T08:59:35.520Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T08:59:35.520Z - [32minfo[39m: 1. lessons/trail/recordingFolderHistory/index
+2026-07-06T08:59:36.528Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T08:59:37.087Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-07-06T08:59:37.144Z - [32minfo[39m: Site data built
+2026-07-06T08:59:37.144Z - [32minfo[39m: Pages rebuilt
+2026-07-06T08:59:37.144Z - [32minfo[39m: Website regeneration complete! Total build time: 0.62s
+2026-07-06T08:59:47.504Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index as some of its dependencies were changed since the last visit
+2026-07-06T08:59:47.671Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-07-06T08:59:47.689Z - [32minfo[39m: Site data built
+2026-07-06T08:59:47.689Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.186s
+2026-07-06T09:00:44.904Z - [32minfo[39m: [17:00:44] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-06T09:00:44.906Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:00:44.907Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:00:44.908Z - [32minfo[39m: 1. lessons/init/index
+2026-07-06T09:00:46.001Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T09:00:46.129Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-07-06T09:00:46.151Z - [32minfo[39m: Site data built
+2026-07-06T09:00:46.151Z - [32minfo[39m: Pages rebuilt
+2026-07-06T09:00:46.151Z - [32minfo[39m: Website regeneration complete! Total build time: 0.151s
+2026-07-06T09:01:52.415Z - [32minfo[39m: [17:01:52] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md
+2026-07-06T09:01:52.416Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:01:52.417Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:01:52.417Z - [32minfo[39m: 1. lessons/init/index
+2026-07-06T09:01:52.418Z - [32minfo[39m: [17:01:52] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-06T09:01:52.418Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:01:52.418Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:01:52.418Z - [32minfo[39m: 1. lessons/init/index
+2026-07-06T09:01:53.502Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T09:01:53.610Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-07-06T09:01:53.629Z - [32minfo[39m: Site data built
+2026-07-06T09:01:53.629Z - [32minfo[39m: Pages rebuilt
+2026-07-06T09:01:53.629Z - [32minfo[39m: Website regeneration complete! Total build time: 0.127s
+2026-07-06T09:05:26.143Z - [32minfo[39m: [17:05:26] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md
+2026-07-06T09:05:26.144Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:05:26.145Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:05:26.145Z - [32minfo[39m: 1. lessons/init/index
+2026-07-06T09:05:27.149Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T09:05:27.226Z - [31merror[39m: Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md)
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md)
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md)
+  Error: cannot import 'git_term_with_tip'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:427:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+2026-07-06T09:05:27.227Z - [31merror[39m: Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md)
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md)
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md)
+  Error: cannot import 'git_term_with_tip'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:427:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:78:13)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+    at VariableRenderer.renderFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:44:24)
+    at VariableProcessor.renderWithSiteVariables (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:125:57)
+    at VariableProcessor.renderIncludeFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:202:38)
+2026-07-06T09:05:27.228Z - [31merror[39m: Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md)
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md)
+  Template render error: (/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md)
+  Error: cannot import 'git_term_with_tip'
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:336:23
+    at Template.root [as rootRenderFunc] (eval at _compile (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:427:3)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:326:10)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:78:13)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+    at VariableRenderer.renderFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:44:24)
+    at VariableProcessor.renderWithSiteVariables (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:125:57)
+    at VariableProcessor.renderIncludeFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:202:38)
+2026-07-06T09:05:27.253Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-07-06T09:05:27.262Z - [32minfo[39m: Site data built
+2026-07-06T09:05:27.262Z - [32minfo[39m: Pages rebuilt
+2026-07-06T09:05:27.262Z - [32minfo[39m: Website regeneration complete! Total build time: 0.114s
+2026-07-06T09:05:39.150Z - [32minfo[39m: [17:05:39] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md
+2026-07-06T09:05:39.152Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:05:39.155Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:05:39.155Z - [32minfo[39m: 1. lessons/init/index
+2026-07-06T09:05:40.161Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T09:05:40.323Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-07-06T09:05:40.335Z - [32minfo[39m: Site data built
+2026-07-06T09:05:40.335Z - [32minfo[39m: Pages rebuilt
+2026-07-06T09:05:40.336Z - [32minfo[39m: Website regeneration complete! Total build time: 0.177s
+2026-07-06T09:08:31.789Z - [32minfo[39m: [17:08:31] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/common/terms-fragment.md
+2026-07-06T09:08:31.798Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:08:31.799Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:08:31.800Z - [32minfo[39m: 1. lessons/init/index
+2026-07-06T09:08:31.829Z - [32minfo[39m: [17:08:31] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md
+2026-07-06T09:08:31.829Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:08:31.829Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:08:31.829Z - [32minfo[39m: 1. lessons/init/index
+2026-07-06T09:08:32.804Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T09:08:32.964Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-07-06T09:08:32.983Z - [32minfo[39m: Site data built
+2026-07-06T09:08:32.983Z - [32minfo[39m: Pages rebuilt
+2026-07-06T09:08:32.983Z - [32minfo[39m: Website regeneration complete! Total build time: 0.181s
+2026-07-06T09:08:51.941Z - [32minfo[39m: [17:08:51] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md
+2026-07-06T09:08:51.949Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:08:51.953Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:08:51.954Z - [32minfo[39m: 1. lessons/init/index
+2026-07-06T09:08:52.960Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T09:08:53.126Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-07-06T09:08:53.148Z - [32minfo[39m: Site data built
+2026-07-06T09:08:53.148Z - [32minfo[39m: Pages rebuilt
+2026-07-06T09:08:53.148Z - [32minfo[39m: Website regeneration complete! Total build time: 0.191s
+2026-07-06T09:12:14.214Z - [32minfo[39m: [17:12:14] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/variables.md
+2026-07-06T09:12:14.216Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:12:14.217Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:12:14.217Z - [32minfo[39m: 1. lessons/init/index
+2026-07-06T09:12:14.219Z - [32minfo[39m: [17:12:14] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md
+2026-07-06T09:12:14.219Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:12:14.219Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:12:14.219Z - [32minfo[39m: 1. lessons/init/index
+2026-07-06T09:12:15.258Z - [33mwarn[39m: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2026-07-06T09:12:15.260Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T09:12:15.395Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-07-06T09:12:15.420Z - [32minfo[39m: Site data built
+2026-07-06T09:12:15.420Z - [32minfo[39m: Pages rebuilt
+2026-07-06T09:12:15.420Z - [32minfo[39m: Website regeneration complete! Total build time: 0.2s
+2026-07-06T09:12:19.146Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index as some of its dependencies were changed since the last visit
+2026-07-06T09:12:19.405Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-07-06T09:12:19.450Z - [32minfo[39m: Site data built
+2026-07-06T09:12:19.450Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.305s
+2026-07-06T09:12:44.925Z - [32minfo[39m: [17:12:44] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md
+2026-07-06T09:12:44.926Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:12:44.926Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:12:44.926Z - [32minfo[39m: 1. lessons/stage/index
+2026-07-06T09:12:45.933Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T09:12:46.189Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-07-06T09:12:46.217Z - [32minfo[39m: Site data built
+2026-07-06T09:12:46.217Z - [32minfo[39m: Pages rebuilt
+2026-07-06T09:12:46.217Z - [32minfo[39m: Website regeneration complete! Total build time: 0.287s
+2026-07-06T09:13:15.917Z - [32minfo[39m: [17:13:15] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/text.md
+2026-07-06T09:13:15.920Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:13:15.921Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:13:15.921Z - [32minfo[39m: 1. lessons/stage/index
+2026-07-06T09:13:16.930Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T09:13:17.143Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-07-06T09:13:17.165Z - [32minfo[39m: Site data built
+2026-07-06T09:13:17.165Z - [32minfo[39m: Pages rebuilt
+2026-07-06T09:13:17.165Z - [32minfo[39m: Website regeneration complete! Total build time: 0.239s
+2026-07-06T09:15:12.944Z - [32minfo[39m: [17:15:12] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md
+2026-07-06T09:15:12.950Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:15:12.954Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:15:12.954Z - [32minfo[39m: 1. lessons/stage/index
+2026-07-06T09:15:13.038Z - [32minfo[39m: [17:15:13] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/variables.md
+2026-07-06T09:15:13.038Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:15:13.038Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:15:13.038Z - [32minfo[39m: 1. lessons/stage/index
+2026-07-06T09:15:13.991Z - [33mwarn[39m: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2026-07-06T09:15:13.992Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T09:15:14.168Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-07-06T09:15:14.195Z - [32minfo[39m: Site data built
+2026-07-06T09:15:14.195Z - [32minfo[39m: Pages rebuilt
+2026-07-06T09:15:14.195Z - [32minfo[39m: Website regeneration complete! Total build time: 0.238s
+2026-07-06T09:15:20.022Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index as some of its dependencies were changed since the last visit
+2026-07-06T09:15:20.116Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-07-06T09:15:20.126Z - [32minfo[39m: Site data built
+2026-07-06T09:15:20.126Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.104s
+2026-07-06T09:16:24.390Z - [32minfo[39m: [17:16:24] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/text.md
+2026-07-06T09:16:24.397Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:16:24.400Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:16:24.401Z - [32minfo[39m: 1. lessons/init/index
+2026-07-06T09:16:25.405Z - [32minfo[39m: No pages needed to be rebuilt
+2026-07-06T09:16:36.466Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/index as some of its dependencies were changed since the last visit
+2026-07-06T09:16:36.625Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/index.md
+2026-07-06T09:16:36.640Z - [32minfo[39m: Site data built
+2026-07-06T09:16:36.640Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.175s
+2026-07-06T09:19:02.409Z - [32minfo[39m: [17:19:02] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/githubPrep/text.md
+2026-07-06T09:19:02.411Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:19:02.411Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:19:02.411Z - [32minfo[39m: 1. lessons/reset/index
+2026-07-06T09:19:02.412Z - [32minfo[39m: [17:19:02] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/_markbind/variables.md
+2026-07-06T09:19:02.412Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:19:02.412Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:19:02.413Z - [32minfo[39m: 1. lessons/reset/index
+2026-07-06T09:19:03.442Z - [33mwarn[39m: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2026-07-06T09:19:03.443Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T09:19:03.610Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/index.md
+2026-07-06T09:19:03.629Z - [32minfo[39m: Site data built
+2026-07-06T09:19:03.629Z - [32minfo[39m: Pages rebuilt
+2026-07-06T09:19:03.629Z - [32minfo[39m: Website regeneration complete! Total build time: 0.216s
+2026-07-06T09:19:08.177Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/githubPrep/index as some of its dependencies were changed since the last visit
+2026-07-06T09:19:08.253Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/githubPrep/index.md
+2026-07-06T09:19:08.261Z - [32minfo[39m: Site data built
+2026-07-06T09:19:08.261Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.087s
+2026-07-06T09:21:48.455Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/exercise-remote-control.md
+2026-07-06T09:21:48.457Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.458Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.458Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.564Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/exercise-branch-rename.md
+2026-07-06T09:21:48.564Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.565Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.565Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.565Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/exercise-push-over.md
+2026-07-06T09:21:48.566Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.566Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.566Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.575Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/text.md
+2026-07-06T09:21:48.575Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.575Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.575Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.575Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/template/text.md
+2026-07-06T09:21:48.575Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.576Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.576Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.576Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/exercise-fetch-and-pull.md
+2026-07-06T09:21:48.576Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.577Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.577Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.577Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/text.md
+2026-07-06T09:21:48.577Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.577Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.577Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.577Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/text.md
+2026-07-06T09:21:48.577Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.577Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.577Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.578Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/text.md
+2026-07-06T09:21:48.578Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.578Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.578Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.578Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/text.md
+2026-07-06T09:21:48.578Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.578Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.578Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.578Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/text.md
+2026-07-06T09:21:48.578Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.578Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.578Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.578Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/detour-conflictAtCheckout-fragment.md
+2026-07-06T09:21:48.578Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.578Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.578Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.578Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/exercise-link-me.md
+2026-07-06T09:21:48.578Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.578Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.578Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.578Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/detour-unstagingChanges-fragment.md
+2026-07-06T09:21:48.578Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.578Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.578Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.578Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/steps-stage-new-file-fragment.md
+2026-07-06T09:21:48.579Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.579Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.579Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.579Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/exercise-remote-branch-rename.md
+2026-07-06T09:21:48.579Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.579Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.579Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.579Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-side-track.md
+2026-07-06T09:21:48.579Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.579Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.579Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.579Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-stage-deletion-fragment.md
+2026-07-06T09:21:48.579Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.579Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.579Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.579Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/text.md
+2026-07-06T09:21:48.579Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.579Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.579Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.579Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/exercise-sensors-checkout.md
+2026-07-06T09:21:48.579Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.579Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.579Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.579Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/exercise-log-and-order.md
+2026-07-06T09:21:48.579Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.579Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.579Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.579Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-push.md
+2026-07-06T09:21:48.579Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.579Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.579Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.579Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/detour-resetUncommitedChanges-fragment.md
+2026-07-06T09:21:48.579Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.579Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.579Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.579Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/text.md
+2026-07-06T09:21:48.579Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.579Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.579Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.579Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-unstage-changes-fragment.md
+2026-07-06T09:21:48.579Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.579Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.579Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.579Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/exercise-under-control.md
+2026-07-06T09:21:48.579Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.579Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.580Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.580Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-ff-undo.md
+2026-07-06T09:21:48.580Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.580Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.580Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.580Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/detour-prFromOtherBranches-fragment.md
+2026-07-06T09:21:48.580Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.580Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.580Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.580Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteRepos/text.md
+2026-07-06T09:21:48.580Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.580Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.580Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.580Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/exercise-view-commits.md
+2026-07-06T09:21:48.580Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.580Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.580Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.580Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/detour-managingRemotes-fragment.md
+2026-07-06T09:21:48.580Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.580Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.580Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.580Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/exercise-create-pr-from-main.md
+2026-07-06T09:21:48.580Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.580Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.580Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.580Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/detour-undoRecentCommits-fragment.md
+2026-07-06T09:21:48.580Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.580Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.581Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.581Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-branch-delete.md
+2026-07-06T09:21:48.581Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.581Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.581Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.581Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md
+2026-07-06T09:21:48.581Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.582Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.582Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.582Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPull/text.md
+2026-07-06T09:21:48.582Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.582Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.582Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.582Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-07-06T09:21:48.582Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.582Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.582Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.582Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/text.md
+2026-07-06T09:21:48.582Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.582Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.582Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.582Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/exercises-directory/index.md
+2026-07-06T09:21:48.582Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.582Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.583Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.584Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/common/protip-multiple-files-notation-fragment.md
+2026-07-06T09:21:48.584Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.584Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.584Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.584Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/text.md
+2026-07-06T09:21:48.584Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.584Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.584Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.584Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-bender.md
+2026-07-06T09:21:48.584Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.584Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.584Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.584Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/steps-create-more-commits-fragment.md
+2026-07-06T09:21:48.584Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.584Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.584Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.584Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/exercise-clone-repo.md
+2026-07-06T09:21:48.584Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.584Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.584Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.650Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsMerge/text.md
+2026-07-06T09:21:48.651Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.651Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.651Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.651Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/text.md
+2026-07-06T09:21:48.651Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.651Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.651Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.652Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/text.md
+2026-07-06T09:21:48.652Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.652Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.652Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.652Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/text.md
+2026-07-06T09:21:48.652Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.652Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.652Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.652Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-add.md
+2026-07-06T09:21:48.652Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.652Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.652Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.653Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/text.md
+2026-07-06T09:21:48.653Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.653Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.653Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.653Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-update.md
+2026-07-06T09:21:48.654Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.654Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.654Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.654Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/steps-commit-fragment.md
+2026-07-06T09:21:48.654Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.654Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.654Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.654Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/exercise-grocery-shopping.md
+2026-07-06T09:21:48.654Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.654Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.655Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.655Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/otherPmFeatures/text.md
+2026-07-06T09:21:48.655Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.655Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.655Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.655Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/text.md
+2026-07-06T09:21:48.655Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.655Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.655Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.655Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByMerge/text.md
+2026-07-06T09:21:48.655Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.655Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.655Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.656Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-squash.md
+2026-07-06T09:21:48.656Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.656Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.656Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.657Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/worktrees/text.md
+2026-07-06T09:21:48.657Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.657Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.657Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.658Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/exercise-sensors-revert.md
+2026-07-06T09:21:48.658Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.658Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.658Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.658Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/text.md
+2026-07-06T09:21:48.658Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.658Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.658Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.659Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/exercise-stage-fright.md
+2026-07-06T09:21:48.659Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.660Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.660Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.660Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-mix-messy-graph.md
+2026-07-06T09:21:48.660Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.660Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.660Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.660Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/text.md
+2026-07-06T09:21:48.660Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.660Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.660Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.661Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/exercise-fork-repo.md
+2026-07-06T09:21:48.661Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.661Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.661Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.661Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/cherryPick/text.md
+2026-07-06T09:21:48.661Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.661Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.661Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.661Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/detour-pushToMultipleRepos-fragment.md
+2026-07-06T09:21:48.661Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.661Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.661Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.661Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/text.md
+2026-07-06T09:21:48.661Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.661Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.661Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.661Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/text.md
+2026-07-06T09:21:48.661Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.662Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.662Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.662Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/steps-view-commits-list-fragment.md
+2026-07-06T09:21:48.662Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.662Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.662Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.662Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/companion-app/index.md
+2026-07-06T09:21:48.662Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.662Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.662Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.662Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/exercise-ignoring-somethings.md
+2026-07-06T09:21:48.662Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.662Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.662Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.663Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/interactiveRebase/text.md
+2026-07-06T09:21:48.663Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.663Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.663Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.663Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/common/aliases-fragment.md
+2026-07-06T09:21:48.663Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.663Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.663Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.663Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/exercise-sensors-diff.md
+2026-07-06T09:21:48.663Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.663Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.664Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.664Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/text.md
+2026-07-06T09:21:48.664Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.665Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.665Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.665Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/detour-stagingFileDeletions-fragment.md
+2026-07-06T09:21:48.665Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.665Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.665Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.665Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/text.md
+2026-07-06T09:21:48.665Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.665Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.665Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.666Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/text.md
+2026-07-06T09:21:48.666Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.666Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.666Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.666Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/detour-resolvePrConflict-fragment.md
+2026-07-06T09:21:48.666Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.666Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.666Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.666Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-branch-previous.md
+2026-07-06T09:21:48.666Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.666Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.666Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.666Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/steps-view-revision-graph-fragment.md
+2026-07-06T09:21:48.666Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.666Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.666Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.666Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/exercise-sensors-reset.md
+2026-07-06T09:21:48.667Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.667Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.667Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.667Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/selectiveStage/text.md
+2026-07-06T09:21:48.667Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.667Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.667Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.667Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/text.md
+2026-07-06T09:21:48.667Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.667Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.667Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.667Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/common/terms-fragment.md
+2026-07-06T09:21:48.667Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.667Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.667Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.667Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/less-pager-fragment.md
+2026-07-06T09:21:48.667Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.667Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.667Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.667Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/detour-undoRepoInit-fragment.md
+2026-07-06T09:21:48.667Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.667Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.667Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.667Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/detour-resetTrackingBranch-fragment.md
+2026-07-06T09:21:48.667Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.667Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.668Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.668Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/detour-stashingChanges-fragment.md
+2026-07-06T09:21:48.668Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.668Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.668Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.668Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/interactiveRebase/detour-updateLastCommit-fragment.md
+2026-07-06T09:21:48.668Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.668Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.668Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.668Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/exercise-staging-intervention.md
+2026-07-06T09:21:48.668Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.668Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.668Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.668Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commitMessage/text.md
+2026-07-06T09:21:48.668Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.668Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.668Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.668Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md
+2026-07-06T09:21:48.668Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.668Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.668Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.668Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/exercise-conflict-mediator.md
+2026-07-06T09:21:48.668Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.668Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.668Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.751Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByRebase/text.md
+2026-07-06T09:21:48.751Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.751Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.751Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.752Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/steps-init-repo-fragment.md
+2026-07-06T09:21:48.752Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.752Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.752Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.752Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-07-06T09:21:48.752Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.752Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.752Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.753Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/text.md
+2026-07-06T09:21:48.753Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.753Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.753Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.753Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/steps-verify-file-modified-fragment.md
+2026-07-06T09:21:48.753Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.753Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.753Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.753Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/text.md
+2026-07-06T09:21:48.754Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.754Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.754Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.754Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-forward.md
+2026-07-06T09:21:48.754Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.754Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.754Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.755Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPush/text.md
+2026-07-06T09:21:48.755Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.755Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.755Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.755Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-compare.md
+2026-07-06T09:21:48.755Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.755Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.755Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.755Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-mix-messy-docs.md
+2026-07-06T09:21:48.755Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.755Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.755Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:48.755Z - [32minfo[39m: [17:21:48] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/text.md
+2026-07-06T09:21:48.755Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:48.755Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:48.755Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:49.464Z - [32minfo[39m: No pages needed to be rebuilt
+2026-07-06T09:21:49.579Z - [32minfo[39m: Assets built
+2026-07-06T09:21:57.925Z - [32minfo[39m: [17:21:57] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-06T09:21:57.929Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:21:57.930Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:21:57.930Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-07-06T09:21:59.009Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T09:21:59.061Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/githubPrep/index.md
+2026-07-06T09:21:59.081Z - [32minfo[39m: Site data built
+2026-07-06T09:21:59.081Z - [32minfo[39m: Pages rebuilt
+2026-07-06T09:21:59.081Z - [32minfo[39m: Website regeneration complete! Total build time: 0.073s
+2026-07-06T09:28:43.146Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index as some of its dependencies were changed since the last visit
+2026-07-06T09:28:43.786Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-07-06T09:28:43.839Z - [32minfo[39m: Site data built
+2026-07-06T09:28:43.839Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.693s
+2026-07-06T09:33:09.925Z - [32minfo[39m: [17:33:09] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-07-06T09:33:09.929Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:33:09.930Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:33:09.930Z - [32minfo[39m: 1. lessons/trail/recordingFolderHistory/index
+2026-07-06T09:33:10.938Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T09:33:11.528Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-07-06T09:33:11.580Z - [32minfo[39m: Site data built
+2026-07-06T09:33:11.580Z - [32minfo[39m: Pages rebuilt
+2026-07-06T09:33:11.580Z - [32minfo[39m: Website regeneration complete! Total build time: 0.646s
+2026-07-06T09:34:37.604Z - [32minfo[39m: [17:34:37] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/images/repoArea.png
+2026-07-06T09:34:37.611Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:34:37.611Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:34:37.611Z - [32minfo[39m: 1. lessons/trail/recordingFolderHistory/index
+2026-07-06T09:34:38.639Z - [32minfo[39m: Assets built
+2026-07-06T09:35:23.022Z - [32minfo[39m: [17:35:23] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/images/repoArea.png
+2026-07-06T09:35:23.023Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:35:23.023Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:35:23.028Z - [32minfo[39m: 1. lessons/trail/recordingFolderHistory/index
+2026-07-06T09:35:24.033Z - [32minfo[39m: Assets built
+2026-07-06T09:36:36.967Z - [32minfo[39m: [17:36:36] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-07-06T09:36:36.968Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:36:36.969Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:36:36.970Z - [32minfo[39m: 1. lessons/trail/recordingFolderHistory/index
+2026-07-06T09:36:37.991Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T09:36:38.579Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-07-06T09:36:38.646Z - [32minfo[39m: Site data built
+2026-07-06T09:36:38.646Z - [32minfo[39m: Pages rebuilt
+2026-07-06T09:36:38.646Z - [32minfo[39m: Website regeneration complete! Total build time: 0.672s
+2026-07-06T09:43:17.715Z - [32minfo[39m: [17:43:17] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-06T09:43:17.719Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:43:17.719Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:43:17.720Z - [32minfo[39m: 1. lessons/trail/recordingFolderHistory/index
+2026-07-06T09:43:18.826Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T09:43:19.302Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-07-06T09:43:19.369Z - [32minfo[39m: Site data built
+2026-07-06T09:43:19.369Z - [32minfo[39m: Pages rebuilt
+2026-07-06T09:43:19.369Z - [32minfo[39m: Website regeneration complete! Total build time: 0.551s
+2026-07-06T09:43:33.728Z - [32minfo[39m: [17:43:33] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-06T09:43:33.729Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:43:33.729Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:43:33.730Z - [32minfo[39m: 1. lessons/trail/recordingFolderHistory/index
+2026-07-06T09:43:34.808Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T09:43:35.296Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-07-06T09:43:35.362Z - [32minfo[39m: Site data built
+2026-07-06T09:43:35.362Z - [32minfo[39m: Pages rebuilt
+2026-07-06T09:43:35.362Z - [32minfo[39m: Website regeneration complete! Total build time: 0.555s
+2026-07-06T09:44:35.403Z - [32minfo[39m: [17:44:35] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-06T09:44:35.404Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:44:35.409Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:44:35.409Z - [32minfo[39m: 1. lessons/trail/recordingFolderHistory/index
+2026-07-06T09:44:36.499Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T09:44:36.970Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-07-06T09:44:37.027Z - [32minfo[39m: Site data built
+2026-07-06T09:44:37.027Z - [32minfo[39m: Pages rebuilt
+2026-07-06T09:44:37.027Z - [32minfo[39m: Website regeneration complete! Total build time: 0.528s
+2026-07-06T09:44:43.519Z - [32minfo[39m: [17:44:43] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-06T09:44:43.521Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:44:43.522Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:44:43.522Z - [32minfo[39m: 1. lessons/trail/recordingFolderHistory/index
+2026-07-06T09:44:44.612Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T09:44:45.102Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-07-06T09:44:45.153Z - [32minfo[39m: Site data built
+2026-07-06T09:44:45.153Z - [32minfo[39m: Pages rebuilt
+2026-07-06T09:44:45.153Z - [32minfo[39m: Website regeneration complete! Total build time: 0.542s
+2026-07-06T09:45:18.203Z - [32minfo[39m: [17:45:18] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/text.md
+2026-07-06T09:45:18.205Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:45:18.206Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:45:18.206Z - [32minfo[39m: 1. lessons/trail/recordingFolderHistory/index
+2026-07-06T09:45:18.208Z - [32minfo[39m: [17:45:18] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/common/macros.njk
+2026-07-06T09:45:18.209Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:45:18.209Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:45:18.209Z - [32minfo[39m: 1. lessons/trail/recordingFolderHistory/index
+2026-07-06T09:45:19.297Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-06T09:45:19.837Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-07-06T09:45:19.889Z - [32minfo[39m: Site data built
+2026-07-06T09:45:19.889Z - [32minfo[39m: Pages rebuilt
+2026-07-06T09:45:19.889Z - [32minfo[39m: Website regeneration complete! Total build time: 0.593s
+2026-07-06T09:47:31.338Z - [32minfo[39m: [17:47:31] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByRebase/text.md
+2026-07-06T09:47:31.342Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:47:31.343Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:47:31.343Z - [32minfo[39m: 1. lessons/trail/recordingFolderHistory/index
+2026-07-06T09:47:31.344Z - [32minfo[39m: [17:47:31] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByMerge/text.md
+2026-07-06T09:47:31.344Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:47:31.344Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:47:31.344Z - [32minfo[39m: 1. lessons/trail/recordingFolderHistory/index
+2026-07-06T09:47:31.344Z - [32minfo[39m: [17:47:31] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/cherryPick/text.md
+2026-07-06T09:47:31.344Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-06T09:47:31.344Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-06T09:47:31.344Z - [32minfo[39m: 1. lessons/trail/recordingFolderHistory/index
+2026-07-06T09:47:32.368Z - [32minfo[39m: No pages needed to be rebuilt
+2026-07-06T09:48:13.954Z - [32minfo[39m: Website generation started at 17:48:13
+2026-07-06T09:48:14.109Z - [32minfo[39m: Building assets...
