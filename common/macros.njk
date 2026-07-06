@@ -471,10 +471,10 @@
 {% endmacro %}
 <!-- ============================================================ -->
 
-{% macro show_two_column_row(image_path, width="300") %}
+{% macro show_two_column_row(image_path, width="300", border=1) %}
 <div class="row align-items-start g-3 mt-1">
   <div class="col-auto">
-    <img src="{{ image_path }}" class="img-fluid d-block" style="{{ img_style }}" width="{{ width }}" />
+    <img src="{{ image_path }}" class="img-fluid d-block" style="{{ img_style if border else img_style_no_border }}; border={{ border }}" width="{{ width }}" />
   </div>
   <div class="col-md">
 
