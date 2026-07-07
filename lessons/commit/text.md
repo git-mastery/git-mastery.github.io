@@ -52,7 +52,8 @@ This is a good time to recap the **three internal zones of a Git repo:**
 
 **Which area is the 'repository', exactly?**{.text-info}
 {% call show_two_column_row("images/repoArea.png", border=0) %}
-The concept 'repository' maps to the disk area of the `.git` folder. However, the term 'repository' is sometimes used to refer to the 'committed history' area of `.git` folder, and sometimes to the entire project folder, depending on the context of usage.
+The term 'repository' generally refers to the disk area of the `.git` folder. However, it can sometimes also mean the 'committed history' area (which resides insides the `.git` folder` or even the entire project folder depending on the context.
+
 {% endcall %}
 </box>
 
