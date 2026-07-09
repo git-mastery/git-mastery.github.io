@@ -1,0 +1,24 @@
+2026-07-09T17:48:46.255Z - [32minfo[39m: Website generation (lazy) started at 01:48:46
+2026-07-09T17:48:46.521Z - [32minfo[39m: Building assets...
+2026-07-09T17:48:46.628Z - [32minfo[39m: Assets built
+2026-07-09T17:48:46.629Z - [32minfo[39m: Generating landing page...
+2026-07-09T17:48:46.703Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-07-09T17:48:46.714Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-07-09T17:48:46.805Z - [32minfo[39m: Site data built
+2026-07-09T17:48:46.805Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 0.67s
+2026-07-09T17:48:46.819Z - [32minfo[39m: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-07-09T17:48:46.819Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-07-09T17:48:52.932Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions as some of its dependencies were changed since the last visit
+2026-07-09T17:48:52.979Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions.md
+2026-07-09T17:48:52.993Z - [32minfo[39m: Site data built
+2026-07-09T17:48:52.994Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.065s
+2026-07-09T17:48:59.495Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2026-07-09T17:48:59.882Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index.md
+2026-07-09T17:48:59.899Z - [32minfo[39m: Site data built
+2026-07-09T17:48:59.899Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.405s
+2026-07-09T17:49:04.900Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/backingUpOnCloud/index as some of its dependencies were changed since the last visit
+2026-07-09T17:49:05.300Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/backingUpOnCloud/index.md
+2026-07-09T17:49:05.335Z - [32minfo[39m: Site data built
+2026-07-09T17:49:05.335Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.437s
+2026-07-09T17:50:20.661Z - [32minfo[39m: Website generation started at 01:50:20
+2026-07-09T17:50:20.784Z - [32minfo[39m: Building assets...
