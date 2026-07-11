@@ -12,6 +12,14 @@ pageNav: 4
 
 <span class="d-none" id="motivation">One benefit of maintaining a copy of a repo on a cloud server is that it acts as a safety net %%(e.g., against the folder becoming inaccessible due to a hardware fault)%%.</span>
 
+<div id="video">
+<box>
+
+@[youtube](KKzOV8Ij6b8)
+
+</box>
+</div>
+
 
 <div id="body">
 
