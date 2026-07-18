@@ -74,7 +74,7 @@
   },
   "workingWithRemotes": {
     "folder": "workingWithRemotes",
-    "title": "Tour 3: Working Off a Remote Repo",
+    "title": "Tour 3: Working With an Existing Remote Repo",
     "lessons": {
       "fork": {
         "title": "T3L1. Duplicating a Remote Repo on the Cloud",

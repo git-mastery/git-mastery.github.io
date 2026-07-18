@@ -1,0 +1,71 @@
+2026-07-18T17:47:47.673Z - [32minfo[39m: Website generation (lazy) started at 01:47:47
+2026-07-18T17:47:48.122Z - [32minfo[39m: Building assets...
+2026-07-18T17:47:48.326Z - [32minfo[39m: Assets built
+2026-07-18T17:47:48.327Z - [32minfo[39m: Generating landing page...
+2026-07-18T17:47:48.480Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-07-18T17:47:48.508Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-07-18T17:47:48.659Z - [32minfo[39m: Site data built
+2026-07-18T17:47:48.660Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 1.156s
+2026-07-18T17:47:48.695Z - [32minfo[39m: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-07-18T17:47:48.696Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-07-18T17:47:56.569Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions as some of its dependencies were changed since the last visit
+2026-07-18T17:47:56.633Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions.md
+2026-07-18T17:47:56.645Z - [32minfo[39m: Site data built
+2026-07-18T17:47:56.645Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.084s
+2026-07-18T17:48:37.910Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2026-07-18T17:48:38.439Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index.md
+2026-07-18T17:48:38.467Z - [32minfo[39m: Site data built
+2026-07-18T17:48:38.468Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.559s
+2026-07-18T17:48:46.616Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithRemotes/index as some of its dependencies were changed since the last visit
+2026-07-18T17:48:46.879Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithRemotes/index.md
+2026-07-18T17:48:46.910Z - [32minfo[39m: Site data built
+2026-07-18T17:48:46.910Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.294s
+2026-07-18T17:49:50.583Z - [32minfo[39m: [01:49:50] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithRemotes/text.md
+2026-07-18T17:49:50.588Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-18T17:49:50.590Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-18T17:49:50.591Z - [32minfo[39m: 1. lessons/trail/workingWithRemotes/index
+2026-07-18T17:49:51.687Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-18T17:49:52.327Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithRemotes/index.md
+2026-07-18T17:49:52.376Z - [32minfo[39m: Site data built
+2026-07-18T17:49:52.376Z - [32minfo[39m: Pages rebuilt
+2026-07-18T17:49:52.376Z - [32minfo[39m: Website regeneration complete! Total build time: 0.776s
+2026-07-18T17:57:12.718Z - [32minfo[39m: [01:57:12] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-07-18T17:57:12.729Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-18T17:57:12.734Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-18T17:57:12.736Z - [32minfo[39m: 1. lessons/trail/workingWithRemotes/index
+2026-07-18T17:57:13.782Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-18T17:57:14.526Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithRemotes/index.md
+2026-07-18T17:57:14.586Z - [32minfo[39m: Site data built
+2026-07-18T17:57:14.587Z - [32minfo[39m: Pages rebuilt
+2026-07-18T17:57:14.587Z - [32minfo[39m: Website regeneration complete! Total build time: 0.828s
+2026-07-18T17:57:19.943Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/index as some of its dependencies were changed since the last visit
+2026-07-18T17:57:20.006Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/index.md
+2026-07-18T17:57:20.013Z - [32minfo[39m: Site data built
+2026-07-18T17:57:20.013Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.072s
+2026-07-18T17:57:24.938Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/index as some of its dependencies were changed since the last visit
+2026-07-18T17:57:24.994Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/index.md
+2026-07-18T17:57:25.001Z - [32minfo[39m: Site data built
+2026-07-18T17:57:25.001Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.064s
+2026-07-18T17:58:16.750Z - [32minfo[39m: [01:58:16] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/text.md
+2026-07-18T17:58:16.767Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-07-18T17:58:16.772Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-07-18T17:58:16.773Z - [32minfo[39m: 1. lessons/clone/index
+2026-07-18T17:58:17.780Z - [32minfo[39m: Rebuilding 1 pages
+2026-07-18T17:58:17.882Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/index.md
+2026-07-18T17:58:17.899Z - [32minfo[39m: Site data built
+2026-07-18T17:58:17.899Z - [32minfo[39m: Pages rebuilt
+2026-07-18T17:58:17.899Z - [32minfo[39m: Website regeneration complete! Total build time: 0.122s
+2026-07-18T18:00:13.040Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/index as some of its dependencies were changed since the last visit
+2026-07-18T18:00:13.251Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/index.md
+2026-07-18T18:00:13.271Z - [32minfo[39m: Site data built
+2026-07-18T18:00:13.271Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.231s
+2026-07-18T18:03:22.938Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithRemotes/index as some of its dependencies were changed since the last visit
+2026-07-18T18:03:23.227Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithRemotes/index.md
+2026-07-18T18:03:23.250Z - [32minfo[39m: Site data built
+2026-07-18T18:03:23.250Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.313s
+2026-07-18T18:04:25.392Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/usingRevisionHistory/index as some of its dependencies were changed since the last visit
+2026-07-18T18:04:25.887Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/usingRevisionHistory/index.md
+2026-07-18T18:04:25.943Z - [32minfo[39m: Site data built
+2026-07-18T18:04:25.943Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.552s
+2026-07-18T18:09:28.393Z - [32minfo[39m: Website generation started at 02:09:28
+2026-07-18T18:09:28.648Z - [32minfo[39m: Building assets...
