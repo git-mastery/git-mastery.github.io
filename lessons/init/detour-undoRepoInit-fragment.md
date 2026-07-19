@@ -3,11 +3,11 @@
 When Git initializes a repo in a folder, it does not touch any files in the folder except to create the `.git` folder and its contents. So, you can reverse the operation by deleting the newly created `.git` folder.
 
 ```bash{.no-line-numbers}
-git status #run this to confirm a repo exists
+git status # run this to confirm a repo exists
 
-rm -rf .git  #delete the .git folder
+rm -rf .git  # delete the .git folder
 
-git status #this should give an error, as the repo no longer exists
+git status # this should give an error, as the repo no longer exists
 ```
 
 {{ ask_chatgpt("Explanation of `rm -rf .git` command", "I'm new to the bash terminal. Explain to me how the `rm -rf .git` command works.") }}

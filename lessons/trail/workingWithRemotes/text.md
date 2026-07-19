@@ -12,6 +12,15 @@ pageNav: 4
 
 <span class="d-none" id="motivation">You will often need to start with an existing remote repository. You may need to create your own copies and keep them updated when the upstream repository changes.</span>
 
+
+<div id="video">
+<box>
+
+@[youtube](onBJbDSbnaE)
+
+</box>
+</div>
+
 <div id="body">
 
 {{ show_tour(tour) }}

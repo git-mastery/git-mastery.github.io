@@ -14,10 +14,7 @@ https://github.com/<owner>/<remote-repo>.git  # using HTTPS
 git@github.com:<owner>/<remote-repo>.git  # using SSH
 ```
 
-<box class="d-print-none" seamless>
-
-Your GitHub username : <cv-placeholder-input name="username" appearance="underline" layout="inline"></cv-placeholder-input><br>
-%%<small>Note: Type your GitHub username in the blank above so that we can customize sample commands to fit you.</small>%%</box>
+{{ m.ask_for_github_username() }}
 
 The full commands:
 ```bash{highlight-lines="1['[[username: JohnDoe]]'],1['gitmastery-things'],2['[[username: JohnDoe]]'],2['gitmastery-things']"}

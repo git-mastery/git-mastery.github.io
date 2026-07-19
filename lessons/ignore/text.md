@@ -126,6 +126,7 @@ echo "even more temp stuff" > file2.tmp
   1. Revision control systems are optimized for tracking text-based files, not binary files.
 * **Temporary files** %%e.g., log files generated while testing the product%%
 * **Local files**, i.e., files specific to your own computer %%e.g., local settings of your IDE (`.idea/`)%%
+* **Auto-fetched files**, i.e., files automatically downloaded by build tools and package managers %%e.g., `node_modules/` for Node.js projects%%
 * **Sensitive content**, i.e., files containing sensitive or personal information %%e.g., credential files, personal identification data%% (especially if there is a risk of those files leaking through the revision control system).
 
 </div>

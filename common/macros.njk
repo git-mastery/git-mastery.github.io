@@ -857,5 +857,14 @@ Click [here]({{ tour_page }}) to see the full tour page.
 
 {% macro ask_chatgpt(visible_text, prompt) %}<span class="badge bg-light rounded-pill text-dark fw-normal d-print-none"><a href="https://chatgpt.com/?q={{ (prompt if prompt else visible_text) | urlencode }}" target="_blank">{{ visible_text }}</a> %%:bi-openai:%%</span>{% endmacro %}
 <!-- ============================================================ -->
-  {% macro ask_chatgpt_for_three_os(visible_text, prompt) %}<small>{{ visible_text }}</small> {{ ask_chatgpt(":fab-windows: Windows", prompt + " I'm using Windows") }} | {{ ask_chatgpt(":fab-apple: macOS", prompt + " I'm using macOS")  }} | {{ ask_chatgpt(":fab-linux: Linux", prompt + " I'm using Linux") }}{% endmacro %}
+
+{% macro ask_chatgpt_for_three_os(visible_text, prompt) %}<small>{{ visible_text }}</small> {{ ask_chatgpt(":fab-windows: Windows", prompt + " I'm using Windows") }} | {{ ask_chatgpt(":fab-apple: macOS", prompt + " I'm using macOS")  }} | {{ ask_chatgpt(":fab-linux: Linux", prompt + " I'm using Linux") }}{% endmacro %}
+<!-- ============================================================ -->
+
+{% macro ask_for_github_username() %}
+<box class="d-print-none" seamless>
+
+Your GitHub username : <cv-placeholder-input name="username" appearance="underline" layout="inline"></cv-placeholder-input><br>
+%%<small>Note: Type your GitHub username in the blank above so that we can customize sample commands to fit you.</small>%%</box>
+{% endmacro %}
 <!-- ============================================================ -->

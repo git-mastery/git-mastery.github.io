@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, button_green, callout, exercises, hp_number, label, show_git_term, show_detour, show_exercise, show_hands_on_practical, show_lesson_intro, show_output, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, ask_chatgpt, ask_for_github_username, bold_number, button_green, callout, exercises, hp_number, label, show_git_term, show_detour, show_exercise, show_hands_on_practical, show_lesson_intro, show_output, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 
@@ -22,9 +22,9 @@ The first step of backing up a local repo on GitHub: **create an empty repositor
 {{ hp_number ('1') }} **Log in to your GitHub account and choose to create a new repo.** <br>
    <pic eager src="images/createNewRemoteRepo.png" width="250" />
 
-{{ hp_number ('2') }} **On the next screen, provide `gitmastery-things` as the name for your repo**. Refer to the screenshot below for guidance on what information to provide.<br>
+{{ hp_number ('2') }} **On the next screen, provide `gitmastery-things` as the name for your repo**. Refer to the screenshot below for which options to choose for the remaining fields.<br>
    <pic eager src="images/fillNewRepoInfo.png" width="650" /><br>
-   **Click the {{ button_green("Create repository") }} button** to create the new repository.
+   **Click the {{ button_green("Create repository") }} button** to create the new repository. {{ ask_chatgpt("What's the difference between public and private repos?", "Explain the difference between public and private GitHub repos.") }}
 
 <box type="warning" seamless>
 
@@ -34,6 +34,8 @@ If you enable any of the three `Add _____` options shown above, GitHub will not 
 {{ hp_number ('3') }} **Note the URL of the repo.** It will be of the form<br> `https://github.com/{your_user_name}/{repo_name}.git`.<br>
    e.g., `https://github.com/[[username: JohnDoe]]/gitmastery-things.git` (note the `.git` at the end)<br>
    <pic eager src="images/newRepoUrl.png" width="600" />
+
+{{ ask_for_github_username() }}
 {% endcall %}
 
 </div>

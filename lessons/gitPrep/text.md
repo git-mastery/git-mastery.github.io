@@ -36,7 +36,7 @@ Before you start learning Git, **you need to install some tools** on your comput
 
 <box type="warning" seamless>
 
-When running Git commands, we recommend that Windows users **use the Git Bash terminal** that comes with Git. To open the Git Bash terminal, hit the <kbd>:fab-windows:</kbd> key and type `git-bash`.
+When running Git commands, **Windows users should use the Git Bash terminal** that comes with Git. To open the Git Bash terminal, hit the <kbd>:fab-windows:</kbd> key and type `git-bash`. #r#Some commands might not work in other terminals such as PowerShell.##
 
 {{ icon_tip }} The installation might not have added a shortcut to the Start Menu.
 You can navigate to the directory where `git-bash.exe` is (most likely `C:\Program Files\Git\git-bash.exe`), and double-click `git-bash.exe` to open Git Bash.<br>
