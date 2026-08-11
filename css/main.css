@@ -244,6 +244,12 @@ h2 {
   padding: 0.2em 0.4em;
 }
 
+/* Give untyped <box> elements Bootstrap's bg-light background. */
+.alert.box-container.alert-default {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+}
+
 /* Hide site navigation when printing */
 @media print {
     #site-nav {
