@@ -1,0 +1,42 @@
+2026-08-13T11:29:54.573Z - [32minfo[39m: Website generation (lazy) started at 19:29:54
+2026-08-13T11:29:54.924Z - [32minfo[39m: Building assets...
+2026-08-13T11:29:55.113Z - [32minfo[39m: Assets built
+2026-08-13T11:29:55.113Z - [32minfo[39m: Generating landing page...
+2026-08-13T11:29:55.228Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-08-13T11:29:55.240Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-08-13T11:29:55.326Z - [32minfo[39m: Site data built
+2026-08-13T11:29:55.326Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 0.941s
+2026-08-13T11:29:55.341Z - [32minfo[39m: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:8080
+2026-08-13T11:29:55.342Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-08-13T11:29:58.278Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions as some of its dependencies were changed since the last visit
+2026-08-13T11:29:58.319Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions.md
+2026-08-13T11:29:58.324Z - [32minfo[39m: Site data built
+2026-08-13T11:29:58.324Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.047s
+2026-08-13T11:30:00.945Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2026-08-13T11:30:01.310Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index.md
+2026-08-13T11:30:01.324Z - [32minfo[39m: Site data built
+2026-08-13T11:30:01.324Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.379s
+2026-08-13T11:30:07.271Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/githubPrep/index as some of its dependencies were changed since the last visit
+2026-08-13T11:30:07.347Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/githubPrep/index.md
+2026-08-13T11:30:07.366Z - [32minfo[39m: Site data built
+2026-08-13T11:30:07.366Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.096s
+2026-08-13T11:30:40.020Z - [32minfo[39m: [19:30:40] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/githubPrep/text.md
+2026-08-13T11:30:40.021Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-13T11:30:40.025Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-13T11:30:40.028Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-08-13T11:30:41.034Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-13T11:30:41.152Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/githubPrep/index.md
+2026-08-13T11:30:41.169Z - [32minfo[39m: Site data built
+2026-08-13T11:30:41.169Z - [32minfo[39m: Pages rebuilt
+2026-08-13T11:30:41.169Z - [32minfo[39m: Website regeneration complete! Total build time: 0.138s
+2026-08-13T11:31:53.011Z - [32minfo[39m: [19:31:53] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/githubPrep/text.md
+2026-08-13T11:31:53.013Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-13T11:31:53.014Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-13T11:31:53.014Z - [32minfo[39m: 1. lessons/githubPrep/index
+2026-08-13T11:31:54.027Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-13T11:31:54.134Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/githubPrep/index.md
+2026-08-13T11:31:54.148Z - [32minfo[39m: Site data built
+2026-08-13T11:31:54.148Z - [32minfo[39m: Pages rebuilt
+2026-08-13T11:31:54.148Z - [32minfo[39m: Website regeneration complete! Total build time: 0.127s
+2026-08-13T11:33:14.893Z - [32minfo[39m: Website generation started at 19:33:14
+2026-08-13T11:33:14.997Z - [32minfo[39m: Building assets...
