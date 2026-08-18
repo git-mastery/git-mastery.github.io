@@ -9,6 +9,7 @@
   <li><a href="{{baseUrl}}/faq/index.html" class="nav-link"><md>**FAQ**</md></a></li>
   <li><a href="{{baseUrl}}/about/index.html" class="nav-link"><md>**About**</md></a></li>
   <li><a href="https://github.com/git-mastery" class="nav-link"><md>:fab-github:</md></a></li>
+  <li ><a highlight-on="none" href="#cv-share" class="nav-link"><md><tooltip content="share a focused/annotated view of the current page"  placement="bottom">:fas-share-square:</tooltip></md></a></li>
   <li slot="right" class="nav-link">
     <form class="navbar-form">
       <searchbar placeholder="Search" algolia menu-align-right></searchbar>
