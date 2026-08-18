@@ -11,6 +11,11 @@ You are given a repo named `crime-spree` (apparently, containing details of some
 1. Examine the list of commits in the `crime-spree` repo to find the answers.
 1. Enter your answers in the `answers.txt` file.
 
+<box type="tip" seamless>
+
+**Hint:** The output of the `git log` is paginated. The commit you are looking for might not be in the first page of output it shows.
+</box>
+
 </div>
 
 {{ show_exercise(exercises.log_and_order, is_panel=0) }}
