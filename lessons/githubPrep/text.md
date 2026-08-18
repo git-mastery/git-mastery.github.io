@@ -49,6 +49,11 @@ A {{ show_git_term("Personal Access Token (PAT)") }} is essentially a long, rand
 
 Set up your computer's GitHub authentication, as described in the se-edu guide [Setting up GitHub Authentication](https://se-education.org/guides/tutorials/githubAuthentication.html).
 
+<box type="tip" seamless>
+
+Unless you already use SSH, choose HTTP -- it's easier to set up and less prone to issues.
+</box>
+
 {% endcall %}<!-- show_prep GitHub authentication -->
 
 
