@@ -116,6 +116,11 @@ git config --global user.email
 ```
 {% endcall %} <!-- show_prep -->
 
+<box type="tip" seamless>
+
+#g#Wish you had **a cheat sheet of Git commands**?## There are a few of them available online, for example, [this one from git-scm.com](https://git-scm.com/cheat-sheet).
+</box>
+
 ##### Configuring `init.defaultBranch`
 
 **Git has a config property named `init.defaultBranch` that specifies the default _branch_ name for new repositories** %%(you'll learn more about Git branches in later lessons)%%. Git uses `master` as the default value, but `main` is more common now. Git-Mastery uses `main` too. To make Git behave more consistently with our lessons, you should set this property to `main`, as described in the panel below:
