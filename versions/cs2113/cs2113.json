@@ -12,7 +12,7 @@
     },
     "placeholders": {
       "course": "CS2113/T",
-      "username": "nusUser"
+      "username": "username"
     },
     "labels": {
       "recordingFolderHistory.intro": {"value": "Compulsory", "color": "r" },
