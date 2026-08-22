@@ -1,0 +1,11 @@
+2026-08-22T16:00:18.991Z - [32minfo[39m: [00:00:18] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/text.md
+2026-08-22T16:00:19.001Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-22T16:00:19.002Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-22T16:00:19.002Z - [32minfo[39m: 1. lessons/prsCreate/index
+2026-08-22T16:00:20.006Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-22T16:00:20.178Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/index.md
+2026-08-22T16:00:20.198Z - [32minfo[39m: Site data built
+2026-08-22T16:00:20.198Z - [32minfo[39m: Pages rebuilt
+2026-08-22T16:00:20.198Z - [32minfo[39m: Website regeneration complete! Total build time: 0.194s
+2026-08-22T16:00:47.628Z - [32minfo[39m: Website generation started at 00:00:47
+2026-08-22T16:00:47.747Z - [32minfo[39m: Building assets...
