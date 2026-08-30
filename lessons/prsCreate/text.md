@@ -50,7 +50,7 @@ Normally, the default value shown in the dropdown is what you want but in case y
 
 <span id="submit-the-pr">
 
-* Click the {{ button_green("Create pull request") }} button.{texts="['6.1)', '6.2)']"}
+* Click the {{ button_green("Create pull request") }} button.{texts="['6.1)', '6.2)', '6.3)', '6.4)', '6.5)', '6.6)']"}
 * Fill in the PR name and description e.g.,<br>
    Name: `Add an introduction to the README.md`<br>
    Description:
