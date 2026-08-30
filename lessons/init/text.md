@@ -151,6 +151,11 @@ You can even dig around inside that folder -- it is just a bunch of subfolders a
 
 <p/>
 
+<box type="info" class="d-print-none" seamless>
+
+**If you are doing Git-Mastery exercises as a course requirement, note that your Git-Mastery exercise progress will not be visible to your course instructors until you go past Tour 2, Lesson 2** (in which you will be taught how to enable the `progress sync` feature of the Git-Mastery app). Your progress will be saved in your computer until then and uploaded to a location visible to others only at that time.
+</box>
+
 {% call callout(toggle_id="detours") %}
 {{ label('warning', icon_detour + ' DETOUR') }} panels contain related directions you can optionally explore. We recommend that you ==only skim them the first time you are going through a tour== (i.e., just to know _what_ each detour covers); you can revisit them later, to deepen your knowledge further, or when you encounter a use case related to the concepts covered by the detour.
 {% endcall %}
