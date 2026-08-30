@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, ask_chatgpt, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_git_term, show_git_term_with_tip, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_prep, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, ask_chatgpt, ask_for_github_username, bold_number, callout, exercises, hp_number, label, os_tabs_marker, show_commit, show_git_term, show_git_term_with_tip, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_prep, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 
@@ -136,6 +136,9 @@ gitmastery check github
 ```bash{.no-line-numbers}
 gitmastery progress sync on
 ```
+{{ icon_tip }} **Set your GitHub username as given below** so that Git-Mastery website can configure the `Progress` link in the top navigation menue to point to the page that shows _your_ progress.
+
+{{ ask_for_github_username() }}
 
 <box type="info" seamless>
 
