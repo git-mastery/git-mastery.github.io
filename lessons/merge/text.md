@@ -327,13 +327,18 @@ To permanently prevent fast-forwarding:
 
 <pic src="images/squashAfter.png" width="300" />
 {% endset %}
-{{ show_multiple_columns([a, '|', b]) }}
+{% set c %}
+->[_after_ deleting `fix1`]<-
+
+<pic src="images/squashAfterDelete.png" width="225" />
+{% endset %}
+{{ show_multiple_columns([a, '|', b, '|', c]) }}
 
 In the example above, `fix1` has been squash-merged into `main`, creating a single 'squashed' commit `e` from the commits in `fix1`. **The 'squashed' commit is a regular commit with one parent, not a merge commit with two parents**.
 
 <!-- ------ end: transformation columns -------------------------------->
 
-**After a squash merge, you typically delete the source branch**, so its individual commits no longer appear in the destination branch's main history %%(you'll learn how to delete branches in an upcoming lesson)%%. The history stays linear because one regular commit replaces the source branch's work, with no second-parent link to that branch.
+**After a squash merge, you typically delete the source branch**, so its individual commits no longer appear in the repo's history %%(you'll learn how to delete branches in an upcoming lesson)%%. The destination branch stays linear because one regular commit in the destination branch replaces the source branch's work, with no second-parent link to that branch from that commit.
 
 Here is a comparison of the three merge types covered here: regular merging with a merge commit, fast-forward merging, and squash merging.
 
