@@ -49,7 +49,7 @@ Therefore, **a {{ show_git_term("branch") }} is conceptually a _named timeline_ 
 
 **_All_ commits reachable from the branch ref are considered part of the branch.** Reachability follows each commit's 'parent' link. In the example below, commits `c`, `b`, and `a` are on `main` because Git can start from the ref `main` and traverse to those commits through parent links. Similarly, commits `f1`, `e1`, `d1`, `c`, `b`, and `a` are on `fix1`.
 
-<img style="{{ img_style_no_border }}" src="images/reachableCommitsInABranch.png" width="600"/>
+<img class="tbg" style="{{ img_style_no_border }}" src="images/reachableCommitsInABranch.png" width="600"/>
 <p/>
 
 <box type="info" seamless>
@@ -74,7 +74,7 @@ Caveat: When switching branches, uncommitted changes may be carried across, conf
 
 In the example below, observe how the file in the working directory changes as we change the active branch.
 
-<img style="{{ img_style_no_border }}" src="images/workingDirectlyReflectsActiveBranch.png" width="750"/>
+<img class="tbg" style="{{ img_style_no_border }}" src="images/workingDirectlyReflectsActiveBranch.png" width="750"/>
 <p/>
 
 

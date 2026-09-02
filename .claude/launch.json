@@ -6,6 +6,12 @@
       "runtimeExecutable": "npx",
       "runtimeArgs": ["markbind", "serve", "-p", "8099", "--no-open"],
       "port": 8099
+    },
+    {
+      "name": "site-static",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8098", "--directory", "_site"],
+      "port": 8098
     }
   ]
 }

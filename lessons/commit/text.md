@@ -43,15 +43,15 @@ A Git commit is a snapshot of _all_ tracked files, not simply a delta of _what c
 </box>
 
 This is a good time to recap the **three internal zones of a Git repo:**
-1. <span class="badge bg-info text-light">Working directory</span> The folder on your computer that contains the repo files. This is your workspace for editing files.<br>
+1. <span class="badge bg-info">Working directory</span> The folder on your computer that contains the repo files. This is your workspace for editing files.<br>
    Another name for this zone is {{ show_git_term('working tree') }}.
 1. <span class="badge bg-warning text-dark">Staging area</span> (aka the <span class="badge bg-warning text-dark">index</span>) The space that contains a copy of the exact versions of all tracked files (modified and unmodified) that will be written into the next commit. This resides inside the `.git` folder.
-1. <span class="badge bg-success text-light">Committed history</span> Stores the commits and other metadata related to the revision history of the project. This also resides inside the `.git` folder.
+1. <span class="badge bg-success text-white">Committed history</span> Stores the commits and other metadata related to the revision history of the project. This also resides inside the `.git` folder.
 
 <box type="info" seamless>
 
 **Which area is the 'repository', exactly?**{.text-info}
-{% call show_two_column_row("images/repoArea.png", border=0) %}
+{% call show_two_column_row("images/repoArea.png", border=0, tbg=0) %}
 The term 'repository' generally refers to the disk area of the `.git` folder. However, it can sometimes also mean the 'committed history' area (which resides inside the `.git` folder` or even the entire project folder depending on the context.
 
 {% endcall %}

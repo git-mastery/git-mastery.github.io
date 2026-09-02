@@ -36,14 +36,14 @@ Git then applies the source branch's changes to your current branch. Normally, t
 {% set a %} <!-- ------ start: columns --------------->
 ->[merging `fix1` into `main`]<-
 
-<pic src="images/directionIntoMain.png" width="300" />
+<pic class="tbg" src="images/directionIntoMain.png" width="300" />
 
 Changes made in `d1` and `e1` are available on `main`, but changes made in `d` are not available on `fix1`.
 {% endset %}
 {% set b %}
 ->[merging `main` into `fix1`]<-
 
-<pic src="images/directionIntoFix1.png" width="300" />
+<pic class="tbg" src="images/directionIntoFix1.png" width="300" />
 
 Changes made in `d` are available on `fix1`, but changes made in `d1` and `e1` are not available on `main`.
 {% endset %}
@@ -320,17 +320,17 @@ To permanently prevent fast-forwarding:
 {% set a %} <!-- ------ start: columns --------------->
 ->[_before_ squash-merging `fix1` into `main`]<-
 
-<pic src="images/squashBefore.png" width="300" />
+<pic class="tbg" src="images/squashBefore.png" width="300" />
 {% endset %}
 {% set b %}
 ->[_after_ squash-merging `fix1` into `main`]<-
 
-<pic src="images/squashAfter.png" width="300" />
+<pic class="tbg" src="images/squashAfter.png" width="300" />
 {% endset %}
 {% set c %}
 ->[_after_ deleting `fix1`]<-
 
-<pic src="images/squashAfterDelete.png" width="225" />
+<pic class="tbg" src="images/squashAfterDelete.png" width="225" />
 {% endset %}
 {{ show_multiple_columns([a, '|', b, '|', c]) }}
 

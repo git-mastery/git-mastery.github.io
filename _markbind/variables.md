@@ -25,7 +25,7 @@
 <variable id="icon_lecture"><md>:glyphicon-blackboard:</md></variable>
 <variable id="icon_like"><md>:fas-thumbs-up:</md></variable>
 <variable id="icon_linux"><md>:fab-linux:</md></variable>
-<variable id="icon_important_big_red"><span style="color: red">++<md>:glyphicon-exclamation-sign:</md>++</span></variable>
+<variable id="icon_important_big_red"><span class="text-danger">++<md>:glyphicon-exclamation-sign:</md>++</span></variable>
 <variable id="icon_important"><md>:glyphicon-exclamation-sign:</md></variable>
 <variable id="icon_new_window"><md>:glyphicon-new-window:</md></variable>
 <variable id="icon_outcome"><md>:fas-trophy:</md></variable>
@@ -45,7 +45,7 @@
 <variable id="icon_terminal"><small><span class="badge bg-secondary">&gt;_</span></small></variable>
 <variable id="icon_text"><md>:far-file-alt:</md></variable>
 <variable id="icon_tick"><md>:fas-check:</md></variable>
-<variable id="icon_tick_green"><span style="color:green">{{ icon_tick | safe }}</span></variable>
+<variable id="icon_tick_green"><span class="text-success">{{ icon_tick | safe }}</span></variable>
 <variable id="icon_tip"><span class="badge rounded-pill bg-success text-white">:fas-lightbulb:</span></variable>
 <variable id="icon_todo"><md>:glyphicon-check:</md></variable>
 <variable id="icon_tutorial"><md>:fas-chalkboard-teacher:</md></variable>
@@ -55,16 +55,16 @@
 <variable id="icon_warning"><span class="badge rounded-pill bg-warning text-dark">:fas-exclamation:</span></variable>
 <variable id="icon_windows"><md>:fab-windows:</md></variable>
 <variable id="icon_x"><md>:fas-times:</md></variable>
-<variable id="icon_x_red"><span style="color:red">{{ icon_x | safe }}</span></variable>
+<variable id="icon_x_red"><span class="text-danger">{{ icon_x | safe }}</span></variable>
 <variable id="indented_arrow">&nbsp;&nbsp;&nbsp;&nbsp; ++↳++</variable>
-<variable id="bad"><span style="color: red"><md>**:fas-thumbs-down: Bad**</md></span></variable>
-<variable id="good"><span style="color: green"><md>**:fas-thumbs-up: Good**</md></span></variable>
+<variable id="bad"><span class="text-danger"><md>**:fas-thumbs-down: Bad**</md></span></variable>
+<variable id="good"><span class="text-success"><md>**:fas-thumbs-up: Good**</md></span></variable>
 
 <variable id="numbers_abcd">\{texts="['a)', 'b)', 'c)', 'd)', 'e)', 'f)', 'g)', 'h)']"\}</variable>
 <variable id="numbers_roman">\{texts="['i.', 'ii.', 'iii.', 'iv.', 'v.', 'vi.', 'vii.']"\}</variable>
 
 <variable id="img_style_no_border">display: block; margin: 0 auto;</variable>
-<variable id="img_style">{{ img_style_no_border}} border: 1px solid #ddd; border-radius: 4px;</variable>
+<variable id="img_style">{{ img_style_no_border}} border: 1px solid var(--bs-border-color); border-radius: 4px;</variable>
 
 <variable id="term_oss">**Open-source software (OSS)** is software whose source code is made publicly available, allowing anyone to view, use, modify, or share it—depending on the terms of its license. This is different from **closed-source** software, where the source code is kept private and is not accessible to the public.</variable>
 <variable id="term_repository">A Git _repository_ (short name: _repo_) is a database of the revision history of a folder.</variable>

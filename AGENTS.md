@@ -32,6 +32,28 @@
 
 **Be careful with OS-specific and UI-specific instructions.** Windows, macOS, Linux, CLI, and Sourcetree variants should remain accurate and clearly scoped.
 
+## Light and Dark Mode
+
+**The site renders in both light and dark mode, and both are held to WCAG AA.** All theme
+handling lives in the "Dark mode" section at the end of `css/main.css`, with the measured
+contrast ratio in a comment beside each value. `README.md` states the same authoring rules for
+human contributors. **To measure a page rather than eyeball it, use the `contrast-audit`
+skill**, which carries the auditor and the procedure for reading its output.
+
+**Never write a color into a page.** Inline `style="color: ..."` and `style="background-color:
+..."` cannot follow the theme. Use a Bootstrap utility, or add a class in `css/main.css` with a
+`[data-bs-theme="dark"]` counterpart. Prefer a translucent `rgba(...)` wash, which tints
+whichever page background is behind it, except where one tint will nest inside another.
+
+**Avoid the Bootstrap tokens that are fixed in both themes**: `bg-*-subtle` (its dark values are
+darker than the dark page), `--bs-dark-rgb`, `text-dark`, `text-light`, `bg-light` and
+`.text-secondary`. Use `text-body-emphasis`, `text-body-secondary`, `bg-body-tertiary` and the
+`*-text-emphasis` tokens instead, and pair a badge's text with its fill using `text-bg-*`.
+
+**Give images with dark ink on a transparent background `class="tbg"`**, which puts a pale
+ground behind them. Screenshots with an opaque background do not need it. Mermaid diagrams are
+already handled by the `.mermaid` rule.
+
 ## Writing Style
 
 **Use American English for all new and revised prose.** This site is for an international student audience, so prefer direct, plain wording over region-specific idioms.

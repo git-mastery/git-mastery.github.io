@@ -32,7 +32,7 @@
 </nav>
 <div id="content-wrapper" class="fixed-header-padding">
 
-# <span class="text-dark"><small>****Git-Mastery: Lessons****</small></span>
+# <span class="text-body-emphasis"><small>****Git-Mastery: Lessons****</small></span>
   {{ content }}
 </div>
 <nav id="page-nav" class="fixed-header-padding">

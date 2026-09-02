@@ -2,7 +2,7 @@
 
 <div class="p-1">
 
-<thumbnail circle text="C1" background="red" font-color="white" size="40" /> <small>← a **commit**</small>
+<thumbnail circle text="C1" background="#d00000" font-color="white" size="40" /> <small>← a **commit**</small>
 <div class="indented-level1 small">
 <tree>
 ↑

@@ -2,7 +2,8 @@
   "baseUrl": "",
   "timeZone": "Asia/Singapore",
   "style": {
-    "codeTheme": "light"
+    "codeTheme": "light",
+    "darkMode": true
   },
   "pages": [
     {
@@ -34,6 +35,7 @@
   "pagesExclude": ["**/*-fragment.md"],
   "ignore": [
     "diagrams",
+    "_temp",
     "_site/*",
     "site.json",
     "lessons/*/text.md",

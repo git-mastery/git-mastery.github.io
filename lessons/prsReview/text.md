@@ -43,8 +43,8 @@ Another way to contribute to a GitHub project is by giving input via a pull requ
 
 {{ hp_number("4") }}**Add review comments:**
 
-* Hover over the line you want to comment on and click on the <span style="color:#0066ff">:fas-plus-square:</span> icon that appears on the left margin. That should create a text box for you to enter your comment. {{ sub_numbers('4') }}
-   * {{ icon_tip }} To give a comment related to multiple lines, click-and-drag the <span style="color:#0066ff">:fas-plus-square:</span> icon. The result will look like this:<br>
+* Hover over the line you want to comment on and click on the <span class="text-primary">:fas-plus-square:</span> icon that appears on the left margin. That should create a text box for you to enter your comment. {{ sub_numbers('4') }}
+   * {{ icon_tip }} To give a comment related to multiple lines, click-and-drag the <span class="text-primary">:fas-plus-square:</span> icon. The result will look like this:<br>
      <pic eager src="images/addCommentForMultipleLines.png"/>
 * Enter your comment.<br>
    * {{ icon_resource }} [This page @SE-EDU/guides](https://se-education.org/guides/guidelines/PRs-reviewing.html) has some best practices PR reviewers can follow.
