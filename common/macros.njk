@@ -192,7 +192,7 @@
 {% macro thumbnail(icon, size=50) %}<thumbnail circle text="{{ icon }}" background="#198754" font-color="white" size="{{ size }}" />{% endmacro %}
 <!-- ============================================================ -->
 
-{% macro annotation_label(x, y, text) %}<a-point x="{{ x }}%" y="{{ y }}%"><md><span style="background-color: yellow;" class="p-1 opacity-75 rounded-2">{{ text }}</span></md></a-point>{% endmacro %}
+{% macro annotation_label(x, y, text) %}<a-point x="{{ x }}%" y="{{ y }}%"><md><span class="bg-annotation p-1 opacity-75 rounded-2">{{ text }}</span></md></a-point>{% endmacro %}
 <!-- ============================================================ -->
 
 {% macro show_output(indent_level='') %}
@@ -226,18 +226,18 @@
 {% macro show_head() -%}<span style="position: relative; left: -2px;"><span class="text-danger m-0 p-0">←</span><span class="badge bg-danger text-white me-2 ps-1 pe-1">HEAD</span></span>{%- endmacro %}
 <!-- ============================================================ -->
 
-{% macro show_tag(text) -%}<span class="badge rounded-pill bg-light mt-0 mb-0 pb-0 pt-0 pe-1 ps-1 text-dark border border-secondary"><md>:octicon-tag: {{ text }}</md></span>{%- endmacro %}
+{% macro show_tag(text) -%}<span class="badge rounded-pill bg-body-tertiary mt-0 mb-0 pb-0 pt-0 pe-1 ps-1 text-body-emphasis border border-secondary"><md>:octicon-tag: {{ text }}</md></span>{%- endmacro %}
 <!-- ============================================================ -->
 
 {% macro show_commit(text, edge='|', desc='', style="info", msg='') %}
 {% set size = '25' %}
-<div class="d-flex align-items-center"><span class="d-flex justify-content-center align-items-center border bg-{{ style }} text-white border-{{ style }}" style="width: {{ size }}px; height: {{ size }}px; border-radius: 50%;"><md><small>{{ text }}</small></md></span>{% if desc %}<span class="ms-1"><md>{{ desc }}</md></span>{% endif %}{% if msg %}<span class="ms-2 font-monospace small"><md>%%{{ msg }}%%</md></span>{% endif %}</div>
-{% if edge %}<div class="d-flex justify-content-center align-items-center text-{{ style }}" style="width: {{ size }}px; height: 18px; padding: 0; margin: -4px 0;">{{ edge }}</div>{% endif %}{% endmacro %}
+<div class="d-flex align-items-center"><span class="commit-node d-flex justify-content-center align-items-center border bg-{{ style }} text-white border-{{ style }}" style="width: {{ size }}px; height: {{ size }}px; border-radius: 50%;"><md><small>{{ text }}</small></md></span>{% if desc %}<span class="ms-1"><md>{{ desc }}</md></span>{% endif %}{% if msg %}<span class="ms-2 font-monospace small"><md>%%{{ msg }}%%</md></span>{% endif %}</div>
+{% if edge %}<div class="commit-node d-flex justify-content-center align-items-center text-{{ style }}" style="width: {{ size }}px; height: 18px; padding: 0; margin: -4px 0;">{{ edge }}</div>{% endif %}{% endmacro %}
 <!-- ============================================================ -->
 
-{% macro show_git_term(term, definition_id="", current_page="") -%}<span class="badge text-dark" style="background-color: rgba(13, 202, 240, 0.2);">{% if current_page %}<trigger for="pop:{{ current_page }}-{{ definition_id }}">{% endif %}++{{ term }}++{% if current_page %}</trigger>{% endif %}</span>{%- endmacro %}
+{% macro show_git_term(term, definition_id="", current_page="") -%}<span class="badge text-body-emphasis bg-term-highlight">{% if current_page %}<trigger for="pop:{{ current_page }}-{{ definition_id }}">{% endif %}++{{ term }}++{% if current_page %}</trigger>{% endif %}</span>{%- endmacro %}
 
-{% macro show_git_term_with_tip(term, tip) -%}<span class="badge text-dark" style="background-color: rgba(13, 202, 240, 0.2);"><popover content="{{ tip }}">++{{ term }}++</popover></span>{%- endmacro %}
+{% macro show_git_term_with_tip(term, tip) -%}<span class="badge text-body-emphasis bg-term-highlight"><popover content="{{ tip }}">++{{ term }}++</popover></span>{%- endmacro %}
 <!-- ============================================================ -->
 
 {% macro show_fine_print(details) -%}<span class="badge text-info border-light" style="font-weight: normal;"><popover content="{{ details }}">[fine print]</popover></span>{%- endmacro %}
@@ -246,34 +246,34 @@
 
 {% macro show_folder_contents(filename, prefix='', has_commits=0, width=240) -%}
 {% set prefix_str = (prefix + '-') if prefix else '' %}
-<div class="border border-info p-0 bg-white" style="width: {{ width }}px;">
-<div class="bg-info text-white p-1"><md>{{ icon_folder }} Project Folder</md></div>
-<div class="p-2" style="background-color: #e7fafe;">
+<div class="border border-info p-0 bg-body" style="width: {{ width }}px;">
+<div class="bg-info text-dark p-1"><md>{{ icon_folder }} Project Folder</md></div>
+<div class="p-2 folder-diagram-body">
   <!-- start: .git folder -->
-  <div class="border border-danger bg-light pb-0" style="width: {{ width-15 }}px;">
-  <div class="bg-danger text-light p-1"><md>{{ icon_folder }} .git Folder</md></div>
-  <div class="pt-2 p-1 bg-danger-subtle" style="width: {{ width-17 }}px; ">
+  <div class="border border-danger bg-body-tertiary pb-0" style="width: {{ width-15 }}px;">
+  <div class="bg-danger text-white p-1"><md>{{ icon_folder }} .git Folder</md></div>
+  <div class="pt-2 p-1 folder-region-danger" style="width: {{ width-17 }}px; ">
 
   {% if not has_commits %}
   <!-- start: other metadata -->
-  <div class="bg-light rounded-1 border-0" style="margin: 0px 2px 1px 1px; padding: 1px;">
-  <small><span class="text-secondary m-1 ps-2">other Git metadata ...</span></small><br>
+  <div class="bg-body-tertiary rounded-1 border-0" style="margin: 0px 2px 1px 1px; padding: 1px;">
+  <small><span class="text-body-secondary m-1 ps-2">other Git metadata ...</span></small><br>
   </div>
   <!-- end: other metadata -->
   {% endif %}
 
   {% if has_commits %}
   <!-- start: repository -->
-  <div class="bg-success-subtle rounded-1 border-0" style="margin: 7px 2px 1px 1px; padding: 1px;">
-  <span class="badge bg-success text-light mt-1 ms-1">Committed history</span><br>
+  <div class="folder-region-success rounded-1 border-0" style="margin: 7px 2px 1px 1px; padding: 1px;">
+  <span class="badge bg-success text-white mt-1 ms-1">Committed history</span><br>
   <include src="{{ filename }}#{{ prefix_str }}metadata"/>
-  <small><span class="text-secondary m-1 ps-2">[other Git metadata ...]</span></small>
+  <small><span class="text-body-secondary m-1 ps-2">[other Git metadata ...]</span></small>
   </div>
   <!-- end: repository -->
   {% endif %}
 
   <!-- start: staging area -->
-  <div class="bg-warning-subtle rounded-1 border-0" style="margin: 7px 2px 1px 1px; padding: 1px;">
+  <div class="folder-region-warning rounded-1 border-0" style="margin: 7px 2px 1px 1px; padding: 1px;">
   <span class="badge bg-warning text-dark mt-1 ms-1">Staging area</span><br>
   <div class="pt-0 pb-0 p-2">
   <small>
@@ -288,9 +288,9 @@
   </div>
   <!-- end: .git folder -->
   <!-- start: working dir -->
-  <div class="bg-info-subtle rounded-1 border-0" style="margin: 9px 2px 1px 1px; padding: 1px; background-color: #51d9f4;">
+  <div class="folder-region-info rounded-1 border-0" style="margin: 9px 2px 1px 1px; padding: 1px;">
   <small>
-  <span class="badge bg-info text-light mt-1 ms-1">Working directory</span><br>
+  <span class="badge bg-info mt-1 ms-1">Working directory</span><br>
   <div class="pt-0 pb-0 p-2">
 
   <include src="{{ filename }}#{{ prefix_str }}working"/>
@@ -306,7 +306,7 @@
 {% macro show_folder_columns(filename, prefixes = ['a', 'b', 'c']) -%}
 <div class="d-flex flex-wrap gap-3">
 {% for p in prefixes %}
-<div class="p-2 bg-light text-start"  style="max-width: 260px;">
+<div class="p-2 bg-body-tertiary text-start"  style="max-width: 260px;">
 {{ show_folder_contents(filename, p) }}
 <br>
 
@@ -471,10 +471,14 @@
 {% endmacro %}
 <!-- ============================================================ -->
 
-{% macro show_two_column_row(image_path, width="300", border=1) %}
+<!-- `tbg` defaults on because this macro is used almost exclusively for line
+     diagrams drawn in dark ink on a transparent background, which need a pale
+     ground of their own to stay readable on the dark page. Pass tbg=0 for an
+     image that already has an opaque background of its own. -->
+{% macro show_two_column_row(image_path, width="300", border=1, tbg=1) %}
 <div class="row align-items-start g-3 mt-1">
   <div class="col-auto">
-    <img src="{{ image_path }}" class="img-fluid d-block" style="{{ img_style if border else img_style_no_border }}; border={{ border }}" width="{{ width }}" />
+    <img src="{{ image_path }}" class="img-fluid d-block{{ ' tbg' if tbg }}" style="{{ img_style if border else img_style_no_border }}; border={{ border }}" width="{{ width }}" />
   </div>
   <div class="col-md">
 
@@ -484,12 +488,12 @@
 {% endmacro %}
 <!-- ============================================================ -->
 
-{%- macro hp_number(text) %}<span style="position: relative; right: 12px; background-color: rgba(255, 0, 0, 0.2); border-radius: 0 0.7em 0.7em 0" class="ps-3 pe-3 pb-1 pt-1 text-dark text-dark"><small>**{{ text }}**</small></span>{% endmacro -%}
+{%- macro hp_number(text) %}<span style="position: relative; right: 12px; border-radius: 0 0.7em 0.7em 0" class="bg-hands-on ps-3 pe-3 pb-1 pt-1 text-body-emphasis"><small>**{{ text }}**</small></span>{% endmacro -%}
 <!-- ============================================================ -->
 
 {% macro show_hands_on_practical(title) %}
 <cv-toggle toggle-id="hands-on-practicals">
-<span style="position: relative; top: 10px; background-color: rgba(255, 0, 0, 0.2);" class="badge rounded-pill text-dark fs-6">{{ icon_hands_on }} HANDS-ON: {{ title }}</span>
+<span style="position: relative; top: 10px;" class="bg-hands-on badge rounded-pill text-body-emphasis fs-6">{{ icon_hands_on }} HANDS-ON: {{ title }}</span>
 <div class="indented-level1 hands-on-practical">
 
 <box type="important" seamless no-icon>
@@ -516,7 +520,7 @@
 <!-- ============================================================ -->
 
 {% macro show_gm_footer() %}
-<div class="bg-light">
+<div class="bg-body-tertiary">
 
   -><small>[Git-Mastery **commands list**]({{ baseUrl }}/companion-app/index.html?cv-show=app-commands)
   | [Report Git-Mastery **bugs**](https://github.com/git-mastery/git-mastery/issues)
@@ -699,7 +703,7 @@ popup-url="{{ file | replace(".md", ".html") }}">
 
 {% macro show_lesson_intro() %}
 <cv-toggle toggle-id="lesson-intros">
-<div class="d-print-none border border-success pt-0 ps-1 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color: #e6fff2">
+<div class="tour-panel d-print-none border border-success pt-0 ps-1 pb-1 pe-1 border-bottom-0 rounded-top">
 
 <div class="indented">
 <br>
@@ -719,7 +723,7 @@ popup-url="{{ file | replace(".md", ".html") }}">
 {% set lesson_path = "lessons/" + lesson_data.lesson_name %}
 <div class="indented-level1 d-print-none">
 
-<div class="border border-success pt-2 ps-2 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color: #e6fff2">
+<div class="tour-panel border border-success pt-2 ps-2 pb-1 pe-1 border-bottom-0 rounded-top">
 <include src="{{ baseUrl }}/{{ lesson_path }}/text.md#overview" inline />
 </div>
 {% set trial_link = baseUrl + '/lessons/trail/' + tour.folder + '/index.html' %}
@@ -746,7 +750,7 @@ popup-url="{{ file | replace(".md", ".html") }}">
 {% macro show_sidebar(title, non_printable=0) %}
 {% if non_printable %}<div class="d-print-none">{% endif %}
 
-<box class="bg-light" icon=":fas-bookmark:" type="info" header="****SIDEBAR: {{ title }}****{.text-info}" seamless>
+<box class="bg-body-tertiary" icon=":fas-bookmark:" type="info" header="****SIDEBAR: {{ title }}****{.text-info}" seamless>
 
 {{ caller() }}
 </box>
@@ -755,7 +759,7 @@ popup-url="{{ file | replace(".md", ".html") }}">
 <!-- ============================================================ -->
 
 {% macro show_protip(title) %}
-<box class="bg-light" icon=":fas-rocket:" type="success" header="****PRO-TIP: {{ title }}****{.text-success}" seamless>
+<box class="bg-body-tertiary" icon=":fas-rocket:" type="success" header="****PRO-TIP: {{ title }}****{.text-success}" seamless>
 
 {{ caller() }}
 </box>
@@ -765,7 +769,7 @@ popup-url="{{ file | replace(".md", ".html") }}">
 {% macro show_tour_intro(tour, is_outside_tour=0) %}
 {% set tour_folder = baseUrl + "/lessons/trail/" + tour.folder %}
 <cv-toggle toggle-id="lesson-intros">
-<div class="d-print-none" style="background-color: #e6fff2; border-top-left-radius: 15px; border-top-right-radius: 15px;">
+<div class="tour-panel d-print-none" style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
 
 {{ show_tour_title(tour.title) }}
 <div class="p-3">
@@ -789,7 +793,7 @@ popup-url="{{ file | replace(".md", ".html") }}">
 {% set tour_folder = baseUrl + "/lessons/trail/" + tour.folder %}
 
 <cv-toggle toggle-id="lesson-intros">
-<div  style="background-color: #e6fff2; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" class="d-print-none p-3 border-bottom border-5 border-success">
+<div style="border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" class="tour-panel d-print-none p-3 border-bottom border-5 border-success">
 
 **At this point**: <include src="{{ tour_folder }}/text.md#achievements" trim inline/>
 
@@ -822,7 +826,7 @@ popup-url="{{ file | replace(".md", ".html") }}">
 {% set tour_page =  baseUrl + '/lessons/trail/' + tour.folder + '/index.html' %}
 <div class="indented-level1">
 
-<div class="border border-success pt-2 ps-2 pb-1 pe-1 border-bottom-0 rounded-top" style="background-color: #e6fff2">
+<div class="tour-panel border border-success pt-2 ps-2 pb-1 pe-1 border-bottom-0 rounded-top">
 Target usage: <include src="{{ tour.folder }}/text.md#destination" trim inline/>
 <p/>
 <small>This usage is covered by,</small>
@@ -832,7 +836,7 @@ Target usage: <include src="{{ tour.folder }}/text.md#destination" trim inline/>
 <panel type="seamless" header="tour details ..." expand-headerless>
 
 {{ show_tour_intro(tour, is_outside_tour=1) }}
-<div class="ps-5 pt-2" style="border-left: 3px dotted #e6fff2; border-right: 3px dotted #e6fff2; border-top: none; border-bottom: none;">
+<div class="ps-5 pt-2 tour-panel-dotted-sides">
 
 Click [here]({{ tour_page }}) to see the full tour page.
 </div>
@@ -855,7 +859,7 @@ Click [here]({{ tour_page }}) to see the full tour page.
 {% endmacro %}
 <!-- ============================================================ -->
 
-{% macro ask_chatgpt(visible_text, prompt) %}<span class="badge bg-light rounded-pill text-dark fw-normal d-print-none"><a href="https://chatgpt.com/?q={{ (prompt if prompt else visible_text) | urlencode }}" target="_blank">{{ visible_text }}</a> %%:bi-openai:%%</span>{% endmacro %}
+{% macro ask_chatgpt(visible_text, prompt) %}<span class="badge bg-body-tertiary rounded-pill text-body-emphasis fw-normal d-print-none"><a href="https://chatgpt.com/?q={{ (prompt if prompt else visible_text) | urlencode }}" target="_blank">{{ visible_text }}</a> %%:bi-openai:%%</span>{% endmacro %}
 <!-- ============================================================ -->
 
 {% macro ask_chatgpt_for_three_os(visible_text, prompt) %}<small>{{ visible_text }}</small> {{ ask_chatgpt(":fab-windows: Windows", prompt + " I'm using Windows") }} | {{ ask_chatgpt(":fab-apple: macOS", prompt + " I'm using macOS")  }} | {{ ask_chatgpt(":fab-linux: Linux", prompt + " I'm using Linux") }}{% endmacro %}

@@ -1,0 +1,293 @@
+/* =====================================================================
+   Portable dark-mode / contrast rules for a MarkBind site.
+
+   Extracted from the CS2103 website after a full light+dark contrast
+   pass. Every value here was measured in a browser against the
+   Bootstrap bundle MarkBind ships, not chosen by eye.
+
+   These rules are site-agnostic: they fix defects in Bootstrap's own
+   utilities, MarkBind's components, the highlight.js code themes, and
+   the Algolia DocSearch widget. Paste the whole file into your site's
+   css/main.css, then verify (see INSTRUCTIONS.md).
+
+   Site-specific rules have been stripped out.
+   ===================================================================== */
+
+/* --- helper classes referenced by content -------------------------- */
+.tbg {  /* transparent white background for images */
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 8px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.mermaid {  /* transparent white background to support dark mode: mermaid renders dark text and lines */
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 8px;
+  border-radius: 6px;
+}
+
+/* Glossary-term highlight (show_term). A translucent wash rather than
+   bg-info-subtle: that utility's dark value (#032830) is darker than the dark
+   page background (#212529), so the badge disappears entirely. Translucency
+   needs no [data-bs-theme] override -- it tints whichever ground is behind it. */
+.bg-term-highlight {
+  background-color: rgba(13, 202, 240, 0.2);
+}
+[data-bs-theme="dark"] .bg-term-highlight {
+  background-color: rgba(13, 202, 240, 0.3);  /* ~1.9:1 against the dark page */
+}
+/* =========================================================
+   Highlighted text (<mark>, written as ==text== in Markdown).
+
+   MarkBind repaints the highlight dark-olive in dark mode
+   (`--bs-highlight-bg`, #664d03) but leaves the text at
+   `color: inherit`. Inside a fixed-colour ground -- e.g. a
+   text-bg-info panel header, where the inherited colour is
+   black -- that lands black-on-olive at 2.6:1. Pin the
+   paired colour Bootstrap already defines for that ground.
+   ========================================================= */
+
+[data-bs-theme="dark"] mark {
+    color: var(--bs-highlight-color);    /* #dee2e6, 6.1:1 on #664d03 */
+}
+
+/* =========================================================
+   Theme-aware text on fixed-colour grounds.
+
+   Bootstrap flips text colours between light and dark but leaves the
+   `.bg-*` fills alone, so text that adapts drifts out of contrast
+   whenever it sits on a fill that does not. Each rule below re-pins
+   one such pair. See also the <mark> rule above, same family.
+   ========================================================= */
+
+/* `%%...%%` inside an amber header (tp-grading's marks allocations).
+   bg-warning is a fixed #ffc107 in both themes, so .dimmed fails on it
+   either way -- 1.3:1 in dark once it lightens to #adb5bd, and 2.8:1 in
+   light at its own grey. Darken rather than lighten, unscoped. */
+.bg-warning .dimmed,
+[data-bs-theme="dark"] .bg-warning .dimmed {   /* must out-rank the plain
+                                                  [data-bs-theme] .dimmed
+                                                  rule further down */
+    color: #5c4a00;                      /* 7.0:1 dark, 5.3:1 light */
+}
+
+/* .bg-info paints the ground only, and .badge's own default colour is
+   white -- 2.0:1, in both themes. Bootstrap's .text-bg-info pairs black
+   with the cyan; do the same for the badges that build the class from a
+   variable (`bg-{{ extStyle }}` and friends), which no source-level
+   rename can reach. */
+.badge.bg-info {
+    color: #000;                         /* 10.7:1 on #0dcaf0 */
+}
+
+/* Semantic text colours resolve from --bs-*-rgb, which is fixed, so they
+   land at 3.0-3.9:1 on the dark page. The matching *-text-emphasis
+   tokens are the theme-aware pair. !important because the rules being
+   overridden set the colour that way too. */
+[data-bs-theme="dark"] .text-danger    { color: var(--bs-danger-text-emphasis) !important; }
+[data-bs-theme="dark"] .text-success   { color: var(--bs-success-text-emphasis) !important; }
+[data-bs-theme="dark"] .mkb-text-red   { color: var(--bs-danger-text-emphasis) !important; }
+[data-bs-theme="dark"] .mkb-text-green { color: var(--bs-success-text-emphasis) !important; }
+
+/* Collapsed cross-page panel titles ("Admin -> tP -> ..."). Bootstrap
+   pins .btn-outline-secondary's --bs-btn-color to a fixed #6c757d,
+   giving 2.8:1 on the panel ground. The button's own colour cannot be
+   overridden -- MarkBind's Vue layer re-applies it -- so colour the
+   title inside it instead. */
+[data-bs-theme="dark"] .morph-display-wrapper .card-title,
+[data-bs-theme="dark"] .morph-display-wrapper .card-title * {
+    color: var(--bs-body-color) !important;
+}
+
+/* Heading text paired with the info badges (`<span class="text-info">`).
+   --bs-info is a bright cyan (#0dcaf0) that reads well on the dark page
+   but only manages 2.0:1 on white -- and light is the default theme, so
+   this was the site's worst contrast in the theme most readers see. The
+   *-text-emphasis token is the per-theme pair: a deeper teal on white,
+   a lighter cyan on the dark ground.
+
+   :not(.bg-info) spares the mid-semester survey bar charts, which stack
+   `text-info bg-info` deliberately so the filler dots stay invisible. */
+.text-info:not(.bg-info) {
+    color: var(--bs-info-text-emphasis) !important;   /* 5.1:1 light, 9.9:1 dark */
+}
+
+/* .bg-white and .tbg are light surfaces in *both* themes -- a <pic> whose
+   transparent image needs a pale ground, with its caption sharing the
+   panel. Dark-mode body text lands on them at 1.3:1 and 1.15:1, so pin
+   the light palette for anything inside. The link colour is darker than
+   Bootstrap's #0d6efd, which manages only 3.0:1 on .tbg's translucent
+   ground once it composites over the dark page. */
+[data-bs-theme="dark"] .bg-white,
+[data-bs-theme="dark"] .tbg     { color: #212529; }   /* 15.4:1 white, 10.3:1 .tbg */
+
+[data-bs-theme="dark"] .bg-white a,
+[data-bs-theme="dark"] .tbg a   { color: #084298; }   /*  9.4:1 white,  6.3:1 .tbg */
+
+/* Semantic colours nested inside a highlight. The *-text-emphasis tokens
+   are tuned for the page background, not for mark's dark olive, so they
+   stop at ~3.2:1 there. These are the light-theme *-bg-subtle values,
+   which keep the red/green distinction and clear AA on #664d03.
+   !important because the .text-danger/.text-success rules above set the
+   colour that way too; this selector is the more specific of the two. */
+[data-bs-theme="dark"] mark .text-danger  { color: #f8d7da !important; }  /* 6.0:1 */
+[data-bs-theme="dark"] mark .text-success { color: #d1e7dd !important; }  /* 6.2:1 */
+
+/* Links land in the same spot: the dark-mode link colour (#6ea8fe) is
+   tuned for the page, and reaches only 3.3:1 on the olive highlight. */
+[data-bs-theme="dark"] mark a { color: #cfe2ff; }                        /* 6.1:1 */
+
+
+/* =========================================================
+   Blocks that dissolve into the dark page.
+
+   These paint a fill rather than text, so nothing became
+   unreadable -- the decoration simply vanished. Each is fixed
+   by re-pointing the Bootstrap token the utility already
+   reads, which avoids having to out-shout its !important.
+   ========================================================= */
+
+/* Dark banners and pills: week pills on the timeline, the iP/tP section
+   headings, "Direction 1: Evolve", "[Key Exercise]", level thumbnails.
+   --bs-dark-rgb is a fixed 33,37,41 -- byte-identical to the dark page
+   background, so every one of these went to 1.00:1 as a block. Lifting
+   to #495057 (the theme's own border colour) reads as a raised bar at
+   1.9:1 and still carries white text at 8.2:1.
+
+   The navbar keeps the original: it already has a bottom border marking
+   it off, and it should not read as a floating slate bar. */
+[data-bs-theme="dark"] .bg-dark:not(.navbar) {
+    --bs-dark-rgb: 73, 80, 87;           /* #495057 */
+}
+
+/* Commentary and follow-up boxes. --bs-success-bg-subtle resolves to
+   #051b11 in dark mode, which is *darker* than the page -- the box read
+   as a hole punched in the background rather than a panel laid on it. A
+   translucent wash sits just above the page instead, and needs no
+   separate light-mode value. */
+[data-bs-theme="dark"] .bg-success-subtle {
+    --bs-success-bg-subtle: rgba(var(--bs-success-rgb), 0.15);
+}
+
+/* =========================================================
+   Light-mode contrast.
+
+   These are not dark-mode defects -- they measure the same in
+   both themes and simply never cleared AA on the light
+   palette. Light is scoped with :not([data-bs-theme="dark"])
+   or left unscoped where a more specific dark rule already
+   exists, so nothing here disturbs dark mode.
+   ========================================================= */
+
+/* Links. Bootstrap's #0d6efd is exactly 4.5:1 on white, which leaves no
+   margin: on any tinted ground -- the panel, callout and highlight-box
+   colours used across the site -- it falls to 3.5-4.3:1. One step darker
+   (Bootstrap's own link-hover blue) clears 4.9:1 on every ground in use.
+   Dark mode's #6ea8fe already measures well and is not touched. */
+:root:not([data-bs-theme="dark"]) {
+    --bs-link-color-rgb: 10, 88, 202;         /* #0a58ca, 6.4:1 on white */
+    --bs-link-hover-color-rgb: 8, 66, 152;    /* #084298 */
+    --bs-link-color: #0a58ca;                 /* .nav-link reads the hex token, */
+    --bs-link-hover-color: #084298;           /* not the -rgb one */
+}
+
+/* MarkBind's de-emphasis span (`%%...%%`). #777 is 4.48:1 on white and
+   3.78:1 on the tinted panel grounds it most often sits on. Unscoped:
+   MarkBind's own [data-bs-theme="dark"] .dimmed is more specific. */
+.dimmed {
+    color: #6a6a6a;                      /* 5.4:1 white, 4.6:1 worst panel */
+}
+
+/* MarkBind's inline red. Pure #f00 manages only 4.0:1 on white. */
+.mkb-text-red {
+    color: #d00000 !important;           /* 5.7:1 white, 4.8:1 worst panel */
+}
+
+/* Collapsed cross-page panel titles -- the light half of the pair whose
+   dark half is fixed above. Bootstrap's fixed #6c757d is 4.45:1 on the
+   panel ground. */
+.morph-display-wrapper .card-title,
+.morph-display-wrapper .card-title * {
+    color: #5c636a !important;           /* 6.1:1 white, 5.1:1 on panel */
+}
+
+/* ---- Syntax highlighting -------------------------------------------
+   Both highlight.js themes ship tokens below AA against their own code
+   ground. MarkBind loads both sheets and switches them with the
+   `disabled` property, following the page theme. Note that the
+   [data-code-theme] attribute does NOT track which sheet is live -- it
+   stays "light" even in dark mode -- so these key off [data-bs-theme].
+   Hue is preserved throughout; only lightness moves. The inline-code
+   rule is light-only: the dark sheet sets no colour there, so inline
+   code inherits the body colour and already reads well.
+   -------------------------------------------------------------------- */
+
+/* Light theme, ground #f8f8ff. Comments fare worst, which is exactly
+   where a reader most needs to follow prose. */
+:root:not([data-bs-theme="dark"]) .hljs-comment,
+:root:not([data-bs-theme="dark"]) .hljs-quote,
+:root:not([data-bs-theme="dark"]) .hljs-meta           { color: #5c6370; }  /* 2.7 -> 5.7 */
+:root:not([data-bs-theme="dark"]) .hljs-link,
+:root:not([data-bs-theme="dark"]) .hljs-regexp         { color: #00701c; }  /* 3.6 -> 6.0 */
+:root:not([data-bs-theme="dark"]) .hljs-built_in,
+:root:not([data-bs-theme="dark"]) .hljs-builtin-name   { color: #005f80; }  /* 3.9 -> 6.7 */
+:root:not([data-bs-theme="dark"]) .hljs.inline.no-lang { color: #c2255c; }  /* 3.6 -> 5.4 */
+
+/* Dark theme, ground #2b2b2b. */
+[data-bs-theme="dark"] .hljs-regexp,
+[data-bs-theme="dark"] .hljs-template-tag      { color: #d19a76; }  /* 2.5 -> 5.8 */
+[data-bs-theme="dark"] .hljs-doctag            { color: #93c47d; }  /* 3.6 -> 7.0 */
+[data-bs-theme="dark"] .hljs-variable,
+[data-bs-theme="dark"] .hljs-template-variable { color: #d38fd9; }  /* 3.9 -> 5.9 */
+
+
+/* Semantic text utilities on tinted grounds. .text-primary, .text-success
+   and .text-danger each read from a single fixed --bs-*-rgb: acceptable on
+   plain white at ~4.5:1, but below AA on every tinted panel ground, and on
+   the dark page as well. Light gets Bootstrap's own -600 shades, which hold
+   the hue; dark reuses the *-text-emphasis tokens. Overriding `color`
+   rather than --bs-*-rgb leaves buttons, borders and backgrounds alone. */
+:root:not([data-bs-theme="dark"]) .text-primary { color: #0a58ca !important; }  /* 3.5 -> 5.0 worst */
+:root:not([data-bs-theme="dark"]) .text-success { color: #146c43 !important; }  /* 3.5 -> 5.0 worst */
+:root:not([data-bs-theme="dark"]) .text-danger  { color: #b02a37 !important; }  /* 3.5 -> 5.0 worst */
+
+[data-bs-theme="dark"] .text-primary {
+    color: var(--bs-primary-text-emphasis) !important;   /* 3.4 -> 6.4 */
+}
+
+/* Dark-mode .dimmed. MarkBind's #adb5bd is comfortable on the page
+   (8.1:1) but only 3.94:1 on the #495057 panels that examples and
+   embedded fragments sit on. Still clearly dimmer than body text. */
+[data-bs-theme="dark"] .dimmed {
+    color: #c2c8ce;                      /* 4.9:1 on panel, 9.1:1 on page */
+}
+
+/* MarkBind's sidebar "current page" link is var(--bs-primary), a fixed
+   #0d6efd: a borderline 4.5:1 on white and only 3.4:1 on the dark page.
+   Only visible at widths where the left sidebar is shown. */
+.site-nav-root a.current {
+    color: #0a58ca;                      /* 6.4:1 on white */
+}
+
+[data-bs-theme="dark"] .site-nav-root a.current {
+    color: var(--bs-primary-text-emphasis);   /* #6ea8fe, 6.4:1 on the page */
+}
+
+/* Algolia DocSearch button. Its own #969faf placeholder is only 2.3:1 on
+   its #ebedf0 pill, so the navbar search reads poorly in *both* themes;
+   the CDN stylesheet also has no dark theme here, so the pill stays light
+   against the dark navbar. The variables
+   are set on the button rather than :root on purpose: the search modal
+   portals to <body> and keeps its own light palette, so re-colouring its
+   text globally would leave dark text on a light panel. */
+.DocSearch-Button {
+    --docsearch-muted-color: #5c6370;    /* 5.2:1 on the light #ebedf0 pill */
+}
+
+[data-bs-theme="dark"] .DocSearch-Button {
+    --docsearch-searchbox-background: #2b3035;
+    --docsearch-searchbox-focus-background: #343a40;
+    --docsearch-text-color: #dee2e6;
+    --docsearch-muted-color: #adb5bd;    /* 6.4:1 on the dark pill */
+}

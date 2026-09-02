@@ -1,3 +1,7 @@
+/* Highlighted text (==text== in Markdown). MarkBind repaints this ground to
+   Bootstrap's dark olive (#664d03) in dark mode via a rule that out-ranks this
+   one; the colors that ride on it are pinned to match near the end of this
+   file. */
 mark {
     background-color: #ff0;
     border-radius: 5px;
@@ -75,7 +79,7 @@ mark {
 }
 
 #site-nav {
-    border-right: 1px solid lightgrey;
+    border-right: 1px solid var(--bs-border-color);
     padding-bottom: 20px;
     z-index: 999;
 }
@@ -90,7 +94,7 @@ mark {
 }
 
 #page-nav {
-    border-left: 1px solid lightgrey;
+    border-left: 1px solid var(--bs-border-color);
 }
 
 @media screen and (max-width: 1299.98px) {
@@ -138,14 +142,20 @@ mark {
 /* ========== site specific ============ */
 
 
+/* This site uses the Bootstrap-4 teal in place of Bootstrap 5's #0dcaf0. The
+   fill and the border work on either page background, but the teal as *text*
+   is only 3.04:1 on white, so .text-info gets a per-theme value instead. */
 .bg-info {
     background-color: #17a2b8 !important;
 }
-.text-info {
-    color: #17a2b8 !important;
-}
 .border-info {
     border-color: #17a2b8 !important;
+}
+.text-info {
+    color: #106e7c !important;        /* 5.9:1 on white, 5.6:1 on bg-light */
+}
+[data-bs-theme="dark"] .text-info {
+    color: #6edff6 !important;        /* 9.9:1 on the dark page */
 }
 
 .website-content {
@@ -156,11 +166,19 @@ mark {
 }
 
 h1 {
-  color: #198754;
+  color: #198754;                     /* 4.5:1 on white */
 }
 
 h2 {
-  color: #2f9e6f;
+  color: #2f9e6f;                     /* 3.4:1 on white; large text, so AA */
+}
+
+[data-bs-theme="dark"] h1 {
+  color: #4ab98a;                     /* 6.3:1 on the dark page */
+}
+
+[data-bs-theme="dark"] h2 {
+  color: #75b798;                     /* 6.6:1; greyer, so h1 still leads */
 }
 
 .indented-level1 {
@@ -179,25 +197,24 @@ h2 {
     padding-left: 10px;
 }
 
-.important {
-    color: #980000;
-}
-
 /* Match the hands-on practical's vertical divider to the lighter red used by its
-   HANDS-ON title and step-number pills. The pills use rgba(255, 0, 0, 0.2), which
-   resolves to #ffcccc on the white page; the divider uses that color opaquely so
-   that where it overlaps the title pill the two layers don't compound into a darker
-   band. Extend the top up to touch the HANDS-ON title pill so all the decorated
-   elements read as one connected unit, and the bottom 1px to sit flush with the
-   last pill. */
+   HANDS-ON title and step-number pills, which use rgba(255, 0, 0, 0.2). The same
+   translucent red is used here rather than the color it resolves to on the white
+   page, so the divider tracks whichever page background is behind it; !important
+   is needed to out-rank Bootstrap's own .alert-danger fill. Extend the top up to
+   touch the HANDS-ON title pill so all the decorated elements read as one
+   connected unit, and the bottom 1px to sit flush with the last pill. */
 .hands-on-practical .alert-danger.vertical-divider {
-    background-color: #ffcccc;
+    background-color: rgba(255, 0, 0, 0.2) !important;
     margin-top: -4px;
     margin-bottom: -1px;
 }
 
+/* UI tab labels. A translucent grey resolves to ~#dfdfdf on the white page --
+   what this used to be set to outright -- and reads as a raised chip on the
+   dark page, so no second value is needed. */
 .tab {
-    background-color: #e0e0e0;
+    background-color: rgba(128, 128, 128, 0.25);
     padding: 3px;
     font-family: monospace
 }
@@ -206,12 +223,25 @@ h2 {
     display: none;
 }
 
+/* The site's mint green, shared by the callout and by the lesson/tour panels
+   in common/macros.njk. Routed through custom properties so that the CSS
+   triangles and dotted borders drawn from it follow the theme too. */
+:root {
+    --gm-mint: #e6fff2;
+    --gm-mint-border: #198754;
+}
+
+[data-bs-theme="dark"] {
+    --gm-mint: #1f3932;                 /* body text lands at 9.5:1 */
+    --gm-mint-border: #4ab98a;
+}
+
 .callout {
     position: relative;
     z-index: 1000;
     padding: 1rem;
-    background-color: #e6fff2;
-    border: 1px solid #198754;
+    background-color: var(--gm-mint);
+    border: 1px solid var(--gm-mint-border);
     border-radius: 0.5rem;
     max-width: 600px;
 }
@@ -224,7 +254,7 @@ h2 {
     left: 20px;
     border-width: 16px 12px 0;
     border-style: solid;
-    border-color: #198754 transparent transparent transparent;
+    border-color: var(--gm-mint-border) transparent transparent transparent;
 }
 
 /* Inner triangle (background color), slightly smaller to create "border" effect */
@@ -235,7 +265,7 @@ h2 {
     left: 22px;
     border-width: 14px 10px 0;
     border-style: solid;
-    border-color: #e6fff2 transparent transparent transparent;
+    border-color: var(--gm-mint) transparent transparent transparent;
     z-index: 1;
 }
 
@@ -244,10 +274,12 @@ h2 {
   padding: 0.2em 0.4em;
 }
 
-/* Give untyped <box> elements Bootstrap's bg-light background. */
+/* Give untyped <box> elements a subdued panel background. --bs-tertiary-bg is
+   the theme-aware token: #f8f9fa in light, #2b3035 in dark. --bs-light-rgb,
+   which this used before, is fixed, so it painted a light panel behind
+   dark-mode text. */
 .alert.box-container.alert-default {
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+    background-color: var(--bs-tertiary-bg);
 }
 
 /* Hide site navigation when printing */
@@ -289,4 +321,416 @@ h2 {
     img {
         zoom: 0.8;  /* might not work on some browsers */
     }
+}
+
+/* =====================================================================
+   Dark mode
+
+   Everything below exists because the site now renders in two themes.
+   Bootstrap flips its text tokens between light and dark but leaves the
+   .bg-* fills alone, so anything pairing an adaptive color with a fixed
+   one drifts out of contrast in one theme or the other.
+
+   Every value here was measured in a browser against the Bootstrap
+   bundle MarkBind ships, not chosen by eye. The target is WCAG AA:
+   4.5:1 for normal text, 3:1 for large text. For a block that carries
+   no text of its own the bar is only that it stay visibly distinct
+   from the ground behind it.
+
+   Prefer a translucent wash -- rgba(...) -- over a second opaque color
+   wherever a tint is wanted: it composites over whichever page
+   background is behind it and needs no [data-bs-theme] counterpart.
+   Note that Bootstrap's own .bg-*-subtle utilities are a trap here.
+   They are theme-aware, but their dark values are darker than the dark
+   page (.bg-info-subtle is #032830 against #212529, 1.01:1), so the
+   tint disappears rather than adapting.
+   ===================================================================== */
+
+/* --- Light surfaces in both themes ---------------------------------
+   A diagram drawn in dark ink, a highlighter pen, a screenshot with a
+   transparent background: these are light surfaces by nature, and the
+   page theme cannot change that. Give them a pale ground in both
+   themes and pin the light palette for everything sitting on them.
+   -------------------------------------------------------------------- */
+
+/* Pale ground for images whose transparent background would otherwise
+   let the dark page show through black diagram lines and labels. Apply
+   with class="tbg" (or add-class="tbg" on a <pic>). */
+.tbg {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 8px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+/* Mermaid renders dark text and lines and does not follow the page
+   theme, so its diagrams need the same treatment. Do NOT wrap the
+   diagram in a <div class="tbg"> instead -- that collapses its width. */
+.mermaid {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 8px;
+    border-radius: 6px;
+}
+
+[data-bs-theme="dark"] .bg-white,
+[data-bs-theme="dark"] .bg-annotation,
+[data-bs-theme="dark"] .tbg {
+    color: #212529;                   /* 15.4:1 on white, 10.3:1 on .tbg */
+}
+
+[data-bs-theme="dark"] .bg-white a,
+[data-bs-theme="dark"] .bg-annotation a,
+[data-bs-theme="dark"] .tbg a {
+    color: #084298;                   /*  9.4:1 on white,  6.3:1 on .tbg */
+}
+
+/* The semantic text utilities are re-pointed for the dark page further
+   down; on these light surfaces they need their light-mode values back.
+   More specific than those rules, so it wins regardless of order. */
+[data-bs-theme="dark"] .bg-white .text-danger,
+[data-bs-theme="dark"] .bg-annotation .text-danger,
+[data-bs-theme="dark"] .tbg .text-danger,
+[data-bs-theme="dark"] .bg-white .mkb-text-red,
+[data-bs-theme="dark"] .bg-annotation .mkb-text-red,
+[data-bs-theme="dark"] .tbg .mkb-text-red      { color: #b02a37 !important; }
+
+[data-bs-theme="dark"] .bg-white .text-success,
+[data-bs-theme="dark"] .bg-annotation .text-success,
+[data-bs-theme="dark"] .tbg .text-success,
+[data-bs-theme="dark"] .bg-white .mkb-text-green,
+[data-bs-theme="dark"] .bg-annotation .mkb-text-green,
+[data-bs-theme="dark"] .tbg .mkb-text-green    { color: #146c43 !important; }
+
+[data-bs-theme="dark"] .bg-white .dimmed,
+[data-bs-theme="dark"] .bg-annotation .dimmed,
+[data-bs-theme="dark"] .tbg .dimmed            { color: #6a6a6a; }
+
+/* Highlighted text. MarkBind repaints the ground to #664d03 in dark mode but
+   leaves the text at `color: inherit`, so pin the paired token Bootstrap
+   already defines for that ground. The semantic colors and links nested
+   inside are tuned for the page background, not for the olive, and stop at
+   ~3.2:1 there; these are the light-theme *-bg-subtle values, which keep the
+   red/green distinction and clear AA on it. */
+[data-bs-theme="dark"] mark                { color: var(--bs-highlight-color); }  /* 6.1:1 */
+[data-bs-theme="dark"] mark a              { color: #cfe2ff; }                    /* 6.1:1 */
+[data-bs-theme="dark"] mark .dimmed        { color: #c2c8ce; }                    /* 4.7:1 */
+[data-bs-theme="dark"] mark .text-danger,
+[data-bs-theme="dark"] mark .mkb-text-red  { color: #f8d7da !important; }          /* 6.0:1 */
+[data-bs-theme="dark"] mark .text-success,
+[data-bs-theme="dark"] mark .mkb-text-green { color: #d1e7dd !important; }         /* 6.2:1 */
+
+/* --- Theme-aware text on fixed-color grounds ------------------------ */
+
+/* .bg-info paints the ground only, and a badge's own default color is
+   white -- 3.0:1 on this site's teal, in both themes. Pair black with
+   it the way Bootstrap's .text-bg-* utilities do. This also catches the
+   badges whose class is composed in Nunjucks (`bg-{{ style }}`), which
+   no source-level rename could reach. */
+.badge.bg-info {
+    color: #000 !important;           /* 6.9:1 on #17a2b8 */
+}
+
+/* Semantic text colors resolve from a fixed --bs-*-rgb, so they land at
+   3.0-3.9:1 on the dark page. The matching *-text-emphasis tokens are
+   the theme-aware pair. !important because the rules being overridden
+   set the color that way too. */
+[data-bs-theme="dark"] .text-danger    { color: var(--bs-danger-text-emphasis) !important; }
+[data-bs-theme="dark"] .text-success   { color: var(--bs-success-text-emphasis) !important; }
+[data-bs-theme="dark"] .text-primary   { color: var(--bs-primary-text-emphasis) !important; }
+[data-bs-theme="dark"] .mkb-text-red   { color: var(--bs-danger-text-emphasis) !important; }
+[data-bs-theme="dark"] .mkb-text-green { color: var(--bs-success-text-emphasis) !important; }
+
+/* --- Blocks that dissolve into the dark page ------------------------
+   These paint a fill rather than text, so nothing became unreadable --
+   the decoration simply vanished. Each is fixed by re-pointing the
+   Bootstrap token the utility already reads, which avoids having to
+   out-shout its !important.
+   -------------------------------------------------------------------- */
+
+/* --bs-dark-rgb is a fixed 33,37,41: byte-identical to the dark page
+   background, so every bg-dark banner and PREPARATION panel header went
+   to 1.00:1 as a block. Lifting to #495057 (the theme's own border
+   color) reads as a raised bar at 1.9:1 and still carries white text at
+   8.2:1. The navbar keeps the original -- it already has a bottom
+   border marking it off, and should not read as a floating slate bar. */
+[data-bs-theme="dark"] .bg-dark:not(.navbar),
+[data-bs-theme="dark"] .text-bg-dark {
+    --bs-dark-rgb: 73, 80, 87;        /* #495057 */
+}
+
+/* The *-bg-subtle tokens resolve darker than the page in dark mode, so
+   these panels read as holes punched in the background rather than as
+   panels laid on it. A translucent wash sits just above the page
+   instead, and needs no separate light-mode value. */
+[data-bs-theme="dark"] .bg-success-subtle { --bs-success-bg-subtle: rgba(var(--bs-success-rgb), 0.15); }
+[data-bs-theme="dark"] .bg-danger-subtle  { --bs-danger-bg-subtle:  rgba(var(--bs-danger-rgb),  0.15); }
+[data-bs-theme="dark"] .bg-warning-subtle { --bs-warning-bg-subtle: rgba(var(--bs-warning-rgb), 0.15); }
+[data-bs-theme="dark"] .bg-info-subtle    { --bs-info-bg-subtle:    rgba(var(--bs-info-rgb),    0.15); }
+
+/* --- Light-mode contrast --------------------------------------------
+   These are not dark-mode defects -- they measure the same in both
+   themes and simply never cleared AA on the light palette. Light is
+   scoped with :not([data-bs-theme="dark"]) or left unscoped where a
+   more specific dark rule already exists, so nothing here disturbs
+   dark mode.
+   -------------------------------------------------------------------- */
+
+/* Links. Bootstrap's #0d6efd is exactly 4.5:1 on white, which leaves no
+   margin: on any tinted ground -- the mint panels, callouts and box
+   colors used across the site -- it falls to 3.5-4.3:1. One step darker
+   (Bootstrap's own link-hover blue) clears 4.9:1 on every ground in
+   use. Dark mode's #6ea8fe already measures well and is not touched. */
+:root:not([data-bs-theme="dark"]) {
+    --bs-link-color-rgb: 10, 88, 202;         /* #0a58ca, 6.4:1 on white */
+    --bs-link-hover-color-rgb: 8, 66, 152;    /* #084298 */
+    --bs-link-color: #0a58ca;                 /* .nav-link reads the hex token, */
+    --bs-link-hover-color: #084298;           /* not the -rgb one */
+}
+
+/* MarkBind's de-emphasis span (%%...%%). #777 is 4.48:1 on white and
+   3.78:1 on the tinted panel grounds it most often sits on. Unscoped:
+   MarkBind's own [data-bs-theme="dark"] .dimmed is more specific. */
+.dimmed {
+    color: #636363;                   /* 6.0:1 white, 4.6:1 worst panel */
+}
+
+/* Dark-mode .dimmed. MarkBind's #adb5bd is comfortable on the page
+   (8.1:1) but only 3.9:1 on the #495057 panels that PREPARATION blocks
+   and embedded fragments sit on. Still clearly dimmer than body text. */
+[data-bs-theme="dark"] .dimmed {
+    color: #c2c8ce;                   /* 4.9:1 on panel, 9.1:1 on page */
+}
+
+/* MarkBind's inline red (#r#...##). Pure #f00 manages only 4.0:1. */
+.mkb-text-red {
+    color: #d00000 !important;        /* 5.7:1 white, 4.8:1 worst panel */
+}
+
+/* The other two colors of the "Run from ..." legend in the gitPrep lesson,
+   which pairs green (#g#, fine at 5.1:1) with magenta and amber. Pure #f0f is
+   3.1:1 on white and Bootstrap's #ffc107 is 1.6:1; both read well on the dark
+   page, so only light mode is re-pointed. Darkening .text-warning also lifts
+   the <box type="warning"> icons, which were 1.3:1 on their own panel. */
+:root:not([data-bs-theme="dark"]) .mkb-text-magenta { color: #a800a8 !important; }  /* 6.5:1 */
+:root:not([data-bs-theme="dark"]) .text-warning     { color: #8a6100 !important; }  /* 5.5:1 white, 5.0:1 on the warning panel */
+
+/* .text-primary, .text-success and .text-danger each read from a single
+   fixed --bs-*-rgb: acceptable on plain white at ~4.5:1, but below AA
+   on every tinted panel ground. Bootstrap's own -600 shades hold the
+   hue. Overriding `color` rather than --bs-*-rgb leaves buttons,
+   borders and backgrounds alone. */
+:root:not([data-bs-theme="dark"]) .text-primary { color: #0a58ca !important; }
+:root:not([data-bs-theme="dark"]) .text-success { color: #146c43 !important; }
+:root:not([data-bs-theme="dark"]) .text-danger  { color: #b02a37 !important; }
+
+/* MarkBind's code-block heading -- the filename chip above a fenced block.
+   Its #8787a5 is 3.1:1 on the light #f2f2ff pill and 3.0:1 on the #3f3f3f one
+   the dark code theme swaps in, so both themes need their own value. */
+:root:not([data-bs-theme="dark"]) .code-block-heading { color: #5f5f7d; }  /* 5.5:1 */
+[data-bs-theme="dark"] .code-block-heading            { color: #b6b6d0; }  /* 5.3:1 */
+
+/* MarkBind's sidebar "current page" link is var(--bs-primary), a fixed
+   #0d6efd: a borderline 4.5:1 on white and only 3.4:1 on the dark page.
+   Only visible at widths where the left sidebar is shown. */
+.site-nav-root a.current {
+    color: #0a58ca;                   /* 6.4:1 on white */
+}
+
+[data-bs-theme="dark"] .site-nav-root a.current {
+    color: var(--bs-primary-text-emphasis);   /* #6ea8fe, 6.4:1 on the page */
+}
+
+/* --- Syntax highlighting --------------------------------------------
+   Both highlight.js themes ship tokens below AA against their own code
+   ground. MarkBind loads both sheets and switches them with the
+   `disabled` property, following the page theme. Note that the
+   [data-code-theme] attribute does NOT track which sheet is live -- it
+   stays "light" even in dark mode -- so these key off [data-bs-theme].
+   Hue is preserved throughout; only lightness moves.
+   -------------------------------------------------------------------- */
+
+/* Light theme, ground #f8f8ff. Comments fare worst, which is exactly
+   where a reader most needs to follow prose. */
+:root:not([data-bs-theme="dark"]) .hljs-comment,
+:root:not([data-bs-theme="dark"]) .hljs-quote,
+:root:not([data-bs-theme="dark"]) .hljs-meta           { color: #5c6370; }  /* 2.7 -> 5.7 */
+:root:not([data-bs-theme="dark"]) .hljs-link,
+:root:not([data-bs-theme="dark"]) .hljs-regexp         { color: #00701c; }  /* 3.6 -> 6.0 */
+:root:not([data-bs-theme="dark"]) .hljs-built_in,
+:root:not([data-bs-theme="dark"]) .hljs-builtin-name   { color: #005f80; }  /* 3.9 -> 6.7 */
+:root:not([data-bs-theme="dark"]) .hljs.inline.no-lang { color: #c2255c; }  /* 3.6 -> 5.4 */
+
+/* Strings inside a highlighted line. #dd1144 clears AA on the plain code
+   ground but only reaches 4.0:1 on the #e6e6fa band MarkBind paints behind a
+   `highlight-lines` selection. Dark mode paints that band black instead, so
+   its own string color is fine there. */
+:root:not([data-bs-theme="dark"]) .highlighted .hljs-string { color: #c2003c; }  /* 5.1:1 */
+
+/* Dark theme, ground #2b2b2b. */
+[data-bs-theme="dark"] .hljs-regexp,
+[data-bs-theme="dark"] .hljs-template-tag      { color: #d19a76; }  /* 2.5 -> 5.8 */
+[data-bs-theme="dark"] .hljs-doctag            { color: #93c47d; }  /* 3.6 -> 7.0 */
+[data-bs-theme="dark"] .hljs-variable,
+[data-bs-theme="dark"] .hljs-template-variable { color: #d38fd9; }  /* 3.9 -> 5.9 */
+
+/* --- Algolia DocSearch ----------------------------------------------
+   Its own #969faf placeholder is only 2.3:1 on its #ebedf0 pill, so the
+   navbar search reads poorly in both themes; the CDN stylesheet also
+   has no dark theme here, so the pill stays light against the dark
+   navbar. The variables are set on the button rather than on :root on
+   purpose: the search modal portals to <body> and keeps its own light
+   palette, so re-coloring its text globally would leave dark text on a
+   light panel.
+   -------------------------------------------------------------------- */
+.DocSearch-Button {
+    --docsearch-muted-color: #5c6370;        /* 5.2:1 on the light pill */
+}
+
+[data-bs-theme="dark"] .DocSearch-Button {
+    --docsearch-searchbox-background: #2b3035;
+    --docsearch-searchbox-focus-background: #343a40;
+    --docsearch-text-color: #dee2e6;
+    --docsearch-muted-color: #adb5bd;        /* 6.4:1 on the dark pill */
+}
+
+/* --- Site components -------------------------------------------------
+   Classes used by common/macros.njk, replacing inline styles that could
+   not change with the theme.
+   -------------------------------------------------------------------- */
+
+/* The mint ground of the lesson intros, tour intros and tour outros. */
+.tour-panel {
+    background-color: var(--gm-mint);
+}
+
+.tour-panel-dotted-sides {
+    border-left: 3px dotted var(--gm-mint);
+    border-right: 3px dotted var(--gm-mint);
+    border-top: none;
+    border-bottom: none;
+}
+
+/* Glossary-term badge (show_git_term). A translucent wash rather than
+   .bg-info-subtle, whose dark value would vanish into the page. */
+.bg-term-highlight {
+    background-color: rgba(13, 202, 240, 0.2);
+}
+
+[data-bs-theme="dark"] .bg-term-highlight {
+    background-color: rgba(13, 202, 240, 0.3);
+}
+
+/* The HANDS-ON title pill and its step-number pills. Matches the
+   translucent red of .hands-on-practical's vertical divider above. */
+.bg-hands-on {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+[data-bs-theme="dark"] .bg-hands-on {
+    background-color: rgba(255, 77, 77, 0.3);
+}
+
+/* Annotation labels pinned onto screenshots (annotation_label). The
+   image underneath is a light surface in both themes, so this stays a
+   fixed yellow with fixed dark text. */
+.bg-annotation {
+    background-color: #ffff00;
+    color: #212529;
+}
+
+/* The "Project Folder" diagram (show_folder_contents): a .git folder box
+   holding a staging area and a committed history, beside a working
+   directory. Light mode keeps the exact Bootstrap .bg-*-subtle colors
+   these classes replace, so it renders as before.
+
+   The regions nest -- committed history and staging area sit inside the
+   .git region -- so they are opaque rather than translucent: stacked
+   washes compound, and in dark mode a red wash under an amber one
+   turned the staging area muddy brown and dropped the red/green text
+   inside it to 2.9:1.
+
+   In dark mode the regions are separated by hue and a tinted border
+   rather than by lightness. Going lighter would have read more clearly
+   as stacked panels, but it costs the light body text its contrast --
+   .mkb-text-red falls to 3.9:1 on a region light enough to stand out.
+   The border needs !important only to out-rank the .border-0 utility
+   the markup carries. */
+.folder-diagram-body   { background-color: #e7fafe; }
+.folder-region-danger  { background-color: #f8d7da; }   /* = bg-danger-subtle  */
+.folder-region-success { background-color: #d1e7dd; }   /* = bg-success-subtle */
+.folder-region-warning { background-color: #fff3cd; }   /* = bg-warning-subtle */
+.folder-region-info    { background-color: #51d9f4; }
+
+[data-bs-theme="dark"] .folder-diagram-body {
+    background-color: #253238;                          /* body text 10.1:1 */
+}
+
+[data-bs-theme="dark"] .folder-region-danger {
+    background-color: #3d2c2f;                          /* body text 10.1:1 */
+    border: 1px solid rgba(220, 53, 69, 0.45) !important;
+}
+
+[data-bs-theme="dark"] .folder-region-success {
+    background-color: #26382f;                          /* body text  9.6:1 */
+    border: 1px solid rgba(25, 135, 84, 0.55) !important;
+}
+
+[data-bs-theme="dark"] .folder-region-warning {
+    background-color: #3c3527;                          /* body text  9.3:1 */
+    border: 1px solid rgba(255, 193, 7, 0.45) !important;
+}
+
+[data-bs-theme="dark"] .folder-region-info {
+    background-color: #1e3a44;                          /* body text  9.3:1 */
+    border: 1px solid rgba(13, 202, 240, 0.45) !important;
+}
+
+/* The working-directory region is the brightest ground in the diagram in light
+   mode, and the site's inline red only manages 3.4:1 on it. Dark mode's
+   #1e3a44 carries the same red at 4.8:1 and is left alone. */
+:root:not([data-bs-theme="dark"]) .folder-region-info .mkb-text-red,
+:root:not([data-bs-theme="dark"]) .folder-region-info .text-danger {
+    color: #a00000 !important;                          /* 5.0:1 on #51d9f4 */
+}
+
+/* MarkBind's `highlight-lines="1['HEAD']@pink"` emits a bare
+   <span style="background-color:pink"> with no class of its own, so the
+   highlight stays a pale band while the dark code theme turns the text inside
+   it #dcdcdc -- 1.1:1. These bands are always a light color, in both themes,
+   so pin dark text on them the way the other light surfaces above do. */
+[data-bs-theme="dark"] pre span[style*="background-color"] {
+    color: #212529;
+}
+
+/* Commit circles and their connecting edges (show_commit). Three of the styles
+   passed to that macro pair a text color with a fill it does not suit:
+
+   `info`  - white on this site's teal is 3.0:1, in both themes. Bootstrap
+             pairs black with cyan; do the same here.
+   `light` - deliberately blank: a "ghost" commit whose label is the same color
+             as its fill, used for commits that have dropped out of a branch.
+             bg-light and text-light are both fixed, so on the dark page the
+             ghost turned into a bright white disc. Re-point the pair to the
+             theme's own muted surface, which keeps it blank either way.
+
+   `primary`- carries a #y#...## yellow label in the push lesson, which is
+             4.2:1 on Bootstrap's #0d6efd. One step darker clears it, and
+             lifts the white labels on the other primary circles too. */
+.commit-node.bg-info {
+    color: #000 !important;               /* 6.9:1 on #17a2b8 */
+}
+
+.commit-node.bg-primary {
+    background-color: #0a58ca !important; /* yellow 6.0:1, white 6.4:1 */
+    border-color: #0a58ca !important;
+}
+
+[data-bs-theme="dark"] .commit-node.bg-light {
+    background-color: var(--bs-secondary-bg) !important;
+    border-color: var(--bs-border-color) !important;
+    color: var(--bs-secondary-bg) !important;
+}
+
+[data-bs-theme="dark"] .commit-node.text-light {
+    color: var(--bs-secondary-bg) !important;
 }
