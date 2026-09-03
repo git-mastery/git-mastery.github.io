@@ -197,15 +197,14 @@ h2 {
     padding-left: 10px;
 }
 
-/* Match the hands-on practical's vertical divider to the lighter red used by its
-   HANDS-ON title and step-number pills, which use rgba(255, 0, 0, 0.2). The same
-   translucent red is used here rather than the color it resolves to on the white
-   page, so the divider tracks whichever page background is behind it; !important
-   is needed to out-rank Bootstrap's own .alert-danger fill. Extend the top up to
-   touch the HANDS-ON title pill so all the decorated elements read as one
-   connected unit, and the bottom 1px to sit flush with the last pill. */
+/* Match the hands-on practical's vertical divider to the red used by its
+   HANDS-ON title and step-number pills, via the shared --gm-hands-on token;
+   !important is needed to out-rank Bootstrap's own .alert-danger fill. Extend
+   the top up to touch the HANDS-ON title pill so all the decorated elements
+   read as one connected unit, and the bottom 1px to sit flush with the last
+   pill. */
 .hands-on-practical .alert-danger.vertical-divider {
-    background-color: rgba(255, 0, 0, 0.2) !important;
+    background-color: var(--gm-hands-on) !important;
     margin-top: -4px;
     margin-bottom: -1px;
 }
@@ -234,6 +233,22 @@ h2 {
 [data-bs-theme="dark"] {
     --gm-mint: #1f3932;                 /* body text lands at 9.5:1 */
     --gm-mint-border: #4ab98a;
+}
+
+/* The hands-on practical's red, shared by its vertical divider, its HANDS-ON
+   title pill and its step-number pills. These sit edge to edge and have to
+   resolve to the same color, so they are routed through one token rather than
+   repeating the value: the dark theme needs a lighter, less saturated red to
+   register against the dark page, and setting that on the pills alone is what
+   previously left the divider a darker maroon than the pill it touched.
+   Translucent in both themes so the run of pills tracks whichever page
+   background is behind it. */
+:root {
+    --gm-hands-on: rgba(255, 0, 0, 0.2);
+}
+
+[data-bs-theme="dark"] {
+    --gm-hands-on: rgba(255, 77, 77, 0.3);
 }
 
 .callout {
@@ -651,14 +666,10 @@ kbd.DocSearch-Commands-Key {
     background-color: rgba(13, 202, 240, 0.3);
 }
 
-/* The HANDS-ON title pill and its step-number pills. Matches the
-   translucent red of .hands-on-practical's vertical divider above. */
+/* The HANDS-ON title pill and its step-number pills, sharing the
+   --gm-hands-on token with .hands-on-practical's vertical divider. */
 .bg-hands-on {
-    background-color: rgba(255, 0, 0, 0.2);
-}
-
-[data-bs-theme="dark"] .bg-hands-on {
-    background-color: rgba(255, 77, 77, 0.3);
+    background-color: var(--gm-hands-on);
 }
 
 /* Annotation labels pinned onto screenshots (annotation_label). The
