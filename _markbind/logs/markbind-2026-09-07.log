@@ -1,0 +1,113 @@
+2026-09-07T08:02:38.009Z - [32minfo[39m: Website generation (lazy) started at 16:02:37
+2026-09-07T08:02:38.289Z - [32minfo[39m: Building assets...
+2026-09-07T08:02:38.389Z - [32minfo[39m: Assets built
+2026-09-07T08:02:38.389Z - [32minfo[39m: Generating landing page...
+2026-09-07T08:02:38.467Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-09-07T08:02:38.479Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-09-07T08:02:38.552Z - [32minfo[39m: Site data built
+2026-09-07T08:02:38.552Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 0.658s
+2026-09-07T08:02:39.580Z - [32minfo[39m: Serving "/Users/damithch/Repos/git-mastery/git-mastery.github.io/_site" at http://127.0.0.1:64432
+2026-09-07T08:02:39.581Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-09-07T08:02:44.162Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index as some of its dependencies were changed since the last visit
+2026-09-07T08:02:44.520Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index.md
+2026-09-07T08:02:44.539Z - [32minfo[39m: Site data built
+2026-09-07T08:02:44.539Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.378s
+2026-09-07T08:02:49.566Z - [32minfo[39m: Building /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/index as some of its dependencies were changed since the last visit
+2026-09-07T08:02:49.631Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/index.md
+2026-09-07T08:02:49.638Z - [32minfo[39m: Site data built
+2026-09-07T08:02:49.638Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.073s
+2026-09-07T08:05:21.435Z - [32minfo[39m: [16:05:21] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/text.md
+2026-09-07T08:05:21.448Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-07T08:05:21.459Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-07T08:05:21.460Z - [32minfo[39m: 1. lessons/prsReview/index
+2026-09-07T08:05:22.524Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-07T08:05:22.683Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/index.md
+2026-09-07T08:05:22.707Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/lessons/prsReview/images/con.png' found in file '/Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/text.md'
+2026-09-07T08:05:22.715Z - [32minfo[39m: Site data built
+2026-09-07T08:05:22.715Z - [32minfo[39m: Pages rebuilt
+2026-09-07T08:05:22.716Z - [32minfo[39m: Website regeneration complete! Total build time: 0.229s
+2026-09-07T08:05:55.693Z - [32minfo[39m: [16:05:55] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/text.md
+2026-09-07T08:05:55.700Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-07T08:05:55.701Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-07T08:05:55.701Z - [32minfo[39m: 1. lessons/prsReview/index
+2026-09-07T08:05:56.706Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-07T08:05:56.778Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/index.md
+2026-09-07T08:05:56.792Z - [32minfo[39m: Site data built
+2026-09-07T08:05:56.792Z - [32minfo[39m: Pages rebuilt
+2026-09-07T08:05:56.792Z - [32minfo[39m: Website regeneration complete! Total build time: 0.088s
+2026-09-07T08:06:08.293Z - [32minfo[39m: [16:06:08] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/text.md
+2026-09-07T08:06:08.296Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-07T08:06:08.297Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-07T08:06:08.297Z - [32minfo[39m: 1. lessons/prsReview/index
+2026-09-07T08:06:09.301Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-07T08:06:09.390Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/index.md
+2026-09-07T08:06:09.399Z - [32minfo[39m: Site data built
+2026-09-07T08:06:09.399Z - [32minfo[39m: Pages rebuilt
+2026-09-07T08:06:09.399Z - [32minfo[39m: Website regeneration complete! Total build time: 0.1s
+2026-09-07T08:06:17.066Z - [32minfo[39m: [16:06:17] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/text.md
+2026-09-07T08:06:17.067Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-07T08:06:17.067Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-07T08:06:17.068Z - [32minfo[39m: 1. lessons/prsReview/index
+2026-09-07T08:06:18.073Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-07T08:06:18.133Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/index.md
+2026-09-07T08:06:18.149Z - [32minfo[39m: Site data built
+2026-09-07T08:06:18.149Z - [32minfo[39m: Pages rebuilt
+2026-09-07T08:06:18.149Z - [32minfo[39m: Website regeneration complete! Total build time: 0.078s
+2026-09-07T08:06:42.212Z - [32minfo[39m: [16:06:42] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/images/configurePrView.png
+2026-09-07T08:06:42.213Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-07T08:06:42.213Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-07T08:06:42.214Z - [32minfo[39m: 1. lessons/prsReview/index
+2026-09-07T08:06:43.227Z - [32minfo[39m: Assets built
+2026-09-07T08:07:29.226Z - [32minfo[39m: [16:07:29] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/text.md
+2026-09-07T08:07:29.229Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-07T08:07:29.230Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-07T08:07:29.230Z - [32minfo[39m: 1. lessons/prsReview/index
+2026-09-07T08:07:30.252Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-07T08:07:30.333Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/index.md
+2026-09-07T08:07:30.341Z - [32minfo[39m: Site data built
+2026-09-07T08:07:30.341Z - [32minfo[39m: Pages rebuilt
+2026-09-07T08:07:30.342Z - [32minfo[39m: Website regeneration complete! Total build time: 0.103s
+2026-09-07T08:08:39.806Z - [32minfo[39m: [16:08:39] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/images/hideExistingComments.png
+2026-09-07T08:08:39.807Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-07T08:08:39.808Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-07T08:08:39.808Z - [32minfo[39m: 1. lessons/prsReview/index
+2026-09-07T08:08:39.810Z - [32minfo[39m: [16:08:39] Reload for file deletion: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/images/splitVsUnifiedDiffView.png
+2026-09-07T08:08:39.810Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-07T08:08:39.810Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-07T08:08:39.810Z - [32minfo[39m: 1. lessons/prsReview/index
+2026-09-07T08:08:40.871Z - [34mdebug[39m: Assets removed
+2026-09-07T08:14:46.987Z - [32minfo[39m: [16:14:46] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/images/submitReview.png
+2026-09-07T08:14:46.990Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-07T08:14:46.991Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-07T08:14:46.991Z - [32minfo[39m: 1. lessons/prsReview/index
+2026-09-07T08:14:48.005Z - [32minfo[39m: Assets built
+2026-09-07T08:15:30.126Z - [32minfo[39m: [16:15:30] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/text.md
+2026-09-07T08:15:30.132Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-07T08:15:30.134Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-07T08:15:30.134Z - [32minfo[39m: 1. lessons/prsReview/index
+2026-09-07T08:15:31.149Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-07T08:15:31.213Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/index.md
+2026-09-07T08:15:31.229Z - [32minfo[39m: Site data built
+2026-09-07T08:15:31.229Z - [32minfo[39m: Pages rebuilt
+2026-09-07T08:15:31.229Z - [32minfo[39m: Website regeneration complete! Total build time: 0.093s
+2026-09-07T08:16:18.824Z - [32minfo[39m: [16:16:18] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/images/submitReview.png
+2026-09-07T08:16:18.825Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-07T08:16:18.826Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-07T08:16:18.826Z - [32minfo[39m: 1. lessons/prsReview/index
+2026-09-07T08:16:19.839Z - [32minfo[39m: Assets built
+2026-09-07T08:16:53.470Z - [32minfo[39m: [16:16:53] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/text.md
+2026-09-07T08:16:53.473Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-07T08:16:53.474Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-07T08:16:53.474Z - [32minfo[39m: 1. lessons/prsReview/index
+2026-09-07T08:16:53.547Z - [32minfo[39m: [16:16:53] Reload for file change: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/text.md
+2026-09-07T08:16:53.547Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-09-07T08:16:53.548Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-09-07T08:16:53.548Z - [32minfo[39m: 1. lessons/prsReview/index
+2026-09-07T08:16:54.493Z - [32minfo[39m: Rebuilding 1 pages
+2026-09-07T08:16:54.570Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/index.md
+2026-09-07T08:16:54.578Z - [32minfo[39m: Site data built
+2026-09-07T08:16:54.578Z - [32minfo[39m: Pages rebuilt
+2026-09-07T08:16:54.578Z - [32minfo[39m: Website regeneration complete! Total build time: 0.1s
+2026-09-07T08:17:42.726Z - [32minfo[39m: Website generation started at 16:17:42
+2026-09-07T08:17:42.850Z - [32minfo[39m: Building assets...

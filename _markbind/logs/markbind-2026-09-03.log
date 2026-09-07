@@ -136,3 +136,117 @@
 2026-09-03T03:49:34.605Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.288s
 2026-09-03T03:51:23.266Z - [32minfo[39m: Website generation started at 11:51:23
 2026-09-03T03:51:23.360Z - [32minfo[39m: Building assets...
+2026-09-03T03:51:23.467Z - [32minfo[39m: Assets built
+2026-09-03T03:51:23.467Z - [32minfo[39m: Generating pages...
+2026-09-03T03:51:24.015Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/exercises-directory/index.md
+2026-09-03T03:51:24.060Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/companion-app/index.md
+2026-09-03T03:51:24.078Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/faq/index.md
+2026-09-03T03:51:24.080Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/about/index.md
+2026-09-03T03:51:27.027Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/insertions.md
+2026-09-03T03:51:27.036Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2113/insertions.md
+2026-09-03T03:51:27.054Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-update.md
+2026-09-03T03:51:27.057Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/all.md
+2026-09-03T03:51:27.316Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-add.md
+2026-09-03T03:51:27.319Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/exercise-tags-push.md
+2026-09-03T03:51:27.342Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/exercise-stage-fright.md
+2026-09-03T03:51:27.345Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/exercise-view-commits.md
+2026-09-03T03:51:27.348Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/exercise-link-me.md
+2026-09-03T03:51:27.358Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/exercise-sensors-revert.md
+2026-09-03T03:51:27.382Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/exercise-sensors-reset.md
+2026-09-03T03:51:27.385Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/exercise-remote-branch-rename.md
+2026-09-03T03:51:27.394Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPush/exercise-glossary-branch-push.md
+2026-09-03T03:51:27.396Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/exercise-glossary-branch-rename.md
+2026-09-03T03:51:27.412Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPull/exercise-glossary-branch-pull.md
+2026-09-03T03:51:27.421Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/exercise-glossary-branch-delete.md
+2026-09-03T03:51:27.422Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/exercise-push-over.md
+2026-09-03T03:51:27.434Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/exercise-fetch-and-pull.md
+2026-09-03T03:51:27.444Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/exercise-create-pr-from-main.md
+2026-09-03T03:51:27.460Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/exercise-conflict-mediator.md
+2026-09-03T03:51:27.462Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-undo.md
+2026-09-03T03:51:27.463Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-merge-squash.md
+2026-09-03T03:51:27.491Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-ff-undo.md
+2026-09-03T03:51:27.493Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-forward.md
+2026-09-03T03:51:27.494Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-compare.md
+2026-09-03T03:51:27.496Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/exercise-branch-bender.md
+2026-09-03T03:51:27.522Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/exercise-log-and-order.md
+2026-09-03T03:51:27.524Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/exercise-undo-init.md
+2026-09-03T03:51:27.526Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/exercise-under-control.md
+2026-09-03T03:51:27.527Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/exercise-ignoring-somethings.md
+2026-09-03T03:51:27.554Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/exercise-fork-repo.md
+2026-09-03T03:51:27.556Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/exercise-sensors-diff.md
+2026-09-03T03:51:27.558Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/exercise-remote-control.md
+2026-09-03T03:51:27.559Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/exercise-staging-intervention.md
+2026-09-03T03:51:27.587Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/exercise-clone-repo.md
+2026-09-03T03:51:27.590Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/exercise-grocery-shopping.md
+2026-09-03T03:51:27.592Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/exercise-sensors-checkout.md
+2026-09-03T03:51:27.594Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/exercise-branch-rename.md
+2026-09-03T03:51:27.637Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-mix-messy-docs.md
+2026-09-03T03:51:27.639Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-branch-delete.md
+2026-09-03T03:51:27.641Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/exercise-mix-messy-graph.md
+2026-09-03T03:51:27.643Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-side-track.md
+2026-09-03T03:51:27.703Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/exercise-branch-previous.md
+2026-09-03T03:51:27.704Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2113/index.md
+2026-09-03T03:51:27.705Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/versions/cs2103/index.md
+2026-09-03T03:51:27.705Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/worktrees/index.md
+2026-09-03T03:51:28.355Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithPrs/index.md
+2026-09-03T03:51:28.371Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/workflows/index.md
+2026-09-03T03:51:28.376Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/workingWithRemotes/index.md
+2026-09-03T03:51:28.546Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/usingRevisionHistory/index.md
+2026-09-03T03:51:28.968Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/syncingBranches/index.md
+2026-09-03T03:51:29.018Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/remoteBranches/index.md
+2026-09-03T03:51:29.031Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/recordingFolderHistory/index.md
+2026-09-03T03:51:29.242Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/managingProjects/index.md
+2026-09-03T03:51:29.249Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/index.md
+2026-09-03T03:51:29.909Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/branchingLocally/index.md
+2026-09-03T03:51:29.952Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/fineTuningHistory/index.md
+2026-09-03T03:51:29.962Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/trail/backingUpOnCloud/index.md
+2026-09-03T03:51:29.991Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/template/index.md
+2026-09-03T03:51:30.171Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByRebase/index.md
+2026-09-03T03:51:30.175Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/tag/index.md
+2026-09-03T03:51:30.185Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/stage/index.md
+2026-09-03T03:51:30.199Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/syncByMerge/index.md
+2026-09-03T03:51:30.338Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/show/index.md
+2026-09-03T03:51:30.347Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/setRemote/index.md
+2026-09-03T03:51:30.358Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/revert/index.md
+2026-09-03T03:51:30.364Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/selectiveStage/index.md
+2026-09-03T03:51:30.498Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteRepos/index.md
+2026-09-03T03:51:30.501Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchRename/index.md
+2026-09-03T03:51:30.505Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/reset/index.md
+2026-09-03T03:51:30.518Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPush/index.md
+2026-09-03T03:51:30.749Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchPull/index.md
+2026-09-03T03:51:30.755Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/remoteBranchDelete/index.md
+2026-09-03T03:51:30.760Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/push/index.md
+2026-09-03T03:51:30.770Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/pull/index.md
+2026-09-03T03:51:30.930Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsReview/index.md
+2026-09-03T03:51:30.934Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsMerge/index.md
+2026-09-03T03:51:30.971Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/prsCreate/index.md
+2026-09-03T03:51:30.980Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/otherPmFeatures/index.md
+2026-09-03T03:51:31.143Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/mergeConflicts/index.md
+2026-09-03T03:51:31.151Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/merge/index.md
+2026-09-03T03:51:31.164Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/intro/index.md
+2026-09-03T03:51:31.197Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/log/index.md
+2026-09-03T03:51:31.404Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/interactiveRebase/index.md
+2026-09-03T03:51:31.458Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/init/index.md
+2026-09-03T03:51:31.467Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/index.md
+2026-09-03T03:51:31.501Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/ignore/index.md
+2026-09-03T03:51:31.592Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/githubPrep/index.md
+2026-09-03T03:51:31.658Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/forkingWorkflow/index.md
+2026-09-03T03:51:31.664Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/fork/index.md
+2026-09-03T03:51:31.668Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/gitPrep/index.md
+2026-09-03T03:51:31.781Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/diff/index.md
+2026-09-03T03:51:31.792Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/createRemoteRepo/index.md
+2026-09-03T03:51:31.796Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commitMessage/index.md
+2026-09-03T03:51:31.822Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/commit/index.md
+2026-09-03T03:51:31.928Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/clone/index.md
+2026-09-03T03:51:31.936Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/checkout/index.md
+2026-09-03T03:51:32.000Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/cherryPick/index.md
+2026-09-03T03:51:32.005Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchRename/index.md
+2026-09-03T03:51:32.087Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branchDelete/index.md
+2026-09-03T03:51:32.107Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/index.md
+2026-09-03T03:51:32.109Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/git-mastery/git-mastery.github.io/lessons/branch/index.md
+2026-09-03T03:51:32.127Z - [32minfo[39m: Pages built
+2026-09-03T03:51:32.205Z - [32minfo[39m: Site data built
+2026-09-03T03:51:32.205Z - [32minfo[39m: Website generation complete! Total build time: 9.045s
+2026-09-03T03:51:32.205Z - [32minfo[39m: Build success!
+2026-09-03T03:51:42.624Z - [32minfo[39m: GitHub Actions deployment initiated. Check status at: https://github.com/git-mastery/git-mastery.github.io/actions
+2026-09-03T03:51:42.624Z - [32minfo[39m: The website will be deployed at: git-mastery.org
