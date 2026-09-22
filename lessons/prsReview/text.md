@@ -36,8 +36,8 @@ Another way to contribute to a GitHub project is by giving input via a pull requ
 
 <div class="indented-level1" id="tip-pr-split-view">
 
-{{ icon_tip }} You can use the following setting to try the two different views available and pick the one you like.<br>
-<pic src="images/splitVsUnifiedDiffView.png"/>
+{{ icon_tip }} You can use the following setting to try the two different views available (`Unified` vs `Split`) and pick the one you like. You can enable the `Minimize` comments feature to hide comments given by others (if they are getting in your way)<br>
+<pic src="images/configurePrView.png" width="300" />
 </div>
 
 
@@ -59,10 +59,10 @@ Another way to contribute to a GitHub project is by giving input via a pull requ
 * Repeat the above steps to add more comments.
 
 {{ hp_number("5") }}**Submit the review:**<br>
-   <pic eager src="images/submitReview.png" width="500" />
+   <pic eager src="images/submitReview.png" width="600" />
    <p/>
 
-* When there are no more comments to add, click on the {{ button_green("Review changes :octicon-triangle-down:") }} button (on the top right of the diff page). {{ sub_numbers('5') }}
+* When there are no more comments to add, click on the {{ button_green("Submit review __ :octicon-triangle-down:") }} button (on the top right of the diff page). {{ sub_numbers('5') }}
 * Type in an overall comment about the PR, if any. e.g.,
    ```{.no-line-numbers}
    Overall, I found your code easy to read for the most part, except in a few places
