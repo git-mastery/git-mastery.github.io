@@ -5,4 +5,4 @@ layout: lessons.md
 pageNav: 4
 </frontmatter>
 
-<include src="tour-inPage-asFlat.md" boilerplate />
+<include src="tour-inPage-asFlat.md" var-part="intro" boilerplate />

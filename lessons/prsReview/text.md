@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, button_green, button_light, callout, dropdown, hp_number, label, show_commit, show_folder_columns, show_git_term, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood, sub_numbers with context %}
+{% from "common/macros.njk" import trail, bold_number, button_green, button_light, callout, dropdown, hp_number, label, show_commit, show_folder_columns, show_git_term, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood, sub_numbers, show_next_link, show_previous_link with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can review PRs on GitHub</span>
@@ -38,6 +38,10 @@ Another way to contribute to a GitHub project is by giving input via a pull requ
 
 {{ icon_tip }} You can use the following setting to try the two different views available (`Unified` vs `Split`) and pick the one you like. You can enable the `Minimize` comments feature to hide comments given by others (if they are getting in your way)<br>
 <pic src="images/configurePrView.png" width="300" />
+</div>
+
+<div id="next-previous">
+{{ show_previous_link(lesson=trail.workingWithPrs.lessons.prsCreate) }}{{ show_next_link(lesson=trail.workingWithPrs.lessons.prsMerge) }}
 </div>
 
 

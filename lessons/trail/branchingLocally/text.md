@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, show_tour_title, show_tour, show_tour_link with context %}
+{% from "common/macros.njk" import trail, show_next_link, show_previous_link, show_tour_title, show_tour_body, show_tour_link with context %}
 {% set tour = trail.branchingLocally %}
 <frontmatter>
 title: "{{ tour.title }}"
@@ -18,7 +18,11 @@ pageNav: 4
 
 <div id="body">
 
-{{ show_tour(tour) }}
+{{ show_tour_body(tour, part) }}
+</div>
+
+<div id="next-previous">
+{% if part=="intro" %}{{ show_previous_link(tour=trail.fineTuningHistory, part="outro") }}{{ show_next_link(lesson=trail.branchingLocally.lessons.branch) }}{% elseif part=="outro" %}{{ show_previous_link(lesson=trail.branchingLocally.lessons.worktrees) }}{{ show_next_link(tour=trail.syncingBranches, part="intro", text="Next Tour") }}{% endif %}
 </div>
 
 <div id="extras">

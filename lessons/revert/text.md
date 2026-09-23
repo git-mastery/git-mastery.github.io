@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_detour, show_exercise, show_steps_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_detour, show_exercise, show_steps_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood, show_next_link, show_previous_link with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can revert a commit.</span>
@@ -113,6 +113,10 @@ git log --oneline --decorate
 
 **A revert can result in a {{ show_git_term("conflict") }}** if the new changes that reverse the previous commit conflict with later changes. You then need to resolve the conflict before the revert operation can proceed. <span class="d-print-none">Conflict resolution is covered in a later topic.</span>
 </box>
+</div>
+
+<div id="next-previous">
+{{ show_previous_link(lesson=trail.usingRevisionHistory.lessons.reset) }}{{ show_next_link(tour=trail.usingRevisionHistory, part="outro") }}
 </div>
 
 <div id="extras">

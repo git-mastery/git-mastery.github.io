@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_under_the_hood, show_next_link, show_previous_link with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can control what changes go into a commit.</span>
@@ -77,6 +77,10 @@ However, **selective staging is one exception where a good GUI can do better tha
 <!-- ------ end: Git Tabs -------------------------------->
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
+</div>
+
+<div id="next-previous">
+{{ show_previous_link(tour=trail.fineTuningHistory, part="intro") }}{{ show_next_link(lesson=trail.fineTuningHistory.lessons.commitMessage) }}
 </div>
 <div id="extras">
 </div>

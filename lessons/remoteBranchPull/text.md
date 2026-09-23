@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_lesson_link, show_output, show_ref, show_steps_tabs, show_tag, show_multiple_columns, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_lesson_link, show_output, show_ref, show_steps_tabs, show_tag, show_multiple_columns, show_transformation_columns, show_under_the_hood, show_next_link, show_previous_link with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can pull branches from a remote repo to a local repo.</span>
@@ -22,6 +22,10 @@ Sometimes we need to create a local copy of a branch from a remote repository, m
    **You can think of remote-tracking branches as read-only references** to the state of those branches in the remote repository at the time of cloning. They allow you to see what work has been done on those branches without yet making local copies of them.<br>
    **To work on one of these branches, you can create a new local branch based on the remote-tracking branch.** Once you do this, your local branch will usually be configured to track the corresponding branch on the remote, so you can easily synchronize your work later.
 
+</div>
+
+<div id="next-previous">
+{{ show_previous_link(lesson=trail.remoteBranches.lessons.remoteBranchPush) }}{{ show_next_link(lesson=trail.remoteBranches.lessons.remoteBranchDelete) }}
 </div>
 
 <!-- ================== start: HANDS-ON =========================== -->

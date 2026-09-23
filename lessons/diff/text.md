@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, ask_chatgpt, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_detour, show_exercise, show_steps_tabs, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, ask_chatgpt, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_detour, show_exercise, show_steps_tabs, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_transformation_columns, show_under_the_hood, show_next_link, show_previous_link with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can compare different points in history.</span>
@@ -214,6 +214,10 @@ Sourcetree UI shows changes to one file at a time by default; just click on the 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
 
+</div>
+
+<div id="next-previous">
+{{ show_previous_link(lesson=trail.usingRevisionHistory.lessons.tag) }}{{ show_next_link(lesson=trail.usingRevisionHistory.lessons.checkout) }}
 </div>
 
 <div id="extras">

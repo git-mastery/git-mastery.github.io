@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_detour, show_exercise, show_steps_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_detour, show_exercise, show_steps_tabs, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_transformation_columns, show_under_the_hood, show_next_link, show_previous_link with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Able to check out a commit.</span>
@@ -58,6 +58,10 @@ Suppose you added a new feature to a software product, and while testing it, you
 {% endset %}
 {{ show_transformation_columns(a, b, c) }}
 
+</div>
+
+<div id="next-previous">
+{{ show_previous_link(lesson=trail.usingRevisionHistory.lessons.diff) }}{{ show_next_link(lesson=trail.usingRevisionHistory.lessons.reset) }}
 </div>
 
 <!-- ================== start: HANDS-ON =========================== -->

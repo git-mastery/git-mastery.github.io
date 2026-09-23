@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, button_green, button_light, callout, dropdown, hp_number, label, show_commit, show_folder_columns, show_git_term, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, button_green, button_light, callout, dropdown, hp_number, label, show_commit, show_folder_columns, show_git_term, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood, show_next_link, show_previous_link with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can create PRs on GitHub</span>
@@ -76,6 +76,10 @@ Normally, the default value shown in the dropdown is what you want but in case y
 
 **You can also create PRs within the same repo** e.g., from branch `feature-x` to the `main` branch. Doing so allows other developers to review the code before it is merged.
 
+</div>
+
+<div id="next-previous">
+{{ show_previous_link(tour=trail.workingWithPrs, part="intro") }}{{ show_next_link(lesson=trail.workingWithPrs.lessons.prsReview) }}
 </div>
 
 <div id="extras">

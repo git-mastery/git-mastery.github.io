@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, ask_chatgpt, bold_number, callout, exercises, hp_number, label, show_commit, show_fine_print, show_folder_columns, show_git_term, show_hop_prep, show_detour, show_detour_link, show_exercise, show_hands_on_practical, show_hop_prep, show_head, show_multiple_columns, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_two_column_row, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, ask_chatgpt, bold_number, callout, exercises, hp_number, label, show_commit, show_fine_print, show_folder_columns, show_git_term, show_hop_prep, show_detour, show_detour_link, show_exercise, show_hands_on_practical, show_hop_prep, show_head, show_multiple_columns, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_troubleshooting, show_two_column_row, show_under_the_hood, show_next_link, show_previous_link with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can merge branches in a local repo.</span>
@@ -313,6 +313,10 @@ To permanently prevent fast-forwarding:
 {% endset %}
 {{ show_steps_tabs(cli=cli, sourcetree_windows=sourcetree_windows, sourcetree_mac=sourcetree_mac) }}
 <!-- ------ end: Git Tabs -------------------------------->
+</div>
+
+<div id="next-previous">
+{{ show_previous_link(lesson=trail.branchingLocally.lessons.branch) }}{{ show_next_link(lesson=trail.branchingLocally.lessons.mergeConflicts) }}
 </div>
 
 **A {{ show_git_term("squash merge") }} combines all changes from the source branch into a single commit on the destination branch.** Use it when the source branch's commits would clutter history (e.g., many experimental commits).

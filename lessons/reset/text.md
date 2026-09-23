@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_with_tip, show_detour, show_detour_preview, show_exercise, show_steps_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_output, show_ref, show_tag, show_tour_link, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_with_tip, show_detour, show_detour_preview, show_exercise, show_steps_tabs, show_git_tabs_from_text, show_hands_on_practical, show_hop_prep, show_head, show_lesson_intro, show_output, show_ref, show_tag, show_tour_link, show_transformation_columns, show_under_the_hood, show_next_link, show_previous_link with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can reset Git history.</span>
@@ -285,6 +285,10 @@ git push --force-with-lease origin main
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
+</div>
+
+<div id="next-previous">
+{{ show_previous_link(lesson=trail.usingRevisionHistory.lessons.checkout) }}{{ show_next_link(lesson=trail.usingRevisionHistory.lessons.revert) }}
 </div>
 
 <div id="extras">

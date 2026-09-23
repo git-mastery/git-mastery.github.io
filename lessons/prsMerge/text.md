@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, button_green, button_light, callout, dropdown, hp_number, label, show_commit, show_folder_columns, show_git_term, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood, sub_numbers with context %}
+{% from "common/macros.njk" import trail, bold_number, button_green, button_light, callout, dropdown, hp_number, label, show_commit, show_folder_columns, show_git_term, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_lesson_link, show_output, show_protip, show_ref, show_resources, show_sidebar, show_tag, show_transformation_columns, show_troubleshooting, show_under_the_hood, sub_numbers, show_next_link, show_previous_link with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can review PRs on GitHub</span>
@@ -46,6 +46,10 @@ If you have an appropriate level of access to a GitHub repo, you can merge pull 
 
 **After a PR is merged, you need to sync other related repos.** Merging a PR updates only the upstream remote repository where it was merged. The PR author (and other repo members) need to pull the merged code from the upstream repo to their local repos, then push it to their forks to sync those forks with the upstream repo.
 
+</div>
+
+<div id="next-previous">
+{{ show_previous_link(lesson=trail.workingWithPrs.lessons.prsReview) }}{{ show_next_link(tour=trail.workingWithPrs, part="outro") }}
 </div>
 
 <div id="extras">

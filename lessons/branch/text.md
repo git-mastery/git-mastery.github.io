@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_with_tip, show_detour, show_exercise, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_protip, show_ref, show_steps_tabs, show_tag, show_transformation_columns, show_two_column_row, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_git_term_with_tip, show_detour, show_exercise, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_protip, show_ref, show_steps_tabs, show_tag, show_transformation_columns, show_two_column_row, show_under_the_hood, show_next_link, show_previous_link with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Able to work in parallel Git branches, in the local repo.</span>
@@ -310,6 +310,10 @@ gitGraph BT:
     commit id: "[HEAD → main] m3"
     checkout feature1
 </mermaid>
+</div>
+
+<div id="next-previous">
+{{ show_previous_link(tour=trail.branchingLocally, part="intro") }}{{ show_next_link(lesson=trail.branchingLocally.lessons.merge) }}
 </div>
 
 {{ hp_number ('6') }} **Switch between the two branches and see how the working directory changes.** You now have two parallel timelines that you can freely switch between.

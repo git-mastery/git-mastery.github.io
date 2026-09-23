@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, button_green, callout, exercises, hp_number, label, show_git_term, show_detour, show_exercise, show_hands_on_practical, show_lesson_intro, show_output, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, button_green, callout, exercises, hp_number, label, show_git_term, show_detour, show_exercise, show_hands_on_practical, show_lesson_intro, show_output, show_under_the_hood, show_next_link, show_previous_link with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can fork a repo on GitHub.</span>
@@ -34,6 +34,10 @@ GitHub allows you to **create your own remote copy of another repo through a pro
 GitHub does not allow you to fork the same repo more than once to the same destination. If you want to re-fork, you need to [delete the previous fork](https://docs.github.com/en/repositories/creating-and-managing-repositories/deleting-a-repository).
 </box>
 
+</div>
+
+<div id="next-previous">
+{{ show_previous_link(tour=trail.workingWithRemotes, part="intro") }}{{ show_next_link(lesson=trail.workingWithRemotes.lessons.clone) }}
 </div>
 
 <div id="extras">

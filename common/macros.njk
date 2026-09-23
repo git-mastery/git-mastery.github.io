@@ -237,12 +237,14 @@
 <span class="float-end"><a class="badge bg-body-tertiary text-body-emphasis" href="{{ url }}"><md>{{ text }} :far-arrow-alt-circle-right:</md></a></span>
 {%- endmacro %}
 
-{% macro show_previous_link(lesson, tour, part)-%}
-{% if lesson %}{{ show_previous(lesson.title, baseUrl + "/lessons/" + lesson.lesson_name + "/index.md") }}{% elseif part=="intro" %}{{ show_previous("Tour Intro",  baseUrl + "/lessons/trail/" + tour.folder + "/index.md") }}{% else %}{{ show_previous("Tour Outro",  baseUrl + "/lessons/trail/" + tour.folder + "/end.md") }}{% endif %}
+{% macro link_text(given_text, new_text) %}{{ given_text if given_text else new_text }}{% endmacro %}
+
+{% macro show_previous_link(lesson, tour, part, text)-%}
+{% if lesson %}{{ show_previous(lesson.title, baseUrl + "/lessons/" + lesson.lesson_name + "/index.md") }}{% elseif part=="intro" %}{{ show_previous(link_text(text, "Tour Intro"),  baseUrl + "/lessons/trail/" + tour.folder + "/index.md") }}{% else %}{{ show_previous(link_text(text, "Tour Outro"),  baseUrl + "/lessons/trail/" + tour.folder + "/end.md") }}{% endif %}
 {%- endmacro %}
 
-{% macro show_next_link(lesson, tour, part)-%}
-{% if lesson %}{{ show_next(lesson.title, baseUrl + "/lessons/" + lesson.lesson_name + "/index.md") }}{% elseif part=="intro" %}{{ show_next("Tour Intro",  baseUrl + "/lessons/trail/" + tour.folder + "/index.md") }}{% else %}{{ show_next("Tour Outro",  baseUrl + "/lessons/trail/" + tour.folder + "/end.md") }}{% endif %}
+{% macro show_next_link(lesson, tour, part, text)-%}
+{% if lesson %}{{ show_next(lesson.title, baseUrl + "/lessons/" + lesson.lesson_name + "/index.md") }}{% elseif part=="intro" %}{{ show_next(link_text(text, "Tour Intro"),  baseUrl + "/lessons/trail/" + tour.folder + "/index.md") }}{% else %}{{ show_next(link_text(text, "Tour Outro"),  baseUrl + "/lessons/trail/" + tour.folder + "/end.md") }}{% endif %}
 {%- endmacro %}
 <!-- ============================================================ -->
 

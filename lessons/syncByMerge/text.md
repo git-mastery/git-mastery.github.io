@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_output, show_ref, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_lesson_intro, show_output, show_ref, show_tag, show_transformation_columns, show_under_the_hood, show_next_link, show_previous_link with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can use merging to sync branches.</span>
@@ -99,6 +99,10 @@ This time, `feature` and `main` have diverged (each has a commit the other lacks
 
 You could repeat this merge periodically -- for example, each time `main` gets a new commit -- to keep `feature` up to date, as illustrated in the revision graph earlier in this lesson.
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
+</div>
+
+<div id="next-previous">
+{{ show_previous_link(tour=trail.syncingBranches, part="intro") }}{{ show_next_link(lesson=trail.syncingBranches.lessons.syncByRebase) }}
 </div>
 
 <div id="extras">

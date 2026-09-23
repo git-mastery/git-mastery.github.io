@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_lesson_link, show_output, show_ref, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_lesson_link, show_output, show_ref, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood, show_next_link, show_previous_link with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can delete a branch in a remote repo.</span>
@@ -67,6 +67,10 @@ In the above steps, we first created a local copy of the branch before deleting 
 
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
+</div>
+
+<div id="next-previous">
+{{ show_previous_link(lesson=trail.remoteBranches.lessons.remoteBranchPull) }}{{ show_next_link(lesson=trail.remoteBranches.lessons.remoteBranchRename) }}
 </div>
 <div id="extras">
 {{ show_exercise(exercises.glossary_branch_delete) }}

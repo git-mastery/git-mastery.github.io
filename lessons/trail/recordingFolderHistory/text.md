@@ -36,5 +36,5 @@ Tour/lesson videos (such as the one below) are recommended viewing, as **they he
 
 <span id="next">{{ show_tour_link(trail.backingUpOnCloud) }}</span>
 <div id="next-previous">
-{% if part=="intro" %}{{ show_next_link(lesson=trail.recordingFolderHistory.lessons.intro) }}{% elseif part=="outro" %}{{ show_previous_link(lesson=trail.recordingFolderHistory.lessons.log) }}{{ show_next_link(tour=trail.backingUpOnCloud, part="intro") }}{% endif %}
+{% if part=="intro" %}{{ show_next_link(lesson=trail.recordingFolderHistory.lessons.intro) }}{% elseif part=="outro" %}{{ show_previous_link(lesson=trail.recordingFolderHistory.lessons.log) }}{{ show_next_link(tour=trail.backingUpOnCloud, part="intro", text="Next Tour") }}{% endif %}
 </div>

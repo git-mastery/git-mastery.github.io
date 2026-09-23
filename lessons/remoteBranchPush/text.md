@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_detour, show_exercise, show_git_tabs_from_text, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood, show_next_link, show_previous_link with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can push a local branch to a remote, and keep it updated.</span>
@@ -153,6 +153,10 @@ git push origin -u hiring
 {{ hp_number("3") }} **Verify that the branch has been pushed to the remote** by visiting the fork on GitHub, and looking for the `origin/hiring` remote-tracking ref in the local repo.
 {% endcall %}<!-- ===== end: HANDS-ON ============================ -->
 
+</div>
+
+<div id="next-previous">
+{{ show_previous_link(tour=trail.remoteBranches, part="intro") }}{{ show_next_link(lesson=trail.remoteBranches.lessons.remoteBranchPull) }}
 </div>
 <div id="extras">
 {{ show_exercise(exercises.glossary_branch_push) }}

@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, show_tour_title, show_tour, show_tour_link with context %}
+{% from "common/macros.njk" import trail, show_next_link, show_previous_link, show_tour_title, show_tour_body, show_tour_link with context %}
 {% set tour = trail.managingProjects %}
 <frontmatter>
 title: "{{ tour.title }}"
@@ -14,7 +14,7 @@ pageNav: 4
 
 <div id="body">
 
-{{ show_tour(tour) }}
+{{ show_tour_body(tour, part) }}
 </div>
 
 <div id="extras">
@@ -23,3 +23,7 @@ pageNav: 4
 <span class="d-none" id="achievements">You are now able to use an appropriate workflow for your project, and also, make use of other project management features offered by GitHub.</span>
 
 <span id="next">This is the last of the Git-Mastery tours!</span>
+
+<div id="next-previous">
+{% if part=="intro" %}{{ show_previous_link(tour=trail.workingWithPrs, part="outro", text="Outro of Previous Tour") }}{{ show_next_link(lesson=trail.managingProjects.lessons.workflows) }}{% elseif part=="outro" %}{{ show_previous_link(lesson=trail.managingProjects.lessons.otherPmFeatures) }}{% endif %}
+</div>

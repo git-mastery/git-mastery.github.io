@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_detour, show_exercise, show_fine_print, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_commit, show_git_term, show_detour, show_exercise, show_fine_print, show_hands_on_practical, show_head, show_hop_prep, show_lesson_intro, show_output, show_ref, show_sidebar, show_steps_tabs, show_tag, show_transformation_columns, show_under_the_hood, show_next_link, show_previous_link with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Can delete a branch in a local repository.</span>
@@ -91,6 +91,10 @@ In the example below, `C4` is unreachable (i.e., cannot be reached by starting a
 {{ show_commit('C2', edge="↓", desc=show_ref('main')  + show_head()) }}
 {{ show_commit('C1', edge='') }}
 <p/>
+</div>
+
+<div id="next-previous">
+{{ show_previous_link(lesson=trail.branchingLocally.lessons.branchRename) }}{{ show_next_link(lesson=trail.branchingLocally.lessons.worktrees) }}
 </div>
 
 **Unreachable commits are not deleted immediately — Git keeps them for a while before cleaning them up.** By default, Git retains unreachable commits for at least **30 days**, during which they can still be recovered if you know their SHA. **After that, they will be garbage-collected and lost for good.**

@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, show_tour_title, show_tour, show_tour_link with context %}
+{% from "common/macros.njk" import trail, show_next_link, show_previous_link, show_tour_title, show_tour_body, show_tour_link with context %}
 {% set tour = trail.workingWithPrs %}
 <frontmatter>
 title: "{{ tour.title }}"
@@ -14,7 +14,7 @@ pageNav: 4
 
 <div id="body">
 
-{{ show_tour(tour) }}
+{{ show_tour_body(tour, part) }}
 </div>
 
 <div id="extras">
@@ -23,3 +23,7 @@ pageNav: 4
 <span class="d-none" id="achievements">Now you can contribute to a GitHub project by creating, reviewing, and even merging PRs in a GitHub repository.</span>
 
 <span id="next">{{ show_tour_link(trail.managingProjects) }}</span>
+
+<div id="next-previous">
+{% if part=="intro" %}{{ show_previous_link(tour=trail.remoteBranches, part="outro", text="Outro of Previous Tour") }}{{ show_next_link(lesson=trail.workingWithPrs.lessons.prsCreate) }}{% elseif part=="outro" %}{{ show_previous_link(lesson=trail.workingWithPrs.lessons.prsMerge) }}{{ show_next_link(tour=trail.managingProjects, part="intro", text="Next Tour") }}{% endif %}
+</div>

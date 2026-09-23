@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, show_tour_title, show_tour, show_tour_link with context %}
+{% from "common/macros.njk" import trail, show_next_link, show_previous_link, show_tour_title, show_tour_body, show_tour_link with context %}
 {% set tour = trail.remoteBranches %}
 <frontmatter>
 title: "{{ tour.title }}"
@@ -18,7 +18,11 @@ pageNav: 4
 
 <div id="body">
 
-{{ show_tour(tour) }}
+{{ show_tour_body(tour, part) }}
+</div>
+
+<div id="next-previous">
+{% if part=="intro" %}{{ show_previous_link(tour=trail.syncingBranches, part="outro", text="Outro of Previous Tour") }}{{ show_next_link(lesson=trail.remoteBranches.lessons.remoteBranchPush) }}{% elseif part=="outro" %}{{ show_previous_link(lesson=trail.remoteBranches.lessons.remoteBranchRename) }}{{ show_next_link(tour=trail.workingWithPrs, part="intro", text="Next Tour") }}{% endif %}
 </div>
 
 <div id="extras">
