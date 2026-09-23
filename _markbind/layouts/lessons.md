@@ -12,10 +12,11 @@
 * [**Lessons Home**]({{baseUrl}}/lessons/)
 {% for tour_name, tour in trail %}
 * {{ tour.title }}
-  * [Tour Home]({{baseUrl}}/lessons/trail/{{ tour.folder }}/)
+  * [Tour Intro]({{baseUrl}}/lessons/trail/{{ tour.folder }}/index.md)
   {% for lesson_name, lesson in tour.lessons %}
   * [{{ lesson.title}} <cv-label name="{{ tour_name }}.{{ lesson_name }}"/>]({{baseUrl}}/lessons/{{ lesson.lesson_name }}/)
   {% endfor %}
+  * [Tour Outro]({{baseUrl}}/lessons/trail/{{ tour.folder }}/end.md)
 {% endfor %}
 * [**All lessons in one page**]({{baseUrl}}/lessons/trail/all.html)
 {% endmacro %}
@@ -32,7 +33,6 @@
 </nav>
 <div id="content-wrapper" class="fixed-header-padding">
 
-# <span class="text-body-emphasis"><small>****Git-Mastery: Lessons****</small></span>
   {{ content }}
 </div>
 <nav id="page-nav" class="fixed-header-padding">

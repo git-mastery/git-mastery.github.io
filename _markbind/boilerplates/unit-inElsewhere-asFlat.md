@@ -5,6 +5,7 @@
 
 <include src="text.md#body" />
 <include src="text.md#extras" optional />
+<include src="text.md#tour-outro" optional />
 
 </div>
 </div>

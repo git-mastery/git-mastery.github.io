@@ -4,11 +4,10 @@
 
 <div id="body">
 
-# :fas-route: ++Git Learning Tours++{.text-success}
 
 <div id="trail-intro">
 
-We've packaged our Git (and GitHub) lessons as a series of 'tours'. Each tour consists of a series of lessons and covers the Git knowledge required for a specific usage.
+**We've packaged our Git (and GitHub) lessons as a series of 'tours'.** Each tour consists of a series of lessons and covers the Git knowledge required for a specific usage.
 
 {% macro tour(desc) %}<span style="border-top-left-radius: 5px; border-top-right-radius: 5px; margin-left: -10px;" class="bg-success text-white p-1">:fas-map-marker-alt: {{ desc }}</span>{% endmacro %}
 
@@ -16,7 +15,9 @@ We've packaged our Git (and GitHub) lessons as a series of 'tours'. Each tour co
 
 {% macro usage(desc) %}<span class="badge bg-warning text-dark rounded-pill">Usage: {{ desc }}</span>{% endmacro %}
 
-<span class="badge bg-success rounded-pill"><md>++Git Tours++</md></span><br>
+<div class="indented-level1">
+
+<span class="badge bg-success rounded-pill"><md>++++:fas-route: Git Tours++++</md></span><br>
 <div style="margin-top: -15px;" class="indented-level1 pt-0">
 <tree>
 |
@@ -32,11 +33,18 @@ We've packaged our Git (and GitHub) lessons as a series of 'tours'. Each tour co
 </div>
 
 </div>
+</div>
+<p/>
 
-## Tours
+<panel type="seamless" header="%%For an overview of what each tour covers, click !!here!!%%" expand-headerless>
+
+## Overview of the Tours
 
 {% for tour_name, tour in trail %}
 {{ show_tour_overview(tour) }}
 {% endfor %}
+</panel>
+<p/>
 
+**To get started on the first tour, [click here](recordingFolderHistory/index.html).**
 </div>

@@ -16,7 +16,10 @@
       "glob": "**/exercise-*.md"
     },
     {
-      "glob": "lessons/trail/all.md"
+      "glob": "lessons/**/all.md"
+    },
+    {
+      "glob": "lessons/**/end.md"
     },
     {
       "glob": "versions/**/*.md"
