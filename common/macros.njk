@@ -229,6 +229,25 @@
 {% macro show_tag(text) -%}<span class="badge rounded-pill bg-body-tertiary mt-0 mb-0 pb-0 pt-0 pe-1 ps-1 text-body-emphasis border border-secondary"><md>:octicon-tag: {{ text }}</md></span>{%- endmacro %}
 <!-- ============================================================ -->
 
+{% macro show_previous(text, url)-%}
+<span class="float-start"><a class="badge bg-body-tertiary text-body-emphasis" href="{{ url }}"><md>:far-arrow-alt-circle-left: {{ text }}</md></a></span>
+{%- endmacro %}
+
+{% macro show_next(text, url)-%}
+<span class="float-end"><a class="badge bg-body-tertiary text-body-emphasis" href="{{ url }}"><md>{{ text }} :far-arrow-alt-circle-right:</md></a></span>
+{%- endmacro %}
+
+{% macro link_text(given_text, new_text) %}{{ given_text if given_text else new_text }}{% endmacro %}
+
+{% macro show_previous_link(lesson, tour, part, text)-%}
+{% if lesson %}{{ show_previous(lesson.title, baseUrl + "/lessons/" + lesson.lesson_name + "/index.md") }}{% elseif part=="intro" %}{{ show_previous(link_text(text, "Tour Intro"),  baseUrl + "/lessons/trail/" + tour.folder + "/index.md") }}{% else %}{{ show_previous(link_text(text, "Tour Outro"),  baseUrl + "/lessons/trail/" + tour.folder + "/end.md") }}{% endif %}
+{%- endmacro %}
+
+{% macro show_next_link(lesson, tour, part, text)-%}
+{% if lesson %}{{ show_next(lesson.title, baseUrl + "/lessons/" + lesson.lesson_name + "/index.md") }}{% elseif part=="intro" %}{{ show_next(link_text(text, "Tour Intro"),  baseUrl + "/lessons/trail/" + tour.folder + "/index.md") }}{% else %}{{ show_next(link_text(text, "Tour Outro"),  baseUrl + "/lessons/trail/" + tour.folder + "/end.md") }}{% endif %}
+{%- endmacro %}
+<!-- ============================================================ -->
+
 {% macro show_commit(text, edge='|', desc='', style="info", msg='') %}
 {% set size = '25' %}
 <div class="d-flex align-items-center"><span class="commit-node d-flex justify-content-center align-items-center border bg-{{ style }} text-white border-{{ style }}" style="width: {{ size }}px; height: {{ size }}px; border-radius: 50%;"><md><small>{{ text }}</small></md></span>{% if desc %}<span class="ms-1"><md>{{ desc }}</md></span>{% endif %}{% if msg %}<span class="ms-2 font-monospace small"><md>%%{{ msg }}%%</md></span>{% endif %}</div>
@@ -774,51 +793,68 @@ popup-url="{{ file | replace(".md", ".html") }}">
 {{ show_tour_title(tour.title) }}
 <div class="p-3">
 
+++**Tour Intro:**++
+<div class="indented-level1">
+
 **Target Usage**: <include src="{{ tour_folder }}/text.md#destination" trim inline/>
 
 **Motivation**: <include src="{{ tour_folder }}/text.md#motivation" trim inline/>
+</div>
 
-**Lesson plan**:
+<panel type="seamless" header="**Lesson plan** %%(in case you want to have a peek of it first)%%" minimized>
+
 {% for lesson_name, lesson_data in tour.lessons %}
 {{ show_lesson_overview(lesson_data, is_outside_tour, tour) }}
 {% endfor %}
+</panel>
 
 </div>
 </div>
 </cv-toggle>
+
+<include src="{{ tour_folder }}/text.md#video" optional/>
+
 {% endmacro %}
 <!-- ============================================================ -->
 
 {% macro show_tour_outro(tour) %}
 {% set tour_folder = baseUrl + "/lessons/trail/" + tour.folder %}
 
+<div id="tour-outro">
 <cv-toggle toggle-id="lesson-intros">
+<p/>
 <div style="border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" class="tour-panel d-print-none p-3 border-bottom border-5 border-success">
 
+# {{ tour.title }}
+
+++**Tour Outro:**++
+
 **At this point**: <include src="{{ tour_folder }}/text.md#achievements" trim inline/>
+
+%%To see the full tour as one page, click [here]({{ tour_folder }}/all.md).%%
 
 **What's next**: <include src="{{ tour_folder }}/text.md#next" trim inline/>
 
 </div>
 </cv-toggle>
+</div>
 {% endmacro %}
 <!-- ============================================================ -->
 
 {% macro show_tour(tour) %}
 {% set tour_folder = baseUrl + "/lessons/trail/" + tour.folder %}
 
-{{ show_tour_intro(tour) }}
-
-<div class="d-print-none">
-
-<include src="{{ tour_folder }}/text.md#video" optional />
-</div>
-
 {% for lesson_name, lesson_data in tour.lessons %}
 {{ show_lesson(lesson_data) }}
 {% endfor %}
 
-{{ show_tour_outro(tour) }}
+{% endmacro %}
+<!-- ============================================================ -->
+
+{% macro show_tour_body(tour, part) %}
+{% if part=="intro" %}{{ show_tour_intro(tour) }}
+{% elseif part=="outro" %}{{ show_tour_outro(tour) }}
+{% else %}{{ show_tour_intro(tour) }}{{ show_tour(tour) }}{{ show_tour_outro(tour) }}{% endif %}
 {% endmacro %}
 <!-- ============================================================ -->
 
