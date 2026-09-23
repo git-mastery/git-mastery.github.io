@@ -1,4 +1,4 @@
-{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_git_term, show_detour, show_exercise, show_hands_on_practical, show_lesson_intro, show_output, show_under_the_hood with context %}
+{% from "common/macros.njk" import trail, bold_number, callout, exercises, hp_number, label, show_git_term, show_detour, show_exercise, show_hands_on_practical, show_lesson_intro, show_next_link, show_output, show_previous_link, show_under_the_hood with context %}
 
 <span id="prereqs"></span>
 <span id="outcomes">Understands the role of revision control.</span>
@@ -39,4 +39,7 @@ In everyday conversation, **these two terms are often used interchangeably**. We
 </div>
 
 <div id="extras">
+</div>
+<div id="next-previous">
+{{ show_previous_link(tour=trail.recordingFolderHistory, part="intro") }}{{ show_next_link(lesson=trail.recordingFolderHistory.lessons.gitPrep) }}
 </div>
