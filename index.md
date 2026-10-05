@@ -12,6 +12,8 @@ layout: no-side-columns.md
   <h1 class="display-3 text-success">Git-Mastery</h1>
   <div class="lead">
 
+**Git Training for the AI-era**{.text-success}
+
 Learn, practice, and receive feedback on your journey to Git mastery.<br>
 A free resource **for students and teachers**.<br>
   </div>
@@ -37,6 +39,12 @@ A free resource **for students and teachers**.<br>
     background-color: #198754;">
   </span>
 
+
+{{ heading(":fas-robot:", "Concepts first. Commands second. Ready for the AI era.") }}
+<div class="indented-level3">
+
+ **Git-Mastery teaches Git concepts and mental models without tying them to specific commands or tools.**  That separation makes the lessons ready for the AI era. Once you understand how Git works, you can choose how much time to spend learning commands and operations: do them yourself, use another Git tool, or delegate some to AI.
+</div>
 
 {{ heading(":fas-route:", "Outcome-driven lesson paths") }}
 <div class="indented-level3">
