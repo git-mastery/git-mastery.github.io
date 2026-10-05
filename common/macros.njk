@@ -556,8 +556,8 @@
 {% set title = detour_title if detour_title else detour.title %}
 {% set lesson_path = "lessons/" + detour.lesson.lesson_name %}
 {% set path = detour_path if detour_path else (baseUrl + "/" + lesson_path + "/detour-" + detour_name + "-fragment.md") %}
-<div class="gm-detour" id="{{ detour_name }}">
 <cv-toggle toggle-id="detours">
+<div class="gm-detour" id="{{ detour_name }}">
 <panel class="d-print-none" type="warning" peek>
 <div slot="header" class="card-title">
 
@@ -567,8 +567,8 @@
 <include src="{{ path }}" />
 </panel>
 </div>
-</cv-toggle>
 </div>
+</cv-toggle>
 {% endmacro %}
 <!-- ============================================================ -->
 
