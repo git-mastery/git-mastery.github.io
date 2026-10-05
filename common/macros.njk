@@ -512,6 +512,7 @@
 
 {% macro show_hands_on_practical(title) %}
 <cv-toggle toggle-id="hands-on-practicals">
+<div class="gm-hands-on-practical" id="{{ title }}">
 <span style="position: relative; top: 10px;" class="bg-hands-on badge rounded-pill text-body-emphasis fs-6">{{ icon_hands_on }} HANDS-ON: {{ title }}</span>
 <div class="indented-level1 hands-on-practical">
 
@@ -520,6 +521,7 @@
 {{ caller() }}
 {{ hp_number(":far-square-check: done!") }}
 </box>
+</div>
 </div>
 </cv-toggle>
 {% endmacro %}
@@ -554,15 +556,18 @@
 {% set title = detour_title if detour_title else detour.title %}
 {% set lesson_path = "lessons/" + detour.lesson.lesson_name %}
 {% set path = detour_path if detour_path else (baseUrl + "/" + lesson_path + "/detour-" + detour_name + "-fragment.md") %}
-<div id="{{ detour_name }}">
-<cv-toggle toggle-id="detours"><panel class="d-print-none" type="warning" peek>
+<div class="gm-detour" id="{{ detour_name }}">
+<cv-toggle toggle-id="detours">
+<panel class="d-print-none" type="warning" peek>
 <div slot="header" class="card-title">
 
 {{ icon_detour }} DETOUR: **{{ title }}** <cv-label name="{{ detour_name }}" />
 </div>
 
 <include src="{{ path }}" />
-</panel></cv-toggle>
+</panel>
+</div>
+</cv-toggle>
 </div>
 {% endmacro %}
 <!-- ============================================================ -->
@@ -642,6 +647,7 @@ Option {{ count }}: **Continue with {{ sandbox_info }} from the previous** hands
 {% set file =  baseUrl + "/" + path + "/exercise-" + identifier + ".md" %}
 {% if is_panel %}
 <cv-toggle toggle-id="exercises">
+<div class="gm-exercise" id="{{ identifier }}">
 
 <panel tags="git-mastery" class="d-print-none" type="danger" {{ status }}
 popup-url="{{ file | replace(".md", ".html") }}">
@@ -694,6 +700,7 @@ popup-url="{{ file | replace(".md", ".html") }}">
 {% endif %}
 {{ show_gm_footer() if has_footer else ""}}
 {% if is_panel %}</panel>{% endif %}
+</div>
 </cv-toggle>
 {% endmacro %}
 <!-- ============================================================ -->
