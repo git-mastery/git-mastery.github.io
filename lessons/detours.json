@@ -1,0 +1,131 @@
+
+{
+  "undoRepoInit": {
+    "lesson": {
+      "title": "T1L3. Putting a Folder Under Git's Control",
+      "tour_name": "recordingFolderHistory",
+      "lesson_name": "init"
+    },
+    "title": "Undoing a Repo Initialization"
+  },
+  "stagingFileDeletions": {
+    "lesson": {
+      "title": "T1L5. Saving a Snapshot",
+      "tour_name": "recordingFolderHistory",
+      "lesson_name": "commit"
+    },
+    "title": "Staging File Deletions"
+  },
+  "unstagingChanges": {
+    "lesson": {
+      "title": "T1L5. Saving a Snapshot",
+      "tour_name": "recordingFolderHistory",
+      "lesson_name": "commit"
+    },
+    "title": "Unstaging Changes"
+  },
+  "pushToMultipleRepos": {
+    "lesson": {
+      "title": "T2L5. Updating the Remote Repo",
+      "tour_name": "backingUpOnCloud",
+      "lesson_name": "push"
+    },
+    "title": "Pushing to Multiple Repos"
+  },
+  "managingRemotes": {
+    "lesson": {
+      "title": "T2L4. Linking a Local Repo With a Remote Repo",
+      "tour_name": "backingUpOnCloud",
+      "lesson_name": "setRemote"
+    },
+    "title": "Managing Details of a Remote"
+  },
+  "ignoreTrackedFiles": {
+    "lesson": {
+      "title": "T2L6. Omitting Files from Revision Control",
+      "tour_name": "backingUpOnCloud",
+      "lesson_name": "ignore"
+    },
+    "title": "Ignoring Previously-Tracked Files"
+  },
+  "pullingFromMultipleRemotes": {
+    "lesson": {
+      "title": "T3L3. Downloading Data Into a Local Repo",
+      "tour_name": "workingWithRemotes",
+      "lesson_name": "pull"
+    },
+    "title": "Pulling from Multiple Remotes"
+  },
+  "stashingChanges": {
+    "lesson": {
+      "title": "T4L4. Traversing to a Specific Commit",
+      "tour_name": "usingRevisionHistory",
+      "lesson_name": "checkout"
+    },
+    "title": "Stashing Uncommitted Changes Temporarily"
+  },
+  "conflictAtCheckout": {
+    "lesson": {
+      "title": "T4L4. Traversing to a Specific Commit",
+      "tour_name": "usingRevisionHistory",
+      "lesson_name": "checkout"
+    },
+    "title": "Dealing with Uncommitted Conflicting Changes at a Checkout"
+  },
+  "resetUncommitedChanges": {
+    "lesson": {
+      "title": "T4L5. Rewriting History to Start Over",
+      "tour_name": "usingRevisionHistory",
+      "lesson_name": "reset"
+    },
+    "title": "Resetting Uncommitted Changes"
+  },
+  "undoRecentCommits": {
+    "lesson": {
+      "title": "T4L5. Rewriting History to Start Over",
+      "tour_name": "usingRevisionHistory",
+      "lesson_name": "reset"
+    },
+    "title": "Undoing/Deleting Recent Commits"
+  },
+  "resetTrackingBranch": {
+    "lesson": {
+      "title": "T4L5. Rewriting History to Start Over",
+      "tour_name": "usingRevisionHistory",
+      "lesson_name": "reset"
+    },
+    "title": "Resetting a Remote-Tracking Branch Ref"
+  },
+  "updateLastCommit": {
+    "lesson": {
+      "title": "T5L3. Reorganizing Commits",
+      "tour_name": "fineTuningHistory",
+      "lesson_name": "interactiveRebase"
+    },
+    "title": "Updating the Last Commit"
+  },
+  "undoMerge": {
+    "lesson": {
+      "title": "T6L2. Merging Branches",
+      "tour_name": "branchingLocally",
+      "lesson_name": "merge"
+    },
+    "title": "Undoing a Merge"
+  },
+  "compareBranches": {
+    "lesson": {
+      "title": "T6L2. Merging Branches",
+      "tour_name": "branchingLocally",
+      "lesson_name": "merge"
+    },
+    "title": "Comparing Branches"
+  },
+  "squashMerge": {
+    "lesson": {
+      "title": "T6L2. Merging Branches",
+      "tour_name": "branchingLocally",
+      "lesson_name": "merge"
+    },
+    "title": "Doing a Squash Merge"
+  }
+}
